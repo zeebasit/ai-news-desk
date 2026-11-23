@@ -87,6 +87,21 @@ def when(e):
                 d=dateparser.parse(raw); return (d if d.tzinfo else d.replace(tzinfo=timezone.utc)).astimezone(timezone.utc)
             except: pass
     return NOW
+
+def entry_image(e):
+    for attr in ["media_content","media_thumbnail"]:
+        vals=getattr(e,attr,[]) or []
+        for item in vals:
+            u=item.get("url") if isinstance(item,dict) else None
+            if u and u.startswith("http"): return u
+    for item in getattr(e,"links",[]) or []:
+        if not isinstance(item,dict): continue
+        u=item.get("href") or item.get("url")
+        typ=(item.get("type") or "").lower()
+        rel=(item.get("rel") or "").lower()
+        if u and u.startswith("http") and ("image" in typ or rel=="enclosure"):
+            return u
+    return ""
 def grss(q):
     # Keep enough source history for the UI's Last 3 days filter.
     return "https://news.google.com/rss/search?q="+quote_plus(q+" when:3d")+"&hl=en-US&gl=US&ceid=US:en"
@@ -105,7 +120,7 @@ def fetch(url,source,weight):
         actual=source
         try: actual=clean(e.source.get("title")) or source
         except: pass
-        out.append({"title":t,"url":u,"source":actual,"published_at":d.isoformat(),"summary":s,"weight":weight,"paywalled":actual in PAY or source in PAY})
+        out.append({"title":t,"url":u,"source":actual,"published_at":d.isoformat(),"summary":s,"image":entry_image(e),"weight":weight,"paywalled":actual in PAY or source in PAY})
     return out
 def collect():
     a=[]
@@ -216,7 +231,10 @@ def build(a):
             if x["url"] in seen or fam in seen_names:continue
             seen.add(x["url"]); seen_names.add(fam)
             src.append({"name":x["source"],"url":x["url"],"published_at":x["published_at"],"paywalled":x["paywalled"]})
-        out.append({"id":sid(lead["title"]),"title":lead["title"],"category":cat,"importance":"Critical" if sc>=60 else "Major" if sc>=46 else "Notable","score":round(sc,1),"published_at":max(x["published_at"] for x in group),"source_count":len(trusted_names) if trusted_names else len(coverage_names),"reasons":list(dict.fromkeys(reasons))[:4],"sources":src[:8],"lead_url":lead["url"]})
+        brief_candidates=[x.get("summary","").strip() for x in display_group if len(x.get("summary","").strip())>=70]
+        brief=max(brief_candidates,key=len)[:360] if brief_candidates else ""
+        image=next((x.get("image","") for x in display_group if x.get("image")), "")
+        out.append({"id":sid(lead["title"]),"title":lead["title"],"summary":brief,"image":image,"category":cat,"importance":"Critical" if sc>=60 else "Major" if sc>=46 else "Notable","score":round(sc,1),"published_at":max(x["published_at"] for x in group),"source_count":len(trusted_names) if trusted_names else len(coverage_names),"reasons":list(dict.fromkeys(reasons))[:4],"sources":src[:8],"lead_url":lead["url"]})
     out.sort(key=lambda x:(x["score"],x["published_at"]),reverse=True)
     return {"generated_at":NOW.isoformat(),"model_mode":mode,"stories":out[:SET["top_story_limit"]],"watchlist":WATCH.get("events",[])}
 def match_previous_story(cur, previous):
