@@ -136,7 +136,9 @@
     "\"state of emergency\" OR evacuation OR displaced OR \"critical infrastructure\" OR nationwide",
     "\"killed\" OR \"dead\" OR \"deaths\" OR \"injured\" OR \"missing\" (attack OR strike OR fire OR crash OR collapse OR explosion OR disaster)",
     "\"evacuated\" OR \"displaced\" OR \"without power\" OR \"without water\" OR \"state of emergency\"",
-    "\"summit\" OR \"talks\" OR \"negotiations\" (agreement OR breakthrough OR collapse OR failed OR \"no deal\" OR deadlock)"
+    "\"summit\" OR \"talks\" OR \"negotiations\" (agreement OR breakthrough OR collapse OR failed OR \"no deal\" OR deadlock)",
+    "summit collapse no deal agreement breakthrough",
+    "international talks collapse agreement breakthrough deadlock"
   ],
   "paywall_sources": [
     "Financial Times",
