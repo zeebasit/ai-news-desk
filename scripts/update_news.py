@@ -250,7 +250,8 @@ def cluster(a,E,mode):
             shared_distinctive=(ti & tj & distinctive)
             close_time=abs((dateparser.parse(a[i]["published_at"])-dateparser.parse(a[j]["published_at"])).total_seconds())<=18*3600
             same_event_hint=bool(shared_distinctive) and close_time and ov>=.35 and S[i,j]>=th-.16
-            if S[i,j]>=th or (S[i,j]>=th-.08 and ov>=.52) or same_event_hint:
+            strong_title_event=close_time and ov>=.45 and S[i,j]>=th-.12
+            if S[i,j]>=th or (S[i,j]>=th-.08 and ov>=.48) or same_event_hint or strong_title_event:
                 d.u(i,j)
     g=defaultdict(list)
     for i in range(len(a)):g[d.f(i)].append(i)
