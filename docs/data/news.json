@@ -1,7 +1,40 @@
 {
-  "generated_at": "2026-11-23T13:42:19.943002+00:00",
+  "generated_at": "2026-11-23T13:46:19.143646+00:00",
   "model_mode": "sentence-transformers",
   "stories": [
+    {
+      "id": "bfc88015cab8",
+      "title": "ConocoPhillips exits Norway with $4.4 billion asset sale to Vaar Energi",
+      "category": "Stavanger/Rogaland",
+      "importance": "Major",
+      "score": 58.0,
+      "published_at": "2026-11-23T13:12:21+00:00",
+      "source_count": 2,
+      "reasons": [
+        "significant public impact",
+        "large market move",
+        "Norway/local relevance",
+        "2 trusted sources"
+      ],
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQcHNqQjMxSlNrcGN4LVZIUC0yZUpTTUQyOU1SNnJaTkFpQkFnRHFYODF0R0hhbnBkbTFfbEpMYU9WSlNMYWFLTjhPOGszWHFoX0JnZnZBY2pVNDVFbEFJYlBKSHhiZ1EyaU80anh6d3RuVFVPZUFJOUVmZndKbWVxRGlaLW1DUG1QN2ZkS2ZOTEhZbUJSRk5zTUtRNXVrNkZjaWNjSGVvRy1iRlZRMkFfa0gzcTl4Zw?oc=5",
+          "published_at": "2026-11-23T06:38:00+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "Bloomberg.com",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOa2ZKZno0ZTJ2VHFPQ1ByWERSTUJIMXNIQXI4RjRaSWNiT0xpR1lremdXTlprMW90V3JvNWN5Smxkdk9kMHJnb282UzA2VDk5MExjWERLLU0wdk9Gbkp1RFpWeEtBSVRlZ0Exc0E2a2xWUlVFN0xiMlZXYUkzMUt5NkQ3Q2YzWHZ1N3FqQWVyY3ZDVjRKSHFCdFZTYlVWcFpjemZWSTdFempUR1publlsbGpUTHY?oc=5",
+          "published_at": "2026-11-23T10:29:49+00:00",
+          "paywalled": true
+        }
+      ],
+      "lead_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQcHNqQjMxSlNrcGN4LVZIUC0yZUpTTUQyOU1SNnJaTkFpQkFnRHFYODF0R0hhbnBkbTFfbEpMYU9WSlNMYWFLTjhPOGszWHFoX0JnZnZBY2pVNDVFbEFJYlBKSHhiZ1EyaU80anh6d3RuVFVPZUFJOUVmZndKbWVxRGlaLW1DUG1QN2ZkS2ZOTEhZbUJSRk5zTUtRNXVrNkZjaWNjSGVvRy1iRlZRMkFfa0gzcTl4Zw?oc=5",
+      "first_reported_at": "2026-11-23T13:12:21+00:00",
+      "update_count": 1,
+      "updated": false
+    },
     {
       "id": "a51fbeec8ebb",
       "title": "FBI's criminal information database hacked, CNN reports",
@@ -26,38 +59,6 @@
       "first_reported_at": "2026-11-22T08:02:17+00:00",
       "update_count": 0,
       "updated": false
-    },
-    {
-      "id": "bfc88015cab8",
-      "title": "ConocoPhillips exits Norway with $4.4 billion asset sale to Vaar Energi",
-      "category": "Stavanger/Rogaland",
-      "importance": "Notable",
-      "score": 46.0,
-      "published_at": "2026-11-23T13:12:21+00:00",
-      "source_count": 2,
-      "reasons": [
-        "significant public impact",
-        "Norway/local relevance",
-        "2 trusted sources"
-      ],
-      "sources": [
-        {
-          "name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQcHNqQjMxSlNrcGN4LVZIUC0yZUpTTUQyOU1SNnJaTkFpQkFnRHFYODF0R0hhbnBkbTFfbEpMYU9WSlNMYWFLTjhPOGszWHFoX0JnZnZBY2pVNDVFbEFJYlBKSHhiZ1EyaU80anh6d3RuVFVPZUFJOUVmZndKbWVxRGlaLW1DUG1QN2ZkS2ZOTEhZbUJSRk5zTUtRNXVrNkZjaWNjSGVvRy1iRlZRMkFfa0gzcTl4Zw?oc=5",
-          "published_at": "2026-11-23T06:38:00+00:00",
-          "paywalled": false
-        },
-        {
-          "name": "Bloomberg.com",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOa2ZKZno0ZTJ2VHFPQ1ByWERSTUJIMXNIQXI4RjRaSWNiT0xpR1lremdXTlprMW90V3JvNWN5Smxkdk9kMHJnb282UzA2VDk5MExjWERLLU0wdk9Gbkp1RFpWeEtBSVRlZ0Exc0E2a2xWUlVFN0xiMlZXYUkzMUt5NkQ3Q2YzWHZ1N3FqQWVyY3ZDVjRKSHFCdFZTYlVWcFpjemZWSTdFempUR1publlsbGpUTHY?oc=5",
-          "published_at": "2026-11-23T10:29:49+00:00",
-          "paywalled": true
-        }
-      ],
-      "lead_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQcHNqQjMxSlNrcGN4LVZIUC0yZUpTTUQyOU1SNnJaTkFpQkFnRHFYODF0R0hhbnBkbTFfbEpMYU9WSlNMYWFLTjhPOGszWHFoX0JnZnZBY2pVNDVFbEFJYlBKSHhiZ1EyaU80anh6d3RuVFVPZUFJOUVmZndKbWVxRGlaLW1DUG1QN2ZkS2ZOTEhZbUJSRk5zTUtRNXVrNkZjaWNjSGVvRy1iRlZRMkFfa0gzcTl4Zw?oc=5",
-      "first_reported_at": "2026-11-23T13:12:21+00:00",
-      "update_count": 1,
-      "updated": true
     },
     {
       "id": "6c20552f17dc",
@@ -90,7 +91,7 @@
       "category": "Europe/UK",
       "importance": "Notable",
       "score": 44.3,
-      "published_at": "2026-11-23T13:31:15+00:00",
+      "published_at": "2026-11-23T12:38:42+00:00",
       "source_count": 4,
       "reasons": [
         "high-impact event",
@@ -117,15 +118,15 @@
         },
         {
           "name": "Al Jazeera",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPM1FmOGYwcEh6Rk5MNnNVVjA3eGZ2ZFBIc0VRc0lSNkI2MUE5NTI2WVZnemZZMkRIcmw2UE4zcmJyUGg5ek9VTmhNNXZpeWR1dWtUTE9NTDliaG9LZWNKb2NKdEFVaHE4N0JFMktnVldYWXAtOFBWaE9mZHZxZVE4OWJVV240RmJkOW5aOW9jakdwSzZTeVBLanBxTXh4QmcxWFZhbGJwMndmZTMyN1BHeUh5Z9IBuAFBVV95cUxQVXFtbU85SlhXR3NKMF9Fd1VrelFHOHBzaVRZZVJMcVNlQnFTZkp0bmJKbzRrOWhkWXdFcHROZG5aaGIwempKSGk3R0hmclQ3M2xMMXNKb2VUcG9UNENYOUh6SHh0MWR3UzhNLUpjQ0VnVUE2dGZJUjRLNzZVTUtscFNTbEpLWlpYRGxTeUJveXU4cmJEb0RKYUwwV3M2cVNMclRQd0k0LVZJVm55ZzZLNGNhN1IzREVh?oc=5",
-          "published_at": "2026-11-23T10:39:10+00:00",
+          "url": "https://www.aljazeera.com/news/2026/11/23/russian-ships-hit-by-drones-off-libya-coast-what-do-we-know?traffic_source=rss",
+          "published_at": "2026-11-23T11:10:12+00:00",
           "paywalled": false
         }
       ],
       "lead_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPR1VjenRaWHFSYy04RXNZOGtGZ21ldWg3a1B4WVp3dk1OY2pPZ2pRcXFCLTk0YnJjalVEMnBqV2M2UnpCSENVWVNPVDhEZXhNQTdPZnlPWDJhNXR5VThOTVdKT2JRYmJfOW9hTzdqRUdMakNOUEFHVmdwWnNNOEx6ZmFiRVc5Z1JyZE5nNHFwODlkTkp5aHRVNUZxZVo2aDR0TnN6U2VRTlE?oc=5",
       "first_reported_at": "2026-11-23T12:05:42+00:00",
       "update_count": 1,
-      "updated": true
+      "updated": false
     },
     {
       "id": "4139daaa3de7",
@@ -178,16 +179,66 @@
       "updated": false
     },
     {
+      "id": "91b0233ebcd0",
+      "title": "A 10% drop for the stock market is unnerving, but it’s not that unusual",
+      "category": "World",
+      "importance": "Notable",
+      "score": 44.1,
+      "published_at": "2026-11-21T14:01:00+00:00",
+      "source_count": 1,
+      "reasons": [
+        "significant public impact",
+        "large market move"
+      ],
+      "sources": [
+        {
+          "name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQekJLM2U0dXhaeEo3d2hmNFltdUpLQzF4a2VtY3RNR3otMW44Zld5R0Q3TGpTNWJ5bnA1RG00YXU4NkNpYTBtMVpnUmV4cFZPSF9HWnRjdlRPZ1Bsc0dwOENCQWM4QXc2MjdPRWhPcXZjeXNRbXhUdV9fSDVwcW5kUlJGZTVUbW1Lc0h5YzJCYWtpNDd5dzRJ?oc=5",
+          "published_at": "2026-11-21T14:01:00+00:00",
+          "paywalled": false
+        }
+      ],
+      "lead_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQekJLM2U0dXhaeEo3d2hmNFltdUpLQzF4a2VtY3RNR3otMW44Zld5R0Q3TGpTNWJ5bnA1RG00YXU4NkNpYTBtMVpnUmV4cFZPSF9HWnRjdlRPZ1Bsc0dwOENCQWM4QXc2MjdPRWhPcXZjeXNRbXhUdV9fSDVwcW5kUlJGZTVUbW1Lc0h5YzJCYWtpNDd5dzRJ?oc=5",
+      "first_reported_at": "2026-11-21T14:01:00+00:00",
+      "update_count": 0,
+      "updated": false
+    },
+    {
+      "id": "88a836383598",
+      "title": "South Korea vows to stabilise stock market after KOSPI drops 5%",
+      "category": "World",
+      "importance": "Notable",
+      "score": 43.4,
+      "published_at": "2026-11-23T02:43:00+00:00",
+      "source_count": 1,
+      "reasons": [
+        "significant public impact",
+        "large market move"
+      ],
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOaF9QVUplYkNRSkhhV19adWpudklsdXcxV0dodVVtYzc1WHJUWTNRMkduX1UxaURycVZTREc4RGpzOURZcFhvSTN3MUxwYUhuNWluQzVfSFAydjZ1bnVFR3VYaXpFY05XVW5OOUR2R0E3VkYwZzJHajh6MndCYUtsNnBxOGhib0dUUFlvRlNIRnp2TGl2Mml3emx5emcyQWFMajdNWGhRNnRkbW5fTk1ZUlV2VURvcHgwcndHN0Z1eDE5S19IS0FTZm43NmVZbUk?oc=5",
+          "published_at": "2026-11-23T02:43:00+00:00",
+          "paywalled": false
+        }
+      ],
+      "lead_url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOaF9QVUplYkNRSkhhV19adWpudklsdXcxV0dodVVtYzc1WHJUWTNRMkduX1UxaURycVZTREc4RGpzOURZcFhvSTN3MUxwYUhuNWluQzVfSFAydjZ1bnVFR3VYaXpFY05XVW5OOUR2R0E3VkYwZzJHajh6MndCYUtsNnBxOGhib0dUUFlvRlNIRnp2TGl2Mml3emx5emcyQWFMajdNWGhRNnRkbW5fTk1ZUlV2VURvcHgwcndHN0Z1eDE5S19IS0FTZm43NmVZbUk?oc=5",
+      "first_reported_at": "2026-11-23T02:43:00+00:00",
+      "update_count": 0,
+      "updated": false
+    },
+    {
       "id": "a364dce90524",
       "title": "Countries react as COP31 climate talks collapse",
       "category": "World",
       "importance": "Notable",
-      "score": 43.8,
+      "score": 41.9,
       "published_at": "2026-11-23T11:19:08+00:00",
-      "source_count": 4,
+      "source_count": 3,
       "reasons": [
         "high-impact event",
-        "4 trusted sources"
+        "3 trusted sources"
       ],
       "sources": [
         {
@@ -195,12 +246,6 @@
           "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQc3loZzVPSEw4YTN0RXZEdEpveVFkV0JoU0dtRTktZXR6LS1XVGRNVElxWHpWVUQ3eEhOMllBam9jYlNIX29HeW9ncUwyWkNhenBPcmRZeTNBNmt6MF96SkU5TS1zWUVBSEFOS0FMV1gwVmJoS3c3bGw4TjgwLUU5NTFOUEtzOWx3dy04NkhLMW9CMmJxM1dLeVRBRWMyVl9SY1A3THFB?oc=5",
           "published_at": "2026-11-22T10:13:00+00:00",
           "paywalled": false
-        },
-        {
-          "name": "Financial Times",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOdDhrTl8yRDE4ZDFnUy1xb0RhQTV0OVB1UldLbjZNaUotZkxjU3BWU1Q0V3Q1Mmt2T3VzU2ZOWE1vX0U4cGR2b0Q1UTVfd3U3dHIteks3WjhOeUtKWFJNRTRrT296MkFtdWVQWktOaHBPXzBfcXk0LW5vU01rRGtzYktLNnI?oc=5",
-          "published_at": "2026-11-23T05:00:22+00:00",
-          "paywalled": true
         },
         {
           "name": "BBC World",
@@ -273,7 +318,7 @@
         {
           "name": "AP News",
           "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNN0ZaSUxXY2RGTWZBcXdNRjV0eWhIZUdfWjFBSmI1OHBGZy1qRWFpNnJxZDJVOC14dVFGZGdSS3NfeFNsQm1IcmJIWGs4M0l5alZQZVhDek80S1lnQ3plUkRrbm9uaE44RWtNMTBDTWRLUmdGLWVVUDRJZ1J5TmR4QU5vWW5qT2NvOHB3dklzcFZ2ZFltMy1SYVdJQnNRZFBiaURJN2t0bjExaE0?oc=5",
-          "published_at": "2026-11-22T18:13:24+00:00",
+          "published_at": "2026-11-22T19:42:00+00:00",
           "paywalled": false
         },
         {
@@ -292,7 +337,7 @@
       "lead_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOZzZjY0pNZnpnUmtsZ3RudXpZeDh4TnlWZDFIZHBvUk0tbVlxREhydk5zRTJhX0lYcjFXQTNNTzBtOFM4NlNhTE9DZnl3SUZiM3RpTzRzZTJ4aURMSUJCdDRGb0l2MWh5MFJmTWgwS1k4Ql9vTGh1eWVGbEw3WGVCS1UtTkNGVVoxS0EyZVl3Vmw0UThpTlVUWWN2WlNyaWR6a1FYYlJZaWl1MlAyQ01OSEcyY3hMai0zUWdfUUc3MkQ?oc=5",
       "first_reported_at": "2026-11-23T13:02:05+00:00",
       "update_count": 1,
-      "updated": true
+      "updated": false
     },
     {
       "id": "a8fe195644f7",
@@ -323,7 +368,7 @@
       "lead_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQSWpDakZzTzdkdDFwdmNHcHlTc0Q0SDBxWEN3Uk5ZcmZaZXJzdzV3RXNtZkUzZzk1RlJKVFdkNkp5aVI2cVNaeVBBMFRBcXZ5S00xVVRvN3JuNXJUcXpvaVdrTnZPRmVhTUhuNHNEdDZtQmF4bFEyRVB4NG93c19Ub3hsQnJZNUJURGZjcndld1ZTVGViQnFDaGFzeExYaGVxZkE0SXdR?oc=5",
       "first_reported_at": "2026-11-23T12:33:22+00:00",
       "update_count": 1,
-      "updated": true
+      "updated": false
     },
     {
       "id": "14152ad7cf4c",
@@ -410,30 +455,6 @@
       "first_reported_at": "2026-11-23T11:38:55+00:00",
       "update_count": 0,
       "updated": false
-    },
-    {
-      "id": "1fdd97e8e442",
-      "title": "NATO believes Russia is ready to launch nuclear-armed satellite, German media say",
-      "category": "Europe/UK",
-      "importance": "Notable",
-      "score": 38.2,
-      "published_at": "2026-11-23T09:50:34+00:00",
-      "source_count": 1,
-      "reasons": [
-        "high-impact event"
-      ],
-      "sources": [
-        {
-          "name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNQmRybDRhZzhaRkRlSHZUdWxTZVRPUEU1NDJfRFBwX3ItMDZsb0pSZWdFMlgwbDhzclBlaWwyTndXYUQxS0JrZFd5SjlNWC05YWYtYWZhREFHNE5VLXFEOGx3SkY5bWNrMWlYbVhEVklQN3YzMnZSNmVtcmNqdzlSQ21vZW1yWU4xN1UySDE1SHNCUXZfekUyQlRMQUFGMlBSWk5Hc0JFTjlsZGN6NS14M2E2eXk4a2tPUjZGd2Y4a09SX212UUlNY2lkVG1XQXZUMmhOMHRZMA?oc=5",
-          "published_at": "2026-11-23T09:10:32+00:00",
-          "paywalled": false
-        }
-      ],
-      "lead_url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNQmRybDRhZzhaRkRlSHZUdWxTZVRPUEU1NDJfRFBwX3ItMDZsb0pSZWdFMlgwbDhzclBlaWwyTndXYUQxS0JrZFd5SjlNWC05YWYtYWZhREFHNE5VLXFEOGx3SkY5bWNrMWlYbVhEVklQN3YzMnZSNmVtcmNqdzlSQ21vZW1yWU4xN1UySDE1SHNCUXZfekUyQlRMQUFGMlBSWk5Hc0JFTjlsZGN6NS14M2E2eXk4a2tPUjZGd2Y4a09SX212UUlNY2lkVG1XQXZUMmhOMHRZMA?oc=5",
-      "first_reported_at": "2026-11-23T09:10:32+00:00",
-      "update_count": 1,
-      "updated": true
     },
     {
       "id": "0c0e260e2b9d",
