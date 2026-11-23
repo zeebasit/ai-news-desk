@@ -133,7 +133,9 @@
     "CEO OR chief executive OR chairman OR board (reinstated OR resigns OR ousted OR removed OR appointed OR succession)",
     "\"shares jump\" OR \"shares surge\" OR \"shares plunge\" OR \"stock jumps\" OR \"stock plunges\" OR \"market value\"",
     "\"billion deal\" OR \"billion acquisition\" OR \"billion merger\" OR takeover",
-    "\"state of emergency\" OR evacuation OR displaced OR \"critical infrastructure\" OR nationwide"
+    "\"state of emergency\" OR evacuation OR displaced OR \"critical infrastructure\" OR nationwide",
+    "\"killed\" OR \"dead\" OR \"deaths\" OR \"injured\" OR \"missing\" (attack OR strike OR fire OR crash OR collapse OR explosion OR disaster)",
+    "\"evacuated\" OR \"displaced\" OR \"without power\" OR \"without water\" OR \"state of emergency\""
   ],
   "paywall_sources": [
     "Financial Times",
