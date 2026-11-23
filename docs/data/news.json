@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T16:35:07.487458+00:00",
+  "generated_at": "2026-11-23T16:39:17.588525+00:00",
   "model_mode": "sentence-transformers",
   "stories": [
     {
@@ -57,7 +57,7 @@
       "category": "Tech",
       "importance": "Major",
       "score": 62.2,
-      "published_at": "2026-11-23T16:18:00+00:00",
+      "published_at": "2026-11-23T16:13:20+00:00",
       "source_count": 6,
       "reasons": [
         "major market reaction",
@@ -67,28 +67,28 @@
       ],
       "sources": [
         {
-          "name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNbUdPNnFZNXVRRHJqeGNYX0ptRk1oUW85OHlueHM2aW5teGxVWmViTWdKOGVTTVBYdWNVTjA3M2d4NUFfQ1Fac2g2ZzVZZ0hMdnZ6V1RQdFRmdWNfZlFzNnRYNmR0YWsxUjFIaTNYR2c5V3RQUHdVVUx4X1loaHF6dEcyNF9fQQ?oc=5",
-          "published_at": "2026-11-23T16:18:00+00:00",
-          "paywalled": false
-        },
-        {
           "name": "Reuters",
           "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOd19EYmc4X2wzaW5zXzZ5VXZ1cUFJbS1OYzJsZ2VSTVRnMkQteWdiN3Z0dTBlNmltdll6Vy1RWnpxVUthOF9XX3g0YmVvNWdXODJUMGpSeXdldVdYQWE3N2hCQXU3RExXSDViSWI3S2xHNVZFc0NUVmh5bGRhem5aUzdDa29xb1hH?oc=5",
           "published_at": "2026-11-23T16:13:20+00:00",
           "paywalled": false
         },
         {
+          "name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNbUdPNnFZNXVRRHJqeGNYX0ptRk1oUW85OHlueHM2aW5teGxVWmViTWdKOGVTTVBYdWNVTjA3M2d4NUFfQ1Fac2g2ZzVZZ0hMdnZ6V1RQdFRmdWNfZlFzNnRYNmR0YWsxUjFIaTNYR2c5V3RQUHdVVUx4X1loaHF6dEcyNF9fQQ?oc=5",
+          "published_at": "2026-11-23T14:13:55+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "Bloomberg.com",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNcGlUYS02c1ZzVkc5dE5peFJWWTRJSkp6NmtxMzB4bUQ3ZXZTazlOQVdJRGN2Y1pxS0NTNWQ0WjE1RTF3NnNyM2xuVTZaVTZES2dFaGJMVFJUTU1meDJOajJZRFdEYW52Vmo4VHhUYTR3YjZTLTZYcksxcHoxa3NsTW52WW1FRHJXRS1XVFdHUGVrQUxUN3JXZjA5ZVdjTVBrRWdvbWFTTmF2ZUdV?oc=5",
+          "published_at": "2026-11-23T15:19:40+00:00",
+          "paywalled": true
+        },
+        {
           "name": "Financial Times",
           "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOY0VMY3VZRlBrNGs0bElpa1NJSEZtREllUzFhaGFRTWVNYXN0eVA3Y0hFMjdrRUtyekZnQ3RDRTVLdTNTNWlSRHdXMkRVeXFEX2tvczJxUVRVYjhRX0hSR0FabmJwMlBrZEhNeHBCS3kxcHladGtoQlFkOW5TMG81Y3RGODk?oc=5",
           "published_at": "2026-11-23T14:04:54+00:00",
           "paywalled": true
-        },
-        {
-          "name": "Bloomberg.com",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQVWFLWHlKWDlGbmpsNUN5UERrM0Q2aWw4UEczVnBSdlJjVW1Rc1hlM180YVhFb1c5Ni1vY25HMlpPWTFURTFvOHNVS1owckpJelRBT2NYWkUwcXI3eHpRMlhmWGRVbTYzcHBmM2w4dzRZazI1cnd6d0ZNM2VweF85SzlWZ2hMU2Y2QVZmTEk1a1pqVHBLR2dJcG1UcHY?oc=5",
-          "published_at": "2026-11-23T00:00:00+00:00",
-          "paywalled": false
         },
         {
           "name": "Al Jazeera",
@@ -106,7 +106,7 @@
       "lead_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNNEVIVnBMbFk4UVlXOGlieWlkeWhldU5HWnFSdWNVU3BIU2YycVJnV3NWZGxGNXFMTjlKU3VuUTBnWGxZUjBtV3JCVlZjNU11MXZOT0s4V3QyRTNPNDlBRzAzX095cHphSWNSYnBTZmprLTVmdUVKd0RHc1FCbHdITU9Mb3BZMWlZM3pLQkF5MElMakFJME1WVWZOY0xJVWJnbTQ4dnpsQlNEZw?oc=5",
       "first_reported_at": "2026-11-23T15:39:41+00:00",
       "update_count": 3,
-      "updated": true
+      "updated": false
     },
     {
       "id": "7d3a49c99081",
@@ -115,12 +115,13 @@
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/80fb/live/5a6a1700-e753-11f1-99b6-a35a62fa4264.jpg",
       "category": "Tech",
       "importance": "Major",
-      "score": 46.7,
+      "score": 52.5,
       "published_at": "2026-11-23T15:39:41+00:00",
       "source_count": 1,
       "reasons": [
         "significant public impact",
-        "major market reaction"
+        "major market reaction",
+        "leadership/governance change"
       ],
       "sources": [
         {
@@ -337,6 +338,33 @@
       "updated": false
     },
     {
+      "id": "d17eae645388",
+      "title": "At least 15 killed in Ukraine’s Kyiv region as Russia intensifies attacks",
+      "summary": "Mulitple strikes unleashed days after Putin promises a ‘painful’ response to Ukrainian attacks.",
+      "image": "",
+      "category": "Europe/UK",
+      "importance": "Notable",
+      "score": 39.7,
+      "published_at": "2026-11-23T09:34:25+00:00",
+      "source_count": 1,
+      "reasons": [
+        "reported fatalities",
+        "mass-casualty attack"
+      ],
+      "sources": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/23/death-toll-rises-after-deadly-russian-attacks-on-ukraine?traffic_source=rss",
+          "published_at": "2026-11-23T09:34:25+00:00",
+          "paywalled": false
+        }
+      ],
+      "lead_url": "https://www.aljazeera.com/news/2026/11/23/death-toll-rises-after-deadly-russian-attacks-on-ukraine?traffic_source=rss",
+      "first_reported_at": "2026-11-23T09:34:25+00:00",
+      "update_count": 0,
+      "updated": false
+    },
+    {
       "id": "8e09fb1d4cd6",
       "title": "Suspected Ukrainian sea drones hit Russian warship at Benghazi naval base, Libyan officials say",
       "summary": "Suspected Ukrainian sea drones hit Russian warship at Benghazi naval base, Libyan officials say AP News",
@@ -367,7 +395,7 @@
       "lead_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNOEJrLWtkTl9ZY1lGN3JPaUNjSjVabFVGcnlERXpyYVdRNGN4OEtMOTVkczkzVDlhaWQxQ2xQdXdEak5oNkhBOWdrd01QV2hBYXlOZXV4Zl8weXpVNmxuMUlMM21sT2YwQjFqcjZIRlk4UmxQMUxPcTFRVjRQNFpqdzl4NjNodnZicldRLWRlV2R1allIR1BpM2x3?oc=5",
       "first_reported_at": "2026-11-23T15:41:23+00:00",
       "update_count": 1,
-      "updated": true
+      "updated": false
     },
     {
       "id": "72d4d0697b1b",
@@ -376,7 +404,7 @@
       "image": "",
       "category": "Middle East",
       "importance": "Notable",
-      "score": 38.3,
+      "score": 38.2,
       "published_at": "2026-11-23T11:57:33+00:00",
       "source_count": 2,
       "reasons": [
