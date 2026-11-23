@@ -1,58 +1,12 @@
 {
-  "generated_at": "2026-11-23T12:31:50.479769+00:00",
+  "generated_at": "2026-11-23T12:35:14.123074+00:00",
   "model_mode": "sentence-transformers",
   "stories": [
-    {
-      "id": "e3962095407b",
-      "title": "Ukrainian drones hit a Russian warship at a naval base in Libya, Zelenskyy says",
-      "category": "Europe/UK",
-      "importance": "Notable",
-      "score": 47.8,
-      "published_at": "2026-11-23T11:58:00+00:00",
-      "source_count": 5,
-      "reasons": [
-        "high-impact event",
-        "5 trusted sources"
-      ],
-      "sources": [
-        {
-          "name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPR1VjenRaWHFSYy04RXNZOGtGZ21ldWg3a1B4WVp3dk1OY2pPZ2pRcXFCLTk0YnJjalVEMnBqV2M2UnpCSENVWVNPVDhEZXhNQTdPZnlPWDJhNXR5VThOTVdKT2JRYmJfOW9hTzdqRUdMakNOUEFHVmdwWnNNOEx6ZmFiRVc5Z1JyZE5nNHFwODlkTkp5aHRVNUZxZVo2aDR0TnN6U2VRTlE?oc=5",
-          "published_at": "2026-11-23T11:50:00+00:00",
-          "paywalled": false
-        },
-        {
-          "name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQVVVOaXhUTVZWaDZ0YnlSQnRpZk1JdVpWdkJKVUlmQVpETHVkYV9CazJxR0xnS041MUYxQXcyV3IxZWpqbkVrWk9ZU1NaY2NyNTdHTjd6YmFHSFRIX0NpTE8tV3ZYaS1LajllOGxZZlAzclF3OGpiWU1Jd1dTNVB2VWtJMEZQd1lROVhxUnhYUUJ3TFBsMUV2YlFaQktHU0Q4RHktYnpTLXRndjl2aEZlQ3VzZWZSSFRSVzJiZjJsa3JaSkV4?oc=5",
-          "published_at": "2026-11-23T07:53:00+00:00",
-          "paywalled": false
-        },
-        {
-          "name": "BBC World",
-          "url": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss",
-          "published_at": "2026-11-23T11:40:01+00:00",
-          "paywalled": false
-        },
-        {
-          "name": "BBC",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5RYTdJa3FLUUotRjRtWmFYcWsyT29UT0FCVDUycVp4MmlCMUkzUVR3cVJUVTJWNDlQX0JLbk01S29SZEtLM0lXZHdzX2U4N2JBVDdhVjN2TEdlczg?oc=5",
-          "published_at": "2026-11-23T11:40:01+00:00",
-          "paywalled": false
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPM1FmOGYwcEh6Rk5MNnNVVjA3eGZ2ZFBIc0VRc0lSNkI2MUE5NTI2WVZnemZZMkRIcmw2UE4zcmJyUGg5ek9VTmhNNXZpeWR1dWtUTE9NTDliaG9LZWNKb2NKdEFVaHE4N0JFMktnVldYWXAtOFBWaE9mZHZxZVE4OWJVV240RmJkOW5aOW9jakdwSzZTeVBLanBxTXh4QmcxWFZhbGJwMndmZTMyN1BHeUh5Z9IBuAFBVV95cUxQVXFtbU85SlhXR3NKMF9Fd1VrelFHOHBzaVRZZVJMcVNlQnFTZkp0bmJKbzRrOWhkWXdFcHROZG5aaGIwempKSGk3R0hmclQ3M2xMMXNKb2VUcG9UNENYOUh6SHh0MWR3UzhNLUpjQ0VnVUE2dGZJUjRLNzZVTUtscFNTbEpLWlpYRGxTeUJveXU4cmJEb0RKYUwwV3M2cVNMclRQd0k0LVZJVm55ZzZLNGNhN1IzREVh?oc=5",
-          "published_at": "2026-11-23T10:39:10+00:00",
-          "paywalled": false
-        }
-      ],
-      "lead_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPR1VjenRaWHFSYy04RXNZOGtGZ21ldWg3a1B4WVp3dk1OY2pPZ2pRcXFCLTk0YnJjalVEMnBqV2M2UnpCSENVWVNPVDhEZXhNQTdPZnlPWDJhNXR5VThOTVdKT2JRYmJfOW9hTzdqRUdMakNOUEFHVmdwWnNNOEx6ZmFiRVc5Z1JyZE5nNHFwODlkTkp5aHRVNUZxZVo2aDR0TnN6U2VRTlE?oc=5"
-    },
     {
       "id": "bfc88015cab8",
       "title": "Norway's Vaar Energi to buy ConocoPhillips business for $4.43 billion",
       "category": "Norway",
-      "importance": "Notable",
+      "importance": "Major",
       "score": 47.6,
       "published_at": "2026-11-23T12:14:02+00:00",
       "source_count": 2,
@@ -78,6 +32,46 @@
       "lead_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQcHNqQjMxSlNrcGN4LVZIUC0yZUpTTUQyOU1SNnJaTkFpQkFnRHFYODF0R0hhbnBkbTFfbEpMYU9WSlNMYWFLTjhPOGszWHFoX0JnZnZBY2pVNDVFbEFJYlBKSHhiZ1EyaU80anh6d3RuVFVPZUFJOUVmZndKbWVxRGlaLW1DUG1QN2ZkS2ZOTEhZbUJSRk5zTUtRNXVrNkZjaWNjSGVvRy1iRlZRMkFfa0gzcTl4Zw?oc=5"
     },
     {
+      "id": "e3962095407b",
+      "title": "Ukrainian drones hit a Russian warship at a naval base in Libya, Zelenskyy says",
+      "category": "Europe/UK",
+      "importance": "Notable",
+      "score": 45.8,
+      "published_at": "2026-11-23T11:58:00+00:00",
+      "source_count": 4,
+      "reasons": [
+        "high-impact event",
+        "4 trusted sources"
+      ],
+      "sources": [
+        {
+          "name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPR1VjenRaWHFSYy04RXNZOGtGZ21ldWg3a1B4WVp3dk1OY2pPZ2pRcXFCLTk0YnJjalVEMnBqV2M2UnpCSENVWVNPVDhEZXhNQTdPZnlPWDJhNXR5VThOTVdKT2JRYmJfOW9hTzdqRUdMakNOUEFHVmdwWnNNOEx6ZmFiRVc5Z1JyZE5nNHFwODlkTkp5aHRVNUZxZVo2aDR0TnN6U2VRTlE?oc=5",
+          "published_at": "2026-11-23T11:50:00+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQVVVOaXhUTVZWaDZ0YnlSQnRpZk1JdVpWdkJKVUlmQVpETHVkYV9CazJxR0xnS041MUYxQXcyV3IxZWpqbkVrWk9ZU1NaY2NyNTdHTjd6YmFHSFRIX0NpTE8tV3ZYaS1LajllOGxZZlAzclF3OGpiWU1Jd1dTNVB2VWtJMEZQd1lROVhxUnhYUUJ3TFBsMUV2YlFaQktHU0Q4RHktYnpTLXRndjl2aEZlQ3VzZWZSSFRSVzJiZjJsa3JaSkV4?oc=5",
+          "published_at": "2026-11-23T07:53:00+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-11-23T11:40:01+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPM1FmOGYwcEh6Rk5MNnNVVjA3eGZ2ZFBIc0VRc0lSNkI2MUE5NTI2WVZnemZZMkRIcmw2UE4zcmJyUGg5ek9VTmhNNXZpeWR1dWtUTE9NTDliaG9LZWNKb2NKdEFVaHE4N0JFMktnVldYWXAtOFBWaE9mZHZxZVE4OWJVV240RmJkOW5aOW9jakdwSzZTeVBLanBxTXh4QmcxWFZhbGJwMndmZTMyN1BHeUh5Z9IBuAFBVV95cUxQVXFtbU85SlhXR3NKMF9Fd1VrelFHOHBzaVRZZVJMcVNlQnFTZkp0bmJKbzRrOWhkWXdFcHROZG5aaGIwempKSGk3R0hmclQ3M2xMMXNKb2VUcG9UNENYOUh6SHh0MWR3UzhNLUpjQ0VnVUE2dGZJUjRLNzZVTUtscFNTbEpLWlpYRGxTeUJveXU4cmJEb0RKYUwwV3M2cVNMclRQd0k0LVZJVm55ZzZLNGNhN1IzREVh?oc=5",
+          "published_at": "2026-11-23T10:39:10+00:00",
+          "paywalled": false
+        }
+      ],
+      "lead_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPR1VjenRaWHFSYy04RXNZOGtGZ21ldWg3a1B4WVp3dk1OY2pPZ2pRcXFCLTk0YnJjalVEMnBqV2M2UnpCSENVWVNPVDhEZXhNQTdPZnlPWDJhNXR5VThOTVdKT2JRYmJfOW9hTzdqRUdMakNOUEFHVmdwWnNNOEx6ZmFiRVc5Z1JyZE5nNHFwODlkTkp5aHRVNUZxZVo2aDR0TnN6U2VRTlE?oc=5"
+    },
+    {
       "id": "4139daaa3de7",
       "title": "Norway provides NOK 18.3 million to UNICEF's Ebola response in the DR Congo",
       "category": "Norway",
@@ -100,16 +94,37 @@
       "lead_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQYThPbFl1UV9YbEFDM1pINWluTE5PbXJ4bXlCY0NQZ1czMmdCMHZmOUkyS1pxZlk5c2drOVZXWnRSenY4MVVGOWlmMWRZemZWanBYZFFYbmF1SGdoQlJ5UnRVOExVbkdLaVRVVnpJQkFzZV9QWGNZRjU5b3BFNmRiMm84WGxhTVNuZ1ZpQUJuTU9wRnM5ZS1NcUFZc2xWaTVQWVBwMWRzb2JkSUFwNUhOcENzVUVRbFJqenFvdTl5STFqMDg?oc=5"
     },
     {
+      "id": "1fdd97e8e442",
+      "title": "NATO believes Russia is ready to launch nuclear-armed satellite, German media say",
+      "category": "Europe/UK",
+      "importance": "Notable",
+      "score": 42.3,
+      "published_at": "2026-11-23T10:37:32+00:00",
+      "source_count": 1,
+      "reasons": [
+        "high-impact event"
+      ],
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNQmRybDRhZzhaRkRlSHZUdWxTZVRPUEU1NDJfRFBwX3ItMDZsb0pSZWdFMlgwbDhzclBlaWwyTndXYUQxS0JrZFd5SjlNWC05YWYtYWZhREFHNE5VLXFEOGx3SkY5bWNrMWlYbVhEVklQN3YzMnZSNmVtcmNqdzlSQ21vZW1yWU4xN1UySDE1SHNCUXZfekUyQlRMQUFGMlBSWk5Hc0JFTjlsZGN6NS14M2E2eXk4a2tPUjZGd2Y4a09SX212UUlNY2lkVG1XQXZUMmhOMHRZMA?oc=5",
+          "published_at": "2026-11-23T09:10:32+00:00",
+          "paywalled": false
+        }
+      ],
+      "lead_url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNQmRybDRhZzhaRkRlSHZUdWxTZVRPUEU1NDJfRFBwX3ItMDZsb0pSZWdFMlgwbDhzclBlaWwyTndXYUQxS0JrZFd5SjlNWC05YWYtYWZhREFHNE5VLXFEOGx3SkY5bWNrMWlYbVhEVklQN3YzMnZSNmVtcmNqdzlSQ21vZW1yWU4xN1UySDE1SHNCUXZfekUyQlRMQUFGMlBSWk5Hc0JFTjlsZGN6NS14M2E2eXk4a2tPUjZGd2Y4a09SX212UUlNY2lkVG1XQXZUMmhOMHRZMA?oc=5"
+    },
+    {
       "id": "743a38fb904f",
       "title": "North Carolina win gives Democrats biggest US House majority since early 1990s",
       "category": "US/Canada",
       "importance": "Notable",
-      "score": 43.4,
+      "score": 41.4,
       "published_at": "2026-11-23T01:23:43+00:00",
-      "source_count": 5,
+      "source_count": 4,
       "reasons": [
         "high-impact event",
-        "5 trusted sources"
+        "4 trusted sources"
       ],
       "sources": [
         {
@@ -131,12 +146,6 @@
           "paywalled": false
         },
         {
-          "name": "BBC",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1jOG9ydHBscFFlNlFfSUZyMEU5MS1hZU03c1pEU1l3YWJkOEFlZHFyZE1zdWsxM0F6YUpPaWhSR1JVdzA2NVZiTTYzQi0ycnRLTm9mVlE3eXBYT3c?oc=5",
-          "published_at": "2026-11-23T01:23:43+00:00",
-          "paywalled": false
-        },
-        {
           "name": "Al Jazeera",
           "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQNEo5SW5YTnlmVE5pcFRLZm1xYXgwRTRITjZTWjlkeDlwTzB1SFRkTjB0NnE5QnFLcTI5ZzRlUzZZTjh5VzZQX2xWb2tOWHF3TjhDd1B6Z0NXLW16eEJfNDJKSW1BUlhkVDEtUVIzRE81X1NjMEFraGI1T3FQeTg4eXhGajRVNW5fczk3OVdrdmIzRE9kTlJiWVBkT05fa2JkdF9JOFF1endEcnBHNWZsTmJmSFLSAboBQVVfeXFMT2ZqMlRQY3UxeEdKMFNvUjk3Q0hSY3BiR1VEOUNoLXo3dGxMQmVPZ3NoQTVLc3YzM0psMEQ1QXJyRDRjYTZIM3NDUExneEpPQjVVQW1BOE1ZalN5cE1maU82SU1TX1hDTmF6SFNDZy1uZGFoN2E0YWxZOEsyUnRsZVc2YnU3OFhRRXdfcEp2eHVKLVozMjNPcG0zM21Ld2lyR1NJX2FKdTBpUGU5ZHhlR05ZRUdaVk9WV3lB?oc=5",
           "published_at": "2026-11-22T22:22:27+00:00",
@@ -144,27 +153,6 @@
         }
       ],
       "lead_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOZzZjY0pNZnpnUmtsZ3RudXpZeDh4TnlWZDFIZHBvUk0tbVlxREhydk5zRTJhX0lYcjFXQTNNTzBtOFM4NlNhTE9DZnl3SUZiM3RpTzRzZTJ4aURMSUJCdDRGb0l2MWh5MFJmTWgwS1k4Ql9vTGh1eWVGbEw3WGVCS1UtTkNGVVoxS0EyZVl3Vmw0UThpTlVUWWN2WlNyaWR6a1FYYlJZaWl1MlAyQ01OSEcyY3hMai0zUWdfUUc3MkQ?oc=5"
-    },
-    {
-      "id": "1fdd97e8e442",
-      "title": "NATO believes Russia is ready to launch nuclear-armed satellite, German media say",
-      "category": "Europe/UK",
-      "importance": "Notable",
-      "score": 42.3,
-      "published_at": "2026-11-23T10:37:32+00:00",
-      "source_count": 1,
-      "reasons": [
-        "high-impact event"
-      ],
-      "sources": [
-        {
-          "name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNQmRybDRhZzhaRkRlSHZUdWxTZVRPUEU1NDJfRFBwX3ItMDZsb0pSZWdFMlgwbDhzclBlaWwyTndXYUQxS0JrZFd5SjlNWC05YWYtYWZhREFHNE5VLXFEOGx3SkY5bWNrMWlYbVhEVklQN3YzMnZSNmVtcmNqdzlSQ21vZW1yWU4xN1UySDE1SHNCUXZfekUyQlRMQUFGMlBSWk5Hc0JFTjlsZGN6NS14M2E2eXk4a2tPUjZGd2Y4a09SX212UUlNY2lkVG1XQXZUMmhOMHRZMA?oc=5",
-          "published_at": "2026-11-23T09:10:32+00:00",
-          "paywalled": false
-        }
-      ],
-      "lead_url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNQmRybDRhZzhaRkRlSHZUdWxTZVRPUEU1NDJfRFBwX3ItMDZsb0pSZWdFMlgwbDhzclBlaWwyTndXYUQxS0JrZFd5SjlNWC05YWYtYWZhREFHNE5VLXFEOGx3SkY5bWNrMWlYbVhEVklQN3YzMnZSNmVtcmNqdzlSQ21vZW1yWU4xN1UySDE1SHNCUXZfekUyQlRMQUFGMlBSWk5Hc0JFTjlsZGN6NS14M2E2eXk4a2tPUjZGd2Y4a09SX212UUlNY2lkVG1XQXZUMmhOMHRZMA?oc=5"
     },
     {
       "id": "6605310f0c7c",
@@ -200,7 +188,7 @@
       "category": "World",
       "importance": "Notable",
       "score": 40.6,
-      "published_at": "2026-11-23T06:26:00+00:00",
+      "published_at": "2026-11-23T12:23:19+00:00",
       "source_count": 4,
       "reasons": [
         "reported fatalities",
@@ -226,131 +214,34 @@
           "paywalled": false
         },
         {
-          "name": "BBC",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBuMGkzUWVjU3BUZmhJME96bFlDWHhReTVmSUVKNmtSZ2p5cm1KWlZTM2l1Z3pFRlBPdmhlV0tTVG9fQl91dzhLWHhMN2FFdjlhS2F5N3NLeDdOLWc?oc=5",
-          "published_at": "2026-11-22T14:05:20+00:00",
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/23/search-continues-for-dozens-missing-after-indonesia-candy-factory-fire?traffic_source=rss",
+          "published_at": "2026-11-23T12:23:19+00:00",
           "paywalled": false
         }
       ],
       "lead_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNeWxmUHVQSmZGb3dYUl9UZzNOXzlEcW1hcUFTNlZzY0xNS3ZySEE5bzhTYW94eFJJTmN1RnVqLWZXeFJtUUVqUmpkaTNoS19vWlcwWHZza3hqanhPX2pGTjc2czRONGswbEJWT1Fjalh2eTNYTWJ0RjlWUnFld3JKbnUtaUpIZ1Q3RWdVQUtvSXdPajQ1cG1IejZZSQ?oc=5"
     },
     {
-      "id": "d566a197283a",
-      "title": "Norway funds nuclear propulsion push as offshore owner targets 2032 debut",
-      "category": "Norway",
-      "importance": "Notable",
-      "score": 40.1,
-      "published_at": "2026-11-23T09:01:23+00:00",
-      "source_count": 1,
-      "reasons": [
-        "high-impact event",
-        "Norway/local relevance"
-      ],
-      "sources": [
-        {
-          "name": "Splash247",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOMWl4YzdvNjdNTGFhbzhVeUFaTVNqSmw5OXczRGtmY0JQUHhmLXA5aVZ3aF96RUkxMzBJS1B3Z0FfQ1pndmY3ZGc5d1pGa3g4VW1oOFRmUWZseUowZDFuekR2MHNrX0FZRTk3RTVOUUJfVUFBRXBydEtjdHBxZlNWT2p2TU9GaVJYeHRBZDc3UWRDQkswcGM1RVM5eTM?oc=5",
-          "published_at": "2026-11-23T09:01:23+00:00",
-          "paywalled": false
-        }
-      ],
-      "lead_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOMWl4YzdvNjdNTGFhbzhVeUFaTVNqSmw5OXczRGtmY0JQUHhmLXA5aVZ3aF96RUkxMzBJS1B3Z0FfQ1pndmY3ZGc5d1pGa3g4VW1oOFRmUWZseUowZDFuekR2MHNrX0FZRTk3RTVOUUJfVUFBRXBydEtjdHBxZlNWT2p2TU9GaVJYeHRBZDc3UWRDQkswcGM1RVM5eTM?oc=5"
-    },
-    {
-      "id": "cabc5188b3d4",
-      "title": "COP31 climate talks set to collapse without political deal",
+      "id": "a80aba98eede",
+      "title": "India to give $1.62 billion economic package to flood-hit Nepal",
       "category": "World",
       "importance": "Notable",
-      "score": 38.9,
-      "published_at": "2026-11-23T11:22:24+00:00",
-      "source_count": 5,
+      "score": 39.4,
+      "published_at": "2026-11-23T12:10:30+00:00",
+      "source_count": 1,
       "reasons": [
-        "significant public impact",
-        "5 trusted sources"
+        "high-impact event"
       ],
       "sources": [
         {
           "name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOZFRVY0w1ajMyTV9Xbm5zaS0tNXIxdjNjaW9DS2toc1kyMUdxcDFmS0xIbUgta0Jhb2Q0SWVudVlySTg2eHlHRURfaXp5UDE2OHFud0ZmRExfSFIyMUFQMzdTdHFidzBPUXQxUXRXWWVhTHYtUUx6V2VhclFFQWNzY3hkSm9Tc2pEREhsZDJUa25ZeDc3am5Xa20yelVkWE9pMTlrOXRWbDZ6OENHT25R?oc=5",
-          "published_at": "2026-11-22T12:50:48+00:00",
-          "paywalled": false
-        },
-        {
-          "name": "Financial Times",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOdDhrTl8yRDE4ZDFnUy1xb0RhQTV0OVB1UldLbjZNaUotZkxjU3BWU1Q0V3Q1Mmt2T3VzU2ZOWE1vX0U4cGR2b0Q1UTVfd3U3dHIteks3WjhOeUtKWFJNRTRrT296MkFtdWVQWktOaHBPXzBfcXk0LW5vU01rRGtzYktLNnI?oc=5",
-          "published_at": "2026-11-23T05:00:22+00:00",
-          "paywalled": true
-        },
-        {
-          "name": "BBC World",
-          "url": "https://www.bbc.co.uk/news/videos/cr1ewge81q4qo?at_medium=RSS&at_campaign=rss",
-          "published_at": "2026-11-23T05:34:39+00:00",
-          "paywalled": false
-        },
-        {
-          "name": "BBC",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE03dll1MVBIeTZ6OEl6dFRrUG1vdEVzT0Qxem41dGpTV2stUW4xakJNeVdUbENSNTVzYWtqSWxIclhrbWpDUDB5WnZEZndWMmtRSG1MeFpfN0U?oc=5",
-          "published_at": "2026-11-23T05:34:39+00:00",
-          "paywalled": false
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQQU1FZW9UMlRxREp1Ri1LTVBKaWxDWm04YjJEYjBpbE9HQmNSck1VekprWWZXQVpBNTY5enl6czR0c2RpMXVEVm9qb25WSnBjT2lYdnkybHlRYk5naTlZOWZGT2lyVkR2U1JTNVZnbm05WDh2MTFwcUJuTTdKVUpPd05RTjZxaEJFcFVFeWYyTGw1V1nSAZgBQVVfeXFMUDhCVnUtdHgtdzhrTmlOTDY0c1I0N0Z6Zk55WV92U2FiVHpaWEV6LVJveEJSb2tWRUszQUpIeVpJVVlYb2UxUWpWNUtqWkN4ZFpqNTF2WDhYOXlXS3FpQUFWUm5KT2VESHFRbHU1WDl1UVAyNHoxTUR4SXNWaGhpSUF6ZDNjUFJab25XTk10cVlJWWxTM2dsbTg?oc=5",
-          "published_at": "2026-11-23T11:22:24+00:00",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQSWpDakZzTzdkdDFwdmNHcHlTc0Q0SDBxWEN3Uk5ZcmZaZXJzdzV3RXNtZkUzZzk1RlJKVFdkNkp5aVI2cVNaeVBBMFRBcXZ5S00xVVRvN3JuNXJUcXpvaVdrTnZPRmVhTUhuNHNEdDZtQmF4bFEyRVB4NG93c19Ub3hsQnJZNUJURGZjcndld1ZTVGViQnFDaGFzeExYaGVxZkE0SXdR?oc=5",
+          "published_at": "2026-11-23T08:47:56+00:00",
           "paywalled": false
         }
       ],
-      "lead_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOZFRVY0w1ajMyTV9Xbm5zaS0tNXIxdjNjaW9DS2toc1kyMUdxcDFmS0xIbUgta0Jhb2Q0SWVudVlySTg2eHlHRURfaXp5UDE2OHFud0ZmRExfSFIyMUFQMzdTdHFidzBPUXQxUXRXWWVhTHYtUUx6V2VhclFFQWNzY3hkSm9Tc2pEREhsZDJUa25ZeDc3am5Xa20yelVkWE9pMTlrOXRWbDZ6OENHT25R?oc=5"
-    },
-    {
-      "id": "3a4fc33b5bc5",
-      "title": "Chinese-Norwegian €422m land-based salmon project moves towards construction",
-      "category": "Norway",
-      "importance": "Notable",
-      "score": 38.6,
-      "published_at": "2026-11-23T06:59:02+00:00",
-      "source_count": 1,
-      "reasons": [
-        "high-impact event",
-        "Norway/local relevance"
-      ],
-      "sources": [
-        {
-          "name": "Salmon Business",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPN2NLWkhvdGlwcGMzOEtTSl96T2hrMWhBSGV3MTFsSjY3RWpCSld4R0d0TWlZRjNKRHNZdnBkemVEZjNubVJnZ2J2b0NiTm1HdFJma2xGRTlwTGdTV2g5R0JFTndwZHRMeHNSendKOGtsX3Rucmtmd0NSdHFrQjMtclNvYWxZVGV1RTZiY1NXUnFmV3FyajF0SGV4dWFyR0xYTnJ3cXlIdFg3RTRi?oc=5",
-          "published_at": "2026-11-23T06:59:02+00:00",
-          "paywalled": false
-        }
-      ],
-      "lead_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPN2NLWkhvdGlwcGMzOEtTSl96T2hrMWhBSGV3MTFsSjY3RWpCSld4R0d0TWlZRjNKRHNZdnBkemVEZjNubVJnZ2J2b0NiTm1HdFJma2xGRTlwTGdTV2g5R0JFTndwZHRMeHNSendKOGtsX3Rucmtmd0NSdHFrQjMtclNvYWxZVGV1RTZiY1NXUnFmV3FyajF0SGV4dWFyR0xYTnJ3cXlIdFg3RTRi?oc=5"
-    },
-    {
-      "id": "4fabca3635a0",
-      "title": "Russia-bound ship towed away after it was attacked in Gulf of Finland",
-      "category": "Europe/UK",
-      "importance": "Notable",
-      "score": 38.5,
-      "published_at": "2026-11-22T17:18:26+00:00",
-      "source_count": 2,
-      "reasons": [
-        "high-impact event",
-        "2 trusted sources"
-      ],
-      "sources": [
-        {
-          "name": "BBC World",
-          "url": "https://www.bbc.co.uk/news/articles/cj752ddve27ko?at_medium=RSS&at_campaign=rss",
-          "published_at": "2026-11-22T17:18:26+00:00",
-          "paywalled": false
-        },
-        {
-          "name": "BBC",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBFODE1OHY1cFcwSGdUUGhHdVVsdVc2NU1YVHk0eEVRT2xyLUUyR2phMkpMYmR5ZC1uTk5PSnJKTDVtUkRaU0xzdUFlVGRXRmhkUU53UnM2czBrVGc?oc=5",
-          "published_at": "2026-11-22T17:18:26+00:00",
-          "paywalled": false
-        }
-      ],
-      "lead_url": "https://www.bbc.co.uk/news/articles/cj752ddve27ko?at_medium=RSS&at_campaign=rss"
+      "lead_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQSWpDakZzTzdkdDFwdmNHcHlTc0Q0SDBxWEN3Uk5ZcmZaZXJzdzV3RXNtZkUzZzk1RlJKVFdkNkp5aVI2cVNaeVBBMFRBcXZ5S00xVVRvN3JuNXJUcXpvaVdrTnZPRmVhTUhuNHNEdDZtQmF4bFEyRVB4NG93c19Ub3hsQnJZNUJURGZjcndld1ZTVGViQnFDaGFzeExYaGVxZkE0SXdR?oc=5"
     },
     {
       "id": "04d362e8295c",
@@ -379,93 +270,6 @@
         }
       ],
       "lead_url": "https://www.bbc.co.uk/news/articles/c8r4gzzxvxl3o?at_medium=RSS&at_campaign=rss"
-    },
-    {
-      "id": "ac3694981dd0",
-      "title": "Norwegian Electrician's Korean War Diary Named Gyeonggi Heritage Item",
-      "category": "Norway",
-      "importance": "Notable",
-      "score": 38.1,
-      "published_at": "2026-11-23T05:52:06+00:00",
-      "source_count": 1,
-      "reasons": [
-        "high-impact event",
-        "Norway/local relevance"
-      ],
-      "sources": [
-        {
-          "name": "Seoul Economic Daily",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPSWFpTzFjZHdNZ2U4YjE5cXREdEo1c29jeWl1c2x6cUtzZGdnd3FqNmlHc2ZrUVFpNjR2c1RFVE9FS2RJbm1RQVU4VzF2cEl6WFl2X2ZQdU03dlo1UnA2MGNqVEpxb2U0RldhT1NVeGUtWTd0cXNjMGlnREFLVG5EaUNobS01Y3VheHRfZ2VwT3lUQ0NhLTFyVjQ1cVU?oc=5",
-          "published_at": "2026-11-23T05:52:06+00:00",
-          "paywalled": false
-        }
-      ],
-      "lead_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPSWFpTzFjZHdNZ2U4YjE5cXREdEo1c29jeWl1c2x6cUtzZGdnd3FqNmlHc2ZrUVFpNjR2c1RFVE9FS2RJbm1RQVU4VzF2cEl6WFl2X2ZQdU03dlo1UnA2MGNqVEpxb2U0RldhT1NVeGUtWTd0cXNjMGlnREFLVG5EaUNobS01Y3VheHRfZ2VwT3lUQ0NhLTFyVjQ1cVU?oc=5"
-    },
-    {
-      "id": "3bd3f2495403",
-      "title": "News - Norwegian fish farmers in head to head with Prime Minister",
-      "category": "Norway",
-      "importance": "Notable",
-      "score": 38.0,
-      "published_at": "2026-11-23T12:00:55+00:00",
-      "source_count": 1,
-      "reasons": [
-        "high-impact event",
-        "Norway/local relevance"
-      ],
-      "sources": [
-        {
-          "name": "Fish Farmer",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOeVc0RkZTNk1LaWJnZzhiRmdxWDlFUXhpYVMzbVQxd3FscmNVQk95d3psVXRNN1V0REVVOEJybFFLdkdtdVpXZDR5cHdFYzh5QTVyNnNNX291TG1GbTRrRC1SdDdmbFVCOVdhN091UEYxVDJLMFRGY0MzWmJSa1EtcmRIV0ZCMzdTbHZ2ZWlEb2h3blhMVmJmck5pRmRPS1E?oc=5",
-          "published_at": "2026-11-23T12:00:55+00:00",
-          "paywalled": false
-        }
-      ],
-      "lead_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOeVc0RkZTNk1LaWJnZzhiRmdxWDlFUXhpYVMzbVQxd3FscmNVQk95d3psVXRNN1V0REVVOEJybFFLdkdtdVpXZDR5cHdFYzh5QTVyNnNNX291TG1GbTRrRC1SdDdmbFVCOVdhN091UEYxVDJLMFRGY0MzWmJSa1EtcmRIV0ZCMzdTbHZ2ZWlEb2h3blhMVmJmck5pRmRPS1E?oc=5"
-    },
-    {
-      "id": "9908f2d9be2a",
-      "title": "The EU is taking the lead on reducing Arctic Black Carbon. Will Canada, Iceland and Norway Join In?",
-      "category": "Norway",
-      "importance": "Notable",
-      "score": 31.9,
-      "published_at": "2026-11-23T03:31:16+00:00",
-      "source_count": 1,
-      "reasons": [
-        "significant public impact",
-        "Norway/local relevance"
-      ],
-      "sources": [
-        {
-          "name": "Cyprus Shipping News",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNMmlraEdFbjktR1Z0Ry03MGNsclZJWnJ0V3lXNmFyTFROMnBkcU5QeUtHdmVYV0tJdmRueGdCeFpESFZCQ0RhNHlDVHBDLTVZOHp4RElPMTZURmhCRDYta1g1LWtVc2ZEeUFMeWI3WWN6bWRhTWNNSkRDOGlSajh2UjRSeE1ac3VoSGZwTWlTcjVHQjk0UnB1bW9CaTFXUTVnYUwyS3JvUDB1ckhNTVR0cEx4WWpwdGUxcDVDMVZDZzRYcHFOeU92Vy1RcWlHUl8yUUItRmZ3?oc=5",
-          "published_at": "2026-11-23T03:31:16+00:00",
-          "paywalled": false
-        }
-      ],
-      "lead_url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNMmlraEdFbjktR1Z0Ry03MGNsclZJWnJ0V3lXNmFyTFROMnBkcU5QeUtHdmVYV0tJdmRueGdCeFpESFZCQ0RhNHlDVHBDLTVZOHp4RElPMTZURmhCRDYta1g1LWtVc2ZEeUFMeWI3WWN6bWRhTWNNSkRDOGlSajh2UjRSeE1ac3VoSGZwTWlTcjVHQjk0UnB1bW9CaTFXUTVnYUwyS3JvUDB1ckhNTVR0cEx4WWpwdGUxcDVDMVZDZzRYcHFOeU92Vy1RcWlHUl8yUUItRmZ3?oc=5"
-    },
-    {
-      "id": "8ffba44f8396",
-      "title": "Equinor and Skagerak Energi hit by cyberattacks exploiting Microsoft Azure flaw",
-      "category": "Norway",
-      "importance": "Notable",
-      "score": 30.4,
-      "published_at": "2026-11-23T07:37:55+00:00",
-      "source_count": 1,
-      "reasons": [
-        "high-impact event"
-      ],
-      "sources": [
-        {
-          "name": "EnergyWatch",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBxUXRNUkRZVzE0TGQzS19YTlhVY3NlOXlLZkJ0WVo3Z054YlVueVZmUXo2TWFWTy0xd19vOFN2MlBWM0RCVmItTVVZeVgtbVFMVUk3U2Q2a2oxb2Q1R2RPOUFBLWVUYmUya19WT0RSSXZsdw?oc=5",
-          "published_at": "2026-11-23T07:37:55+00:00",
-          "paywalled": false
-        }
-      ],
-      "lead_url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBxUXRNUkRZVzE0TGQzS19YTlhVY3NlOXlLZkJ0WVo3Z054YlVueVZmUXo2TWFWTy0xd19vOFN2MlBWM0RCVmItTVVZeVgtbVFMVUk3U2Q2a2oxb2Q1R2RPOUFBLWVUYmUya19WT0RSSXZsdw?oc=5"
     }
   ],
   "watchlist": []
