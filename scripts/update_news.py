@@ -36,7 +36,7 @@ IMPACT=[
 (18,["election","referendum","parliament","presidential","prime minister","government collapses","resigns","impeachment","constitutional"]),
 (18,["outbreak","epidemic","pandemic","ebola","cholera","public health emergency"]),
 (16,["central bank","interest rate","inflation","recession","oil prices","stock market","financial crisis","bank failure","market selloff","market rout","stocks plunge","futures rally"]),
-(18,["bomb threat","bomb threats","mass evacuation","school closures","terrorism alert"]),
+(22,["bomb threat","bomb threats","mass evacuation","school closures","terrorism alert"]),
 (15,["protest","protests","riot","riots","unrest","clashes","mass demonstration"]),
 (13,["shipping","strait","pipeline","refinery","electricity","blackout","railway","airport"]),
 (11,["science","spacecraft","mission","climate","breakthrough"])
@@ -172,13 +172,14 @@ def score(text,weight,semantic):
     deal=re.search(r"\$\s*(\d+(?:\.\d+)?)\s*billion",t)
     if deal and any(k in t for k in ["acquire","acquisition","merger","takeover","deal"]):
         value=float(deal.group(1))
-        if value>=10:s+=15; reasons.append("major transaction")
-        elif value>=5:s+=9; reasons.append("large transaction")
+        if value>=10:s+=22; reasons.append("major transaction")
+        elif value>=5:s+=11; reasons.append("large transaction")
     if any(k in t for k in ["norway","norwegian","stavanger","rogaland","sandnes"]):s+=9; reasons.append("Norway/local relevance")
     mag=re.search(r"\bmagnitude\s+([0-9]+(?:\.[0-9]+)?)",t)
     if mag and float(mag.group(1))<5.0 and not CAS.search(t):
         s-=30; reasons.append("minor event filtered")
     if any(k in t for k in ["celebrity","horoscope","recipe","movie review","football transfer","lottery","christmas tree","royal ceremony","anniversary ceremony","travel tips","restaurant review"]):s-=28
+    if any(k in t for k in ["not that unusual","what to know","what you need to know","explainer:","here's what","here is what"]):s-=16
     return s,reasons
 def sid(t): return hashlib.sha1(" ".join(sorted(toks(t))[:12]).encode()).hexdigest()[:12]
 def build(a):
@@ -186,7 +187,9 @@ def build(a):
     texts=[x["title"]+". "+x["summary"] for x in a]; E,A,mode=embeddings(texts)
     anchor=cosine_similarity(E,A).max(axis=1); out=[]
     for ids in cluster(a,E,mode):
-        group=[a[i] for i in ids]; lead=max(group,key=lambda x:(x["weight"],x["published_at"]))
+        group=[a[i] for i in ids]
+        lead_i=max(ids,key=lambda i:(score(a[i]["title"]+" "+a[i]["summary"],a[i]["weight"],float(anchor[i]))[0],a[i]["published_at"]))
+        lead=a[lead_i]
         alltext=" ".join(x["title"]+" "+x["summary"] for x in group)
         sc,reasons=score(alltext,max(x["weight"] for x in group),max(float(anchor[i]) for i in ids))
         coverage_names={source_family(x["source"]) for x in group}
