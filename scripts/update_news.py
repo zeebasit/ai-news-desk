@@ -24,7 +24,7 @@ SESSION=requests.Session(); SESSION.headers.update({"User-Agent":"AI-News-Desk/1
 
 CATEGORY={
 "Stavanger/Rogaland":["stavanger","rogaland","sandnes","jæren","jaeren","karmøy","karmoy","haugesund","jåttå","jatta","tananger","sola","ekofisk","vår energi","vaar energi","sus ","stavanger university hospital"],
-"Norway":["norway","norwegian","oslo","storting","regjeringen","norges bank","equinor"],
+"Norway":["norway","norwegian","oslo","storting","norges bank","equinor"],
 "Tech":["artificial intelligence"," ai ","cyber","ransomware","hack","software","cloud","semiconductor","chip","openai","google","microsoft","apple","meta","nvidia","data center","datacentre","quantum"],
 "Middle East":["israel","israeli","gaza","palestin","iran","iranian","iraq","syria","lebanon","saudi","yemen","houthi","qatar","uae","emirates","jordan","oman","hormuz"],
 "US/Canada":["united states","u.s.","american","white house","congress","supreme court","federal law","appeals court","canada","canadian","alberta","ontario","quebec","ottawa","los angeles","new york city","chicago","houston","miami","boston","philadelphia","san francisco","seattle","washington dc","washington d.c.","alabama","alaska","arizona","arkansas","california","colorado","connecticut","delaware","florida","georgia","hawaii","idaho","illinois","indiana","iowa","kansas","kentucky","louisiana","maine","maryland","massachusetts","michigan","minnesota","mississippi","missouri","montana","nebraska","nevada","new hampshire","new jersey","new mexico","new york","north carolina","north dakota","ohio","oklahoma","oregon","pennsylvania","rhode island","south carolina","south dakota","tennessee","texas","utah","vermont","virginia","washington state","west virginia","wisconsin","wyoming"],
@@ -250,7 +250,7 @@ def cluster(a,E,mode):
             shared_distinctive=(ti & tj & distinctive)
             close_time=abs((dateparser.parse(a[i]["published_at"])-dateparser.parse(a[j]["published_at"])).total_seconds())<=18*3600
             same_event_hint=bool(shared_distinctive) and close_time and ov>=.35 and S[i,j]>=th-.16
-            strong_title_event=close_time and ov>=.50
+            strong_title_event=close_time and ov>=.45 and S[i,j]>=th-.12
             if S[i,j]>=th or (S[i,j]>=th-.08 and ov>=.48) or same_event_hint or strong_title_event:
                 d.u(i,j)
     g=defaultdict(list)
