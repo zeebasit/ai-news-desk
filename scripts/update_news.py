@@ -86,7 +86,8 @@ def when(e):
             except: pass
     return NOW
 def grss(q):
-    return "https://news.google.com/rss/search?q="+quote_plus(q+" when:1d")+"&hl=en-US&gl=US&ceid=US:en"
+    # Keep enough source history for the UI's Last 3 days filter.
+    return "https://news.google.com/rss/search?q="+quote_plus(q+" when:3d")+"&hl=en-US&gl=US&ceid=US:en"
 def fetch(url,source,weight):
     out=[]
     try:
