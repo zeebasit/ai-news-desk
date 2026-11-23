@@ -26,7 +26,7 @@ CATEGORY={
 "Norway":["norway","norwegian","oslo","storting","regjeringen","norges bank","equinor"],
 "Tech":["artificial intelligence"," ai ","cyber","ransomware","hack","software","cloud","semiconductor","chip","openai","google","microsoft","apple","meta","nvidia","data center","datacentre","quantum"],
 "Middle East":["israel","israeli","gaza","palestin","iran","iranian","iraq","syria","lebanon","saudi","yemen","houthi","qatar","uae","emirates","jordan","oman","hormuz"],
-"US/Canada":["united states","u.s.","american","white house","congress","canada","canadian","alberta","ontario","quebec","ottawa","los angeles","new york city","chicago","houston","miami","boston","philadelphia","san francisco","seattle","washington dc","washington d.c.","alabama","alaska","arizona","arkansas","california","colorado","connecticut","delaware","florida","georgia","hawaii","idaho","illinois","indiana","iowa","kansas","kentucky","louisiana","maine","maryland","massachusetts","michigan","minnesota","mississippi","missouri","montana","nebraska","nevada","new hampshire","new jersey","new mexico","new york","north carolina","north dakota","ohio","oklahoma","oregon","pennsylvania","rhode island","south carolina","south dakota","tennessee","texas","utah","vermont","virginia","washington state","west virginia","wisconsin","wyoming"],
+"US/Canada":["united states","u.s.","american","white house","congress","supreme court","federal law","appeals court","canada","canadian","alberta","ontario","quebec","ottawa","los angeles","new york city","chicago","houston","miami","boston","philadelphia","san francisco","seattle","washington dc","washington d.c.","alabama","alaska","arizona","arkansas","california","colorado","connecticut","delaware","florida","georgia","hawaii","idaho","illinois","indiana","iowa","kansas","kentucky","louisiana","maine","maryland","massachusetts","michigan","minnesota","mississippi","missouri","montana","nebraska","nevada","new hampshire","new jersey","new mexico","new york","north carolina","north dakota","ohio","oklahoma","oregon","pennsylvania","rhode island","south carolina","south dakota","tennessee","texas","utah","vermont","virginia","washington state","west virginia","wisconsin","wyoming"],
 "Europe/UK":["europe","european","britain","british","england","france","french","germany","german","italy","italian","albania","albanian","spain","poland","ukraine","russia","romania","romanian","denmark","danish","sweden","swedish","finland","finnish","netherlands","dutch","belgium","belgian","austria","austrian","switzerland","swiss","greece","greek","portugal","portuguese","ireland","irish","nato"]
 }
 IMPACT=[
@@ -232,9 +232,16 @@ class DSU:
         if a!=b:self.p[b]=a
 def cluster(a,E,mode):
     S=cosine_similarity(E); d=DSU(len(a)); th=SET["semantic_dedupe_threshold"] if mode=="sentence-transformers" else .60
+    distinctive={"blockade","referendum","ransomware","earthquake","tsunami","wildfire","landslide","eruption","ceasefire","coup","impeachment","merger","acquisition","takeover","bomb","evacuation","outbreak","epidemic","blackout"}
     for i in range(len(a)):
         for j in range(i+1,len(a)):
-            if S[i,j]>=th or (S[i,j]>=th-.08 and overlap(a[i]["title"],a[j]["title"])>=.52): d.u(i,j)
+            ov=overlap(a[i]["title"],a[j]["title"])
+            ti,tj=toks(a[i]["title"]),toks(a[j]["title"])
+            shared_distinctive=(ti & tj & distinctive)
+            close_time=abs((dateparser.parse(a[i]["published_at"])-dateparser.parse(a[j]["published_at"])).total_seconds())<=18*3600
+            same_event_hint=bool(shared_distinctive) and close_time and ov>=.35 and S[i,j]>=th-.16
+            if S[i,j]>=th or (S[i,j]>=th-.08 and ov>=.52) or same_event_hint:
+                d.u(i,j)
     g=defaultdict(list)
     for i in range(len(a)):g[d.f(i)].append(i)
     return list(g.values())
@@ -269,7 +276,8 @@ def score(text,weight,semantic):
     if mag and float(mag.group(1))<5.0 and not CAS.search(t):
         s-=30; reasons.append("minor event filtered")
     if any(k in t for k in ["celebrity","horoscope","recipe","movie review","football transfer","lottery","christmas tree","royal ceremony","anniversary ceremony","travel tips","restaurant review"]):s-=28
-    if any(k in t for k in ["not that unusual","what to know","what you need to know","explainer:","here's what","here is what"]):s-=16
+    if any(k in t for k in ["not that unusual","what to know","what you need to know","explainer:","here's what","here is what","what next","what do we know"]):s-=16
+    if re.search(r"^(why|how|what|can|could|should|will)\b.*\?$",t.strip()):s-=12
     if any(k in t for k in ["brief delays","minor disruption","brief disruption","quickly restored"]) and not CAS.search(t):s-=8
     return s,reasons
 def sid(t): return hashlib.sha1(" ".join(sorted(toks(t))[:12]).encode()).hexdigest()[:12]
