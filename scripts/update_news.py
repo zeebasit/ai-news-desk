@@ -326,7 +326,7 @@ def score(text,weight,semantic):
         if nums:
             s+=min(22,5+math.log10(max(nums))*7); reasons.append("reported fatalities")
             if max(nums)>=10 and any(k in t for k in ["attack","attacks","strike","strikes","bombing","shelling","drone","missile"]):
-                s+=12; reasons.append("mass-casualty attack")
+                s+=14; reasons.append("mass-casualty attack")
     if any(k in t for k in ["nationwide","state of emergency","hundreds of thousands","millions","hundreds of schools"]):
         s+=float(EW.get("quantified_scale",10)); reasons.append("large scale")
     if "naval blockade" in t or "shipping blockade" in t:
