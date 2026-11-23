@@ -4,7 +4,8 @@
     "top_story_limit": 60,
     "minimum_score": 38,
     "semantic_model": "sentence-transformers/all-MiniLM-L6-v2",
-    "semantic_dedupe_threshold": 0.82
+    "semantic_dedupe_threshold": 0.82,
+    "semantic_anchor_weight": 12
   },
   "direct_feeds": [
     {
@@ -26,6 +27,21 @@
       "name": "NRK",
       "url": "https://www.nrk.no/toppsaker.rss",
       "weight": 10
+    },
+    {
+      "name": "NRK Latest",
+      "url": "https://www.nrk.no/nyheiter/siste.rss",
+      "weight": 10
+    },
+    {
+      "name": "NRK Rogaland",
+      "url": "https://www.nrk.no/rogaland/siste.rss",
+      "weight": 11
+    },
+    {
+      "name": "Stavanger Aftenblad",
+      "url": "https://www.aftenbladet.no/rss",
+      "weight": 11
     }
   ],
   "trusted_sources": [
@@ -91,18 +107,65 @@
     }
   ],
   "global_sweeps": [
-    "earthquake OR flood OR flooding OR wildfire OR cyclone OR hurricane OR landslide OR eruption",
-    "protest OR protests OR riots OR unrest OR coup OR election OR referendum",
-    "cyberattack OR ransomware OR outage OR power grid OR critical infrastructure",
-    "war OR missile OR drone OR ceasefire OR sanctions OR NATO",
+    "earthquake OR flood OR flooding OR wildfire OR cyclone OR hurricane OR landslide OR eruption OR severe storm",
+    "protest OR protests OR riots OR unrest OR coup OR election OR referendum OR impeachment",
+    "cyberattack OR ransomware OR outage OR power grid OR critical infrastructure OR data breach",
+    "war OR missile OR drone OR ceasefire OR sanctions OR NATO OR blockade OR tanker",
     "outbreak OR epidemic OR WHO OR public health emergency",
-    "central bank OR inflation OR recession OR markets OR oil OR gas OR shipping",
-    "major science breakthrough OR space mission",
+    "central bank OR inflation OR recession OR market selloff OR stocks plunge OR oil OR gas OR shipping",
+    "artificial intelligence OR semiconductor OR cybersecurity acquisition OR technology merger OR data center",
+    "bomb threat OR mass evacuation OR terrorism OR school closures",
+    "Africa election OR protest OR conflict OR disaster OR outbreak",
+    "Asia election OR protest OR conflict OR disaster OR outbreak",
+    "Latin America election OR protest OR conflict OR disaster OR outbreak",
+    "Oceania election OR protest OR conflict OR disaster OR outbreak",
     "Norway OR Norwegian",
     "Stavanger OR Rogaland OR Sandnes"
   ],
   "paywall_sources": [
     "Financial Times",
     "Bloomberg"
+  ],
+  "focused_searches": [
+    {
+      "name": "Reuters geopolitics",
+      "query": "site:reuters.com (blockade OR Strait of Hormuz OR tanker OR refinery OR shipping attack OR military escalation)",
+      "weight": 12
+    },
+    {
+      "name": "Reuters markets",
+      "query": "site:reuters.com (selloff OR stock market OR futures OR central bank OR inflation OR recession OR oil prices)",
+      "weight": 12
+    },
+    {
+      "name": "Reuters security",
+      "query": "site:reuters.com (bomb threat OR evacuation OR terrorism OR security alert OR critical infrastructure)",
+      "weight": 12
+    },
+    {
+      "name": "Reuters tech",
+      "query": "site:reuters.com (cybersecurity OR cyberattack OR ransomware OR data center OR semiconductor OR artificial intelligence OR acquisition OR merger)",
+      "weight": 12
+    },
+    {
+      "name": "AP major events",
+      "query": "site:apnews.com (protest OR unrest OR coup OR election OR referendum OR flood OR earthquake OR wildfire OR outbreak)",
+      "weight": 12
+    },
+    {
+      "name": "AP technology",
+      "query": "site:apnews.com (cybersecurity OR artificial intelligence OR acquisition OR merger OR technology)",
+      "weight": 12
+    },
+    {
+      "name": "BBC major events",
+      "query": "site:bbc.com (protest OR unrest OR flood OR earthquake OR cyberattack OR election OR referendum)",
+      "weight": 10
+    },
+    {
+      "name": "Al Jazeera major events",
+      "query": "site:aljazeera.com (protest OR unrest OR conflict OR flood OR earthquake OR election OR referendum)",
+      "weight": 9
+    }
   ]
 }
