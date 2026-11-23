@@ -21,11 +21,11 @@ SET=CFG["settings"]; NOW=datetime.now(timezone.utc); MAXAGE=timedelta(hours=SET[
 SESSION=requests.Session(); SESSION.headers.update({"User-Agent":"AI-News-Desk/1.0 headline-metadata-only"})
 
 CATEGORY={
-"Stavanger/Rogaland":["stavanger","rogaland","sandnes","jæren","jaeren","karmøy","karmoy","haugesund","jåttå","jatta"],
+"Stavanger/Rogaland":["stavanger","rogaland","sandnes","jæren","jaeren","karmøy","karmoy","haugesund","jåttå","jatta","tananger","sola","ekofisk","vår energi","vaar energi","sus ","stavanger university hospital"],
 "Norway":["norway","norwegian","oslo","storting","regjeringen","norges bank","equinor"],
 "Tech":["artificial intelligence"," ai ","cyber","ransomware","hack","software","cloud","semiconductor","chip","openai","google","microsoft","apple","meta","nvidia","data center","datacentre","quantum"],
 "Middle East":["israel","israeli","gaza","palestin","iran","iranian","iraq","syria","lebanon","saudi","yemen","houthi","qatar","uae","emirates","jordan","oman","hormuz"],
-"US/Canada":["united states","u.s.","american","white house","congress","canada","canadian","alberta","ontario","quebec","ottawa","alabama","alaska","arizona","arkansas","california","colorado","connecticut","delaware","florida","georgia","hawaii","idaho","illinois","indiana","iowa","kansas","kentucky","louisiana","maine","maryland","massachusetts","michigan","minnesota","mississippi","missouri","montana","nebraska","nevada","new hampshire","new jersey","new mexico","new york","north carolina","north dakota","ohio","oklahoma","oregon","pennsylvania","rhode island","south carolina","south dakota","tennessee","texas","utah","vermont","virginia","washington state","west virginia","wisconsin","wyoming"],
+"US/Canada":["united states","u.s.","american","white house","congress","canada","canadian","alberta","ontario","quebec","ottawa","los angeles","new york city","chicago","houston","miami","boston","philadelphia","san francisco","seattle","washington dc","washington d.c.","alabama","alaska","arizona","arkansas","california","colorado","connecticut","delaware","florida","georgia","hawaii","idaho","illinois","indiana","iowa","kansas","kentucky","louisiana","maine","maryland","massachusetts","michigan","minnesota","mississippi","missouri","montana","nebraska","nevada","new hampshire","new jersey","new mexico","new york","north carolina","north dakota","ohio","oklahoma","oregon","pennsylvania","rhode island","south carolina","south dakota","tennessee","texas","utah","vermont","virginia","washington state","west virginia","wisconsin","wyoming"],
 "Europe/UK":["europe","european","britain","british","england","france","french","germany","german","italy","italian","albania","albanian","spain","poland","ukraine","russia","romania","romanian","nato"]
 }
 IMPACT=[
@@ -109,6 +109,7 @@ def collect():
     a=[]
     for f in CFG["direct_feeds"]: a+=fetch(f["url"],f["name"],f["weight"])
     for s in CFG["trusted_sources"]: a+=fetch(grss("site:"+s["domain"]),s["name"],s["weight"])
+    for s in CFG.get("focused_searches",[]): a+=fetch(grss(s["query"]),s["name"],s.get("weight",8))
     for q in CFG["global_sweeps"]: a+=fetch(grss(q),"Global sweep",5)
     d={}
     for x in a:
@@ -154,7 +155,7 @@ def category(text):
         if any(k in t for k in CATEGORY[c]):return c
     return "World"
 def score(text,weight,semantic):
-    t=text.lower(); s=float(weight)+semantic*16; reasons=[]
+    t=text.lower(); s=float(weight)+semantic*float(SET.get("semantic_anchor_weight",12)); reasons=[]
     for pts,terms in IMPACT:
         if any(k in t for k in terms):s+=pts; reasons.append("high-impact event" if pts>=18 else "significant public impact");break
     m=CAS.search(t)
@@ -166,7 +167,7 @@ def score(text,weight,semantic):
     mag=re.search(r"\bmagnitude\s+([0-9]+(?:\.[0-9]+)?)",t)
     if mag and float(mag.group(1))<5.0 and not CAS.search(t):
         s-=30; reasons.append("minor event filtered")
-    if any(k in t for k in ["celebrity","horoscope","recipe","movie review","football transfer","lottery"]):s-=30
+    if any(k in t for k in ["celebrity","horoscope","recipe","movie review","football transfer","lottery","christmas tree","royal ceremony","anniversary ceremony","travel tips","restaurant review"]):s-=28
     return s,reasons
 def sid(t): return hashlib.sha1(" ".join(sorted(toks(t))[:12]).encode()).hexdigest()[:12]
 def build(a):
