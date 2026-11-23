@@ -199,10 +199,10 @@ def collect():
     jobs=[]
     # Direct feeds get the widest window; discovery searches are capped before
     # embeddings so broad coverage does not turn into thousands of candidates.
-    for f in CFG["direct_feeds"]: jobs.append((f["url"],f["name"],f["weight"],80))
-    for s in CFG["trusted_sources"]: jobs.append((grss("site:"+s["domain"]),s["name"],s["weight"],60))
-    for s in CFG.get("focused_searches",[]): jobs.append((grss(s["query"]),s["name"],s.get("weight",8),50))
-    for q in CFG["global_sweeps"]: jobs.append((grss(q),"Global sweep",5,35))
+    for f in CFG["direct_feeds"]: jobs.append((f["url"],f["name"],f["weight"],60))
+    for s in CFG["trusted_sources"]: jobs.append((grss("site:"+s["domain"]),s["name"],s["weight"],40))
+    for s in CFG.get("focused_searches",[]): jobs.append((grss(s["query"]),s["name"],s.get("weight",8),30))
+    for q in CFG["global_sweeps"]: jobs.append((grss(q),"Global sweep",5,20))
     a=[]
     with ThreadPoolExecutor(max_workers=8) as pool:
         futures=[pool.submit(fetch,*job) for job in jobs]
