@@ -254,31 +254,57 @@ class DSU:
         a,b=self.f(a),self.f(b)
         if a!=b:self.p[b]=a
 def cluster(a,E,mode):
-    S=cosine_similarity(E); th=SET["semantic_dedupe_threshold"] if mode=="sentence-transformers" else .60
+    S=cosine_similarity(E)
+    th=SET["semantic_dedupe_threshold"] if mode=="sentence-transformers" else .60
     distinctive={"blockade","referendum","ransomware","earthquake","tsunami","wildfire","landslide","eruption","ceasefire","coup","impeachment","merger","acquisition","takeover","bomb","evacuation","outbreak","epidemic","blackout"}
     item_cat=[category(x["title"]+" "+x["summary"]) for x in a]
+
+    def pair_match(i,j):
+        sem=float(S[i,j]); ov=overlap(a[i]["title"],a[j]["title"])
+        ti,tj=toks(a[i]["title"]),toks(a[j]["title"])
+        close_time=abs((dateparser.parse(a[i]["published_at"])-dateparser.parse(a[j]["published_at"])).total_seconds())<=24*3600
+        category_agree=(item_cat[i]==item_cat[j]) or "World" in (item_cat[i],item_cat[j])
+        shared_distinctive=bool(ti & tj & distinctive)
+        shared_entities=entityish(a[i]["title"]) & entityish(a[j]["title"])
+        shared_numbers=number_tokens(a[i]["title"]) & number_tokens(a[j]["title"])
+
+        # Extremely high semantic similarity can stand on its own.
+        if sem>=max(.90,th+.06):
+            return True
+        # Otherwise require category compatibility plus lexical/event evidence.
+        if not category_agree:
+            return False
+        if sem>=th and ov>=.20:
+            return True
+        if close_time and sem>=th-.08 and ov>=.42:
+            return True
+        if shared_distinctive and close_time and sem>=th-.12 and ov>=.30:
+            return True
+        if close_time and len(shared_entities)>=2 and shared_numbers and sem>=th-.14:
+            return True
+        return False
+
+    # Representative-based clustering prevents transitive "bridge" articles from
+    # chaining unrelated events into one giant cluster.
     order=sorted(range(len(a)),key=lambda i:(a[i]["weight"],a[i]["published_at"]),reverse=True)
     groups=[]; reps=[]
     for i in order:
-        best=None; best_sim=-1.0
-        for gi,r in enumerate(reps):
-            ov=overlap(a[i]["title"],a[r]["title"])
-            ti,tr=toks(a[i]["title"]),toks(a[r]["title"])
-            shared_distinctive=(ti & tr & distinctive)
-            close_time=abs((dateparser.parse(a[i]["published_at"])-dateparser.parse(a[r]["published_at"])).total_seconds())<=18*3600
-            same_category=item_cat[i]==item_cat[r]
-            same_event_hint=bool(shared_distinctive) and close_time and ov>=.35 and S[i,r]>=th-.16
-            strong_title_event=close_time and ov>=.50
-            shared_entities=entityish(a[i]["title"]) & entityish(a[r]["title"])
-            shared_numbers=number_tokens(a[i]["title"]) & number_tokens(a[r]["title"])
-            cross_language_hint=close_time and len(shared_entities)>=2 and bool(shared_numbers)
-            semantic_event=same_category and S[i,r]>=th
-            lexical_semantic=same_category and S[i,r]>=th-.08 and ov>=.48
-            matched=semantic_event or lexical_semantic or same_event_hint or strong_title_event or cross_language_hint
-            if matched and S[i,r]>best_sim:
-                best,best_sim=gi,S[i,r]
+        best=None; best_sem=-1.0
+        for k,rep in enumerate(reps):
+            if not pair_match(i,rep):
+                continue
+            members=groups[k]
+            if len(members)>=3:
+                compatible=sum(
+                    1 for j in members
+                    if float(S[i,j])>=th-.08 and overlap(a[i]["title"],a[j]["title"])>=.18
+                )
+                if compatible<max(1,len(members)//2):
+                    continue
+            if float(S[i,rep])>best_sem:
+                best=k; best_sem=float(S[i,rep])
         if best is None:
-            reps.append(i); groups.append([i])
+            groups.append([i]); reps.append(i)
         else:
             groups[best].append(i)
     return groups
@@ -375,9 +401,13 @@ def build(a):
             if x["url"] in seen or fam in seen_names:continue
             seen.add(x["url"]); seen_names.add(fam)
             src.append({"name":x["source"],"url":x["url"],"published_at":x["published_at"],"paywalled":x["paywalled"]})
-        brief_candidates=[x.get("summary","").strip() for x in display_group if len(x.get("summary","").strip())>=70]
-        brief=max(brief_candidates,key=len)[:360] if brief_candidates else ""
-        image=next((x.get("image","") for x in display_group if x.get("image")), "")
+        lead_summary=lead.get("summary","").strip()
+        if len(lead_summary)>=60:
+            brief=lead_summary[:360]
+        else:
+            brief_candidates=[x.get("summary","").strip() for x in display_group if source_family(x["source"])==source_family(lead["source"]) and len(x.get("summary","").strip())>=60]
+            brief=(brief_candidates[0][:360] if brief_candidates else lead_summary[:360])
+        image=lead.get("image","") or next((x.get("image","") for x in display_group if source_family(x["source"])==source_family(lead["source"]) and x.get("image")), "")
         out.append({"id":sid(lead["title"]),"title":lead["title"],"summary":brief,"image":image,"category":cat,"importance":importance_level(sc,reasons,alltext),"score":round(sc,1),"published_at":max(x["published_at"] for x in group),"source_count":len(trusted_names) if trusted_names else len(coverage_names),"reasons":list(dict.fromkeys(reasons))[:4],"sources":src[:8],"lead_url":lead["url"]})
     out.sort(key=lambda x:(x["score"],x["published_at"]),reverse=True)
     return {"generated_at":NOW.isoformat(),"model_mode":mode,"stories":out[:SET["top_story_limit"]],"watchlist":WATCH.get("events",[])}
