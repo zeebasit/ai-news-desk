@@ -58,7 +58,8 @@ ANCHORS=[
 "major climate energy shipping supply chain commodity or strategic chokepoint disruption",
 "important Norway national policy economy security public service or energy development",
 "important Stavanger Rogaland transport healthcare energy industry security or local public development"
-]LEADERSHIP_TERMS=["ceo","chief executive","chairman","president","board"]
+]
+LEADERSHIP_TERMS=["ceo","chief executive","chairman","president","board"]
 LEADERSHIP_CHANGE_TERMS=["reinstated","resigns","resigned","ouster","ousted","removed","appointed","returns","return as","succession","steps down","stepped down"]
 PAY=set(CFG.get("paywall_sources",[]))
 TRUSTED_PATTERNS=["reuters","ap news","associated press","bbc","bloomberg","financial times","axios","al jazeera","drop site","nrk","stavanger aftenblad","aftenbladet","regjeringen","politiet"]
