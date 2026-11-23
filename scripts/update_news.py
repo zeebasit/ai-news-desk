@@ -31,11 +31,12 @@ CATEGORY={
 }
 IMPACT=[
 (20,["earthquake","tsunami","hurricane","cyclone","typhoon","wildfire","flood","flooding","landslide","eruption","state of emergency"]),
-(20,["war","invasion","missile","airstrike","drone strike","ceasefire","nuclear","military attack","sanctions"]),
+(20,["war","invasion","missile","airstrike","drone strike","ceasefire","nuclear","military attack","sanctions","blockade","naval blockade","tanker attack"]),
 (20,["cyberattack","cyber attack","ransomware","power grid","critical infrastructure","hospital outage","airport outage","telecom outage","water system"]),
 (18,["election","referendum","parliament","presidential","prime minister","government collapses","resigns","impeachment","constitutional"]),
 (18,["outbreak","epidemic","pandemic","ebola","cholera","public health emergency"]),
-(16,["central bank","interest rate","inflation","recession","oil prices","stock market","financial crisis","bank failure"]),
+(16,["central bank","interest rate","inflation","recession","oil prices","stock market","financial crisis","bank failure","market selloff","market rout","stocks plunge","futures rally"]),
+(18,["bomb threat","bomb threats","mass evacuation","school closures","terrorism alert"]),
 (15,["protest","protests","riot","riots","unrest","clashes","mass demonstration"]),
 (13,["shipping","strait","pipeline","refinery","electricity","blackout","railway","airport"]),
 (11,["science","spacecraft","mission","climate","breakthrough"])
@@ -163,7 +164,16 @@ def score(text,weight,semantic):
     if m:
         nums=[int(x) for x in m.groups() if x]
         if nums:s+=min(22,5+math.log10(max(nums))*7); reasons.append("reported fatalities")
-    if any(k in t for k in ["nationwide","state of emergency","hundreds of thousands","millions"]):s+=10; reasons.append("large scale")
+    if any(k in t for k in ["nationwide","state of emergency","hundreds of thousands","millions","hundreds of schools"]):s+=10; reasons.append("large scale")
+    market_terms=["stock","stocks","nasdaq","s&p","market","markets","futures","index","indices"]
+    pct=[float(x) for x in re.findall(r"\b(\d+(?:\.\d+)?)\s*%",t)]
+    if pct and max(pct)>=5 and any(k in t for k in market_terms):
+        s+=12; reasons.append("large market move")
+    deal=re.search(r"\$\s*(\d+(?:\.\d+)?)\s*billion",t)
+    if deal and any(k in t for k in ["acquire","acquisition","merger","takeover","deal"]):
+        value=float(deal.group(1))
+        if value>=10:s+=15; reasons.append("major transaction")
+        elif value>=5:s+=9; reasons.append("large transaction")
     if any(k in t for k in ["norway","norwegian","stavanger","rogaland","sandnes"]):s+=9; reasons.append("Norway/local relevance")
     mag=re.search(r"\bmagnitude\s+([0-9]+(?:\.[0-9]+)?)",t)
     if mag and float(mag.group(1))<5.0 and not CAS.search(t):
