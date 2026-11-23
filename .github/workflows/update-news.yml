@@ -26,6 +26,8 @@ jobs:
         with:
           python-version: "3.11"
           cache: "pip"
+      - name: Validate collector syntax
+        run: python -m py_compile scripts/update_news.py
       - name: Cache semantic model
         uses: actions/cache@v4
         with:
