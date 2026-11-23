@@ -5,7 +5,14 @@
     "minimum_score": 38,
     "semantic_model": "sentence-transformers/all-MiniLM-L6-v2",
     "semantic_dedupe_threshold": 0.82,
-    "semantic_anchor_weight": 12
+    "semantic_anchor_weight": 12,
+    "evidence_weights": {
+      "trusted_source_consensus": 5,
+      "coverage_velocity": 8,
+      "quantified_scale": 10,
+      "local_relevance": 8,
+      "semantic_impact": 12
+    }
   },
   "direct_feeds": [
     {
@@ -122,7 +129,11 @@
     "Norway OR Norwegian",
     "Stavanger OR Rogaland OR Sandnes",
     "CEO OR chief executive OR chairman OR board resignation OR board reinstates OR executive ousted OR leadership change",
-    "shares jump OR shares surge OR shares plunge OR stock jumps OR stock plunges OR market value"
+    "shares jump OR shares surge OR shares plunge OR stock jumps OR stock plunges OR market value",
+    "CEO OR chief executive OR chairman OR board (reinstated OR resigns OR ousted OR removed OR appointed OR succession)",
+    "\"shares jump\" OR \"shares surge\" OR \"shares plunge\" OR \"stock jumps\" OR \"stock plunges\" OR \"market value\"",
+    "\"billion deal\" OR \"billion acquisition\" OR \"billion merger\" OR takeover",
+    "\"state of emergency\" OR evacuation OR displaced OR \"critical infrastructure\" OR nationwide"
   ],
   "paywall_sources": [
     "Financial Times",
@@ -171,23 +182,18 @@
     },
     {
       "name": "Reuters corporate leadership",
-      "query": "site:reuters.com (CEO OR chief executive OR chairman OR board) (reinstated OR resigns OR resigned OR ousted OR appointed OR succession OR returns)",
+      "query": "site:reuters.com (CEO OR chief executive OR chairman OR board) (reinstated OR resigns OR resigned OR ousted OR appointed OR succession OR returns OR removed)",
       "weight": 12
     },
     {
       "name": "AP corporate leadership",
-      "query": "site:apnews.com (CEO OR chief executive OR chairman OR board) (reinstated OR resigns OR resigned OR ousted OR appointed OR succession OR returns)",
+      "query": "site:apnews.com (CEO OR chief executive OR chairman OR board) (reinstated OR resigns OR resigned OR ousted OR appointed OR succession OR returns OR removed)",
       "weight": 12
     },
     {
       "name": "Bloomberg corporate leadership",
-      "query": "site:bloomberg.com (CEO OR chief executive OR chairman OR board) (reinstated OR resigns OR ousted OR appointed OR succession OR returns)",
+      "query": "site:bloomberg.com (CEO OR chief executive OR chairman OR board) (reinstated OR resigns OR ousted OR appointed OR succession OR returns OR removed)",
       "weight": 11
-    },
-    {
-      "name": "Major company market shock",
-      "query": "(Nvidia OR Microsoft OR Apple OR Alphabet OR Google OR Amazon OR Meta OR Tesla OR TSMC OR ASML OR Broadcom OR AMD) (CEO OR chief executive OR board OR shares jump OR shares plunge OR stock jumps OR stock plunges)",
-      "weight": 10
     }
   ]
 }
