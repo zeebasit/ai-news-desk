@@ -381,8 +381,10 @@ def consolidate_selected(stories,E):
             same=(sem>=.88 or
                   (sem>=.78 and ov>=.30) or
                   (sem>=.72 and ov>=.42) or
-                  (sem>=.70 and shared_event and (ov>=.20 or ent>=1)) or
-                  (sem>=.70 and ent>=2 and ov>=.20))
+                  (sem>=.68 and shared_event and (ov>=.18 or ent>=1)) or
+                  (ent>=2 and ov>=.18) or
+                  (shared_event and ent>=1 and ov>=.16) or
+                  (shared_event and ov>=.32))
             if same:
                 target=m;break
         if target is None:
