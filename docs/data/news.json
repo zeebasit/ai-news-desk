@@ -1,14 +1,16 @@
 {
-  "generated_at": "2026-11-23T13:53:34.610115+00:00",
+  "generated_at": "2026-11-23T14:35:02.444538+00:00",
   "model_mode": "sentence-transformers",
   "stories": [
     {
       "id": "bfc88015cab8",
       "title": "ConocoPhillips exits Norway with $4.4 billion asset sale to Vaar Energi",
+      "summary": "ConocoPhillips exits Norway with $4.4 billion asset sale to Vaar Energi Reuters",
+      "image": "",
       "category": "Stavanger/Rogaland",
       "importance": "Major",
       "score": 58.0,
-      "published_at": "2026-11-23T13:49:12+00:00",
+      "published_at": "2026-11-23T14:27:45+00:00",
       "source_count": 2,
       "reasons": [
         "significant public impact",
@@ -27,17 +29,19 @@
           "name": "Bloomberg.com",
           "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOa2ZKZno0ZTJ2VHFPQ1ByWERSTUJIMXNIQXI4RjRaSWNiT0xpR1lremdXTlprMW90V3JvNWN5Smxkdk9kMHJnb282UzA2VDk5MExjWERLLU0wdk9Gbkp1RFpWeEtBSVRlZ0Exc0E2a2xWUlVFN0xiMlZXYUkzMUt5NkQ3Q2YzWHZ1N3FqQWVyY3ZDVjRKSHFCdFZTYlVWcFpjemZWSTdFempUR1publlsbGpUTHY?oc=5",
           "published_at": "2026-11-23T10:29:49+00:00",
-          "paywalled": true
+          "paywalled": false
         }
       ],
       "lead_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQcHNqQjMxSlNrcGN4LVZIUC0yZUpTTUQyOU1SNnJaTkFpQkFnRHFYODF0R0hhbnBkbTFfbEpMYU9WSlNMYWFLTjhPOGszWHFoX0JnZnZBY2pVNDVFbEFJYlBKSHhiZ1EyaU80anh6d3RuVFVPZUFJOUVmZndKbWVxRGlaLW1DUG1QN2ZkS2ZOTEhZbUJSRk5zTUtRNXVrNkZjaWNjSGVvRy1iRlZRMkFfa0gzcTl4Zw?oc=5",
       "first_reported_at": "2026-11-23T13:12:21+00:00",
-      "update_count": 3,
+      "update_count": 4,
       "updated": true
     },
     {
       "id": "a51fbeec8ebb",
       "title": "FBI's criminal information database hacked, CNN reports",
+      "summary": "",
+      "image": "",
       "category": "Tech",
       "importance": "Major",
       "score": 50.2,
@@ -58,14 +62,112 @@
       "lead_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNRE83U2NSQ2FlbllBaUxQUzl5UWdfWktnME85LVk1ZkJFczYwOUJEbXpoV0tzUXltYWhtTl8zT05jeW9yX29sREJwZkxCNWdxZWwxcGlUa2N1YzM4YjRZcVF6dWpNbGhfak5zWjNsdnpQcFAzVGdoSmZGLTN5R21KZlcxV2dUZU15czdSQU5fYXJLV1MzWTVuYkdTRi1weFU?oc=5",
       "first_reported_at": "2026-11-22T08:02:17+00:00",
       "update_count": 2,
+      "updated": false
+    },
+    {
+      "id": "e93179d87a91",
+      "title": "Zelenskyy hails Ukraine’s attack on a Russian warship docked at a naval base in Libya",
+      "summary": "The Kremlin warns of an \"escalation of tensions in the region\", but declines to comment directly on the attacks in Libya.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/927f/live/24790470-e740-11f1-99b6-a35a62fa4264.png",
+      "category": "Europe/UK",
+      "importance": "Major",
+      "score": 46.3,
+      "published_at": "2026-11-23T14:16:36+00:00",
+      "source_count": 5,
+      "reasons": [
+        "high-impact event",
+        "5 trusted sources"
+      ],
+      "sources": [
+        {
+          "name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPR1VjenRaWHFSYy04RXNZOGtGZ21ldWg3a1B4WVp3dk1OY2pPZ2pRcXFCLTk0YnJjalVEMnBqV2M2UnpCSENVWVNPVDhEZXhNQTdPZnlPWDJhNXR5VThOTVdKT2JRYmJfOW9hTzdqRUdMakNOUEFHVmdwWnNNOEx6ZmFiRVc5Z1JyZE5nNHFwODlkTkp5aHRVNUZxZVo2aDR0TnN6U2VRTlE?oc=5",
+          "published_at": "2026-11-23T13:34:00+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQVVVOaXhUTVZWaDZ0YnlSQnRpZk1JdVpWdkJKVUlmQVpETHVkYV9CazJxR0xnS041MUYxQXcyV3IxZWpqbkVrWk9ZU1NaY2NyNTdHTjd6YmFHSFRIX0NpTE8tV3ZYaS1LajllOGxZZlAzclF3OGpiWU1Jd1dTNVB2VWtJMEZQd1lROVhxUnhYUUJ3TFBsMUV2YlFaQktHU0Q4RHktYnpTLXRndjl2aEZlQ3VzZWZSSFRSVzJiZjJsa3JaSkV4?oc=5",
+          "published_at": "2026-11-23T07:53:00+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "Bloomberg.com",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNWTNScnRLbTBmUFlSREM2eE9QZFJnNVVzWDZKTVE2OTNMaHd1VnRqN3pWZnM3bC0zZlMyS3NwLVdqWGwxc3FBXzM4V2hVRWNQNkxnVlZxaXdSVElrRGo1ZjhmdG5aM3I0NlZEc2dUU3NSTkpRcFhrMzhVeEJVWFd0eHl0RTNySGRlWjRtNzVjS25RY0o3aDhsY0pCZl9SUmRIT3NNNi1qel9hX1F1bnBwYUNn?oc=5",
+          "published_at": "2026-11-23T11:29:43+00:00",
+          "paywalled": true
+        },
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-11-23T11:40:01+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPM1FmOGYwcEh6Rk5MNnNVVjA3eGZ2ZFBIc0VRc0lSNkI2MUE5NTI2WVZnemZZMkRIcmw2UE4zcmJyUGg5ek9VTmhNNXZpeWR1dWtUTE9NTDliaG9LZWNKb2NKdEFVaHE4N0JFMktnVldYWXAtOFBWaE9mZHZxZVE4OWJVV240RmJkOW5aOW9jakdwSzZTeVBLanBxTXh4QmcxWFZhbGJwMndmZTMyN1BHeUh5Z9IBuAFBVV95cUxQVXFtbU85SlhXR3NKMF9Fd1VrelFHOHBzaVRZZVJMcVNlQnFTZkp0bmJKbzRrOWhkWXdFcHROZG5aaGIwempKSGk3R0hmclQ3M2xMMXNKb2VUcG9UNENYOUh6SHh0MWR3UzhNLUpjQ0VnVUE2dGZJUjRLNzZVTUtscFNTbEpLWlpYRGxTeUJveXU4cmJEb0RKYUwwV3M2cVNMclRQd0k0LVZJVm55ZzZLNGNhN1IzREVh?oc=5",
+          "published_at": "2026-11-23T10:39:10+00:00",
+          "paywalled": false
+        }
+      ],
+      "lead_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPR1VjenRaWHFSYy04RXNZOGtGZ21ldWg3a1B4WVp3dk1OY2pPZ2pRcXFCLTk0YnJjalVEMnBqV2M2UnpCSENVWVNPVDhEZXhNQTdPZnlPWDJhNXR5VThOTVdKT2JRYmJfOW9hTzdqRUdMakNOUEFHVmdwWnNNOEx6ZmFiRVc5Z1JyZE5nNHFwODlkTkp5aHRVNUZxZVo2aDR0TnN6U2VRTlE?oc=5",
+      "first_reported_at": "2026-11-23T14:16:36+00:00",
+      "update_count": 0,
+      "updated": false
+    },
+    {
+      "id": "091998ae83a7",
+      "title": "CrowdStrike snaps up Zscaler in $44 billion deal as cyber threats mount",
+      "summary": "Crowdstrike to acquire Zscaler in a $44 billion deal that would create a cybersecurity giant AP News",
+      "image": "",
+      "category": "Tech",
+      "importance": "Major",
+      "score": 46.1,
+      "published_at": "2026-11-23T13:31:08+00:00",
+      "source_count": 4,
+      "reasons": [
+        "major transaction",
+        "4 trusted sources"
+      ],
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOcUdmOUFLaEppLU9uMl80V2x1RTg4YWg3VUc5cWZsVzNfUWJBN2pFY3BhTndKanI0U2gzZHMzZVdpeWlkVkdBMkxGZkEtNFYyYmhteTQ5MHM0NnhkN2lfVk1WcDRxZDluQzVXNll2OWhodnVmaG9qNm15SWdweEM4YmxSWXVKd21mNW9uWW82MHUyWlJLTEE?oc=5",
+          "published_at": "2026-11-23T13:31:08+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQekFodWNTV2dTaVZ6VDJScmUybjJ3QXRURFJjeVNtQVBmOEJkYUZTNnFlMnNKalRWdFdXOWVwTjg1TFU3THJIOU9hSXNtSXZCczVaT0xDYnNKUEJUYXFXbVpTUkhTNWRFb3VIa1RDcHdOMzB4ZVV4cTZ6STBQZ2RWLWNPT2U1RGRHYjIxNEZ1QlFXQXZJMDhJeHdDLUFUc2tSUjJoejc1dGhzTWtkUS1Hb3V1V1hKbXplV3J2Zw?oc=5",
+          "published_at": "2026-11-23T13:05:00+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "Bloomberg.com",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNUkFJTko4elVPRkJqM1J5WWo1LXpSVFBaVEZ4UDRvb0g5Rkl3bGZ4emltR2dwd3B1TGlSTE9pUFlfeEZ0U3pVdnRKS3ZrNXVhckJLS0VxOFRFOXJKWFBqYXZjbFVJQUJodjd2VnRiZGJGMVAtdEtMT1ZvSmRMNkVtMmo5QTdOOUZhQ01pTXhRUjFGQXc3Yzc1aU5SOE5KWmw2enJzRmo1Z3lDdDNwdS1MUVNn?oc=5",
+          "published_at": "2026-11-23T12:54:20+00:00",
+          "paywalled": true
+        },
+        {
+          "name": "Financial Times",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNaXRqYWdBS2lmTXl0cGRSN0lSa1JjMTBKNzlLSktkUXBQaW9idWU1b3hSc0kwUExtMV9SODYzSHU4REJWakg5cDc3X01jU2ctMUdRV0w1eHRBUXh0NjlQUDB6MXVwb09lVUZZdUNBNEhpLWw2V2hPSXF1QlAteEpFSEQ2bFU?oc=5",
+          "published_at": "2026-11-23T11:02:10+00:00",
+          "paywalled": true
+        }
+      ],
+      "lead_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOcUdmOUFLaEppLU9uMl80V2x1RTg4YWg3VUc5cWZsVzNfUWJBN2pFY3BhTndKanI0U2gzZHMzZVdpeWlkVkdBMkxGZkEtNFYyYmhteTQ5MHM0NnhkN2lfVk1WcDRxZDluQzVXNll2OWhodnVmaG9qNm15SWdweEM4YmxSWXVKd21mNW9uWW82MHUyWlJLTEE?oc=5",
+      "first_reported_at": "2026-11-23T13:31:08+00:00",
+      "update_count": 1,
       "updated": true
     },
     {
       "id": "6c20552f17dc",
       "title": "Man convicted of starting Palisades fire in Los Angeles",
+      "summary": "The 30-year-old LA resident was convicted of arson leading to wildfires that killed 12 people and destroyed more than 6,800 buildings.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8053/live/b01bb4f0-e556-11f1-ad51-c3505e495cd9.jpg",
       "category": "US/Canada",
       "importance": "Notable",
-      "score": 45.4,
+      "score": 45.7,
       "published_at": "2026-11-21T04:34:00+00:00",
       "source_count": 1,
       "reasons": [
@@ -86,88 +188,10 @@
       "updated": false
     },
     {
-      "id": "14a467637c58",
-      "title": "Ukraine sinks Russian warship in Libya as conflict spreads beyond Europe",
-      "category": "Europe/UK",
-      "importance": "Notable",
-      "score": 44.3,
-      "published_at": "2026-11-23T13:08:26+00:00",
-      "source_count": 4,
-      "reasons": [
-        "high-impact event",
-        "4 trusted sources"
-      ],
-      "sources": [
-        {
-          "name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPR1VjenRaWHFSYy04RXNZOGtGZ21ldWg3a1B4WVp3dk1OY2pPZ2pRcXFCLTk0YnJjalVEMnBqV2M2UnpCSENVWVNPVDhEZXhNQTdPZnlPWDJhNXR5VThOTVdKT2JRYmJfOW9hTzdqRUdMakNOUEFHVmdwWnNNOEx6ZmFiRVc5Z1JyZE5nNHFwODlkTkp5aHRVNUZxZVo2aDR0TnN6U2VRTlE?oc=5",
-          "published_at": "2026-11-23T11:50:00+00:00",
-          "paywalled": false
-        },
-        {
-          "name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQVVVOaXhUTVZWaDZ0YnlSQnRpZk1JdVpWdkJKVUlmQVpETHVkYV9CazJxR0xnS041MUYxQXcyV3IxZWpqbkVrWk9ZU1NaY2NyNTdHTjd6YmFHSFRIX0NpTE8tV3ZYaS1LajllOGxZZlAzclF3OGpiWU1Jd1dTNVB2VWtJMEZQd1lROVhxUnhYUUJ3TFBsMUV2YlFaQktHU0Q4RHktYnpTLXRndjl2aEZlQ3VzZWZSSFRSVzJiZjJsa3JaSkV4?oc=5",
-          "published_at": "2026-11-23T07:53:00+00:00",
-          "paywalled": false
-        },
-        {
-          "name": "BBC",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5uMHB2QklwWHNKcnRwODUwWHptMEcySmEzbG1IQzJLRldoUzRGQ2htYVpRaS1MMDBDRU1wSDV3ZGNMWGxXVko2TEZQM0luOXlXempDSmlKdGU?oc=5",
-          "published_at": "2026-11-23T12:38:42+00:00",
-          "paywalled": false
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPM1FmOGYwcEh6Rk5MNnNVVjA3eGZ2ZFBIc0VRc0lSNkI2MUE5NTI2WVZnemZZMkRIcmw2UE4zcmJyUGg5ek9VTmhNNXZpeWR1dWtUTE9NTDliaG9LZWNKb2NKdEFVaHE4N0JFMktnVldYWXAtOFBWaE9mZHZxZVE4OWJVV240RmJkOW5aOW9jakdwSzZTeVBLanBxTXh4QmcxWFZhbGJwMndmZTMyN1BHeUh5Z9IBuAFBVV95cUxQVXFtbU85SlhXR3NKMF9Fd1VrelFHOHBzaVRZZVJMcVNlQnFTZkp0bmJKbzRrOWhkWXdFcHROZG5aaGIwempKSGk3R0hmclQ3M2xMMXNKb2VUcG9UNENYOUh6SHh0MWR3UzhNLUpjQ0VnVUE2dGZJUjRLNzZVTUtscFNTbEpLWlpYRGxTeUJveXU4cmJEb0RKYUwwV3M2cVNMclRQd0k0LVZJVm55ZzZLNGNhN1IzREVh?oc=5",
-          "published_at": "2026-11-23T10:39:10+00:00",
-          "paywalled": false
-        }
-      ],
-      "lead_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQVVVOaXhUTVZWaDZ0YnlSQnRpZk1JdVpWdkJKVUlmQVpETHVkYV9CazJxR0xnS041MUYxQXcyV3IxZWpqbkVrWk9ZU1NaY2NyNTdHTjd6YmFHSFRIX0NpTE8tV3ZYaS1LajllOGxZZlAzclF3OGpiWU1Jd1dTNVB2VWtJMEZQd1lROVhxUnhYUUJ3TFBsMUV2YlFaQktHU0Q4RHktYnpTLXRndjl2aEZlQ3VzZWZSSFRSVzJiZjJsa3JaSkV4?oc=5",
-      "first_reported_at": "2026-11-23T13:31:15+00:00",
-      "update_count": 0,
-      "updated": false
-    },
-    {
-      "id": "091998ae83a7",
-      "title": "CrowdStrike snaps up Zscaler in $44 billion deal as cyber threats mount",
-      "category": "Tech",
-      "importance": "Notable",
-      "score": 44.1,
-      "published_at": "2026-11-23T13:31:08+00:00",
-      "source_count": 3,
-      "reasons": [
-        "major transaction",
-        "3 trusted sources"
-      ],
-      "sources": [
-        {
-          "name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOcUdmOUFLaEppLU9uMl80V2x1RTg4YWg3VUc5cWZsVzNfUWJBN2pFY3BhTndKanI0U2gzZHMzZVdpeWlkVkdBMkxGZkEtNFYyYmhteTQ5MHM0NnhkN2lfVk1WcDRxZDluQzVXNll2OWhodnVmaG9qNm15SWdweEM4YmxSWXVKd21mNW9uWW82MHUyWlJLTEE?oc=5",
-          "published_at": "2026-11-23T13:31:08+00:00",
-          "paywalled": false
-        },
-        {
-          "name": "Bloomberg.com",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNUkFJTko4elVPRkJqM1J5WWo1LXpSVFBaVEZ4UDRvb0g5Rkl3bGZ4emltR2dwd3B1TGlSTE9pUFlfeEZ0U3pVdnRKS3ZrNXVhckJLS0VxOFRFOXJKWFBqYXZjbFVJQUJodjd2VnRiZGJGMVAtdEtMT1ZvSmRMNkVtMmo5QTdOOUZhQ01pTXhRUjFGQXc3Yzc1aU5SOE5KWmw2enJzRmo1Z3lDdDNwdS1MUVNn?oc=5",
-          "published_at": "2026-11-23T12:54:20+00:00",
-          "paywalled": true
-        },
-        {
-          "name": "Financial Times",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNaXRqYWdBS2lmTXl0cGRSN0lSa1JjMTBKNzlLSktkUXBQaW9idWU1b3hSc0kwUExtMV9SODYzSHU4REJWakg5cDc3X01jU2ctMUdRV0w1eHRBUXh0NjlQUDB6MXVwb09lVUZZdUNBNEhpLWw2V2hPSXF1QlAteEpFSEQ2bFU?oc=5",
-          "published_at": "2026-11-23T11:02:10+00:00",
-          "paywalled": true
-        }
-      ],
-      "lead_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOcUdmOUFLaEppLU9uMl80V2x1RTg4YWg3VUc5cWZsVzNfUWJBN2pFY3BhTndKanI0U2gzZHMzZVdpeWlkVkdBMkxGZkEtNFYyYmhteTQ5MHM0NnhkN2lfVk1WcDRxZDluQzVXNll2OWhodnVmaG9qNm15SWdweEM4YmxSWXVKd21mNW9uWW82MHUyWlJLTEE?oc=5",
-      "first_reported_at": "2026-11-23T13:31:08+00:00",
-      "update_count": 0,
-      "updated": false
-    },
-    {
       "id": "4139daaa3de7",
       "title": "Norway provides NOK 18.3 million to UNICEF's Ebola response in the DR Congo",
+      "summary": "Norway provides NOK 18.3 million to UNICEF's Ebola response in the DR Congo Regjeringen.no",
+      "image": "",
       "category": "Norway",
       "importance": "Notable",
       "score": 44.1,
@@ -193,6 +217,8 @@
     {
       "id": "44384ac4b6d9",
       "title": "Ballistic missile attack on Zelenskyy's hometown in central Ukraine kills 2 and wounds scores",
+      "summary": "Ballistic missile attack on Zelenskyy's hometown in central Ukraine kills 2 and wounds scores AP News",
+      "image": "",
       "category": "Europe/UK",
       "importance": "Notable",
       "score": 44.1,
@@ -216,51 +242,10 @@
       "updated": false
     },
     {
-      "id": "a364dce90524",
-      "title": "COP31: What next after UN climate talks collapse",
-      "category": "World",
-      "importance": "Notable",
-      "score": 43.9,
-      "published_at": "2026-11-23T11:19:08+00:00",
-      "source_count": 4,
-      "reasons": [
-        "high-impact event",
-        "4 trusted sources"
-      ],
-      "sources": [
-        {
-          "name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQc3loZzVPSEw4YTN0RXZEdEpveVFkV0JoU0dtRTktZXR6LS1XVGRNVElxWHpWVUQ3eEhOMllBam9jYlNIX29HeW9ncUwyWkNhenBPcmRZeTNBNmt6MF96SkU5TS1zWUVBSEFOS0FMV1gwVmJoS3c3bGw4TjgwLUU5NTFOUEtzOWx3dy04NkhLMW9CMmJxM1dLeVRBRWMyVl9SY1A3THFB?oc=5",
-          "published_at": "2026-11-22T10:13:00+00:00",
-          "paywalled": false
-        },
-        {
-          "name": "Financial Times",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOdDhrTl8yRDE4ZDFnUy1xb0RhQTV0OVB1UldLbjZNaUotZkxjU3BWU1Q0V3Q1Mmt2T3VzU2ZOWE1vX0U4cGR2b0Q1UTVfd3U3dHIteks3WjhOeUtKWFJNRTRrT296MkFtdWVQWktOaHBPXzBfcXk0LW5vU01rRGtzYktLNnI?oc=5",
-          "published_at": "2026-11-23T05:00:22+00:00",
-          "paywalled": true
-        },
-        {
-          "name": "BBC World",
-          "url": "https://www.bbc.co.uk/news/videos/cr1ewge81q4qo?at_medium=RSS&at_campaign=rss",
-          "published_at": "2026-11-23T05:34:39+00:00",
-          "paywalled": false
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/23/cop31-what-next-after-un-climate-talks-collapse?traffic_source=rss",
-          "published_at": "2026-11-23T11:19:08+00:00",
-          "paywalled": false
-        }
-      ],
-      "lead_url": "https://www.aljazeera.com/news/2026/11/23/cop31-what-next-after-un-climate-talks-collapse?traffic_source=rss",
-      "first_reported_at": "2026-11-23T11:19:08+00:00",
-      "update_count": 1,
-      "updated": false
-    },
-    {
       "id": "88a836383598",
       "title": "South Korea vows to stabilise stock market after KOSPI drops 5%",
+      "summary": "South Korea vows to stabilise stock market after KOSPI drops 5% Reuters",
+      "image": "",
       "category": "World",
       "importance": "Notable",
       "score": 43.4,
@@ -286,6 +271,8 @@
     {
       "id": "f9cfb3d2191a",
       "title": "Iran says it will use all its tools to confront US naval blockade",
+      "summary": "Iran says it will use all its tools to confront US naval blockade Reuters",
+      "image": "",
       "category": "Middle East",
       "importance": "Notable",
       "score": 42.1,
@@ -311,6 +298,8 @@
     {
       "id": "c4c2dfe3330a",
       "title": "Saudi Arabia says it intercepts three Houthi missiles targeting Riyadh",
+      "summary": "Saudi-led coalition intercepts three Houthi missiles headed for Riyadh Al Jazeera",
+      "image": "",
       "category": "Middle East",
       "importance": "Notable",
       "score": 41.5,
@@ -342,6 +331,8 @@
     {
       "id": "8e19ff88089c",
       "title": "Democrats clinch a historic House majority of at least 258 seats, the largest since 1992",
+      "summary": "Democrats have now won at least 258 seats in the midterms compared to Republicans, who hold at least 173 seats.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4632/live/52e19140-e715-11f1-99b6-a35a62fa4264.jpg",
       "category": "US/Canada",
       "importance": "Notable",
       "score": 40.5,
@@ -380,11 +371,13 @@
       "lead_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNN0ZaSUxXY2RGTWZBcXdNRjV0eWhIZUdfWjFBSmI1OHBGZy1qRWFpNnJxZDJVOC14dVFGZGdSS3NfeFNsQm1IcmJIWGs4M0l5alZQZVhDek80S1lnQ3plUkRrbm9uaE44RWtNMTBDTWRLUmdGLWVVUDRJZ1J5TmR4QU5vWW5qT2NvOHB3dklzcFZ2ZFltMy1SYVdJQnNRZFBiaURJN2t0bjExaE0?oc=5",
       "first_reported_at": "2026-11-23T13:02:05+00:00",
       "update_count": 1,
-      "updated": true
+      "updated": false
     },
     {
       "id": "a8fe195644f7",
       "title": "India announces a $1.6 billion aid package for Nepal’s flood recovery",
+      "summary": "India announces $1.62 billion package to bolster ties with flood-hit Nepal Reuters",
+      "image": "",
       "category": "World",
       "importance": "Notable",
       "score": 39.6,
@@ -416,6 +409,8 @@
     {
       "id": "0626b47ad8cc",
       "title": "Indonesia says 24 killed in factory blaze as rescuers search for dozens missing",
+      "summary": "Rescuers are searching for around 30 missing workers after a candy factory fire killed at least 24 people in Banten.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0675/live/85d2f2e0-e62c-11f1-b2ea-350d14ed1ad7.jpg",
       "category": "World",
       "importance": "Notable",
       "score": 39.1,
@@ -459,6 +454,8 @@
     {
       "id": "2d381938e941",
       "title": "At least 24 dead in Nigeria when boat capsizes while carrying people to a funeral",
+      "summary": "At least 24 dead in Nigeria when boat capsizes while carrying people to a funeral AP News",
+      "image": "",
       "category": "World",
       "importance": "Notable",
       "score": 38.9,
@@ -502,6 +499,8 @@
     {
       "id": "42f79c5347cc",
       "title": "Danish police investigate school bomb threats",
+      "summary": "",
+      "image": "",
       "category": "Europe/UK",
       "importance": "Notable",
       "score": 38.2,
@@ -524,32 +523,10 @@
       "updated": false
     },
     {
-      "id": "1fdd97e8e442",
-      "title": "NATO believes Russia is ready to launch nuclear-armed satellite, German media say",
-      "category": "Europe/UK",
-      "importance": "Notable",
-      "score": 38.2,
-      "published_at": "2026-11-23T09:50:34+00:00",
-      "source_count": 1,
-      "reasons": [
-        "high-impact event"
-      ],
-      "sources": [
-        {
-          "name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNQmRybDRhZzhaRkRlSHZUdWxTZVRPUEU1NDJfRFBwX3ItMDZsb0pSZWdFMlgwbDhzclBlaWwyTndXYUQxS0JrZFd5SjlNWC05YWYtYWZhREFHNE5VLXFEOGx3SkY5bWNrMWlYbVhEVklQN3YzMnZSNmVtcmNqdzlSQ21vZW1yWU4xN1UySDE1SHNCUXZfekUyQlRMQUFGMlBSWk5Hc0JFTjlsZGN6NS14M2E2eXk4a2tPUjZGd2Y4a09SX212UUlNY2lkVG1XQXZUMmhOMHRZMA?oc=5",
-          "published_at": "2026-11-23T09:10:32+00:00",
-          "paywalled": false
-        }
-      ],
-      "lead_url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNQmRybDRhZzhaRkRlSHZUdWxTZVRPUEU1NDJfRFBwX3ItMDZsb0pSZWdFMlgwbDhzclBlaWwyTndXYUQxS0JrZFd5SjlNWC05YWYtYWZhREFHNE5VLXFEOGx3SkY5bWNrMWlYbVhEVklQN3YzMnZSNmVtcmNqdzlSQ21vZW1yWU4xN1UySDE1SHNCUXZfekUyQlRMQUFGMlBSWk5Hc0JFTjlsZGN6NS14M2E2eXk4a2tPUjZGd2Y4a09SX212UUlNY2lkVG1XQXZUMmhOMHRZMA?oc=5",
-      "first_reported_at": "2026-11-23T09:50:34+00:00",
-      "update_count": 0,
-      "updated": false
-    },
-    {
       "id": "0c0e260e2b9d",
       "title": "Araqchi says Iran wants diplomacy to end war, Trump says terms unacceptable",
+      "summary": "Araqchi says Iran wants diplomacy to end war, Trump says terms unacceptable Reuters",
+      "image": "",
       "category": "Middle East",
       "importance": "Notable",
       "score": 38.2,
