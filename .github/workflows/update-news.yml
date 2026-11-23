@@ -1,6 +1,14 @@
 name: Update curated news
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/**"
+      - "config.json"
+      - "watchlist.json"
+      - "requirements.txt"
+      - ".github/workflows/update-news.yml"
   schedule:
     - cron: "7,37 * * * *"
 permissions:
