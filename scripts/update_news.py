@@ -27,7 +27,7 @@ CATEGORY={
 "Tech":["artificial intelligence"," ai ","cyber","ransomware","hack","software","cloud","semiconductor","chip","openai","google","microsoft","apple","meta","nvidia","data center","datacentre","quantum"],
 "Middle East":["israel","israeli","gaza","palestin","iran","iranian","iraq","syria","lebanon","saudi","yemen","houthi","qatar","uae","emirates","jordan","oman","hormuz"],
 "US/Canada":["united states","u.s.","american","white house","congress","canada","canadian","alberta","ontario","quebec","ottawa","los angeles","new york city","chicago","houston","miami","boston","philadelphia","san francisco","seattle","washington dc","washington d.c.","alabama","alaska","arizona","arkansas","california","colorado","connecticut","delaware","florida","georgia","hawaii","idaho","illinois","indiana","iowa","kansas","kentucky","louisiana","maine","maryland","massachusetts","michigan","minnesota","mississippi","missouri","montana","nebraska","nevada","new hampshire","new jersey","new mexico","new york","north carolina","north dakota","ohio","oklahoma","oregon","pennsylvania","rhode island","south carolina","south dakota","tennessee","texas","utah","vermont","virginia","washington state","west virginia","wisconsin","wyoming"],
-"Europe/UK":["europe","european","britain","british","england","france","french","germany","german","italy","italian","albania","albanian","spain","poland","ukraine","russia","romania","romanian","nato"]
+"Europe/UK":["europe","european","britain","british","england","france","french","germany","german","italy","italian","albania","albanian","spain","poland","ukraine","russia","romania","romanian","denmark","danish","sweden","swedish","finland","finnish","netherlands","dutch","belgium","belgian","austria","austrian","switzerland","swiss","greece","greek","portugal","portuguese","ireland","irish","nato"]
 }
 IMPACT=[
 (20,["earthquake","tsunami","hurricane","cyclone","typhoon","wildfire","flood","flooding","landslide","eruption","state of emergency"]),
@@ -165,6 +165,8 @@ def score(text,weight,semantic):
         nums=[int(x) for x in m.groups() if x]
         if nums:s+=min(22,5+math.log10(max(nums))*7); reasons.append("reported fatalities")
     if any(k in t for k in ["nationwide","state of emergency","hundreds of thousands","millions","hundreds of schools"]):s+=10; reasons.append("large scale")
+    if "naval blockade" in t or "shipping blockade" in t:
+        s+=5; reasons.append("strategic chokepoint risk")
     market_terms=["stock","stocks","nasdaq","s&p","market","markets","futures","index","indices"]
     pct=[float(x) for x in re.findall(r"\b(\d+(?:\.\d+)?)\s*%",t)]
     if pct and max(pct)>=5 and any(k in t for k in market_terms):
@@ -188,7 +190,9 @@ def build(a):
     anchor=cosine_similarity(E,A).max(axis=1); out=[]
     for ids in cluster(a,E,mode):
         group=[a[i] for i in ids]
-        lead_i=max(ids,key=lambda i:(score(a[i]["title"]+" "+a[i]["summary"],a[i]["weight"],float(anchor[i]))[0],a[i]["published_at"]))
+        trusted_ids=[i for i in ids if trusted_source(a[i]["source"])]
+        lead_pool=trusted_ids or ids
+        lead_i=max(lead_pool,key=lambda i:(score(a[i]["title"]+" "+a[i]["summary"],a[i]["weight"],float(anchor[i]))[0],a[i]["published_at"]))
         lead=a[lead_i]
         alltext=" ".join(x["title"]+" "+x["summary"] for x in group)
         sc,reasons=score(alltext,max(x["weight"] for x in group),max(float(anchor[i]) for i in ids))
