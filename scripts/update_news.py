@@ -57,6 +57,19 @@ TRUSTED_PATTERNS=["reuters","ap news","associated press","bbc","bloomberg","fina
 def trusted_source(name):
     n=(name or "").lower()
     return any(p in n for p in TRUSTED_PATTERNS)
+def source_family(name):
+    n=(name or "").lower()
+    if "reuters" in n:return "reuters"
+    if "associated press" in n or "ap news" in n:return "ap"
+    if "bbc" in n:return "bbc"
+    if "bloomberg" in n:return "bloomberg"
+    if "financial times" in n:return "ft"
+    if "al jazeera" in n:return "aljazeera"
+    if "stavanger aftenblad" in n or "aftenbladet" in n:return "aftenbladet"
+    if "regjeringen" in n:return "regjeringen"
+    if "nrk" in n:return "nrk"
+    if "politiet" in n:return "politiet"
+    return n
 CAS=re.compile(r"\b(?:(\d{1,5})\s+(?:people\s+)?(?:killed|dead|deaths|died)|(?:kills|killed)\s+(\d{1,5})|death toll (?:rises? to|at|of)?\s*(\d{1,5}))\b",re.I)
 
 def clean(x):
@@ -163,22 +176,27 @@ def build(a):
         group=[a[i] for i in ids]; lead=max(group,key=lambda x:(x["weight"],x["published_at"]))
         alltext=" ".join(x["title"]+" "+x["summary"] for x in group)
         sc,reasons=score(alltext,max(x["weight"] for x in group),max(float(anchor[i]) for i in ids))
-        coverage_names={x["source"].lower() for x in group}
-        trusted_names={x["source"].lower() for x in group if trusted_source(x["source"])}
+        coverage_names={source_family(x["source"]) for x in group}
+        trusted_names={source_family(x["source"]) for x in group if trusted_source(x["source"])}
         if len(trusted_names)>=2:
             sc+=min(10,4+(len(trusted_names)-2)*2); reasons.append(str(len(trusted_names))+" trusted sources")
         elif len(coverage_names)>=3:
             sc+=2
-        cat=category(alltext); floor=28 if cat in ["Norway","Stavanger/Rogaland"] else SET["minimum_score"]
-        if sc<floor:continue
-        if not trusted_names and cat not in ["Norway","Stavanger/Rogaland"] and sc<46:continue
+        cat=category(alltext)
+        if cat in ["Norway","Stavanger/Rogaland"]:
+            if sc<36:continue
+            if not trusted_names and sc<44:continue
+        else:
+            if sc<SET["minimum_score"]:continue
+            if not trusted_names and sc<46:continue
         display_group=[x for x in group if trusted_source(x["source"])] or group
         src=[]; seen=set(); seen_names=set()
         for x in sorted(display_group,key=lambda q:(q["weight"],q["published_at"]),reverse=True):
-            if x["url"] in seen or x["source"].lower() in seen_names:continue
-            seen.add(x["url"]); seen_names.add(x["source"].lower())
+            fam=source_family(x["source"])
+            if x["url"] in seen or fam in seen_names:continue
+            seen.add(x["url"]); seen_names.add(fam)
             src.append({"name":x["source"],"url":x["url"],"published_at":x["published_at"],"paywalled":x["paywalled"]})
-        out.append({"id":sid(lead["title"]),"title":lead["title"],"category":cat,"importance":"Critical" if sc>=72 else "Major" if sc>=52 else "Notable","score":round(sc,1),"published_at":max(x["published_at"] for x in group),"source_count":len(trusted_names) if trusted_names else len(coverage_names),"reasons":list(dict.fromkeys(reasons))[:4],"sources":src[:8],"lead_url":lead["url"]})
+        out.append({"id":sid(lead["title"]),"title":lead["title"],"category":cat,"importance":"Critical" if sc>=60 else "Major" if sc>=46 else "Notable","score":round(sc,1),"published_at":max(x["published_at"] for x in group),"source_count":len(trusted_names) if trusted_names else len(coverage_names),"reasons":list(dict.fromkeys(reasons))[:4],"sources":src[:8],"lead_url":lead["url"]})
     out.sort(key=lambda x:(x["score"],x["published_at"]),reverse=True)
     return {"generated_at":NOW.isoformat(),"model_mode":mode,"stories":out[:SET["top_story_limit"]],"watchlist":WATCH.get("events",[])}
 def main():
