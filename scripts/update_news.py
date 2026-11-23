@@ -98,9 +98,15 @@ def generic_quantified_signals(text):
     market_terms=["stock","stocks","share","shares","nasdaq","s&p","market","markets","futures","index","indices","market value"]
     if pct and any(k in t for k in market_terms):
         move=max(pct)
-        if move>=20: points+=18; reasons.append("major market reaction")
-        elif move>=10: points+=14; reasons.append("large market reaction")
-        elif move>=5: points+=9; reasons.append("large market move")
+        broad_market=any(k in t for k in ["stock market","markets","nasdaq","s&p","dow","ftse","kospi","nikkei","index","indices","market-wide"])
+        if broad_market:
+            if move>=20: points+=18; reasons.append("major market reaction")
+            elif move>=10: points+=14; reasons.append("large market reaction")
+            elif move>=5: points+=9; reasons.append("large market move")
+        else:
+            if move>=20: points+=6; reasons.append("large company market move")
+            elif move>=10: points+=5; reasons.append("company market move")
+            elif move>=5: points+=3; reasons.append("company market move")
     m=MONEY_RE.search(t)
     if m and any(k in t for k in ["acquire","acquisition","merger","takeover","deal","purchase","buy","sale"]):
         value=float(m.group(1))*(1000 if m.group(2).lower()=="billion" else 1)
@@ -264,6 +270,7 @@ def score(text,weight,semantic):
         s-=30; reasons.append("minor event filtered")
     if any(k in t for k in ["celebrity","horoscope","recipe","movie review","football transfer","lottery","christmas tree","royal ceremony","anniversary ceremony","travel tips","restaurant review"]):s-=28
     if any(k in t for k in ["not that unusual","what to know","what you need to know","explainer:","here's what","here is what"]):s-=16
+    if any(k in t for k in ["brief delays","minor disruption","brief disruption","quickly restored"]) and not CAS.search(t):s-=8
     return s,reasons
 def sid(t): return hashlib.sha1(" ".join(sorted(toks(t))[:12]).encode()).hexdigest()[:12]
 def build(a):
@@ -281,6 +288,13 @@ def build(a):
         coverage_names={source_family(x["source"]) for x in group}
         cpts,creasons,trusted_names=cluster_consensus_evidence(group)
         sc+=cpts; reasons.extend(creasons)
+        reason_set=set(reasons)
+        if len(trusted_names)>=3 and ("large company market move" in reason_set or "company market move" in reason_set):
+            sc+=8; reasons.append("corroborated market impact")
+        if len(trusted_names)>=3 and "leadership/governance change" in reason_set:
+            sc+=8; reasons.append("corroborated governance impact")
+        if len(trusted_names)>=3 and "major transaction" in reason_set:
+            sc+=5; reasons.append("corroborated transaction impact")
         if not trusted_names and len(coverage_names)>=3:
             sc+=2
         cat=category(alltext)
@@ -300,7 +314,7 @@ def build(a):
         brief_candidates=[x.get("summary","").strip() for x in display_group if len(x.get("summary","").strip())>=70]
         brief=max(brief_candidates,key=len)[:360] if brief_candidates else ""
         image=next((x.get("image","") for x in display_group if x.get("image")), "")
-        out.append({"id":sid(lead["title"]),"title":lead["title"],"summary":brief,"image":image,"category":cat,"importance":"Critical" if sc>=60 else "Major" if sc>=46 else "Notable","score":round(sc,1),"published_at":max(x["published_at"] for x in group),"source_count":len(trusted_names) if trusted_names else len(coverage_names),"reasons":list(dict.fromkeys(reasons))[:4],"sources":src[:8],"lead_url":lead["url"]})
+        out.append({"id":sid(lead["title"]),"title":lead["title"],"summary":brief,"image":image,"category":cat,"importance":"Critical" if sc>=68 else "Major" if sc>=46 else "Notable","score":round(sc,1),"published_at":max(x["published_at"] for x in group),"source_count":len(trusted_names) if trusted_names else len(coverage_names),"reasons":list(dict.fromkeys(reasons))[:4],"sources":src[:8],"lead_url":lead["url"]})
     out.sort(key=lambda x:(x["score"],x["published_at"]),reverse=True)
     return {"generated_at":NOW.isoformat(),"model_mode":mode,"stories":out[:SET["top_story_limit"]],"watchlist":WATCH.get("events",[])}
 def match_previous_story(cur, previous):
