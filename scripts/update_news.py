@@ -18,7 +18,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 ROOT=Path(__file__).resolve().parents[1]
 CFG=json.loads((ROOT/"config.json").read_text(encoding="utf-8"))
 WATCH=json.loads((ROOT/"watchlist.json").read_text(encoding="utf-8"))
-SET=CFG["settings"]; NOW=datetime.now(timezone.utc); MAXAGE=timedelta(hours=SET["max_age_hours"])
+SET=CFG["settings"]; EW=SET.get("evidence_weights",{}); NOW=datetime.now(timezone.utc); MAXAGE=timedelta(hours=SET["max_age_hours"])
 SESSION=requests.Session(); SESSION.headers.update({"User-Agent":"AI-News-Desk/1.0 headline-metadata-only"})
 
 CATEGORY={
@@ -237,32 +237,27 @@ def category(text):
         if any(k in t for k in CATEGORY[c]):return c
     return "World"
 def score(text,weight,semantic):
-    t=text.lower(); s=float(weight)+semantic*float(SET.get("semantic_anchor_weight",12)); reasons=[]
+    t=text.lower(); s=float(weight)+semantic*float(EW.get("semantic_impact",SET.get("semantic_anchor_weight",12))); reasons=[]
     for pts,terms in IMPACT:
-        if any(k in t for k in terms):s+=pts; reasons.append("high-impact event" if pts>=18 else "significant public impact");break
+        if any(k in t for k in terms):
+            s+=pts; reasons.append("high-impact event" if pts>=18 else "significant public impact")
+            break
     m=CAS.search(t)
     if m:
         nums=[int(x) for x in m.groups() if x]
-        if nums:s+=min(22,5+math.log10(max(nums))*7); reasons.append("reported fatalities")
-    if any(k in t for k in ["nationwide","state of emergency","hundreds of thousands","millions","hundreds of schools"]):s+=10; reasons.append("large scale")
+        if nums:
+            s+=min(22,5+math.log10(max(nums))*7); reasons.append("reported fatalities")
+    if any(k in t for k in ["nationwide","state of emergency","hundreds of thousands","millions","hundreds of schools"]):
+        s+=float(EW.get("quantified_scale",10)); reasons.append("large scale")
     if "naval blockade" in t or "shipping blockade" in t:
         s+=5; reasons.append("strategic chokepoint risk")
-    market_terms=["stock","stocks","share","shares","nasdaq","s&p","market","markets","futures","index","indices","market value"]
-    pct=[float(x) for x in re.findall(r"\b(\d+(?:\.\d+)?)\s*%",t)]
-    if pct and max(pct)>=5 and any(k in t for k in market_terms):
-        move=max(pct)
-        s+=18 if move>=20 else 14 if move>=10 else 10
-        reasons.append("major market reaction" if move>=10 else "large market move")
+    qpts,qreasons=generic_quantified_signals(t)
+    s+=qpts; reasons.extend(qreasons)
     leadership=any(k in t for k in LEADERSHIP_TERMS) and any(k in t for k in LEADERSHIP_CHANGE_TERMS)
-    strategic_company=any(k in t for k in SYSTEMIC_COMPANIES)
-    if leadership and strategic_company:
-        s+=20; reasons.append("major corporate leadership change")
-    deal=re.search(r"\$\s*(\d+(?:\.\d+)?)\s*billion",t)
-    if deal and any(k in t for k in ["acquire","acquisition","merger","takeover","deal"]):
-        value=float(deal.group(1))
-        if value>=10:s+=22; reasons.append("major transaction")
-        elif value>=5:s+=11; reasons.append("large transaction")
-    if any(k in t for k in ["norway","norwegian","stavanger","rogaland","sandnes"]):s+=9; reasons.append("Norway/local relevance")
+    if leadership:
+        s+=5; reasons.append("leadership/governance change")
+    if any(k in t for k in ["norway","norwegian","stavanger","rogaland","sandnes"]):
+        s+=float(EW.get("local_relevance",8)); reasons.append("Norway/local relevance")
     mag=re.search(r"\bmagnitude\s+([0-9]+(?:\.[0-9]+)?)",t)
     if mag and float(mag.group(1))<5.0 and not CAS.search(t):
         s-=30; reasons.append("minor event filtered")
@@ -283,10 +278,9 @@ def build(a):
         alltext=" ".join(x["title"]+" "+x["summary"] for x in group)
         sc,reasons=score(alltext,max(x["weight"] for x in group),max(float(anchor[i]) for i in ids))
         coverage_names={source_family(x["source"]) for x in group}
-        trusted_names={source_family(x["source"]) for x in group if trusted_source(x["source"])}
-        if len(trusted_names)>=2:
-            sc+=min(10,4+(len(trusted_names)-2)*2); reasons.append(str(len(trusted_names))+" trusted sources")
-        elif len(coverage_names)>=3:
+        cpts,creasons,trusted_names=cluster_consensus_evidence(group)
+        sc+=cpts; reasons.extend(creasons)
+        if not trusted_names and len(coverage_names)>=3:
             sc+=2
         cat=category(alltext)
         if cat in ["Norway","Stavanger/Rogaland"]:
