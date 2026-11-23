@@ -1,41 +1,29 @@
 {
-  "generated_at": "2026-11-23T16:27:12.746421+00:00",
+  "generated_at": "2026-11-23T16:31:07.439719+00:00",
   "model_mode": "sentence-transformers",
   "stories": [
     {
       "id": "e1c02e6a3393",
       "title": "LaLiga data extracted in cyber attack",
-      "summary": "The Kremlin warns of an \"escalation of tensions in the region\", but declines to comment directly on the attacks in Libya.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f684/live/02351f90-e74d-11f1-99b6-a35a62fa4264.jpg",
+      "summary": "Ukrainian President Volodymyr Zelenskyy has claimed responsibility for an attack that sank the Russian ship ‘Merkury’.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/810a/live/c0542f80-e73d-11f1-99a1-253766e7ad8b.jpg",
       "category": "Tech",
-      "importance": "Critical",
-      "score": 106.8,
-      "published_at": "2026-11-23T15:41:23+00:00",
-      "source_count": 7,
+      "importance": "Major",
+      "score": 82.8,
+      "published_at": "2026-11-23T15:15:10+00:00",
+      "source_count": 6,
       "reasons": [
         "high-impact event",
         "reported fatalities",
         "mass-casualty attack",
-        "large scale"
+        "major transaction"
       ],
       "sources": [
         {
           "name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPUzZMZWl5YjFRMm5kU1RDNUNkRHkyT1Q3b05xRndBMUs2eGhWQUZONGhudnpiQUdrWlNjNHVkcVJscy1VbHhRbWhVZUxNLV9ZU3l2b1NRTUhQd2JnMEFCYkRYMkwtNFh3U01KLTJFaUVxV01DVlFGbHl6VElHbnRRY3BKUHlNZ2tJakRVTVJnanQxVEJraWRodnpjWDgzNXpkZklFNUQwWDEteVdN?oc=5",
-          "published_at": "2026-11-23T13:34:27+00:00",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOcUdmOUFLaEppLU9uMl80V2x1RTg4YWg3VUc5cWZsVzNfUWJBN2pFY3BhTndKanI0U2gzZHMzZVdpeWlkVkdBMkxGZkEtNFYyYmhteTQ5MHM0NnhkN2lfVk1WcDRxZDluQzVXNll2OWhodnVmaG9qNm15SWdweEM4YmxSWXVKd21mNW9uWW82MHUyWlJLTEE?oc=5",
+          "published_at": "2026-11-23T13:31:08+00:00",
           "paywalled": false
-        },
-        {
-          "name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQekFodWNTV2dTaVZ6VDJScmUybjJ3QXRURFJjeVNtQVBmOEJkYUZTNnFlMnNKalRWdFdXOWVwTjg1TFU3THJIOU9hSXNtSXZCczVaT0xDYnNKUEJUYXFXbVpTUkhTNWRFb3VIa1RDcHdOMzB4ZVV4cTZ6STBQZ2RWLWNPT2U1RGRHYjIxNEZ1QlFXQXZJMDhJeHdDLUFUc2tSUjJoejc1dGhzTWtkUS1Hb3V1V1hKbXplV3J2Zw?oc=5",
-          "published_at": "2026-11-23T13:24:00+00:00",
-          "paywalled": false
-        },
-        {
-          "name": "Bloomberg.com",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNUkFJTko4elVPRkJqM1J5WWo1LXpSVFBaVEZ4UDRvb0g5Rkl3bGZ4emltR2dwd3B1TGlSTE9pUFlfeEZ0U3pVdnRKS3ZrNXVhckJLS0VxOFRFOXJKWFBqYXZjbFVJQUJodjd2VnRiZGJGMVAtdEtMT1ZvSmRMNkVtMmo5QTdOOUZhQ01pTXhRUjFGQXc3Yzc1aU5SOE5KWmw2enJzRmo1Z3lDdDNwdS1MUVNn?oc=5",
-          "published_at": "2026-11-23T12:54:20+00:00",
-          "paywalled": true
         },
         {
           "name": "Financial Times",
@@ -44,9 +32,9 @@
           "paywalled": true
         },
         {
-          "name": "BBC World",
-          "url": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss",
-          "published_at": "2026-11-23T15:41:23+00:00",
+          "name": "BBC",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFAzWTF4UEpEdFBDa3VBRFhZTHoxc0hQUS1oWXBoWnBldFFLZm82b1Z0X0lBekJIYVdqbUtiU2FKV25vM0NvQy1mcmpRYUstclkwSGdoREJKNA?oc=5",
+          "published_at": "2026-11-23T14:01:26+00:00",
           "paywalled": false
         },
         {
@@ -60,6 +48,12 @@
           "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQb0RRd3NmeHVWMUg2Rjd5UVlYcE1rbEREUVlzcWRqQ01JZFNibGRkUkdacm5Ea1lPNDhzUXZWRUdSWkxIZzU2QjVQV2tab3VkSTNIV2YzLXVwYV9oQWFDN25DYV9aTEI0YmpfV3VYRFVXZVNWOVFGNXVwb1JoRDRCNQ?oc=5",
           "published_at": "2026-11-23T03:36:47+00:00",
           "paywalled": false
+        },
+        {
+          "name": "Bloomberg.com",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOZWI4NTdtcjRtdzk5YVJYbkFXMUlwLU41QThoZDNzMlozZ0xpeUt0TGFjblNWN2cxcU80WFJpc3lwR2pZS25GVWxLYjBmVWpDdEV2QlB5RDVPMFpGREhGaWgtTWtvb0U2cXlfbGh2ZnlhSFFlRC1UMG1JLU9mMFg4VHgtbWFhNWtSRWdSazR6WWZsU1VNQlNDZ0xSY2ZqUlRPZmpGSVotc2IzYm9fYTdjTHFIUE1Dd005S2ZLOGU3TVBUd0ZBQS1NTHJsc2E?oc=5",
+          "published_at": "2026-11-23T15:02:17+00:00",
+          "paywalled": false
         }
       ],
       "lead_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNcEJtcUlSV3ZyOVFSZ3VRam16UDNMSV84VGhJb1VQUmw0TU1vdk0wZXVaRkMyYVRKVlNNd295b09Nc25xUG9jNTNoamR0TTFHbzIxbjljTFE1aXRPRHltMlQ4VDloOFJCZGlUU1ZRLXg4VW05R0duUWxPcmJkU1U3SHE2OEtOYzVvZlI0REdQeno?oc=5",
@@ -72,13 +66,13 @@
       "title": "Nvidia shares up 30% and tech stocks rally after Jensen Huang returns",
       "summary": "Styret i Nvidia gjeninnsetter Jensen Huang som toppsjef i selskapet. Avgjørelsen kommer etter samtaler og møter med Huang, opplyser selskapet i en pressemelding. – I prosessen med å fatte beslutningen mottok styret innspill fra høytstående hold i den amerikanske regjeringen, og på bakgrunn av disse innspillene er styret trygg på at Huangs gjeninnsettelse ikk",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/38db/live/e8339120-deb0-11f1-93e1-3b657b665bcf.jpg",
-      "category": "Norway",
+      "category": "Tech",
       "importance": "Major",
-      "score": 82.9,
+      "score": 78.2,
       "published_at": "2026-11-23T16:18:00+00:00",
       "source_count": 8,
       "reasons": [
-        "high-impact event",
+        "significant public impact",
         "major market reaction",
         "leadership/governance change",
         "8 trusted sources"
@@ -115,7 +109,7 @@
           "paywalled": false
         },
         {
-          "name": "NRK",
+          "name": "NRK Latest",
           "url": "https://www.nrk.no/nyheter/jensen-huang-gjeninnsettes-som-toppsjef-i-nvidia_-opplyser-selskapet-1.18087233",
           "published_at": "2026-11-23T14:00:53+00:00",
           "paywalled": false
@@ -136,82 +130,46 @@
       "lead_url": "https://www.bbc.co.uk/news/articles/cq62pn6j42jko?at_medium=RSS&at_campaign=rss",
       "first_reported_at": "2026-11-23T15:39:41+00:00",
       "update_count": 2,
-      "updated": true
-    },
-    {
-      "id": "f05f36f36ee8",
-      "title": "Oil prices fall on increased flows from Middle East, Libyan oil pipeline restart",
-      "summary": "Oil prices fall on increased flows from Middle East, Libyan oil pipeline restart Reuters",
-      "image": "",
-      "category": "Middle East",
-      "importance": "Major",
-      "score": 56.3,
-      "published_at": "2026-11-23T12:25:47+00:00",
-      "source_count": 3,
-      "reasons": [
-        "significant public impact",
-        "large scale",
-        "3 trusted sources",
-        "broad recent coverage"
-      ],
-      "sources": [
-        {
-          "name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQb016TW1Rc3N2Q0h6TVJZUFBSeXZqWklRWXgwZ2QyUnRCa0tnWnI4b0Z2YkVVZlVGWTJwa0E3SEVqNnotSE4zOFpOdjJUSE5GcjB5RHJxaklsM0I2U1owemZ4aUJmYkRhUUM2VjVFd09paWhIWHhFUWxmcmhzT3Y5RWhCTENfNE00a3RaYnhnOGgweEJoNEVtNTVKS0pLTWNiY2ZfM1pvbFNieG5DbWpGcUdOM19xZFF5QXl5LWZXNVRrZw?oc=5",
-          "published_at": "2026-11-23T02:24:00+00:00",
-          "paywalled": false
-        },
-        {
-          "name": "Financial Times",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNUWZRdkRfNVJBWXlEZm1vaGRscXBsdzZpQWlvY1I2SnJqb29GUk16OGlPWHpFSmZtS3FkMlRseXBSYzV4RTMxVmNKbkRaWTVSWDBOamNWM01NQ0lkX1RvT1J6LXJJZV9WV0NFdkFtcDB6ampWek5YNS05Vk9aZkJVWTBTelI?oc=5",
-          "published_at": "2026-11-23T12:25:47+00:00",
-          "paywalled": true
-        },
-        {
-          "name": "BBC",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9mdGRGZGN1Vm4xeWtCUTBFMGRPbWlXMnZsQWtuMkR6THpPM0JhOGNpRktxVkVjRUt2aFVOb2FhSGJqam1hYk9Gd2wyWUxKS044S1dmYw?oc=5",
-          "published_at": "2026-11-23T12:07:38+00:00",
-          "paywalled": false
-        }
-      ],
-      "lead_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQb016TW1Rc3N2Q0h6TVJZUFBSeXZqWklRWXgwZ2QyUnRCa0tnWnI4b0Z2YkVVZlVGWTJwa0E3SEVqNnotSE4zOFpOdjJUSE5GcjB5RHJxaklsM0I2U1owemZ4aUJmYkRhUUM2VjVFd09paWhIWHhFUWxmcmhzT3Y5RWhCTENfNE00a3RaYnhnOGgweEJoNEVtNTVKS0pLTWNiY2ZfM1pvbFNieG5DbWpGcUdOM19xZFF5QXl5LWZXNVRrZw?oc=5",
-      "first_reported_at": "2026-11-23T12:25:47+00:00",
-      "update_count": 0,
       "updated": false
     },
     {
-      "id": "bfc88015cab8",
-      "title": "ConocoPhillips exits Norway with $4.4 billion asset sale to Vaar Energi",
-      "summary": "ConocoPhillips exits Norway with $4.4 billion asset sale to Vaar Energi Reuters",
-      "image": "",
-      "category": "Stavanger/Rogaland",
+      "id": "8e09fb1d4cd6",
+      "title": "Russian warship hit by Ukrainian drones in Libya, Zelensky says",
+      "summary": "The Kremlin warns of an \"escalation of tensions in the region\", but declines to comment directly on the attacks in Libya.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f684/live/02351f90-e74d-11f1-99b6-a35a62fa4264.jpg",
+      "category": "Europe/UK",
       "importance": "Major",
-      "score": 53.0,
-      "published_at": "2026-11-23T14:27:45+00:00",
-      "source_count": 2,
+      "score": 55.3,
+      "published_at": "2026-11-23T15:41:23+00:00",
+      "source_count": 3,
       "reasons": [
-        "significant public impact",
-        "significant transaction",
-        "Norway/local relevance",
-        "2 trusted sources"
+        "high-impact event",
+        "large scale",
+        "3 trusted sources"
       ],
       "sources": [
         {
-          "name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQcHNqQjMxSlNrcGN4LVZIUC0yZUpTTUQyOU1SNnJaTkFpQkFnRHFYODF0R0hhbnBkbTFfbEpMYU9WSlNMYWFLTjhPOGszWHFoX0JnZnZBY2pVNDVFbEFJYlBKSHhiZ1EyaU80anh6d3RuVFVPZUFJOUVmZndKbWVxRGlaLW1DUG1QN2ZkS2ZOTEhZbUJSRk5zTUtRNXVrNkZjaWNjSGVvRy1iRlZRMkFfa0gzcTl4Zw?oc=5",
-          "published_at": "2026-11-23T06:38:00+00:00",
+          "name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5rVFluekJ1N3ZhVFFnSEdsWjQzSm1ISExveXdvNFZrLTJRODQ1N0toQnJMTkk4cjhwUlpjOWw5bWNxaHktRDVTM0w5eUVFemFxUmc?oc=5",
+          "published_at": "2026-11-23T08:49:58+00:00",
           "paywalled": false
         },
         {
-          "name": "Bloomberg.com",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOa2ZKZno0ZTJ2VHFPQ1ByWERSTUJIMXNIQXI4RjRaSWNiT0xpR1lremdXTlprMW90V3JvNWN5Smxkdk9kMHJnb282UzA2VDk5MExjWERLLU0wdk9Gbkp1RFpWeEtBSVRlZ0Exc0E2a2xWUlVFN0xiMlZXYUkzMUt5NkQ3Q2YzWHZ1N3FqQWVyY3ZDVjRKSHFCdFZTYlVWcFpjemZWSTdFempUR1publlsbGpUTHY?oc=5",
-          "published_at": "2026-11-23T10:29:49+00:00",
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-11-23T15:41:23+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQZzU3ZEZYME5lS0ROc3NoTHNrNlpjVlUyd2xjVnRLREpzSWlZWXMyS1E3OTJMZmxZNHZJV1BpbGM1U045c3JTc2p2dlFTYTNTSU9qdnVZamZZN29zR0JBY3ZpYjZ0Z1FpVXc2cDViTFZRMHNwejhPcTBrUHVqdFhZZG5XTTFSYi1Yc3AxaVlLc09VcTdyVzdFaNIBngFBVV95cUxNZlFIcHE3SVRDUFdGeE9CTEgtM3I3T2o3OTBUZWlQaU5IbWhXNVY4NjVqQ2s2eEJLVTRlUXFXakFWdkc0T3ViME1EMUt5US1zejJPSkthWjVaejRkTExNOGJ3LURHWDB3dndjeDBBM0hyRWt6d05ESnE0Ul9BbzlzSXZLSS1MZHM2RUJ4ZjJaMVFZSmlWS3ZSMEgtR2RJdw?oc=5",
+          "published_at": "2026-11-23T10:01:03+00:00",
           "paywalled": false
         }
       ],
-      "lead_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQcHNqQjMxSlNrcGN4LVZIUC0yZUpTTUQyOU1SNnJaTkFpQkFnRHFYODF0R0hhbnBkbTFfbEpMYU9WSlNMYWFLTjhPOGszWHFoX0JnZnZBY2pVNDVFbEFJYlBKSHhiZ1EyaU80anh6d3RuVFVPZUFJOUVmZndKbWVxRGlaLW1DUG1QN2ZkS2ZOTEhZbUJSRk5zTUtRNXVrNkZjaWNjSGVvRy1iRlZRMkFfa0gzcTl4Zw?oc=5",
-      "first_reported_at": "2026-11-23T13:12:21+00:00",
-      "update_count": 5,
+      "lead_url": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss",
+      "first_reported_at": "2026-11-23T15:41:23+00:00",
+      "update_count": 0,
       "updated": false
     },
     {
@@ -246,29 +204,23 @@
       "lead_url": "https://www.bbc.co.uk/news/articles/c64gn0gy8rj3o?at_medium=RSS&at_campaign=rss",
       "first_reported_at": "2026-11-21T04:34:00+00:00",
       "update_count": 1,
-      "updated": true
+      "updated": false
     },
     {
       "id": "17aa3707fc59",
       "title": "US tech stocks plunge into bear market in worst week since Covid-19 crisis",
-      "summary": "The US president provided little detail on the potential policy, saying others in his team were hearing about it for the first time.",
+      "summary": "Pressures weighed on US markets, with the S&P 500 and the Dow Jones Industrial Average pushed into correction territory.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/03d5/live/7b6fe9b0-e4ed-11f1-8781-bf15c9202663.jpg",
-      "category": "Tech",
+      "category": "World",
       "importance": "Major",
       "score": 52.6,
-      "published_at": "2026-11-21T17:19:56+00:00",
-      "source_count": 6,
+      "published_at": "2026-11-21T01:00:00+00:00",
+      "source_count": 5,
       "reasons": [
         "high-impact event",
-        "6 trusted sources"
+        "5 trusted sources"
       ],
       "sources": [
-        {
-          "name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQY09GMmxTYlpRMnQ3YVJ4Q3BUdmg3NEFJWG5lVlh4TC0zZGxxZVcydTkwSkpiZUZfS3BXdlRab05HSW5TS0h5TDY5NFRKajBDSWdFbUdhNFIxMzUxc3pLRnEtMXVNblBwZmgteFlUWVhuS0lRU3diRGpWQnkyeWtDMGJiS3hzd2xCdUtDVHIxc0hOWGkwTHdPZ1FfenUwQQ?oc=5",
-          "published_at": "2026-11-20T23:29:00+00:00",
-          "paywalled": false
-        },
         {
           "name": "Reuters",
           "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxORTBuejlwS3Nua0szT1dTbnYtSElZYjI2RUg0NnRsVHNlOW1SMTBlUFIxdmtVcnB2TFd0N19aU1RlbzVWREhqYnZmWF9HRG5odm55UUxLMnJzckZpWjh6UHdrZGtZNlBIMVh3cU1QcUNIQlZRNXJMTW54TjdkaVdGbE9yVQ?oc=5",
@@ -283,8 +235,8 @@
         },
         {
           "name": "Axios",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE54MU5XaGUxQlI1ZTBJTERRbnNmMmE0Vjc4Z2VBTjQ1R25haDdVZEJNd3NmX0VSZ2JLMEdoeWwtM2dFY3NKUjFSbEJkQVVFREN4RDRrOWh2UWdMVC0xSk01a0NkUEY3YVBEQ1RMYzRoR043T3dK?oc=5",
-          "published_at": "2026-11-20T21:42:36+00:00",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFAxcFNublNidGF2Ny1sSHRtV0gzV0RpU3R6REo4M2dUUjR5WnMxVm1zRUhVd0lvR1I5OG9Yel9aQkJiUUxBZV9rSmVfVDBWUEJZdU82cnM3TTc3WjVoMFYyMnJXTG5mN2tDSzB0bQ?oc=5",
+          "published_at": "2026-11-20T20:36:58+00:00",
           "paywalled": false
         },
         {
@@ -306,13 +258,53 @@
       "updated": false
     },
     {
-      "id": "f9cfb3d2191a",
-      "title": "Iran says it will use all its tools to confront US naval blockade",
+      "id": "f05f36f36ee8",
+      "title": "Oil prices fall on increased flows from Middle East, Libyan oil pipeline restart",
+      "summary": "Oil prices fall on increased flows from Middle East, Libyan oil pipeline restart Reuters",
+      "image": "",
+      "category": "World",
+      "importance": "Major",
+      "score": 46.3,
+      "published_at": "2026-11-23T12:25:47+00:00",
+      "source_count": 3,
+      "reasons": [
+        "significant public impact",
+        "3 trusted sources",
+        "broad recent coverage"
+      ],
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQb016TW1Rc3N2Q0h6TVJZUFBSeXZqWklRWXgwZ2QyUnRCa0tnWnI4b0Z2YkVVZlVGWTJwa0E3SEVqNnotSE4zOFpOdjJUSE5GcjB5RHJxaklsM0I2U1owemZ4aUJmYkRhUUM2VjVFd09paWhIWHhFUWxmcmhzT3Y5RWhCTENfNE00a3RaYnhnOGgweEJoNEVtNTVKS0pLTWNiY2ZfM1pvbFNieG5DbWpGcUdOM19xZFF5QXl5LWZXNVRrZw?oc=5",
+          "published_at": "2026-11-23T02:24:00+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "Financial Times",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNUWZRdkRfNVJBWXlEZm1vaGRscXBsdzZpQWlvY1I2SnJqb29GUk16OGlPWHpFSmZtS3FkMlRseXBSYzV4RTMxVmNKbkRaWTVSWDBOamNWM01NQ0lkX1RvT1J6LXJJZV9WV0NFdkFtcDB6ampWek5YNS05Vk9aZkJVWTBTelI?oc=5",
+          "published_at": "2026-11-23T12:25:47+00:00",
+          "paywalled": true
+        },
+        {
+          "name": "BBC",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9mdGRGZGN1Vm4xeWtCUTBFMGRPbWlXMnZsQWtuMkR6THpPM0JhOGNpRktxVkVjRUt2aFVOb2FhSGJqam1hYk9Gd2wyWUxKS044S1dmYw?oc=5",
+          "published_at": "2026-11-23T12:07:38+00:00",
+          "paywalled": false
+        }
+      ],
+      "lead_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQb016TW1Rc3N2Q0h6TVJZUFBSeXZqWklRWXgwZ2QyUnRCa0tnWnI4b0Z2YkVVZlVGWTJwa0E3SEVqNnotSE4zOFpOdjJUSE5GcjB5RHJxaklsM0I2U1owemZ4aUJmYkRhUUM2VjVFd09paWhIWHhFUWxmcmhzT3Y5RWhCTENfNE00a3RaYnhnOGgweEJoNEVtNTVKS0pLTWNiY2ZfM1pvbFNieG5DbWpGcUdOM19xZFF5QXl5LWZXNVRrZw?oc=5",
+      "first_reported_at": "2026-11-23T12:25:47+00:00",
+      "update_count": 0,
+      "updated": false
+    },
+    {
+      "id": "46dd2610a559",
+      "title": "Iran threatens response to any attack amid naval blockade",
       "summary": "Iran says it will use ‘all available means’ to counter US blockade Al Jazeera",
       "image": "",
       "category": "Middle East",
-      "importance": "Major",
-      "score": 48.6,
+      "importance": "Notable",
+      "score": 45.6,
       "published_at": "2026-11-23T13:18:45+00:00",
       "source_count": 2,
       "reasons": [
@@ -322,67 +314,22 @@
       ],
       "sources": [
         {
-          "name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNaWxsYjRUNUVtQlVrWm1YSFE3eHduckRPNW5CN0llMTJydFI3dGJIa2ZiTENBSU9HYVYtejVzM2JVUy1nbW9wQmdOZGJhdTlMT2R6cTBYNmFUME9aZ1BhTFI2THpRdlJRY21UeW9odHdFWGZxSjlTSVQ5VlBOV2pSckFraW1JWUtOd3dqVWFDZC0yM0t4RFRKWEktV29YTFdLTlJlZ1NsNlcyZ3phdzlVcTlCQ0pTM29GODhJUDVjUQ?oc=5",
-          "published_at": "2026-11-23T10:01:04+00:00",
-          "paywalled": false
-        },
-        {
           "name": "Al Jazeera",
           "url": "https://www.aljazeera.com/video/newsfeed/2026/11/23/iran-threatens-response-to-any-attack-amid-naval-blockade?traffic_source=rss",
           "published_at": "2026-11-23T12:25:24+00:00",
           "paywalled": false
-        }
-      ],
-      "lead_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNaWxsYjRUNUVtQlVrWm1YSFE3eHduckRPNW5CN0llMTJydFI3dGJIa2ZiTENBSU9HYVYtejVzM2JVUy1nbW9wQmdOZGJhdTlMT2R6cTBYNmFUME9aZ1BhTFI2THpRdlJRY21UeW9odHdFWGZxSjlTSVQ5VlBOV2pSckFraW1JWUtOd3dqVWFDZC0yM0t4RFRKWEktV29YTFdLTlJlZ1NsNlcyZ3phdzlVcTlCQ0pTM29GODhJUDVjUQ?oc=5",
-      "first_reported_at": "2026-11-23T10:01:04+00:00",
-      "update_count": 2,
-      "updated": true
-    },
-    {
-      "id": "8e19ff88089c",
-      "title": "Democrats clinch a historic House majority of at least 258 seats, the largest since 1992",
-      "summary": "Democrats have now won at least 258 seats in the midterms compared to Republicans, who hold at least 173 seats.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4632/live/52e19140-e715-11f1-99b6-a35a62fa4264.jpg",
-      "category": "US/Canada",
-      "importance": "Notable",
-      "score": 44.7,
-      "published_at": "2026-11-23T13:02:05+00:00",
-      "source_count": 4,
-      "reasons": [
-        "high-impact event",
-        "4 trusted sources"
-      ],
-      "sources": [
-        {
-          "name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNN0ZaSUxXY2RGTWZBcXdNRjV0eWhIZUdfWjFBSmI1OHBGZy1qRWFpNnJxZDJVOC14dVFGZGdSS3NfeFNsQm1IcmJIWGs4M0l5alZQZVhDek80S1lnQ3plUkRrbm9uaE44RWtNMTBDTWRLUmdGLWVVUDRJZ1J5TmR4QU5vWW5qT2NvOHB3dklzcFZ2ZFltMy1SYVdJQnNRZFBiaURJN2t0bjExaE0?oc=5",
-          "published_at": "2026-11-23T08:40:24+00:00",
-          "paywalled": false
         },
         {
           "name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOZzZjY0pNZnpnUmtsZ3RudXpZeDh4TnlWZDFIZHBvUk0tbVlxREhydk5zRTJhX0lYcjFXQTNNTzBtOFM4NlNhTE9DZnl3SUZiM3RpTzRzZTJ4aURMSUJCdDRGb0l2MWh5MFJmTWgwS1k4Ql9vTGh1eWVGbEw3WGVCS1UtTkNGVVoxS0EyZVl3Vmw0UThpTlVUWWN2WlNyaWR6a1FYYlJZaWl1MlAyQ01OSEcyY3hMai0zUWdfUUc3MkQ?oc=5",
-          "published_at": "2026-11-22T21:28:00+00:00",
-          "paywalled": false
-        },
-        {
-          "name": "BBC World",
-          "url": "https://www.bbc.co.uk/news/articles/c6vg29g7dlyno?at_medium=RSS&at_campaign=rss",
-          "published_at": "2026-11-23T13:02:05+00:00",
-          "paywalled": false
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQNEo5SW5YTnlmVE5pcFRLZm1xYXgwRTRITjZTWjlkeDlwTzB1SFRkTjB0NnE5QnFLcTI5ZzRlUzZZTjh5VzZQX2xWb2tOWHF3TjhDd1B6Z0NXLW16eEJfNDJKSW1BUlhkVDEtUVIzRE81X1NjMEFraGI1T3FQeTg4eXhGajRVNW5fczk3OVdrdmIzRE9kTlJiWVBkT05fa2JkdF9JOFF1endEcnBHNWZsTmJmSFLSAboBQVVfeXFMT2ZqMlRQY3UxeEdKMFNvUjk3Q0hSY3BiR1VEOUNoLXo3dGxMQmVPZ3NoQTVLc3YzM0psMEQ1QXJyRDRjYTZIM3NDUExneEpPQjVVQW1BOE1ZalN5cE1maU82SU1TX1hDTmF6SFNDZy1uZGFoN2E0YWxZOEsyUnRsZVc2YnU3OFhRRXdfcEp2eHVKLVozMjNPcG0zM21Ld2lyR1NJX2FKdTBpUGU5ZHhlR05ZRUdaVk9WV3lB?oc=5",
-          "published_at": "2026-11-22T22:22:27+00:00",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNaWxsYjRUNUVtQlVrWm1YSFE3eHduckRPNW5CN0llMTJydFI3dGJIa2ZiTENBSU9HYVYtejVzM2JVUy1nbW9wQmdOZGJhdTlMT2R6cTBYNmFUME9aZ1BhTFI2THpRdlJRY21UeW9odHdFWGZxSjlTSVQ5VlBOV2pSckFraW1JWUtOd3dqVWFDZC0yM0t4RFRKWEktV29YTFdLTlJlZ1NsNlcyZ3phdzlVcTlCQ0pTM29GODhJUDVjUQ?oc=5",
+          "published_at": "2026-11-23T10:01:04+00:00",
           "paywalled": false
         }
       ],
-      "lead_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNN0ZaSUxXY2RGTWZBcXdNRjV0eWhIZUdfWjFBSmI1OHBGZy1qRWFpNnJxZDJVOC14dVFGZGdSS3NfeFNsQm1IcmJIWGs4M0l5alZQZVhDek80S1lnQ3plUkRrbm9uaE44RWtNMTBDTWRLUmdGLWVVUDRJZ1J5TmR4QU5vWW5qT2NvOHB3dklzcFZ2ZFltMy1SYVdJQnNRZFBiaURJN2t0bjExaE0?oc=5",
-      "first_reported_at": "2026-11-23T13:02:05+00:00",
-      "update_count": 2,
-      "updated": true
+      "lead_url": "https://www.aljazeera.com/video/newsfeed/2026/11/23/iran-threatens-response-to-any-attack-amid-naval-blockade?traffic_source=rss",
+      "first_reported_at": "2026-11-23T13:18:45+00:00",
+      "update_count": 0,
+      "updated": false
     },
     {
       "id": "75754b5e7cf3",
@@ -476,7 +423,7 @@
       "title": "South Korea education minister resigns over exam cheating scandal",
       "summary": "Choi Kyo-jin admits last-minute measures to stop AI-assisted cheating during the college entrance exam caused chaos.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/dc28/live/9c42c760-e66a-11f1-99b6-a35a62fa4264.jpg",
-      "category": "Tech",
+      "category": "World",
       "importance": "Notable",
       "score": 42.1,
       "published_at": "2026-11-23T07:10:04+00:00",
@@ -518,7 +465,7 @@
       "category": "Europe/UK",
       "importance": "Notable",
       "score": 42.1,
-      "published_at": "2026-11-22T05:07:03+00:00",
+      "published_at": "2026-11-21T03:00:08+00:00",
       "source_count": 2,
       "reasons": [
         "high-impact event",
@@ -533,8 +480,8 @@
         },
         {
           "name": "Al Jazeera",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPTU5HcEl3RGFWUjYzSklLUzEtdFNsaDUyMmZQTnk3X19RRk90c3d3QlRDM043ZWxfdjFoMVQzQjQ0QWFqay01V19LQ0Zxdy0wR2YyY0xFRW16QzM0YzRCejlHUmhkMVlOOE9vdEhhUmVGdk1wQlRhSktsRENfYlNpZ0N3QkpvTURjSGxzMk9YaDZZeFNvOEdzSnkwLS1sS1BJTkdldWRB0gGrAUFVX3lxTE5WbURGOWFBaHFka21HMDk4RUhHdzFjd090MEJSajFRU0ZnNXRYTTFxQTRwVzNMaFRKTW1fRS0zd2RFdHBySzlOZE5FbFJvWVFibHFXQ0ZUeVlRV3I1N1Rhams5QVVaNmFBTm9HWVoyWXJaX213RlQ5WkplYmtmRTJjY0lRSnNKd3phLUtTRjQ0NGpQSHBwaWtkems4V29yZDNab3psc0dvQUR6MA?oc=5",
-          "published_at": "2026-11-22T05:07:03+00:00",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNRjMyaXdOTHVpWlljcmF1ZlpxWi1xczI0eGd3Z1YzNVdKbjQ0eFZuQmpHS0VsYjhsSDBramFPcG5xVjdJOEtVbFlHR0dwVGwzdW9wMHpXRUQySmFlT1dMQ3U2T1J3UXNiWElmWThZc2FBYXNlVGtsVllBUTRaVDZhLU5mMGRUbGE5blR3OGlVTElaaFh5akN1M2lKVnp4TGRWVEM0ZUYzamZ0NUdfSFZWZi10YVnSAboBQVVfeXFMUFRVNF9vRm4zTDNZc2tZRlJvS3JIVXFKdmNoaGpLMlRGS2xGTmtlTXJLRkozQlNITjhIVktnMXE4SXp6VHEtR3IyTlJLOG1hSHllZlJYUjNySmJ0cERoQ0g2bmlxUFFNZ01WVWpBUWhoT09RbjRJbGJ5c2xZSEFScHlhWTlHS2pLUUJzUnVJcC1yQWZhbkMta2NUR1JtRjc5MHp1dDBiejJNaFpmTUxUQ0xBVjFTT0w4ZWRn?oc=5",
+          "published_at": "2026-11-21T03:00:08+00:00",
           "paywalled": false
         }
       ],
@@ -544,14 +491,92 @@
       "updated": false
     },
     {
+      "id": "8e19ff88089c",
+      "title": "Democrats clinch a historic House majority of at least 258 seats, the largest since 1992",
+      "summary": "Democrats have now won at least 258 seats in the midterms compared to Republicans, who hold at least 173 seats.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4632/live/52e19140-e715-11f1-99b6-a35a62fa4264.jpg",
+      "category": "US/Canada",
+      "importance": "Notable",
+      "score": 41.7,
+      "published_at": "2026-11-23T13:02:05+00:00",
+      "source_count": 3,
+      "reasons": [
+        "high-impact event",
+        "3 trusted sources"
+      ],
+      "sources": [
+        {
+          "name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNN0ZaSUxXY2RGTWZBcXdNRjV0eWhIZUdfWjFBSmI1OHBGZy1qRWFpNnJxZDJVOC14dVFGZGdSS3NfeFNsQm1IcmJIWGs4M0l5alZQZVhDek80S1lnQ3plUkRrbm9uaE44RWtNMTBDTWRLUmdGLWVVUDRJZ1J5TmR4QU5vWW5qT2NvOHB3dklzcFZ2ZFltMy1SYVdJQnNRZFBiaURJN2t0bjExaE0?oc=5",
+          "published_at": "2026-11-23T08:40:24+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOZzZjY0pNZnpnUmtsZ3RudXpZeDh4TnlWZDFIZHBvUk0tbVlxREhydk5zRTJhX0lYcjFXQTNNTzBtOFM4NlNhTE9DZnl3SUZiM3RpTzRzZTJ4aURMSUJCdDRGb0l2MWh5MFJmTWgwS1k4Ql9vTGh1eWVGbEw3WGVCS1UtTkNGVVoxS0EyZVl3Vmw0UThpTlVUWWN2WlNyaWR6a1FYYlJZaWl1MlAyQ01OSEcyY3hMai0zUWdfUUc3MkQ?oc=5",
+          "published_at": "2026-11-22T21:28:00+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/c6vg29g7dlyno?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-11-23T13:02:05+00:00",
+          "paywalled": false
+        }
+      ],
+      "lead_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNN0ZaSUxXY2RGTWZBcXdNRjV0eWhIZUdfWjFBSmI1OHBGZy1qRWFpNnJxZDJVOC14dVFGZGdSS3NfeFNsQm1IcmJIWGs4M0l5alZQZVhDek80S1lnQ3plUkRrbm9uaE44RWtNMTBDTWRLUmdGLWVVUDRJZ1J5TmR4QU5vWW5qT2NvOHB3dklzcFZ2ZFltMy1SYVdJQnNRZFBiaURJN2t0bjExaE0?oc=5",
+      "first_reported_at": "2026-11-23T13:02:05+00:00",
+      "update_count": 2,
+      "updated": false
+    },
+    {
+      "id": "0626b47ad8cc",
+      "title": "Indonesia says 24 killed in factory blaze as rescuers search for dozens missing",
+      "summary": "Rescuers are searching for around 30 missing workers after a candy factory fire killed at least 24 people in Banten.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0675/live/85d2f2e0-e62c-11f1-b2ea-350d14ed1ad7.jpg",
+      "category": "World",
+      "importance": "Notable",
+      "score": 40.5,
+      "published_at": "2026-11-23T12:23:19+00:00",
+      "source_count": 3,
+      "reasons": [
+        "reported fatalities",
+        "3 trusted sources"
+      ],
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQc2JzeHFuVWp0dk12UzctdTk5TXJIYURhcXVITWE2ZmV3V3Jrb09BenpkWThoenRiY3FyaEp5RUlUMmFmQ0ZJbXhvUGd5RG1nZ0JrNWs1NmhibXFJSXpUUkNOQWZ0VWh2MnVONlRuU1dPVXZXVGVueEx5UEZnWWprWE5iczJIMXZNWlFXeThMZ0kyTWl6aWJfWGNDM3BkY05yYVVxYkw4anppc3hLUmlJX0JOOFhDa19vNGRtdE5YMjJqQQ?oc=5",
+          "published_at": "2026-11-23T03:49:00+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cw8dvg5pgm0eo?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-11-22T14:05:20+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/23/search-continues-for-dozens-missing-after-indonesia-candy-factory-fire?traffic_source=rss",
+          "published_at": "2026-11-23T12:23:19+00:00",
+          "paywalled": false
+        }
+      ],
+      "lead_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQc2JzeHFuVWp0dk12UzctdTk5TXJIYURhcXVITWE2ZmV3V3Jrb09BenpkWThoenRiY3FyaEp5RUlUMmFmQ0ZJbXhvUGd5RG1nZ0JrNWs1NmhibXFJSXpUUkNOQWZ0VWh2MnVONlRuU1dPVXZXVGVueEx5UEZnWWprWE5iczJIMXZNWlFXeThMZ0kyTWl6aWJfWGNDM3BkY05yYVVxYkw4anppc3hLUmlJX0JOOFhDa19vNGRtdE5YMjJqQQ?oc=5",
+      "first_reported_at": "2026-11-23T12:23:19+00:00",
+      "update_count": 0,
+      "updated": false
+    },
+    {
       "id": "ae14947e7693",
       "title": "Regjeringen gir 18 millioner til Unicef for arbeidet mot Ebola i DR Kongo",
       "summary": "Norge bidrar med 18,3 millioner kroner til Unicefs arbeid mot ebola i DR Kongo. Støtten skal gå til å styrke helse- og utdanningssystemet i de to hardeste rammede provinsene, Ituri og Nord-Kivu, skriver regjeringen i en pressemelding. Antallet bekreftede ebolatilfeller i DR Kongo har nådd over 11.000, viser tall fra landets myndigheter forrige uke. 5387 pers",
       "image": "https://gfx.nrk.no/AixRtFrB5XTbQNRtvXDUOQIqWL3oZAzAn612Orb2N2XA.jpg",
-      "category": "Norway",
+      "category": "World",
       "importance": "Notable",
       "score": 40.3,
-      "published_at": "2026-11-23T13:38:47+00:00",
+      "published_at": "2026-11-23T13:00:39+00:00",
       "source_count": 2,
       "reasons": [
         "high-impact event",
@@ -560,8 +585,8 @@
       "sources": [
         {
           "name": "Regjeringen.no",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQV2dONmVhbWg3YVVDNnhkMVRENHZ5RjQ0UUszLVdSdjZPSjBzM2M4ajM4M1ZsZGRiZ2NSaGVMemltZ0VDLVhBdHNORFBOZC1rZFBsbS12OHZuUUtWeEJJTVFMdElCcl8wR2FnNFZ5Ulc4b2ZWUlN0c1ZXWHB4Yi1ud2Jn?oc=5",
-          "published_at": "2026-11-23T13:38:47+00:00",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOQ2ZaWGFuVF9HVHlIT0RXajg2UTJtMUFzaENwYTUwcVRuT3VBX0dvT0Jxb2g0QnVsMlhLSnJkNjBpeHRIdEM3YlNTRFotVW9PTVV2TFRuQlU0ZGFrR3hhclNKOHhWbXVSSlgwS2ZzOTVpa3ZHVl9RcWVJcjhBVzV4MTlHc3NQRlI0YXpuNnEtZ3g?oc=5",
+          "published_at": "2026-11-23T13:00:39+00:00",
           "paywalled": false
         },
         {
@@ -573,6 +598,33 @@
       ],
       "lead_url": "https://www.nrk.no/nyheter/regjeringen-gir-18-millioner-til-unicef-for-arbeidet-mot-ebola-i-dr-kongo-1.18086894",
       "first_reported_at": "2026-11-23T13:38:47+00:00",
+      "update_count": 0,
+      "updated": false
+    },
+    {
+      "id": "88a836383598",
+      "title": "South Korea vows to stabilise stock market after KOSPI drops 5%",
+      "summary": "South Korea vows to stabilise stock market after KOSPI drops 5% Reuters",
+      "image": "",
+      "category": "World",
+      "importance": "Notable",
+      "score": 40.3,
+      "published_at": "2026-11-23T02:43:00+00:00",
+      "source_count": 1,
+      "reasons": [
+        "significant public impact",
+        "large market move"
+      ],
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOaF9QVUplYkNRSkhhV19adWpudklsdXcxV0dodVVtYzc1WHJUWTNRMkduX1UxaURycVZTREc4RGpzOURZcFhvSTN3MUxwYUhuNWluQzVfSFAydjZ1bnVFR3VYaXpFY05XVW5OOUR2R0E3VkYwZzJHajh6MndCYUtsNnBxOGhib0dUUFlvRlNIRnp2TGl2Mml3emx5emcyQWFMajdNWGhRNnRkbW5fTk1ZUlV2VURvcHgwcndHN0Z1eDE5S19IS0FTZm43NmVZbUk?oc=5",
+          "published_at": "2026-11-23T02:43:00+00:00",
+          "paywalled": false
+        }
+      ],
+      "lead_url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOaF9QVUplYkNRSkhhV19adWpudklsdXcxV0dodVVtYzc1WHJUWTNRMkduX1UxaURycVZTREc4RGpzOURZcFhvSTN3MUxwYUhuNWluQzVfSFAydjZ1bnVFR3VYaXpFY05XVW5OOUR2R0E3VkYwZzJHajh6MndCYUtsNnBxOGhib0dUUFlvRlNIRnp2TGl2Mml3emx5emcyQWFMajdNWGhRNnRkbW5fTk1ZUlV2VURvcHgwcndHN0Z1eDE5S19IS0FTZm43NmVZbUk?oc=5",
+      "first_reported_at": "2026-11-23T02:43:00+00:00",
       "update_count": 0,
       "updated": false
     }
