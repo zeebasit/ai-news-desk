@@ -31,6 +31,8 @@ jobs:
         with:
           path: ~/.cache/huggingface
           key: hf-all-MiniLM-L6-v2-v1
+      - name: Install CPU inference runtime
+        run: pip install --index-url https://download.pytorch.org/whl/cpu torch==2.5.1
       - name: Install dependencies
         run: pip install -r requirements.txt
       - name: Collect and rank
