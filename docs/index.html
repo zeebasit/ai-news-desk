@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-  <meta name="theme-color" content="#101114">
+  <meta name="theme-color" content="#15181d">
   <meta name="description" content="AI-curated significant world news without duplicate story clutter.">
   <link rel="manifest" href="manifest.json">
   <link rel="icon" href="icon.svg" type="image/svg+xml">
@@ -11,36 +11,76 @@
   <title>AI News Desk</title>
 </head>
 <body>
-<header class="topbar">
-  <div><div class="eyebrow">PERSONAL NEWS INTELLIGENCE</div><h1>AI News Desk</h1></div>
-  <div class="status"><span class="live-dot"></span><span id="updatedText">Loading…</span></div>
-</header>
-<main>
-  <section class="hero">
-    <div><h2>Important news. One story, not six duplicates.</h2>
-    <p>Stories are collected from reliable sources, clustered, ranked for significance, and linked back to the original reporting.</p></div>
-    <button id="refreshBtn" class="ghost-btn">Refresh</button>
-  </section>
-  <section class="controls">
-    <div id="categoryTabs" class="tabs"></div>
-    <div class="filters">
-      <select id="timeFilter"><option value="6">Last 6 hours</option><option value="24" selected>Last 24 hours</option><option value="72">Last 3 days</option></select>
-      <select id="importanceFilter"><option value="all" selected>All selected news</option><option value="Major">Major + Critical</option><option value="Critical">Critical only</option></select>
-      <input id="searchInput" type="search" placeholder="Search stories…">
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="#news" aria-label="AI News Desk home">
+        <span class="brand-mark"></span>
+        <span><strong>AI News Desk</strong><small>Global developments · curated · trusted</small></span>
+      </a>
+      <div class="header-actions">
+        <div class="status"><span class="live-dot"></span><span id="updatedText">Loading…</span></div>
+        <button id="refreshBtn" class="icon-btn" aria-label="Refresh news">↻</button>
+      </div>
     </div>
-  </section>
-  <section class="summary-strip">
-    <div><strong id="storyCount">0</strong><span>stories</span></div>
-    <div><strong id="modelMode">—</strong><span>filter mode</span></div>
-    <div><strong>0 NOK</strong><span>API cost</span></div>
-  </section>
-  <section id="stories" class="stories" aria-live="polite"></section>
-  <section class="watchlist">
-    <div class="section-heading"><h2>Upcoming / Watchlist</h2><span>High-impact scheduled events</span></div>
-    <div id="watchlistItems" class="watchlist-grid"></div>
-  </section>
-</main>
-<footer><span>AI News Desk</span><span>Headline-level metadata · Open original sources for full reporting</span></footer>
-<script src="app.js" defer></script>
+  </header>
+
+  <main id="news">
+    <section class="toolbar">
+      <div id="categoryTabs" class="tabs" aria-label="News categories"></div>
+      <div class="filter-row">
+        <select id="timeFilter" aria-label="Time range">
+          <option value="6">Last 6 hours</option>
+          <option value="24" selected>Last 24 hours</option>
+          <option value="72">Last 3 days</option>
+        </select>
+        <select id="importanceFilter" aria-label="Importance">
+          <option value="all" selected>All selected news</option>
+          <option value="Major">Major + Critical</option>
+          <option value="Critical">Critical only</option>
+        </select>
+        <input id="searchInput" type="search" placeholder="Search stories…" aria-label="Search stories">
+      </div>
+    </section>
+
+    <section class="summary-strip" aria-label="News summary">
+      <button class="summary-item critical-stat" data-filter="Critical"><span class="stat-icon">!</span><span><strong id="criticalCount">0</strong><small>Critical</small></span></button>
+      <button class="summary-item major-stat" data-filter="Major"><span class="stat-icon">◆</span><span><strong id="majorCount">0</strong><small>Major</small></span></button>
+      <button class="summary-item"><span class="stat-icon">▤</span><span><strong id="storyCount">0</strong><small>Stories</small></span></button>
+      <button class="summary-item local-stat" data-category="Stavanger/Rogaland"><span class="stat-icon">●</span><span><strong id="localCount">0</strong><small>Local</small></span></button>
+      <button class="summary-item watch-stat" data-jump="watchlist"><span class="stat-icon">◫</span><span><strong id="watchCount">0</strong><small>Watchlist</small></span></button>
+    </section>
+
+    <section class="feed-heading">
+      <div>
+        <span class="kicker">CURATED BRIEF</span>
+        <h1 id="feedTitle">Top developments</h1>
+      </div>
+      <span id="modelMode" class="ai-mode">Semantic AI</span>
+    </section>
+
+    <section id="stories" class="stories" aria-live="polite"></section>
+
+    <section id="watchlist" class="watchlist">
+      <div class="section-heading">
+        <div><span class="kicker">LOOKING AHEAD</span><h2>Upcoming / Watchlist</h2></div>
+        <span>High-impact scheduled events</span>
+      </div>
+      <div id="watchlistItems" class="watchlist-grid"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span>AI News Desk</span>
+    <span>Headline-level metadata · Open original sources for full reporting</span>
+  </footer>
+
+  <nav class="mobile-nav" aria-label="Quick navigation">
+    <button class="nav-item active" data-action="news"><span>▤</span><small>News</small></button>
+    <button class="nav-item" data-action="watchlist"><span>◫</span><small>Watchlist</small></button>
+    <button class="nav-item" data-action="saved"><span>♡</span><small>Saved</small></button>
+    <button class="nav-item" data-action="search"><span>⌕</span><small>Search</small></button>
+  </nav>
+
+  <script src="app.js" defer></script>
 </body>
 </html>
