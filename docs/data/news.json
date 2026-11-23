@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-23T13:46:19.143646+00:00",
+  "generated_at": "2026-11-23T13:50:16.555495+00:00",
   "model_mode": "sentence-transformers",
   "stories": [
     {
       "id": "bfc88015cab8",
-      "title": "ConocoPhillips exits Norway with $4.4 billion asset sale to Vaar Energi",
+      "title": "ConocoPhillips to Exit Norway in $4.4 Billion Deal With Vr Energi",
       "category": "Stavanger/Rogaland",
       "importance": "Major",
       "score": 58.0,
-      "published_at": "2026-11-23T13:12:21+00:00",
+      "published_at": "2026-11-23T13:49:12+00:00",
       "source_count": 2,
       "reasons": [
         "significant public impact",
@@ -30,14 +30,14 @@
           "paywalled": true
         }
       ],
-      "lead_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQcHNqQjMxSlNrcGN4LVZIUC0yZUpTTUQyOU1SNnJaTkFpQkFnRHFYODF0R0hhbnBkbTFfbEpMYU9WSlNMYWFLTjhPOGszWHFoX0JnZnZBY2pVNDVFbEFJYlBKSHhiZ1EyaU80anh6d3RuVFVPZUFJOUVmZndKbWVxRGlaLW1DUG1QN2ZkS2ZOTEhZbUJSRk5zTUtRNXVrNkZjaWNjSGVvRy1iRlZRMkFfa0gzcTl4Zw?oc=5",
+      "lead_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPTEdNaTZIaDJFQnJWSWd5VkR4Q0VWMjQ2R3hMN0F0M1pCV09hRmZiWEl5T1JMVnN3YnVKSTlVbDlFWWpuZUdZQ2tJZV94d3EtUUtlcEN3S3c5SUN5cW9aWl9oVUhTb1J4aHJ0aF9KbUZ5RlpjRmJDUzRmWmpEVHUzTWZhNFBOV3F4SlE2Q2hpeUMxNkltYVRYZXc0bTl5Tm1wWFFXajY2ay10cWxpVDcwT1MweDExSl9PMlZF0gHAAUFVX3lxTE9USkQ2Y2lFV1ZNRmhPWVVwcEJBaHA0dXlUeDFRX3hLU1VVN0RTeTI1M0Y0Rk5uQzdXbF94eTBmdmdoWVdudU1NQmNjUTBpTXJncHNRMC1BM2dCb3VXVFNzdVFoUmVjWFUyazVBT3BjVzBCdzVyVFF3Ulh2YzR3cGdlMDlVZmNPT1pJODVEWWJOb2xYQUo1SXNENU1JVHdWaVhIVnh2Vmt4TUxSZzFGYlpCY2hiZ2QxVGZfM2Q4Smxzcg?oc=5",
       "first_reported_at": "2026-11-23T13:12:21+00:00",
-      "update_count": 1,
-      "updated": false
+      "update_count": 2,
+      "updated": true
     },
     {
       "id": "a51fbeec8ebb",
-      "title": "FBI's criminal information database hacked, CNN reports",
+      "title": "FBI Criminal Database Hacked: Suspected Cyberattack Targets Critical Law Enforcement System Used by Police Nationwide",
       "category": "Tech",
       "importance": "Major",
       "score": 50.2,
@@ -55,8 +55,51 @@
           "paywalled": false
         }
       ],
-      "lead_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNRE83U2NSQ2FlbllBaUxQUzl5UWdfWktnME85LVk1ZkJFczYwOUJEbXpoV0tzUXltYWhtTl8zT05jeW9yX29sREJwZkxCNWdxZWwxcGlUa2N1YzM4YjRZcVF6dWpNbGhfak5zWjNsdnpQcFAzVGdoSmZGLTN5R21KZlcxV2dUZU15czdSQU5fYXJLV1MzWTVuYkdTRi1weFU?oc=5",
+      "lead_url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOaE5ULTl2OHpuQWpuMzR2bGNmR2ctTlpzRlFON3Z1MlhMQ2d6TU1uQk1VemUtc1VpbTE4UVNWV21jcFFJZDJ3U1pSWno5NnRwOG5mMVAyVVhwU3VLVmVZWXlJeFlDdTF0RERzNERYYm1HbnNUUUs4OVZHZ1dXNU9nbTMwZlE2T2preXRLeFVzRC1Zc3NZeTNLencySDVlbDlJdWRnaVdoc3pBbEVFZmllOEFhNTFTOVhneTRBTFZqRGEwRTlKb3diUFVRU3QydTdW?oc=5",
       "first_reported_at": "2026-11-22T08:02:17+00:00",
+      "update_count": 1,
+      "updated": true
+    },
+    {
+      "id": "091998ae83a7",
+      "title": "CrowdStrike snaps up Zscaler in $44 billion deal as cyber threats mount",
+      "category": "Tech",
+      "importance": "Major",
+      "score": 46.1,
+      "published_at": "2026-11-23T13:31:08+00:00",
+      "source_count": 4,
+      "reasons": [
+        "major transaction",
+        "4 trusted sources"
+      ],
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOcUdmOUFLaEppLU9uMl80V2x1RTg4YWg3VUc5cWZsVzNfUWJBN2pFY3BhTndKanI0U2gzZHMzZVdpeWlkVkdBMkxGZkEtNFYyYmhteTQ5MHM0NnhkN2lfVk1WcDRxZDluQzVXNll2OWhodnVmaG9qNm15SWdweEM4YmxSWXVKd21mNW9uWW82MHUyWlJLTEE?oc=5",
+          "published_at": "2026-11-23T13:31:08+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQekFodWNTV2dTaVZ6VDJScmUybjJ3QXRURFJjeVNtQVBmOEJkYUZTNnFlMnNKalRWdFdXOWVwTjg1TFU3THJIOU9hSXNtSXZCczVaT0xDYnNKUEJUYXFXbVpTUkhTNWRFb3VIa1RDcHdOMzB4ZVV4cTZ6STBQZ2RWLWNPT2U1RGRHYjIxNEZ1QlFXQXZJMDhJeHdDLUFUc2tSUjJoejc1dGhzTWtkUS1Hb3V1V1hKbXplV3J2Zw?oc=5",
+          "published_at": "2026-11-23T13:05:00+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "Bloomberg.com",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNUkFJTko4elVPRkJqM1J5WWo1LXpSVFBaVEZ4UDRvb0g5Rkl3bGZ4emltR2dwd3B1TGlSTE9pUFlfeEZ0U3pVdnRKS3ZrNXVhckJLS0VxOFRFOXJKWFBqYXZjbFVJQUJodjd2VnRiZGJGMVAtdEtMT1ZvSmRMNkVtMmo5QTdOOUZhQ01pTXhRUjFGQXc3Yzc1aU5SOE5KWmw2enJzRmo1Z3lDdDNwdS1MUVNn?oc=5",
+          "published_at": "2026-11-23T12:54:20+00:00",
+          "paywalled": true
+        },
+        {
+          "name": "Financial Times",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNaXRqYWdBS2lmTXl0cGRSN0lSa1JjMTBKNzlLSktkUXBQaW9idWU1b3hSc0kwUExtMV9SODYzSHU4REJWakg5cDc3X01jU2ctMUdRV0w1eHRBUXh0NjlQUDB6MXVwb09lVUZZdUNBNEhpLWw2V2hPSXF1QlAteEpFSEQ2bFU?oc=5",
+          "published_at": "2026-11-23T11:02:10+00:00",
+          "paywalled": true
+        }
+      ],
+      "lead_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOcUdmOUFLaEppLU9uMl80V2x1RTg4YWg3VUc5cWZsVzNfUWJBN2pFY3BhTndKanI0U2gzZHMzZVdpeWlkVkdBMkxGZkEtNFYyYmhteTQ5MHM0NnhkN2lfVk1WcDRxZDluQzVXNll2OWhodnVmaG9qNm15SWdweEM4YmxSWXVKd21mNW9uWW82MHUyWlJLTEE?oc=5",
+      "first_reported_at": "2026-11-23T13:31:08+00:00",
       "update_count": 0,
       "updated": false
     },
@@ -86,12 +129,12 @@
       "updated": false
     },
     {
-      "id": "e3962095407b",
-      "title": "Ukrainian drones hit a Russian warship at a naval base in Libya, Zelenskyy says",
+      "id": "14a467637c58",
+      "title": "Ukraine sinks Russian warship in Libya as conflict spreads beyond Europe",
       "category": "Europe/UK",
       "importance": "Notable",
       "score": 44.3,
-      "published_at": "2026-11-23T12:38:42+00:00",
+      "published_at": "2026-11-23T13:31:15+00:00",
       "source_count": 4,
       "reasons": [
         "high-impact event",
@@ -118,14 +161,14 @@
         },
         {
           "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/23/russian-ships-hit-by-drones-off-libya-coast-what-do-we-know?traffic_source=rss",
-          "published_at": "2026-11-23T11:10:12+00:00",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPM1FmOGYwcEh6Rk5MNnNVVjA3eGZ2ZFBIc0VRc0lSNkI2MUE5NTI2WVZnemZZMkRIcmw2UE4zcmJyUGg5ek9VTmhNNXZpeWR1dWtUTE9NTDliaG9LZWNKb2NKdEFVaHE4N0JFMktnVldYWXAtOFBWaE9mZHZxZVE4OWJVV240RmJkOW5aOW9jakdwSzZTeVBLanBxTXh4QmcxWFZhbGJwMndmZTMyN1BHeUh5Z9IBuAFBVV95cUxQVXFtbU85SlhXR3NKMF9Fd1VrelFHOHBzaVRZZVJMcVNlQnFTZkp0bmJKbzRrOWhkWXdFcHROZG5aaGIwempKSGk3R0hmclQ3M2xMMXNKb2VUcG9UNENYOUh6SHh0MWR3UzhNLUpjQ0VnVUE2dGZJUjRLNzZVTUtscFNTbEpLWlpYRGxTeUJveXU4cmJEb0RKYUwwV3M2cVNMclRQd0k0LVZJVm55ZzZLNGNhN1IzREVh?oc=5",
+          "published_at": "2026-11-23T10:39:10+00:00",
           "paywalled": false
         }
       ],
-      "lead_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPR1VjenRaWHFSYy04RXNZOGtGZ21ldWg3a1B4WVp3dk1OY2pPZ2pRcXFCLTk0YnJjalVEMnBqV2M2UnpCSENVWVNPVDhEZXhNQTdPZnlPWDJhNXR5VThOTVdKT2JRYmJfOW9hTzdqRUdMakNOUEFHVmdwWnNNOEx6ZmFiRVc5Z1JyZE5nNHFwODlkTkp5aHRVNUZxZVo2aDR0TnN6U2VRTlE?oc=5",
-      "first_reported_at": "2026-11-23T12:05:42+00:00",
-      "update_count": 1,
+      "lead_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQVVVOaXhUTVZWaDZ0YnlSQnRpZk1JdVpWdkJKVUlmQVpETHVkYV9CazJxR0xnS041MUYxQXcyV3IxZWpqbkVrWk9ZU1NaY2NyNTdHTjd6YmFHSFRIX0NpTE8tV3ZYaS1LajllOGxZZlAzclF3OGpiWU1Jd1dTNVB2VWtJMEZQd1lROVhxUnhYUUJ3TFBsMUV2YlFaQktHU0Q4RHktYnpTLXRndjl2aEZlQ3VzZWZSSFRSVzJiZjJsa3JaSkV4?oc=5",
+      "first_reported_at": "2026-11-23T13:31:15+00:00",
+      "update_count": 0,
       "updated": false
     },
     {
@@ -179,29 +222,47 @@
       "updated": false
     },
     {
-      "id": "91b0233ebcd0",
-      "title": "A 10% drop for the stock market is unnerving, but it’s not that unusual",
+      "id": "a364dce90524",
+      "title": "COP31: What next after UN climate talks collapse",
       "category": "World",
       "importance": "Notable",
-      "score": 44.1,
-      "published_at": "2026-11-21T14:01:00+00:00",
-      "source_count": 1,
+      "score": 43.9,
+      "published_at": "2026-11-23T11:19:08+00:00",
+      "source_count": 4,
       "reasons": [
-        "significant public impact",
-        "large market move"
+        "high-impact event",
+        "4 trusted sources"
       ],
       "sources": [
         {
-          "name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQekJLM2U0dXhaeEo3d2hmNFltdUpLQzF4a2VtY3RNR3otMW44Zld5R0Q3TGpTNWJ5bnA1RG00YXU4NkNpYTBtMVpnUmV4cFZPSF9HWnRjdlRPZ1Bsc0dwOENCQWM4QXc2MjdPRWhPcXZjeXNRbXhUdV9fSDVwcW5kUlJGZTVUbW1Lc0h5YzJCYWtpNDd5dzRJ?oc=5",
-          "published_at": "2026-11-21T14:01:00+00:00",
+          "name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQc3loZzVPSEw4YTN0RXZEdEpveVFkV0JoU0dtRTktZXR6LS1XVGRNVElxWHpWVUQ3eEhOMllBam9jYlNIX29HeW9ncUwyWkNhenBPcmRZeTNBNmt6MF96SkU5TS1zWUVBSEFOS0FMV1gwVmJoS3c3bGw4TjgwLUU5NTFOUEtzOWx3dy04NkhLMW9CMmJxM1dLeVRBRWMyVl9SY1A3THFB?oc=5",
+          "published_at": "2026-11-22T10:13:00+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "Financial Times",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOdDhrTl8yRDE4ZDFnUy1xb0RhQTV0OVB1UldLbjZNaUotZkxjU3BWU1Q0V3Q1Mmt2T3VzU2ZOWE1vX0U4cGR2b0Q1UTVfd3U3dHIteks3WjhOeUtKWFJNRTRrT296MkFtdWVQWktOaHBPXzBfcXk0LW5vU01rRGtzYktLNnI?oc=5",
+          "published_at": "2026-11-23T05:00:22+00:00",
+          "paywalled": true
+        },
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/videos/cr1ewge81q4qo?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-11-23T05:34:39+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/23/cop31-what-next-after-un-climate-talks-collapse?traffic_source=rss",
+          "published_at": "2026-11-23T11:19:08+00:00",
           "paywalled": false
         }
       ],
-      "lead_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQekJLM2U0dXhaeEo3d2hmNFltdUpLQzF4a2VtY3RNR3otMW44Zld5R0Q3TGpTNWJ5bnA1RG00YXU4NkNpYTBtMVpnUmV4cFZPSF9HWnRjdlRPZ1Bsc0dwOENCQWM4QXc2MjdPRWhPcXZjeXNRbXhUdV9fSDVwcW5kUlJGZTVUbW1Lc0h5YzJCYWtpNDd5dzRJ?oc=5",
-      "first_reported_at": "2026-11-21T14:01:00+00:00",
-      "update_count": 0,
-      "updated": false
+      "lead_url": "https://www.aljazeera.com/news/2026/11/23/cop31-what-next-after-un-climate-talks-collapse?traffic_source=rss",
+      "first_reported_at": "2026-11-23T11:19:08+00:00",
+      "update_count": 1,
+      "updated": true
     },
     {
       "id": "88a836383598",
@@ -229,39 +290,45 @@
       "updated": false
     },
     {
-      "id": "a364dce90524",
-      "title": "Countries react as COP31 climate talks collapse",
-      "category": "World",
+      "id": "f6fe44867290",
+      "title": "Denmark says it thwarted Russian plot to assassinate US-Ukrainian rapper",
+      "category": "US/Canada",
       "importance": "Notable",
-      "score": 41.9,
-      "published_at": "2026-11-23T11:19:08+00:00",
-      "source_count": 3,
+      "score": 43.0,
+      "published_at": "2026-11-21T10:49:13+00:00",
+      "source_count": 4,
       "reasons": [
         "high-impact event",
-        "3 trusted sources"
+        "4 trusted sources"
       ],
       "sources": [
         {
+          "name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPaTdoazBLSGtEajM3NVpZdDhaZFlDNXdLdEFfMUItOUc2SEc2ckxGaHVQNHh1MGhmdG1xWFhnOWJWclkzdHEybHV0Qm5jSlhGQm5VMnFYNEpXdUw4VDYzVXhLOVhvaC0zQ284bHp6eDBxUmdtVDNRVjVINk5qLTBHT1VaX1EzNllvR0VzRlpBTGFOQW80QUVZT1l2M0t3MnVRTHhBNTBTZ1FpRnBFblZrbU01czVJdGs?oc=5",
+          "published_at": "2026-11-20T20:02:00+00:00",
+          "paywalled": false
+        },
+        {
           "name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQc3loZzVPSEw4YTN0RXZEdEpveVFkV0JoU0dtRTktZXR6LS1XVGRNVElxWHpWVUQ3eEhOMllBam9jYlNIX29HeW9ncUwyWkNhenBPcmRZeTNBNmt6MF96SkU5TS1zWUVBSEFOS0FMV1gwVmJoS3c3bGw4TjgwLUU5NTFOUEtzOWx3dy04NkhLMW9CMmJxM1dLeVRBRWMyVl9SY1A3THFB?oc=5",
-          "published_at": "2026-11-22T10:13:00+00:00",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQa3pnR2JQcmdEOFhWYVNRZDdPVG1jRktuenpJdThGbUV6Z3BQV3ZUTHo3Y2ZyY3ZwZ0UzblB0RkZzdExxeV9KaUZFZmEzNlZDSGxhOXFoeXVaSllkQ3ZFZTUzMU9IUGppQjhuSXBMQTlITEJfWTdlN3RCTU82dHNndGFQdGhCZWU1akZ0T2ljWUNTVmtWMmk5SDZHeE1feTZ1aUtTZFNGZU1OLUFFYXBRX2loR0dGZw?oc=5",
+          "published_at": "2026-11-20T19:19:49+00:00",
           "paywalled": false
         },
         {
           "name": "BBC World",
-          "url": "https://www.bbc.co.uk/news/videos/cr1ewge81q4qo?at_medium=RSS&at_campaign=rss",
-          "published_at": "2026-11-23T05:34:39+00:00",
+          "url": "https://www.bbc.co.uk/news/articles/cmde1lj4yjxno?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-11-21T10:26:36+00:00",
           "paywalled": false
         },
         {
           "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/23/cop31-what-next-after-un-climate-talks-collapse?traffic_source=rss",
-          "published_at": "2026-11-23T11:19:08+00:00",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQTm5jdWw5MVdVbjdpWnZ2b0cyNnlpdnNqU0owNThlVDY0S1hSbkpOMGpZdm5TVU5QZ2lpSndBQnA2Q050RjA4M3VUYU02YVduem1ZUDI0NUlVeHE4OTVQSXVfRHZPZThocERscE1IUlpCWS1TbEJoaXk0NDN5RkQxQVRfLWF0Y2d6U1ZUTGRZWVZkX0k0dnd0aVZ0OXRxRGFJS3lkcmJlTHBUZ1VSVlBFYldac0VVckXSAbwBQVVfeXFMUGpWZzN4UHkyVDNNOVAtS0F4N1phV2ZzOWZxRXFnTWRKLXlKYUJURlJUQS1xanYzTEpBLWQ1TDNVaVBmLTFxZ0cya25VWER6SVhQX29RZ2tzYXNlV2VEYWV6RGdEVkFnVW56eS1JSkQ4VUMtUWx4M2lySTItQTFseTZMMFNZLUdvZy1COWh4d1M4dUp4Wk5yZWhpRVZVZkU2TnRlVFBRQ3p1MVNNdmdFeVBSX0o5ZUc2QU14ZVM?oc=5",
+          "published_at": "2026-11-21T10:49:13+00:00",
           "paywalled": false
         }
       ],
-      "lead_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQc3loZzVPSEw4YTN0RXZEdEpveVFkV0JoU0dtRTktZXR6LS1XVGRNVElxWHpWVUQ3eEhOMllBam9jYlNIX29HeW9ncUwyWkNhenBPcmRZeTNBNmt6MF96SkU5TS1zWUVBSEFOS0FMV1gwVmJoS3c3bGw4TjgwLUU5NTFOUEtzOWx3dy04NkhLMW9CMmJxM1dLeVRBRWMyVl9SY1A3THFB?oc=5",
-      "first_reported_at": "2026-11-23T11:19:08+00:00",
+      "lead_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQa3pnR2JQcmdEOFhWYVNRZDdPVG1jRktuenpJdThGbUV6Z3BQV3ZUTHo3Y2ZyY3ZwZ0UzblB0RkZzdExxeV9KaUZFZmEzNlZDSGxhOXFoeXVaSllkQ3ZFZTUzMU9IUGppQjhuSXBMQTlITEJfWTdlN3RCTU82dHNndGFQdGhCZWU1akZ0T2ljWUNTVmtWMmk5SDZHeE1feTZ1aUtTZFNGZU1OLUFFYXBRX2loR0dGZw?oc=5",
+      "first_reported_at": "2026-11-21T10:49:13+00:00",
       "update_count": 0,
       "updated": false
     },
@@ -297,8 +364,8 @@
       "updated": false
     },
     {
-      "id": "743a38fb904f",
-      "title": "North Carolina win gives Democrats biggest US House majority since early 1990s",
+      "id": "8e19ff88089c",
+      "title": "Democrats Clinch 258 House Seats, an Election-Year Record This Century",
       "category": "US/Canada",
       "importance": "Notable",
       "score": 40.5,
@@ -334,14 +401,14 @@
           "paywalled": false
         }
       ],
-      "lead_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOZzZjY0pNZnpnUmtsZ3RudXpZeDh4TnlWZDFIZHBvUk0tbVlxREhydk5zRTJhX0lYcjFXQTNNTzBtOFM4NlNhTE9DZnl3SUZiM3RpTzRzZTJ4aURMSUJCdDRGb0l2MWh5MFJmTWgwS1k4Ql9vTGh1eWVGbEw3WGVCS1UtTkNGVVoxS0EyZVl3Vmw0UThpTlVUWWN2WlNyaWR6a1FYYlJZaWl1MlAyQ01OSEcyY3hMai0zUWdfUUc3MkQ?oc=5",
+      "lead_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNRTlhVl9TdFB4TzZPMHExRjJKdGJvQmZJcDRTcWl5TzRlMUpoalpDRmpJdjdpZWlQQTZrSWhfU2lXRGdSZVJCWVpMUFVubjNzRGpfUHEwUEptdHJJODZ1dlNoVk83dlN6aFgyRkk3RlRwUGJ2VXdNNFZSTThfOWxnclFjVzV5RS1iZ0R5QTZVcVU1YWRvamc?oc=5",
       "first_reported_at": "2026-11-23T13:02:05+00:00",
-      "update_count": 1,
+      "update_count": 0,
       "updated": false
     },
     {
       "id": "a8fe195644f7",
-      "title": "India announces $1.62 billion package to bolster ties with flood-hit Nepal",
+      "title": "India announces a $1.6 billion aid package for Nepal’s flood recovery",
       "category": "World",
       "importance": "Notable",
       "score": 39.6,
@@ -365,14 +432,14 @@
           "paywalled": false
         }
       ],
-      "lead_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQSWpDakZzTzdkdDFwdmNHcHlTc0Q0SDBxWEN3Uk5ZcmZaZXJzdzV3RXNtZkUzZzk1RlJKVFdkNkp5aVI2cVNaeVBBMFRBcXZ5S00xVVRvN3JuNXJUcXpvaVdrTnZPRmVhTUhuNHNEdDZtQmF4bFEyRVB4NG93c19Ub3hsQnJZNUJURGZjcndld1ZTVGViQnFDaGFzeExYaGVxZkE0SXdR?oc=5",
+      "lead_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQNTNPcnhTTndtR0F1d3haak1ZZWNEajF5eTQtb3JlV25oNlJFZ2ZCbk9xQ0x4M2ZwVnFRRWVCY1lNd1lScWp2cjJxR2pvQzRqX1gzbEREZVlTS2E4b0MyQXFRd3NPSzRRVU1ka2NtZXFGbWRxa185SkwtOWRmcFRCaXBVeS1HdWhIWFE?oc=5",
       "first_reported_at": "2026-11-23T12:33:22+00:00",
-      "update_count": 1,
-      "updated": false
+      "update_count": 2,
+      "updated": true
     },
     {
-      "id": "14152ad7cf4c",
-      "title": "Indonesian rescuers race to find 34 missing workers after a deadly candy factory fire",
+      "id": "0626b47ad8cc",
+      "title": "Indonesia says 24 killed in factory blaze as rescuers search for dozens missing",
       "category": "World",
       "importance": "Notable",
       "score": 39.1,
@@ -408,7 +475,7 @@
           "paywalled": false
         }
       ],
-      "lead_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNeWxmUHVQSmZGb3dYUl9UZzNOXzlEcW1hcUFTNlZzY0xNS3ZySEE5bzhTYW94eFJJTmN1RnVqLWZXeFJtUUVqUmpkaTNoS19vWlcwWHZza3hqanhPX2pGTjc2czRONGswbEJWT1Fjalh2eTNYTWJ0RjlWUnFld3JKbnUtaUpIZ1Q3RWdVQUtvSXdPajQ1cG1IejZZSQ?oc=5",
+      "lead_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQc2JzeHFuVWp0dk12UzctdTk5TXJIYURhcXVITWE2ZmV3V3Jrb09BenpkWThoenRiY3FyaEp5RUlUMmFmQ0ZJbXhvUGd5RG1nZ0JrNWs1NmhibXFJSXpUUkNOQWZ0VWh2MnVONlRuU1dPVXZXVGVueEx5UEZnWWprWE5iczJIMXZNWlFXeThMZ0kyTWl6aWJfWGNDM3BkY05yYVVxYkw4anppc3hLUmlJX0JOOFhDa19vNGRtdE5YMjJqQQ?oc=5",
       "first_reported_at": "2026-11-23T12:23:19+00:00",
       "update_count": 0,
       "updated": false
@@ -453,6 +520,54 @@
       ],
       "lead_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQNkdWWmd1TGxndVdtTXRTSVZOekxZZDhzS0F4TlNTbFN4R085VlA2T2FER1UwdEE3ZlloaDRIREpFSXJuMnZHUGVnTjZxNVc5ZDRmcE1jSV9kM2p6WEF4cE5ocHktaURvOGhKZ012TUxPMS10ak1OUFAtQ1NFZmFMY293UktTR2Ri?oc=5",
       "first_reported_at": "2026-11-23T11:38:55+00:00",
+      "update_count": 0,
+      "updated": false
+    },
+    {
+      "id": "42f79c5347cc",
+      "title": "Danish police investigate school bomb threats",
+      "category": "Europe/UK",
+      "importance": "Notable",
+      "score": 38.2,
+      "published_at": "2026-11-23T11:51:21+00:00",
+      "source_count": 1,
+      "reasons": [
+        "high-impact event"
+      ],
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNeGR4MmtWVUNBWDdVZlRjckl1UFZmWTVYai1sdDZ1dWFkYXZhUUpQYWVFdzJtOXJyMVlpR1p5dHVtY3hlTGZiU3MxOXZEalpTOTRnd0VIY3hjYldnd2NjbVlXNHcwT1pXUFpIR2pIaFZVRWJQNG80MDEwOWVIeDdHZzRVd0J1eklLNnBGVDFLWTJvd21UZVc3aGtjcERCeWZmM2c?oc=5",
+          "published_at": "2026-11-23T11:51:21+00:00",
+          "paywalled": false
+        }
+      ],
+      "lead_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPRVFRSVYxM3MwY19mSEhtQ251ZlktNnU5ZDQwSWs3UDdlNHM4WUM4QkJSTjlVaDFqcVF2WlV2c09jOUtPQkJjOGlHb0szaThSSlVJS1FNb0NLUlk4X0stR1Z0SmNseGVqWlMtSmRuUUN2dkFKYkRyeVVmUGl1SWRTQXdWQWlyai0yUnhNUTBfUGU?oc=5",
+      "first_reported_at": "2026-11-23T11:51:21+00:00",
+      "update_count": 0,
+      "updated": false
+    },
+    {
+      "id": "1fdd97e8e442",
+      "title": "NATO believes Russia is ready to launch nuclear-armed satellite, German media say",
+      "category": "Europe/UK",
+      "importance": "Notable",
+      "score": 38.2,
+      "published_at": "2026-11-23T09:50:34+00:00",
+      "source_count": 1,
+      "reasons": [
+        "high-impact event"
+      ],
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNQmRybDRhZzhaRkRlSHZUdWxTZVRPUEU1NDJfRFBwX3ItMDZsb0pSZWdFMlgwbDhzclBlaWwyTndXYUQxS0JrZFd5SjlNWC05YWYtYWZhREFHNE5VLXFEOGx3SkY5bWNrMWlYbVhEVklQN3YzMnZSNmVtcmNqdzlSQ21vZW1yWU4xN1UySDE1SHNCUXZfekUyQlRMQUFGMlBSWk5Hc0JFTjlsZGN6NS14M2E2eXk4a2tPUjZGd2Y4a09SX212UUlNY2lkVG1XQXZUMmhOMHRZMA?oc=5",
+          "published_at": "2026-11-23T09:10:32+00:00",
+          "paywalled": false
+        }
+      ],
+      "lead_url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNQmRybDRhZzhaRkRlSHZUdWxTZVRPUEU1NDJfRFBwX3ItMDZsb0pSZWdFMlgwbDhzclBlaWwyTndXYUQxS0JrZFd5SjlNWC05YWYtYWZhREFHNE5VLXFEOGx3SkY5bWNrMWlYbVhEVklQN3YzMnZSNmVtcmNqdzlSQ21vZW1yWU4xN1UySDE1SHNCUXZfekUyQlRMQUFGMlBSWk5Hc0JFTjlsZGN6NS14M2E2eXk4a2tPUjZGd2Y4a09SX212UUlNY2lkVG1XQXZUMmhOMHRZMA?oc=5",
+      "first_reported_at": "2026-11-23T09:50:34+00:00",
       "update_count": 0,
       "updated": false
     },
