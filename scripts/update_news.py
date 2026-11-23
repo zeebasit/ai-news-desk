@@ -25,7 +25,7 @@ CATEGORY={
 "Norway":["norway","norwegian","oslo","storting","regjeringen","norges bank","equinor"],
 "Tech":["artificial intelligence"," ai ","cyber","ransomware","hack","software","cloud","semiconductor","chip","openai","google","microsoft","apple","meta","nvidia","data center","datacentre","quantum"],
 "Middle East":["israel","israeli","gaza","palestin","iran","iranian","iraq","syria","lebanon","saudi","yemen","houthi","qatar","uae","emirates","jordan","oman","hormuz"],
-"US/Canada":["united states","u.s.","american","white house","congress","canada","canadian","alberta","ontario","quebec","ottawa"],
+"US/Canada":["united states","u.s.","american","white house","congress","canada","canadian","alberta","ontario","quebec","ottawa","alabama","alaska","arizona","arkansas","california","colorado","connecticut","delaware","florida","georgia","hawaii","idaho","illinois","indiana","iowa","kansas","kentucky","louisiana","maine","maryland","massachusetts","michigan","minnesota","mississippi","missouri","montana","nebraska","nevada","new hampshire","new jersey","new mexico","new york","north carolina","north dakota","ohio","oklahoma","oregon","pennsylvania","rhode island","south carolina","south dakota","tennessee","texas","utah","vermont","virginia","washington state","west virginia","wisconsin","wyoming"],
 "Europe/UK":["europe","european","britain","british","england","france","french","germany","german","italy","italian","albania","albanian","spain","poland","ukraine","russia","romania","romanian","nato"]
 }
 IMPACT=[
@@ -53,6 +53,10 @@ ANCHORS=[
 "important Stavanger Rogaland transport healthcare energy industry security"
 ]
 PAY=set(CFG.get("paywall_sources",[]))
+TRUSTED_PATTERNS=["reuters","ap news","associated press","bbc","bloomberg","financial times","axios","al jazeera","drop site","nrk","stavanger aftenblad","aftenbladet","regjeringen","politiet"]
+def trusted_source(name):
+    n=(name or "").lower()
+    return any(p in n for p in TRUSTED_PATTERNS)
 CAS=re.compile(r"\b(?:(\d{1,5})\s+(?:people\s+)?(?:killed|dead|deaths|died)|(?:kills|killed)\s+(\d{1,5})|death toll (?:rises? to|at|of)?\s*(\d{1,5}))\b",re.I)
 
 def clean(x):
@@ -145,6 +149,9 @@ def score(text,weight,semantic):
         if nums:s+=min(22,5+math.log10(max(nums))*7); reasons.append("reported fatalities")
     if any(k in t for k in ["nationwide","state of emergency","hundreds of thousands","millions"]):s+=10; reasons.append("large scale")
     if any(k in t for k in ["norway","norwegian","stavanger","rogaland","sandnes"]):s+=9; reasons.append("Norway/local relevance")
+    mag=re.search(r"\bmagnitude\s+([0-9]+(?:\.[0-9]+)?)",t)
+    if mag and float(mag.group(1))<5.0 and not CAS.search(t):
+        s-=30; reasons.append("minor event filtered")
     if any(k in t for k in ["celebrity","horoscope","recipe","movie review","football transfer","lottery"]):s-=30
     return s,reasons
 def sid(t): return hashlib.sha1(" ".join(sorted(toks(t))[:12]).encode()).hexdigest()[:12]
@@ -156,15 +163,22 @@ def build(a):
         group=[a[i] for i in ids]; lead=max(group,key=lambda x:(x["weight"],x["published_at"]))
         alltext=" ".join(x["title"]+" "+x["summary"] for x in group)
         sc,reasons=score(alltext,max(x["weight"] for x in group),max(float(anchor[i]) for i in ids))
-        names={x["source"].lower() for x in group}
-        if len(names)>=2:sc+=min(12,4+(len(names)-2)*2); reasons.append(str(len(names))+" sources")
+        coverage_names={x["source"].lower() for x in group}
+        trusted_names={x["source"].lower() for x in group if trusted_source(x["source"])}
+        if len(trusted_names)>=2:
+            sc+=min(10,4+(len(trusted_names)-2)*2); reasons.append(str(len(trusted_names))+" trusted sources")
+        elif len(coverage_names)>=3:
+            sc+=2
         cat=category(alltext); floor=28 if cat in ["Norway","Stavanger/Rogaland"] else SET["minimum_score"]
         if sc<floor:continue
-        src=[]; seen=set()
-        for x in sorted(group,key=lambda q:(q["weight"],q["published_at"]),reverse=True):
-            if x["url"] in seen:continue
-            seen.add(x["url"]);src.append({"name":x["source"],"url":x["url"],"published_at":x["published_at"],"paywalled":x["paywalled"]})
-        out.append({"id":sid(lead["title"]),"title":lead["title"],"category":cat,"importance":"Critical" if sc>=72 else "Major" if sc>=52 else "Notable","score":round(sc,1),"published_at":max(x["published_at"] for x in group),"source_count":len(names),"reasons":list(dict.fromkeys(reasons))[:4],"sources":src[:8],"lead_url":lead["url"]})
+        if not trusted_names and cat not in ["Norway","Stavanger/Rogaland"] and sc<46:continue
+        display_group=[x for x in group if trusted_source(x["source"])] or group
+        src=[]; seen=set(); seen_names=set()
+        for x in sorted(display_group,key=lambda q:(q["weight"],q["published_at"]),reverse=True):
+            if x["url"] in seen or x["source"].lower() in seen_names:continue
+            seen.add(x["url"]); seen_names.add(x["source"].lower())
+            src.append({"name":x["source"],"url":x["url"],"published_at":x["published_at"],"paywalled":x["paywalled"]})
+        out.append({"id":sid(lead["title"]),"title":lead["title"],"category":cat,"importance":"Critical" if sc>=72 else "Major" if sc>=52 else "Notable","score":round(sc,1),"published_at":max(x["published_at"] for x in group),"source_count":len(trusted_names) if trusted_names else len(coverage_names),"reasons":list(dict.fromkeys(reasons))[:4],"sources":src[:8],"lead_url":lead["url"]})
     out.sort(key=lambda x:(x["score"],x["published_at"]),reverse=True)
     return {"generated_at":NOW.isoformat(),"model_mode":mode,"stories":out[:SET["top_story_limit"]],"watchlist":WATCH.get("events",[])}
 def main():
