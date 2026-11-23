@@ -356,6 +356,56 @@ def importance_level(sc,reasons,text):
     if sc>=46:return "Major"
     return "Notable"
 
+def consolidate_selected(stories,E):
+    if len(stories)<2:return stories
+    event_terms={"blockade","warship","missile","earthquake","tsunami","wildfire","flood","landslide","eruption","ceasefire","referendum","election","ransomware","cyberattack","merger","acquisition","takeover","bomb","evacuation","outbreak","blackout","protest","riot","strike","pipeline","refinery"}
+    ordered=sorted(stories,key=lambda x:(x["score"],x["published_at"]),reverse=True)
+    merged=[]
+    for s in ordered:
+        i=s.get("_lead_index")
+        target=None
+        for m in merged:
+            j=m.get("_lead_index")
+            if i is None or j is None:continue
+            same_cat=(s["category"]==m["category"]) or "World" in (s["category"],m["category"])
+            if not same_cat:continue
+            try:
+                close=abs((dateparser.parse(s["published_at"])-dateparser.parse(m["published_at"])).total_seconds())<=30*3600
+            except:
+                close=True
+            if not close:continue
+            sem=float(cosine_similarity(E[i:i+1],E[j:j+1])[0,0])
+            ov=overlap(s["title"],m["title"])
+            ent=len(entityish(s["title"]) & entityish(m["title"]))
+            shared_event=bool(toks(s["title"]) & toks(m["title"]) & event_terms)
+            same=(sem>=.88 or
+                  (sem>=.78 and ov>=.30) or
+                  (sem>=.72 and ov>=.42) or
+                  (sem>=.70 and shared_event and (ov>=.20 or ent>=1)) or
+                  (sem>=.70 and ent>=2 and ov>=.20))
+            if same:
+                target=m;break
+        if target is None:
+            merged.append(dict(s));continue
+
+        # Higher-scoring card remains the representative; merge evidence/sources only.
+        families={source_family(x["name"]) for x in target.get("sources",[])}
+        for src in s.get("sources",[]):
+            fam=source_family(src["name"])
+            if fam not in families:
+                target.setdefault("sources",[]).append(src);families.add(fam)
+        target["sources"]=target.get("sources",[])[:8]
+        target["source_count"]=len(families)
+        target["published_at"]=max(target["published_at"],s["published_at"])
+        target["reasons"]=list(dict.fromkeys(target.get("reasons",[])+s.get("reasons",[])))[:4]
+        if not target.get("summary") and s.get("summary"):target["summary"]=s["summary"]
+        if not target.get("image") and s.get("image"):target["image"]=s["image"]
+        rank={"Notable":1,"Major":2,"Critical":3}
+        if rank.get(s.get("importance"),0)>rank.get(target.get("importance"),0):
+            target["importance"]=s["importance"]
+    for s in merged:s.pop("_lead_index",None)
+    return merged
+
 def build(a):
     if not a:return {"generated_at":NOW.isoformat(),"model_mode":"none","stories":[],"watchlist":WATCH.get("events",[])}
     texts=[x["title"]+". "+x["summary"] for x in a]; E,A,mode=embeddings(texts)
@@ -408,7 +458,8 @@ def build(a):
             brief_candidates=[x.get("summary","").strip() for x in display_group if source_family(x["source"])==source_family(lead["source"]) and len(x.get("summary","").strip())>=60]
             brief=(brief_candidates[0][:360] if brief_candidates else lead_summary[:360])
         image=lead.get("image","") or next((x.get("image","") for x in display_group if source_family(x["source"])==source_family(lead["source"]) and x.get("image")), "")
-        out.append({"id":sid(lead["title"]),"title":lead["title"],"summary":brief,"image":image,"category":cat,"importance":importance_level(sc,reasons,alltext),"score":round(sc,1),"published_at":max(x["published_at"] for x in group),"source_count":len(trusted_names) if trusted_names else len(coverage_names),"reasons":list(dict.fromkeys(reasons))[:4],"sources":src[:8],"lead_url":lead["url"]})
+        out.append({"id":sid(lead["title"]),"title":lead["title"],"summary":brief,"image":image,"category":cat,"importance":importance_level(sc,reasons,alltext),"score":round(sc,1),"published_at":max(x["published_at"] for x in group),"source_count":len(trusted_names) if trusted_names else len(coverage_names),"reasons":list(dict.fromkeys(reasons))[:4],"sources":src[:8],"lead_url":lead["url"],"_lead_index":lead_i})
+    out=consolidate_selected(out,E)
     out.sort(key=lambda x:(x["score"],x["published_at"]),reverse=True)
     return {"generated_at":NOW.isoformat(),"model_mode":mode,"stories":out[:SET["top_story_limit"]],"watchlist":WATCH.get("events",[])}
 def match_previous_story(cur, previous):
