@@ -54,6 +54,9 @@ ANCHORS=[
 "important Norway national policy economy security public services",
 "important Stavanger Rogaland transport healthcare energy industry security"
 ]
+SYSTEMIC_COMPANIES=["nvidia","microsoft","apple","alphabet","google","amazon","meta","tesla","tsmc","asml","broadcom","amd","intel","samsung","openai","anthropic"]
+LEADERSHIP_TERMS=["ceo","chief executive","chairman","president","board"]
+LEADERSHIP_CHANGE_TERMS=["reinstated","resigns","resigned","ouster","ousted","removed","appointed","returns","return as","succession","steps down","stepped down"]
 PAY=set(CFG.get("paywall_sources",[]))
 TRUSTED_PATTERNS=["reuters","ap news","associated press","bbc","bloomberg","financial times","axios","al jazeera","drop site","nrk","stavanger aftenblad","aftenbladet","regjeringen","politiet"]
 def trusted_source(name):
@@ -182,10 +185,16 @@ def score(text,weight,semantic):
     if any(k in t for k in ["nationwide","state of emergency","hundreds of thousands","millions","hundreds of schools"]):s+=10; reasons.append("large scale")
     if "naval blockade" in t or "shipping blockade" in t:
         s+=5; reasons.append("strategic chokepoint risk")
-    market_terms=["stock","stocks","nasdaq","s&p","market","markets","futures","index","indices"]
+    market_terms=["stock","stocks","share","shares","nasdaq","s&p","market","markets","futures","index","indices","market value"]
     pct=[float(x) for x in re.findall(r"\b(\d+(?:\.\d+)?)\s*%",t)]
     if pct and max(pct)>=5 and any(k in t for k in market_terms):
-        s+=12; reasons.append("large market move")
+        move=max(pct)
+        s+=18 if move>=20 else 14 if move>=10 else 10
+        reasons.append("major market reaction" if move>=10 else "large market move")
+    leadership=any(k in t for k in LEADERSHIP_TERMS) and any(k in t for k in LEADERSHIP_CHANGE_TERMS)
+    strategic_company=any(k in t for k in SYSTEMIC_COMPANIES)
+    if leadership and strategic_company:
+        s+=20; reasons.append("major corporate leadership change")
     deal=re.search(r"\$\s*(\d+(?:\.\d+)?)\s*billion",t)
     if deal and any(k in t for k in ["acquire","acquisition","merger","takeover","deal"]):
         value=float(deal.group(1))
