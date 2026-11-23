@@ -42,20 +42,23 @@ IMPACT=[
 (11,["science","spacecraft","mission","climate","breakthrough"])
 ]
 ANCHORS=[
-"large natural disaster deaths evacuations infrastructure damage",
-"war military escalation missile attack ceasefire sanctions major diplomacy",
-"national election referendum constitutional crisis coup political transition",
-"large protest civil unrest riots nationwide demonstrations",
-"major cyberattack ransomware cyber physical critical infrastructure",
-"power grid transport food water hospital telecom essential service disruption",
-"public health emergency epidemic outbreak international significance",
-"central bank inflation recession financial crisis major market disruption",
-"important artificial intelligence semiconductor cybersecurity science technology",
-"important Norway national policy economy security public services",
-"important Stavanger Rogaland transport healthcare energy industry security"
-]
-SYSTEMIC_COMPANIES=["nvidia","microsoft","apple","alphabet","google","amazon","meta","tesla","tsmc","asml","broadcom","amd","intel","samsung","openai","anthropic"]
-LEADERSHIP_TERMS=["ceo","chief executive","chairman","president","board"]
+"large natural disaster causing deaths evacuations displacement or infrastructure damage",
+"war military escalation missile attack ceasefire sanctions blockade or major diplomacy",
+"national election referendum constitutional crisis coup government collapse or political transition",
+"large protest civil unrest riots nationwide demonstrations or serious political instability",
+"major cyberattack ransomware cyber physical incident or critical infrastructure disruption",
+"power grid transport food water hospital telecom financial or essential service disruption",
+"public health emergency epidemic outbreak international health threat or medical supply crisis",
+"central bank shock inflation recession financial crisis sudden major market disruption",
+"major corporate governance leadership change with broad market industry or strategic consequences",
+"major merger acquisition takeover restructuring bankruptcy or corporate event with large economic impact",
+"important artificial intelligence semiconductor cybersecurity science or technology development",
+"major court legal regulatory antitrust or policy decision with wide consequences",
+"industrial accident fire collapse explosion transport disaster or mass casualty event",
+"major climate energy shipping supply chain commodity or strategic chokepoint disruption",
+"important Norway national policy economy security public service or energy development",
+"important Stavanger Rogaland transport healthcare energy industry security or local public development"
+]LEADERSHIP_TERMS=["ceo","chief executive","chairman","president","board"]
 LEADERSHIP_CHANGE_TERMS=["reinstated","resigns","resigned","ouster","ousted","removed","appointed","returns","return as","succession","steps down","stepped down"]
 PAY=set(CFG.get("paywall_sources",[]))
 TRUSTED_PATTERNS=["reuters","ap news","associated press","bbc","bloomberg","financial times","axios","al jazeera","drop site","nrk","stavanger aftenblad","aftenbladet","regjeringen","politiet"]
@@ -76,6 +79,65 @@ def source_family(name):
     if "politiet" in n:return "politiet"
     return n
 CAS=re.compile(r"\b(?:(\d{1,5})\s+(?:people\s+)?(?:killed|dead|deaths|died)|(?:kills|killed)\s+(\d{1,5})|death toll (?:rises? to|at|of)?\s*(\d{1,5}))\b",re.I)
+AFFECTED_RE=re.compile(r"\b(\d{1,3}(?:[,.]\d{3})+|\d+(?:\.\d+)?\s*(?:million|billion|thousand|m|k))\s+(?:people\s+)?(?:evacuated|displaced|affected|without power|without electricity|without water|hospitalized|injured|missing)\b",re.I)
+MONEY_RE=re.compile(r"\$\s*(\d+(?:\.\d+)?)\s*(billion|million)\b",re.I)
+
+def numeric_scale(raw):
+    x=raw.lower().replace(",","").strip()
+    mult=1
+    if "billion" in x: mult=1_000_000_000
+    elif "million" in x or x.endswith("m"): mult=1_000_000
+    elif "thousand" in x or x.endswith("k"): mult=1_000
+    num=re.search(r"\d+(?:\.\d+)?",x)
+    return float(num.group())*mult if num else 0
+
+def generic_quantified_signals(text):
+    t=text.lower(); points=0; reasons=[]
+    pct=[float(x) for x in re.findall(r"\b(\d+(?:\.\d+)?)\s*%",t)]
+    market_terms=["stock","stocks","share","shares","nasdaq","s&p","market","markets","futures","index","indices","market value"]
+    if pct and any(k in t for k in market_terms):
+        move=max(pct)
+        if move>=20: points+=18; reasons.append("major market reaction")
+        elif move>=10: points+=14; reasons.append("large market reaction")
+        elif move>=5: points+=9; reasons.append("large market move")
+    m=MONEY_RE.search(t)
+    if m and any(k in t for k in ["acquire","acquisition","merger","takeover","deal","purchase","buy","sale"]):
+        value=float(m.group(1))*(1000 if m.group(2).lower()=="billion" else 1)
+        if value>=10_000: points+=18; reasons.append("major transaction")
+        elif value>=5_000: points+=12; reasons.append("large transaction")
+        elif value>=1_000: points+=7; reasons.append("significant transaction")
+    a=AFFECTED_RE.search(t)
+    if a:
+        n=numeric_scale(a.group(1))
+        if n>=1_000_000: points+=16
+        elif n>=100_000: points+=12
+        elif n>=10_000: points+=8
+        else: points+=5
+        reasons.append("large human impact")
+    return points,reasons
+
+def cluster_consensus_evidence(group):
+    trusted={source_family(x["source"]) for x in group if trusted_source(x["source"])}
+    points=0; reasons=[]
+    n=len(trusted)
+    if n>=5: points+=15; reasons.append(f"{n} trusted sources")
+    elif n==4: points+=12; reasons.append("4 trusted sources")
+    elif n==3: points+=9; reasons.append("3 trusted sources")
+    elif n==2: points+=5; reasons.append("2 trusted sources")
+    if n>=3:
+        times=[]
+        for x in group:
+            if trusted_source(x["source"]):
+                try: times.append(dateparser.parse(x["published_at"]))
+                except: pass
+        if len(times)>=3:
+            spread=(max(times)-min(times)).total_seconds()/3600
+            newest_age=(NOW-max(times)).total_seconds()/3600
+            if spread<=6 and newest_age<=6:
+                points+=8; reasons.append("rapid cross-source coverage")
+            elif spread<=12 and newest_age<=12:
+                points+=5; reasons.append("broad recent coverage")
+    return points,reasons, trusted
 
 def clean(x):
     x=html.unescape(x or ""); x=BeautifulSoup(x,"html.parser").get_text(" ",strip=True)
