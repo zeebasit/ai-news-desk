@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 from __future__ import annotations
 import hashlib, html, json, math, re, sys
+from difflib import SequenceMatcher
 from collections import defaultdict
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
@@ -201,9 +202,51 @@ def build(a):
         out.append({"id":sid(lead["title"]),"title":lead["title"],"category":cat,"importance":"Critical" if sc>=60 else "Major" if sc>=46 else "Notable","score":round(sc,1),"published_at":max(x["published_at"] for x in group),"source_count":len(trusted_names) if trusted_names else len(coverage_names),"reasons":list(dict.fromkeys(reasons))[:4],"sources":src[:8],"lead_url":lead["url"]})
     out.sort(key=lambda x:(x["score"],x["published_at"]),reverse=True)
     return {"generated_at":NOW.isoformat(),"model_mode":mode,"stories":out[:SET["top_story_limit"]],"watchlist":WATCH.get("events",[])}
+def match_previous_story(cur, previous):
+    best=None; best_score=0.0
+    ct=cur.get("title","")
+    csrc={source_family(x.get("name","")) for x in cur.get("sources",[])}
+    for old in previous:
+        ot=old.get("title","")
+        ov=overlap(ct,ot)
+        seq=SequenceMatcher(None,ct.lower(),ot.lower()).ratio()
+        osrc={source_family(x.get("name","")) for x in old.get("sources",[])}
+        src_match=bool(csrc & osrc)
+        cat_match=cur.get("category")==old.get("category")
+        score=max(seq,ov)+(0.08 if src_match else 0)+(0.04 if cat_match else 0)
+        strong=((ov>=0.58 and seq>=0.42) or seq>=0.72 or (src_match and ov>=0.50 and seq>=0.38))
+        if strong and score>best_score:
+            best,best_score=old,score
+    return best
+
+def apply_continuity(payload, previous):
+    prev=previous.get("stories",[]) if isinstance(previous,dict) else []
+    for s in payload.get("stories",[]):
+        old=match_previous_story(s,prev)
+        if not old:
+            s["first_reported_at"]=s["published_at"]
+            s["update_count"]=0
+            s["updated"]=False
+            continue
+        s["id"]=old.get("id",s["id"])
+        s["first_reported_at"]=old.get("first_reported_at",old.get("published_at",s["published_at"]))
+        old_sources={source_family(x.get("name","")) for x in old.get("sources",[])}
+        new_sources={source_family(x.get("name","")) for x in s.get("sources",[])}
+        old_time=dateparser.parse(old.get("published_at",s["published_at"]))
+        new_time=dateparser.parse(s["published_at"])
+        material=(s.get("title")!=old.get("title") or len(new_sources-old_sources)>0 or new_time>old_time+timedelta(minutes=10))
+        s["update_count"]=int(old.get("update_count",0))+(1 if material else 0)
+        s["updated"]=bool(material)
+    return payload
+
 def main():
-    a=collect(); print("Collected",len(a),"items"); p=build(a)
-    out=ROOT/"docs"/"data"/"news.json"; out.parent.mkdir(parents=True,exist_ok=True)
+    out=ROOT/"docs"/"data"/"news.json"
+    try:
+        previous=json.loads(out.read_text(encoding="utf-8")) if out.exists() else {}
+    except Exception:
+        previous={}
+    a=collect(); print("Collected",len(a),"items"); p=apply_continuity(build(a),previous)
+    out.parent.mkdir(parents=True,exist_ok=True)
     out.write_text(json.dumps(p,ensure_ascii=False,indent=2),encoding="utf-8")
     print("Published",len(p["stories"]),"stories; mode",p["model_mode"])
 if __name__=="__main__":main()
