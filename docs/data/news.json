@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T16:39:17.588525+00:00",
+  "generated_at": "2026-11-23T16:42:48.905628+00:00",
   "model_mode": "sentence-transformers",
   "stories": [
     {
@@ -53,12 +53,12 @@
       "id": "7d3a49c99081",
       "title": "Wall St roars back as Jensen Huang returns to Nvidia as CEO",
       "summary": "Wall St roars back as Jensen Huang returns to Nvidia as CEO Reuters",
-      "image": "",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/80fb/live/5a6a1700-e753-11f1-99b6-a35a62fa4264.jpg",
       "category": "Tech",
       "importance": "Major",
       "score": 62.2,
       "published_at": "2026-11-23T16:13:20+00:00",
-      "source_count": 6,
+      "source_count": 7,
       "reasons": [
         "major market reaction",
         "leadership/governance change",
@@ -101,29 +101,7 @@
           "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1nY19pcE53aXlWQUtPQmRyb2hhWE5CZUxlTHhlbEYxQ2EtQUEtLUFuYjZscTY4bURqLThBT1g5QlB0aThJaTlMZW41aFVHS1pySk9xLUhnQmk5TWdTNzhUQk5Zc3lhSzZINkJpNzdIb0ZPSmc?oc=5",
           "published_at": "2026-11-23T14:38:36+00:00",
           "paywalled": false
-        }
-      ],
-      "lead_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNNEVIVnBMbFk4UVlXOGlieWlkeWhldU5HWnFSdWNVU3BIU2YycVJnV3NWZGxGNXFMTjlKU3VuUTBnWGxZUjBtV3JCVlZjNU11MXZOT0s4V3QyRTNPNDlBRzAzX095cHphSWNSYnBTZmprLTVmdUVKd0RHc1FCbHdITU9Mb3BZMWlZM3pLQkF5MElMakFJME1WVWZOY0xJVWJnbTQ4dnpsQlNEZw?oc=5",
-      "first_reported_at": "2026-11-23T15:39:41+00:00",
-      "update_count": 3,
-      "updated": false
-    },
-    {
-      "id": "7d3a49c99081",
-      "title": "Nvidia shares up 30% and tech stocks rally after Jensen Huang returns",
-      "summary": "The jump in Nvidia shares has also lifted stock markets, with the tech-heavy Nasdaq up 6.5% in early trading.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/80fb/live/5a6a1700-e753-11f1-99b6-a35a62fa4264.jpg",
-      "category": "Tech",
-      "importance": "Major",
-      "score": 52.5,
-      "published_at": "2026-11-23T15:39:41+00:00",
-      "source_count": 1,
-      "reasons": [
-        "significant public impact",
-        "major market reaction",
-        "leadership/governance change"
-      ],
-      "sources": [
+        },
         {
           "name": "BBC Technology",
           "url": "https://www.bbc.co.uk/news/articles/cq62pn6j42jko?at_medium=RSS&at_campaign=rss",
@@ -131,10 +109,10 @@
           "paywalled": false
         }
       ],
-      "lead_url": "https://www.bbc.co.uk/news/articles/cq62pn6j42jko?at_medium=RSS&at_campaign=rss",
+      "lead_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNNEVIVnBMbFk4UVlXOGlieWlkeWhldU5HWnFSdWNVU3BIU2YycVJnV3NWZGxGNXFMTjlKU3VuUTBnWGxZUjBtV3JCVlZjNU11MXZOT0s4V3QyRTNPNDlBRzAzX095cHphSWNSYnBTZmprLTVmdUVKd0RHc1FCbHdITU9Mb3BZMWlZM3pLQkF5MElMakFJME1WVWZOY0xJVWJnbTQ4dnpsQlNEZw?oc=5",
       "first_reported_at": "2026-11-23T15:39:41+00:00",
-      "update_count": 2,
-      "updated": false
+      "update_count": 4,
+      "updated": true
     },
     {
       "id": "6c20552f17dc",
@@ -198,8 +176,8 @@
       "category": "Middle East",
       "importance": "Notable",
       "score": 43.2,
-      "published_at": "2026-11-23T10:01:04+00:00",
-      "source_count": 1,
+      "published_at": "2026-11-23T12:25:24+00:00",
+      "source_count": 2,
       "reasons": [
         "high-impact event",
         "strategic chokepoint risk"
@@ -210,12 +188,18 @@
           "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNaWxsYjRUNUVtQlVrWm1YSFE3eHduckRPNW5CN0llMTJydFI3dGJIa2ZiTENBSU9HYVYtejVzM2JVUy1nbW9wQmdOZGJhdTlMT2R6cTBYNmFUME9aZ1BhTFI2THpRdlJRY21UeW9odHdFWGZxSjlTSVQ5VlBOV2pSckFraW1JWUtOd3dqVWFDZC0yM0t4RFRKWEktV29YTFdLTlJlZ1NsNlcyZ3phdzlVcTlCQ0pTM29GODhJUDVjUQ?oc=5",
           "published_at": "2026-11-23T10:01:04+00:00",
           "paywalled": false
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/23/iran-threatens-response-to-any-attack-amid-naval-blockade?traffic_source=rss",
+          "published_at": "2026-11-23T12:25:24+00:00",
+          "paywalled": false
         }
       ],
       "lead_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNaWxsYjRUNUVtQlVrWm1YSFE3eHduckRPNW5CN0llMTJydFI3dGJIa2ZiTENBSU9HYVYtejVzM2JVUy1nbW9wQmdOZGJhdTlMT2R6cTBYNmFUME9aZ1BhTFI2THpRdlJRY21UeW9odHdFWGZxSjlTSVQ5VlBOV2pSckFraW1JWUtOd3dqVWFDZC0yM0t4RFRKWEktV29YTFdLTlJlZ1NsNlcyZ3phdzlVcTlCQ0pTM29GODhJUDVjUQ?oc=5",
       "first_reported_at": "2026-11-23T10:01:04+00:00",
-      "update_count": 0,
-      "updated": false
+      "update_count": 1,
+      "updated": true
     },
     {
       "id": "42f79c5347cc",
@@ -278,6 +262,39 @@
       "updated": false
     },
     {
+      "id": "c4c2dfe3330a",
+      "title": "Saudi Arabia says it intercepts three Houthi missiles targeting Riyadh",
+      "summary": "Saudi Arabia says it intercepts three Houthi missiles targeting Riyadh Reuters",
+      "image": "",
+      "category": "Middle East",
+      "importance": "Notable",
+      "score": 42.0,
+      "published_at": "2026-11-21T16:32:53+00:00",
+      "source_count": 2,
+      "reasons": [
+        "high-impact event",
+        "2 trusted sources"
+      ],
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOZEM0V09PMzNwMW5Eck5aSWVqWU02QzZsOHlJdHZrUHh1VDNOUFZIc1ZBbWJWOG9RX0ljdlpoMUhfX3o3QzQwNlJSUzRIbXhDbTBtZ0VEV0VtUWZCOUlwczJCQXVEN3hDN0x5TVVVZ1NaWm9LT3BPWTNsTHZicmpGOEM3bHhNa0VvQTJ0UzQ1NERFR1diOXdvYXlnUk9QeHMtaEw4MHFGR0VHTV9KZHpsT0hjZTQ?oc=5",
+          "published_at": "2026-11-20T23:36:00+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQZ3ZhbEhHbVN4RWdTZWVLWGlFQnl1UlkySGFjTEd3NEJHaHBDeXZuclpCc1ZLNy1Fa0oxSlVJQlRLVmhCV1hkdFpPUVZ6Y2JXcDlhMDExaGpIOHM1RUhHVmlOMmV2SXVydFU3UWtvdVUxalkxUHRNdXg2Q2JZVG1WN3otT1lKaU4yVGwyUUJVVnJ4QkREb0tnVGZCdG5TQTFyUk1SSWZHMEhrclVTeVlUenVR0gG3AUFVX3lxTFBVWGExdVo0WFJQdkYxTTRNRVpBaFdBSzdObGNjOWZQVDJtTVZyNW9yQUEwbGtHU092TW1BY0FSY3dBc25wZVp2QjFIZnRLOE9RMFhLMWpjY0R1TVhUUWhubENJaE44Z1JMdDBXQWJqMDlGNVhzT2pHWEpONXhZUFcwWWE0bUtRb2xZV1VkUXZVS00xVmcwa0x1eWx5dHpES2FwcUQwV043NExycnNQb0ltbWw2QlF6OA?oc=5",
+          "published_at": "2026-11-21T16:32:53+00:00",
+          "paywalled": false
+        }
+      ],
+      "lead_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOZEM0V09PMzNwMW5Eck5aSWVqWU02QzZsOHlJdHZrUHh1VDNOUFZIc1ZBbWJWOG9RX0ljdlpoMUhfX3o3QzQwNlJSUzRIbXhDbTBtZ0VEV0VtUWZCOUlwczJCQXVEN3hDN0x5TVVVZ1NaWm9LT3BPWTNsTHZicmpGOEM3bHhNa0VvQTJ0UzQ1NERFR1diOXdvYXlnUk9QeHMtaEw4MHFGR0VHTV9KZHpsT0hjZTQ?oc=5",
+      "first_reported_at": "2026-11-21T16:32:53+00:00",
+      "update_count": 0,
+      "updated": false
+    },
+    {
       "id": "14a467637c58",
       "title": "Ukraine sinks Russian warship in Libya as conflict spreads beyond Europe",
       "summary": "Ukraine sinks Russian warship in Libya as conflict spreads beyond Europe Reuters",
@@ -286,7 +303,7 @@
       "importance": "Notable",
       "score": 41.2,
       "published_at": "2026-11-23T13:08:26+00:00",
-      "source_count": 2,
+      "source_count": 4,
       "reasons": [
         "high-impact event",
         "2 trusted sources"
@@ -303,39 +320,24 @@
           "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNWTNScnRLbTBmUFlSREM2eE9QZFJnNVVzWDZKTVE2OTNMaHd1VnRqN3pWZnM3bC0zZlMyS3NwLVdqWGwxc3FBXzM4V2hVRWNQNkxnVlZxaXdSVElrRGo1ZjhmdG5aM3I0NlZEc2dUU3NSTkpRcFhrMzhVeEJVWFd0eHl0RTNySGRlWjRtNzVjS25RY0o3aDhsY0pCZl9SUmRIT3NNNi1qel9hX1F1bnBwYUNn?oc=5",
           "published_at": "2026-11-23T11:29:43+00:00",
           "paywalled": true
+        },
+        {
+          "name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNOEJrLWtkTl9ZY1lGN3JPaUNjSjVabFVGcnlERXpyYVdRNGN4OEtMOTVkczkzVDlhaWQxQ2xQdXdEak5oNkhBOWdrd01QV2hBYXlOZXV4Zl8weXpVNmxuMUlMM21sT2YwQjFqcjZIRlk4UmxQMUxPcTFRVjRQNFpqdzl4NjNodnZicldRLWRlV2R1allIR1BpM2x3?oc=5",
+          "published_at": "2026-11-22T19:40:00+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQZzU3ZEZYME5lS0ROc3NoTHNrNlpjVlUyd2xjVnRLREpzSWlZWXMyS1E3OTJMZmxZNHZJV1BpbGM1U045c3JTc2p2dlFTYTNTSU9qdnVZamZZN29zR0JBY3ZpYjZ0Z1FpVXc2cDViTFZRMHNwejhPcTBrUHVqdFhZZG5XTTFSYi1Yc3AxaVlLc09VcTdyVzdFaNIBngFBVV95cUxNZlFIcHE3SVRDUFdGeE9CTEgtM3I3T2o3OTBUZWlQaU5IbWhXNVY4NjVqQ2s2eEJLVTRlUXFXakFWdkc0T3ViME1EMUt5US1zejJPSkthWjVaejRkTExNOGJ3LURHWDB3dndjeDBBM0hyRWt6d05ESnE0Ul9BbzlzSXZLSS1MZHM2RUJ4ZjJaMVFZSmlWS3ZSMEgtR2RJdw?oc=5",
+          "published_at": "2026-11-23T10:01:03+00:00",
+          "paywalled": false
         }
       ],
       "lead_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQVVVOaXhUTVZWaDZ0YnlSQnRpZk1JdVpWdkJKVUlmQVpETHVkYV9CazJxR0xnS041MUYxQXcyV3IxZWpqbkVrWk9ZU1NaY2NyNTdHTjd6YmFHSFRIX0NpTE8tV3ZYaS1LajllOGxZZlAzclF3OGpiWU1Jd1dTNVB2VWtJMEZQd1lROVhxUnhYUUJ3TFBsMUV2YlFaQktHU0Q4RHktYnpTLXRndjl2aEZlQ3VzZWZSSFRSVzJiZjJsa3JaSkV4?oc=5",
       "first_reported_at": "2026-11-23T13:08:26+00:00",
-      "update_count": 0,
-      "updated": false
-    },
-    {
-      "id": "46dd2610a559",
-      "title": "Iran threatens response to any attack amid naval blockade",
-      "summary": "Iran threatens response to any attack amid naval blockade",
-      "image": "",
-      "category": "Middle East",
-      "importance": "Notable",
-      "score": 40.6,
-      "published_at": "2026-11-23T12:25:24+00:00",
-      "source_count": 1,
-      "reasons": [
-        "high-impact event",
-        "strategic chokepoint risk"
-      ],
-      "sources": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/23/iran-threatens-response-to-any-attack-amid-naval-blockade?traffic_source=rss",
-          "published_at": "2026-11-23T12:25:24+00:00",
-          "paywalled": false
-        }
-      ],
-      "lead_url": "https://www.aljazeera.com/video/newsfeed/2026/11/23/iran-threatens-response-to-any-attack-amid-naval-blockade?traffic_source=rss",
-      "first_reported_at": "2026-11-23T13:18:45+00:00",
-      "update_count": 0,
-      "updated": false
+      "update_count": 1,
+      "updated": true
     },
     {
       "id": "d17eae645388",
@@ -362,39 +364,6 @@
       "lead_url": "https://www.aljazeera.com/news/2026/11/23/death-toll-rises-after-deadly-russian-attacks-on-ukraine?traffic_source=rss",
       "first_reported_at": "2026-11-23T09:34:25+00:00",
       "update_count": 0,
-      "updated": false
-    },
-    {
-      "id": "8e09fb1d4cd6",
-      "title": "Suspected Ukrainian sea drones hit Russian warship at Benghazi naval base, Libyan officials say",
-      "summary": "Suspected Ukrainian sea drones hit Russian warship at Benghazi naval base, Libyan officials say AP News",
-      "image": "",
-      "category": "Europe/UK",
-      "importance": "Notable",
-      "score": 39.4,
-      "published_at": "2026-11-23T12:05:42+00:00",
-      "source_count": 2,
-      "reasons": [
-        "high-impact event",
-        "2 trusted sources"
-      ],
-      "sources": [
-        {
-          "name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNOEJrLWtkTl9ZY1lGN3JPaUNjSjVabFVGcnlERXpyYVdRNGN4OEtMOTVkczkzVDlhaWQxQ2xQdXdEak5oNkhBOWdrd01QV2hBYXlOZXV4Zl8weXpVNmxuMUlMM21sT2YwQjFqcjZIRlk4UmxQMUxPcTFRVjRQNFpqdzl4NjNodnZicldRLWRlV2R1allIR1BpM2x3?oc=5",
-          "published_at": "2026-11-22T19:40:00+00:00",
-          "paywalled": false
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQZzU3ZEZYME5lS0ROc3NoTHNrNlpjVlUyd2xjVnRLREpzSWlZWXMyS1E3OTJMZmxZNHZJV1BpbGM1U045c3JTc2p2dlFTYTNTSU9qdnVZamZZN29zR0JBY3ZpYjZ0Z1FpVXc2cDViTFZRMHNwejhPcTBrUHVqdFhZZG5XTTFSYi1Yc3AxaVlLc09VcTdyVzdFaNIBngFBVV95cUxNZlFIcHE3SVRDUFdGeE9CTEgtM3I3T2o3OTBUZWlQaU5IbWhXNVY4NjVqQ2s2eEJLVTRlUXFXakFWdkc0T3ViME1EMUt5US1zejJPSkthWjVaejRkTExNOGJ3LURHWDB3dndjeDBBM0hyRWt6d05ESnE0Ul9BbzlzSXZLSS1MZHM2RUJ4ZjJaMVFZSmlWS3ZSMEgtR2RJdw?oc=5",
-          "published_at": "2026-11-23T10:01:03+00:00",
-          "paywalled": false
-        }
-      ],
-      "lead_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNOEJrLWtkTl9ZY1lGN3JPaUNjSjVabFVGcnlERXpyYVdRNGN4OEtMOTVkczkzVDlhaWQxQ2xQdXdEak5oNkhBOWdrd01QV2hBYXlOZXV4Zl8weXpVNmxuMUlMM21sT2YwQjFqcjZIRlk4UmxQMUxPcTFRVjRQNFpqdzl4NjNodnZicldRLWRlV2R1allIR1BpM2x3?oc=5",
-      "first_reported_at": "2026-11-23T15:41:23+00:00",
-      "update_count": 1,
       "updated": false
     },
     {
