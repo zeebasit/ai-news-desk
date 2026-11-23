@@ -273,6 +273,15 @@ def score(text,weight,semantic):
     if any(k in t for k in ["brief delays","minor disruption","brief disruption","quickly restored"]) and not CAS.search(t):s-=8
     return s,reasons
 def sid(t): return hashlib.sha1(" ".join(sorted(toks(t))[:12]).encode()).hexdigest()[:12]
+def importance_level(sc,reasons,text):
+    r=set(reasons); t=text.lower()
+    severe_reasons={"large human impact","large scale","strategic chokepoint risk"}
+    severe_terms=["nuclear","invasion","state of emergency","mass casualty","public health emergency","critical infrastructure","nationwide blackout","major cyberattack","military attack"]
+    critical_evidence=bool(r & severe_reasons) or any(k in t for k in severe_terms)
+    if sc>=68 and critical_evidence:return "Critical"
+    if sc>=46:return "Major"
+    return "Notable"
+
 def build(a):
     if not a:return {"generated_at":NOW.isoformat(),"model_mode":"none","stories":[],"watchlist":WATCH.get("events",[])}
     texts=[x["title"]+". "+x["summary"] for x in a]; E,A,mode=embeddings(texts)
@@ -314,7 +323,7 @@ def build(a):
         brief_candidates=[x.get("summary","").strip() for x in display_group if len(x.get("summary","").strip())>=70]
         brief=max(brief_candidates,key=len)[:360] if brief_candidates else ""
         image=next((x.get("image","") for x in display_group if x.get("image")), "")
-        out.append({"id":sid(lead["title"]),"title":lead["title"],"summary":brief,"image":image,"category":cat,"importance":"Critical" if sc>=68 else "Major" if sc>=46 else "Notable","score":round(sc,1),"published_at":max(x["published_at"] for x in group),"source_count":len(trusted_names) if trusted_names else len(coverage_names),"reasons":list(dict.fromkeys(reasons))[:4],"sources":src[:8],"lead_url":lead["url"]})
+        out.append({"id":sid(lead["title"]),"title":lead["title"],"summary":brief,"image":image,"category":cat,"importance":importance_level(sc,reasons,alltext),"score":round(sc,1),"published_at":max(x["published_at"] for x in group),"source_count":len(trusted_names) if trusted_names else len(coverage_names),"reasons":list(dict.fromkeys(reasons))[:4],"sources":src[:8],"lead_url":lead["url"]})
     out.sort(key=lambda x:(x["score"],x["published_at"]),reverse=True)
     return {"generated_at":NOW.isoformat(),"model_mode":mode,"stories":out[:SET["top_story_limit"]],"watchlist":WATCH.get("events",[])}
 def match_previous_story(cur, previous):
