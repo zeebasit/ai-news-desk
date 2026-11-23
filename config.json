@@ -1,0 +1,41 @@
+{
+  "settings": {
+    "max_age_hours": 48,
+    "top_story_limit": 80,
+    "minimum_score": 34,
+    "semantic_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "semantic_dedupe_threshold": 0.82
+  },
+  "direct_feeds": [
+    {"name":"BBC World","url":"https://feeds.bbci.co.uk/news/world/rss.xml","weight":10},
+    {"name":"BBC Technology","url":"https://feeds.bbci.co.uk/news/technology/rss.xml","weight":10},
+    {"name":"Al Jazeera","url":"https://www.aljazeera.com/xml/rss/all.xml","weight":9},
+    {"name":"NRK","url":"https://www.nrk.no/toppsaker.rss","weight":10}
+  ],
+  "trusted_sources": [
+    {"name":"Reuters","domain":"reuters.com","weight":12},
+    {"name":"AP","domain":"apnews.com","weight":12},
+    {"name":"BBC","domain":"bbc.com","weight":10},
+    {"name":"Bloomberg","domain":"bloomberg.com","weight":11},
+    {"name":"Financial Times","domain":"ft.com","weight":11},
+    {"name":"Axios","domain":"axios.com","weight":9},
+    {"name":"Al Jazeera","domain":"aljazeera.com","weight":9},
+    {"name":"Drop Site News","domain":"dropsitenews.com","weight":7},
+    {"name":"NRK","domain":"nrk.no","weight":10},
+    {"name":"Stavanger Aftenblad","domain":"aftenbladet.no","weight":10},
+    {"name":"Norwegian Government","domain":"regjeringen.no","weight":12},
+    {"name":"Norwegian Police","domain":"politiet.no","weight":12}
+  ],
+  "global_sweeps": [
+    "earthquake OR flood OR flooding OR wildfire OR cyclone OR hurricane OR landslide OR eruption",
+    "protest OR protests OR riots OR unrest OR coup OR election OR referendum",
+    "cyberattack OR ransomware OR outage OR power grid OR critical infrastructure",
+    "war OR missile OR drone OR ceasefire OR sanctions OR NATO",
+    "outbreak OR epidemic OR WHO OR public health emergency",
+    "central bank OR inflation OR recession OR markets OR oil OR gas OR shipping",
+    "major science breakthrough OR space mission",
+    "Norway OR Norwegian",
+    "Stavanger OR Rogaland OR Sandnes"
+  ],
+  "paywall_sources":["Financial Times","Bloomberg"]
+}

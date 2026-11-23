@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#101114">
+  <meta name="description" content="AI-curated significant world news without duplicate story clutter.">
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <title>AI News Desk</title>
+</head>
+<body>
+<header class="topbar">
+  <div><div class="eyebrow">PERSONAL NEWS INTELLIGENCE</div><h1>AI News Desk</h1></div>
+  <div class="status"><span class="live-dot"></span><span id="updatedText">Loading…</span></div>
+</header>
+<main>
+  <section class="hero">
+    <div><h2>Important news. One story, not six duplicates.</h2>
+    <p>Stories are collected from reliable sources, clustered, ranked for significance, and linked back to the original reporting.</p></div>
+    <button id="refreshBtn" class="ghost-btn">Refresh</button>
+  </section>
+  <section class="controls">
+    <div id="categoryTabs" class="tabs"></div>
+    <div class="filters">
+      <select id="timeFilter"><option value="6">Last 6 hours</option><option value="24" selected>Last 24 hours</option><option value="72">Last 3 days</option></select>
+      <select id="importanceFilter"><option value="all" selected>All selected news</option><option value="Major">Major + Critical</option><option value="Critical">Critical only</option></select>
+      <input id="searchInput" type="search" placeholder="Search stories…">
+    </div>
+  </section>
+  <section class="summary-strip">
+    <div><strong id="storyCount">0</strong><span>stories</span></div>
+    <div><strong id="modelMode">—</strong><span>filter mode</span></div>
+    <div><strong>0 NOK</strong><span>API cost</span></div>
+  </section>
+  <section id="stories" class="stories" aria-live="polite"></section>
+  <section class="watchlist">
+    <div class="section-heading"><h2>Upcoming / Watchlist</h2><span>High-impact scheduled events</span></div>
+    <div id="watchlistItems" class="watchlist-grid"></div>
+  </section>
+</main>
+<footer><span>AI News Desk</span><span>Headline-level metadata · Open original sources for full reporting</span></footer>
+<script src="app.js" defer></script>
+</body>
+</html>
