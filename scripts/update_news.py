@@ -177,13 +177,13 @@ def entry_image(e):
 def grss(q):
     # Keep enough source history for the UI's Last 3 days filter.
     return "https://news.google.com/rss/search?q="+quote_plus(q+" when:3d")+"&hl=en-US&gl=US&ceid=US:en"
-def fetch(url,source,weight):
+def fetch(url,source,weight,limit=100):
     out=[]
     try:
         r=SESSION.get(url,timeout=20); r.raise_for_status(); f=feedparser.parse(r.content)
     except Exception as e:
         print("[warn]",source,e,file=sys.stderr); return out
-    for e in f.entries[:100]:
+    for e in f.entries[:limit]:
         t=title(getattr(e,"title","")); u=getattr(e,"link","")
         if not t or not u: continue
         d=when(e)
@@ -196,10 +196,12 @@ def fetch(url,source,weight):
     return out
 def collect():
     a=[]
-    for f in CFG["direct_feeds"]: a+=fetch(f["url"],f["name"],f["weight"])
-    for s in CFG["trusted_sources"]: a+=fetch(grss("site:"+s["domain"]),s["name"],s["weight"])
-    for s in CFG.get("focused_searches",[]): a+=fetch(grss(s["query"]),s["name"],s.get("weight",8))
-    for q in CFG["global_sweeps"]: a+=fetch(grss(q),"Global sweep",5)
+    # Direct feeds get the widest window; discovery searches are capped before
+    # embeddings so broad coverage does not turn into thousands of near-duplicate candidates.
+    for f in CFG["direct_feeds"]: a+=fetch(f["url"],f["name"],f["weight"],80)
+    for s in CFG["trusted_sources"]: a+=fetch(grss("site:"+s["domain"]),s["name"],s["weight"],60)
+    for s in CFG.get("focused_searches",[]): a+=fetch(grss(s["query"]),s["name"],s.get("weight",8),50)
+    for q in CFG["global_sweeps"]: a+=fetch(grss(q),"Global sweep",5,35)
     d={}
     for x in a:
         k=(re.sub(r"\W+"," ",x["title"].lower()).strip(),x["source"].lower())
