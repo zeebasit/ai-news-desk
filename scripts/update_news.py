@@ -3,6 +3,7 @@ from __future__ import annotations
 import hashlib, html, json, math, re, sys
 from difflib import SequenceMatcher
 from collections import defaultdict
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 from urllib.parse import quote_plus
@@ -195,18 +196,25 @@ def fetch(url,source,weight,limit=100):
         out.append({"title":t,"url":u,"source":actual,"published_at":d.isoformat(),"summary":s,"image":entry_image(e),"weight":weight,"paywalled":actual in PAY or source in PAY})
     return out
 def collect():
-    a=[]
+    jobs=[]
     # Direct feeds get the widest window; discovery searches are capped before
-    # embeddings so broad coverage does not turn into thousands of near-duplicate candidates.
-    for f in CFG["direct_feeds"]: a+=fetch(f["url"],f["name"],f["weight"],80)
-    for s in CFG["trusted_sources"]: a+=fetch(grss("site:"+s["domain"]),s["name"],s["weight"],60)
-    for s in CFG.get("focused_searches",[]): a+=fetch(grss(s["query"]),s["name"],s.get("weight",8),50)
-    for q in CFG["global_sweeps"]: a+=fetch(grss(q),"Global sweep",5,35)
+    # embeddings so broad coverage does not turn into thousands of candidates.
+    for f in CFG["direct_feeds"]: jobs.append((f["url"],f["name"],f["weight"],80))
+    for s in CFG["trusted_sources"]: jobs.append((grss("site:"+s["domain"]),s["name"],s["weight"],60))
+    for s in CFG.get("focused_searches",[]): jobs.append((grss(s["query"]),s["name"],s.get("weight",8),50))
+    for q in CFG["global_sweeps"]: jobs.append((grss(q),"Global sweep",5,35))
+    a=[]
+    with ThreadPoolExecutor(max_workers=8) as pool:
+        futures=[pool.submit(fetch,*job) for job in jobs]
+        for future in as_completed(futures):
+            try: a.extend(future.result())
+            except Exception as e: print("[warn] fetch worker",e,file=sys.stderr)
     d={}
     for x in a:
         k=(re.sub(r"\W+"," ",x["title"].lower()).strip(),x["source"].lower())
         if k not in d or x["published_at"]>d[k]["published_at"]: d[k]=x
     return list(d.values())
+
 def toks(x):
     stop={"the","and","for","with","from","after","into","over","amid","says","say","new","latest","this","that","its"}
     return {w for w in re.findall(r"[a-z0-9]+",x.lower()) if len(w)>2 and w not in stop}
