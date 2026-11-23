@@ -120,7 +120,9 @@
     "Latin America election OR protest OR conflict OR disaster OR outbreak",
     "Oceania election OR protest OR conflict OR disaster OR outbreak",
     "Norway OR Norwegian",
-    "Stavanger OR Rogaland OR Sandnes"
+    "Stavanger OR Rogaland OR Sandnes",
+    "CEO OR chief executive OR chairman OR board resignation OR board reinstates OR executive ousted OR leadership change",
+    "shares jump OR shares surge OR shares plunge OR stock jumps OR stock plunges OR market value"
   ],
   "paywall_sources": [
     "Financial Times",
@@ -166,6 +168,26 @@
       "name": "Al Jazeera major events",
       "query": "site:aljazeera.com (protest OR unrest OR conflict OR flood OR earthquake OR election OR referendum)",
       "weight": 9
+    },
+    {
+      "name": "Reuters corporate leadership",
+      "query": "site:reuters.com (CEO OR chief executive OR chairman OR board) (reinstated OR resigns OR resigned OR ousted OR appointed OR succession OR returns)",
+      "weight": 12
+    },
+    {
+      "name": "AP corporate leadership",
+      "query": "site:apnews.com (CEO OR chief executive OR chairman OR board) (reinstated OR resigns OR resigned OR ousted OR appointed OR succession OR returns)",
+      "weight": 12
+    },
+    {
+      "name": "Bloomberg corporate leadership",
+      "query": "site:bloomberg.com (CEO OR chief executive OR chairman OR board) (reinstated OR resigns OR ousted OR appointed OR succession OR returns)",
+      "weight": 11
+    },
+    {
+      "name": "Major company market shock",
+      "query": "(Nvidia OR Microsoft OR Apple OR Alphabet OR Google OR Amazon OR Meta OR Tesla OR TSMC OR ASML OR Broadcom OR AMD) (CEO OR chief executive OR board OR shares jump OR shares plunge OR stock jumps OR stock plunges)",
+      "weight": 10
     }
   ]
 }
