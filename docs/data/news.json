@@ -1,6 +1,1630 @@
 {
-  "generated_at": "2026-11-23T12:00:00Z",
-  "model_mode": "not-run-yet",
-  "stories": [],
+  "generated_at": "2026-11-23T12:28:25.715551+00:00",
+  "model_mode": "sentence-transformers",
+  "stories": [
+    {
+      "id": "bfc88015cab8",
+      "title": "Norway's Vaar Energi to buy ConocoPhillips business for $4.43 billion",
+      "category": "Norway",
+      "importance": "Major",
+      "score": 55.6,
+      "published_at": "2026-11-23T12:14:02+00:00",
+      "source_count": 28,
+      "reasons": [
+        "significant public impact",
+        "Norway/local relevance",
+        "28 sources"
+      ],
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQcHNqQjMxSlNrcGN4LVZIUC0yZUpTTUQyOU1SNnJaTkFpQkFnRHFYODF0R0hhbnBkbTFfbEpMYU9WSlNMYWFLTjhPOGszWHFoX0JnZnZBY2pVNDVFbEFJYlBKSHhiZ1EyaU80anh6d3RuVFVPZUFJOUVmZndKbWVxRGlaLW1DUG1QN2ZkS2ZOTEhZbUJSRk5zTUtRNXVrNkZjaWNjSGVvRy1iRlZRMkFfa0gzcTl4Zw?oc=5",
+          "published_at": "2026-11-23T06:38:00+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "Bloomberg.com",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOa2ZKZno0ZTJ2VHFPQ1ByWERSTUJIMXNIQXI4RjRaSWNiT0xpR1lremdXTlprMW90V3JvNWN5Smxkdk9kMHJnb282UzA2VDk5MExjWERLLU0wdk9Gbkp1RFpWeEtBSVRlZ0Exc0E2a2xWUlVFN0xiMlZXYUkzMUt5NkQ3Q2YzWHZ1N3FqQWVyY3ZDVjRKSHFCdFZTYlVWcFpjemZWSTdFempUR1publlsbGpUTHY?oc=5",
+          "published_at": "2026-11-23T10:29:49+00:00",
+          "paywalled": true
+        },
+        {
+          "name": "Offshore Technology",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNNlNXN1V0ay1qeUlDNTVEOU1oaDFOSi14MVA1WmpQTVJKQ3lPbDJDVVdYLTJCTUR2OTQ2SW0zM3JmcnBVV3QyeHVOQmYtM09WdEw3REloeEJxanQ2S2tXdzlYdG4ybVR4V1NqR2hSUm1obzdac3lSckg4dklwcHFweXE5bmEwZFZGajFSLTNR?oc=5",
+          "published_at": "2026-11-23T12:14:02+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "UA.NEWS",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOVnFtdm1BUlNNMFZ3dFEtU2VhdWJBMjUyem5iM2h2bGIwNFZyRDh2anoyWkk1VWdZYWdQQUJ5MThxWFVsREpoWVJVQUt6Y0t1MlVaYlBaU3kxWEFsQzMyWlpyTW03N3VicXBuT3Q2LUlmemZoS2djX2I5NVR4VUxaSTcta05kSEtoelhaSlgyOHN3MHNDdUVscHVLaUUxZDdTU1ExcEtqdExUTDUtSWltdEpXREJCOHZua2JyNlpEbEdsUjd5RUJj?oc=5",
+          "published_at": "2026-11-23T11:27:29+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "Law.com",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOV0FKNGVIZVNwblQyMXZqVmFDRHhPTUVGWkhWclhMUUxZdFR6ZXUtZFJoNW5jWnR6ZFBHdjR3VUpzNWo1MmxEcFN0M3hKdVJhT0x5WGdzZlNDcjFieWt3b1BtZ2h0QmVIMHUtWDRtcWJMU2l1TVVrd0oxLXpXbGJKSDFKcWxjSjhVZEluS1V3ZFUxQ2lTRDN6UlBoUW5PcnppN1FMd21McmZCQUxkaFZXTWxleGRkTjliZHJFZG9IVktlX3gtT0JES21FOUJHLUpwOWNfdUR0Zjc5TE9GaGc?oc=5",
+          "published_at": "2026-11-23T11:16:36+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "Crude Oil Prices Today | OilPrice.com",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPTEdNaTZIaDJFQnJWSWd5VkR4Q0VWMjQ2R3hMN0F0M1pCV09hRmZiWEl5T1JMVnN3YnVKSTlVbDlFWWpuZUdZQ2tJZV94d3EtUUtlcEN3S3c5SUN5cW9aWl9oVUhTb1J4aHJ0aF9KbUZ5RlpjRmJDUzRmWmpEVHUzTWZhNFBOV3F4SlE2Q2hpeUMxNkltYVRYZXc0bTl5Tm1wWFFXajY2ay10cWxpVDcwT1MweDExSl9PMlZF0gHAAUFVX3lxTE9USkQ2Y2lFV1ZNRmhPWVVwcEJBaHA0dXlUeDFRX3hLU1VVN0RTeTI1M0Y0Rk5uQzdXbF94eTBmdmdoWVdudU1NQmNjUTBpTXJncHNRMC1BM2dCb3VXVFNzdVFoUmVjWFUyazVBT3BjVzBCdzVyVFF3Ulh2YzR3cGdlMDlVZmNPT1pJODVEWWJOb2xYQUo1SXNENU1JVHdWaVhIVnh2Vmt4TUxSZzFGYlpCY2hiZ2QxVGZfM2Q4Smxzcg?oc=5",
+          "published_at": "2026-11-23T11:00:00+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "Oil & Gas Middle East",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1lM0F6bGlUQlFLV2NYaGtva1pvN3ZYR2N4cHJVY2ZLa0RLMTVSd29ybU5xRV9sSmYxTHBBYWtJWnhMcjJKTjlzY05wR014UEtXX1ZWWm8xeTFiZ0tRd1k3YV9lQmVMQ0hyZXR1Y19TOGVIYzUxYzktSDhRa09NZw?oc=5",
+          "published_at": "2026-11-23T10:47:36+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "IndexBox",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPTHlLdWluOV8waUJfQ1VDbHdvTWtEX3BDV0d0NEVkeEdTMnU0ZEtZM3ZoTE5zZ1NVSmdUV3hhWnUwUFBYaDJlRUVHbW81M081aGlIRl9NaWtLRGdnUEJBSVZqUnAzSVJ2d2NzWTZLOElKb25ZOXF6ZnBRdV9NQjdORENienRNRUdoLTdFdmZfVkMwNmxBQzhHcUgyOUV1ZHlSV3Nkb2tOcnpNVVE?oc=5",
+          "published_at": "2026-11-23T10:32:33+00:00",
+          "paywalled": false
+        }
+      ],
+      "lead_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQcHNqQjMxSlNrcGN4LVZIUC0yZUpTTUQyOU1SNnJaTkFpQkFnRHFYODF0R0hhbnBkbTFfbEpMYU9WSlNMYWFLTjhPOGszWHFoX0JnZnZBY2pVNDVFbEFJYlBKSHhiZ1EyaU80anh6d3RuVFVPZUFJOUVmZndKbWVxRGlaLW1DUG1QN2ZkS2ZOTEhZbUJSRk5zTUtRNXVrNkZjaWNjSGVvRy1iRlZRMkFfa0gzcTl4Zw?oc=5"
+    },
+    {
+      "id": "e3962095407b",
+      "title": "Ukrainian drones hit a Russian warship at a naval base in Libya, Zelenskyy says",
+      "category": "Europe/UK",
+      "importance": "Notable",
+      "score": 49.8,
+      "published_at": "2026-11-23T11:58:00+00:00",
+      "source_count": 14,
+      "reasons": [
+        "high-impact event",
+        "14 sources"
+      ],
+      "sources": [
+        {
+          "name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPR1VjenRaWHFSYy04RXNZOGtGZ21ldWg3a1B4WVp3dk1OY2pPZ2pRcXFCLTk0YnJjalVEMnBqV2M2UnpCSENVWVNPVDhEZXhNQTdPZnlPWDJhNXR5VThOTVdKT2JRYmJfOW9hTzdqRUdMakNOUEFHVmdwWnNNOEx6ZmFiRVc5Z1JyZE5nNHFwODlkTkp5aHRVNUZxZVo2aDR0TnN6U2VRTlE?oc=5",
+          "published_at": "2026-11-23T11:50:00+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQVVVOaXhUTVZWaDZ0YnlSQnRpZk1JdVpWdkJKVUlmQVpETHVkYV9CazJxR0xnS041MUYxQXcyV3IxZWpqbkVrWk9ZU1NaY2NyNTdHTjd6YmFHSFRIX0NpTE8tV3ZYaS1LajllOGxZZlAzclF3OGpiWU1Jd1dTNVB2VWtJMEZQd1lROVhxUnhYUUJ3TFBsMUV2YlFaQktHU0Q4RHktYnpTLXRndjl2aEZlQ3VzZWZSSFRSVzJiZjJsa3JaSkV4?oc=5",
+          "published_at": "2026-11-23T07:53:00+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNOEJrLWtkTl9ZY1lGN3JPaUNjSjVabFVGcnlERXpyYVdRNGN4OEtMOTVkczkzVDlhaWQxQ2xQdXdEak5oNkhBOWdrd01QV2hBYXlOZXV4Zl8weXpVNmxuMUlMM21sT2YwQjFqcjZIRlk4UmxQMUxPcTFRVjRQNFpqdzl4NjNodnZicldRLWRlV2R1allIR1BpM2x3?oc=5",
+          "published_at": "2026-11-22T19:40:00+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNSHNFQ2hvQUxyR05zYXIyVjczNjE3eEVLWWhMdk1mS01BQV91dy03OU5SSzVzbzlvVk1ManQ2TFhqU2xkRkhZcGthVlZad0E1aVRKU1E5ZWxJTWRQVG5UYmFYYmcxZGJ1TFc1YzE0a2E4XzQ4SGJLNjNlc0otTGhGRnRWTHpmeW1mWnVBLTNhYmFLU3JOUTVfSTliN19fMG9rRWlmeFdKNHFSU1JVTTdnQUNhUlBUWmRSTDVXUUJuUW9fNEV2cjNWdTlPZw?oc=5",
+          "published_at": "2026-11-22T14:25:00+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-11-23T11:40:01+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "BBC",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5RYTdJa3FLUUotRjRtWmFYcWsyT29UT0FCVDUycVp4MmlCMUkzUVR3cVJUVTJWNDlQX0JLbk01S29SZEtLM0lXZHdzX2U4N2JBVDdhVjN2TEdlczg?oc=5",
+          "published_at": "2026-11-23T11:40:01+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "BBC",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5PTFRBblZqQlZpMi1HSXNHd0JQc0hKZGp5MnlVYUZxekllZmRGclZ2YV9IVHJ6bjF2emx4V041NzVGUEJzTEtYUjR2dVVEMkZpX3RPQklzSEw?oc=5",
+          "published_at": "2026-11-23T11:34:10+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPM1FmOGYwcEh6Rk5MNnNVVjA3eGZ2ZFBIc0VRc0lSNkI2MUE5NTI2WVZnemZZMkRIcmw2UE4zcmJyUGg5ek9VTmhNNXZpeWR1dWtUTE9NTDliaG9LZWNKb2NKdEFVaHE4N0JFMktnVldYWXAtOFBWaE9mZHZxZVE4OWJVV240RmJkOW5aOW9jakdwSzZTeVBLanBxTXh4QmcxWFZhbGJwMndmZTMyN1BHeUh5Z9IBuAFBVV95cUxQVXFtbU85SlhXR3NKMF9Fd1VrelFHOHBzaVRZZVJMcVNlQnFTZkp0bmJKbzRrOWhkWXdFcHROZG5aaGIwempKSGk3R0hmclQ3M2xMMXNKb2VUcG9UNENYOUh6SHh0MWR3UzhNLUpjQ0VnVUE2dGZJUjRLNzZVTUtscFNTbEpLWlpYRGxTeUJveXU4cmJEb0RKYUwwV3M2cVNMclRQd0k0LVZJVm55ZzZLNGNhN1IzREVh?oc=5",
+          "published_at": "2026-11-23T10:39:10+00:00",
+          "paywalled": false
+        }
+      ],
+      "lead_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPR1VjenRaWHFSYy04RXNZOGtGZ21ldWg3a1B4WVp3dk1OY2pPZ2pRcXFCLTk0YnJjalVEMnBqV2M2UnpCSENVWVNPVDhEZXhNQTdPZnlPWDJhNXR5VThOTVdKT2JRYmJfOW9hTzdqRUdMakNOUEFHVmdwWnNNOEx6ZmFiRVc5Z1JyZE5nNHFwODlkTkp5aHRVNUZxZVo2aDR0TnN6U2VRTlE?oc=5"
+    },
+    {
+      "id": "a80aba98eede",
+      "title": "India to give $1.62 billion economic package to flood-hit Nepal",
+      "category": "World",
+      "importance": "Notable",
+      "score": 49.4,
+      "published_at": "2026-11-23T10:57:41+00:00",
+      "source_count": 6,
+      "reasons": [
+        "high-impact event",
+        "6 sources"
+      ],
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQSWpDakZzTzdkdDFwdmNHcHlTc0Q0SDBxWEN3Uk5ZcmZaZXJzdzV3RXNtZkUzZzk1RlJKVFdkNkp5aVI2cVNaeVBBMFRBcXZ5S00xVVRvN3JuNXJUcXpvaVdrTnZPRmVhTUhuNHNEdDZtQmF4bFEyRVB4NG93c19Ub3hsQnJZNUJURGZjcndld1ZTVGViQnFDaGFzeExYaGVxZkE0SXdR?oc=5",
+          "published_at": "2026-11-23T08:47:56+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "ABC News - Breaking News, Latest News and Videos",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNWUZrYXJvcHQwRHlTTFloX2E2T1lHX0ZCQS1XOXJ2aGx1cHdpYjFtTEJ5TVBZS2MyN1ZrNUJNRlBNS1hjR25CTVFXdEM1UWRDeFJlbHo0TThxQXJiY2NiSFpvS2c3UTRjNV9BN0ZIOGhCd1k0QVNObTNvYjZMbkRKUlZ6STN3Y3p0ZmFyWHd2cWh2cjZwOFZvSzhnd0lqZ0NfM1VRZ1JvakfSAa4BQVVfeXFMTWYzMDZNeUliXzFKSnJib1ZkSmZWdjVaTGFRSEJwcHBYdW9oYllwSkNpVHQxZlhMSEJlWGotYUwtSElmcmttbjhrMW9TU3FoR3c5Wkpna0tGbnl0dkFmejRuZDlxY1hmeGVISVVkdWtZNmxoQ3BRMXdaQnktdF9xZE1GWUFSOHA4eVZ4ay1aRGE2b0Y0Z1VETXV0V190Nnp5b3FaTFUxZmpBcnE0LTl3?oc=5",
+          "published_at": "2026-11-23T10:57:41+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "KVUE",
+          "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOa3UxaVZmR3BYbFJEUFhCNkx6Z3ZnclY2RXgwLTlSQkZ6VVp5QTN3ZFQ4TnFWRmxCbWdJcW0wSlZ0ZlNUZ1BScDF4QmJzU3BmOXUxLTZSWnIwNk9WUUNvQUV3Z3B0UWpjVUhua1F2Tk53MlJEcEJDNm1jZkh6bWVRRy02NTB4a0RuVld3cWRpaFp1UmktUVhjRDlhcWxuc1dVbnloRjI2a2JEb3dLRmVNYmYyT3BvQ3RYZGRTX3pOVUNpenVLb0NIU0cwaW5NenpnWERCZWxnREw4eW5VaG1IWnNtNDRzYTdiZTU5YkFzWC1FYjhVNndB?oc=5",
+          "published_at": "2026-11-23T09:12:46+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "Tri-City Herald",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQQW05M1RKdGFZUEJyeUxGc1dzMlNvalFmcU5hWlVwd19waHJCdVRGZ2U1V3FNVWlKVjNYM3ZMb21QWXRyQ0JDSktCcXN0eW1udWRyUk1IYlRpcTFFa0prWHhTdHFtMlczWTNsMXROZGstUlRJQ3ZnZnZUVEZ5SktfcWVR?oc=5",
+          "published_at": "2026-11-23T09:11:06+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "Kansas City Star",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE43TkNVSFFEVmFrcU1hekhBaGZkVlZGZHNTUF84QmRtQ3N5VkRzdUNnakVVeXFFakdLQ1lORi1CNlpCTE0wYXFMdFFUZzBLQ0ZfNVI1MUx1NEQ0REN1T2Z6d0RoR21qdGdjX3pUMjBTU1JkU24zWkM1VTNwalI?oc=5",
+          "published_at": "2026-11-23T09:11:06+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "The Seattle Times",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQdzRrRnBkTUNXYnZrOGcybXdlbHZ1ZHB2dmRCanViZnFJQjk5UXFaSnc0ME9xRzhVV0NReGVOWmp3WjFqVDlSVVFkUi1abWRJRTgyV1cxUV95aHNrTExoTGxlWnBialdtSE43U3pNMVRLRXZITGpkby1qYU5FNmItT1BfVEsxYVRBd1gtcmo2QTQ5YzRDQzh6c3VXVEE2Z2RSNzVIazY3c2ZDUVMwRnF3?oc=5",
+          "published_at": "2026-11-23T08:50:04+00:00",
+          "paywalled": false
+        }
+      ],
+      "lead_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQSWpDakZzTzdkdDFwdmNHcHlTc0Q0SDBxWEN3Uk5ZcmZaZXJzdzV3RXNtZkUzZzk1RlJKVFdkNkp5aVI2cVNaeVBBMFRBcXZ5S00xVVRvN3JuNXJUcXpvaVdrTnZPRmVhTUhuNHNEdDZtQmF4bFEyRVB4NG93c19Ub3hsQnJZNUJURGZjcndld1ZTVGViQnFDaGFzeExYaGVxZkE0SXdR?oc=5"
+    },
+    {
+      "id": "1fdd97e8e442",
+      "title": "NATO believes Russia is ready to launch nuclear-armed satellite, German media say",
+      "category": "Europe/UK",
+      "importance": "Notable",
+      "score": 46.3,
+      "published_at": "2026-11-23T10:37:32+00:00",
+      "source_count": 3,
+      "reasons": [
+        "high-impact event",
+        "3 sources"
+      ],
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNQmRybDRhZzhaRkRlSHZUdWxTZVRPUEU1NDJfRFBwX3ItMDZsb0pSZWdFMlgwbDhzclBlaWwyTndXYUQxS0JrZFd5SjlNWC05YWYtYWZhREFHNE5VLXFEOGx3SkY5bWNrMWlYbVhEVklQN3YzMnZSNmVtcmNqdzlSQ21vZW1yWU4xN1UySDE1SHNCUXZfekUyQlRMQUFGMlBSWk5Hc0JFTjlsZGN6NS14M2E2eXk4a2tPUjZGd2Y4a09SX212UUlNY2lkVG1XQXZUMmhOMHRZMA?oc=5",
+          "published_at": "2026-11-23T09:10:32+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "ASHARQ AL-AWSAT English",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOSTFMSTFoNWtjQmxYVGFRYlVSSVp0SWlvbm9OdXVEbTkzNkVxUkhYOWVLcXMzaTFWXzROcUhqN3l4eHVzck84bGpBMVF6QlBzMWFHZ05SSFpSNS0wU0RibHlvYjJTUjVyQVNHMDVJSjF5aGxhSi16U0RPOXV3bko3THByTDVNMUpSUXlHNmlZYWlKaE1PdWUyb1dyV2tzM0hlXzJIeGtTZC1KM3k0TTFPZWQxR01JQQ?oc=5",
+          "published_at": "2026-11-23T10:37:32+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "Modern Diplomacy",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQYlVSU0NwYUN0U3RvQlZEZUIzRmJjWTFjQ3FEbER6Q3RMZHlKd1VyVmxTVWE3QnlXXzFQcjBvcGtybnQyR0RiTDNrekoyTlhWeEtfMFI4RjJSQjlGcVpLdVhtYW4xemhFaExQbXJHeDF6dWlEZlAtajY1WFJNV1AwT1R0V05weFR2eldUbUN2TWljTnRic19CelN1TFVtNU1s?oc=5",
+          "published_at": "2026-11-23T09:50:34+00:00",
+          "paywalled": false
+        }
+      ],
+      "lead_url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNQmRybDRhZzhaRkRlSHZUdWxTZVRPUEU1NDJfRFBwX3ItMDZsb0pSZWdFMlgwbDhzclBlaWwyTndXYUQxS0JrZFd5SjlNWC05YWYtYWZhREFHNE5VLXFEOGx3SkY5bWNrMWlYbVhEVklQN3YzMnZSNmVtcmNqdzlSQ21vZW1yWU4xN1UySDE1SHNCUXZfekUyQlRMQUFGMlBSWk5Hc0JFTjlsZGN6NS14M2E2eXk4a2tPUjZGd2Y4a09SX212UUlNY2lkVG1XQXZUMmhOMHRZMA?oc=5"
+    },
+    {
+      "id": "4139daaa3de7",
+      "title": "Norway provides NOK 18.3 million to UNICEF's Ebola response in the DR Congo",
+      "category": "Norway",
+      "importance": "Notable",
+      "score": 45.8,
+      "published_at": "2026-11-23T07:00:00+00:00",
+      "source_count": 1,
+      "reasons": [
+        "high-impact event",
+        "Norway/local relevance"
+      ],
+      "sources": [
+        {
+          "name": "Regjeringen.no",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQYThPbFl1UV9YbEFDM1pINWluTE5PbXJ4bXlCY0NQZ1czMmdCMHZmOUkyS1pxZlk5c2drOVZXWnRSenY4MVVGOWlmMWRZemZWanBYZFFYbmF1SGdoQlJ5UnRVOExVbkdLaVRVVnpJQkFzZV9QWGNZRjU5b3BFNmRiMm84WGxhTVNuZ1ZpQUJuTU9wRnM5ZS1NcUFZc2xWaTVQWVBwMWRzb2JkSUFwNUhOcENzVUVRbFJqenFvdTl5STFqMDg?oc=5",
+          "published_at": "2026-11-23T07:00:00+00:00",
+          "paywalled": false
+        }
+      ],
+      "lead_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQYThPbFl1UV9YbEFDM1pINWluTE5PbXJ4bXlCY0NQZ1czMmdCMHZmOUkyS1pxZlk5c2drOVZXWnRSenY4MVVGOWlmMWRZemZWanBYZFFYbmF1SGdoQlJ5UnRVOExVbkdLaVRVVnpJQkFzZV9QWGNZRjU5b3BFNmRiMm84WGxhTVNuZ1ZpQUJuTU9wRnM5ZS1NcUFZc2xWaTVQWVBwMWRzb2JkSUFwNUhOcENzVUVRbFJqenFvdTl5STFqMDg?oc=5"
+    },
+    {
+      "id": "743a38fb904f",
+      "title": "North Carolina win gives Democrats biggest US House majority since early 1990s",
+      "category": "World",
+      "importance": "Notable",
+      "score": 45.4,
+      "published_at": "2026-11-23T01:23:43+00:00",
+      "source_count": 6,
+      "reasons": [
+        "high-impact event",
+        "6 sources"
+      ],
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOZzZjY0pNZnpnUmtsZ3RudXpZeDh4TnlWZDFIZHBvUk0tbVlxREhydk5zRTJhX0lYcjFXQTNNTzBtOFM4NlNhTE9DZnl3SUZiM3RpTzRzZTJ4aURMSUJCdDRGb0l2MWh5MFJmTWgwS1k4Ql9vTGh1eWVGbEw3WGVCS1UtTkNGVVoxS0EyZVl3Vmw0UThpTlVUWWN2WlNyaWR6a1FYYlJZaWl1MlAyQ01OSEcyY3hMai0zUWdfUUc3MkQ?oc=5",
+          "published_at": "2026-11-22T21:28:00+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNN0ZaSUxXY2RGTWZBcXdNRjV0eWhIZUdfWjFBSmI1OHBGZy1qRWFpNnJxZDJVOC14dVFGZGdSS3NfeFNsQm1IcmJIWGs4M0l5alZQZVhDek80S1lnQ3plUkRrbm9uaE44RWtNMTBDTWRLUmdGLWVVUDRJZ1J5TmR4QU5vWW5qT2NvOHB3dklzcFZ2ZFltMy1SYVdJQnNRZFBiaURJN2t0bjExaE0?oc=5",
+          "published_at": "2026-11-22T19:42:00+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/c6vg29g7dlyno?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-11-23T01:23:43+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "BBC",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1jOG9ydHBscFFlNlFfSUZyMEU5MS1hZU03c1pEU1l3YWJkOEFlZHFyZE1zdWsxM0F6YUpPaWhSR1JVdzA2NVZiTTYzQi0ycnRLTm9mVlE3eXBYT3c?oc=5",
+          "published_at": "2026-11-23T01:23:43+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQNEo5SW5YTnlmVE5pcFRLZm1xYXgwRTRITjZTWjlkeDlwTzB1SFRkTjB0NnE5QnFLcTI5ZzRlUzZZTjh5VzZQX2xWb2tOWHF3TjhDd1B6Z0NXLW16eEJfNDJKSW1BUlhkVDEtUVIzRE81X1NjMEFraGI1T3FQeTg4eXhGajRVNW5fczk3OVdrdmIzRE9kTlJiWVBkT05fa2JkdF9JOFF1endEcnBHNWZsTmJmSFLSAboBQVVfeXFMT2ZqMlRQY3UxeEdKMFNvUjk3Q0hSY3BiR1VEOUNoLXo3dGxMQmVPZ3NoQTVLc3YzM0psMEQ1QXJyRDRjYTZIM3NDUExneEpPQjVVQW1BOE1ZalN5cE1maU82SU1TX1hDTmF6SFNDZy1uZGFoN2E0YWxZOEsyUnRsZVc2YnU3OFhRRXdfcEp2eHVKLVozMjNPcG0zM21Ld2lyR1NJX2FKdTBpUGU5ZHhlR05ZRUdaVk9WV3lB?oc=5",
+          "published_at": "2026-11-22T22:22:27+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "The New York Times",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNRTlhVl9TdFB4TzZPMHExRjJKdGJvQmZJcDRTcWl5TzRlMUpoalpDRmpJdjdpZWlQQTZrSWhfU2lXRGdSZVJCWVpMUFVubjNzRGpfUHEwUEptdHJJODZ1dlNoVk83dlN6aFgyRkk3RlRwUGJ2VXdNNFZSTThfOWxnclFjVzV5RS1iZ0R5QTZVcVU1YWRvamc?oc=5",
+          "published_at": "2026-11-22T18:08:39+00:00",
+          "paywalled": false
+        }
+      ],
+      "lead_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOZzZjY0pNZnpnUmtsZ3RudXpZeDh4TnlWZDFIZHBvUk0tbVlxREhydk5zRTJhX0lYcjFXQTNNTzBtOFM4NlNhTE9DZnl3SUZiM3RpTzRzZTJ4aURMSUJCdDRGb0l2MWh5MFJmTWgwS1k4Ql9vTGh1eWVGbEw3WGVCS1UtTkNGVVoxS0EyZVl3Vmw0UThpTlVUWWN2WlNyaWR6a1FYYlJZaWl1MlAyQ01OSEcyY3hMai0zUWdfUUc3MkQ?oc=5"
+    },
+    {
+      "id": "17ce92cfdae1",
+      "title": "Florida flooding causes devastation",
+      "category": "World",
+      "importance": "Notable",
+      "score": 45.1,
+      "published_at": "2026-11-23T11:43:45+00:00",
+      "source_count": 6,
+      "reasons": [
+        "high-impact event",
+        "6 sources"
+      ],
+      "sources": [
+        {
+          "name": "USA Today",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOaUlDanh4cFg1UlNjeDFoZ0VQNUZGMVlQMEN0REtGNHlvbWpUaUhXY1hBNEpfc3hRanM4SDZ6R01naDZ1MGZFeUd3dml5ZUxnOUtIWjJ4bUNYVzlTN0dpRWxmbWtmekM2MnRLbjZzNVJyWFRXaWxLY19OUkZaV2cyYmQ2NGFvUW0wMG9JNmVaemtZUkExR0Q0Qk1lLXZCZENfODJqamFrdw?oc=5",
+          "published_at": "2026-11-23T11:43:45+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "The Destin Log",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNcFY5RWR2TTczaUFSaUZEVHZWazZFMks2MWt6Uk9wd1NzR3F5RWFrRFRrbXNhU18zS3NqUkl6SEI0VkNBZGRpTllzeVkzZUlTQ1J4QW9WMkttdHhRekNpMXZzUGVzdDdXUWsxeGhZSVpYaV9YQnFGamk0bGotNE5JUkZRZE81R0hCQURUOUVqS2Zkc1NUWjFmdnlDeGRvMDF4YzRaMmI5T29nV1pM?oc=5",
+          "published_at": "2026-11-23T11:30:30+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "Florida Today",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQRlJkZWlibzN5VWtiblB1cWJGVHZmSnVyNGpUMzNDbUZ2TW50RXNxMjZ1bm9CeVgyVXZzaDRLN2VLNGJ4cElZaFpxN0g0cW5NT3A1R0MzV0JPa21oR1VOT1dtZnFaNXVHNng0Q0k1bGRHNDNkaF9nQmx5ZUdDcXdjTURsNmxkR28tVlZJOXpteTJnVzFQTldyWGt2Z3pvaHRHelFFVkExQ0k3dWR3?oc=5",
+          "published_at": "2026-11-23T11:30:20+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "St. Augustine Record",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOSE1UaXJwV1BmN0JaY1lQVUJSVDBwdmlvWEgzZzhaMDh6Q0pJSHJ4NjMwUFNQdUtITU5Hb2o0UVJtWDlsdXNGd2VJNERjRkJwdjA0QVd1cTJMcHBCSFEtaTRKSUlkcjloUU1GRG1QMlJqQXI4NFlwWTd3US1RemZqMlFOMGtaNlFWNFZRcWFLRDEwWmxqWklKaEJWaGJUVlIzcVFzUGNWMno5anc?oc=5",
+          "published_at": "2026-11-23T11:30:19+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "Leesburg Daily Commercial",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNSzVIRzdWMmRYOFN5SlJFVThFVVhUTDh1Rnp0ekVaZ3c3aGFJSGkzaFFBSHBfMW8yMmd3cVNISHlzc1RtMnhVNFRIbW1XN3M5Z0NZRUtKcVdCaVY5aU9CRS1NNy01emJMZFdkdk1HVTFudWs1OFQxMG9MMDZpYWtnWFpuQjBWMkxFU2V5Vk03M05jR3ptU19kV182OE5tQ1hpWEZ1SEUtQTFhR2hncDIwLQ?oc=5",
+          "published_at": "2026-11-23T11:30:17+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "Daytona Beach News-Journal",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPT3FITXZpZ0xFZjd5RnAzOGlQb2NIV0RieGZsQUE1a0MxWUtYS1MtZEVxbDhPMzU0N3Y3cVg4SXVMbWhUbnhPRDJrYTViSjBjTFFHMzJtMjEzc0RGc3dZT19tWnZqenNuTHZpMTc4RDhVa1BhYWo1M1ByRm4wRXozenpnTWF3djhSZDFqTFhFUkg5V3liSnRKNFFuQ0Jfa081T3UwOXFBU2pzNGxCLUlYTi1DTWQ?oc=5",
+          "published_at": "2026-11-23T11:29:16+00:00",
+          "paywalled": false
+        }
+      ],
+      "lead_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOaUlDanh4cFg1UlNjeDFoZ0VQNUZGMVlQMEN0REtGNHlvbWpUaUhXY1hBNEpfc3hRanM4SDZ6R01naDZ1MGZFeUd3dml5ZUxnOUtIWjJ4bUNYVzlTN0dpRWxmbWtmekM2MnRLbjZzNVJyWFRXaWxLY19OUkZaV2cyYmQ2NGFvUW0wMG9JNmVaemtZUkExR0Q0Qk1lLXZCZENfODJqamFrdw?oc=5"
+    },
+    {
+      "id": "6605310f0c7c",
+      "title": "WHO chief says fighting near Congo Ebola outbreak area disrupts response efforts",
+      "category": "World",
+      "importance": "Notable",
+      "score": 44.7,
+      "published_at": "2026-11-23T00:42:38+00:00",
+      "source_count": 4,
+      "reasons": [
+        "high-impact event",
+        "4 sources"
+      ],
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOVnZjcE50YXJiLWxXZE5OQldXSndtUVlUbnNJckNPY1lQM1ZpdlExMlNJX08zNFJQbnFYd3FKT3ZZbzBqY2s4a3c0RVg0M2dELVZrLUx5R0tobENIQWk2QUdNZG9YRl95STZFUlVOVTlVcThuRG90VndEZEZhaE5jbTRVYkN1SUxoYmlteUhlempZSVNGRjJNWjhZdXlSNzMtM1Q3VExpZmFqZHJKbVdjT3lpekdsb0dXQXg0NHdsUkZwdlNzQW9CaGVhblM2b0VHSWRZTGlFVUJBSnd3LXA2SXJoUlVmV1E?oc=5",
+          "published_at": "2026-11-22T20:17:43+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOWnRzTUswaFhqTWIzUVhBY0ZZLV9nTWx6Y3hER3ZRYmJnWjJXZjJId0NuVnltWEEyMjlQbTVVU3FIcE1aYWdpR3U1azJHNjkyR1MxYVVzaXFXTEtUTzVBTmtkTWI0SmpmTXU5U2JEWDdBZElDSEpZd3RYamFjbHA3c0RVbmxyZWJ1ZzVBTmlQYUJiaVZZSF9wdDFteXQ5cjItdi1VWlN2WEUwalVXd0lXVm5HZGhRSDjSAbwBQVVfeXFMUHg0S1g4VGt0WGlPU0E3dDRjQ3JENTJvVHFSUXd1TUhIenFEZ0hzZWJFa3RSNm00Q0NJUEdfd2ktOFBXS1lvNUVWR0I1Q2ZIalZiTkR2RnRkOXppZFNXSmg2RGNObkdyRUNyeExNTmVvSU9fX1VtZnVkMDNqaGZXUWtwRXc3eldJZUhjcWNRRkpLQ01rd0ViYl83Rlp3YmJsS09QQmt5NndRTGRUVUdTUlBWLXFhb01vc0lwNkk?oc=5",
+          "published_at": "2026-11-23T00:42:38+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "NST Online",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPTVhINGQtZGlwUmN1eVVveEtManJ5MTFBX0E0U1g4bWRUd0JiRUFPaWdTSkdHOE1HYjVuLUVTQ0RqdV8zaEpCdjducm1WUlM4cnQ5ZWVsSDdZVUc4bUczeW9reTdFWXZmUlU4Vm1HQ3labWFTRC1QU09uSFQ5ankwNzZaY2JvczVrcGRmQlJDcVZkUXkzNTI2NUFhLWdvVXhJT0g00gGjAUFVX3lxTE9NWEg0ZC1kaXBSY3V5VW94S0xqcnkxMUFfQTRTWDhtZFR3QmJFQU9pZ1NKR0c4TUdiNW4tRVNDRGp1XzNoSkJ2N25ybVZSUzhydDllZWxIN1lVRzhtRzN5b2t5N0VZdmZSVThWbUdDeVptYVNELVBTT25IVDlqeTA3NlpjYm9zNWtwZGZCUkNxVmRReTM1MjY1QWEtZ29VeElPSDQ?oc=5",
+          "published_at": "2026-11-22T22:53:32+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "Punch Newspapers",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOMEJxaTkwS0ZlVE9qYU5rQ2U5VUVzeTZRcGk4TUp3RGJ1S2hzbTNNd3FfSTByNVBhcjZUaVRqV1JrZVFFVHAyRVpkVV9CWkJtRHpqOUQ4SllXdVZCSVFXQ2R1cld3MlJYakZPMldxYWxuZVFRUUZyZWEyWnlxUkd5QVU4VHVZLUJPYXhXeGFIYk9wWXNPQ0ZJYkdfV1Nxd0c1WElTRGd5R0I5S3RRcm5vRVdfZzlDeVZmOGdhUQ?oc=5",
+          "published_at": "2026-11-22T20:37:17+00:00",
+          "paywalled": false
+        }
+      ],
+      "lead_url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOVnZjcE50YXJiLWxXZE5OQldXSndtUVlUbnNJckNPY1lQM1ZpdlExMlNJX08zNFJQbnFYd3FKT3ZZbzBqY2s4a3c0RVg0M2dELVZrLUx5R0tobENIQWk2QUdNZG9YRl95STZFUlVOVTlVcThuRG90VndEZEZhaE5jbTRVYkN1SUxoYmlteUhlempZSVNGRjJNWjhZdXlSNzMtM1Q3VExpZmFqZHJKbVdjT3lpekdsb0dXQXg0NHdsUkZwdlNzQW9CaGVhblM2b0VHSWRZTGlFVUJBSnd3LXA2SXJoUlVmV1E?oc=5"
+    },
+    {
+      "id": "dbc858c55ae1",
+      "title": "Fields of graves: Hidden deaths reveal scale of Ebola disaster",
+      "category": "World",
+      "importance": "Notable",
+      "score": 41.9,
+      "published_at": "2026-11-23T06:42:34+00:00",
+      "source_count": 2,
+      "reasons": [
+        "high-impact event",
+        "2 sources"
+      ],
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNNlE5NnFHMFEzZi1GQmhXQXlJWjJDTEl0aVNEb1VNdHZQRzJSWXpUUndSRkV0WXpjR1M0eHQtRFFrX0ozOTJDTTNBNDBsLWlzNXdOVDl5M1FwNC1vSllHaExHeVVjZGxCWmNMTndLX3pqT1NScWVXSHdRaHdlRFBVblFMRWY0c1lpcGJEakpaZUkxT3FDZUNHMDluVVFjZkZUMTZ0SHNSbGd0UQ?oc=5",
+          "published_at": "2026-11-23T06:00:00+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "Deccan Herald",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNNW02ZUotdVp4Ui1oUFdzbTN2WnVPNTk0Vmg0NEJ1Vk9wdUROU0RHX3hKeXRxdU9kZDk3SzljTktkbzJFSE5NUEEySFZRZlhhXzBIdjRERm9lbGs3bjM5RkNPd2pDTkFCM2Z0c0F3UGMwSW1rbnZCTXZHQm1XMHFzS1BuNklDXzZtMnV2VFpoUm15NGlEVmxHYlNLclpYMldRaG96OXI3d2RCYWZ6M0YxZVhrb3NLSlQyXzJJdUNJWUw0ZGdhZ2Nn0gHHAUFVX3lxTE01bTZlSi11WnhSLWhQV3NtM3ZadU81OTRWaDQ0QnVWT3B1RE5TREdfeEp5dHF1T2RkOTdLOWNOS2RvMkVITk1QQTJIVlFmWGFfMEh2NERGb2VsazduMzlGQ093akNOQUIzZnRzQXdQYzBJbWtudkJNdkdCbVcwcXNLUG42SUNfNm0ydXZUWmhSbXk0aURWbEdiU0tyWlgyV1Fob3o5cjd3ZEJhZnozRjFlWGtvc0tKVDJfMkl1Q0lZTDRkZ2FnY2c?oc=5",
+          "published_at": "2026-11-23T06:42:34+00:00",
+          "paywalled": false
+        }
+      ],
+      "lead_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNNlE5NnFHMFEzZi1GQmhXQXlJWjJDTEl0aVNEb1VNdHZQRzJSWXpUUndSRkV0WXpjR1M0eHQtRFFrX0ozOTJDTTNBNDBsLWlzNXdOVDl5M1FwNC1vSllHaExHeVVjZGxCWmNMTndLX3pqT1NScWVXSHdRaHdlRFBVblFMRWY0c1lpcGJEakpaZUkxT3FDZUNHMDluVVFjZkZUMTZ0SHNSbGd0UQ?oc=5"
+    },
+    {
+      "id": "435d9a216a04",
+      "title": "Jury convicts man accused of starting 2025 Calif. wildfire that killed 12",
+      "category": "World",
+      "importance": "Notable",
+      "score": 41.8,
+      "published_at": "2026-11-23T10:01:45+00:00",
+      "source_count": 1,
+      "reasons": [
+        "high-impact event",
+        "reported fatalities"
+      ],
+      "sources": [
+        {
+          "name": "FireRescue1",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPNmFNMUk4emlUMUd3bTNyR1FKb2ZlZ0ZXOTBuWmF4TmtFellPR2hnbk9zbXd0MWNjbkstQzkxczZqYUtWWlIyQ1A4Vk1QMml2MUZSZVdDbW1OVldtTjQyTmc0NWphRlkyOUE5N003YUh6VXdhMUNrbGtZaXItc0QxcC12b0h2YWZNbmxENEk4eUdFYzdrMW4za1hkM1hNN21IUkNwMUh0clR1dS1fT2l6S0RzUkllMkd2TGxjUw?oc=5",
+          "published_at": "2026-11-23T10:01:45+00:00",
+          "paywalled": false
+        }
+      ],
+      "lead_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPNmFNMUk4emlUMUd3bTNyR1FKb2ZlZ0ZXOTBuWmF4TmtFellPR2hnbk9zbXd0MWNjbkstQzkxczZqYUtWWlIyQ1A4Vk1QMml2MUZSZVdDbW1OVldtTjQyTmc0NWphRlkyOUE5N003YUh6VXdhMUNrbGtZaXItc0QxcC12b0h2YWZNbmxENEk4eUdFYzdrMW4za1hkM1hNN21IUkNwMUh0clR1dS1fT2l6S0RzUkllMkd2TGxjUw?oc=5"
+    },
+    {
+      "id": "a71e8f7da3cd",
+      "title": "Magnitude 3.4 earthquake strikes near Isola, Mississippi",
+      "category": "World",
+      "importance": "Notable",
+      "score": 41.5,
+      "published_at": "2026-11-23T12:21:52+00:00",
+      "source_count": 5,
+      "reasons": [
+        "high-impact event",
+        "5 sources"
+      ],
+      "sources": [
+        {
+          "name": "Atlanta News First",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNLWR5bkFLU0E2UkpfYXFfXzQxTTM5Qk9rbE83UXFYSWxLc3VYWThyZWNiSnJMVUVvOUNxNTFPY0M3OUZmNzdRaUFpaVpNOG5LelhBbFRPLTNjUldrTFBOZ3pUcWdycjNrSHd4QWhoYnRnOTY1VndSVnBLSlVGZmV1dUFzQzVfcHFJRFdmT0pQMG5GU1B1a1JCVk5JS2NFQzN4dWZKcXQ3T3k?oc=5",
+          "published_at": "2026-11-23T12:21:52+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "KBTX News 3",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNQlF2S3hiMDVkLTRaZlk3YzhHZl8xU3FpS1BCazZjUnNZY25aTjU2RjRnU3M0R3NpTlUxU2tMYklBUndzV0hWa1BMaXY1TTlIVHg0ZVU1bllhWU5fTjZuelRQZmUzZUhCY1pmOV9ZUEJoLV9LSmVTNldzUE9ORW9OTlJ2c1lYTXFTOFdYbHd3LUJ1LU9nVGpTVQ?oc=5",
+          "published_at": "2026-11-23T12:18:25+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "WTVA",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOMVRxeE0tWENKeGppSC1kLUlvTFF6WllTOTJocnBrNXdjSVJfNmhLQWhXSUFMaDliQTZIOXdJNDNtUnVfb2N1TUtBTWV2TmxHUDFucVhDbFVTMWN4R3Z0aHhxR3JidGpiSGpwNDhYMjFiRGVvQmtYeWRuQlhBa1lndDF4SFFsbWMtSUtady1BaHVTUkI0WjU2ag?oc=5",
+          "published_at": "2026-11-23T12:13:45+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "FOX5 Vegas",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPNmRmQnZUQTN1RTVXWDNuTmNOVlVQUnlFcDBwZFlxMnFoRTRxcm9jNXNlUDRtYThQRnB4SzBBT3l3ek1JS2syM082X2RORTllajVwb3FIVFV1TWo1aFlhNTdHeUN3RkpJS0dnVWxzWExBbFpCSTBQc1Rkc0hmMXh6eGVORndxeUY0WllidlU0akljek16RmFnanNMTTZWUU0?oc=5",
+          "published_at": "2026-11-23T12:12:00+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "WLBT",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPbDczam5vbTgwZWZXU0x6dVZSNS1sRFBQemhvQTFKSXhBQ2ZJaGx1eEs2NmlDdVdEeHppYlZqSjRfaVRBZDdjaUhFV0xTM24xMS1XU3A3TUYzdFBIOGhYTmZremlCTWwtOEFBWmxqdnZWVzdSRzRKSTdDQnlMeERxTzVaMWkzYmVyRTM2VExobnpmd19xS0s4Rg?oc=5",
+          "published_at": "2026-11-23T12:11:12+00:00",
+          "paywalled": false
+        }
+      ],
+      "lead_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNLWR5bkFLU0E2UkpfYXFfXzQxTTM5Qk9rbE83UXFYSWxLc3VYWThyZWNiSnJMVUVvOUNxNTFPY0M3OUZmNzdRaUFpaVpNOG5LelhBbFRPLTNjUldrTFBOZ3pUcWdycjNrSHd4QWhoYnRnOTY1VndSVnBLSlVGZmV1dUFzQzVfcHFJRFdmT0pQMG5GU1B1a1JCVk5JS2NFQzN4dWZKcXQ3T3k?oc=5"
+    },
+    {
+      "id": "14152ad7cf4c",
+      "title": "Indonesian rescuers race to find 34 missing workers after a deadly candy factory fire",
+      "category": "World",
+      "importance": "Notable",
+      "score": 40.6,
+      "published_at": "2026-11-23T06:26:00+00:00",
+      "source_count": 4,
+      "reasons": [
+        "reported fatalities",
+        "4 sources"
+      ],
+      "sources": [
+        {
+          "name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNeWxmUHVQSmZGb3dYUl9UZzNOXzlEcW1hcUFTNlZzY0xNS3ZySEE5bzhTYW94eFJJTmN1RnVqLWZXeFJtUUVqUmpkaTNoS19vWlcwWHZza3hqanhPX2pGTjc2czRONGswbEJWT1Fjalh2eTNYTWJ0RjlWUnFld3JKbnUtaUpIZ1Q3RWdVQUtvSXdPajQ1cG1IejZZSQ?oc=5",
+          "published_at": "2026-11-23T06:26:00+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQc2JzeHFuVWp0dk12UzctdTk5TXJIYURhcXVITWE2ZmV3V3Jrb09BenpkWThoenRiY3FyaEp5RUlUMmFmQ0ZJbXhvUGd5RG1nZ0JrNWs1NmhibXFJSXpUUkNOQWZ0VWh2MnVONlRuU1dPVXZXVGVueEx5UEZnWWprWE5iczJIMXZNWlFXeThMZ0kyTWl6aWJfWGNDM3BkY05yYVVxYkw4anppc3hLUmlJX0JOOFhDa19vNGRtdE5YMjJqQQ?oc=5",
+          "published_at": "2026-11-23T03:49:00+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQN0J5Zy1JLXlBTWc5d0o3OEg0dVBLMXQ0TktFb0ZHT196VEgzYVNfOFhlamNLVjdEMUlOWVFldmsxeUN1MUk0VGFDMlkxWmpCSTFIQzVaZndyeFZjanNQajh2Y2I0c3duUllpOWRTRWdPYzFXeFZRdmJJUndoSDlYUFlQZHV2bU02YWZzdm1vclMwenNYbmZpZkk1UGg?oc=5",
+          "published_at": "2026-11-23T01:23:00+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cw8dvg5pgm0eo?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-11-22T14:05:20+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "BBC",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBuMGkzUWVjU3BUZmhJME96bFlDWHhReTVmSUVKNmtSZ2p5cm1KWlZTM2l1Z3pFRlBPdmhlV0tTVG9fQl91dzhLWHhMN2FFdjlhS2F5N3NLeDdOLWc?oc=5",
+          "published_at": "2026-11-22T14:05:20+00:00",
+          "paywalled": false
+        }
+      ],
+      "lead_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNeWxmUHVQSmZGb3dYUl9UZzNOXzlEcW1hcUFTNlZzY0xNS3ZySEE5bzhTYW94eFJJTmN1RnVqLWZXeFJtUUVqUmpkaTNoS19vWlcwWHZza3hqanhPX2pGTjc2czRONGswbEJWT1Fjalh2eTNYTWJ0RjlWUnFld3JKbnUtaUpIZ1Q3RWdVQUtvSXdPajQ1cG1IejZZSQ?oc=5"
+    },
+    {
+      "id": "d566a197283a",
+      "title": "Norway funds nuclear propulsion push as offshore owner targets 2032 debut",
+      "category": "Norway",
+      "importance": "Notable",
+      "score": 40.1,
+      "published_at": "2026-11-23T09:01:23+00:00",
+      "source_count": 1,
+      "reasons": [
+        "high-impact event",
+        "Norway/local relevance"
+      ],
+      "sources": [
+        {
+          "name": "Splash247",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOMWl4YzdvNjdNTGFhbzhVeUFaTVNqSmw5OXczRGtmY0JQUHhmLXA5aVZ3aF96RUkxMzBJS1B3Z0FfQ1pndmY3ZGc5d1pGa3g4VW1oOFRmUWZseUowZDFuekR2MHNrX0FZRTk3RTVOUUJfVUFBRXBydEtjdHBxZlNWT2p2TU9GaVJYeHRBZDc3UWRDQkswcGM1RVM5eTM?oc=5",
+          "published_at": "2026-11-23T09:01:23+00:00",
+          "paywalled": false
+        }
+      ],
+      "lead_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOMWl4YzdvNjdNTGFhbzhVeUFaTVNqSmw5OXczRGtmY0JQUHhmLXA5aVZ3aF96RUkxMzBJS1B3Z0FfQ1pndmY3ZGc5d1pGa3g4VW1oOFRmUWZseUowZDFuekR2MHNrX0FZRTk3RTVOUUJfVUFBRXBydEtjdHBxZlNWT2p2TU9GaVJYeHRBZDc3UWRDQkswcGM1RVM5eTM?oc=5"
+    },
+    {
+      "id": "9f099763677d",
+      "title": "Yemen's Houthis say they attacked Saudi Rabigh oil refinery",
+      "category": "Middle East",
+      "importance": "Notable",
+      "score": 40.0,
+      "published_at": "2026-11-23T03:40:00+00:00",
+      "source_count": 2,
+      "reasons": [
+        "high-impact event",
+        "2 sources"
+      ],
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQSjZLZW5ua05hQkRTLVhvZnNHZnpUM05mT3ZxNl9FUUoyMEhMN0gtTUVfT0Zhb0g2eUxaeHlvZWlIWXNTVGlSMlczMHdBUERvRjVsQVZVSW92MlFESWlmTGxVaWM2aXYwZ0NtUTlna3k4ZkV2S0k4YkhVOFRjaWRrcmhZeWg5NHpQaW9pRGIybUFpalV3U2lzdlZ5QzYteENUSWpWdm90SXNFWVU4OWxBaGx3?oc=5",
+          "published_at": "2026-11-22T17:52:15+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "CNBC",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9YeVVuSzlMa1Vza0JNYXpXbGw2emp5RndTVHplTzB1QllobEw0SW5Dc3VyTFhwMFJnMkpRSEJEZnhPOFFZYWZhckZXaUlKdTZPRzNyOGNzLWp0YUZDOHM4N0xZQWZHVm9zOHRPbXp1a040YUHSAXhBVV95cUxNcG02RV9VeGk3SG90SjhQdWEyTGd3RVdNRmw4YkZreEZmY2JHUU5nVGNBQklaSmFES0ppelA3UmZFVFVUdVF0RzlzdVBtWWF1emF1U3o1N0x4T25VRDVTMS1Od3BWZnhTVERFN0hJd1Bud1hHdkk3MnA?oc=5",
+          "published_at": "2026-11-23T03:40:00+00:00",
+          "paywalled": false
+        }
+      ],
+      "lead_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQSjZLZW5ua05hQkRTLVhvZnNHZnpUM05mT3ZxNl9FUUoyMEhMN0gtTUVfT0Zhb0g2eUxaeHlvZWlIWXNTVGlSMlczMHdBUERvRjVsQVZVSW92MlFESWlmTGxVaWM2aXYwZ0NtUTlna3k4ZkV2S0k4YkhVOFRjaWRrcmhZeWg5NHpQaW9pRGIybUFpalV3U2lzdlZ5QzYteENUSWpWdm90SXNFWVU4OWxBaGx3?oc=5"
+    },
+    {
+      "id": "cabc5188b3d4",
+      "title": "COP31 climate talks set to collapse without political deal",
+      "category": "World",
+      "importance": "Notable",
+      "score": 38.9,
+      "published_at": "2026-11-23T11:22:24+00:00",
+      "source_count": 5,
+      "reasons": [
+        "significant public impact",
+        "5 sources"
+      ],
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOZFRVY0w1ajMyTV9Xbm5zaS0tNXIxdjNjaW9DS2toc1kyMUdxcDFmS0xIbUgta0Jhb2Q0SWVudVlySTg2eHlHRURfaXp5UDE2OHFud0ZmRExfSFIyMUFQMzdTdHFidzBPUXQxUXRXWWVhTHYtUUx6V2VhclFFQWNzY3hkSm9Tc2pEREhsZDJUa25ZeDc3am5Xa20yelVkWE9pMTlrOXRWbDZ6OENHT25R?oc=5",
+          "published_at": "2026-11-22T12:50:48+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "Financial Times",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOdDhrTl8yRDE4ZDFnUy1xb0RhQTV0OVB1UldLbjZNaUotZkxjU3BWU1Q0V3Q1Mmt2T3VzU2ZOWE1vX0U4cGR2b0Q1UTVfd3U3dHIteks3WjhOeUtKWFJNRTRrT296MkFtdWVQWktOaHBPXzBfcXk0LW5vU01rRGtzYktLNnI?oc=5",
+          "published_at": "2026-11-23T05:00:22+00:00",
+          "paywalled": true
+        },
+        {
+          "name": "Financial Times",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOZXUzNllJY1cycHpPLWZyN2tUNDZpUUpQQzctR0FaeWwyTHlEbjZfV3FZMW16UUVtNjBXUGdCSktUYldkQzZ4aFJSeTlNdVZ1SGV4Yl8tcENWQ3EyNHhvVGZ5TGx4OHE4TlFTTDQwU2dHOF96YUNiMGhyWDNtNVdiX1p3SW0?oc=5",
+          "published_at": "2026-11-22T13:50:41+00:00",
+          "paywalled": true
+        },
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/videos/cr1ewge81q4qo?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-11-23T05:34:39+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "BBC",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE03dll1MVBIeTZ6OEl6dFRrUG1vdEVzT0Qxem41dGpTV2stUW4xakJNeVdUbENSNTVzYWtqSWxIclhrbWpDUDB5WnZEZndWMmtRSG1MeFpfN0U?oc=5",
+          "published_at": "2026-11-23T05:34:39+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "BBC",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4zazlrTTNEV2tGd0RQYWNBcEdIendZVHNySG96NDVwUXA5aWQwLWw2NlFsN3RPUjhfRDQ4ZDNsQ1hjR0lvZ2V2ZENMSlIxbXdocWxKam9fTkNpak0?oc=5",
+          "published_at": "2026-11-23T05:15:06+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "BBC",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1xRkRKcW8zNHVTaXFyb2g5TEVGRHlxLTNkQ3paYVN2UlF6YTF4NXJLZGoxWVVSVUcwZnpYVl9nLUlhX2doOG95dmlLMEpjSUdrbzRCam5DUVB5dw?oc=5",
+          "published_at": "2026-11-23T01:34:13+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQQU1FZW9UMlRxREp1Ri1LTVBKaWxDWm04YjJEYjBpbE9HQmNSck1VekprWWZXQVpBNTY5enl6czR0c2RpMXVEVm9qb25WSnBjT2lYdnkybHlRYk5naTlZOWZGT2lyVkR2U1JTNVZnbm05WDh2MTFwcUJuTTdKVUpPd05RTjZxaEJFcFVFeWYyTGw1V1nSAZgBQVVfeXFMUDhCVnUtdHgtdzhrTmlOTDY0c1I0N0Z6Zk55WV92U2FiVHpaWEV6LVJveEJSb2tWRUszQUpIeVpJVVlYb2UxUWpWNUtqWkN4ZFpqNTF2WDhYOXlXS3FpQUFWUm5KT2VESHFRbHU1WDl1UVAyNHoxTUR4SXNWaGhpSUF6ZDNjUFJab25XTk10cVlJWWxTM2dsbTg?oc=5",
+          "published_at": "2026-11-23T11:22:24+00:00",
+          "paywalled": false
+        }
+      ],
+      "lead_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOZFRVY0w1ajMyTV9Xbm5zaS0tNXIxdjNjaW9DS2toc1kyMUdxcDFmS0xIbUgta0Jhb2Q0SWVudVlySTg2eHlHRURfaXp5UDE2OHFud0ZmRExfSFIyMUFQMzdTdHFidzBPUXQxUXRXWWVhTHYtUUx6V2VhclFFQWNzY3hkSm9Tc2pEREhsZDJUa25ZeDc3am5Xa20yelVkWE9pMTlrOXRWbDZ6OENHT25R?oc=5"
+    },
+    {
+      "id": "3a4fc33b5bc5",
+      "title": "Chinese-Norwegian €422m land-based salmon project moves towards construction",
+      "category": "Norway",
+      "importance": "Notable",
+      "score": 38.6,
+      "published_at": "2026-11-23T06:59:02+00:00",
+      "source_count": 1,
+      "reasons": [
+        "high-impact event",
+        "Norway/local relevance"
+      ],
+      "sources": [
+        {
+          "name": "Salmon Business",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPN2NLWkhvdGlwcGMzOEtTSl96T2hrMWhBSGV3MTFsSjY3RWpCSld4R0d0TWlZRjNKRHNZdnBkemVEZjNubVJnZ2J2b0NiTm1HdFJma2xGRTlwTGdTV2g5R0JFTndwZHRMeHNSendKOGtsX3Rucmtmd0NSdHFrQjMtclNvYWxZVGV1RTZiY1NXUnFmV3FyajF0SGV4dWFyR0xYTnJ3cXlIdFg3RTRi?oc=5",
+          "published_at": "2026-11-23T06:59:02+00:00",
+          "paywalled": false
+        }
+      ],
+      "lead_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPN2NLWkhvdGlwcGMzOEtTSl96T2hrMWhBSGV3MTFsSjY3RWpCSld4R0d0TWlZRjNKRHNZdnBkemVEZjNubVJnZ2J2b0NiTm1HdFJma2xGRTlwTGdTV2g5R0JFTndwZHRMeHNSendKOGtsX3Rucmtmd0NSdHFrQjMtclNvYWxZVGV1RTZiY1NXUnFmV3FyajF0SGV4dWFyR0xYTnJ3cXlIdFg3RTRi?oc=5"
+    },
+    {
+      "id": "4fabca3635a0",
+      "title": "Russia-bound ship towed away after it was attacked in Gulf of Finland",
+      "category": "Europe/UK",
+      "importance": "Notable",
+      "score": 38.5,
+      "published_at": "2026-11-22T17:18:26+00:00",
+      "source_count": 2,
+      "reasons": [
+        "high-impact event",
+        "2 sources"
+      ],
+      "sources": [
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cj752ddve27ko?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-11-22T17:18:26+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "BBC",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBFODE1OHY1cFcwSGdUUGhHdVVsdVc2NU1YVHk0eEVRT2xyLUUyR2phMkpMYmR5ZC1uTk5PSnJKTDVtUkRaU0xzdUFlVGRXRmhkUU53UnM2czBrVGc?oc=5",
+          "published_at": "2026-11-22T17:18:26+00:00",
+          "paywalled": false
+        }
+      ],
+      "lead_url": "https://www.bbc.co.uk/news/articles/cj752ddve27ko?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "id": "59c409cdd7fc",
+      "title": "Nov. 23: Earthquake measuring 2.1 struck region close to The Geysers, CA",
+      "category": "World",
+      "importance": "Notable",
+      "score": 38.3,
+      "published_at": "2026-11-23T11:27:06+00:00",
+      "source_count": 4,
+      "reasons": [
+        "high-impact event",
+        "4 sources"
+      ],
+      "sources": [
+        {
+          "name": "Sacramento Bee",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE0xU2xnOE1fc3NHVkJod3lZa2NvVXZBQkFyd0JuVEdZR0JmZWVFQ3pSbVpoeHlFcTlwUVQzR0p4NlJic2hYS1ZjQndad1Z6d3JZYUh3Z1lJZk9BR2hQME9JcWQteWttenpKT2s1RDJuUUNhS01saW5zUWd3Vjc?oc=5",
+          "published_at": "2026-11-23T11:27:06+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "Sacramento Bee",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE8tOTZxT0xYODBKRWkxSGFJbUxycDVDYXF2WXdLdWRUNTloamJ6Z2R5dWRtRGhjdlN2M0c0SlM5MlA4dldKVVVyUnNrbkJuc3BfUFRZckhRVTZSM3hkOTlIbWVtWnI1OE5oTERIU0pENlc5dTRkMTVUa0dIakw?oc=5",
+          "published_at": "2026-11-23T10:25:08+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "Sacramento Bee",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1IUjVENy1mYVRsZlZXREVScElmNlpBLTZ1c3Jic25PbTBkUExVOVBUdlpGTk5iN0tEd2tNYTlCVjltY1lOVXN4YmdWSG9Hcm9sQzhZcXFXdlhtZDE4WWt6X053dEhIcmJzc3JFQ0RlNnJRQ3BaNDF6N2JucGQ?oc=5",
+          "published_at": "2026-11-23T07:51:06+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "Sacramento Bee",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBCOTNSR1pXNFc2WW1Ga0p3MGJhTURrSGhLQk5OZ09uSGlwWnczNGdENV8wUU8wbko1cnZTN0lHczNrR0VwYjh2VHFTbkNNMFFGamo2Zkd4ZDB0ZjFScHRMQm9lYmh2emdFTzlWR3NMSUprNzRWM2I4OWNpTl8?oc=5",
+          "published_at": "2026-11-23T07:19:06+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "Sacramento Bee",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9HaXpjenNzNGxJX0pVV0UwYmhvZTl0aUFLSHFBa1dUUTBQaVNYU0FNQ0QzdVlrc0h6VG5qdVdhTjdfS0RiY2tsSHhuNDF6U0lsR1ZXcTAycXZvMFhNLWtpcG9vWUZrUmJUOWlRcUE4X0pIOHE0Q2lUZWFNbzE?oc=5",
+          "published_at": "2026-11-23T06:33:05+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "NBC Los Angeles",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQZFBUcEJabTVpOUlIUkJzb05aR2ROd05CNkQ1d0otZTY2a3N3NldXRFNqSnVZd0JLaDItajVUbnFhdFpOTjVXVGVSN1hJUUlFQWxiYmNYbndqTUpQcEx3clNsSjRlZXhuYUs3eVIxaGNhWVNPd3JtQ2JhTlhrQWZFOFc2VDAtNkFCN2FacnhZbGFvS21EOWtadG9hVXhnS1pxUU1UdEdtcDFCdmdSdWVQTWlhR1pqM1pz0gHAAUFVX3lxTFBiZkVxQTFUTzNtN3BMRkdZN2twU01BclJHbG0zenBnRXZ4bGxBem9Oa2Q5VWRLb1lCdy1SbkVjQUtrUm9TYWdid1BZbHcyRTJvTXM4TXptc2JINHdLUEI4RHpsZTZJX01CSUJwcFpsVy1lWUVzZDdPdl9MdlkxNmh0T1hQVnBaN0hEUVR5dU9iblIzZ0NhWk9KWTZ5dVpSS0FvX2lYMzhwUlIzaE1jTUpKNkdsa19MSVFySlBzZWNOcg?oc=5",
+          "published_at": "2026-11-23T05:49:01+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "ABC7 Los Angeles",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPejVjMF9qeEdQVWJEa01JbTF4c2paUW9HTjhGdk5IamtQSXoyRzZRTDR6TlVUMlNVTVhpb2UxeDZuaW96ZjJzQnIwOHMwYUlLaEhQZGt2N1AyVXZZWlJJRGJzUjBkNmJBbXVxTkoteE52dUdwNFlOQnRJVzNmZEszcTU1ZE4xQ3ZweWYwbzBPVlB6bXF1X0JqTFdjWGItd9IBowFBVV95cUxPeXdWRnYxajFGSjdyVHpvN0hJSVNteDFOdzVwMEdObzIxOXprd3V6QUViTTNia1dxZUQ0OGhBakdQdVRGRnprWUlTMEEzRGQwbzJPREZwU0I4OEhYNnBwblpjZ0xZZ0ozSzF6eGNnZTVaS3N2ZXg3VHc4N1l3czhFdUhiS19LMzJzaHljZW14OF80djI4ZnBVY3h1LU1ob2pjY3Q4?oc=5",
+          "published_at": "2026-11-23T05:43:25+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "CBS News",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOcjMtQmc4VE9TekJaa3FVMlVBUHExcHk3QW9zbFlsOGlJUDhQWUFfcmIzTnJubXEzY2xoelNXM2NHVUpHSnF2eEZaVHFMUlFSMjdzNThtOG4wWlhRNGRjRGJjTk5kVkpOa2FmbWVxRGY3NGt5cUVXVW1GbDE2aEQ4cThmS0tIOXBJ?oc=5",
+          "published_at": "2026-11-23T05:26:00+00:00",
+          "paywalled": false
+        }
+      ],
+      "lead_url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE0xU2xnOE1fc3NHVkJod3lZa2NvVXZBQkFyd0JuVEdZR0JmZWVFQ3pSbVpoeHlFcTlwUVQzR0p4NlJic2hYS1ZjQndad1Z6d3JZYUh3Z1lJZk9BR2hQME9JcWQteWttenpKT2s1RDJuUUNhS01saW5zUWd3Vjc?oc=5"
+    },
+    {
+      "id": "04d362e8295c",
+      "title": "Israeli attacks have turned Gaza into 'toxic wasteland', Oxfam says",
+      "category": "Middle East",
+      "importance": "Notable",
+      "score": 38.1,
+      "published_at": "2026-11-23T11:57:33+00:00",
+      "source_count": 2,
+      "reasons": [
+        "high-impact event",
+        "2 sources"
+      ],
+      "sources": [
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/c8r4gzzxvxl3o?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-11-23T11:57:33+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPczQxSG9XUzZBRUZEc3VrWUlDbFBDbUM0ZWp1NEZBc1BnY1RUclFOUzlhdDBuRXJmT08tRk9kQndQMmR2MXNTX1dnNFptV0xJOVpLbHRpMjBrWV9sQ3FCQkFPSWczdUxBNVNJMXhBQkx4WHB0YlJ1ZW91T1BuRHkxNUNKYklORXhENlloTG95U2tYME00Mjd2cVR2cFBlaHE4T3loY0NqUmV6enloLU1YTmpXeUtOZ9IBuwFBVV95cUxQVGJGWWE4eHlzRzdqTXN3NkNUd3NWZGNkN291WEZraFo5QjB5azdjV2NYcUN6QzVxdWE2M3ZCSFFQRlRJeExxalZ1Y1J0TFU2alJuY2Nsc0JFQ1dkWmZlY2dlc04wWUJmQTJfS0N1RzNqX2FJT1h4UEIzaUFzTEtWMXVqcXZla25uN1ZkdnlaYnJ1UVdNdUwtQXFvZ3FabGR3UzA2TEQxT0otZGNFVVpqSTNNb3ZnOEZUZGFr?oc=5",
+          "published_at": "2026-11-23T09:34:34+00:00",
+          "paywalled": false
+        }
+      ],
+      "lead_url": "https://www.bbc.co.uk/news/articles/c8r4gzzxvxl3o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "id": "ac3694981dd0",
+      "title": "Norwegian Electrician's Korean War Diary Named Gyeonggi Heritage Item",
+      "category": "Norway",
+      "importance": "Notable",
+      "score": 38.1,
+      "published_at": "2026-11-23T05:52:06+00:00",
+      "source_count": 1,
+      "reasons": [
+        "high-impact event",
+        "Norway/local relevance"
+      ],
+      "sources": [
+        {
+          "name": "Seoul Economic Daily",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPSWFpTzFjZHdNZ2U4YjE5cXREdEo1c29jeWl1c2x6cUtzZGdnd3FqNmlHc2ZrUVFpNjR2c1RFVE9FS2RJbm1RQVU4VzF2cEl6WFl2X2ZQdU03dlo1UnA2MGNqVEpxb2U0RldhT1NVeGUtWTd0cXNjMGlnREFLVG5EaUNobS01Y3VheHRfZ2VwT3lUQ0NhLTFyVjQ1cVU?oc=5",
+          "published_at": "2026-11-23T05:52:06+00:00",
+          "paywalled": false
+        }
+      ],
+      "lead_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPSWFpTzFjZHdNZ2U4YjE5cXREdEo1c29jeWl1c2x6cUtzZGdnd3FqNmlHc2ZrUVFpNjR2c1RFVE9FS2RJbm1RQVU4VzF2cEl6WFl2X2ZQdU03dlo1UnA2MGNqVEpxb2U0RldhT1NVeGUtWTd0cXNjMGlnREFLVG5EaUNobS01Y3VheHRfZ2VwT3lUQ0NhLTFyVjQ1cVU?oc=5"
+    },
+    {
+      "id": "3bd3f2495403",
+      "title": "News - Norwegian fish farmers in head to head with Prime Minister",
+      "category": "Norway",
+      "importance": "Notable",
+      "score": 38.0,
+      "published_at": "2026-11-23T12:00:55+00:00",
+      "source_count": 1,
+      "reasons": [
+        "high-impact event",
+        "Norway/local relevance"
+      ],
+      "sources": [
+        {
+          "name": "Fish Farmer",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOeVc0RkZTNk1LaWJnZzhiRmdxWDlFUXhpYVMzbVQxd3FscmNVQk95d3psVXRNN1V0REVVOEJybFFLdkdtdVpXZDR5cHdFYzh5QTVyNnNNX291TG1GbTRrRC1SdDdmbFVCOVdhN091UEYxVDJLMFRGY0MzWmJSa1EtcmRIV0ZCMzdTbHZ2ZWlEb2h3blhMVmJmck5pRmRPS1E?oc=5",
+          "published_at": "2026-11-23T12:00:55+00:00",
+          "paywalled": false
+        }
+      ],
+      "lead_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOeVc0RkZTNk1LaWJnZzhiRmdxWDlFUXhpYVMzbVQxd3FscmNVQk95d3psVXRNN1V0REVVOEJybFFLdkdtdVpXZDR5cHdFYzh5QTVyNnNNX291TG1GbTRrRC1SdDdmbFVCOVdhN091UEYxVDJLMFRGY0MzWmJSa1EtcmRIV0ZCMzdTbHZ2ZWlEb2h3blhMVmJmck5pRmRPS1E?oc=5"
+    },
+    {
+      "id": "9542f59c4770",
+      "title": "War With Iran: Trending News, Latest Updates, Analysis",
+      "category": "Middle East",
+      "importance": "Notable",
+      "score": 37.9,
+      "published_at": "2026-11-23T08:11:17+00:00",
+      "source_count": 1,
+      "reasons": [
+        "high-impact event"
+      ],
+      "sources": [
+        {
+          "name": "Bloomberg.com",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBIN1Nua3pxWlpMX0Y2cU1RZ1pJUHRfTDZJbVJyMTN3Z1JROGJvV1JQTjJHQ3VwNkxvOUhCMFl1VWZTeXduY2xvTlNPOHF6Ni1iQVFPQg?oc=5",
+          "published_at": "2026-11-23T08:11:17+00:00",
+          "paywalled": true
+        }
+      ],
+      "lead_url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBIN1Nua3pxWlpMX0Y2cU1RZ1pJUHRfTDZJbVJyMTN3Z1JROGJvV1JQTjJHQ3VwNkxvOUhCMFl1VWZTeXduY2xvTlNPOHF6Ni1iQVFPQg?oc=5"
+    },
+    {
+      "id": "73e8068171ac",
+      "title": "San Francisco Faces Historic Flood Threat as Big Storm Nears",
+      "category": "World",
+      "importance": "Notable",
+      "score": 37.9,
+      "published_at": "2026-11-23T04:41:00+00:00",
+      "source_count": 1,
+      "reasons": [
+        "high-impact event"
+      ],
+      "sources": [
+        {
+          "name": "Bloomberg.com",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOazd5Zkc5dUItYnZaUjFVZzVuRVZlYllmcmRmeW4tVXBlZ1J5Y1MwNU5yWFNRbV9lclRLT3F4OFJWYTFGc095dTZDbWhwR3Z0U1doVWwtS1dHQ055Nll2YnZDalRrMWJBZUpjQlRPRzQyMGc5bnlkUkNCc3BoT1hZcVltZDBMS0x4Z241N0hDNm80anV5bUdlTUtoSnU5UDV1aDl3SnlXMURmNFBYWElUSUhHUQ?oc=5",
+          "published_at": "2026-11-23T04:41:00+00:00",
+          "paywalled": true
+        }
+      ],
+      "lead_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOazd5Zkc5dUItYnZaUjFVZzVuRVZlYllmcmRmeW4tVXBlZ1J5Y1MwNU5yWFNRbV9lclRLT3F4OFJWYTFGc095dTZDbWhwR3Z0U1doVWwtS1dHQ055Nll2YnZDalRrMWJBZUpjQlRPRzQyMGc5bnlkUkNCc3BoT1hZcVltZDBMS0x4Z241N0hDNm80anV5bUdlTUtoSnU5UDV1aDl3SnlXMURmNFBYWElUSUhHUQ?oc=5"
+    },
+    {
+      "id": "ccdd270567db",
+      "title": "Indian central bank plans to tap broker apps to boost retail trading in government bonds, sources say",
+      "category": "World",
+      "importance": "Notable",
+      "score": 37.3,
+      "published_at": "2026-11-23T08:26:10+00:00",
+      "source_count": 2,
+      "reasons": [
+        "significant public impact",
+        "2 sources"
+      ],
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQZDVVNm9WN25iWENZQWVmV0M4ak9rbGxCc0pKa3hNaVRlS1VSVTZTN2U1ckFMQk8wYTlkdUJ0QVFPb0F6a2lGZDVFT0tjUVNJS2J6VWhyekcya2dVdHd0X1NaQWl3M3lubEdhTDNVZlVDS1lILUx0SVh6RUgtdzJpT09hMFpiSS1UNGpNbmdKZjg2UGRKZkZUUGlXOGlNYlZDQUFVUWlWYWsxbWRLODdoUDlKaFhGX1lyZXJWZElNMjJEd0ZZazZWaFV2VEw?oc=5",
+          "published_at": "2026-11-23T08:26:10+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "TradingView",
+          "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOYWkyMDQ5NTZLWDZUNFRwa3JhaHo1U1pqcFdBalFtakxzdk54VXFaWG95WGFvV1JzOG5FWjlfc3RkRHRSc0JWV2ppdU5RYTZRY1I4M3Z2Yl9lbzB2WmxlQlFwTkpuUVV4V3V1SXlUbFhqS2pZVjZNTnNhZU84UWUyUTF1ZkkxWkVnbVNNQjNsdzNsR1FlaUNGdkFIUWctSUdZUndMTU9WTVpQOHlpa2JJVE5DOXNGRnVGbnJiV05WUTNiYmpXWVljVTBmSlJKYVNhWkljV2ZiaksxVzFxZmtGTXBoSWtHdFpjR1YyNlpKbHNzTEhGTWx5WF8tQWpRNWs?oc=5",
+          "published_at": "2026-11-23T08:23:09+00:00",
+          "paywalled": false
+        }
+      ],
+      "lead_url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQZDVVNm9WN25iWENZQWVmV0M4ak9rbGxCc0pKa3hNaVRlS1VSVTZTN2U1ckFMQk8wYTlkdUJ0QVFPb0F6a2lGZDVFT0tjUVNJS2J6VWhyekcya2dVdHd0X1NaQWl3M3lubEdhTDNVZlVDS1lILUx0SVh6RUgtdzJpT09hMFpiSS1UNGpNbmdKZjg2UGRKZkZUUGlXOGlNYlZDQUFVUWlWYWsxbWRLODdoUDlKaFhGX1lyZXJWZElNMjJEd0ZZazZWaFV2VEw?oc=5"
+    },
+    {
+      "id": "085fe0b94172",
+      "title": "Russian ship attacked by drone in Baltic Sea off Finland - Al Jazeera",
+      "category": "Europe/UK",
+      "importance": "Notable",
+      "score": 37.3,
+      "published_at": "2026-11-23T04:18:00+00:00",
+      "source_count": 2,
+      "reasons": [
+        "high-impact event",
+        "2 sources"
+      ],
+      "sources": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOMEd2N1ZjdzVQOEtJT3BWMkdPcVh6SmFmekRVdVE1R25tYmg1QjZzLUFHcVZCcktUcHJMcUdMMko4V1VnQ3hDczNsaTRnNFZzRXExWEYteE1mV3dvTm5YaWtiZGU1d2RzbVNIMjFwejlObVc4eTR1S3pVSnEwVFFmdXlwc2k1TEVqMlBWTmFQNWg5a1RfeDhFLWQtS2trR3ZIb2NpNkh1Z2RrakU5MGVaM24wM2xwRzlURVBVa3I5NWxmV19yaHc?oc=5",
+          "published_at": "2026-11-22T20:54:38+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "The Guardian",
+          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNLXpOdWlXckdpLXNuT053QVpxMFlxNkVKbjRtY29vam5PSEgtdWw5VkI3T19HWkg0eGE2MUxrTUdkSlg0WGN1Z19NOHhQSDh2YVlmMHZoOTQ1UmFFQ2tqYkVrU0p2aGsxNkdydlVYOVJzTUFkVm5xcEJGMUt2ZGEwaDFzLXoxMkVibnZMcUx1MUhIZUJtS2MzTnNBbTl0Z0tfSkdoUWVaZ0V5VktzMU9OZEcweEZ2Y00xeFJDNmh2Yzg0QndsUm9NRklNWDVLSkJuU0thMnFCZmdPV2x4S0ZLdmtybVBRM3FGOHc?oc=5",
+          "published_at": "2026-11-23T04:18:00+00:00",
+          "paywalled": false
+        }
+      ],
+      "lead_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOMEd2N1ZjdzVQOEtJT3BWMkdPcVh6SmFmekRVdVE1R25tYmg1QjZzLUFHcVZCcktUcHJMcUdMMko4V1VnQ3hDczNsaTRnNFZzRXExWEYteE1mV3dvTm5YaWtiZGU1d2RzbVNIMjFwejlObVc4eTR1S3pVSnEwVFFmdXlwc2k1TEVqMlBWTmFQNWg5a1RfeDhFLWQtS2trR3ZIb2NpNkh1Z2RrakU5MGVaM24wM2xwRzlURVBVa3I5NWxmV19yaHc?oc=5"
+    },
+    {
+      "id": "d28b12a642f0",
+      "title": "South Korea's education minister quits over exam cheating chaos",
+      "category": "World",
+      "importance": "Notable",
+      "score": 37.2,
+      "published_at": "2026-11-23T00:20:00+00:00",
+      "source_count": 2,
+      "reasons": [
+        "high-impact event",
+        "2 sources"
+      ],
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNSHhGdTlDN3hOUVlXUHRLSlVmbWRGTWRQWWdQaDV0a0UyZFhjR0w1RDZtRmZMcHNvTWE1QWJhclVLaHBtVXBMVVo0cU1jemIyc2NzUmQtX2NHU0FRaklZcElORnoxYnBkVE53TEhFQkMydlpULWJFM2pVbHc2UXREal9ENG42SkFqZWg5dEM2eTZLaHVYVUg0b0gtOVpCcDNuLVhPU3cwZjdUTHdST3VHYzhmNjVCQmlI?oc=5",
+          "published_at": "2026-11-23T00:20:00+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cw3dgk29d37no?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-11-22T09:20:45+00:00",
+          "paywalled": false
+        }
+      ],
+      "lead_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNSHhGdTlDN3hOUVlXUHRLSlVmbWRGTWRQWWdQaDV0a0UyZFhjR0w1RDZtRmZMcHNvTWE1QWJhclVLaHBtVXBMVVo0cU1jemIyc2NzUmQtX2NHU0FRaklZcElORnoxYnBkVE53TEhFQkMydlpULWJFM2pVbHc2UXREal9ENG42SkFqZWg5dEM2eTZLaHVYVUg0b0gtOVpCcDNuLVhPU3cwZjdUTHdST3VHYzhmNjVCQmlI?oc=5"
+    },
+    {
+      "id": "163adb1757ee",
+      "title": "Three Russian missiles flew into Poland Friday, prosecutors say",
+      "category": "Europe/UK",
+      "importance": "Notable",
+      "score": 36.8,
+      "published_at": "2026-11-22T17:19:43+00:00",
+      "source_count": 1,
+      "reasons": [
+        "high-impact event"
+      ],
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNM1VMUS1oUkxlYzRWaDg5WjNPbGJoV2t1LTlRNkVMWnF6a3Q3aUljXzlCal9hWmdhWnlkYzdKNjdFVGdwVk1WUFFucGdfbUlnY3RtUjBsdFBxVTdmTGNjcnJ1a0VDNnk5eFh5NDdWaGNWcjNWcFI2WkoxZnFUbkI5UHZ6YTdYZUVMa19Ldk5YTERtX3ZialpvbjI4eFVoQ0Eyd2l0NGxoVQ?oc=5",
+          "published_at": "2026-11-22T17:19:43+00:00",
+          "paywalled": false
+        }
+      ],
+      "lead_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNM1VMUS1oUkxlYzRWaDg5WjNPbGJoV2t1LTlRNkVMWnF6a3Q3aUljXzlCal9hWmdhWnlkYzdKNjdFVGdwVk1WUFFucGdfbUlnY3RtUjBsdFBxVTdmTGNjcnJ1a0VDNnk5eFh5NDdWaGNWcjNWcFI2WkoxZnFUbkI5UHZ6YTdYZUVMa19Ldk5YTERtX3ZialpvbjI4eFVoQ0Eyd2l0NGxoVQ?oc=5"
+    },
+    {
+      "id": "3aaafb54e092",
+      "title": "Spain’s likely rightward shift",
+      "category": "Europe/UK",
+      "importance": "Notable",
+      "score": 36.7,
+      "published_at": "2026-11-22T18:15:08+00:00",
+      "source_count": 1,
+      "reasons": [
+        "high-impact event"
+      ],
+      "sources": [
+        {
+          "name": "Financial Times",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOZzZWNVFDWjBNcUpLT3Y5SUVidXlMbW45UGI4TkhDMGdrVVBqMkRUSjRHakxnQW4zQ0w3d3dwRF9VMTFZUC1FbjFvbWtwT2NfX2lJeEh0MmhuYVNJRzhYWlBJbkNSdHcyQVZLRWw2VGJhM0oxVk5kbmpxNngtTWgyekdYaUw?oc=5",
+          "published_at": "2026-11-22T18:15:08+00:00",
+          "paywalled": true
+        }
+      ],
+      "lead_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOZzZWNVFDWjBNcUpLT3Y5SUVidXlMbW45UGI4TkhDMGdrVVBqMkRUSjRHakxnQW4zQ0w3d3dwRF9VMTFZUC1FbjFvbWtwT2NfX2lJeEh0MmhuYVNJRzhYWlBJbkNSdHcyQVZLRWw2VGJhM0oxVk5kbmpxNngtTWgyekdYaUw?oc=5"
+    },
+    {
+      "id": "51876769c28e",
+      "title": "COMMENTARY: Oil's Iran war recovery masks a stubborn diesel shortage",
+      "category": "Middle East",
+      "importance": "Notable",
+      "score": 36.6,
+      "published_at": "2026-11-23T11:00:48+00:00",
+      "source_count": 1,
+      "reasons": [
+        "high-impact event"
+      ],
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPTm1ualZQSkpWSE81dmJhNTVlenN6clBtbnAyczRuVDdPZUFkZDRDX0pPc1pacExyelpWSFp1VmpUWm5WUHFabTV6UmR2V2ZzaldKcjJlMEFiOWx6S0pHTE9tUGRoT1AxVm04SVR6U0d3X2JtZTcxOFpMWWFWS0FJaTlIYTBGTDc1cnB6SXQtQWhxN2xmQ0hnRldZSjI1a2R5aEhzNF9Vai1SX1VJemdyUU4yLW40c05yMGk1eElqMA?oc=5",
+          "published_at": "2026-11-23T11:00:48+00:00",
+          "paywalled": false
+        }
+      ],
+      "lead_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPTm1ualZQSkpWSE81dmJhNTVlenN6clBtbnAyczRuVDdPZUFkZDRDX0pPc1pacExyelpWSFp1VmpUWm5WUHFabTV6UmR2V2ZzaldKcjJlMEFiOWx6S0pHTE9tUGRoT1AxVm04SVR6U0d3X2JtZTcxOFpMWWFWS0FJaTlIYTBGTDc1cnB6SXQtQWhxN2xmQ0hnRldZSjI1a2R5aEhzNF9Vai1SX1VJemdyUU4yLW40c05yMGk1eElqMA?oc=5"
+    },
+    {
+      "id": "58b66c70c9e9",
+      "title": "Armenia proposes new constitution in step towards peace with Azerbaijan",
+      "category": "World",
+      "importance": "Notable",
+      "score": 36.6,
+      "published_at": "2026-11-23T07:48:00+00:00",
+      "source_count": 1,
+      "reasons": [
+        "high-impact event"
+      ],
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPMnFNZ215bUttRTh2UEY1bi1MRVBoLTFEelJfb1FsSHR3VDZkNXFyUGRsanFlUHpGckJDbktHM3BEekl6bVhoYXFrNF85ZmhaZU9mU0c3SEJNemtkbHRvNG9idzVyMDNZOGY1WG5ibVFtZl8tOGJfNTlub1ZWTzJVZVQ1ZGpod3VxV0Y3eHdfejdBYlpjeFJwX29WLVFQTGJTX2xxdWpVWm1xazdHWWhZ?oc=5",
+          "published_at": "2026-11-23T07:48:00+00:00",
+          "paywalled": false
+        }
+      ],
+      "lead_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPMnFNZ215bUttRTh2UEY1bi1MRVBoLTFEelJfb1FsSHR3VDZkNXFyUGRsanFlUHpGckJDbktHM3BEekl6bVhoYXFrNF85ZmhaZU9mU0c3SEJNemtkbHRvNG9idzVyMDNZOGY1WG5ibVFtZl8tOGJfNTlub1ZWTzJVZVQ1ZGpod3VxV0Y3eHdfejdBYlpjeFJwX29WLVFQTGJTX2xxdWpVWm1xazdHWWhZ?oc=5"
+    },
+    {
+      "id": "127bd719e33f",
+      "title": "Democrats plan 12 debates for their 2028 presidential primary, with the first in June",
+      "category": "World",
+      "importance": "Notable",
+      "score": 36.5,
+      "published_at": "2026-11-23T10:04:00+00:00",
+      "source_count": 2,
+      "reasons": [
+        "high-impact event",
+        "2 sources"
+      ],
+      "sources": [
+        {
+          "name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxORGE1Z0o0bFp6aHVKel9xNlhhaEdEWUpua3l1Y0dQNzZmVGQzaU5pTTVYT1RmS2FKRnd6R1ZHaVVaOGp2bUpTU1FYQVE1enFQcDVJMk9ENUNNWDNpUE8xdnByT3YwNG92Z1BxVXl3RFFvNlhoOUkxWURCUEVUcGdBZmJSUzMxWnAybG9UQ0ZBZFhJZjRHczU2bk5MRzJnSXVSQnFRUzIyVVlrR0JJ?oc=5",
+          "published_at": "2026-11-23T10:04:00+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "Bloomberg.com",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQbWp0bFl5dXFrV3N0QlRvN0phNlRjYWZLS051Zk9SU2JjZktuQWk5TDR1dndaQmZrdXhTdExDd0JYMXE0WEtWekxFd1ZjQnhqTldGNTIzUFFOZnBIVWRMWFVmcHdxVVY2S2hEdTJHUFNzSTMwTTNsRFZncVIxQkhINURQN19xZUZ6NXRIWHlxRVlfdC1HcXktdm93TUFFenQ4R1NJY1VXV1VFNmxic1Fn?oc=5",
+          "published_at": "2026-11-23T10:00:00+00:00",
+          "paywalled": true
+        }
+      ],
+      "lead_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxORGE1Z0o0bFp6aHVKel9xNlhhaEdEWUpua3l1Y0dQNzZmVGQzaU5pTTVYT1RmS2FKRnd6R1ZHaVVaOGp2bUpTU1FYQVE1enFQcDVJMk9ENUNNWDNpUE8xdnByT3YwNG92Z1BxVXl3RFFvNlhoOUkxWURCUEVUcGdBZmJSUzMxWnAybG9UQ0ZBZFhJZjRHczU2bk5MRzJnSXVSQnFRUzIyVVlrR0JJ?oc=5"
+    },
+    {
+      "id": "a1669a67de07",
+      "title": "Flights grounded in Belgium due to strike against austerity measures",
+      "category": "World",
+      "importance": "Notable",
+      "score": 36.4,
+      "published_at": "2026-11-23T12:27:34+00:00",
+      "source_count": 2,
+      "reasons": [
+        "high-impact event",
+        "2 sources"
+      ],
+      "sources": [
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cwdr155e2d05o?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-11-23T12:27:34+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "BBC",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBIaS1qSmRWVHVJZGhfNlhRS24waW9kSWtIN2RhRS1LR2NFVHpzRVZnWGdDaHlzeW43WW03MzJ5R2dhOEZHSlFqdGFMM250YWdVamM0bG41N0JnSmc?oc=5",
+          "published_at": "2026-11-23T11:26:12+00:00",
+          "paywalled": false
+        }
+      ],
+      "lead_url": "https://www.bbc.co.uk/news/articles/cwdr155e2d05o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "id": "82388d3a1fe2",
+      "title": "Ukraine urges US to release Patriot missiles as Russian strikes kill 15",
+      "category": "Europe/UK",
+      "importance": "Notable",
+      "score": 36.2,
+      "published_at": "2026-11-23T05:29:58+00:00",
+      "source_count": 1,
+      "reasons": [
+        "high-impact event"
+      ],
+      "sources": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQWDROSjJ4ZmFrSWp4VDNoeS1aRVlHb25QQXJvV0JhQWtrNjdJekNQWHEyQ0VhZUIyNHBpd3l2eEJSYmc4Zk45V2lhcWxwMzJBT09XYk1hRzZwa0FkT2ltdUl2STFtb1lBVHRtVFpDTGtYc2FVZWJqQXYyYlFSVzBhNzhpbE83NlByTGJHQjloNEZvZ9IBlwFBVV95cUxORzQwam00SzMzbWFrZHNQMlAxQU1sTmJ3ZEFQRU51V1B4MGxUb1FFeUo3R05ya0hQMFRVRjRGOTlVZDliV25wbGdnZzI1YlI5N2lpTnltOE5ZYUItZDViTlJvNkRCaGR0M2NxQ19zeEJrSmhVTGVKVGpoRFBNTlFlMFpxUzNKblhkYjlBek91OUJxbmZNdkRr?oc=5",
+          "published_at": "2026-11-23T05:29:58+00:00",
+          "paywalled": false
+        }
+      ],
+      "lead_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQWDROSjJ4ZmFrSWp4VDNoeS1aRVlHb25QQXJvV0JhQWtrNjdJekNQWHEyQ0VhZUIyNHBpd3l2eEJSYmc4Zk45V2lhcWxwMzJBT09XYk1hRzZwa0FkT2ltdUl2STFtb1lBVHRtVFpDTGtYc2FVZWJqQXYyYlFSVzBhNzhpbE83NlByTGJHQjloNEZvZ9IBlwFBVV95cUxORzQwam00SzMzbWFrZHNQMlAxQU1sTmJ3ZEFQRU51V1B4MGxUb1FFeUo3R05ya0hQMFRVRjRGOTlVZDliV25wbGdnZzI1YlI5N2lpTnltOE5ZYUItZDViTlJvNkRCaGR0M2NxQ19zeEJrSmhVTGVKVGpoRFBNTlFlMFpxUzNKblhkYjlBek91OUJxbmZNdkRr?oc=5"
+    },
+    {
+      "id": "ce685c837d64",
+      "title": "Iran unveils dual-missile launcher, new ‘missile city’: What to know",
+      "category": "Middle East",
+      "importance": "Notable",
+      "score": 36.2,
+      "published_at": "2026-11-22T14:42:45+00:00",
+      "source_count": 1,
+      "reasons": [
+        "high-impact event"
+      ],
+      "sources": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQZWZsOWN0bmtuM0VnLWpjVnlLMXVfeVdqdFlkZjVsb01uLUJhUjFoOC0yeDZtLURYbVBObWg3T2dUQm51akxZMVJfeU43Nl90eHNfc29hNVVNVG40dXd1V1VvTUtUSE5nVGFDOTdRN0tVa0xGS3BXUm9Ycm5MVDdtRXpyZWN5WFhZc2ZnSldjcXI2N0ZHTTMtSjFLZVdYTFpYWGNubk9ZM3FJUdIBrwFBVV95cUxQTGlqSVNoVU0xLTB4MDNLbW9haElfa3ZsWFVqVVFvV3I3RU04eEItYnlUTTUxNEw1N3ZMUjJab2wtcmw5M2FHbVJOdmpnUG40bGVBdURINWs0cXVMaUJuNjRHV0RSemV4T3ZBQS1nQ1VITGtUemZaY29JMVJwaFlVTm1NUVZsRlNBeUNVRXg0aVNlZWdFNmhDRWs5UmR3cFplVFNaTDl0RnRpMXpIaHFZ?oc=5",
+          "published_at": "2026-11-22T14:42:45+00:00",
+          "paywalled": false
+        }
+      ],
+      "lead_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQZWZsOWN0bmtuM0VnLWpjVnlLMXVfeVdqdFlkZjVsb01uLUJhUjFoOC0yeDZtLURYbVBObWg3T2dUQm51akxZMVJfeU43Nl90eHNfc29hNVVNVG40dXd1V1VvTUtUSE5nVGFDOTdRN0tVa0xGS3BXUm9Ycm5MVDdtRXpyZWN5WFhZc2ZnSldjcXI2N0ZHTTMtSjFLZVdYTFpYWGNubk9ZM3FJUdIBrwFBVV95cUxQTGlqSVNoVU0xLTB4MDNLbW9haElfa3ZsWFVqVVFvV3I3RU04eEItYnlUTTUxNEw1N3ZMUjJab2wtcmw5M2FHbVJOdmpnUG40bGVBdURINWs0cXVMaUJuNjRHV0RSemV4T3ZBQS1nQ1VITGtUemZaY29JMVJwaFlVTm1NUVZsRlNBeUNVRXg0aVNlZWdFNmhDRWs5UmR3cFplVFNaTDl0RnRpMXpIaHFZ?oc=5"
+    },
+    {
+      "id": "13b4084af77c",
+      "title": "HH The Amir Issues Amiri Decision Renewing Term of Qatar Central Bank Governor",
+      "category": "Middle East",
+      "importance": "Notable",
+      "score": 35.9,
+      "published_at": "2026-11-23T11:54:29+00:00",
+      "source_count": 5,
+      "reasons": [
+        "significant public impact",
+        "5 sources"
+      ],
+      "sources": [
+        {
+          "name": "الديوان الأميري",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPMWJzSXZHbHE0UVlPUnFHbElfOTB6VmszRGNBYmVkd2hKZjEwUEFrQjFfSkpIeUNoNkRta1VNZ01VdlVuM2dXTkZtN3lnNGh2U3RkSmdTUzJPaFF3Nm9OTE11WW50NnpQamIxbjJMX1FFRnJ6Sk94VGdOSWZpNEgtZV9LSUFQY1h6cGJBX0Y5ZzZpOVZ4NGVfeW9kY3NDSFd1QWkzYzkwZw?oc=5",
+          "published_at": "2026-11-23T11:54:29+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "Qatar Tribune",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNN1pqb09aMUJCUmRqeXVHNEdMMXFrRXZjcDl6MWFVVGNCMFdUWEs4MWQ1ajNHbW81RzlQS29TRUV3SUVhNEYzTzZSV3BlLTVmUnY3S3J6X19TWXZ1bld5Z2JHNlBLS05JTnRxWkdrekhCaW0wdVdudmlPeXd2M1JfeEZ6cG9nOWVkMWRKT2oxd1o4RDRkVm1nNmpGbGFYbVhpbnV5dFJqc9IBrAFBVV95cUxNN2E4YXl2YlhQNHZIVG8wclZxSl9DM21Qam9jN3lKZ0d1RDY2NU5mRG1oYlFrZHBEUG44bWd0bmtpN29BM2IzTl84ZkV4aUFJLWl2UnlkeGNjaEhhNzBFVEVkRV9RdGc4QXBfbzY0amtYa2hhZmtRc1FXZGR1NDNXQ0hOd3pUXzZzR01hNXY0Q0V5SEZWZXI0SnZGNGpRZ1J3bjZLNmZiMG1KLVR2?oc=5",
+          "published_at": "2026-11-23T11:26:15+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "Gulf Times",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOVVJzX1JVeHF6WEd1TTJLSVNaTU9zQTB1a2JOdGlvWnFIVF91MElSUXUwbXhlVWg0SWp5R056M01RWW0zWHI0QjRGaHVzVVZNTmlXNXAtWTBtemdpdmRldExlS0dZQVBOMUItTERSa0xxakoweGVLTXNHVHFzVkNJTmV1X2FTSVI4X3gybHAzTzloeUZOS1N5aG5kM3h6TU1DMzRpaXNYTnZYamxKYkJQV0IwOXVsM1d5TF9ob2JGb3JoQ1Az0gHKAUFVX3lxTE9Ja2lJTFd5LTQ3ZkhRT0d0R245cEMzWFR5b2h6MjRJUVdKNzI5bEp6R2RRQ25IWHdRT3VJN1RGWWpFODRKeWoxLThGWG96cEhVcThTWmtuZFVPbmVrQlZjN0gxaWpUNmdFTEh4UTE5YV9TdnFNMnBCVXYza01KbWtKaEtLbERGY2JHTEFZVVNna2NXZ2lSUDBNVjgxaTB3MlMzdnI1QmQxZEJKdkx0Nlc4NE5SRnRwUldSOURMS2RDeld2Sk5pSmdWUEE?oc=5",
+          "published_at": "2026-11-23T11:21:00+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "The Peninsula Qatar",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQOGt5V3Rxa213aVNpTXR6QndsTWlzaGFJMzJpT0ZlMWxycWNSc1BKZWM4cTdNR2hiUlUwWGdkUHdNQndmdUdSRF9kYllzRDUtbXlhYzcwaVV0ZElkRnNNRXk3NnkyU3ljYVpwU1JkLXdLWGlzc21WY3IySlRpOF9uTVF4Z2xUNUUxYnlwQjR6aXJqMGVwSFl4eVRoSkI3WHJickdsc2RoQkRQR0hhTmdWZkZR?oc=5",
+          "published_at": "2026-11-23T10:25:57+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "TradingView",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOVXRyWExWOXVQLUNiSVQwSzRzSndYb2t0Z09kOEp0WWlybFhBNmpRaXZkWkZlLXFDbThkemUtaUxiZGQta3hBeGZFQldoR0dNQTlhV1hNYmV4SFFUbjVsM1ZsSUNTNXMwUGROVXNlNHQwR2ZkTENPNUVFS245X2t4endaU2YySG9GMGdnOU5FYzZ0aUlxeWd4SHVuTlJ0T28wME5id1lMQ2pLTVBlOWdwbkxOU2RaUmxCSnZBYXNYVlY5TklQRXF5WGVWOW1JQQ?oc=5",
+          "published_at": "2026-11-23T10:23:22+00:00",
+          "paywalled": false
+        }
+      ],
+      "lead_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPMWJzSXZHbHE0UVlPUnFHbElfOTB6VmszRGNBYmVkd2hKZjEwUEFrQjFfSkpIeUNoNkRta1VNZ01VdlVuM2dXTkZtN3lnNGh2U3RkSmdTUzJPaFF3Nm9OTE11WW50NnpQamIxbjJMX1FFRnJ6Sk94VGdOSWZpNEgtZV9LSUFQY1h6cGJBX0Y5ZzZpOVZ4NGVfeW9kY3NDSFd1QWkzYzkwZw?oc=5"
+    },
+    {
+      "id": "93e434c3cd61",
+      "title": "Kyiv's restaurant owners brace for tough winter as war pressures mount",
+      "category": "World",
+      "importance": "Notable",
+      "score": 35.7,
+      "published_at": "2026-11-22T15:14:44+00:00",
+      "source_count": 1,
+      "reasons": [
+        "high-impact event"
+      ],
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNZk9Cek1qUUR2b1hOU1JxOHRoQ09ZQ2YzX2RMTkRlNTZmWGluXzZCb2l5SzAyQV8yUm5icGxHVmhCajBESWdpc1pDdTBiVHhObEdfaFpZSzNTWUdVRnJHRTNFZ2MzYVlHNnNRSDFWX1BnZ2RJbUczY2MwZG1IN05xZVRXelJoNkVGWlRkTTAtbDNGcFFDcTdORkZNZXFFcW50NjdCaGlPcw?oc=5",
+          "published_at": "2026-11-22T15:14:44+00:00",
+          "paywalled": false
+        }
+      ],
+      "lead_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNZk9Cek1qUUR2b1hOU1JxOHRoQ09ZQ2YzX2RMTkRlNTZmWGluXzZCb2l5SzAyQV8yUm5icGxHVmhCajBESWdpc1pDdTBiVHhObEdfaFpZSzNTWUdVRnJHRTNFZ2MzYVlHNnNRSDFWX1BnZ2RJbUczY2MwZG1IN05xZVRXelJoNkVGWlRkTTAtbDNGcFFDcTdORkZNZXFFcW50NjdCaGlPcw?oc=5"
+    },
+    {
+      "id": "22bc1882af42",
+      "title": "Post-wildfire flooding can cost more than fire damage, study finds",
+      "category": "World",
+      "importance": "Notable",
+      "score": 35.5,
+      "published_at": "2026-11-23T10:44:51+00:00",
+      "source_count": 2,
+      "reasons": [
+        "high-impact event",
+        "2 sources"
+      ],
+      "sources": [
+        {
+          "name": "Fire & Safety Journal Americas",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFA4V3EzWjRiQ0hRdDEyM1pzY3VCdTg0X0QtNHJpSmJ0YWtXUmIyLVVqRkdGN1RBX0lITG8wVkFybTltaTYwTGlWd0RPTTQ3bFM5YmduNjI4YnFOTzVPLVJ5ekpaMEotdjVIc19Eamgzenhxc0RrNHRSSg?oc=5",
+          "published_at": "2026-11-23T10:44:51+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "Wildfire Today",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNSGJhLXl2bTE0REFaNWhfc3ZMbHVkU0lQZVdMSjVJb1J0ZVgySTUtaXZBdWUwTnpsVFZPWnVBZTVpaGVTdVpxVXVFTy1VdkYtMDVLVGxWS1JRUmZlVlZtalZtSmttdTl0SGl5OVhWbjJpNTFFSTVGaDg5OG1PNnQ4SEQxUlpVc1NXSUlJWXY0eVJvX1pSVlphUXVHLXBabmRGYjNBdGZKQW9GSTFETFJnQnhuUUI?oc=5",
+          "published_at": "2026-11-23T02:55:14+00:00",
+          "paywalled": false
+        }
+      ],
+      "lead_url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFA4V3EzWjRiQ0hRdDEyM1pzY3VCdTg0X0QtNHJpSmJ0YWtXUmIyLVVqRkdGN1RBX0lITG8wVkFybTltaTYwTGlWd0RPTTQ3bFM5YmduNjI4YnFOTzVPLVJ5ekpaMEotdjVIc19Eamgzenhxc0RrNHRSSg?oc=5"
+    },
+    {
+      "id": "58170a8f00dc",
+      "title": "European firms warn EU leaders against budget cuts on competitiveness",
+      "category": "Europe/UK",
+      "importance": "Notable",
+      "score": 35.5,
+      "published_at": "2026-11-23T04:06:00+00:00",
+      "source_count": 1,
+      "reasons": [
+        "high-impact event"
+      ],
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOY1EwT0dKMUxVYzhvRE8zdzlTYlF2aGtuclU1ZjlfUXdmUzU4bVl0NTJkcG9mOGFpZmxSZ3JIYmxEbC1kWVAxY19iaVUzOWpfdUNNeFgyV292SE1YRUctdjJPd0pyMjJqa3o1b3dqalhPN3FhMEoxUlhUdzBfUVZNUlViYWZOaVRZLVV1QWZzMzlNMXJuM0hTT0NFdjRReGJwTzJGR29TT1BTS0FKRXBiSFpGY0JBVlpqbUE?oc=5",
+          "published_at": "2026-11-23T04:06:00+00:00",
+          "paywalled": false
+        }
+      ],
+      "lead_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOY1EwT0dKMUxVYzhvRE8zdzlTYlF2aGtuclU1ZjlfUXdmUzU4bVl0NTJkcG9mOGFpZmxSZ3JIYmxEbC1kWVAxY19iaVUzOWpfdUNNeFgyV292SE1YRUctdjJPd0pyMjJqa3o1b3dqalhPN3FhMEoxUlhUdzBfUVZNUlViYWZOaVRZLVV1QWZzMzlNMXJuM0hTT0NFdjRReGJwTzJGR29TT1BTS0FKRXBiSFpGY0JBVlpqbUE?oc=5"
+    },
+    {
+      "id": "358859d31a0d",
+      "title": "Apple Risks Losing the AI Agent War With an Outdated Playbook",
+      "category": "Tech",
+      "importance": "Notable",
+      "score": 35.3,
+      "published_at": "2026-11-23T10:01:09+00:00",
+      "source_count": 1,
+      "reasons": [
+        "high-impact event"
+      ],
+      "sources": [
+        {
+          "name": "Bloomberg.com",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQY0NlQ2FFZWVRd2FPTTJ4cjhKU3Vjb1hXdlZ2R1pfN2IxdlBxMDRZWmRMS1FyNXFSamtldk5GcVVPdnlxOFc2cmRsbS12TnFSdGhKeUx5NEF5dFJHUE12WDR2NGpZckk5cm5Ha3YzeXp0RkR2Y1BuTnhDWDczS18tTTlTWFplX0oyQy1SRDhFRS1jbzY3RnlIMWU1eHB1UktHWmpMT003MXV4d2l0bEg0QVp2bWJrWFUzQ3Rsdk5UbG9zNS1rLWlZV0pjejZQUQ?oc=5",
+          "published_at": "2026-11-23T10:01:09+00:00",
+          "paywalled": true
+        }
+      ],
+      "lead_url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQY0NlQ2FFZWVRd2FPTTJ4cjhKU3Vjb1hXdlZ2R1pfN2IxdlBxMDRZWmRMS1FyNXFSamtldk5GcVVPdnlxOFc2cmRsbS12TnFSdGhKeUx5NEF5dFJHUE12WDR2NGpZckk5cm5Ha3YzeXp0RkR2Y1BuTnhDWDczS18tTTlTWFplX0oyQy1SRDhFRS1jbzY3RnlIMWU1eHB1UktHWmpMT003MXV4d2l0bEg0QVp2bWJrWFUzQ3Rsdk5UbG9zNS1rLWlZV0pjejZQUQ?oc=5"
+    },
+    {
+      "id": "33015adf8374",
+      "title": "Hormuz tankers set ablaze - Al Jazeera",
+      "category": "Middle East",
+      "importance": "Notable",
+      "score": 35.2,
+      "published_at": "2026-11-23T10:31:51+00:00",
+      "source_count": 1,
+      "reasons": [
+        "high-impact event"
+      ],
+      "sources": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQMHN1QW1HWlR3VVZnTDBQMlRFZXg3OGYzQW9BblhqQm1scjhMUi1pTVRmcmlfQk5MSGVCLWFOcXoxNGhTUC1zYW82dERuTlc3Y3VKZE1qTkxFbFdVTjJXR2NwNG5BVWI4SVlJOGd1UjFuZTR4eF9mRGdla2pKc21tcm0taHB0YzdidXpIVHE4QnRKSk9zWjQxSWI3c2hwWXhjbU1zVm1mY2E3aDN5Vmc1MTNzMFNxSVllcDJqaWRNdGtlTWxfRWZlQ0VhbHJqLThucjJYblZB?oc=5",
+          "published_at": "2026-11-23T10:31:51+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNQTJXU0xJSXJxV3B5ZGFxb0Q1a1FBbGtGckJhUlhRQjQyeTV1WHdRamRTY2V5TmZYbTR5LTBMRjNvSjlVUFZQdjl3T01MY1dxaExxUHZOSjFOcW1MdzBlNGpZcDA2QnBSWDVpS3FWeUhMWUdteUdNMmdZMHNIOExlUHdTaWV5U1dHdmRSLWRRTTAxQWZndGktaDhZOXlNR3FnS0dIck5KNTlQRk1QMkpscmtpbjVWSnI4aC1jUGJDdnpZc1lEb1pYS3QzUkE3YmRyLXZRQXpB?oc=5",
+          "published_at": "2026-11-23T09:46:19+00:00",
+          "paywalled": false
+        }
+      ],
+      "lead_url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQMHN1QW1HWlR3VVZnTDBQMlRFZXg3OGYzQW9BblhqQm1scjhMUi1pTVRmcmlfQk5MSGVCLWFOcXoxNGhTUC1zYW82dERuTlc3Y3VKZE1qTkxFbFdVTjJXR2NwNG5BVWI4SVlJOGd1UjFuZTR4eF9mRGdla2pKc21tcm0taHB0YzdidXpIVHE4QnRKSk9zWjQxSWI3c2hwWXhjbU1zVm1mY2E3aDN5Vmc1MTNzMFNxSVllcDJqaWRNdGtlTWxfRWZlQ0VhbHJqLThucjJYblZB?oc=5"
+    },
+    {
+      "id": "1dfb907b5110",
+      "title": "Indonesia central bank says MSCI talks with Prabowo support rupiah",
+      "category": "World",
+      "importance": "Notable",
+      "score": 35.2,
+      "published_at": "2026-11-23T08:10:42+00:00",
+      "source_count": 2,
+      "reasons": [
+        "significant public impact",
+        "2 sources"
+      ],
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQWTV0cGJnSHE5ZkxDSVhUQ1Z1S09hLUp4SmxHZ1YzWEZ5TjBxTHlNQ1NSc3JtcDZ5MzlUUzNZYTFIdmZCVXFheGM1cTg4djBhb01kLVlOUVZUekFSLWgxMjIzSnMzZ1pORjZDUDhXZFM4U2JmLXJkblY3QWdIN1QxallRdEduVlo5QUQzcExQVlNPaDNzVmhGTlJLNVRaYU9nUHN5aUJWUlFoRUhqSHotSEpTdGZZVER4OXFn?oc=5",
+          "published_at": "2026-11-23T03:36:00+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "The Lufkin Daily News",
+          "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOUWFsOXNNTTdwRXg3ajgxSk94eVQtRlZZMXJYd3NWdUdWTjNCOEwtMllQd3ZXR1YxTl8yNkctS0o5RVRnMEFiaUlMVVpLOXBNSEJEWGJQenNXVEYzaG04ZmVOeGJrN3RTd2ZaSU5McFVvNTg5N1p3UDJXOHhJN1lnUFdySkxFUl96aGtqTVNfRk1jRUhkRkgzdHpsdXBYLTI0RVh1bnR5NWF2Zmx5Q2E3d1V1d2JBU3JlN3ZzaTRVZG1PblFqQ19LaGRkU0laVUIyV0ZSOUR0QngtbWVqSXY4T1Zta0lxaDJXZElyNDQ0VkJRVG1LZkJQcE5R?oc=5",
+          "published_at": "2026-11-23T08:10:42+00:00",
+          "paywalled": false
+        }
+      ],
+      "lead_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQWTV0cGJnSHE5ZkxDSVhUQ1Z1S09hLUp4SmxHZ1YzWEZ5TjBxTHlNQ1NSc3JtcDZ5MzlUUzNZYTFIdmZCVXFheGM1cTg4djBhb01kLVlOUVZUekFSLWgxMjIzSnMzZ1pORjZDUDhXZFM4U2JmLXJkblY3QWdIN1QxallRdEduVlo5QUQzcExQVlNPaDNzVmhGTlJLNVRaYU9nUHN5aUJWUlFoRUhqSHotSEpTdGZZVER4OXFn?oc=5"
+    },
+    {
+      "id": "3eac4221b327",
+      "title": "Saudi Arabia intercepts drone, missile as Houthis report attack on Sanaa",
+      "category": "Middle East",
+      "importance": "Notable",
+      "score": 35.0,
+      "published_at": "2026-11-22T13:17:16+00:00",
+      "source_count": 1,
+      "reasons": [
+        "high-impact event"
+      ],
+      "sources": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOcndOTTl3bzZwNVZ4ZWstZXBZdnVkbUhPanQ5VlhUVEJaSTRVdnc1YzVUdEhEd2M0QXdFVGxzRFVLeThYd0FfaGEzMnQzbWIzemFuZzRqSGJCQ2M5LVBzV0dadVlwUXpXR1hfMTllR2NsWmNuRnk4RmRSVVlraElfS3NjNFlJa0FWTGNRRS1XQTFxM3JoTVRYZEluNkVJUXZSdk1TSmFfWUfSAa4BQVVfeXFMTmplOTVHYzVsandyeWw3aS1QcWJiLWt5NXNnWHhYazFVV1pMZmdWdFdIdWxYSTRXNDJkWlYxdXJpOW1scUJTVUxJOWlqbDVST3VZcmR4U2RSdXVpc3NZczU2RVlZc0Jrd3BFcVQ3djE0TldnZk9KWi1ybXlwM0Ryb2NvWmJCRFZOX19xd0JDT2xPQy1VSDZBQ283ZUF1Z3JRaTRJd0VoYzF1SXVDdktn?oc=5",
+          "published_at": "2026-11-22T13:17:16+00:00",
+          "paywalled": false
+        }
+      ],
+      "lead_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOcndOTTl3bzZwNVZ4ZWstZXBZdnVkbUhPanQ5VlhUVEJaSTRVdnc1YzVUdEhEd2M0QXdFVGxzRFVLeThYd0FfaGEzMnQzbWIzemFuZzRqSGJCQ2M5LVBzV0dadVlwUXpXR1hfMTllR2NsWmNuRnk4RmRSVVlraElfS3NjNFlJa0FWTGNRRS1XQTFxM3JoTVRYZEluNkVJUXZSdk1TSmFfWUfSAa4BQVVfeXFMTmplOTVHYzVsandyeWw3aS1QcWJiLWt5NXNnWHhYazFVV1pMZmdWdFdIdWxYSTRXNDJkWlYxdXJpOW1scUJTVUxJOWlqbDVST3VZcmR4U2RSdXVpc3NZczU2RVlZc0Jrd3BFcVQ3djE0TldnZk9KWi1ybXlwM0Ryb2NvWmJCRFZOX19xd0JDT2xPQy1VSDZBQ283ZUF1Z3JRaTRJd0VoYzF1SXVDdktn?oc=5"
+    },
+    {
+      "id": "ff54da655d29",
+      "title": "Breaking: New wildfire reported in Los Angeles County on Nov. 22",
+      "category": "World",
+      "importance": "Notable",
+      "score": 34.9,
+      "published_at": "2026-11-23T07:07:06+00:00",
+      "source_count": 3,
+      "reasons": [
+        "high-impact event",
+        "3 sources"
+      ],
+      "sources": [
+        {
+          "name": "Sacramento Bee",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9xR3NYNWQwbHdwdFZYV0tPQVZCSS1XalJNM2t6M2xQVXJxclpzYkFNNWp0ZnF5Z3FMdldFbkRMLURRclhiblVNeHVMc1U2ZndMX3RsZVZkTW1WZFExcTFaU0tJUTNoYlRvdFJQeWVINU5KRG5G?oc=5",
+          "published_at": "2026-11-23T07:07:06+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "Fresno Bee",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFB3d29rTjUxcFhsQXdyUUx2ckJkRjZCNFlwc25qZ2pmUXRPbVB4aER3MmtkbGJzNjZEdkxZTTZPNlRyVjRxMl9DVE05ZU5KcHhETFNjd1BBa3gyNXZvX3pOYjRzQmJ2cl9EajN6d2M2WGFCekxaanZFNA?oc=5",
+          "published_at": "2026-11-23T07:07:06+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "Merced Sun-Star",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBBd2xSSWFPemxvYmJGZ1BLU2VTdWlLZnJCd1pmR29sRU9ZZlVtTVMzN25UOWN5REkzSHc4UVJIWTNfY3owUk1jdklzYmNTLW5lWGt6cjdRdFNWUFRzYlZqbjhoOXBramt4ejFGZW1rUWkyLVhKdEE2ZUJ0NnhEdw?oc=5",
+          "published_at": "2026-11-23T07:07:06+00:00",
+          "paywalled": false
+        }
+      ],
+      "lead_url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9xR3NYNWQwbHdwdFZYV0tPQVZCSS1XalJNM2t6M2xQVXJxclpzYkFNNWp0ZnF5Z3FMdldFbkRMLURRclhiblVNeHVMc1U2ZndMX3RsZVZkTW1WZFExcTFaU0tJUTNoYlRvdFJQeWVINU5KRG5G?oc=5"
+    },
+    {
+      "id": "be749070dad3",
+      "title": "3.3-magnitude earthquake in Los Angeles",
+      "category": "World",
+      "importance": "Notable",
+      "score": 34.9,
+      "published_at": "2026-11-23T06:28:02+00:00",
+      "source_count": 2,
+      "reasons": [
+        "high-impact event",
+        "2 sources"
+      ],
+      "sources": [
+        {
+          "name": "FOX 11 Los Angeles",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE11MXc2S2VMZFBPRWI5c2UzUFhoeGlmRFlTSkZ6UG9QSUlIZmpnaVdIeUFMSUFsNWh6c2dXZWxNQUlDQUdacVkxdUJ3WTg1eGY4Q1BFSE5USTFDcS1u0gFiQVVfeXFMT0thYVRteTBGemc0aWRqQW5LUEtUUFF3dFpTdXdZNzhuNWxwNTJCUTZNeTViVktwUEUzTGVyVm80R2ExU0dvT19wQ2FlYm9YOW1vLU9wMHFyNVNEdHJ6NFhUaXc?oc=5",
+          "published_at": "2026-11-23T06:28:02+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "KTLA",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxObm5wMGpBTEtWSHdwdXY5QWVIaW5xMkVZQ2JqSTN0TjBkZmhQZW40eWZrakRhSV92bUJWbnZ1UGZLVXBzQ2FEcTh3RDdYRVpSWEhremtDdlQ5R0xrbmFIMEt5ak9mUU53dEQxc1RKU3ZqLU9HQnJ6TVFXYjFIcU5lajJsVlYtUWx4NG5tVTBGRlpwVmtUNFpPMEYwQzFsMXZl0gGmAUFVX3lxTE9KdDhtMW9kaElMZERneUJQSDdLWUNvWkN5bEtXeHdwcGxBUGxVYkRCQlFxM3ZhZlNuclltQW9TbS1LSzdsUkpHb2pWT1duOXdTMnBQTHRiLWJxZE9udWxiSVp1SUFTb2hraE5aUlpQbFRrdHN1WHJvVnJaWEY4dmFFWFNxNlBlS0dGaXJKaEEwNm84V2o1OE5wcXFhV1l3NGc4MGQzQlE?oc=5",
+          "published_at": "2026-11-23T05:36:01+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "FOX 11 Los Angeles",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQdW02TzB5Ym1Kb21ZTTVxLTdEaEFsdzNwZWJBR3NneVNydDh4dE1yR3NxY2x6dURIZS1oSnlvVlZZcU4tUl8ya2dRVDhRcEFHZVhwXzlDUDBCR1pXLW9PaE1EUldwMkZuYmtyUU4za1hGRDc0Z2h0dkJIU1NJeHJwS2Z4UkY3azA3dFdLLQ?oc=5",
+          "published_at": "2026-11-23T05:33:30+00:00",
+          "paywalled": false
+        }
+      ],
+      "lead_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE11MXc2S2VMZFBPRWI5c2UzUFhoeGlmRFlTSkZ6UG9QSUlIZmpnaVdIeUFMSUFsNWh6c2dXZWxNQUlDQUdacVkxdUJ3WTg1eGY4Q1BFSE5USTFDcS1u0gFiQVVfeXFMT0thYVRteTBGemc0aWRqQW5LUEtUUFF3dFpTdXdZNzhuNWxwNTJCUTZNeTViVktwUEUzTGVyVm80R2ExU0dvT19wQ2FlYm9YOW1vLU9wMHFyNVNEdHJ6NFhUaXc?oc=5"
+    },
+    {
+      "id": "1962295ee8ad",
+      "title": "Goldman Traders See Entry Point in US Stocks But Warn of Risks",
+      "category": "World",
+      "importance": "Notable",
+      "score": 34.9,
+      "published_at": "2026-11-22T19:05:02+00:00",
+      "source_count": 1,
+      "reasons": [
+        "high-impact event"
+      ],
+      "sources": [
+        {
+          "name": "Bloomberg.com",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZldNMFlSOWFqTTdmTDNmdFowSHd4aF9EN0g3eWtBYTk3MEp1RXZTN09TQThzaFlNTTVQc0pENUlhNng2VXpFd1M5cnpZdF80WmJvblRrVUQ1bW9QbkkwWm1TMzZZbk9YWXdMT0VKNUZ6YWRHNks4QWRjS3RHYm9sZk81OVpvMmsxWGFJQU4tWnUta0JMclRKOElZMS14cEpEQ2FMYkJkTlF6OTIta09RR3BFQQ?oc=5",
+          "published_at": "2026-11-22T19:05:02+00:00",
+          "paywalled": true
+        }
+      ],
+      "lead_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZldNMFlSOWFqTTdmTDNmdFowSHd4aF9EN0g3eWtBYTk3MEp1RXZTN09TQThzaFlNTTVQc0pENUlhNng2VXpFd1M5cnpZdF80WmJvblRrVUQ1bW9QbkkwWm1TMzZZbk9YWXdMT0VKNUZ6YWRHNks4QWRjS3RHYm9sZk81OVpvMmsxWGFJQU4tWnUta0JMclRKOElZMS14cEpEQ2FMYkJkTlF6OTIta09RR3BFQQ?oc=5"
+    },
+    {
+      "id": "4673e6d352a0",
+      "title": "Ukraine blows up Russian warship in Libya’s Benghazi naval base",
+      "category": "Europe/UK",
+      "importance": "Notable",
+      "score": 34.8,
+      "published_at": "2026-11-23T07:45:47+00:00",
+      "source_count": 1,
+      "reasons": [
+        "high-impact event"
+      ],
+      "sources": [
+        {
+          "name": "Financial Times",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNTHJicXdLY1Nhd3J3ZURuYkhJRGdwWjdJMkxwZTAtazd3aHZ0WU1wVkVVZzN1Yl9SRlVqTURrUC1EUk1HSDMyWDhlRTc3cVEtSV9RdkVzV3o5OGFnOFV2QXZ5b0RhZC00R0poZFhGdmhpYUhXSFdna1A4UXUzWEFQMWF4NTY?oc=5",
+          "published_at": "2026-11-23T07:45:47+00:00",
+          "paywalled": true
+        }
+      ],
+      "lead_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNTHJicXdLY1Nhd3J3ZURuYkhJRGdwWjdJMkxwZTAtazd3aHZ0WU1wVkVVZzN1Yl9SRlVqTURrUC1EUk1HSDMyWDhlRTc3cVEtSV9RdkVzV3o5OGFnOFV2QXZ5b0RhZC00R0poZFhGdmhpYUhXSFdna1A4UXUzWEFQMWF4NTY?oc=5"
+    },
+    {
+      "id": "0f5bc538f9cb",
+      "title": "China is winning the car war",
+      "category": "World",
+      "importance": "Notable",
+      "score": 34.7,
+      "published_at": "2026-11-23T05:03:09+00:00",
+      "source_count": 1,
+      "reasons": [
+        "high-impact event"
+      ],
+      "sources": [
+        {
+          "name": "Financial Times",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxONmhkdVFabFpwZnFQSGtrOTRYcGxaTkhJUjBpbzFDOTQwQlRoVGZxd2UtSFRJdWJLcWV0b1lTSk15SVFhVTFJRk1zQldDdmQ2YkVPdk5Ja3NJcld4bjYwaFZ3ckdUeW9qcjlYR285TVlpRHNiT3lKMmdNSlRSMjlXd1gtY1o?oc=5",
+          "published_at": "2026-11-23T05:03:09+00:00",
+          "paywalled": true
+        }
+      ],
+      "lead_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxONmhkdVFabFpwZnFQSGtrOTRYcGxaTkhJUjBpbzFDOTQwQlRoVGZxd2UtSFRJdWJLcWV0b1lTSk15SVFhVTFJRk1zQldDdmQ2YkVPdk5Ja3NJcld4bjYwaFZ3ckdUeW9qcjlYR285TVlpRHNiT3lKMmdNSlRSMjlXd1gtY1o?oc=5"
+    },
+    {
+      "id": "fd8771d91dd4",
+      "title": "World's Biggest Warrants Market Is Fueled by Unusual Trading in Hong Kong",
+      "category": "World",
+      "importance": "Notable",
+      "score": 34.6,
+      "published_at": "2026-11-22T23:00:00+00:00",
+      "source_count": 1,
+      "reasons": [
+        "high-impact event"
+      ],
+      "sources": [
+        {
+          "name": "Bloomberg.com",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOQ1p2dUszUElPTVkyUnFMa2ZsMl9tNkFmZUZLUEdHY282UGw2MzZYdF9RVW85cnlBZXEzbUxoaGtWa3REbTB0UFQ4dGFyRUI0eU43S1VweVlYeE14TkZGMEtHRTI3X1FUSmsyRzdyZGpPZ0hqdUNVSk5qMXB1Q3JxajB2NEZ1UkFwZjVkelE1YnU2dzRnV0k2OElZWmc4UQ?oc=5",
+          "published_at": "2026-11-22T23:00:00+00:00",
+          "paywalled": true
+        }
+      ],
+      "lead_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOQ1p2dUszUElPTVkyUnFMa2ZsMl9tNkFmZUZLUEdHY282UGw2MzZYdF9RVW85cnlBZXEzbUxoaGtWa3REbTB0UFQ4dGFyRUI0eU43S1VweVlYeE14TkZGMEtHRTI3X1FUSmsyRzdyZGpPZ0hqdUNVSk5qMXB1Q3JxajB2NEZ1UkFwZjVkelE1YnU2dzRnV0k2OElZWmc4UQ?oc=5"
+    },
+    {
+      "id": "d115f2c74463",
+      "title": "Inflation, economic growth and the mood of US consumers in focus this week",
+      "category": "World",
+      "importance": "Notable",
+      "score": 34.6,
+      "published_at": "2026-11-22T16:08:00+00:00",
+      "source_count": 1,
+      "reasons": [
+        "significant public impact"
+      ],
+      "sources": [
+        {
+          "name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPelR4N1Vnc2xfWmprOTJBTXZybTBicVNnaFcyUTFuNFhvYlpHUDR4WEx4Q0hhU1NscGtfakx6RE5qNi1MQkFSQ3ozalYwTDl4OV9NM2V1OEFhWTM5QzZrRWJIdDVvYVFfd00yZVVoa0g1M0N1Ylo4OWI4OHpzb2JWOWRZUEczWWNvOExxVndWUUJsd2ptZm9tYlhfZUZfZw?oc=5",
+          "published_at": "2026-11-22T16:08:00+00:00",
+          "paywalled": false
+        }
+      ],
+      "lead_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPelR4N1Vnc2xfWmprOTJBTXZybTBicVNnaFcyUTFuNFhvYlpHUDR4WEx4Q0hhU1NscGtfakx6RE5qNi1MQkFSQ3ozalYwTDl4OV9NM2V1OEFhWTM5QzZrRWJIdDVvYVFfd00yZVVoa0g1M0N1Ylo4OWI4OHpzb2JWOWRZUEczWWNvOExxVndWUUJsd2ptZm9tYlhfZUZfZw?oc=5"
+    },
+    {
+      "id": "442d174f8a9a",
+      "title": "Grant Thornton warns AI audits could trigger ‘race to the bottom’",
+      "category": "Tech",
+      "importance": "Notable",
+      "score": 34.4,
+      "published_at": "2026-11-23T05:00:13+00:00",
+      "source_count": 1,
+      "reasons": [
+        "high-impact event"
+      ],
+      "sources": [
+        {
+          "name": "Financial Times",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOWkw5UF96ZFlVMWdVaFNBY1JDWTdzdlBQa1I0c1ZJTUY0Um1hNzgySUdlbUdpMU1EcVlNQldrUjhjU29rb2pjUG1Kc2N6T2p1UE9RT24yQUg2TV9Ndk5QX0psQW00TVZzV0UzYklGNDlaNjZyOWJZYkVNUk45XzVRUEYtTHE?oc=5",
+          "published_at": "2026-11-23T05:00:13+00:00",
+          "paywalled": true
+        }
+      ],
+      "lead_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOWkw5UF96ZFlVMWdVaFNBY1JDWTdzdlBQa1I0c1ZJTUY0Um1hNzgySUdlbUdpMU1EcVlNQldrUjhjU29rb2pjUG1Kc2N6T2p1UE9RT24yQUg2TV9Ndk5QX0psQW00TVZzV0UzYklGNDlaNjZyOWJZYkVNUk45XzVRUEYtTHE?oc=5"
+    },
+    {
+      "id": "d6e847a235c0",
+      "title": "Artificial superintelligence ‘arriving’, warns top Meta executive",
+      "category": "Tech",
+      "importance": "Notable",
+      "score": 34.3,
+      "published_at": "2026-11-23T09:13:28+00:00",
+      "source_count": 1,
+      "reasons": [
+        "high-impact event"
+      ],
+      "sources": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOZnRiM0ZpVzFaTkZaZ2lUc2dtYjY2U2tqZnFGQlNCb2JRWjlCdkxNQWU2WENIYnVsb0hXVjNtNS1XQ1JzdmtBaU1qRDE2aDd5T2c1Z1lTY2VsaXE4NHJUNjhwdGl6Tm1DRlNVa01DOFlPa294amRMSl9uQlFTczN1dVlhSmRBVWJETV84VkxFcG5EUDVxSC14bUpoREdBZGM50gGmAUFVX3lxTFBESHNmbkFBdXN2ZGc2b3FMT3JiVlNQWHNjRnZYUV83dV9NRVJaWXd0ZWVjbU82Qy1yYVNoXzVtT2VzbzQtQ05WTHI5X1MtZTEyRjdKN0M1UUtJdk5UNTYtdHhQbHlBdE9fZ29ZMnV4VzZhNnF1QTd2QnViYlhyOVNBQVM4V2FFV0otaGN5WkhqSTZMNWtvUUxBZG9ZUmEzQUYxWkpwbkE?oc=5",
+          "published_at": "2026-11-23T09:13:28+00:00",
+          "paywalled": false
+        }
+      ],
+      "lead_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOZnRiM0ZpVzFaTkZaZ2lUc2dtYjY2U2tqZnFGQlNCb2JRWjlCdkxNQWU2WENIYnVsb0hXVjNtNS1XQ1JzdmtBaU1qRDE2aDd5T2c1Z1lTY2VsaXE4NHJUNjhwdGl6Tm1DRlNVa01DOFlPa294amRMSl9uQlFTczN1dVlhSmRBVWJETV84VkxFcG5EUDVxSC14bUpoREdBZGM50gGmAUFVX3lxTFBESHNmbkFBdXN2ZGc2b3FMT3JiVlNQWHNjRnZYUV83dV9NRVJaWXd0ZWVjbU82Qy1yYVNoXzVtT2VzbzQtQ05WTHI5X1MtZTEyRjdKN0M1UUtJdk5UNTYtdHhQbHlBdE9fZ29ZMnV4VzZhNnF1QTd2QnViYlhyOVNBQVM4V2FFV0otaGN5WkhqSTZMNWtvUUxBZG9ZUmEzQUYxWkpwbkE?oc=5"
+    },
+    {
+      "id": "98a1265683bb",
+      "title": "US Congress helped end the Vietnam War. Can it stop the Iran war?",
+      "category": "Middle East",
+      "importance": "Notable",
+      "score": 34.2,
+      "published_at": "2026-11-22T12:33:10+00:00",
+      "source_count": 1,
+      "reasons": [
+        "high-impact event"
+      ],
+      "sources": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPWlFoY0VMNzM3VDhzWHRoaGJ6WXQ3eExKQzBlX3lnb21JZjVvR0xocEVpalhTYWlpT0czWUdkM3JxamY4SFdMZ3EwVmxra1RIbTQzMFZvYlVDSTJxeWh6UlRBT2lJTjkzSDViRlpCSEprQTR3eWhERFJBQlh2eTRqUWZsS2NvYWZ2MUNvYTRVTFZ2Mk10bHpMNTFIVGp1em4wTER30gGoAUFVX3lxTE8xM1o2cUNoMXNWU09ObUNNWjdUT1kyMDN0ZFM4REhoRnowVHBCOFIxcHRqTlF3MllwVnF0ZVpubWpUQnV5VWFrSGZCdUpnbW1jbGVNWXprQ1FkM1JIeG42NHFXM2drbWxWSGFtWkxwWXY5M3BhWXpobU50T09zbmxUVkc5YWhkaEJPTnJaUks5UzBXSldYblV5d042TjdLRkpPOGVCZjRocQ?oc=5",
+          "published_at": "2026-11-22T12:33:10+00:00",
+          "paywalled": false
+        }
+      ],
+      "lead_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPWlFoY0VMNzM3VDhzWHRoaGJ6WXQ3eExKQzBlX3lnb21JZjVvR0xocEVpalhTYWlpT0czWUdkM3JxamY4SFdMZ3EwVmxra1RIbTQzMFZvYlVDSTJxeWh6UlRBT2lJTjkzSDViRlpCSEprQTR3eWhERFJBQlh2eTRqUWZsS2NvYWZ2MUNvYTRVTFZ2Mk10bHpMNTFIVGp1em4wTER30gGoAUFVX3lxTE8xM1o2cUNoMXNWU09ObUNNWjdUT1kyMDN0ZFM4REhoRnowVHBCOFIxcHRqTlF3MllwVnF0ZVpubWpUQnV5VWFrSGZCdUpnbW1jbGVNWXprQ1FkM1JIeG42NHFXM2drbWxWSGFtWkxwWXY5M3BhWXpobU50T09zbmxUVkc5YWhkaEJPTnJaUks5UzBXSldYblV5d042TjdLRkpPOGVCZjRocQ?oc=5"
+    },
+    {
+      "id": "9908f2d9be2a",
+      "title": "The EU is taking the lead on reducing Arctic Black Carbon. Will Canada, Iceland and Norway Join In?",
+      "category": "Norway",
+      "importance": "Notable",
+      "score": 31.9,
+      "published_at": "2026-11-23T03:31:16+00:00",
+      "source_count": 1,
+      "reasons": [
+        "significant public impact",
+        "Norway/local relevance"
+      ],
+      "sources": [
+        {
+          "name": "Cyprus Shipping News",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNMmlraEdFbjktR1Z0Ry03MGNsclZJWnJ0V3lXNmFyTFROMnBkcU5QeUtHdmVYV0tJdmRueGdCeFpESFZCQ0RhNHlDVHBDLTVZOHp4RElPMTZURmhCRDYta1g1LWtVc2ZEeUFMeWI3WWN6bWRhTWNNSkRDOGlSajh2UjRSeE1ac3VoSGZwTWlTcjVHQjk0UnB1bW9CaTFXUTVnYUwyS3JvUDB1ckhNTVR0cEx4WWpwdGUxcDVDMVZDZzRYcHFOeU92Vy1RcWlHUl8yUUItRmZ3?oc=5",
+          "published_at": "2026-11-23T03:31:16+00:00",
+          "paywalled": false
+        }
+      ],
+      "lead_url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNMmlraEdFbjktR1Z0Ry03MGNsclZJWnJ0V3lXNmFyTFROMnBkcU5QeUtHdmVYV0tJdmRueGdCeFpESFZCQ0RhNHlDVHBDLTVZOHp4RElPMTZURmhCRDYta1g1LWtVc2ZEeUFMeWI3WWN6bWRhTWNNSkRDOGlSajh2UjRSeE1ac3VoSGZwTWlTcjVHQjk0UnB1bW9CaTFXUTVnYUwyS3JvUDB1ckhNTVR0cEx4WWpwdGUxcDVDMVZDZzRYcHFOeU92Vy1RcWlHUl8yUUItRmZ3?oc=5"
+    },
+    {
+      "id": "8ffba44f8396",
+      "title": "Equinor and Skagerak Energi hit by cyberattacks exploiting Microsoft Azure flaw",
+      "category": "Norway",
+      "importance": "Notable",
+      "score": 30.4,
+      "published_at": "2026-11-23T07:37:55+00:00",
+      "source_count": 1,
+      "reasons": [
+        "high-impact event"
+      ],
+      "sources": [
+        {
+          "name": "EnergyWatch",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBxUXRNUkRZVzE0TGQzS19YTlhVY3NlOXlLZkJ0WVo3Z054YlVueVZmUXo2TWFWTy0xd19vOFN2MlBWM0RCVmItTVVZeVgtbVFMVUk3U2Q2a2oxb2Q1R2RPOUFBLWVUYmUya19WT0RSSXZsdw?oc=5",
+          "published_at": "2026-11-23T07:37:55+00:00",
+          "paywalled": false
+        }
+      ],
+      "lead_url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBxUXRNUkRZVzE0TGQzS19YTlhVY3NlOXlLZkJ0WVo3Z054YlVueVZmUXo2TWFWTy0xd19vOFN2MlBWM0RCVmItTVVZeVgtbVFMVUk3U2Q2a2oxb2Q1R2RPOUFBLWVUYmUya19WT0RSSXZsdw?oc=5"
+    }
+  ],
   "watchlist": []
 }
