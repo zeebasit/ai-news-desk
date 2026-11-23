@@ -221,6 +221,14 @@ def toks(x):
 def overlap(a,b):
     A,B=toks(a),toks(b)
     return len(A&B)/max(1,min(len(A),len(B))) if A and B else 0
+
+def entityish(text):
+    words=re.findall(r"\b[A-ZÆØÅ][A-Za-zÆØÅæøå0-9.-]{1,}\b",text or "")
+    stop={"The","This","That","After","Before","How","Why","What","Can","Could","Will","New","Latest","Major"}
+    return {w.lower().rstrip(".") for w in words if w not in stop}
+
+def number_tokens(text):
+    return set(re.findall(r"\b\d+(?:\.\d+)?\b",text or ""))
 def embeddings(texts):
     try:
         from sentence_transformers import SentenceTransformer
@@ -243,19 +251,26 @@ class DSU:
 def cluster(a,E,mode):
     S=cosine_similarity(E); d=DSU(len(a)); th=SET["semantic_dedupe_threshold"] if mode=="sentence-transformers" else .60
     distinctive={"blockade","referendum","ransomware","earthquake","tsunami","wildfire","landslide","eruption","ceasefire","coup","impeachment","merger","acquisition","takeover","bomb","evacuation","outbreak","epidemic","blackout"}
+    item_cat=[category(x["title"]+" "+x["summary"]) for x in a]
     for i in range(len(a)):
         for j in range(i+1,len(a)):
             ov=overlap(a[i]["title"],a[j]["title"])
             ti,tj=toks(a[i]["title"]),toks(a[j]["title"])
             shared_distinctive=(ti & tj & distinctive)
             close_time=abs((dateparser.parse(a[i]["published_at"])-dateparser.parse(a[j]["published_at"])).total_seconds())<=18*3600
+            category_agree=(item_cat[i]==item_cat[j]) or "World" in (item_cat[i],item_cat[j])
             same_event_hint=bool(shared_distinctive) and close_time and ov>=.35 and S[i,j]>=th-.16
-            strong_title_event=close_time and ov>=.45 and S[i,j]>=th-.12
-            if S[i,j]>=th or (S[i,j]>=th-.08 and ov>=.48) or same_event_hint or strong_title_event:
+            strong_title_event=close_time and ov>=.50
+            shared_entities=entityish(a[i]["title"]) & entityish(a[j]["title"])
+            shared_numbers=number_tokens(a[i]["title"]) & number_tokens(a[j]["title"])
+            cross_language_hint=close_time and len(shared_entities)>=2 and bool(shared_numbers)
+            semantic_event=category_agree and S[i,j]>=th
+            if semantic_event or strong_title_event or same_event_hint or cross_language_hint or (category_agree and S[i,j]>=th-.08 and ov>=.48):
                 d.u(i,j)
     g=defaultdict(list)
     for i in range(len(a)):g[d.f(i)].append(i)
     return list(g.values())
+
 def category(text):
     t=" "+text.lower()+" "
     for c in ["Stavanger/Rogaland","Norway","Tech","Middle East","US/Canada","Europe/UK"]:
@@ -327,7 +342,14 @@ def build(a):
             sc+=5; reasons.append("corroborated transaction impact")
         if not trusted_names and len(coverage_names)>=3:
             sc+=2
-        cat=category(alltext)
+        lead_cat=category(lead["title"]+" "+lead["summary"])
+        cat_votes=defaultdict(int)
+        for x in group: cat_votes[category(x["title"]+" "+x["summary"])]+=1
+        max_votes=max(cat_votes.values())
+        tied=[k for k,v in cat_votes.items() if v==max_votes]
+        cat=lead_cat if lead_cat in tied else tied[0]
+        if cat=="World" and lead_cat!="World" and cat_votes["World"]<=cat_votes[lead_cat]+1:
+            cat=lead_cat
         if cat in ["Norway","Stavanger/Rogaland"]:
             if sc<36:continue
             if not trusted_names and sc<44:continue
