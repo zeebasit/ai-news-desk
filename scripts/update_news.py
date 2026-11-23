@@ -39,6 +39,7 @@ IMPACT=[
 (16,["central bank","interest rate","inflation","recession","oil prices","stock market","financial crisis","bank failure","market selloff","market rout","stocks plunge","futures rally"]),
 (22,["bomb threat","bomb threats","mass evacuation","school closures","terrorism alert"]),
 (15,["protest","protests","riot","riots","unrest","clashes","mass demonstration"]),
+(16,["summit collapses","summit collapse","talks collapse","talks fail","negotiations collapse","negotiations fail","ends without agreement","agreement reached","peace agreement"]),
 (13,["shipping","strait","pipeline","refinery","electricity","blackout","railway","airport"]),
 (11,["science","spacecraft","mission","climate","breakthrough"])
 ]
@@ -228,7 +229,11 @@ def entityish(text):
     return {w.lower().rstrip(".") for w in words if w not in stop}
 
 def number_tokens(text):
-    return set(re.findall(r"\b\d+(?:\.\d+)?\b",text or ""))
+    raw=re.findall(r"\b\d+(?:\.\d+)?\b",text or "")
+    out=set(raw)
+    for x in raw:
+        if "." in x: out.add(x.split(".")[0])
+    return out
 def embeddings(texts):
     try:
         from sentence_transformers import SentenceTransformer
@@ -249,27 +254,34 @@ class DSU:
         a,b=self.f(a),self.f(b)
         if a!=b:self.p[b]=a
 def cluster(a,E,mode):
-    S=cosine_similarity(E); d=DSU(len(a)); th=SET["semantic_dedupe_threshold"] if mode=="sentence-transformers" else .60
+    S=cosine_similarity(E); th=SET["semantic_dedupe_threshold"] if mode=="sentence-transformers" else .60
     distinctive={"blockade","referendum","ransomware","earthquake","tsunami","wildfire","landslide","eruption","ceasefire","coup","impeachment","merger","acquisition","takeover","bomb","evacuation","outbreak","epidemic","blackout"}
     item_cat=[category(x["title"]+" "+x["summary"]) for x in a]
-    for i in range(len(a)):
-        for j in range(i+1,len(a)):
-            ov=overlap(a[i]["title"],a[j]["title"])
-            ti,tj=toks(a[i]["title"]),toks(a[j]["title"])
-            shared_distinctive=(ti & tj & distinctive)
-            close_time=abs((dateparser.parse(a[i]["published_at"])-dateparser.parse(a[j]["published_at"])).total_seconds())<=18*3600
-            category_agree=(item_cat[i]==item_cat[j]) or "World" in (item_cat[i],item_cat[j])
-            same_event_hint=bool(shared_distinctive) and close_time and ov>=.35 and S[i,j]>=th-.16
+    order=sorted(range(len(a)),key=lambda i:(a[i]["weight"],a[i]["published_at"]),reverse=True)
+    groups=[]; reps=[]
+    for i in order:
+        best=None; best_sim=-1.0
+        for gi,r in enumerate(reps):
+            ov=overlap(a[i]["title"],a[r]["title"])
+            ti,tr=toks(a[i]["title"]),toks(a[r]["title"])
+            shared_distinctive=(ti & tr & distinctive)
+            close_time=abs((dateparser.parse(a[i]["published_at"])-dateparser.parse(a[r]["published_at"])).total_seconds())<=18*3600
+            same_category=item_cat[i]==item_cat[r]
+            same_event_hint=bool(shared_distinctive) and close_time and ov>=.35 and S[i,r]>=th-.16
             strong_title_event=close_time and ov>=.50
-            shared_entities=entityish(a[i]["title"]) & entityish(a[j]["title"])
-            shared_numbers=number_tokens(a[i]["title"]) & number_tokens(a[j]["title"])
+            shared_entities=entityish(a[i]["title"]) & entityish(a[r]["title"])
+            shared_numbers=number_tokens(a[i]["title"]) & number_tokens(a[r]["title"])
             cross_language_hint=close_time and len(shared_entities)>=2 and bool(shared_numbers)
-            semantic_event=category_agree and S[i,j]>=th
-            if semantic_event or strong_title_event or same_event_hint or cross_language_hint or (category_agree and S[i,j]>=th-.08 and ov>=.48):
-                d.u(i,j)
-    g=defaultdict(list)
-    for i in range(len(a)):g[d.f(i)].append(i)
-    return list(g.values())
+            semantic_event=same_category and S[i,r]>=th
+            lexical_semantic=same_category and S[i,r]>=th-.08 and ov>=.48
+            matched=semantic_event or lexical_semantic or same_event_hint or strong_title_event or cross_language_hint
+            if matched and S[i,r]>best_sim:
+                best,best_sim=gi,S[i,r]
+        if best is None:
+            reps.append(i); groups.append([i])
+        else:
+            groups[best].append(i)
+    return groups
 
 def category(text):
     t=" "+text.lower()+" "
@@ -288,7 +300,7 @@ def score(text,weight,semantic):
         if nums:
             s+=min(22,5+math.log10(max(nums))*7); reasons.append("reported fatalities")
             if max(nums)>=10 and any(k in t for k in ["attack","attacks","strike","strikes","bombing","shelling","drone","missile"]):
-                s+=10; reasons.append("mass-casualty attack")
+                s+=12; reasons.append("mass-casualty attack")
     if any(k in t for k in ["nationwide","state of emergency","hundreds of thousands","millions","hundreds of schools"]):
         s+=float(EW.get("quantified_scale",10)); reasons.append("large scale")
     if "naval blockade" in t or "shipping blockade" in t:
