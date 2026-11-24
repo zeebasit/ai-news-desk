@@ -14,14 +14,14 @@ Updated: 2026-11-24.
 - Latest observed successful watchdog run 45382946368 (push, 11:18 UTC); latest primary successful run 45382287113 (push, 11:14 UTC). Scheduled recovery was not demonstrated.
 - Existing regression checks cover monetary magnitudes, trusted-source consensus, coverage momentum and rewritten headline continuity.
 
-## Coverage hardening branch
+## Coverage hardening — merged into main
 - Branch coverage-hardening-20261124: six broad RSS discovery sweeps; generic paired significance signals for strategic asset intervention, defence production agreements, frontier AI safety, first spaceflight milestones, record health/institutional trends, accidents with quantified human impact.
 - Explicit analysis-only clusters are excluded; factual reports preferred as lead and analysis excluded from factual consensus. No named-entity exceptions.
 - Empty collection or empty ranking of a previously populated feed fails rather than publishing a fresh empty feed.
 - Added offline unit tests and read-only regression CI. These are synthetic checks, not proof of live RSS recall or semantic clustering quality.
-- Validate CI before merging; inspect new feed, false positives, source quality, deduplication and actual missed headlines after deployment.
+- Offline regression CI passed: https://github.com/zeebasit/ai-news-desk/actions/runs/45408176599. PR #1 merged as 8fe50fcb247a27ae303c3ee3d60b1626dec85cdd; production refresh 45408282783 triggered. Live RSS recall, false positives, source quality and deduplication still require validation.
 
 ## Outstanding reliability work
-- Independent external zero-cost schedule/heartbeat, not another GitHub cron. External service needs its own account/authorization or existing always-on runner. No credentials belong in repository or browser-facing code.
+- User constraints: no ChatGPT task automation, always-on computer/VM, external cron provider, new account, tokens, or notifications. Keep zero recurring cost and refresh as frequently as available free infrastructure permits. A genuinely independent authenticated scheduler cannot be configured within these constraints using the available GitHub-only tools. Keep the existing best-effort GitHub schedules; do not describe the watchdog as independent.
 - A trigger must use least-privilege GitHub authorization, avoid duplicate refreshes, check generated_at freshness, and report unsuccessful refreshes. GitHub cron remains a fallback.
 - Review partial collection failures, source-weight attribution, source coverage and watchlist discovery separately; avoid claiming verified production reliability until observed scheduled runs.
