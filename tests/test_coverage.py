@@ -64,5 +64,14 @@ class CoverageTests(unittest.TestCase):
             with self.assertRaisesRegex(RuntimeError,"preserving previous feed"):
                 n.main()
 
+    def test_consequential_retrospective_is_background_not_breaking(self):
+        item=dict(title="A year on, what to know about Port Azure’s deadly fire that killed 168",source="AP News",weight=12,summary="",image="",url="https://example.org/recap",paywalled=False,published_at=n.NOW.isoformat())
+        with patch.object(n,"embeddings",return_value=(np.ones((1,2)),np.ones((1,2)),"sentence-transformers")),patch.object(n,"cluster",return_value=[[0]]):
+            stories=n.build([item])["stories"]
+        self.assertEqual(len(stories),1)
+        self.assertTrue(stories[0]["background_only"])
+        self.assertEqual(stories[0]["importance"],"Notable")
+        self.assertLessEqual(stories[0]["score"],40)
+
 if __name__=="__main__":
     unittest.main()
