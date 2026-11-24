@@ -1,74 +1,65 @@
 {
-  "generated_at": "2026-11-24T10:23:56.919132+00:00",
+  "generated_at": "2026-11-24T11:08:37.897861+00:00",
   "model_mode": "sentence-transformers",
   "stories": [
     {
-      "id": "091998ae83a7",
-      "title": "CrowdStrike snaps up Zscaler in $44 billion deal as cyber threats mount",
-      "summary": "CrowdStrike snaps up Zscaler in $44 billion deal as cyber threats mount Reuters",
-      "image": "",
+      "id": "8e5843993d36",
+      "title": "Watch Why Nvidia Reinstated Jensen Huang as CEO",
+      "summary": "Watch Why Nvidia Reinstated Jensen Huang as CEO Bloomberg.com",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e297/live/7eb9d0a0-e776-11f1-a8a9-d7c9e8a923b4.jpg",
       "category": "Tech",
       "importance": "Major",
-      "score": 68.5,
-      "published_at": "2026-11-24T06:19:59+00:00",
-      "source_count": 3,
+      "score": 54.3,
+      "published_at": "2026-11-24T10:35:00+00:00",
+      "source_count": 5,
       "reasons": [
-        "high-impact event",
-        "major transaction",
-        "3 trusted sources",
-        "corroborated transaction impact"
+        "large company market move",
+        "leadership/governance change",
+        "4 trusted sources",
+        "corroborated market impact"
       ],
       "sources": [
-        {
-          "name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOcUdmOUFLaEppLU9uMl80V2x1RTg4YWg3VUc5cWZsVzNfUWJBN2pFY3BhTndKanI0U2gzZHMzZVdpeWlkVkdBMkxGZkEtNFYyYmhteTQ5MHM0NnhkN2lfVk1WcDRxZDluQzVXNll2OWhodnVmaG9qNm15SWdweEM4YmxSWXVKd21mNW9uWW82MHUyWlJLTEE?oc=5",
-          "published_at": "2026-11-23T18:31:10+00:00",
-          "paywalled": false
-        },
-        {
-          "name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQekFodWNTV2dTaVZ6VDJScmUybjJ3QXRURFJjeVNtQVBmOEJkYUZTNnFlMnNKalRWdFdXOWVwTjg1TFU3THJIOU9hSXNtSXZCczVaT0xDYnNKUEJUYXFXbVpTUkhTNWRFb3VIa1RDcHdOMzB4ZVV4cTZ6STBQZ2RWLWNPT2U1RGRHYjIxNEZ1QlFXQXZJMDhJeHdDLUFUc2tSUjJoejc1dGhzTWtkUS1Hb3V1V1hKbXplV3J2Zw?oc=5",
-          "published_at": "2026-11-23T16:33:00+00:00",
-          "paywalled": false
-        },
         {
           "name": "Financial Times",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNaXRqYWdBS2lmTXl0cGRSN0lSa1JjMTBKNzlLSktkUXBQaW9idWU1b3hSc0kwUExtMV9SODYzSHU4REJWakg5cDc3X01jU2ctMUdRV0w1eHRBUXh0NjlQUDB6MXVwb09lVUZZdUNBNEhpLWw2V2hPSXF1QlAteEpFSEQ2bFU?oc=5",
-          "published_at": "2026-11-23T11:02:10+00:00",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBEaDl2MC1raFltVDdwTzh3Ukl0ZkE5dkhJa3B3dXNyVWFTcmxCZk9CVVlNX2d0M1ZwWTY2NnF5YzBvdlZCSTB2RERORkhmRHQtSm1nQnk4RlRnbEwyT2paXzF2QlR6RVNiM2QzaVpmbDI?oc=5",
+          "published_at": "2026-11-23T14:04:54+00:00",
           "paywalled": true
-        }
-      ],
-      "lead_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOcUdmOUFLaEppLU9uMl80V2x1RTg4YWg3VUc5cWZsVzNfUWJBN2pFY3BhTndKanI0U2gzZHMzZVdpeWlkVkdBMkxGZkEtNFYyYmhteTQ5MHM0NnhkN2lfVk1WcDRxZDluQzVXNll2OWhodnVmaG9qNm15SWdweEM4YmxSWXVKd21mNW9uWW82MHUyWlJLTEE?oc=5",
-      "first_reported_at": "2026-11-23T15:15:00+00:00",
-      "update_count": 2,
-      "updated": true
-    },
-    {
-      "id": "42f79c5347cc",
-      "title": "Danish police investigate school bomb threats",
-      "summary": "Danish police investigate school bomb threats Reuters",
-      "image": "",
-      "category": "Europe/UK",
-      "importance": "Major",
-      "score": 48.9,
-      "published_at": "2026-11-24T04:15:21+00:00",
-      "source_count": 1,
-      "reasons": [
-        "high-impact event",
-        "large scale"
-      ],
-      "sources": [
+        },
         {
-          "name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPRVFRSVYxM3MwY19mSEhtQ251ZlktNnU5ZDQwSWs3UDdlNHM4WUM4QkJSTjlVaDFqcVF2WlV2c09jOUtPQkJjOGlHb0szaThSSlVJS1FNb0NLUlk4X0stR1Z0SmNseGVqWlMtSmRuUUN2dkFKYkRyeVVmUGl1SWRTQXdWQWlyai0yUnhNUTBfUGU?oc=5",
-          "published_at": "2026-11-23T10:13:09+00:00",
+          "name": "Bloomberg.com",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQVWFLWHlKWDlGbmpsNUN5UERrM0Q2aWw4UEczVnBSdlJjVW1Rc1hlM180YVhFb1c5Ni1vY25HMlpPWTFURTFvOHNVS1owckpJelRBT2NYWkUwcXI3eHpRMlhmWGRVbTYzcHBmM2w4dzRZazI1cnd6d0ZNM2VweF85SzlWZ2hMU2Y2QVZmTEk1a1pqVHBLR2dJcG1UcHY?oc=5",
+          "published_at": "2026-11-23T00:00:00+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "Axios",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1nY19pcE53aXlWQUtPQmRyb2hhWE5CZUxlTHhlbEYxQ2EtQUEtLUFuYjZscTY4bURqLThBT1g5QlB0aThJaTlMZW41aFVHS1pySk9xLUhnQmk5TWdTNzhUQk5Zc3lhSzZINkJpNzdIb0ZPSmc?oc=5",
+          "published_at": "2026-11-23T14:11:33+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOQXRFOVpPQ1FxaTlVS0hfVGV5Tl91TzVUWldXTVgwVmI3eHRoYXhYbmllLUFobHhSWThOaXRTSVRDRkJ2ZTdsRDRHSElWRmU0SUFiQTU3VXk5V0pyREk0VFMwWUdFdTdUd2tCcEdNQmprZjFoM0VuUDNJNi1DYjdoc3FjV1RCZGxqRjdqX1MxQmtsZ9IBlwFBVV95cUxNdXhERGZiakd4c2ZlSnQ4UGZwNVVjUjNqTUhtNEozUXRUTVdkR09DeExjRllITG0tU0s3V05uYmwtQ1RPc2d4S2cxWTBjVW5rWk1RQVh3bEZLNms0NjFiZ2F2ZnBWYmJtTzFhYXhGVWVfcWFLN1liaEVfSEh2aGNvZGpyMzhEQ2VfT1Bzejl3TXpVdUNDSkU0?oc=5",
+          "published_at": "2026-11-23T18:25:46+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "BBC Technology",
+          "url": "https://www.bbc.co.uk/news/articles/cq62pn6j42jko?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-11-23T21:23:42+00:00",
           "paywalled": false
         }
       ],
-      "lead_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPRVFRSVYxM3MwY19mSEhtQ251ZlktNnU5ZDQwSWs3UDdlNHM4WUM4QkJSTjlVaDFqcVF2WlV2c09jOUtPQkJjOGlHb0szaThSSlVJS1FNb0NLUlk4X0stR1Z0SmNseGVqWlMtSmRuUUN2dkFKYkRyeVVmUGl1SWRTQXdWQWlyai0yUnhNUTBfUGU?oc=5",
-      "first_reported_at": "2026-11-24T04:15:21+00:00",
+      "lead_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQVWFLWHlKWDlGbmpsNUN5UERrM0Q2aWw4UEczVnBSdlJjVW1Rc1hlM180YVhFb1c5Ni1vY25HMlpPWTFURTFvOHNVS1owckpJelRBT2NYWkUwcXI3eHpRMlhmWGRVbTYzcHBmM2w4dzRZazI1cnd6d0ZNM2VweF85SzlWZ2hMU2Y2QVZmTEk1a1pqVHBLR2dJcG1UcHY?oc=5",
+      "first_reported_at": "2026-11-24T10:35:00+00:00",
       "update_count": 0,
-      "updated": false
+      "updated": false,
+      "coverage_history": [
+        {
+          "at": "2026-11-24T11:08:37.897861+00:00",
+          "source_count": 5
+        }
+      ]
     },
     {
       "id": "047b09793e64",
@@ -95,7 +86,17 @@
       "lead_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQSFFWMUxVWjlmNmh5LVZpMEl2RGx6UzJFQkt3akxIVTNGYnl4dWNBVC11SnFaTXVSSWFDTkMwN21pd0VUWWxOa1NRd0pGSEdLSDdDQW1uY3hYVkNhMWhUa0hBQVQ5eE40SlMwNWMyQ19hZFBUVmZRUDBzclJrM0l6VkpNUFg5WEItYzlaSVNaa1lKWlVpcHJKRnFQMWFTR1BoXzJVLWlvQXY?oc=5",
       "first_reported_at": "2026-11-24T06:01:13+00:00",
       "update_count": 0,
-      "updated": false
+      "updated": false,
+      "coverage_history": [
+        {
+          "at": "2026-11-24T10:23:56.919132+00:00",
+          "source_count": 1
+        },
+        {
+          "at": "2026-11-24T11:08:37.897861+00:00",
+          "source_count": 1
+        }
+      ]
     },
     {
       "id": "8cd4dc280a1b",
@@ -135,41 +136,17 @@
       "lead_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOdkIzeGhIdlZKM1NTNnVWN3V1eHhyZEtkcU9zd2F6ZFpuc0ZyWUVScHRmT0I0VTU1NlFBYXFTc1U1NmVPSnVwWVZUS3dQd3ByRTg5MERGaUhheE15UFdpQWYtZ0ZYdTNMR3Nmb3BIN09KTHZYZm9yWVdqME03UGdqMHl6T0QtbjJCOGtSX0JQem16ZGotM2dsdXVaN3piZWNqZDhTb01hU2lKcmxFc1lqSlFPMkg?oc=5",
       "first_reported_at": "2026-11-23T23:50:00+00:00",
       "update_count": 1,
-      "updated": true
-    },
-    {
-      "id": "7d3a49c99081",
-      "title": "Nvidia value climbs by almost $1tn and tech stocks rally after Jensen Huang returns",
-      "summary": "The jump in Nvidia shares has also lifted stock markets, with the tech-heavy Nasdaq up 6.5%.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e297/live/7eb9d0a0-e776-11f1-a8a9-d7c9e8a923b4.jpg",
-      "category": "Tech",
-      "importance": "Notable",
-      "score": 43.8,
-      "published_at": "2026-11-23T21:23:42+00:00",
-      "source_count": 2,
-      "reasons": [
-        "significant public impact",
-        "large market move",
-        "2 trusted sources"
-      ],
-      "sources": [
+      "updated": false,
+      "coverage_history": [
         {
-          "name": "Financial Times",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOY0VMY3VZRlBrNGs0bElpa1NJSEZtREllUzFhaGFRTWVNYXN0eVA3Y0hFMjdrRUtyekZnQ3RDRTVLdTNTNWlSRHdXMkRVeXFEX2tvczJxUVRVYjhRX0hSR0FabmJwMlBrZEhNeHBCS3kxcHladGtoQlFkOW5TMG81Y3RGODk?oc=5",
-          "published_at": "2026-11-23T14:04:54+00:00",
-          "paywalled": true
+          "at": "2026-11-24T10:23:56.919132+00:00",
+          "source_count": 3
         },
         {
-          "name": "BBC Technology",
-          "url": "https://www.bbc.co.uk/news/articles/cq62pn6j42jko?at_medium=RSS&at_campaign=rss",
-          "published_at": "2026-11-23T21:23:42+00:00",
-          "paywalled": false
+          "at": "2026-11-24T11:08:37.897861+00:00",
+          "source_count": 3
         }
-      ],
-      "lead_url": "https://www.bbc.co.uk/news/articles/cq62pn6j42jko?at_medium=RSS&at_campaign=rss",
-      "first_reported_at": "2026-11-23T15:39:41+00:00",
-      "update_count": 7,
-      "updated": true
+      ]
     },
     {
       "id": "4139daaa3de7",
@@ -196,7 +173,17 @@
       "lead_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQYThPbFl1UV9YbEFDM1pINWluTE5PbXJ4bXlCY0NQZ1czMmdCMHZmOUkyS1pxZlk5c2drOVZXWnRSenY4MVVGOWlmMWRZemZWanBYZFFYbmF1SGdoQlJ5UnRVOExVbkdLaVRVVnpJQkFzZV9QWGNZRjU5b3BFNmRiMm84WGxhTVNuZ1ZpQUJuTU9wRnM5ZS1NcUFZc2xWaTVQWVBwMWRzb2JkSUFwNUhOcENzVUVRbFJqenFvdTl5STFqMDg?oc=5",
       "first_reported_at": "2026-11-23T07:00:00+00:00",
       "update_count": 0,
-      "updated": false
+      "updated": false,
+      "coverage_history": [
+        {
+          "at": "2026-11-24T10:23:56.919132+00:00",
+          "source_count": 1
+        },
+        {
+          "at": "2026-11-24T11:08:37.897861+00:00",
+          "source_count": 1
+        }
+      ]
     },
     {
       "id": "b1998df95fce",
@@ -229,35 +216,17 @@
       "lead_url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNOEZlNTVYYjRLZDhNc0FuOF9MV3B3MWFPcG9ya3lBZlFZS2gzc1E4ajR1aDFGamY5dlMwazdLVmxLaVFEWndoUjd3cWpkRDlkb3RSNTNqN0pCbFJQdXRPNEZTUFV1cnE4aExPZmgwTVB5UTIyZmNZbWRERC1XM25lVHVjU3gxdDNIN29UNy04cm1ramhmRlJscmZJVkhHRUlDMm9KRlIwTzRESnExVGJFajI0WEhPTVRtbVdpbXFLZnR6TXZJWTkxYWxYYw?oc=5",
       "first_reported_at": "2026-11-24T07:52:44+00:00",
       "update_count": 0,
-      "updated": false
-    },
-    {
-      "id": "a727b0e5c565",
-      "title": "ConocoPhillips exits Norway with $4.4 billion asset sale to Vaar Energi",
-      "summary": "ConocoPhillips exits Norway with $4.4 billion asset sale to Vaar Energi Reuters",
-      "image": "",
-      "category": "Stavanger/Rogaland",
-      "importance": "Notable",
-      "score": 40.8,
-      "published_at": "2026-11-23T19:30:00+00:00",
-      "source_count": 1,
-      "reasons": [
-        "significant public impact",
-        "significant transaction",
-        "Norway/local relevance"
-      ],
-      "sources": [
+      "updated": false,
+      "coverage_history": [
         {
-          "name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQcHNqQjMxSlNrcGN4LVZIUC0yZUpTTUQyOU1SNnJaTkFpQkFnRHFYODF0R0hhbnBkbTFfbEpMYU9WSlNMYWFLTjhPOGszWHFoX0JnZnZBY2pVNDVFbEFJYlBKSHhiZ1EyaU80anh6d3RuVFVPZUFJOUVmZndKbWVxRGlaLW1DUG1QN2ZkS2ZOTEhZbUJSRk5zTUtRNXVrNkZjaWNjSGVvRy1iRlZRMkFfa0gzcTl4Zw?oc=5",
-          "published_at": "2026-11-23T06:38:00+00:00",
-          "paywalled": false
+          "at": "2026-11-24T10:23:56.919132+00:00",
+          "source_count": 2
+        },
+        {
+          "at": "2026-11-24T11:08:37.897861+00:00",
+          "source_count": 2
         }
-      ],
-      "lead_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQcHNqQjMxSlNrcGN4LVZIUC0yZUpTTUQyOU1SNnJaTkFpQkFnRHFYODF0R0hhbnBkbTFfbEpMYU9WSlNMYWFLTjhPOGszWHFoX0JnZnZBY2pVNDVFbEFJYlBKSHhiZ1EyaU80anh6d3RuVFVPZUFJOUVmZndKbWVxRGlaLW1DUG1QN2ZkS2ZOTEhZbUJSRk5zTUtRNXVrNkZjaWNjSGVvRy1iRlZRMkFfa0gzcTl4Zw?oc=5",
-      "first_reported_at": "2026-11-23T19:30:00+00:00",
-      "update_count": 0,
-      "updated": false
+      ]
     },
     {
       "id": "1b59f527c0c9",
@@ -290,40 +259,17 @@
       "lead_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQNTNPcnhTTndtR0F1d3haak1ZZWNEajF5eTQtb3JlV25oNlJFZ2ZCbk9xQ0x4M2ZwVnFRRWVCY1lNd1lScWp2cjJxR2pvQzRqX1gzbEREZVlTS2E4b0MyQXFRd3NPSzRRVU1ka2NtZXFGbWRxa185SkwtOWRmcFRCaXBVeS1HdWhIWFE?oc=5",
       "first_reported_at": "2026-11-24T01:50:09+00:00",
       "update_count": 0,
-      "updated": false
-    },
-    {
-      "id": "0da980e61d87",
-      "title": "Appeals court renews Trump bid for federal jurisdiction in hush-money case",
-      "summary": "The ruling could clear the way for Trump to argue prosecutors relied on evidence protected by presidential immunity.",
-      "image": "",
-      "category": "US/Canada",
-      "importance": "Notable",
-      "score": 40.1,
-      "published_at": "2026-11-24T01:17:48+00:00",
-      "source_count": 2,
-      "reasons": [
-        "high-impact event",
-        "2 trusted sources"
-      ],
-      "sources": [
+      "updated": false,
+      "coverage_history": [
         {
-          "name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNcVdZZl9tRjc0WjhZbUY0NVZvdTRDQ01ZOTl4RmZUQndRR0ZHRmpkRVJ6ZjFCQzJYVml0cnoycjNWaW1rWWVENmJHbS1xaHZLc1U5azdFRmU4UmdDa0thQmlkeW9GZlhmeElDTS1NWXFHUmJPOFFBZU1rbml2dWxQQnRMVTMwSmxDTDFPQU92WTJBaUNEclZB?oc=5",
-          "published_at": "2026-11-24T01:00:00+00:00",
-          "paywalled": false
+          "at": "2026-11-24T10:23:56.919132+00:00",
+          "source_count": 2
         },
         {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/24/appeals-court-renews-trump-bid-for-federal-jurisdiction-in-hush-money-case?traffic_source=rss",
-          "published_at": "2026-11-24T01:17:48+00:00",
-          "paywalled": false
+          "at": "2026-11-24T11:08:37.897861+00:00",
+          "source_count": 2
         }
-      ],
-      "lead_url": "https://www.aljazeera.com/news/2026/11/24/appeals-court-renews-trump-bid-for-federal-jurisdiction-in-hush-money-case?traffic_source=rss",
-      "first_reported_at": "2026-11-24T01:17:48+00:00",
-      "update_count": 0,
-      "updated": false
+      ]
     },
     {
       "id": "0c75376881d0",
@@ -350,40 +296,53 @@
       "lead_url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPUHlnc2RFZFltcC0zMXMtb1VfaEx6VFhrWVJfS2tpaHF2Vm4yMnRDYjVLX3FSTWNHaDJKdUYwZ3o5SUJfNVpvRERfcEladlQ2RkRCaFhxaEVZRGdwUTAwOVdSRDZDWjlSYXVucW83NS1aMVN0QzFKbFhVXzhBSEZtUmxKdHpYT3gwNXdCUWZxbU9MbVh3bEU3Ul9ZcXQxZTI5QjlyTHgtTUNDdWVINk9qbUwwNmo1eUt3aFFsaWlTNEJfQnZYNkVOMlVDRkY?oc=5",
       "first_reported_at": "2026-11-21T12:59:16+00:00",
       "update_count": 0,
-      "updated": false
+      "updated": false,
+      "coverage_history": [
+        {
+          "at": "2026-11-24T10:23:56.919132+00:00",
+          "source_count": 1
+        },
+        {
+          "at": "2026-11-24T11:08:37.897861+00:00",
+          "source_count": 1
+        }
+      ]
     },
     {
-      "id": "eacec030f0cb",
-      "title": "Suspected Ukrainian sea drones hit Russian warship at Benghazi naval base, Libyan officials say",
-      "summary": "Suspected Ukrainian sea drones hit Russian warship at Benghazi naval base, Libyan officials say AP News",
+      "id": "42f79c5347cc",
+      "title": "Danish police investigate school bomb threats",
+      "summary": "Danish police investigate school bomb threats Reuters",
       "image": "",
       "category": "Europe/UK",
       "importance": "Notable",
-      "score": 39.0,
-      "published_at": "2026-11-23T15:41:23+00:00",
-      "source_count": 2,
+      "score": 38.4,
+      "published_at": "2026-11-24T04:15:21+00:00",
+      "source_count": 1,
       "reasons": [
-        "high-impact event",
-        "2 trusted sources"
+        "high-impact event"
       ],
       "sources": [
         {
-          "name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNOEJrLWtkTl9ZY1lGN3JPaUNjSjVabFVGcnlERXpyYVdRNGN4OEtMOTVkczkzVDlhaWQxQ2xQdXdEak5oNkhBOWdrd01QV2hBYXlOZXV4Zl8weXpVNmxuMUlMM21sT2YwQjFqcjZIRlk4UmxQMUxPcTFRVjRQNFpqdzl4NjNodnZicldRLWRlV2R1allIR1BpM2x3?oc=5",
-          "published_at": "2026-11-22T19:40:00+00:00",
-          "paywalled": false
-        },
-        {
-          "name": "BBC",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5RYTdJa3FLUUotRjRtWmFYcWsyT29UT0FCVDUycVp4MmlCMUkzUVR3cVJUVTJWNDlQX0JLbk01S29SZEtLM0lXZHdzX2U4N2JBVDdhVjN2TEdlczg?oc=5",
-          "published_at": "2026-11-23T15:41:23+00:00",
+          "name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPRVFRSVYxM3MwY19mSEhtQ251ZlktNnU5ZDQwSWs3UDdlNHM4WUM4QkJSTjlVaDFqcVF2WlV2c09jOUtPQkJjOGlHb0szaThSSlVJS1FNb0NLUlk4X0stR1Z0SmNseGVqWlMtSmRuUUN2dkFKYkRyeVVmUGl1SWRTQXdWQWlyai0yUnhNUTBfUGU?oc=5",
+          "published_at": "2026-11-23T10:13:09+00:00",
           "paywalled": false
         }
       ],
-      "lead_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNOEJrLWtkTl9ZY1lGN3JPaUNjSjVabFVGcnlERXpyYVdRNGN4OEtMOTVkczkzVDlhaWQxQ2xQdXdEak5oNkhBOWdrd01QV2hBYXlOZXV4Zl8weXpVNmxuMUlMM21sT2YwQjFqcjZIRlk4UmxQMUxPcTFRVjRQNFpqdzl4NjNodnZicldRLWRlV2R1allIR1BpM2x3?oc=5",
-      "first_reported_at": "2026-11-23T15:41:23+00:00",
+      "lead_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPRVFRSVYxM3MwY19mSEhtQ251ZlktNnU5ZDQwSWs3UDdlNHM4WUM4QkJSTjlVaDFqcVF2WlV2c09jOUtPQkJjOGlHb0szaThSSlVJS1FNb0NLUlk4X0stR1Z0SmNseGVqWlMtSmRuUUN2dkFKYkRyeVVmUGl1SWRTQXdWQWlyai0yUnhNUTBfUGU?oc=5",
+      "first_reported_at": "2026-11-24T04:15:21+00:00",
       "update_count": 0,
-      "updated": false
+      "updated": false,
+      "coverage_history": [
+        {
+          "at": "2026-11-24T10:23:56.919132+00:00",
+          "source_count": 1
+        },
+        {
+          "at": "2026-11-24T11:08:37.897861+00:00",
+          "source_count": 1
+        }
+      ]
     }
   ],
   "watchlist": []
