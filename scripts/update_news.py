@@ -364,12 +364,11 @@ def general_event_signals(text):
     t=text.lower()
     rules=[
         (24,"strategic asset intervention",
-         r"\b(?:government|state|authorities|nationali[sz]\w*|sanctions?|ministry|court|regulator)\b",
          r"\b(?:seiz\w*|expropriat\w*|nationali[sz]\w*|take(?:s|n)? control|took control|forced sale|asset freeze|assum\w* control)\b",
          r"\b(?:oilfields?|oil fields?|gas fields?|refiner\w*|pipeline\w*|ports?|mines?|energy assets?|power plants?|strategic assets?)\b"),
         (23,"defence industrial agreement",
          r"\b(?:defen[cs]e|military|weapons?|drones?|missiles?|fighter jets?|warships?|munitions?)\b",
-         r"\b(?:joint production|co-production|coproduction|manufactur\w*|produc\w*|procurement|industrial partnership)\b",
+         r"\b(?:joint production|co-production|coproduction|manufactur\w*|produc\w*|build\w*|procurement|industrial partnership)\b",
          r"\b(?:agreement|deal|accord|contract|partner\w*|sign\w*|joint|co-production|coproduction)\b"),
         (24,"frontier AI safety development",
          r"\b(?:artificial intelligence|ai|language models?|frontier models?)\b",
