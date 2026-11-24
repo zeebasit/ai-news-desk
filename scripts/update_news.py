@@ -417,10 +417,12 @@ def retrospective_age(title):
 
 def retrospective_only(title):
     t=title.lower()
-    marker=retrospective_age(t) is not None or bool(re.search(r"\b(?:on the anniversary|looking back|in retrospect|remembering|anniversary of)\b",t))
-    if not marker:return False
-    # A current decision, finding, legal action, or measurable change remains newsworthy.
-    new_action=re.search(r"\b(?:finds?|concludes?|releases?|publishes?|issues?|orders?|rules?|charges?|arrests?|convicts?|sentences?|announces?|approves?|rejects?|resigns?|opens?|launches?|agrees?|signs?|begins?|starts?|resumes?|reveals?|confirms?|unveils?|votes?|reopens?|completes?|submits?|increases?|falls?|rises?)\b",t)
+    age=retrospective_age(t)
+    marker=bool((age and age>=30) or re.search(r"\b(?:on the anniversary|looking back|in retrospect|remembering|anniversary of)\b",t))
+    recap=bool(re.search(r"\b(?:what to know|what we know|what happened|how it happened|looking back|in retrospect|remembering|in pictures|timeline|explained|commemorates?|marks? the anniversary)\b",t))
+    if not (marker and recap):return False
+    # Do not discard contemporary decisions just because the title references an old event.
+    new_action=re.search(r"\b(?:finds?|concludes?|releases?|publishes?|issues?|orders?|rules?|charges?|arrests?|convicts?|sentences?|announces?|approves?|rejects?|resigns?|opens?|launches?|agrees?|signs?|begins?|starts?|resumes?|reveals?|confirms?|unveils?|votes?|reopens?|completes?|submits?|increases?|falls?|rises?|dies?|warns?|demands?|proposes?)\b",t)
     return not new_action
 
 def is_analysis_headline(title):
@@ -770,6 +772,9 @@ def context_search_url(query,plan):
     days,start,end=plan
     if start and end:
         q=f"{query} after:{start.date().isoformat()} before:{(end+timedelta(days=1)).date().isoformat()}"
+        return "https://news.google.com/rss/search?q="+quote_plus(q)+"&hl=en-US&gl=US&ceid=US:en"
+    if days>30:
+        q=f"{query} after:{(NOW-timedelta(days=days)).date().isoformat()}"
         return "https://news.google.com/rss/search?q="+quote_plus(q)+"&hl=en-US&gl=US&ceid=US:en"
     return grss(query,days=days)
 
