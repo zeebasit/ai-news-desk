@@ -83,7 +83,34 @@ def source_family(name):
     return n
 CAS=re.compile(r"\b(?:(\d{1,5})\s+(?:people\s+)?(?:killed|dead|deaths|died)|(?:kills|killed)\s+(\d{1,5})|death toll (?:rises? to|at|of)?\s*(\d{1,5}))\b",re.I)
 AFFECTED_RE=re.compile(r"\b(\d{1,3}(?:[,.]\d{3})+|\d+(?:\.\d+)?\s*(?:million|billion|thousand|m|k))\s+(?:people\s+)?(?:evacuated|displaced|affected|without power|without electricity|without water|hospitalized|injured|missing)\b",re.I)
-MONEY_RE=re.compile(r"\$\s*(\d+(?:\.\d+)?)\s*(billion|million)\b",re.I)
+MONEY_RE=re.compile(
+    r"(?P<currency>US\\$|C\\$|A\\$|\\$|€|£|USD|EUR|GBP|CHF|CAD|AUD|NOK|SEK|DKK)\\s*"
+    r"(?P<amount>\\d+(?:\\.\\d+)?)\\s*"
+    r"(?P<scale>trillion|trn|tn|billion|bn|million|mn|m)\\b",re.I
+)
+MONEY_SCALE_TO_BILLIONS={
+    "trillion":1000.0,"trn":1000.0,"tn":1000.0,
+    "billion":1.0,"bn":1.0,
+    "million":0.001,"mn":0.001,"m":0.001
+}
+# Coarse conversion factors are only used to bucket order-of-magnitude impact,
+# never to display prices or perform financial calculations.
+CURRENCY_TO_USD_APPROX={
+    "$":1.0,"us$":1.0,"usd":1.0,
+    "€":1.05,"eur":1.05,
+    "£":1.25,"gbp":1.25,
+    "chf":1.10,"c$":0.72,"cad":0.72,"a$":0.65,"aud":0.65,
+    "nok":0.095,"sek":0.095,"dkk":0.14
+}
+
+def money_values_usd_billions(text):
+    vals=[]
+    for m in MONEY_RE.finditer(text or ""):
+        cur=m.group("currency").lower()
+        scale=MONEY_SCALE_TO_BILLIONS.get(m.group("scale").lower(),0)
+        factor=CURRENCY_TO_USD_APPROX.get(cur,1.0)
+        vals.append(float(m.group("amount"))*scale*factor)
+    return vals
 
 def numeric_scale(raw):
     x=raw.lower().replace(",","").strip()
@@ -97,7 +124,7 @@ def numeric_scale(raw):
 def generic_quantified_signals(text):
     t=text.lower(); points=0; reasons=[]
     pct=[float(x) for x in re.findall(r"\b(\d+(?:\.\d+)?)\s*%",t)]
-    market_terms=["stock","stocks","share","shares","nasdaq","s&p","market","markets","futures","index","indices","market value"]
+    market_terms=["stock","stocks","share","shares","nasdaq","s&p","market","markets","futures","index","indices","market value","market cap","valuation"]
     if pct and any(k in t for k in market_terms):
         move=max(pct)
         broad_market=any(k in t for k in ["stock market","markets","nasdaq","s&p","dow","ftse","kospi","nikkei","index","indices","market-wide"])
@@ -109,12 +136,22 @@ def generic_quantified_signals(text):
             if move>=20: points+=6; reasons.append("large company market move")
             elif move>=10: points+=5; reasons.append("company market move")
             elif move>=5: points+=3; reasons.append("company market move")
-    m=MONEY_RE.search(t)
-    if m and any(k in t for k in ["acquire","acquisition","merger","takeover","deal","purchase","buy","sale"]):
-        value=float(m.group(1))*(1000 if m.group(2).lower()=="billion" else 1)
-        if value>=10_000: points+=18; reasons.append("major transaction")
-        elif value>=5_000: points+=12; reasons.append("large transaction")
-        elif value>=1_000: points+=7; reasons.append("significant transaction")
+
+    money_vals=money_values_usd_billions(text)
+    if money_vals:
+        value=max(money_vals)
+        transaction=any(k in t for k in ["acquire","acquisition","merger","takeover","deal","purchase","buy","sale"])
+        value_change=any(k in t for k in ["market value","market cap","valuation","value climbs","value rises","value jumps","value gains","value falls","value drops","value wiped","adds ","added ","loses ","lost "])
+        if transaction:
+            if value>=10: points+=18; reasons.append("major transaction")
+            elif value>=5: points+=12; reasons.append("large transaction")
+            elif value>=1: points+=7; reasons.append("significant transaction")
+        elif value_change:
+            if value>=500: points+=18; reasons.append("major market-value change")
+            elif value>=100: points+=14; reasons.append("large market-value change")
+            elif value>=25: points+=10; reasons.append("significant market-value change")
+            elif value>=10: points+=6; reasons.append("market-value change")
+
     a=AFFECTED_RE.search(t)
     if a:
         n=numeric_scale(a.group(1))
@@ -127,12 +164,14 @@ def generic_quantified_signals(text):
 
 def cluster_consensus_evidence(group):
     trusted={source_family(x["source"]) for x in group if trusted_source(x["source"])}
-    points=0; reasons=[]
+    points=0.0; reasons=[]
     n=len(trusted)
-    if n>=5: points+=15; reasons.append(f"{n} trusted sources")
-    elif n==4: points+=12; reasons.append("4 trusted sources")
-    elif n==3: points+=9; reasons.append("3 trusted sources")
-    elif n==2: points+=5; reasons.append("2 trusted sources")
+    cw=float(EW.get("trusted_source_consensus",5))
+    vw=float(EW.get("coverage_velocity",8))
+    if n>=5: points+=cw*3.0; reasons.append(f"{n} trusted sources")
+    elif n==4: points+=cw*2.4; reasons.append("4 trusted sources")
+    elif n==3: points+=cw*1.8; reasons.append("3 trusted sources")
+    elif n==2: points+=cw; reasons.append("2 trusted sources")
     if n>=3:
         times=[]
         for x in group:
@@ -143,9 +182,9 @@ def cluster_consensus_evidence(group):
             spread=(max(times)-min(times)).total_seconds()/3600
             newest_age=(NOW-max(times)).total_seconds()/3600
             if spread<=6 and newest_age<=6:
-                points+=8; reasons.append("rapid cross-source coverage")
+                points+=vw; reasons.append("rapid cross-source coverage")
             elif spread<=12 and newest_age<=12:
-                points+=5; reasons.append("broad recent coverage")
+                points+=vw*0.625; reasons.append("broad recent coverage")
     return points,reasons, trusted
 
 def clean(x):
@@ -483,13 +522,26 @@ def match_previous_story(cur, previous):
 
 def apply_continuity(payload, previous):
     prev=previous.get("stories",[]) if isinstance(previous,dict) else []
+    run_time=dateparser.parse(payload.get("generated_at",NOW.isoformat()))
+    prev_generated=None
+    try:
+        prev_generated=dateparser.parse(previous.get("generated_at",""))
+    except:
+        prev_generated=None
+    momentum_window=float(SET.get("coverage_momentum_window_hours",3))
+    momentum_min=int(SET.get("coverage_momentum_min_new_sources",2))
+    history_hours=float(SET.get("coverage_history_hours",12))
+    velocity_weight=float(EW.get("coverage_velocity",8))
+
     for s in payload.get("stories",[]):
         old=match_previous_story(s,prev)
         if not old:
             s["first_reported_at"]=s["published_at"]
             s["update_count"]=0
             s["updated"]=False
+            s["coverage_history"]=[{"at":payload.get("generated_at",NOW.isoformat()),"source_count":int(s.get("source_count",0))}]
             continue
+
         s["id"]=old.get("id",s["id"])
         s["first_reported_at"]=old.get("first_reported_at",old.get("published_at",s["published_at"]))
         old_sources={source_family(x.get("name","")) for x in old.get("sources",[])}
@@ -499,6 +551,47 @@ def apply_continuity(payload, previous):
         material=(s.get("title")!=old.get("title") or len(new_sources-old_sources)>0 or new_time>old_time+timedelta(minutes=10))
         s["update_count"]=int(old.get("update_count",0))+(1 if material else 0)
         s["updated"]=bool(material)
+
+        history=[]
+        for h in old.get("coverage_history",[]) or []:
+            try:
+                ht=dateparser.parse(h.get("at",""))
+                if run_time-ht<=timedelta(hours=history_hours):
+                    history.append({"at":ht.isoformat(),"source_count":int(h.get("source_count",0))})
+            except:
+                pass
+        if not history and prev_generated:
+            history=[{"at":prev_generated.isoformat(),"source_count":int(old.get("source_count",0))}]
+
+        current_count=int(s.get("source_count",0))
+        baseline=None
+        for h in history:
+            try:
+                ht=dateparser.parse(h["at"])
+            except:
+                continue
+            age=(run_time-ht).total_seconds()/3600
+            if 0.25<=age<=momentum_window:
+                if baseline is None or ht<dateparser.parse(baseline["at"]):
+                    baseline=h
+
+        if baseline:
+            elapsed=max(0.01,(run_time-dateparser.parse(baseline["at"])).total_seconds()/3600)
+            growth=max(0,current_count-int(baseline.get("source_count",0)))
+            if growth>=momentum_min:
+                factor=1.0 if growth>=3 else 0.75
+                bonus=velocity_weight*factor
+                s["score"]=round(float(s.get("score",0))+bonus,1)
+                s["reasons"]=list(dict.fromkeys((s.get("reasons") or [])+["rapid coverage growth"]))[:4]
+                s["coverage_momentum"]={"new_sources":growth,"hours":round(elapsed,2),"bonus":round(bonus,1)}
+                s["importance"]=importance_level(s["score"],s["reasons"],s.get("title","")+" "+s.get("summary",""))
+
+        history.append({"at":payload.get("generated_at",NOW.isoformat()),"source_count":current_count})
+        # De-duplicate timestamps and keep a short history only.
+        by_at={h["at"]:h for h in history}
+        s["coverage_history"]=sorted(by_at.values(),key=lambda h:h["at"])[-12:]
+
+    payload["stories"].sort(key=lambda x:(x.get("score",0),x.get("published_at","")),reverse=True)
     return payload
 
 def main():
