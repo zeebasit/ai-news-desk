@@ -84,9 +84,9 @@ def source_family(name):
 CAS=re.compile(r"\b(?:(\d{1,5})\s+(?:people\s+)?(?:killed|dead|deaths|died)|(?:kills|killed)\s+(\d{1,5})|death toll (?:rises? to|at|of)?\s*(\d{1,5}))\b",re.I)
 AFFECTED_RE=re.compile(r"\b(\d{1,3}(?:[,.]\d{3})+|\d+(?:\.\d+)?\s*(?:million|billion|thousand|m|k))\s+(?:people\s+)?(?:evacuated|displaced|affected|without power|without electricity|without water|hospitalized|injured|missing)\b",re.I)
 MONEY_RE=re.compile(
-    r"(?P<currency>US\\$|C\\$|A\\$|\\$|€|£|USD|EUR|GBP|CHF|CAD|AUD|NOK|SEK|DKK)\\s*"
-    r"(?P<amount>\\d+(?:\\.\\d+)?)\\s*"
-    r"(?P<scale>trillion|trn|tn|billion|bn|million|mn|m)\\b",re.I
+    r"(?P<currency>US\$|C\$|A\$|\$|€|£|USD|EUR|GBP|CHF|CAD|AUD|NOK|SEK|DKK)\s*"
+    r"(?P<amount>\d+(?:\.\d+)?)\s*"
+    r"(?P<scale>trillion|trn|tn|billion|bn|million|mn|m)\b",re.I
 )
 MONEY_SCALE_TO_BILLIONS={
     "trillion":1000.0,"trn":1000.0,"tn":1000.0,
