@@ -11,7 +11,7 @@ on:
       - "docs/styles.css"
       - ".github/workflows/coverage-tests.yml"
   push:
-    branches: ["coverage-hardening-20261124", "story-context-phase1"]
+    branches: ["coverage-hardening-20261124", "story-context-phase1", "adaptive-context-discovery"]
     paths:
       - "scripts/**"
       - "tests/**"
