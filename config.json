@@ -141,7 +141,13 @@
     "\"evacuated\" OR \"displaced\" OR \"without power\" OR \"without water\" OR \"state of emergency\"",
     "\"summit\" OR \"talks\" OR \"negotiations\" (agreement OR breakthrough OR collapse OR failed OR \"no deal\" OR deadlock)",
     "summit collapse no deal agreement breakthrough",
-    "international talks collapse agreement breakthrough deadlock"
+    "international talks collapse agreement breakthrough deadlock",
+    "(\"seizes\" OR \"takes control\" OR nationalization OR expropriation OR \"forced sale\") (oilfield OR refinery OR pipeline OR energy OR port OR mine)",
+    "(\"joint production\" OR co-production OR manufacturing OR procurement) (defence OR defense OR military OR drones OR weapons) (deal OR agreement OR contract)",
+    "(explosion OR blast OR factory fire OR industrial accident OR crash OR collapse) (killed OR dead OR injured OR missing)",
+    "(\"AI safety\" OR \"artificial intelligence safety\" OR \"frontier model\" OR \"systemic risk\") (warning OR assessment OR report OR research)",
+    "(astronaut OR spaceflight OR \"space mission\" OR \"moon landing\") (first OR historic OR milestone)",
+    "(suicide OR mortality OR deaths OR overdose OR infection OR hospitalization) (\"record high\" OR highest OR \"sharp rise\" OR unprecedented) (data OR military OR official OR national)"
   ],
   "paywall_sources": [
     "Financial Times",
