@@ -6,7 +6,7 @@ from collections import defaultdict
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
-from urllib.parse import quote_plus
+from urllib.parse import quote_plus, urlparse
 
 import feedparser
 import numpy as np
@@ -220,10 +220,10 @@ def entry_image(e):
         if u and u.startswith("http") and ("image" in typ or rel=="enclosure"):
             return u
     return ""
-def grss(q):
+def grss(q,days=3):
     # Keep enough source history for the UI's Last 3 days filter.
-    return "https://news.google.com/rss/search?q="+quote_plus(q+" when:3d")+"&hl=en-US&gl=US&ceid=US:en"
-def fetch(url,source,weight,limit=100):
+    return "https://news.google.com/rss/search?q="+quote_plus(q+f" when:{days}d")+"&hl=en-US&gl=US&ceid=US:en"
+def fetch(url,source,weight,limit=100,max_age=None):
     out=[]
     try:
         r=SESSION.get(url,timeout=20); r.raise_for_status(); f=feedparser.parse(r.content)
@@ -233,7 +233,7 @@ def fetch(url,source,weight,limit=100):
         t=title(getattr(e,"title","")); u=getattr(e,"link","")
         if not t or not u: continue
         d=when(e)
-        if NOW-d>MAXAGE: continue
+        if NOW-d>(max_age if max_age is not None else MAXAGE): continue
         s=clean(getattr(e,"summary","") or getattr(e,"description",""))[:500]
         actual=source
         try: actual=clean(e.source.get("title")) or source
@@ -670,6 +670,126 @@ def apply_continuity(payload, previous):
     payload["stories"].sort(key=lambda x:(x.get("score",0),x.get("published_at","")),reverse=True)
     return payload
 
+# Story Context is a read-only enrichment of selected stories. It never alters
+# scores, categories, story IDs, timestamps or the selected set.
+CONTEXT_DAYS=30
+CONTEXT_ARCHIVE_LIMIT=300
+CONTEXT_REPORT_LIMIT=6
+CONTEXT_QUERY_LIMIT=6
+
+def context_date(raw):
+    try:
+        dt=dateparser.parse(raw)
+        return (dt if dt.tzinfo else dt.replace(tzinfo=timezone.utc)).astimezone(timezone.utc)
+    except (ValueError,TypeError,OverflowError):
+        return None
+
+def context_report(item):
+    title=item.get("title","").strip()
+    url=item.get("lead_url") or item.get("url","")
+    sources=item.get("sources",[])
+    lead_source=next((x for x in sources if x.get("url")==url),{})
+    source=item.get("source") or lead_source.get("name","")
+    # A publication date is not necessarily the date the event happened.
+    date=context_date(lead_source.get("published_at") or item.get("published_at"))
+    if not title or not date or not trusted_source(source) or urlparse(url).scheme not in ("http","https") or not urlparse(url).netloc:
+        return None
+    if date>NOW+timedelta(minutes=10) or date<NOW-timedelta(days=CONTEXT_DAYS):
+        return None
+    return {"title":title[:400],"source":source,"url":url,"published_at":date.isoformat()}
+
+def context_related(title,other):
+    a,b=toks(title),toks(other)
+    shared=a&b
+    entities=entityish(title)&entityish(other)
+    ov=len(shared)/max(1,min(len(a),len(b)))
+    # Require specific lexical evidence as well as entities; same topic alone is insufficient.
+    return len(shared)>=3 and ((len(entities)>=2 and ov>=.45) or
+        (len(entities)>=1 and len(shared)>=4 and ov>=.65) or
+        (len(shared)>=5 and ov>=.85))
+
+def context_query(title):
+    entities=entityish(title)
+    terms=[]
+    for word in re.findall(r"[A-Za-zÆØÅæøå0-9.-]+",title):
+        low=word.lower().strip(".")
+        if low in entities and low not in terms and low in toks(title):
+            terms.append(low)
+    if not terms:return ""
+    # Focus on entities and distinctive headline terms, not broad event keywords alone.
+    for word in re.findall(r"[a-z0-9]+",title.lower()):
+        if word in toks(title) and word not in terms and len(word)>=5:
+            terms.append(word)
+        if len(terms)>=5:break
+    return " ".join(terms[:5]) if len(terms)>=3 else ""
+
+def add_story_context(payload,previous,articles,discover=True):
+    previous=previous if isinstance(previous,dict) else {}
+    raw_archive=list(previous.get("context_archive",[]))
+    for old in previous.get("stories",[]):
+        raw_archive.append(old)
+    raw_archive.extend(payload.get("stories",[]))
+    archive={}
+    for item in raw_archive:
+        report=context_report(item)
+        if report:archive[report["url"]]=report
+    recent=[]
+    for article in articles:
+        report=context_report(article)
+        if report:recent.append(report)
+    prior_checks=previous.get("context_checks",{})
+    checks={}
+    for key,value in prior_checks.items():
+        dt=context_date(value)
+        if dt and NOW-timedelta(days=CONTEXT_DAYS)<=dt<=NOW:checks[key]=value
+    queries=0
+    for story in payload.get("stories",[]):
+        lead_report=context_report(story)
+        date=context_date(lead_report["published_at"] if lead_report else story.get("published_at"))
+        if not date:continue
+        title=story["title"]
+        cutoff=date-timedelta(hours=6)
+        urls={x.get("url") for x in story.get("sources",[])}
+        urls.add(story.get("lead_url"))
+        def eligible(r):
+            return (r["url"] not in urls and context_date(r["published_at"])<=cutoff
+                and toks(title)!=toks(r["title"])
+                and context_related(title,r["title"])
+                and not is_analysis_headline(r["title"]))
+        candidates=[r for r in list(archive.values())+recent if eligible(r)]
+        key=story.get("id","")
+        last=context_date(checks.get(key))
+        query=context_query(title)
+        if (discover and key and query and story.get("importance") in ("Major","Critical")
+            and len(candidates)<3 and queries<CONTEXT_QUERY_LIMIT
+            and (last is None or NOW-last>=timedelta(hours=24))):
+            queries+=1
+            try:
+                older=fetch(grss(query,days=CONTEXT_DAYS),"Context discovery",5,30,
+                    max_age=timedelta(days=CONTEXT_DAYS))
+                for x in older:
+                    report=context_report(x)
+                    if report and eligible(report):candidates.append(report)
+                # fetch logs failures and returns []; a short cooldown also avoids repeated retries.
+                checks[key]=NOW.isoformat()
+            except Exception as exc:
+                print("[warn] context discovery",exc,file=sys.stderr)
+        unique={}
+        for report in sorted(candidates,key=lambda r:r["published_at"]):
+            normalized=" ".join(sorted(toks(report["title"])))
+            if normalized and normalized not in unique:
+                unique[normalized]=report
+        reports=list(unique.values())
+        # Preserve earliest known report and most recent earlier reporting within the bounded list.
+        reports=reports[:1]+reports[-(CONTEXT_REPORT_LIMIT-1):] if len(reports)>CONTEXT_REPORT_LIMIT else reports
+        for report in reports:archive[report["url"]]=report
+        story["context"]={"earlier_reporting":reports,
+            "coverage_from":reports[0]["published_at"] if reports else None,
+            "search_query":query or title}
+    payload["context_archive"]=sorted(archive.values(),key=lambda r:r["published_at"],reverse=True)[:CONTEXT_ARCHIVE_LIMIT]
+    payload["context_checks"]=dict(sorted(checks.items(),key=lambda x:x[1],reverse=True)[:CONTEXT_ARCHIVE_LIMIT])
+    return payload
+
 def main():
     out=ROOT/"docs"/"data"/"news.json"
     try:
@@ -682,6 +802,13 @@ def main():
     p=apply_continuity(build(a),previous)
     if not p["stories"] and previous.get("stories"):
         raise RuntimeError("Ranking returned no stories; preserving previous feed")
+    # Enrichment failure must not prevent normal publication.
+    try:
+        p=add_story_context(p,previous,a)
+    except Exception as exc:
+        print("[warn] story context unavailable",exc,file=sys.stderr)
+        p["context_archive"]=previous.get("context_archive",[])
+        p["context_checks"]=previous.get("context_checks",{})
     out.parent.mkdir(parents=True,exist_ok=True)
     out.write_text(json.dumps(p,ensure_ascii=False,indent=2),encoding="utf-8")
     print("Published",len(p["stories"]),"stories; mode",p["model_mode"])

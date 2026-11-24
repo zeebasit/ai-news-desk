@@ -25,3 +25,11 @@ Updated: 2026-11-24.
 - User constraints: no ChatGPT task automation, always-on computer/VM, external cron provider, new account, tokens, or notifications. Keep zero recurring cost and refresh as frequently as available free infrastructure permits. A genuinely independent authenticated scheduler cannot be configured within these constraints using the available GitHub-only tools. Keep the existing best-effort GitHub schedules; do not describe the watchdog as independent.
 - A trigger must use least-privilege GitHub authorization, avoid duplicate refreshes, check generated_at freshness, and report unsuccessful refreshes. GitHub cron remains a fallback.
 - Review partial collection failures, source-weight attribution, source coverage and watchlist discovery separately; avoid claiming verified production reliability until observed scheduled runs.
+
+## Story Context — phase 1
+- Decision: no VM, no subscription-powered agent, no paid generative API. Preserve normal ChatGPT/Work allowance. GitHub timers remain best-effort; a separate always-on agent would be needed for independent scheduling.
+- Add a collapsed "Understand the story" section on Major/Critical or updated stories and on any story with matched earlier reporting. Browser expansion reads static metadata, with no AI call or user-driven backend requests.
+- Context enrichment runs after ranking/continuity. Retains up to 300 dated trusted reports for 30 days, displays up to six earlier matched headlines, searches up to six eligible stories per refresh, and applies a 24-hour per-ID cooldown. Matching is conservative lexical/entity evidence; context failure must not stop feed publication.
+- Explicitly label dates as publication dates, related reporting as incomplete, and do not claim causal explanations from headlines. No new long-form AI-generated summaries; source links and optional focused external background search only.
+- Tests cover ranking isolation, history retention, related/unrelated stories, exclusions, budget and cooldown. Verify CI before merging and inspect actual context quality on production.
+- Phase 2 only if needed: consider evidence-based extractive explanations or a local model. Any future generation must be cached, protected against anonymous consumption, and must not affect professional ChatGPT usage.

@@ -42,6 +42,21 @@ function noMediaTop(s){
   if(s.image)return "";
   return '<div class="card-no-media"><div class="card-top"><div class="badges"><span class="badge '+esc(s.importance)+'">'+esc(s.importance)+'</span><span class="badge category">'+esc(s.category)+'</span>'+(s.updated?'<span class="badge Updated">Updated</span>':'')+'</div><span class="age">'+rel(s.published_at)+'</span></div></div>';
 }
+function contextHtml(s){
+  const context=s.context||{},reports=Array.isArray(context.earlier_reporting)?context.earlier_reporting:[];
+  if(!reports.length&&!s.updated&&!["Major","Critical"].includes(s.importance))return "";
+  const safeUrl=u=>{try{const x=new URL(u);return ["https:","http:"].includes(x.protocol)?esc(x.href):""}catch(e){return ""}};
+  const dateLabel=d=>{const x=new Date(d);return Number.isNaN(x.getTime())?"Date unavailable":x.toLocaleDateString("en-GB",{day:"numeric",month:"short",year:"numeric",timeZone:"UTC"})};
+  const items=reports.filter(x=>safeUrl(x.url)).map(x=>'<li><time datetime="'+esc(x.published_at)+'">'+esc(dateLabel(x.published_at))+' · '+esc(x.source)+'</time><a href="'+safeUrl(x.url)+'" target="_blank" rel="noopener noreferrer">'+esc(x.title)+'</a></li>').join("");
+  const lead=safeUrl(s.lead_url);
+  return '<details class="story-context"><summary>Understand the story</summary><div class="context-body">'+
+    '<h4>Latest reported development</h4><p>'+ (lead?'<a href="'+lead+'" target="_blank" rel="noopener noreferrer">'+esc(s.title)+'</a>':esc(s.title))+'</p>'+
+    '<h4>Earlier reporting &amp; background</h4>'+
+    (items?'<ol class="context-timeline">'+items+'</ol>':'<p>Earlier reporting has not been matched reliably yet. Use the background search below to explore the story.</p>')+
+    '<p class="context-note">Dates refer to publication, not necessarily when events occurred. Related headlines are not a verified explanation of causes or a complete event timeline.</p>'+
+    '<a class="context-search" target="_blank" rel="noopener noreferrer" href="https://news.google.com/search?q='+esc(encodeURIComponent((context.search_query||s.title)+" when:30d"))+'">Search for further background reporting ↗</a>'+
+    '</div></details>';
+}
 function storyCard(s){
   const preview=s.sources.slice(0,3).map(x=>esc(x.name)+(x.paywalled?" 🔒":"")).join('<span class="dot">·</span>');
   const links=s.sources.map(x=>'<a class="source-link" href="'+esc(x.url)+'" target="_blank" rel="noopener">'+esc(x.name)+(x.paywalled?" 🔒":"")+'</a>').join("");
@@ -53,6 +68,7 @@ function storyCard(s){
     '<div class="meta-row"><div class="source-preview">'+preview+'</div><button class="coverage-btn" data-coverage="'+esc(s.id)+'">Coverage · '+s.source_count+' source'+(s.source_count===1?"":"s")+'</button></div>'+
     '<div class="tag-row"><div class="tags">'+tags+'</div><div class="card-actions"><button class="save-btn'+savedClass+'" data-save="'+esc(s.id)+'" aria-label="Save story">♡</button><button class="share-btn" data-share="'+esc(s.id)+'" aria-label="Share story">↗</button></div></div>'+
     '<div class="coverage-panel" id="coverage-'+esc(s.id)+'"><div class="coverage-links">'+links+'</div></div>'+
+    contextHtml(s)+
     '</div></article>';
 }
 function updateStats(){
