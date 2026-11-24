@@ -688,9 +688,10 @@ def context_report(item):
     title=item.get("title","").strip()
     url=item.get("lead_url") or item.get("url","")
     sources=item.get("sources",[])
-    source=item.get("source") or next((x.get("name","") for x in sources if x.get("url")==url),"")
+    lead_source=next((x for x in sources if x.get("url")==url),{})
+    source=item.get("source") or lead_source.get("name","")
     # A publication date is not necessarily the date the event happened.
-    date=context_date(item.get("published_at"))
+    date=context_date(lead_source.get("published_at") or item.get("published_at"))
     if not title or not date or not trusted_source(source) or urlparse(url).scheme not in ("http","https") or not urlparse(url).netloc:
         return None
     if date>NOW+timedelta(minutes=10) or date<NOW-timedelta(days=CONTEXT_DAYS):
@@ -743,7 +744,8 @@ def add_story_context(payload,previous,articles,discover=True):
         if dt and NOW-timedelta(days=CONTEXT_DAYS)<=dt<=NOW:checks[key]=value
     queries=0
     for story in payload.get("stories",[]):
-        date=context_date(story.get("published_at"))
+        lead_report=context_report(story)
+        date=context_date(lead_report["published_at"] if lead_report else story.get("published_at"))
         if not date:continue
         title=story["title"]
         cutoff=date-timedelta(hours=6)
