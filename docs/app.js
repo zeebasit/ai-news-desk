@@ -51,14 +51,15 @@ function contextHtml(s){
   const lead=safeUrl(s.lead_url);
   const searchDays=Math.max(30,Math.min(7300,Number(context.search_days)||730));
   const emptyText=context.search_status==="queued"?"Historical search is queued. Earlier reports may appear after subsequent refreshes.":"No earlier reporting has been matched reliably so far. The search may broaden on subsequent refreshes.";
-  const searchNote=context.searched_days?"Historical search attempted: up to "+Number(context.searched_days)+" days.":"";
+  const searchNote=context.searched_days?"Historical search attempted: within the past "+Number(context.searched_days)+" days.":"";
+  const searchRange=searchDays<=30?" when:30d":" after:"+new Date(Date.now()-searchDays*86400000).toISOString().slice(0,10);
   return '<details class="story-context"><summary>Understand the story</summary><div class="context-body">'+
     '<h4>Latest reported development</h4><p>'+ (lead?'<a href="'+lead+'" target="_blank" rel="noopener noreferrer">'+esc(s.title)+'</a>':esc(s.title))+'</p>'+
     '<h4>Earlier reporting &amp; background</h4>'+
     (items?'<ol class="context-timeline">'+items+'</ol>':'<p>'+esc(emptyText)+'</p>')+
     (searchNote?'<p class="context-note">'+esc(searchNote)+'</p>':'')+
     '<p class="context-note">Dates refer to publication, not necessarily when events occurred. Related headlines are not a verified explanation of causes or a complete event timeline.</p>'+
-    '<a class="context-search" target="_blank" rel="noopener noreferrer" href="https://news.google.com/search?q='+esc(encodeURIComponent((context.search_query||s.title)+" when:"+searchDays+"d"))+'">Search for further background reporting ↗</a>'+
+    '<a class="context-search" target="_blank" rel="noopener noreferrer" href="https://news.google.com/search?q='+esc(encodeURIComponent((context.search_query||s.title)+searchRange))+'">Search for further background reporting ↗</a>'+
     '</div></details>';
 }
 function storyCard(s){
