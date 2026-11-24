@@ -507,15 +507,31 @@ def match_previous_story(cur, previous):
     best=None; best_score=0.0
     ct=cur.get("title","")
     csrc={source_family(x.get("name","")) for x in cur.get("sources",[])}
+    cents=entityish(ct)
     for old in previous:
         ot=old.get("title","")
         ov=overlap(ct,ot)
         seq=SequenceMatcher(None,ct.lower(),ot.lower()).ratio()
         osrc={source_family(x.get("name","")) for x in old.get("sources",[])}
-        src_match=bool(csrc & osrc)
+        src_overlap=len(csrc & osrc)
+        src_match=src_overlap>0
         cat_match=cur.get("category")==old.get("category")
-        score=max(seq,ov)+(0.08 if src_match else 0)+(0.04 if cat_match else 0)
-        strong=((ov>=0.58 and seq>=0.42) or seq>=0.72 or (src_match and ov>=0.50 and seq>=0.38))
+        shared_entities=len(cents & entityish(ot))
+        try:
+            old_ref=dateparser.parse(old.get("first_reported_at",old.get("published_at","")))
+            cur_ref=dateparser.parse(cur.get("published_at",""))
+            time_close=abs((cur_ref-old_ref).total_seconds())<=48*3600
+        except:
+            time_close=True
+
+        score=max(seq,ov)+(0.08 if src_match else 0)+(0.04 if cat_match else 0)+min(.12,shared_entities*.03)
+        strong=(
+            (ov>=0.58 and seq>=0.42)
+            or seq>=0.72
+            or (src_match and ov>=0.50 and seq>=0.38)
+            or (cat_match and time_close and src_overlap>=1 and shared_entities>=2 and ov>=0.28)
+            or (cat_match and time_close and shared_entities>=3 and ov>=0.22)
+        )
         if strong and score>best_score:
             best,best_score=old,score
     return best
