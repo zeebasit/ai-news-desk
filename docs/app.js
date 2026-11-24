@@ -54,7 +54,7 @@ function contextHtml(s){
     '<h4>Earlier reporting &amp; background</h4>'+
     (items?'<ol class="context-timeline">'+items+'</ol>':'<p>Earlier reporting has not been matched reliably yet. Use the background search below to explore the story.</p>')+
     '<p class="context-note">Dates refer to publication, not necessarily when events occurred. Related headlines are not a verified explanation of causes or a complete event timeline.</p>'+
-    '<a class="context-search" target="_blank" rel="noopener noreferrer" href="https://news.google.com/search?q='+esc(encodeURIComponent(s.title+" when:30d"))+'">Search for further background reporting ↗</a>'+
+    '<a class="context-search" target="_blank" rel="noopener noreferrer" href="https://news.google.com/search?q='+esc(encodeURIComponent((context.search_query||s.title)+" when:30d"))+'">Search for further background reporting ↗</a>'+
     '</div></details>';
 }
 function storyCard(s){
