@@ -1,5 +1,6 @@
 name: Update curated news
 on:
+  workflow_call:
   workflow_dispatch:
   push:
     branches: [main]
@@ -15,7 +16,7 @@ permissions:
   contents: write
 concurrency:
   group: update-news
-  cancel-in-progress: true
+  cancel-in-progress: false
 jobs:
   update:
     runs-on: ubuntu-latest
