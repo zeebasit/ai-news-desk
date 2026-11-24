@@ -4,7 +4,7 @@ A zero-recurring-cost, mobile-friendly news dashboard that filters, ranks and de
 
 ## Architecture
 - GitHub Pages hosting
-- GitHub Actions every 30 minutes, plus an independent stale-feed watchdog
+- GitHub Actions every 30 minutes, plus a stale-feed watchdog on the same scheduling platform
 - Public RSS + Google News RSS discovery
 - Trusted-source weighting
 - Global disaster / protest / election / cyber / conflict / health / economy sweeps
@@ -45,7 +45,7 @@ The site URL will normally be:
 `https://zeebasit.github.io/ai-news-desk/`
 
 ## Updating
-The primary workflow runs at minute 07 and 37 of every hour and supports manual `workflow_dispatch` runs. Because GitHub scheduled workflows are best-effort, an independent freshness watchdog checks at minutes 12, 27, 42 and 57. If the generated feed is at least 50 minutes old and no refresh is already active, the watchdog invokes the same reusable update workflow. This keeps the fallback zero-cost and avoids duplicating collector logic.
+The primary workflow runs at minute 07 and 37 of every hour and supports manual `workflow_dispatch` runs. Because GitHub scheduled workflows are best-effort, a second GitHub-scheduled freshness watchdog checks at minutes 12, 27, 42 and 57. If the generated feed is at least 50 minutes old and no refresh is already active, the watchdog invokes the same reusable update workflow. This keeps the fallback zero-cost and avoids duplicating collector logic, but both schedules share GitHub's best-effort scheduler and neither guarantees timely recovery. See [PROJECT_STATUS.md](PROJECT_STATUS.md) for current constraints and validation status.
 
 ## Cost
 The project does not call OpenAI, Anthropic, Gemini, or another paid LLM/API. Semantic filtering runs on the GitHub Actions runner.
