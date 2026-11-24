@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T11:16:11.959001+00:00",
+  "generated_at": "2026-11-24T11:19:48.614238+00:00",
   "model_mode": "sentence-transformers",
   "stories": [
     {
@@ -10,8 +10,8 @@
       "category": "Tech",
       "importance": "Major",
       "score": 61.8,
-      "published_at": "2026-11-24T10:35:00+00:00",
-      "source_count": 5,
+      "published_at": "2026-11-23T21:23:42+00:00",
+      "source_count": 2,
       "reasons": [
         "significant public impact",
         "large market move",
@@ -30,30 +30,12 @@
           "url": "https://www.bbc.co.uk/news/articles/cq62pn6j42jko?at_medium=RSS&at_campaign=rss",
           "published_at": "2026-11-23T21:23:42+00:00",
           "paywalled": false
-        },
-        {
-          "name": "Bloomberg.com",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQVWFLWHlKWDlGbmpsNUN5UERrM0Q2aWw4UEczVnBSdlJjVW1Rc1hlM180YVhFb1c5Ni1vY25HMlpPWTFURTFvOHNVS1owckpJelRBT2NYWkUwcXI3eHpRMlhmWGRVbTYzcHBmM2w4dzRZazI1cnd6d0ZNM2VweF85SzlWZ2hMU2Y2QVZmTEk1a1pqVHBLR2dJcG1UcHY?oc=5",
-          "published_at": "2026-11-23T00:00:00+00:00",
-          "paywalled": false
-        },
-        {
-          "name": "Axios",
-          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1nY19pcE53aXlWQUtPQmRyb2hhWE5CZUxlTHhlbEYxQ2EtQUEtLUFuYjZscTY4bURqLThBT1g5QlB0aThJaTlMZW41aFVHS1pySk9xLUhnQmk5TWdTNzhUQk5Zc3lhSzZINkJpNzdIb0ZPSmc?oc=5",
-          "published_at": "2026-11-23T14:11:33+00:00",
-          "paywalled": false
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOQXRFOVpPQ1FxaTlVS0hfVGV5Tl91TzVUWldXTVgwVmI3eHRoYXhYbmllLUFobHhSWThOaXRTSVRDRkJ2ZTdsRDRHSElWRmU0SUFiQTU3VXk5V0pyREk0VFMwWUdFdTdUd2tCcEdNQmprZjFoM0VuUDNJNi1DYjdoc3FjV1RCZGxqRjdqX1MxQmtsZ9IBlwFBVV95cUxNdXhERGZiakd4c2ZlSnQ4UGZwNVVjUjNqTUhtNEozUXRUTVdkR09DeExjRllITG0tU0s3V05uYmwtQ1RPc2d4S2cxWTBjVW5rWk1RQVh3bEZLNms0NjFiZ2F2ZnBWYmJtTzFhYXhGVWVfcWFLN1liaEVfSEh2aGNvZGpyMzhEQ2VfT1Bzejl3TXpVdUNDSkU0?oc=5",
-          "published_at": "2026-11-23T18:25:46+00:00",
-          "paywalled": false
         }
       ],
       "lead_url": "https://www.bbc.co.uk/news/articles/cq62pn6j42jko?at_medium=RSS&at_campaign=rss",
       "first_reported_at": "2026-11-24T10:35:00+00:00",
       "update_count": 1,
-      "updated": true,
+      "updated": false,
       "coverage_history": [
         {
           "at": "2026-11-24T11:08:37.897861+00:00",
@@ -62,13 +44,17 @@
         {
           "at": "2026-11-24T11:16:11.959001+00:00",
           "source_count": 5
+        },
+        {
+          "at": "2026-11-24T11:19:48.614238+00:00",
+          "source_count": 2
         }
       ]
     },
     {
       "id": "32450e3a7a06",
-      "title": "CrowdStrike to acquire Zscaler in a $44 billion deal that would create a cybersecurity giant",
-      "summary": "CrowdStrike to acquire Zscaler in a $44 billion deal that would create a cybersecurity giant AP News",
+      "title": "CrowdStrike snaps up Zscaler in $44 billion deal as cyber threats mount",
+      "summary": "CrowdStrike snaps up Zscaler in $44 billion deal as cyber threats mount Reuters",
       "image": "",
       "category": "Tech",
       "importance": "Major",
@@ -82,6 +68,12 @@
       ],
       "sources": [
         {
+          "name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOcUdmOUFLaEppLU9uMl80V2x1RTg4YWg3VUc5cWZsVzNfUWJBN2pFY3BhTndKanI0U2gzZHMzZVdpeWlkVkdBMkxGZkEtNFYyYmhteTQ5MHM0NnhkN2lfVk1WcDRxZDluQzVXNll2OWhodnVmaG9qNm15SWdweEM4YmxSWXVKd21mNW9uWW82MHUyWlJLTEE?oc=5",
+          "published_at": "2026-11-23T18:31:10+00:00",
+          "paywalled": false
+        },
+        {
           "name": "AP News",
           "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQekFodWNTV2dTaVZ6VDJScmUybjJ3QXRURFJjeVNtQVBmOEJkYUZTNnFlMnNKalRWdFdXOWVwTjg1TFU3THJIOU9hSXNtSXZCczVaT0xDYnNKUEJUYXFXbVpTUkhTNWRFb3VIa1RDcHdOMzB4ZVV4cTZ6STBQZ2RWLWNPT2U1RGRHYjIxNEZ1QlFXQXZJMDhJeHdDLUFUc2tSUjJoejc1dGhzTWtkUS1Hb3V1V1hKbXplV3J2Zw?oc=5",
           "published_at": "2026-11-23T16:33:00+00:00",
@@ -92,21 +84,19 @@
           "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNaXRqYWdBS2lmTXl0cGRSN0lSa1JjMTBKNzlLSktkUXBQaW9idWU1b3hSc0kwUExtMV9SODYzSHU4REJWakg5cDc3X01jU2ctMUdRV0w1eHRBUXh0NjlQUDB6MXVwb09lVUZZdUNBNEhpLWw2V2hPSXF1QlAteEpFSEQ2bFU?oc=5",
           "published_at": "2026-11-23T11:02:10+00:00",
           "paywalled": true
-        },
-        {
-          "name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOcUdmOUFLaEppLU9uMl80V2x1RTg4YWg3VUc5cWZsVzNfUWJBN2pFY3BhTndKanI0U2gzZHMzZVdpeWlkVkdBMkxGZkEtNFYyYmhteTQ5MHM0NnhkN2lfVk1WcDRxZDluQzVXNll2OWhodnVmaG9qNm15SWdweEM4YmxSWXVKd21mNW9uWW82MHUyWlJLTEE?oc=5",
-          "published_at": "2026-11-23T18:31:10+00:00",
-          "paywalled": false
         }
       ],
-      "lead_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQekFodWNTV2dTaVZ6VDJScmUybjJ3QXRURFJjeVNtQVBmOEJkYUZTNnFlMnNKalRWdFdXOWVwTjg1TFU3THJIOU9hSXNtSXZCczVaT0xDYnNKUEJUYXFXbVpTUkhTNWRFb3VIa1RDcHdOMzB4ZVV4cTZ6STBQZ2RWLWNPT2U1RGRHYjIxNEZ1QlFXQXZJMDhJeHdDLUFUc2tSUjJoejc1dGhzTWtkUS1Hb3V1V1hKbXplV3J2Zw?oc=5",
+      "lead_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOcUdmOUFLaEppLU9uMl80V2x1RTg4YWg3VUc5cWZsVzNfUWJBN2pFY3BhTndKanI0U2gzZHMzZVdpeWlkVkdBMkxGZkEtNFYyYmhteTQ5MHM0NnhkN2lfVk1WcDRxZDluQzVXNll2OWhodnVmaG9qNm15SWdweEM4YmxSWXVKd21mNW9uWW82MHUyWlJLTEE?oc=5",
       "first_reported_at": "2026-11-24T06:19:59+00:00",
-      "update_count": 0,
-      "updated": false,
+      "update_count": 1,
+      "updated": true,
       "coverage_history": [
         {
           "at": "2026-11-24T11:16:11.959001+00:00",
+          "source_count": 3
+        },
+        {
+          "at": "2026-11-24T11:19:48.614238+00:00",
           "source_count": 3
         }
       ]
@@ -148,6 +138,10 @@
         },
         {
           "at": "2026-11-24T11:16:11.959001+00:00",
+          "source_count": 1
+        },
+        {
+          "at": "2026-11-24T11:19:48.614238+00:00",
           "source_count": 1
         }
       ]
@@ -203,6 +197,10 @@
         {
           "at": "2026-11-24T11:16:11.959001+00:00",
           "source_count": 3
+        },
+        {
+          "at": "2026-11-24T11:19:48.614238+00:00",
+          "source_count": 3
         }
       ]
     },
@@ -243,6 +241,10 @@
         },
         {
           "at": "2026-11-24T11:16:11.959001+00:00",
+          "source_count": 1
+        },
+        {
+          "at": "2026-11-24T11:19:48.614238+00:00",
           "source_count": 1
         }
       ]
@@ -291,6 +293,83 @@
         {
           "at": "2026-11-24T11:16:11.959001+00:00",
           "source_count": 2
+        },
+        {
+          "at": "2026-11-24T11:19:48.614238+00:00",
+          "source_count": 2
+        }
+      ]
+    },
+    {
+      "id": "a727b0e5c565",
+      "title": "ConocoPhillips exits Norway with $4.4 billion asset sale to Vaar Energi",
+      "summary": "ConocoPhillips exits Norway with $4.4 billion asset sale to Vaar Energi Reuters",
+      "image": "",
+      "category": "Stavanger/Rogaland",
+      "importance": "Notable",
+      "score": 40.8,
+      "published_at": "2026-11-23T19:30:00+00:00",
+      "source_count": 1,
+      "reasons": [
+        "significant public impact",
+        "significant transaction",
+        "Norway/local relevance"
+      ],
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQcHNqQjMxSlNrcGN4LVZIUC0yZUpTTUQyOU1SNnJaTkFpQkFnRHFYODF0R0hhbnBkbTFfbEpMYU9WSlNMYWFLTjhPOGszWHFoX0JnZnZBY2pVNDVFbEFJYlBKSHhiZ1EyaU80anh6d3RuVFVPZUFJOUVmZndKbWVxRGlaLW1DUG1QN2ZkS2ZOTEhZbUJSRk5zTUtRNXVrNkZjaWNjSGVvRy1iRlZRMkFfa0gzcTl4Zw?oc=5",
+          "published_at": "2026-11-23T06:38:00+00:00",
+          "paywalled": false
+        }
+      ],
+      "lead_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQcHNqQjMxSlNrcGN4LVZIUC0yZUpTTUQyOU1SNnJaTkFpQkFnRHFYODF0R0hhbnBkbTFfbEpMYU9WSlNMYWFLTjhPOGszWHFoX0JnZnZBY2pVNDVFbEFJYlBKSHhiZ1EyaU80anh6d3RuVFVPZUFJOUVmZndKbWVxRGlaLW1DUG1QN2ZkS2ZOTEhZbUJSRk5zTUtRNXVrNkZjaWNjSGVvRy1iRlZRMkFfa0gzcTl4Zw?oc=5",
+      "first_reported_at": "2026-11-23T19:30:00+00:00",
+      "update_count": 0,
+      "updated": false,
+      "coverage_history": [
+        {
+          "at": "2026-11-24T11:19:48.614238+00:00",
+          "source_count": 1
+        }
+      ]
+    },
+    {
+      "id": "1b59f527c0c9",
+      "title": "India announces a $1.6 billion aid package for Nepal’s flood recovery",
+      "summary": "India announces a $1.6 billion aid package for Nepal’s flood recovery AP News",
+      "image": "",
+      "category": "World",
+      "importance": "Notable",
+      "score": 40.5,
+      "published_at": "2026-11-24T01:50:09+00:00",
+      "source_count": 2,
+      "reasons": [
+        "high-impact event",
+        "2 trusted sources"
+      ],
+      "sources": [
+        {
+          "name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQNTNPcnhTTndtR0F1d3haak1ZZWNEajF5eTQtb3JlV25oNlJFZ2ZCbk9xQ0x4M2ZwVnFRRWVCY1lNd1lScWp2cjJxR2pvQzRqX1gzbEREZVlTS2E4b0MyQXFRd3NPSzRRVU1ka2NtZXFGbWRxa185SkwtOWRmcFRCaXBVeS1HdWhIWFE?oc=5",
+          "published_at": "2026-11-23T08:46:00+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNdkxXYjZDcEV1OENMUFpwT2VQdFhnLXk0WlI5eEk3U3BuU0FjU2IzLVhOMHF3VjN4Rll3TlBMaEw2STl4OF94TFU4R1hZSEpiejBVaDJhRktPakRucm9CZEZ6ZHhJRVhuTmU5TVpSYW80MUtSRFlSczlacV9PM2dqWDliSHRWWTJNVkFoVkhzS0zSAZYBQVVfeXFMTUFuX0ZxSkliTGxLNm4zV3BWTFk2M0QyaTc0elRtOFhzdm5FVTlBeTNIQlh2TUU2UW1sOG5MNDhrQnp3UllfaUFSa0xSUk1SQmRmUEFHNUI2ajVEQWFXR2tidW41ZlJkNGtMb0FZcy10dFpOUEFrUzV6TGQyN19DQzc4YVpZYlpkSE05d3N4UzZmN0c5NTNR?oc=5",
+          "published_at": "2026-11-24T01:50:09+00:00",
+          "paywalled": false
+        }
+      ],
+      "lead_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQNTNPcnhTTndtR0F1d3haak1ZZWNEajF5eTQtb3JlV25oNlJFZ2ZCbk9xQ0x4M2ZwVnFRRWVCY1lNd1lScWp2cjJxR2pvQzRqX1gzbEREZVlTS2E4b0MyQXFRd3NPSzRRVU1ka2NtZXFGbWRxa185SkwtOWRmcFRCaXBVeS1HdWhIWFE?oc=5",
+      "first_reported_at": "2026-11-24T01:50:09+00:00",
+      "update_count": 0,
+      "updated": false,
+      "coverage_history": [
+        {
+          "at": "2026-11-24T11:19:48.614238+00:00",
+          "source_count": 2
         }
       ]
     },
@@ -332,6 +411,10 @@
         {
           "at": "2026-11-24T11:16:11.959001+00:00",
           "source_count": 1
+        },
+        {
+          "at": "2026-11-24T11:19:48.614238+00:00",
+          "source_count": 1
         }
       ]
     },
@@ -371,6 +454,10 @@
         },
         {
           "at": "2026-11-24T11:16:11.959001+00:00",
+          "source_count": 1
+        },
+        {
+          "at": "2026-11-24T11:19:48.614238+00:00",
           "source_count": 1
         }
       ]
