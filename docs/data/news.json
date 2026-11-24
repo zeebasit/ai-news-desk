@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T00:19:29.173264+00:00",
+  "generated_at": "2026-11-24T10:23:56.919132+00:00",
   "model_mode": "sentence-transformers",
   "stories": [
     {
@@ -9,14 +9,14 @@
       "image": "",
       "category": "Tech",
       "importance": "Major",
-      "score": 76.5,
-      "published_at": "2026-11-23T21:23:16+00:00",
-      "source_count": 4,
+      "score": 68.5,
+      "published_at": "2026-11-24T06:19:59+00:00",
+      "source_count": 3,
       "reasons": [
         "high-impact event",
         "major transaction",
-        "4 trusted sources",
-        "broad recent coverage"
+        "3 trusted sources",
+        "corroborated transaction impact"
       ],
       "sources": [
         {
@@ -36,89 +36,66 @@
           "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNaXRqYWdBS2lmTXl0cGRSN0lSa1JjMTBKNzlLSktkUXBQaW9idWU1b3hSc0kwUExtMV9SODYzSHU4REJWakg5cDc3X01jU2ctMUdRV0w1eHRBUXh0NjlQUDB6MXVwb09lVUZZdUNBNEhpLWw2V2hPSXF1QlAteEpFSEQ2bFU?oc=5",
           "published_at": "2026-11-23T11:02:10+00:00",
           "paywalled": true
-        },
-        {
-          "name": "Bloomberg.com",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNUkFJTko4elVPRkJqM1J5WWo1LXpSVFBaVEZ4UDRvb0g5Rkl3bGZ4emltR2dwd3B1TGlSTE9pUFlfeEZ0U3pVdnRKS3ZrNXVhckJLS0VxOFRFOXJKWFBqYXZjbFVJQUJodjd2VnRiZGJGMVAtdEtMT1ZvSmRMNkVtMmo5QTdOOUZhQ01pTXhRUjFGQXc3Yzc1aU5SOE5KWmw2enJzRmo1Z3lDdDNwdS1MUVNn?oc=5",
-          "published_at": "2026-11-23T10:38:04+00:00",
-          "paywalled": true
         }
       ],
       "lead_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOcUdmOUFLaEppLU9uMl80V2x1RTg4YWg3VUc5cWZsVzNfUWJBN2pFY3BhTndKanI0U2gzZHMzZVdpeWlkVkdBMkxGZkEtNFYyYmhteTQ5MHM0NnhkN2lfVk1WcDRxZDluQzVXNll2OWhodnVmaG9qNm15SWdweEM4YmxSWXVKd21mNW9uWW82MHUyWlJLTEE?oc=5",
       "first_reported_at": "2026-11-23T15:15:00+00:00",
-      "update_count": 1,
+      "update_count": 2,
       "updated": true
     },
     {
-      "id": "7d3a49c99081",
-      "title": "Wall Street rebounds as Jensen Huang returns as Nvidia CEO",
-      "summary": "Wall Street rebounds as Jensen Huang returns as Nvidia CEO Reuters",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e297/live/7eb9d0a0-e776-11f1-a8a9-d7c9e8a923b4.jpg",
-      "category": "Tech",
+      "id": "42f79c5347cc",
+      "title": "Danish police investigate school bomb threats",
+      "summary": "Danish police investigate school bomb threats Reuters",
+      "image": "",
+      "category": "Europe/UK",
       "importance": "Major",
-      "score": 58.2,
-      "published_at": "2026-11-23T23:41:28+00:00",
-      "source_count": 10,
+      "score": 48.9,
+      "published_at": "2026-11-24T04:15:21+00:00",
+      "source_count": 1,
       "reasons": [
-        "large company market move",
-        "leadership/governance change",
-        "5 trusted sources",
-        "corroborated market impact"
+        "high-impact event",
+        "large scale"
       ],
       "sources": [
         {
-          "name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNbUdPNnFZNXVRRHJqeGNYX0ptRk1oUW85OHlueHM2aW5teGxVWmViTWdKOGVTTVBYdWNVTjA3M2d4NUFfQ1Fac2g2ZzVZZ0hMdnZ6V1RQdFRmdWNfZlFzNnRYNmR0YWsxUjFIaTNYR2c5V3RQUHdVVUx4X1loaHF6dEcyNF9fQQ?oc=5",
-          "published_at": "2026-11-23T23:36:00+00:00",
-          "paywalled": false
-        },
-        {
           "name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQWmN5QUFQSGxDSlRyR3gxZzZQczRFSC1SNjFtY0xtMkM4cjhwbnZndkNaSW5JVDNvVVYxMDdObkhjcVZIMVpVZ2FoVFdNZ3NGQU9hckJhZUx6M0dfMERucTNVZk9aamhpRU85TE96c1pEdGUyTlhyZVRMWlNPNUJ1TG1mLTJadHltZ1Utal85WFlTb09aTXF3MTBXNG1TZ0EzeHYzUFNadw?oc=5",
-          "published_at": "2026-11-23T17:07:29+00:00",
-          "paywalled": false
-        },
-        {
-          "name": "BBC",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBGLU9yX2djdGRQV01hM0llUENSZ0U3a1YzQU1WdWx5Z0dMMVJGUFduWkhJTjBxOHVVeE9SN1lyaE1sNjdJYWVENzhrRUJ2cXNUZEZHaUpRUHE0UXM?oc=5",
-          "published_at": "2026-11-23T23:10:27+00:00",
-          "paywalled": false
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/23/jensen-huang-reinstated-as-nvidia-chief-how-did-we-get-here?traffic_source=rss",
-          "published_at": "2026-11-23T20:22:12+00:00",
-          "paywalled": false
-        },
-        {
-          "name": "Axios",
-          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1nY19pcE53aXlWQUtPQmRyb2hhWE5CZUxlTHhlbEYxQ2EtQUEtLUFuYjZscTY4bURqLThBT1g5QlB0aThJaTlMZW41aFVHS1pySk9xLUhnQmk5TWdTNzhUQk5Zc3lhSzZINkJpNzdIb0ZPSmc?oc=5",
-          "published_at": "2026-11-23T18:15:35+00:00",
-          "paywalled": false
-        },
-        {
-          "name": "Financial Times",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOY0VMY3VZRlBrNGs0bElpa1NJSEZtREllUzFhaGFRTWVNYXN0eVA3Y0hFMjdrRUtyekZnQ3RDRTVLdTNTNWlSRHdXMkRVeXFEX2tvczJxUVRVYjhRX0hSR0FabmJwMlBrZEhNeHBCS3kxcHladGtoQlFkOW5TMG81Y3RGODk?oc=5",
-          "published_at": "2026-11-23T14:04:54+00:00",
-          "paywalled": true
-        },
-        {
-          "name": "조선일보",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNd3RrX1FIVGY4bi1kbDZmM3YyekVUc2p4ZjdSdVVvYk94NlBIWlA3dk5HNWE1UDNUakhJb1NFQVZMci1naGV2dzBkWk01VXlGYkoybHFNZmEzOU5jZVcwVmgyOTdCNkVieFBQTU9rQkFwaDNaRk9jMXBwUmtGVkdxVW03R3h2bThIZHJ3d3pB?oc=5",
-          "published_at": "2026-11-23T23:10:13+00:00",
-          "paywalled": false
-        },
-        {
-          "name": "NDTV",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPTzZrb0ozaV9CaU12TE9yZ3J6aS1nQm9paTR4UkkzR3owNV9MYXhqY3Bjdnp4ZE03VkhaUWx3ZDJ2Vmh0cW5ORTNkdGZEYWRMdUp0MjB3a2FrenE5QjdmSEJ4RG1DVmNhN0l0ekV4RGVFQ0pGREZVY0xEYVZSMll3UTNKT0pwWG1QSGl6dktxUUZvUVJLX0xPTmR1eTFmdl90T2fSAaoBQVVfeXFMT1luN2dMYkU0dS1yZlEwNHRsQ05GUE1YNXhsbkkxUkFzandKZkhwb29ETzhTSlZLcjJhVllXMUpGNGFhNjEyZVY5N2dMV0ladzlTQjY0OVBQUWdhT1pENXFmR01hYVVnQ2V4cWZLZjNrdndLUHdydnY0a3ZQN19aNldVYlhFSS1LMjVwbzhOd3BlMndKbWlpRlJIQllrdXRJUE5ycE9KLVVLZkE?oc=5",
-          "published_at": "2026-11-23T22:03:36+00:00",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPRVFRSVYxM3MwY19mSEhtQ251ZlktNnU5ZDQwSWs3UDdlNHM4WUM4QkJSTjlVaDFqcVF2WlV2c09jOUtPQkJjOGlHb0szaThSSlVJS1FNb0NLUlk4X0stR1Z0SmNseGVqWlMtSmRuUUN2dkFKYkRyeVVmUGl1SWRTQXdWQWlyai0yUnhNUTBfUGU?oc=5",
+          "published_at": "2026-11-23T10:13:09+00:00",
           "paywalled": false
         }
       ],
-      "lead_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNNEVIVnBMbFk4UVlXOGlieWlkeWhldU5HWnFSdWNVU3BIU2YycVJnV3NWZGxGNXFMTjlKU3VuUTBnWGxZUjBtV3JCVlZjNU11MXZOT0s4V3QyRTNPNDlBRzAzX095cHphSWNSYnBTZmprLTVmdUVKd0RHc1FCbHdITU9Mb3BZMWlZM3pLQkF5MElMakFJME1WVWZOY0xJVWJnbTQ4dnpsQlNEZw?oc=5",
-      "first_reported_at": "2026-11-23T15:39:41+00:00",
-      "update_count": 6,
-      "updated": true
+      "lead_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPRVFRSVYxM3MwY19mSEhtQ251ZlktNnU5ZDQwSWs3UDdlNHM4WUM4QkJSTjlVaDFqcVF2WlV2c09jOUtPQkJjOGlHb0szaThSSlVJS1FNb0NLUlk4X0stR1Z0SmNseGVqWlMtSmRuUUN2dkFKYkRyeVVmUGl1SWRTQXdWQWlyai0yUnhNUTBfUGU?oc=5",
+      "first_reported_at": "2026-11-24T04:15:21+00:00",
+      "update_count": 0,
+      "updated": false
+    },
+    {
+      "id": "047b09793e64",
+      "title": "Fears of more violence in Pakistan election after bomber kills 130",
+      "summary": "Fears of more violence in Pakistan election after bomber kills 130 Yeni Safak English",
+      "image": "",
+      "category": "World",
+      "importance": "Major",
+      "score": 46.5,
+      "published_at": "2026-11-24T06:01:13+00:00",
+      "source_count": 1,
+      "reasons": [
+        "high-impact event",
+        "reported fatalities"
+      ],
+      "sources": [
+        {
+          "name": "Yeni Safak English",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQSFFWMUxVWjlmNmh5LVZpMEl2RGx6UzJFQkt3akxIVTNGYnl4dWNBVC11SnFaTXVSSWFDTkMwN21pd0VUWWxOa1NRd0pGSEdLSDdDQW1uY3hYVkNhMWhUa0hBQVQ5eE40SlMwNWMyQ19hZFBUVmZRUDBzclJrM0l6VkpNUFg5WEItYzlaSVNaa1lKWlVpcHJKRnFQMWFTR1BoXzJVLWlvQXY?oc=5",
+          "published_at": "2026-11-24T06:01:13+00:00",
+          "paywalled": false
+        }
+      ],
+      "lead_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQSFFWMUxVWjlmNmh5LVZpMEl2RGx6UzJFQkt3akxIVTNGYnl4dWNBVC11SnFaTXVSSWFDTkMwN21pd0VUWWxOa1NRd0pGSEdLSDdDQW1uY3hYVkNhMWhUa0hBQVQ5eE40SlMwNWMyQ19hZFBUVmZRUDBzclJrM0l6VkpNUFg5WEItYzlaSVNaa1lKWlVpcHJKRnFQMWFTR1BoXzJVLWlvQXY?oc=5",
+      "first_reported_at": "2026-11-24T06:01:13+00:00",
+      "update_count": 0,
+      "updated": false
     },
     {
       "id": "8cd4dc280a1b",
@@ -126,14 +103,14 @@
       "summary": "Democratic Rep. Jimmy Gomez resigns after Ethics panel finds evidence of sexual misconduct AP News",
       "image": "",
       "category": "World",
-      "importance": "Major",
-      "score": 48.5,
-      "published_at": "2026-11-23T23:50:00+00:00",
+      "importance": "Notable",
+      "score": 45.5,
+      "published_at": "2026-11-24T06:01:44+00:00",
       "source_count": 3,
       "reasons": [
         "high-impact event",
         "3 trusted sources",
-        "rapid cross-source coverage"
+        "broad recent coverage"
       ],
       "sources": [
         {
@@ -145,46 +122,53 @@
         {
           "name": "BBC",
           "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1NcUhYb1NPRTk5QzFyanJlMHJZRmZ2V2NtUjZqZ1VBd3dnSTF4NFlPeklDVWp0NXJaSEdMd1hKcHdvaUtrUDdxWmpueVlpSHRHREk0UXd0UElfTUE?oc=5",
-          "published_at": "2026-11-23T21:51:23+00:00",
+          "published_at": "2026-11-23T22:58:27+00:00",
           "paywalled": false
         },
         {
           "name": "Axios",
           "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPR2w1RHUweDlYalBHSkRKUWUxTmwxUjNBSHpXaDkwdERIN0oxZHVlMVpIODRSTG9FektLRDE1WkJqNWhCUUdENVZsdDNHSXJndFNWc1BFMmZZOTZ2VG95NDM5Y2dZZnFhVkRWSTNwdEdUS2pfUEtzMExJamZWS0EyQXRwbTk?oc=5",
-          "published_at": "2026-11-23T21:11:55+00:00",
+          "published_at": "2026-11-24T06:01:44+00:00",
           "paywalled": false
         }
       ],
       "lead_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOdkIzeGhIdlZKM1NTNnVWN3V1eHhyZEtkcU9zd2F6ZFpuc0ZyWUVScHRmT0I0VTU1NlFBYXFTc1U1NmVPSnVwWVZUS3dQd3ByRTg5MERGaUhheE15UFdpQWYtZ0ZYdTNMR3Nmb3BIN09KTHZYZm9yWVdqME03UGdqMHl6T0QtbjJCOGtSX0JQem16ZGotM2dsdXVaN3piZWNqZDhTb01hU2lKcmxFc1lqSlFPMkg?oc=5",
       "first_reported_at": "2026-11-23T23:50:00+00:00",
-      "update_count": 0,
-      "updated": false
+      "update_count": 1,
+      "updated": true
     },
     {
-      "id": "75754b5e7cf3",
-      "title": "Appeals court says federal law requiring accommodations for pregnant workers is unconstitutional",
-      "summary": "Appeals court says federal law requiring accommodations for pregnant workers is unconstitutional AP News",
-      "image": "",
-      "category": "US/Canada",
+      "id": "7d3a49c99081",
+      "title": "Nvidia value climbs by almost $1tn and tech stocks rally after Jensen Huang returns",
+      "summary": "The jump in Nvidia shares has also lifted stock markets, with the tech-heavy Nasdaq up 6.5%.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e297/live/7eb9d0a0-e776-11f1-a8a9-d7c9e8a923b4.jpg",
+      "category": "Tech",
       "importance": "Notable",
-      "score": 44.6,
-      "published_at": "2026-11-23T17:23:23+00:00",
-      "source_count": 1,
+      "score": 43.8,
+      "published_at": "2026-11-23T21:23:42+00:00",
+      "source_count": 2,
       "reasons": [
-        "high-impact event",
-        "large scale"
+        "significant public impact",
+        "large market move",
+        "2 trusted sources"
       ],
       "sources": [
         {
-          "name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNdFFoU1NWWlA1ajBycE9LdnJwM214TGZQUXZVV3NhcW5YdERjQm5vSkJDd0RrM05FUU9RNkkzZU1pUURCODA5RnI4WktsTk1nSFRtZXJmbnAyVTBrZkJNdHg2TVFaS1NHWFUyWDBvLWp3QTV4WjRDQkJRdzFheFVzQ3gxODc3bmc3R0xFYjVfX3NuSE9ndmZoenRB?oc=5",
-          "published_at": "2026-11-22T19:44:00+00:00",
+          "name": "Financial Times",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOY0VMY3VZRlBrNGs0bElpa1NJSEZtREllUzFhaGFRTWVNYXN0eVA3Y0hFMjdrRUtyekZnQ3RDRTVLdTNTNWlSRHdXMkRVeXFEX2tvczJxUVRVYjhRX0hSR0FabmJwMlBrZEhNeHBCS3kxcHladGtoQlFkOW5TMG81Y3RGODk?oc=5",
+          "published_at": "2026-11-23T14:04:54+00:00",
+          "paywalled": true
+        },
+        {
+          "name": "BBC Technology",
+          "url": "https://www.bbc.co.uk/news/articles/cq62pn6j42jko?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-11-23T21:23:42+00:00",
           "paywalled": false
         }
       ],
-      "lead_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNdFFoU1NWWlA1ajBycE9LdnJwM214TGZQUXZVV3NhcW5YdERjQm5vSkJDd0RrM05FUU9RNkkzZU1pUURCODA5RnI4WktsTk1nSFRtZXJmbnAyVTBrZkJNdHg2TVFaS1NHWFUyWDBvLWp3QTV4WjRDQkJRdzFheFVzQ3gxODc3bmc3R0xFYjVfX3NuSE9ndmZoenRB?oc=5",
-      "first_reported_at": "2026-11-23T14:13:13+00:00",
-      "update_count": 1,
+      "lead_url": "https://www.bbc.co.uk/news/articles/cq62pn6j42jko?at_medium=RSS&at_campaign=rss",
+      "first_reported_at": "2026-11-23T15:39:41+00:00",
+      "update_count": 7,
       "updated": true
     },
     {
@@ -215,47 +199,14 @@
       "updated": false
     },
     {
-      "id": "f15f7c9cce48",
-      "title": "US imposes sanctions on dozens linked to Iran's shadow banking networks",
-      "summary": "US imposes sanctions on dozens linked to Iran's shadow banking networks Reuters",
-      "image": "",
-      "category": "Middle East",
-      "importance": "Notable",
-      "score": 42.3,
-      "published_at": "2026-11-23T21:30:40+00:00",
-      "source_count": 2,
-      "reasons": [
-        "high-impact event",
-        "2 trusted sources"
-      ],
-      "sources": [
-        {
-          "name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxON2NaMVlXcGRFQ3BpRFVieGtVRzR4bXFtTXRTRnpSV3JmNzY1REhheG5xNlV5MlptZ1lIM1BQWUhGcTBZNWpHckdxZG1kWUZoZUdxSnRneHJhVzBpUzg0ZGpXQ1lQblItbHg5WXpNUXBqbHpWZ0NqZzdQZEdhNTZKbDZXaHNydXhYM05hd2YtY1lvU0JkVnJBQ3diRVNDV210Z0pZdm5mRnMtUEk4TTNkOXNDMGpvbmpD?oc=5",
-          "published_at": "2026-11-23T19:39:43+00:00",
-          "paywalled": false
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/23/us-escalates-sanctions-on-iran-targets-shadow-banking-networks?traffic_source=rss",
-          "published_at": "2026-11-23T21:30:40+00:00",
-          "paywalled": false
-        }
-      ],
-      "lead_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxON2NaMVlXcGRFQ3BpRFVieGtVRzR4bXFtTXRTRnpSV3JmNzY1REhheG5xNlV5MlptZ1lIM1BQWUhGcTBZNWpHckdxZG1kWUZoZUdxSnRneHJhVzBpUzg0ZGpXQ1lQblItbHg5WXpNUXBqbHpWZ0NqZzdQZEdhNTZKbDZXaHNydXhYM05hd2YtY1lvU0JkVnJBQ3diRVNDV210Z0pZdm5mRnMtUEk4TTNkOXNDMGpvbmpD?oc=5",
-      "first_reported_at": "2026-11-23T21:30:40+00:00",
-      "update_count": 0,
-      "updated": false
-    },
-    {
-      "id": "3bf980ccb33e",
-      "title": "Moscow accuses Estonia of hostile actions on 'verge of triggering open war'",
-      "summary": "Moscow accuses Estonia of hostile actions on 'verge of triggering open war' Reuters",
+      "id": "b1998df95fce",
+      "title": "UN food agency chief warns wars jeopardize food aid for 7.3 million more people",
+      "summary": "UN food agency chief warns wars jeopardize food aid for 7.3 million more people Reuters",
       "image": "",
       "category": "World",
       "importance": "Notable",
-      "score": 41.4,
-      "published_at": "2026-11-23T20:45:41+00:00",
+      "score": 41.8,
+      "published_at": "2026-11-24T07:52:44+00:00",
       "source_count": 2,
       "reasons": [
         "high-impact event",
@@ -264,52 +215,19 @@
       "sources": [
         {
           "name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOS3hoekpkTmwxcjE1NnNid3RFSXVsVGtob3A3dFNKVjRNZzVnaXMxRnV6N3pIellLeVdQRHNjUVpMR0R3aUpWaFV1MHBWRWljclZQbTdKakEzcUZ5cTBFNE5xVTlWSFNzTXlWN2tqRlpvbnk1M2RuUWRxclZMNmw2a01laUM0c09QNHRSY0c4amtsQS1XeV8zV3JCb2VFUzMwRUNqYVhrTHVIQQ?oc=5",
-          "published_at": "2026-11-23T20:45:41+00:00",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNOEZlNTVYYjRLZDhNc0FuOF9MV3B3MWFPcG9ya3lBZlFZS2gzc1E4ajR1aDFGamY5dlMwazdLVmxLaVFEWndoUjd3cWpkRDlkb3RSNTNqN0pCbFJQdXRPNEZTUFV1cnE4aExPZmgwTVB5UTIyZmNZbWRERC1XM25lVHVjU3gxdDNIN29UNy04cm1ramhmRlJscmZJVkhHRUlDMm9KRlIwTzRESnExVGJFajI0WEhPTVRtbVdpbXFLZnR6TXZJWTkxYWxYYw?oc=5",
+          "published_at": "2026-11-23T23:32:22+00:00",
           "paywalled": false
         },
         {
           "name": "Al Jazeera",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOT2tuUzB4em5zWEgwZUpEZ0szQ0R2ajRaWmgtN0JoX0RhOVFtcFUtWm13b2k5a083bjdjRTJnUVlLTEtadUFYRm5HQlh3aXFFWkNhT2JCaUJPWTJIWm1jcmJiUW4wakYyd3EzZHhOenBUX1lud0JvWVN4YmIyQURaVTBQUnRkeG1hd09OT3YzRzlmd9IBlwFBVV95cUxQZ3JmTVA1Q3FTaTBjMUZldjgwTHJpcXRYSHhoTXlUbnNNVTg3UUltZzd1eTNhc3hDYlZCOHdjdFluaUpRTlVuc1E2XzBKMmFwQVBFT2pqNDhPc1BDUG4xLUhhX2VIOHpWTnB0cm9heEthblZmemhjQ2U3WHExWS02WlRCc2JTQVlDVXpiMDBKcE1HTkk0YWVF?oc=5",
-          "published_at": "2026-11-23T19:22:59+00:00",
+          "url": "https://www.aljazeera.com/news/2026/11/24/wars-choke-global-food-routes-threatening-aid-for-7-3-million-wfp-warns?traffic_source=rss",
+          "published_at": "2026-11-24T07:52:44+00:00",
           "paywalled": false
         }
       ],
-      "lead_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOS3hoekpkTmwxcjE1NnNid3RFSXVsVGtob3A3dFNKVjRNZzVnaXMxRnV6N3pIellLeVdQRHNjUVpMR0R3aUpWaFV1MHBWRWljclZQbTdKakEzcUZ5cTBFNE5xVTlWSFNzTXlWN2tqRlpvbnk1M2RuUWRxclZMNmw2a01laUM0c09QNHRSY0c4amtsQS1XeV8zV3JCb2VFUzMwRUNqYVhrTHVIQQ?oc=5",
-      "first_reported_at": "2026-11-23T20:45:41+00:00",
-      "update_count": 0,
-      "updated": false
-    },
-    {
-      "id": "9489061b5bcc",
-      "title": "EU Commission proposes ban on Russian athletes, ex-fighters in new Russia sanctions package",
-      "summary": "EU Commission proposes ban on Russian athletes, ex-fighters in new Russia sanctions package Reuters",
-      "image": "",
-      "category": "Europe/UK",
-      "importance": "Notable",
-      "score": 41.1,
-      "published_at": "2026-11-23T23:26:16+00:00",
-      "source_count": 2,
-      "reasons": [
-        "high-impact event",
-        "2 trusted sources"
-      ],
-      "sources": [
-        {
-          "name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPb1A2RHl1RS1IaFcyWmlES0xYNW1lbnM5VlhwWVU5ajZhRVVBa0Mydi1OZG4tS0tCYVJKX1JiOUtmWlNTZVJmTGRTRlFtZTRXRTRxcXB1aGMya2JhWm41UXE5Y2pxTlFDNzVSQ2MyV0RPZzNoYlZtazdMX3RYRnB6VFFsaEFnTGI5RFk4TnczUE9aTXFqcGNxZ0psd1JUczRBNi1LSkpnVk8?oc=5",
-          "published_at": "2026-11-23T16:26:12+00:00",
-          "paywalled": false
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/23/eu-plans-sports-ban-in-sweeping-new-russia-sanctions-proposal?traffic_source=rss",
-          "published_at": "2026-11-23T23:26:16+00:00",
-          "paywalled": false
-        }
-      ],
-      "lead_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPb1A2RHl1RS1IaFcyWmlES0xYNW1lbnM5VlhwWVU5ajZhRVVBa0Mydi1OZG4tS0tCYVJKX1JiOUtmWlNTZVJmTGRTRlFtZTRXRTRxcXB1aGMya2JhWm41UXE5Y2pxTlFDNzVSQ2MyV0RPZzNoYlZtazdMX3RYRnB6VFFsaEFnTGI5RFk4TnczUE9aTXFqcGNxZ0psd1JUczRBNi1LSkpnVk8?oc=5",
-      "first_reported_at": "2026-11-23T23:26:16+00:00",
+      "lead_url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNOEZlNTVYYjRLZDhNc0FuOF9MV3B3MWFPcG9ya3lBZlFZS2gzc1E4ajR1aDFGamY5dlMwazdLVmxLaVFEWndoUjd3cWpkRDlkb3RSNTNqN0pCbFJQdXRPNEZTUFV1cnE4aExPZmgwTVB5UTIyZmNZbWRERC1XM25lVHVjU3gxdDNIN29UNy04cm1ramhmRlJscmZJVkhHRUlDMm9KRlIwTzRESnExVGJFajI0WEhPTVRtbVdpbXFLZnR6TXZJWTkxYWxYYw?oc=5",
+      "first_reported_at": "2026-11-24T07:52:44+00:00",
       "update_count": 0,
       "updated": false
     },
@@ -320,7 +238,7 @@
       "image": "",
       "category": "Stavanger/Rogaland",
       "importance": "Notable",
-      "score": 41.1,
+      "score": 40.8,
       "published_at": "2026-11-23T19:30:00+00:00",
       "source_count": 1,
       "reasons": [
@@ -342,14 +260,14 @@
       "updated": false
     },
     {
-      "id": "1d24ebfd079d",
-      "title": "Ukraine Sinks Russian Warship off Libyan Coast as War Widens",
-      "summary": "Ukraine Sinks Russian Warship off Libyan Coast as War Widens Bloomberg.com",
+      "id": "1b59f527c0c9",
+      "title": "India announces a $1.6 billion aid package for Nepal’s flood recovery",
+      "summary": "India announces a $1.6 billion aid package for Nepal’s flood recovery AP News",
       "image": "",
-      "category": "Europe/UK",
+      "category": "World",
       "importance": "Notable",
-      "score": 40.2,
-      "published_at": "2026-11-23T18:25:55+00:00",
+      "score": 40.5,
+      "published_at": "2026-11-24T01:50:09+00:00",
       "source_count": 2,
       "reasons": [
         "high-impact event",
@@ -357,20 +275,53 @@
       ],
       "sources": [
         {
-          "name": "Bloomberg.com",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNWTNScnRLbTBmUFlSREM2eE9QZFJnNVVzWDZKTVE2OTNMaHd1VnRqN3pWZnM3bC0zZlMyS3NwLVdqWGwxc3FBXzM4V2hVRWNQNkxnVlZxaXdSVElrRGo1ZjhmdG5aM3I0NlZEc2dUU3NSTkpRcFhrMzhVeEJVWFd0eHl0RTNySGRlWjRtNzVjS25RY0o3aDhsY0pCZl9SUmRIT3NNNi1qel9hX1F1bnBwYUNn?oc=5",
-          "published_at": "2026-11-23T17:17:51+00:00",
-          "paywalled": true
+          "name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQNTNPcnhTTndtR0F1d3haak1ZZWNEajF5eTQtb3JlV25oNlJFZ2ZCbk9xQ0x4M2ZwVnFRRWVCY1lNd1lScWp2cjJxR2pvQzRqX1gzbEREZVlTS2E4b0MyQXFRd3NPSzRRVU1ka2NtZXFGbWRxa185SkwtOWRmcFRCaXBVeS1HdWhIWFE?oc=5",
+          "published_at": "2026-11-23T08:46:00+00:00",
+          "paywalled": false
         },
         {
           "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/23/what-russian-warship-did-ukraine-just-sink?traffic_source=rss",
-          "published_at": "2026-11-23T18:25:55+00:00",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNdkxXYjZDcEV1OENMUFpwT2VQdFhnLXk0WlI5eEk3U3BuU0FjU2IzLVhOMHF3VjN4Rll3TlBMaEw2STl4OF94TFU4R1hZSEpiejBVaDJhRktPakRucm9CZEZ6ZHhJRVhuTmU5TVpSYW80MUtSRFlSczlacV9PM2dqWDliSHRWWTJNVkFoVkhzS0zSAZYBQVVfeXFMTUFuX0ZxSkliTGxLNm4zV3BWTFk2M0QyaTc0elRtOFhzdm5FVTlBeTNIQlh2TUU2UW1sOG5MNDhrQnp3UllfaUFSa0xSUk1SQmRmUEFHNUI2ajVEQWFXR2tidW41ZlJkNGtMb0FZcy10dFpOUEFrUzV6TGQyN19DQzc4YVpZYlpkSE05d3N4UzZmN0c5NTNR?oc=5",
+          "published_at": "2026-11-24T01:50:09+00:00",
           "paywalled": false
         }
       ],
-      "lead_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNWTNScnRLbTBmUFlSREM2eE9QZFJnNVVzWDZKTVE2OTNMaHd1VnRqN3pWZnM3bC0zZlMyS3NwLVdqWGwxc3FBXzM4V2hVRWNQNkxnVlZxaXdSVElrRGo1ZjhmdG5aM3I0NlZEc2dUU3NSTkpRcFhrMzhVeEJVWFd0eHl0RTNySGRlWjRtNzVjS25RY0o3aDhsY0pCZl9SUmRIT3NNNi1qel9hX1F1bnBwYUNn?oc=5",
-      "first_reported_at": "2026-11-23T18:25:55+00:00",
+      "lead_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQNTNPcnhTTndtR0F1d3haak1ZZWNEajF5eTQtb3JlV25oNlJFZ2ZCbk9xQ0x4M2ZwVnFRRWVCY1lNd1lScWp2cjJxR2pvQzRqX1gzbEREZVlTS2E4b0MyQXFRd3NPSzRRVU1ka2NtZXFGbWRxa185SkwtOWRmcFRCaXBVeS1HdWhIWFE?oc=5",
+      "first_reported_at": "2026-11-24T01:50:09+00:00",
+      "update_count": 0,
+      "updated": false
+    },
+    {
+      "id": "0da980e61d87",
+      "title": "Appeals court renews Trump bid for federal jurisdiction in hush-money case",
+      "summary": "The ruling could clear the way for Trump to argue prosecutors relied on evidence protected by presidential immunity.",
+      "image": "",
+      "category": "US/Canada",
+      "importance": "Notable",
+      "score": 40.1,
+      "published_at": "2026-11-24T01:17:48+00:00",
+      "source_count": 2,
+      "reasons": [
+        "high-impact event",
+        "2 trusted sources"
+      ],
+      "sources": [
+        {
+          "name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNcVdZZl9tRjc0WjhZbUY0NVZvdTRDQ01ZOTl4RmZUQndRR0ZHRmpkRVJ6ZjFCQzJYVml0cnoycjNWaW1rWWVENmJHbS1xaHZLc1U5azdFRmU4UmdDa0thQmlkeW9GZlhmeElDTS1NWXFHUmJPOFFBZU1rbml2dWxQQnRMVTMwSmxDTDFPQU92WTJBaUNEclZB?oc=5",
+          "published_at": "2026-11-24T01:00:00+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/24/appeals-court-renews-trump-bid-for-federal-jurisdiction-in-hush-money-case?traffic_source=rss",
+          "published_at": "2026-11-24T01:17:48+00:00",
+          "paywalled": false
+        }
+      ],
+      "lead_url": "https://www.aljazeera.com/news/2026/11/24/appeals-court-renews-trump-bid-for-federal-jurisdiction-in-hush-money-case?traffic_source=rss",
+      "first_reported_at": "2026-11-24T01:17:48+00:00",
       "update_count": 0,
       "updated": false
     },
@@ -402,29 +353,35 @@
       "updated": false
     },
     {
-      "id": "60d25c9f74c2",
-      "title": "Iran hits US bases and civilian sites in the Gulf after a lull",
-      "summary": "Tehran has ramped up attacks in recent days as the US naval blockade and sanctions campaign hurt the country.",
+      "id": "eacec030f0cb",
+      "title": "Suspected Ukrainian sea drones hit Russian warship at Benghazi naval base, Libyan officials say",
+      "summary": "Suspected Ukrainian sea drones hit Russian warship at Benghazi naval base, Libyan officials say AP News",
       "image": "",
-      "category": "Middle East",
+      "category": "Europe/UK",
       "importance": "Notable",
-      "score": 38.8,
-      "published_at": "2026-11-23T20:26:40+00:00",
-      "source_count": 1,
+      "score": 39.0,
+      "published_at": "2026-11-23T15:41:23+00:00",
+      "source_count": 2,
       "reasons": [
         "high-impact event",
-        "strategic chokepoint risk"
+        "2 trusted sources"
       ],
       "sources": [
         {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/inside-story/2026/11/23/iran-hits-us-bases-and-civilian-sites-in-the-gulf-after-a-lull?traffic_source=rss",
-          "published_at": "2026-11-23T20:26:40+00:00",
+          "name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNOEJrLWtkTl9ZY1lGN3JPaUNjSjVabFVGcnlERXpyYVdRNGN4OEtMOTVkczkzVDlhaWQxQ2xQdXdEak5oNkhBOWdrd01QV2hBYXlOZXV4Zl8weXpVNmxuMUlMM21sT2YwQjFqcjZIRlk4UmxQMUxPcTFRVjRQNFpqdzl4NjNodnZicldRLWRlV2R1allIR1BpM2x3?oc=5",
+          "published_at": "2026-11-22T19:40:00+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "BBC",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5RYTdJa3FLUUotRjRtWmFYcWsyT29UT0FCVDUycVp4MmlCMUkzUVR3cVJUVTJWNDlQX0JLbk01S29SZEtLM0lXZHdzX2U4N2JBVDdhVjN2TEdlczg?oc=5",
+          "published_at": "2026-11-23T15:41:23+00:00",
           "paywalled": false
         }
       ],
-      "lead_url": "https://www.aljazeera.com/video/inside-story/2026/11/23/iran-hits-us-bases-and-civilian-sites-in-the-gulf-after-a-lull?traffic_source=rss",
-      "first_reported_at": "2026-11-23T20:26:40+00:00",
+      "lead_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNOEJrLWtkTl9ZY1lGN3JPaUNjSjVabFVGcnlERXpyYVdRNGN4OEtMOTVkczkzVDlhaWQxQ2xQdXdEak5oNkhBOWdrd01QV2hBYXlOZXV4Zl8weXpVNmxuMUlMM21sT2YwQjFqcjZIRlk4UmxQMUxPcTFRVjRQNFpqdzl4NjNodnZicldRLWRlV2R1allIR1BpM2x3?oc=5",
+      "first_reported_at": "2026-11-23T15:41:23+00:00",
       "update_count": 0,
       "updated": false
     }
