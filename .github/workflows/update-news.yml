@@ -80,6 +80,18 @@ jobs:
           result=n.apply_continuity(payload,previous)["stories"][0]
           assert result.get("coverage_momentum",{}).get("new_sources")==2, result
           assert result["score"]>40, result
+
+          rewritten_old={
+              "id":"rewrite-test","title":"Aurelia Systems value jumps after Mira Chen returns as CEO",
+              "summary":"","category":"Tech","published_at":prev_at,
+              "first_reported_at":prev_at,"sources":[{"name":"Reuters"},{"name":"BBC"}],
+          }
+          rewritten_new={
+              "id":"other","title":"Why Aurelia reinstated Mira Chen as chief executive",
+              "summary":"","category":"Tech","published_at":now,
+              "sources":[{"name":"Reuters"},{"name":"BBC"},{"name":"AP News"}],
+          }
+          assert n.match_previous_story(rewritten_new,[rewritten_old]) is rewritten_old
           PY
       - name: Collect and rank
         run: python scripts/update_news.py
