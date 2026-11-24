@@ -105,5 +105,29 @@ class ContextTests(unittest.TestCase):
             n.add_story_context({"stories":[story()]},old,[])
             self.assertEqual(fetch.call_count,1)
 
+    def test_real_headline_regression_retains_reuters_context(self):
+        current=dict(story(),title="Nvidia value climbs by almost $1tn and tech stocks rally after Jensen Huang returns")
+        prior=article("Wall Street rebounds as Jensen Huang returns as Nvidia CEO",24,"reuters")
+        result=n.add_story_context({"stories":[current]},{"context_archive":[prior]},[],discover=False)
+        self.assertEqual(result["stories"][0]["context"]["earlier_reporting"][0]["url"],prior["url"])
+        self.assertFalse(n.context_related(current["title"],"Nvidia Jensen Huang discusses new chip architecture"))
+        self.assertIn("returns",n.context_query(current["title"]))
+
+    def test_notable_stories_receive_background_search(self):
+        current=dict(story(),importance="Notable",score=41)
+        with patch.object(n,"fetch",return_value=[]) as fetch:
+            result=n.add_story_context({"stories":[current]}, {},[])
+            self.assertEqual(fetch.call_count,1)
+            self.assertEqual(result["stories"][0]["context"]["search_status"],"searched")
+
+    def test_retrospective_has_priority_and_original_date(self):
+        recap=dict(story(),id="recap",title="A year on, what to know about Port Azure’s deadly fire",importance="Notable",score=40,background_only=True)
+        others=[dict(story(),id=str(i),score=100-i) for i in range(8)]
+        with patch.object(n,"fetch",return_value=[]) as fetch:
+            result=n.add_story_context({"stories":others+[recap]}, {},[])
+            self.assertIn("recap",result["context_checks"])
+            self.assertIn("after%3A",fetch.call_args_list[0].args[0])
+            self.assertIn("before%3A",fetch.call_args_list[0].args[0])
+
 if __name__=="__main__":
     unittest.main()

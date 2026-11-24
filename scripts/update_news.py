@@ -486,6 +486,7 @@ def consolidate_selected(stories,E):
         for m in merged:
             j=m.get("_lead_index")
             if i is None or j is None:continue
+            if bool(s.get("background_only"))!=bool(m.get("background_only")):continue
             same_cat=(s["category"]==m["category"]) or "World" in (s["category"],m["category"])
             if not same_cat:continue
             try:
@@ -534,8 +535,12 @@ def build(a):
     for ids in cluster(a,E,mode):
         group=[a[i] for i in ids]
         factual_ids=[i for i in ids if not is_analysis_headline(a[i]["title"])]
-        # Analysis-only clusters cannot become standalone event cards.
-        if not factual_ids:continue
+        # A trusted, consequential historical recap may appear as Background, not breaking news.
+        background_only=False
+        if not factual_ids:
+            factual_ids=[i for i in ids if retrospective_only(a[i]["title"]) and trusted_source(a[i]["source"])]
+            if not factual_ids:continue
+            background_only=True
         trusted_ids=[i for i in factual_ids if trusted_source(a[i]["source"])]
         lead_pool=trusted_ids or factual_ids
         lead_i=max(lead_pool,key=lambda i:(score(a[i]["title"]+" "+a[i]["summary"],a[i]["weight"],float(anchor[i]))[0],a[i]["published_at"]))
@@ -569,6 +574,10 @@ def build(a):
         else:
             if sc<SET["minimum_score"]:continue
             if not trusted_names and sc<46:continue
+        if background_only:
+            # It passed the ordinary significance gate above; separate old impact from current news.
+            sc=min(sc,40.0)
+            reasons=["historical background, not a new event"]
         display_group=[x for x in group if trusted_source(x["source"])] or group
         src=[]; seen=set(); seen_names=set()
         for x in sorted(display_group,key=lambda q:(q["weight"],q["published_at"]),reverse=True):
@@ -583,7 +592,7 @@ def build(a):
             brief_candidates=[x.get("summary","").strip() for x in display_group if source_family(x["source"])==source_family(lead["source"]) and len(x.get("summary","").strip())>=60]
             brief=(brief_candidates[0][:360] if brief_candidates else lead_summary[:360])
         image=lead.get("image","") or next((x.get("image","") for x in display_group if source_family(x["source"])==source_family(lead["source"]) and x.get("image")), "")
-        out.append({"id":sid(lead["title"]),"title":lead["title"],"summary":brief,"image":image,"category":cat,"importance":importance_level(sc,reasons,alltext),"score":round(sc,1),"published_at":max(x["published_at"] for x in group),"source_count":len(trusted_names) if trusted_names else len(coverage_names),"reasons":list(dict.fromkeys(reasons))[:4],"sources":src[:8],"lead_url":lead["url"],"_lead_index":lead_i})
+        out.append({"id":sid(lead["title"]),"title":lead["title"],"summary":brief,"image":image,"category":cat,"importance":"Notable" if background_only else importance_level(sc,reasons,alltext),"background_only":background_only,"score":round(sc,1),"published_at":max(x["published_at"] for x in group),"source_count":len(trusted_names) if trusted_names else len(coverage_names),"reasons":list(dict.fromkeys(reasons))[:4],"sources":src[:8],"lead_url":lead["url"],"_lead_index":lead_i})
     out=consolidate_selected(out,E)
     out.sort(key=lambda x:(x["score"],x["published_at"]),reverse=True)
     return {"generated_at":NOW.isoformat(),"model_mode":mode,"stories":out[:SET["top_story_limit"]],"watchlist":WATCH.get("events",[])}
@@ -675,7 +684,7 @@ def apply_continuity(payload, previous):
                 if baseline is None or ht<dateparser.parse(baseline["at"]):
                     baseline=h
 
-        if baseline:
+        if baseline and not s.get("background_only"):
             elapsed=max(0.01,(run_time-dateparser.parse(baseline["at"])).total_seconds()/3600)
             growth=max(0,current_count-int(baseline.get("source_count",0)))
             if growth>=momentum_min:
@@ -699,9 +708,9 @@ CONTEXT_DAYS=7300
 CONTEXT_ARCHIVE_LIMIT=500
 CONTEXT_REPORT_LIMIT=6
 CONTEXT_QUERY_LIMIT=6
-CONTEXT_QUERY_VERSION=2
-CONTEXT_STOP=set("a an the year years month months week weeks day days on ago later after before since anniversary about what know why how who when where this that these those here there deadly killed kills death deaths people latest update updates news report reports reporting says said more much new old first look looking back remember remembering last next today yesterday live breaking explained explainer guide timeline world".split())
-CONTEXT_EVENTS=set("fire blaze explosion blast crash derailment flood earthquake tsunami wildfire hurricane cyclone landslide conflict war invasion ceasefire blockade sanctions election referendum coup protest strike outbreak epidemic pandemic refinery takeover acquisition merger lawsuit trial inquiry investigation accident disaster cyberattack ransomware outage breach bankruptcy collapse resignation assassination shooting".split())
+CONTEXT_QUERY_VERSION=3
+CONTEXT_STOP=set("a an the as at by of in to for from and or with into through over under its their his her is are was were be been being has have had can could would should will may might year years month months week weeks day days on ago later after before since anniversary about what know why how who when where this that these those here there deadly killed kills death deaths people latest update updates news report reports reporting says said more much new old first look looking back remember remembering last next today yesterday live breaking explained explainer guide timeline world suspected allegedly alleged officials official chief rep representative minister president democratic republican three two four five six seven eight nine ten dozens least".split())
+CONTEXT_EVENTS=set("fire blaze explosion blast crash derailment flood earthquake tsunami wildfire hurricane cyclone landslide conflict war invasion ceasefire blockade sanctions election referendum coup protest strike outbreak epidemic pandemic refinery takeover acquisition merger lawsuit trial inquiry investigation accident disaster cyberattack ransomware outage breach bankruptcy collapse resignation assassination shooting returns reinstatement leadership market valuation stocks shares military warship drones spaceflight astronaut safety framework suicide mortality aid hunger famine".split())
 CONTEXT_EQUIVALENTS={"blaze":"fire","fires":"fire","explosions":"explosion","blast":"explosion","crashes":"crash","flooding":"flood","earthquakes":"earthquake","protests":"protest","elections":"election","investigations":"investigation","inquiries":"inquiry","mergers":"merger","acquisitions":"acquisition","takeovers":"takeover","sanction":"sanctions"}
 
 def context_date(raw):
@@ -737,6 +746,8 @@ def context_related(title,other,anchored=False):
     entities=context_entities(title)&context_entities(other)
     ov=len(shared)/max(1,min(len(a),len(b)))
     specific=shared-entities-CONTEXT_EVENTS
+    # A shared action/domain word plus multiple named anchors is strong evidence.
+    if len(entities)>=3 and len(shared)>=4 and (shared-entities):return True
     if len(shared)>=3 and ((len(entities)>=2 and ov>=.45 and (specific or len(shared)>=4)) or
         (len(entities)>=1 and len(shared)>=4 and ov>=.65) or
         (len(shared)>=5 and ov>=.85)):
@@ -752,10 +763,10 @@ def context_query(title):
     events=[w for w in words if w in CONTEXT_EVENTS and w not in named]
     if not named and not events:return ""
     # Keep short, high-information event nouns (e.g. fire, war, coup).
-    terms=named[:3]+events[:2]
+    terms=named[:4]+events[:2]
     for word in words:
-        if word not in terms and len(terms)<3:terms.append(word)
-    return " ".join(terms[:5]) if len(terms)>=2 else ""
+        if word not in terms and len(terms)<4:terms.append(word)
+    return " ".join(terms[:6]) if len(terms)>=2 else ""
 
 def context_plan(title,date):
     age=retrospective_age(title)
@@ -831,13 +842,12 @@ def add_story_context(payload,previous,articles,discover=True):
         work.append(dict(story=story,date=date,query=query,plans=plans,stage=stage,last=last,due=due,key=key,candidates=candidates,
                          horizon=horizon,anchor_start=anchor_start,anchor_end=anchor_end,urls=urls))
     def priority(w):
-        return (w["last"] is not None,w["last"] or datetime.min.replace(tzinfo=timezone.utc),bool(w["candidates"]),-w["story"].get("score",0))
+        return (w["last"] is not None,w["last"] or datetime.min.replace(tzinfo=timezone.utc),bool(w["candidates"]),not bool(w["anchor_start"]),-w["story"].get("score",0))
     queries=0
     for w in sorted(work,key=priority):
         story=w["story"];title=story["title"];query=w["query"];stage=w["stage"];plans=w["plans"];candidates=w["candidates"]
         # Background eligibility is broader than top-story ranking.
-        if not (discover and w["key"] and query and w["due"] and queries<CONTEXT_QUERY_LIMIT
-                and (story.get("importance") in ("Major","Critical") or story.get("updated") or retrospective_age(title) or candidates)):
+        if not (discover and w["key"] and query and w["due"] and queries<CONTEXT_QUERY_LIMIT):
             continue
         if len({r["url"] for r in candidates})>=3 and not w["anchor_start"]:continue
         queries+=1
