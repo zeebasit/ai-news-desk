@@ -38,6 +38,49 @@ jobs:
         run: pip install --index-url https://download.pytorch.org/whl/cpu torch==2.5.1
       - name: Install dependencies
         run: pip install -r requirements.txt
+      - name: Validate scoring helpers
+        run: |
+          python - <<'PY'
+          from datetime import timedelta
+          import scripts.update_news as n
+
+          pts,reasons=n.generic_quantified_signals("Company market value climbs by almost $1tn")
+          assert "major market-value change" in reasons and pts >= 18, (pts,reasons)
+
+          now=n.NOW.isoformat()
+          group=[
+              {"source":"Reuters","published_at":now},
+              {"source":"AP News","published_at":now},
+          ]
+          pts,reasons,trusted=n.cluster_consensus_evidence(group)
+          assert len(trusted)==2
+          assert abs(pts-float(n.EW.get("trusted_source_consensus",5))) < 0.01, pts
+
+          prev_at=(n.NOW-timedelta(hours=1)).isoformat()
+          previous={
+              "generated_at":prev_at,
+              "stories":[{
+                  "id":"test-event","title":"Test event expands","summary":"",
+                  "category":"World","importance":"Notable","score":40,
+                  "published_at":prev_at,"source_count":1,
+                  "reasons":[],"sources":[{"name":"Reuters"}],
+                  "first_reported_at":prev_at,"update_count":0,
+                  "coverage_history":[{"at":prev_at,"source_count":1}],
+              }]
+          }
+          payload={
+              "generated_at":now,
+              "stories":[{
+                  "id":"new-id","title":"Test event expands","summary":"",
+                  "category":"World","importance":"Notable","score":40,
+                  "published_at":now,"source_count":3,
+                  "reasons":[],"sources":[{"name":"Reuters"},{"name":"AP News"},{"name":"BBC"}],
+              }]
+          }
+          result=n.apply_continuity(payload,previous)["stories"][0]
+          assert result.get("coverage_momentum",{}).get("new_sources")==2, result
+          assert result["score"]>40, result
+          PY
       - name: Collect and rank
         run: python scripts/update_news.py
       - name: Commit changed data
