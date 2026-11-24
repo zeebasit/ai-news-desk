@@ -25,6 +25,7 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
+          # Self-edits force a one-time full-path validation.
           if [ "${{ github.event_name }}" = "push" ]; then
             echo "Watchdog self-test: forcing one refresh to validate the reusable workflow path."
             echo "stale=true" >> "$GITHUB_OUTPUT"
