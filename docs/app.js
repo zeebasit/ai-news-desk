@@ -36,7 +36,7 @@ function meaningfulSummary(s){
 }
 function mediaHtml(s){
   if(!s.image)return "";
-  return '<div class="card-media has-image"><img src="'+esc(s.image)+'" alt="" loading="lazy" referrerpolicy="no-referrer"><div class="card-media-overlay"></div><div class="card-overlay-row"><div class="badges"><span class="badge '+esc(s.importance)+'">'+esc(s.importance)+'</span><span class="badge category">'+esc(s.category)+'</span>'+(s.updated?'<span class="badge Updated">Updated</span>':'')+'</div><span class="age">'+rel(s.published_at)+'</span></div></div>';
+  return '<div class="card-media has-image"><img src="'+esc(s.image)+'" alt="" loading="lazy" referrerpolicy="no-referrer"><div class="card-media-overlay"></div><div class="card-overlay-row"><div class="badges"><span class="badge '+esc(s.importance)+'">'+esc(s.background_only?"Background":s.importance)+'</span><span class="badge category">'+esc(s.category)+'</span>'+(s.updated?'<span class="badge Updated">Updated</span>':'')+'</div><span class="age">'+rel(s.published_at)+'</span></div></div>';
 }
 function noMediaTop(s){
   if(s.image)return "";
@@ -44,17 +44,17 @@ function noMediaTop(s){
 }
 function contextHtml(s){
   const context=s.context||{},reports=Array.isArray(context.earlier_reporting)?context.earlier_reporting:[];
-  if(!reports.length&&!s.updated&&!["Major","Critical"].includes(s.importance))return "";
+  // Context eligibility must not depend on editorial importance.
   const safeUrl=u=>{try{const x=new URL(u);return ["https:","http:"].includes(x.protocol)?esc(x.href):""}catch(e){return ""}};
   const dateLabel=d=>{const x=new Date(d);return Number.isNaN(x.getTime())?"Date unavailable":x.toLocaleDateString("en-GB",{day:"numeric",month:"short",year:"numeric",timeZone:"UTC"})};
   const items=reports.filter(x=>safeUrl(x.url)).map(x=>'<li><time datetime="'+esc(x.published_at)+'">'+esc(dateLabel(x.published_at))+' · '+esc(x.source)+'</time><a href="'+safeUrl(x.url)+'" target="_blank" rel="noopener noreferrer">'+esc(x.title)+'</a></li>').join("");
   const lead=safeUrl(s.lead_url);
   const searchDays=Math.max(30,Math.min(7300,Number(context.search_days)||730));
-  const emptyText=context.search_status==="queued"?"Historical search is queued. Earlier reports may appear after subsequent refreshes.":"No earlier reporting has been matched reliably so far. The search may broaden on subsequent refreshes.";
+  const emptyText=(!context.search_status||context.search_status==="queued")?"Historical search is queued. Earlier reports may appear after subsequent refreshes.":"No earlier reporting has been matched reliably so far. The search may broaden on subsequent refreshes.";
   const searchNote=context.searched_days?"Historical search attempted: within the past "+Number(context.searched_days)+" days.":"";
   const searchRange=searchDays<=30?" when:30d":" after:"+new Date(Date.now()-searchDays*86400000).toISOString().slice(0,10);
   return '<details class="story-context"><summary>Understand the story</summary><div class="context-body">'+
-    '<h4>Latest reported development</h4><p>'+ (lead?'<a href="'+lead+'" target="_blank" rel="noopener noreferrer">'+esc(s.title)+'</a>':esc(s.title))+'</p>'+
+    '<h4>'+(s.background_only?'Current background report':'Latest reported development')+'</h4><p>'+ (lead?'<a href="'+lead+'" target="_blank" rel="noopener noreferrer">'+esc(s.title)+'</a>':esc(s.title))+'</p>'+
     '<h4>Earlier reporting &amp; background</h4>'+
     (items?'<ol class="context-timeline">'+items+'</ol>':'<p>'+esc(emptyText)+'</p>')+
     (searchNote?'<p class="context-note">'+esc(searchNote)+'</p>':'')+
