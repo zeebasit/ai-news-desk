@@ -12,7 +12,10 @@
       "quantified_scale": 10,
       "local_relevance": 8,
       "semantic_impact": 12
-    }
+    },
+    "coverage_momentum_window_hours": 3,
+    "coverage_momentum_min_new_sources": 2,
+    "coverage_history_hours": 12
   },
   "direct_feeds": [
     {
