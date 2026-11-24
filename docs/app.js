@@ -49,12 +49,16 @@ function contextHtml(s){
   const dateLabel=d=>{const x=new Date(d);return Number.isNaN(x.getTime())?"Date unavailable":x.toLocaleDateString("en-GB",{day:"numeric",month:"short",year:"numeric",timeZone:"UTC"})};
   const items=reports.filter(x=>safeUrl(x.url)).map(x=>'<li><time datetime="'+esc(x.published_at)+'">'+esc(dateLabel(x.published_at))+' · '+esc(x.source)+'</time><a href="'+safeUrl(x.url)+'" target="_blank" rel="noopener noreferrer">'+esc(x.title)+'</a></li>').join("");
   const lead=safeUrl(s.lead_url);
+  const searchDays=Math.max(30,Math.min(7300,Number(context.search_days)||730));
+  const emptyText=context.search_status==="queued"?"Historical search is queued. Earlier reports may appear after subsequent refreshes.":"No earlier reporting has been matched reliably so far. The search may broaden on subsequent refreshes.";
+  const searchNote=context.searched_days?"Historical search attempted: up to "+Number(context.searched_days)+" days.":"";
   return '<details class="story-context"><summary>Understand the story</summary><div class="context-body">'+
     '<h4>Latest reported development</h4><p>'+ (lead?'<a href="'+lead+'" target="_blank" rel="noopener noreferrer">'+esc(s.title)+'</a>':esc(s.title))+'</p>'+
     '<h4>Earlier reporting &amp; background</h4>'+
-    (items?'<ol class="context-timeline">'+items+'</ol>':'<p>Earlier reporting has not been matched reliably yet. Use the background search below to explore the story.</p>')+
+    (items?'<ol class="context-timeline">'+items+'</ol>':'<p>'+esc(emptyText)+'</p>')+
+    (searchNote?'<p class="context-note">'+esc(searchNote)+'</p>':'')+
     '<p class="context-note">Dates refer to publication, not necessarily when events occurred. Related headlines are not a verified explanation of causes or a complete event timeline.</p>'+
-    '<a class="context-search" target="_blank" rel="noopener noreferrer" href="https://news.google.com/search?q='+esc(encodeURIComponent((context.search_query||s.title)+" when:30d"))+'">Search for further background reporting ↗</a>'+
+    '<a class="context-search" target="_blank" rel="noopener noreferrer" href="https://news.google.com/search?q='+esc(encodeURIComponent((context.search_query||s.title)+" when:"+searchDays+"d"))+'">Search for further background reporting ↗</a>'+
     '</div></details>';
 }
 function storyCard(s){
