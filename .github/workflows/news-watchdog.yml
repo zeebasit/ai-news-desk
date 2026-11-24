@@ -1,0 +1,62 @@
+name: News freshness watchdog
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "12,27,42,57 * * * *"
+
+permissions:
+  contents: write
+  actions: read
+
+jobs:
+  freshness:
+    runs-on: ubuntu-latest
+    outputs:
+      stale: ${{ steps.check.outputs.stale }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check feed age and active refreshes
+        id: check
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          active="$(gh api "repos/${GITHUB_REPOSITORY}/actions/workflows/update-news.yml/runs?status=in_progress&per_page=10" --jq '.total_count' 2>/dev/null || echo 0)"
+          if [ "${active:-0}" -gt 0 ]; then
+            echo "Update workflow already running; watchdog will not duplicate it."
+            echo "stale=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          python - <<'PY'
+          import json, os
+          from datetime import datetime, timezone
+          from pathlib import Path
+
+          path=Path("docs/data/news.json")
+          stale=True
+          age_minutes=None
+          try:
+              data=json.loads(path.read_text(encoding="utf-8"))
+              raw=data.get("generated_at","")
+              generated=datetime.fromisoformat(raw.replace("Z","+00:00"))
+              if generated.tzinfo is None:
+                  generated=generated.replace(tzinfo=timezone.utc)
+              age_minutes=(datetime.now(timezone.utc)-generated.astimezone(timezone.utc)).total_seconds()/60
+              stale=age_minutes>=50
+          except Exception as exc:
+              print(f"Could not determine feed freshness: {exc}")
+
+          if age_minutes is not None:
+              print(f"Feed age: {age_minutes:.1f} minutes")
+          print("Watchdog refresh required:", stale)
+          with open(os.environ["GITHUB_OUTPUT"],"a",encoding="utf-8") as fh:
+              fh.write(f"stale={'true' if stale else 'false'}\n")
+          PY
+
+  refresh:
+    needs: freshness
+    if: needs.freshness.outputs.stale == 'true'
+    uses: ./.github/workflows/update-news.yml
+    permissions:
+      contents: write
