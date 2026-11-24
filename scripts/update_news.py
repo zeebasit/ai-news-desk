@@ -734,7 +734,8 @@ def context_related(title,other,anchored=False):
     shared=a&b
     entities=context_entities(title)&context_entities(other)
     ov=len(shared)/max(1,min(len(a),len(b)))
-    if len(shared)>=3 and ((len(entities)>=2 and ov>=.45) or
+    specific=shared-entities-CONTEXT_EVENTS
+    if len(shared)>=3 and ((len(entities)>=2 and ov>=.45 and (specific or len(shared)>=4)) or
         (len(entities)>=1 and len(shared)>=4 and ov>=.65) or
         (len(shared)>=5 and ov>=.85)):
         return True
@@ -809,7 +810,7 @@ def add_story_context(payload,previous,articles,discover=True):
             anchored=bool(anchor_start and anchor_start<=dt<=anchor_end)
             # Explicit opinion is not evidence; factual explainers may be useful background.
             return (report["url"] not in urls and date-timedelta(days=horizon)<=dt<=date-timedelta(hours=6)
-                and set(context_words(title))!=set(context_words(report["title"]))
+                and toks(title)!=toks(report["title"])
                 and context_related(title,report["title"],anchored)
                 and not re.search(r"^(?:opinion|editorial|commentary)\s*[:—–-]",report["title"],re.I))
         candidates=[r for r in list(archive.values())+recent if eligible(r)]
@@ -846,7 +847,7 @@ def add_story_context(payload,previous,articles,discover=True):
                 if start and not start<=dt<=end:continue
                 anchored=bool(w["anchor_start"] and w["anchor_start"]<=dt<=w["anchor_end"])
                 if (report["url"] not in w["urls"] and w["date"]-timedelta(days=w["horizon"])<=dt<=w["date"]-timedelta(hours=6)
-                    and set(context_words(title))!=set(context_words(report["title"]))
+                    and toks(title)!=toks(report["title"])
                     and context_related(title,report["title"],anchored)
                     and not re.search(r"^(?:opinion|editorial|commentary)\s*[:—–-]",report["title"],re.I)):
                     matches.append(report)
@@ -854,8 +855,8 @@ def add_story_context(payload,previous,articles,discover=True):
         except Exception as exc:
             print("[warn] context discovery",exc,file=sys.stderr)
         checks[w["key"]]={"version":CONTEXT_QUERY_VERSION,"query":query,"at":NOW.isoformat(),
-            "stage":stage if matches else min(stage+1,len(plans)-1),
-            "matched":bool(matches),"exhausted":not matches and stage==len(plans)-1,
+            "stage":min(stage+1,len(plans)-1) if start or not matches else stage,
+            "matched":bool(matches) and not bool(start),"exhausted":not matches and stage==len(plans)-1,
             "searched_days":days}
     for w in work:
         unique={}
