@@ -401,9 +401,31 @@ def general_event_signals(text):
     # Cap the contribution to avoid stacking correlated evidence.
     return max(p for p,_ in matches),[reason for _,reason in matches]
 
+def retrospective_age(title):
+    """Approximate explicitly stated elapsed time; never infer the event date as fact."""
+    t=title.lower()
+    units={"day":1,"week":7,"month":30,"year":365,"decade":3650}
+    numbers={"a":1,"an":1,"one":1,"two":2,"three":3,"four":4,"five":5,"six":6,"seven":7,"eight":8,"nine":9,"ten":10}
+    m=re.search(r"\b(\d+|a|an|one|two|three|four|five|six|seven|eight|nine|ten)[ -]+(day|week|month|year|decade)s?\s+(?:on\b|later\b|ago\b|after\b|since\b)",t)
+    if not m:
+        m=re.search(r"\b(\d+|one|two|three|four|five|six|seven|eight|nine|ten)[ -]+(day|week|month|year|decade)s?[- ]anniversary\b",t)
+    if m:
+        n=int(m[1]) if m[1].isdigit() else numbers[m[1]]
+        return min(7300,n*units[m[2]])
+    if re.search(r"\b(?:first anniversary|one-year anniversary|last year)\b",t):return 365
+    return None
+
+def retrospective_only(title):
+    t=title.lower()
+    marker=retrospective_age(t) is not None or bool(re.search(r"\b(?:on the anniversary|looking back|in retrospect|remembering|anniversary of)\b",t))
+    if not marker:return False
+    # A current decision, finding, legal action, or measurable change remains newsworthy.
+    new_action=re.search(r"\b(?:finds?|concludes?|releases?|publishes?|issues?|orders?|rules?|charges?|arrests?|convicts?|sentences?|announces?|approves?|rejects?|resigns?|opens?|launches?|agrees?|signs?|begins?|starts?|resumes?|reveals?|confirms?|unveils?|votes?|reopens?|completes?|submits?|increases?|falls?|rises?)\b",t)
+    return not new_action
+
 def is_analysis_headline(title):
     t=title.lower().strip()
-    return bool(re.search(r"^(?:analysis|opinion|editorial|commentary|explainer|fact check)\s*[:—–-]",t)
+    return retrospective_only(title) or bool(re.search(r"^(?:analysis|opinion|editorial|commentary|explainer|fact check)\s*[:—–-]",t)
         or re.search(r"^(?:why|how|what)\b.*\b(?:means?|matters?|could mean|to know|to expect|comes? next|happens? next)\b",t)
         or re.search(r"^(?:here['’]s what|here is what|what we know|what you need to know)\b",t))
 
@@ -670,12 +692,15 @@ def apply_continuity(payload, previous):
     payload["stories"].sort(key=lambda x:(x.get("score",0),x.get("published_at","")),reverse=True)
     return payload
 
-# Story Context is a read-only enrichment of selected stories. It never alters
-# scores, categories, story IDs, timestamps or the selected set.
-CONTEXT_DAYS=30
-CONTEXT_ARCHIVE_LIMIT=300
+# Context enrichment does not change ranking or the selected set.
+CONTEXT_DAYS=7300
+CONTEXT_ARCHIVE_LIMIT=500
 CONTEXT_REPORT_LIMIT=6
 CONTEXT_QUERY_LIMIT=6
+CONTEXT_QUERY_VERSION=2
+CONTEXT_STOP=set("a an the year years month months week weeks day days on ago later after before since anniversary about what know why how who when where this that these those here there deadly killed kills death deaths people latest update updates news report reports reporting says said more much new old first look looking back remember remembering last next today yesterday live breaking explained explainer guide timeline world".split())
+CONTEXT_EVENTS=set("fire blaze explosion blast crash derailment flood earthquake tsunami wildfire hurricane cyclone landslide conflict war invasion ceasefire blockade sanctions election referendum coup protest strike outbreak epidemic pandemic refinery takeover acquisition merger lawsuit trial inquiry investigation accident disaster cyberattack ransomware outage breach bankruptcy collapse resignation assassination shooting".split())
+CONTEXT_EQUIVALENTS={"blaze":"fire","fires":"fire","explosions":"explosion","blast":"explosion","crashes":"crash","flooding":"flood","earthquakes":"earthquake","protests":"protest","elections":"election","investigations":"investigation","inquiries":"inquiry","mergers":"merger","acquisitions":"acquisition","takeovers":"takeover","sanction":"sanctions"}
 
 def context_date(raw):
     try:
@@ -690,7 +715,6 @@ def context_report(item):
     sources=item.get("sources",[])
     lead_source=next((x for x in sources if x.get("url")==url),{})
     source=item.get("source") or lead_source.get("name","")
-    # A publication date is not necessarily the date the event happened.
     date=context_date(lead_source.get("published_at") or item.get("published_at"))
     if not title or not date or not trusted_source(source) or urlparse(url).scheme not in ("http","https") or not urlparse(url).netloc:
         return None
@@ -698,36 +722,62 @@ def context_report(item):
         return None
     return {"title":title[:400],"source":source,"url":url,"published_at":date.isoformat()}
 
-def context_related(title,other):
-    a,b=toks(title),toks(other)
+def context_words(title):
+    return list(dict.fromkeys(CONTEXT_EQUIVALENTS.get(w,w) for w in re.findall(r"[^\W\d_]+",title.lower(),re.UNICODE)
+                              if len(w)>=2 and w not in CONTEXT_STOP))
+
+def context_entities(title):
+    return {w for w in entityish(title) if w not in CONTEXT_STOP and w not in CONTEXT_EVENTS}
+
+def context_related(title,other,anchored=False):
+    a,b=set(context_words(title)),set(context_words(other))
     shared=a&b
-    entities=entityish(title)&entityish(other)
+    entities=context_entities(title)&context_entities(other)
     ov=len(shared)/max(1,min(len(a),len(b)))
-    # Require specific lexical evidence as well as entities; same topic alone is insufficient.
-    return len(shared)>=3 and ((len(entities)>=2 and ov>=.45) or
+    if len(shared)>=3 and ((len(entities)>=2 and ov>=.45) or
         (len(entities)>=1 and len(shared)>=4 and ov>=.65) or
-        (len(shared)>=5 and ov>=.85))
+        (len(shared)>=5 and ov>=.85)):
+        return True
+    # Date-anchored historical search can match shorter original headlines.
+    # Location/entity plus event alone is NOT sufficient outside that date window.
+    return anchored and len(entities)>=2 and bool(shared&CONTEXT_EVENTS) and len(shared)>=3
 
 def context_query(title):
-    entities=entityish(title)
-    terms=[]
-    for word in re.findall(r"[A-Za-zÆØÅæøå0-9.-]+",title):
-        low=word.lower().strip(".")
-        if low in entities and low not in terms and low in toks(title):
-            terms.append(low)
-    if not terms:return ""
-    # Focus on entities and distinctive headline terms, not broad event keywords alone.
-    for word in re.findall(r"[a-z0-9]+",title.lower()):
-        if word in toks(title) and word not in terms and len(word)>=5:
-            terms.append(word)
-        if len(terms)>=5:break
-    return " ".join(terms[:5]) if len(terms)>=3 else ""
+    words=context_words(title)
+    entities=context_entities(title)
+    named=[w for w in words if w in entities]
+    events=[w for w in words if w in CONTEXT_EVENTS and w not in named]
+    if not named and not events:return ""
+    # Keep short, high-information event nouns (e.g. fire, war, coup).
+    terms=named[:3]+events[:2]
+    for word in words:
+        if word not in terms and len(terms)<3:terms.append(word)
+    return " ".join(terms[:5]) if len(terms)>=2 else ""
+
+def context_plan(title,date):
+    age=retrospective_age(title)
+    long_running=bool(re.search(r"\b(?:inquiry|investigation|trial|lawsuit|appeal|aftermath|reconstruction|ongoing|long-running|peace talks)\b",title,re.I))
+    if age and age>=30:
+        target=date-timedelta(days=age)
+        margin=min(120,max(14,int(age*.12)))
+        horizon=min(CONTEXT_DAYS,age+margin+30)
+        return [(horizon,target-timedelta(days=margin),target+timedelta(days=margin)),(horizon,None,None),(min(CONTEXT_DAYS,max(730,horizon*2)),None,None)]
+    if long_running:return [(180,None,None),(365,None,None),(730,None,None)]
+    return [(30,None,None),(180,None,None),(365,None,None),(730,None,None)]
+
+def context_search_url(query,plan):
+    days,start,end=plan
+    if start and end:
+        q=f"{query} after:{start.date().isoformat()} before:{(end+timedelta(days=1)).date().isoformat()}"
+        return "https://news.google.com/rss/search?q="+quote_plus(q)+"&hl=en-US&gl=US&ceid=US:en"
+    return grss(query,days=days)
 
 def add_story_context(payload,previous,articles,discover=True):
     previous=previous if isinstance(previous,dict) else {}
     raw_archive=list(previous.get("context_archive",[]))
     for old in previous.get("stories",[]):
         raw_archive.append(old)
+        raw_archive.extend(old.get("context",{}).get("earlier_reporting",[]))
     raw_archive.extend(payload.get("stories",[]))
     archive={}
     for item in raw_archive:
@@ -737,57 +787,93 @@ def add_story_context(payload,previous,articles,discover=True):
     for article in articles:
         report=context_report(article)
         if report:recent.append(report)
-    prior_checks=previous.get("context_checks",{})
+    # Old string timestamps deliberately reset once to migrate the improved query algorithm.
     checks={}
-    for key,value in prior_checks.items():
-        dt=context_date(value)
-        if dt and NOW-timedelta(days=CONTEXT_DAYS)<=dt<=NOW:checks[key]=value
-    queries=0
+    for key,value in previous.get("context_checks",{}).items():
+        if not isinstance(value,dict) or value.get("version")!=CONTEXT_QUERY_VERSION:continue
+        dt=context_date(value.get("at"))
+        if dt and NOW-timedelta(days=30)<=dt<=NOW:checks[key]=value
+    work=[]
     for story in payload.get("stories",[]):
         lead_report=context_report(story)
         date=context_date(lead_report["published_at"] if lead_report else story.get("published_at"))
         if not date:continue
-        title=story["title"]
-        cutoff=date-timedelta(hours=6)
+        title=story["title"]; query=context_query(title)
+        plans=context_plan(title,date)
+        horizon=max(p[0] for p in plans)
+        first=plans[0]; anchor_start,anchor_end=first[1:]
         urls={x.get("url") for x in story.get("sources",[])}
         urls.add(story.get("lead_url"))
-        def eligible(r):
-            return (r["url"] not in urls and context_date(r["published_at"])<=cutoff
-                and toks(title)!=toks(r["title"])
-                and context_related(title,r["title"])
-                and not is_analysis_headline(r["title"]))
+        def eligible(report):
+            dt=context_date(report["published_at"])
+            anchored=bool(anchor_start and anchor_start<=dt<=anchor_end)
+            # Explicit opinion is not evidence; factual explainers may be useful background.
+            return (report["url"] not in urls and date-timedelta(days=horizon)<=dt<=date-timedelta(hours=6)
+                and set(context_words(title))!=set(context_words(report["title"]))
+                and context_related(title,report["title"],anchored)
+                and not re.search(r"^(?:opinion|editorial|commentary)\s*[:—–-]",report["title"],re.I))
         candidates=[r for r in list(archive.values())+recent if eligible(r)]
         key=story.get("id","")
-        last=context_date(checks.get(key))
-        query=context_query(title)
-        if (discover and key and query and story.get("importance") in ("Major","Critical")
-            and len(candidates)<3 and queries<CONTEXT_QUERY_LIMIT
-            and (last is None or NOW-last>=timedelta(hours=24))):
-            queries+=1
-            try:
-                older=fetch(grss(query,days=CONTEXT_DAYS),"Context discovery",5,30,
-                    max_age=timedelta(days=CONTEXT_DAYS))
-                for x in older:
-                    report=context_report(x)
-                    if report and eligible(report):candidates.append(report)
-                # fetch logs failures and returns []; a short cooldown also avoids repeated retries.
-                checks[key]=NOW.isoformat()
-            except Exception as exc:
-                print("[warn] context discovery",exc,file=sys.stderr)
+        check=checks.get(key,{})
+        if check.get("query")!=query:check={}
+        last=context_date(check.get("at"))
+        stage=min(max(0,int(check.get("stage",0))),len(plans)-1)
+        # Unsearched stories go first; failed searches progress after 30 minutes,
+        # successful searches cool down for 24 hours.
+        delay=timedelta(hours=24) if check.get("matched") or stage==len(plans)-1 and check.get("exhausted") else timedelta(minutes=30)
+        due=(last is None or NOW-last>=delay)
+        work.append(dict(story=story,date=date,query=query,plans=plans,stage=stage,last=last,due=due,key=key,candidates=candidates,
+                         horizon=horizon,anchor_start=anchor_start,anchor_end=anchor_end,urls=urls))
+    def priority(w):
+        return (w["last"] is not None,w["last"] or datetime.min.replace(tzinfo=timezone.utc),bool(w["candidates"]),-w["story"].get("score",0))
+    queries=0
+    for w in sorted(work,key=priority):
+        story=w["story"];title=story["title"];query=w["query"];stage=w["stage"];plans=w["plans"];candidates=w["candidates"]
+        # Background eligibility is broader than top-story ranking.
+        if not (discover and w["key"] and query and w["due"] and queries<CONTEXT_QUERY_LIMIT
+                and (story.get("importance") in ("Major","Critical") or story.get("updated") or retrospective_age(title) or candidates)):
+            continue
+        if len({r["url"] for r in candidates})>=3 and not w["anchor_start"]:continue
+        queries+=1
+        plan=plans[stage];days,start,end=plan
+        matches=[]
+        try:
+            older=fetch(context_search_url(query,plan),"Context discovery",5,45,max_age=timedelta(days=days+30))
+            for item in older:
+                report=context_report(item)
+                if not report:continue
+                dt=context_date(report["published_at"])
+                if start and not start<=dt<=end:continue
+                anchored=bool(w["anchor_start"] and w["anchor_start"]<=dt<=w["anchor_end"])
+                if (report["url"] not in w["urls"] and w["date"]-timedelta(days=w["horizon"])<=dt<=w["date"]-timedelta(hours=6)
+                    and set(context_words(title))!=set(context_words(report["title"]))
+                    and context_related(title,report["title"],anchored)
+                    and not re.search(r"^(?:opinion|editorial|commentary)\s*[:—–-]",report["title"],re.I)):
+                    matches.append(report)
+            candidates.extend(matches)
+        except Exception as exc:
+            print("[warn] context discovery",exc,file=sys.stderr)
+        checks[w["key"]]={"version":CONTEXT_QUERY_VERSION,"query":query,"at":NOW.isoformat(),
+            "stage":stage if matches else min(stage+1,len(plans)-1),
+            "matched":bool(matches),"exhausted":not matches and stage==len(plans)-1,
+            "searched_days":days}
+    for w in work:
         unique={}
-        for report in sorted(candidates,key=lambda r:r["published_at"]):
-            normalized=" ".join(sorted(toks(report["title"])))
-            if normalized and normalized not in unique:
-                unique[normalized]=report
+        for report in sorted(w["candidates"],key=lambda r:r["published_at"]):
+            normalized=" ".join(sorted(context_words(report["title"])))
+            if normalized and normalized not in unique:unique[normalized]=report
         reports=list(unique.values())
-        # Preserve earliest known report and most recent earlier reporting within the bounded list.
         reports=reports[:1]+reports[-(CONTEXT_REPORT_LIMIT-1):] if len(reports)>CONTEXT_REPORT_LIMIT else reports
         for report in reports:archive[report["url"]]=report
-        story["context"]={"earlier_reporting":reports,
-            "coverage_from":reports[0]["published_at"] if reports else None,
-            "search_query":query or title}
-    payload["context_archive"]=sorted(archive.values(),key=lambda r:r["published_at"],reverse=True)[:CONTEXT_ARCHIVE_LIMIT]
-    payload["context_checks"]=dict(sorted(checks.items(),key=lambda x:x[1],reverse=True)[:CONTEXT_ARCHIVE_LIMIT])
+        check=checks.get(w["key"],{})
+        w["story"]["context"]={"earlier_reporting":reports,"coverage_from":reports[0]["published_at"] if reports else None,
+            "search_query":w["query"] or w["story"]["title"],"search_days":w["horizon"],
+            "searched_days":check.get("searched_days"),"search_status":"matched" if reports else ("searched" if check else "queued")}
+    # Keep matched old reports for current cards even if the general archive is full.
+    pinned={r["url"]:r for w in work for r in w["story"]["context"]["earlier_reporting"]}
+    remaining=sorted((r for k,r in archive.items() if k not in pinned),key=lambda r:r["published_at"],reverse=True)
+    payload["context_archive"]=(list(pinned.values())+remaining)[:CONTEXT_ARCHIVE_LIMIT]
+    payload["context_checks"]=dict(sorted(checks.items(),key=lambda x:x[1]["at"],reverse=True)[:CONTEXT_ARCHIVE_LIMIT])
     return payload
 
 def main():
