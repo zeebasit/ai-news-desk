@@ -753,6 +753,7 @@ def add_story_context(payload,previous,articles,discover=True):
         urls.add(story.get("lead_url"))
         def eligible(r):
             return (r["url"] not in urls and context_date(r["published_at"])<=cutoff
+                and toks(title)!=toks(r["title"])
                 and context_related(title,r["title"])
                 and not is_analysis_headline(r["title"]))
         candidates=[r for r in list(archive.values())+recent if eligible(r)]
@@ -783,7 +784,8 @@ def add_story_context(payload,previous,articles,discover=True):
         reports=reports[:1]+reports[-(CONTEXT_REPORT_LIMIT-1):] if len(reports)>CONTEXT_REPORT_LIMIT else reports
         for report in reports:archive[report["url"]]=report
         story["context"]={"earlier_reporting":reports,
-            "coverage_from":reports[0]["published_at"] if reports else None}
+            "coverage_from":reports[0]["published_at"] if reports else None,
+            "search_query":query or title}
     payload["context_archive"]=sorted(archive.values(),key=lambda r:r["published_at"],reverse=True)[:CONTEXT_ARCHIVE_LIMIT]
     payload["context_checks"]=dict(sorted(checks.items(),key=lambda x:x[1],reverse=True)[:CONTEXT_ARCHIVE_LIMIT])
     return payload
