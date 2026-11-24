@@ -57,6 +57,11 @@ ANCHORS=[
 "important artificial intelligence semiconductor cybersecurity science or technology development",
 "major court legal regulatory antitrust or policy decision with wide consequences",
 "industrial accident fire collapse explosion transport disaster or mass casualty event",
+"government seizure nationalization expropriation or forced transfer of strategic energy assets",
+"international defense production agreement joint procurement military industrial partnership",
+"frontier artificial intelligence safety assessment systemic risk official warning or serious model vulnerability",
+"historic first national spaceflight astronaut mission or scientific exploration milestone",
+"official record high institutional mortality suicide or public health trend with quantified evidence",
 "major climate energy shipping supply chain commodity or strategic chokepoint disruption",
 "important Norway national policy economy security public service or energy development",
 "important Stavanger Rogaland transport healthcare energy industry security or local public development"
@@ -353,6 +358,55 @@ def category(text):
     for c in ["Stavanger/Rogaland","Norway","Tech","Middle East","US/Canada","Europe/UK"]:
         if any(k in t for k in CATEGORY[c]):return c
     return "World"
+# Paired signals require both an event/action and a consequential domain.
+# No named entities, particular countries, or specific headlines are required.
+def general_event_signals(text):
+    t=text.lower()
+    rules=[
+        (24,"strategic asset intervention",
+         r"\b(?:seiz\w*|expropriat\w*|nationali[sz]\w*|take(?:s|n)? control|took control|forced sale|asset freeze|assum\w* control)\b",
+         r"\b(?:oilfields?|oil fields?|gas fields?|refiner\w*|pipeline\w*|ports?|mines?|energy assets?|power plants?|strategic assets?)\b"),
+        (23,"defence industrial agreement",
+         r"\b(?:defen[cs]e|military|weapons?|drones?|missiles?|fighter jets?|warships?|munitions?)\b",
+         r"\b(?:joint production|co-production|coproduction|manufactur\w*|produc\w*|build\w*|procurement|industrial partnership)\b",
+         r"\b(?:agreement|deal|accord|contract|partner\w*|sign\w*|joint|co-production|coproduction)\b"),
+        (24,"frontier AI safety development",
+         r"\b(?:artificial intelligence|ai|language models?|frontier models?)\b",
+         r"\b(?:safety|systemic risk|catastrophic risk|security risk|dangerous capabilities|misalignment|deception)\b",
+         r"\b(?:warn\w*|report\w*|assessment|evaluat\w*|research\w*|findings?|test\w*|study|studies|framework|agreement|concern\w*)\b"),
+        (25,"historic space milestone",
+         r"\b(?:astronaut\w*|spaceflight|space station|space mission|lunar mission|moon landing|orbital flight)\b",
+         r"\b(?:first|historic|record[- ]breaking|unprecedented)\b",
+         r"\b(?:select\w*|launch\w*|land\w*|fly|flies|flight|mission|travel\w*|send\w*|sent|reach\w*|orbit\w*|astronaut\w*)\b"),
+        (24,"record institutional or health trend",
+         r"\b(?:suicides?|mortality|deaths?|overdose\w*|infections?|hospitali[sz]ations?|disease|maternal mortality)\b",
+         r"\b(?:record(?: high)?|highest|unprecedented|surge\w*|sharp rise|doubl\w*)\b",
+         r"\b(?:official|data|report\w*|figures?|statistics|rate|cases?|military|army|armed forces|population|national|public health|health agency)\b")
+    ]
+    matches=[(pts,reason) for pts,reason,*patterns in rules
+             if all(re.search(p,t) for p in patterns)]
+    accident=re.search(r"\b(?:explosion\w*|blast\w*|fire|crash\w*|derail\w*|collapse\w*|industrial accident|mine accident|factory accident)\b",t)
+    # Match plain integers and comma-separated counts, including reverse order.
+    fatalities=[int(x.replace(",","")) for x in re.findall(
+        r"\b(\d{1,3}(?:,\d{3})+|\d+)\s+(?:people\s+|workers\s+|passengers\s+)?(?:killed|dead|deaths|died)\b",t)]
+    fatalities += [int(x.replace(",","")) for x in re.findall(
+        r"\b(?:kills?|killed|left dead|death toll (?:rises? to|at|of))\s+(?:at least\s+)?(\d{1,3}(?:,\d{3})+|\d+)\b",t)]
+    injuries=[int(x.replace(",","")) for x in re.findall(
+        r"\b(\d{1,3}(?:,\d{3})+|\d+)\s+(?:people\s+|workers\s+|passengers\s+)?(?:injured|hurt|hospitali[sz]ed|missing)\b",t)]
+    injuries += [int(x.replace(",","")) for x in re.findall(
+        r"\b(?:injures?|injured|hospitali[sz]es?)\s+(?:at least\s+)?(\d{1,3}(?:,\d{3})+|\d+)\b",t)]
+    if accident and (max(fatalities,default=0)>=5 or max(injuries,default=0)>=20):
+        matches.append((26,"significant accident with human impact"))
+    if not matches:return 0,[]
+    # Cap the contribution to avoid stacking correlated evidence.
+    return max(p for p,_ in matches),[reason for _,reason in matches]
+
+def is_analysis_headline(title):
+    t=title.lower().strip()
+    return bool(re.search(r"^(?:analysis|opinion|editorial|commentary|explainer|fact check)\s*[:—–-]",t)
+        or re.search(r"^(?:why|how|what)\b.*\b(?:means?|matters?|could mean|to know|to expect|comes? next|happens? next)\b",t)
+        or re.search(r"^(?:here['’]s what|here is what|what we know|what you need to know)\b",t))
+
 def score(text,weight,semantic):
     t=text.lower(); s=float(weight)+semantic*float(EW.get("semantic_impact",SET.get("semantic_anchor_weight",12))); reasons=[]
     for pts,terms in IMPACT:
@@ -372,6 +426,8 @@ def score(text,weight,semantic):
         s+=5; reasons.append("strategic chokepoint risk")
     qpts,qreasons=generic_quantified_signals(t)
     s+=qpts; reasons.extend(qreasons)
+    epts,ereasons=general_event_signals(t)
+    s+=epts; reasons.extend(ereasons)
     leadership=any(k in t for k in LEADERSHIP_TERMS) and any(k in t for k in LEADERSHIP_CHANGE_TERMS)
     if leadership:
         s+=5; reasons.append("leadership/governance change")
@@ -453,14 +509,18 @@ def build(a):
     anchor=cosine_similarity(E,A).max(axis=1); out=[]
     for ids in cluster(a,E,mode):
         group=[a[i] for i in ids]
-        trusted_ids=[i for i in ids if trusted_source(a[i]["source"])]
-        lead_pool=trusted_ids or ids
+        factual_ids=[i for i in ids if not is_analysis_headline(a[i]["title"])]
+        # Analysis-only clusters cannot become standalone event cards.
+        if not factual_ids:continue
+        trusted_ids=[i for i in factual_ids if trusted_source(a[i]["source"])]
+        lead_pool=trusted_ids or factual_ids
         lead_i=max(lead_pool,key=lambda i:(score(a[i]["title"]+" "+a[i]["summary"],a[i]["weight"],float(anchor[i]))[0],a[i]["published_at"]))
         lead=a[lead_i]
-        alltext=" ".join(x["title"]+" "+x["summary"] for x in group)
-        sc,reasons=score(alltext,max(x["weight"] for x in group),max(float(anchor[i]) for i in ids))
+        factual_group=[a[i] for i in factual_ids]
+        alltext=" ".join(x["title"]+" "+x["summary"] for x in factual_group)
+        sc,reasons=score(alltext,max(x["weight"] for x in factual_group),max(float(anchor[i]) for i in factual_ids))
         coverage_names={source_family(x["source"]) for x in group}
-        cpts,creasons,trusted_names=cluster_consensus_evidence(group)
+        cpts,creasons,trusted_names=cluster_consensus_evidence(factual_group)
         sc+=cpts; reasons.extend(creasons)
         reason_set=set(reasons)
         if len(trusted_names)>=3 and ("large company market move" in reason_set or "company market move" in reason_set):
@@ -616,7 +676,12 @@ def main():
         previous=json.loads(out.read_text(encoding="utf-8")) if out.exists() else {}
     except Exception:
         previous={}
-    a=collect(); print("Collected",len(a),"items"); p=apply_continuity(build(a),previous)
+    a=collect(); print("Collected",len(a),"items")
+    if not a:
+        raise RuntimeError("Collection returned no articles; preserving previous feed")
+    p=apply_continuity(build(a),previous)
+    if not p["stories"] and previous.get("stories"):
+        raise RuntimeError("Ranking returned no stories; preserving previous feed")
     out.parent.mkdir(parents=True,exist_ok=True)
     out.write_text(json.dumps(p,ensure_ascii=False,indent=2),encoding="utf-8")
     print("Published",len(p["stories"]),"stories; mode",p["model_mode"])
