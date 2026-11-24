@@ -486,6 +486,7 @@ def consolidate_selected(stories,E):
         for m in merged:
             j=m.get("_lead_index")
             if i is None or j is None:continue
+            if bool(s.get("background_only"))!=bool(m.get("background_only")):continue
             same_cat=(s["category"]==m["category"]) or "World" in (s["category"],m["category"])
             if not same_cat:continue
             try:
@@ -744,9 +745,9 @@ def context_related(title,other,anchored=False):
     shared=a&b
     entities=context_entities(title)&context_entities(other)
     ov=len(shared)/max(1,min(len(a),len(b)))
-    specific=shared-entities
+    specific=shared-entities-CONTEXT_EVENTS
     # A shared action/domain word plus multiple named anchors is strong evidence.
-    if len(entities)>=3 and len(shared)>=4 and specific:return True
+    if len(entities)>=3 and len(shared)>=4 and (shared-entities):return True
     if len(shared)>=3 and ((len(entities)>=2 and ov>=.45 and (specific or len(shared)>=4)) or
         (len(entities)>=1 and len(shared)>=4 and ov>=.65) or
         (len(shared)>=5 and ov>=.85)):
@@ -824,7 +825,7 @@ def add_story_context(payload,previous,articles,discover=True):
             dt=context_date(report["published_at"])
             anchored=bool(anchor_start and anchor_start<=dt<=anchor_end)
             # Explicit opinion is not evidence; factual explainers may be useful background.
-            return (report["url"] not in urls and date-timedelta(days=horizon)<=dt<=date-timedelta(minutes=30)
+            return (report["url"] not in urls and date-timedelta(days=horizon)<=dt<=date-timedelta(hours=6)
                 and toks(title)!=toks(report["title"])
                 and context_related(title,report["title"],anchored)
                 and not re.search(r"^(?:opinion|editorial|commentary)\s*[:—–-]",report["title"],re.I))
@@ -860,7 +861,7 @@ def add_story_context(payload,previous,articles,discover=True):
                 dt=context_date(report["published_at"])
                 if start and not start<=dt<=end:continue
                 anchored=bool(w["anchor_start"] and w["anchor_start"]<=dt<=w["anchor_end"])
-                if (report["url"] not in w["urls"] and w["date"]-timedelta(days=w["horizon"])<=dt<=w["date"]-timedelta(minutes=30)
+                if (report["url"] not in w["urls"] and w["date"]-timedelta(days=w["horizon"])<=dt<=w["date"]-timedelta(hours=6)
                     and toks(title)!=toks(report["title"])
                     and context_related(title,report["title"],anchored)
                     and not re.search(r"^(?:opinion|editorial|commentary)\s*[:—–-]",report["title"],re.I)):
