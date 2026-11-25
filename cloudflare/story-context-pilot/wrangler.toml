@@ -1,0 +1,22 @@
+name = "ai-news-desk-story-context-pilot"
+main = "worker.mjs"
+compatibility_date = "2026-11-25"
+workers_dev = false
+preview_urls = false
+
+[observability]
+enabled = true
+
+[vars]
+PILOT_END = "2026-11-25T08:34:03.464Z"
+
+[ai]
+binding = "AI"
+
+[[d1_databases]]
+binding = "STORY_CACHE"
+database_name = "ai-news-desk-story-context-pilot"
+database_id = "d53a3a0d-e3bb-4193-8146-6d861e239280"
+
+[triggers]
+crons = ["*/5 * * * *"]
