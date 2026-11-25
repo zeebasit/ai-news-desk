@@ -54,7 +54,7 @@ function contextHtml(s){
   const searchNote=context.searched_days?"Historical search attempted: within the past "+Number(context.searched_days)+" days.":"";
   const searchRange=searchDays<=30?" when:30d":" after:"+new Date(Date.now()-searchDays*86400000).toISOString().slice(0,10);
   return '<details class="story-context"><summary>Understand the story</summary><div class="context-body">'+
-    '<h4>'+(s.background_only?'Current background report':'Latest reported development')+'</h4><p>'+ (lead?'<a href="'+lead+'" target="_blank" rel="noopener noreferrer">'+esc(s.title)+'</a>':esc(s.title))+'</p>'+
+    '<h4>Current reporting</h4><p>'+esc(meaningfulSummary(s))+(lead?' <a href="'+lead+'" target="_blank" rel="noopener noreferrer">Read source ↗</a>':'')+'</p>'+
     '<h4>Earlier reporting &amp; background</h4>'+
     (items?'<ol class="context-timeline">'+items+'</ol>':'<p>'+esc(emptyText)+'</p>')+
     (searchNote?'<p class="context-note">'+esc(searchNote)+'</p>':'')+
@@ -122,17 +122,29 @@ function watch(){
 function setNav(action){
   document.querySelectorAll(".nav-item").forEach(x=>x.classList.toggle("active",x.dataset.action===action));
 }
+function updateFreshness(){
+  const el=document.getElementById("updatedText"),status=el.closest(".status");
+  const timestamp=Date.parse(state.data?.generated_at||"");
+  const age=(Date.now()-timestamp)/60000;
+  const stale=!Number.isFinite(age)||age>=60;
+  status.classList.toggle("stale",stale);
+  el.textContent=Number.isFinite(age)?(stale?"Stale · ":"Updated ")+rel(state.data.generated_at):"Update unavailable";
+  status.title=Number.isFinite(timestamp)?"Last successful refresh: "+new Date(timestamp).toLocaleString():"Refresh time unavailable";
+}
 async function load(){
   document.getElementById("refreshBtn").disabled=true;
   try{
     const x=await fetch("data/news.json?t="+Date.now(),{cache:"no-store"});
-    state.data=await x.json();
-    document.getElementById("updatedText").textContent="Updated "+rel(state.data.generated_at);
+    if(!x.ok)throw Error("Feed unavailable");
+    const incoming=await x.json();
+    if(!Array.isArray(incoming.stories)||!Number.isFinite(Date.parse(incoming.generated_at)))throw Error("Invalid feed");
+    state.data=incoming;
+    updateFreshness();
     document.getElementById("modelMode").textContent=state.data.model_mode==="sentence-transformers"?"Semantic AI":"Fallback";
     stories();watch();
   }catch(e){
-    document.getElementById("updatedText").textContent="Update unavailable";
-    document.getElementById("stories").innerHTML='<div class="empty">Could not load news data.</div>';
+    if(state.data){updateFreshness();document.getElementById("updatedText").closest(".status").classList.add("stale");}
+    else {updateFreshness();document.getElementById("stories").innerHTML='<div class="empty">Could not load news data.</div>';}
   }finally{document.getElementById("refreshBtn").disabled=false}
 }
 document.getElementById("timeFilter").onchange=e=>{state.hours=+e.target.value;stories()};
@@ -149,5 +161,5 @@ document.querySelectorAll(".nav-item").forEach(b=>b.onclick=()=>{
   if(a==="saved"){state.savedOnly=true;stories();document.getElementById("news").scrollIntoView({behavior:"smooth"})}
   if(a==="search"){document.getElementById("searchInput").scrollIntoView({behavior:"smooth",block:"center"});setTimeout(()=>document.getElementById("searchInput").focus(),350)}
 });
-tabs();load();
+tabs();load();setInterval(()=>{if(state.data)updateFreshness()},60000);
 if("serviceWorker"in navigator)window.addEventListener("load",()=>navigator.serviceWorker.register("sw.js"));
