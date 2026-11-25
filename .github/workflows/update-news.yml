@@ -95,6 +95,8 @@ jobs:
           }
           assert n.match_previous_story(rewritten_new,[rewritten_old]) is rewritten_old
           PY
+      - name: Run collector regression tests
+        run: python -m unittest discover -s tests -v
       - name: Collect and rank
         run: python scripts/update_news.py
       - name: Commit changed data

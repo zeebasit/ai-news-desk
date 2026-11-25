@@ -73,5 +73,12 @@ class CoverageTests(unittest.TestCase):
         self.assertEqual(stories[0]["importance"],"Notable")
         self.assertLessEqual(stories[0]["score"],40)
 
+    def test_zero_fatality_reports_do_not_crash_ranking(self):
+        for title in ["Fire leaves 0 dead", "0 people killed in earthquake", "Death toll at 0", "0 deaths, later 2 killed"]:
+            with self.subTest(title=title):
+                points,reasons=n.score(title,12,0.5)
+                self.assertTrue(np.isfinite(points))
+                self.assertEqual("reported fatalities" in reasons,"2 killed" in title)
+
 if __name__=="__main__":
     unittest.main()
