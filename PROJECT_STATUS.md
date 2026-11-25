@@ -1,6 +1,6 @@
 # AI News Desk — project checkpoint
 
-Updated: 2026-11-24.
+Updated: 2026-11-25.
 
 ## Requirements
 - Zero recurring cost; GitHub Pages (/docs on main), public RSS and Google News RSS, GitHub Actions, open-source MiniLM semantic scoring with TF-IDF fallback. No paid API.
@@ -78,3 +78,4 @@ Updated: 2026-11-24.
 - GitHub token metadata confirms only `zeebasit/ai-news-desk`, Actions read/write, required metadata read, no user permissions, and expiration on 2026-12-25.
 - Live AI validation: the original model returned the provider's retirement error. Two subsequent plain-output attempts were rejected by source-ID validation. A larger model was considered and not deployed. The supported Llama 3.1 8B Fast model succeeded with JSON-schema output and a 24-token cap.
 - At 09:10:57 Europe/Berlin the private Worker selected the Reuters background for the Shenzhou-24 story, preserving both supplied source links. At 09:15:57 an independent scheduled invocation returned the identical context as a D1 cache hit. No additional model call was made. Removed the pilot cron after verification and retained the isolated Worker and cache. No paid upgrade, public endpoint, or production story integration.
+- End-to-end watchdog recovery verified on November 25 (Europe/Berlin). At 09:20:49 Cloudflare logged `dispatched` for the 50.71-minute-old feed. GitHub accepted one workflow dispatch at 09:20:51 (run 45575471914), completed the freshness gate and collector, and finished at 09:23:51. GitHub Pages served the feed generated at 09:22:24. The 09:25:49 cron reported `fresh` and skipped dispatch. The recovery window had one collector workflow run and no duplicate run. The freshness guard still protects against repeated collection if a future scheduling race queues a redundant workflow.
