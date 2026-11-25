@@ -55,7 +55,7 @@ class ContextTests(unittest.TestCase):
             self.assertEqual(len(again["stories"][0]["context"]["earlier_reporting"]),1)
 
     def test_discovery_budget(self):
-        stories=[dict(story(),id=str(i)) for i in range(10)]
+        stories=[dict(story(),id=str(i)) for i in range(n.CONTEXT_QUERY_LIMIT+4)]
         with patch.object(n,"fetch",return_value=[]) as fetch:
             n.add_story_context({"stories":stories},{},[])
             self.assertEqual(fetch.call_count,n.CONTEXT_QUERY_LIMIT)
@@ -85,16 +85,16 @@ class ContextTests(unittest.TestCase):
             self.assertEqual(fetch.call_count,1)
 
     def test_queue_fairness_and_progressive_expansion(self):
-        stories=[dict(story(),id=str(i),score=100-i) for i in range(10)]
+        stories=[dict(story(),id=str(i),score=100-i) for i in range(n.CONTEXT_QUERY_LIMIT+4)]
         with patch.object(n,"fetch",return_value=[]) as fetch:
             first=n.add_story_context({"stories":copy.deepcopy(stories)}, {},[])
-            self.assertEqual(set(first["context_checks"]),{str(i) for i in range(6)})
+            self.assertEqual(set(first["context_checks"]),{str(i) for i in range(n.CONTEXT_QUERY_LIMIT)})
             with patch.object(n,"NOW",n.NOW+timedelta(minutes=31)):
                 second=n.add_story_context({"stories":copy.deepcopy(stories)},first,[])
-            self.assertEqual(len(second["context_checks"]),10)
+            self.assertEqual(len(second["context_checks"]),n.CONTEXT_QUERY_LIMIT+4)
             self.assertEqual(second["context_checks"]["0"]["searched_days"],180)
-            self.assertEqual(second["context_checks"]["6"]["searched_days"],30)
-            self.assertEqual(fetch.call_count,12)
+            self.assertEqual(second["context_checks"][str(n.CONTEXT_QUERY_LIMIT)]["searched_days"],30)
+            self.assertEqual(fetch.call_count,2*n.CONTEXT_QUERY_LIMIT)
 
     def test_inquiry_search_starts_wider(self):
         self.assertEqual(n.context_plan("Regulator publishes inquiry findings",n.NOW)[0][0],180)
@@ -122,12 +122,19 @@ class ContextTests(unittest.TestCase):
 
     def test_retrospective_has_priority_and_original_date(self):
         recap=dict(story(),id="recap",title="A year on, what to know about Port Azure’s deadly fire",importance="Notable",score=40,background_only=True)
-        others=[dict(story(),id=str(i),score=100-i) for i in range(8)]
+        others=[dict(story(),id=str(i),score=100-i) for i in range(n.CONTEXT_QUERY_LIMIT+2)]
         with patch.object(n,"fetch",return_value=[]) as fetch:
             result=n.add_story_context({"stories":others+[recap]}, {},[])
             self.assertIn("recap",result["context_checks"])
             self.assertIn("after%3A",fetch.call_args_list[0].args[0])
             self.assertIn("before%3A",fetch.call_args_list[0].args[0])
+
+    def test_prior_context_survives_new_matching_threshold(self):
+        current=story()
+        old=dict(current,context={"earlier_reporting":[article("Earlier trusted report on the same event",48)]})
+        with patch.object(n,"context_related",return_value=False):
+            result=n.add_story_context({"stories":[current]},{"stories":[old]},[],discover=False)
+        self.assertEqual(len(result["stories"][0]["context"]["earlier_reporting"]),1)
 
 if __name__=="__main__":
     unittest.main()
