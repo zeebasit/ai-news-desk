@@ -15,7 +15,7 @@ function fixture(age,runs=[],statuses={}) {
   return {calls,request};
 }
 test("fresh feed never dispatches",async()=>{const f=fixture(12);assert.equal((await check(env,now,f.request)).status,"fresh");assert.equal(f.calls.length,1)});
-test("stale feed dispatches only designated workflow",async()=>{const f=fixture(60);assert.equal((await check(env,now,f.request)).status,"dispatched");assert.equal(f.calls.length,3);assert.match(f.calls[2].url,/update-news\.yml\/dispatches$/);assert.equal(f.calls[2].options.method,"POST");assert.deepEqual(JSON.parse(f.calls[2].options.body),{ref:"main"});assert.equal(f.calls[0].options.headers,undefined)});
+test("stale feed dispatches only designated workflow",async()=>{const f=fixture(60);assert.equal((await check(env,now,f.request)).status,"dispatched");assert.equal(f.calls.length,3);assert.match(f.calls[2].url,/update-news\.yml\/dispatches$/);assert.equal(f.calls[2].options.method,"POST");assert.deepEqual(JSON.parse(f.calls[2].options.body),{ref:"main",inputs:{watchdog_recovery:true}});assert.equal(f.calls[0].options.headers,undefined)});
 test("active watchdog prevents duplicate dispatch",async()=>{const f=fixture(90,[{name:"News freshness watchdog",status:"in_progress"}]);assert.equal((await check(env,now,f.request)).status,"active");assert.equal(f.calls.length,2)});
 test("recent failed collector imposes cooldown",async()=>{const f=fixture(90,[{name:"Update curated news",status:"completed",conclusion:"failure",created_at:new Date(now-60000).toISOString()}]);assert.equal((await check(env,now,f.request)).status,"cooldown")});
 test("failed status request fails closed",async()=>{const f=fixture(90,[],{runs:403});await assert.rejects(check(env,now,f.request),/dispatch skipped/);assert.equal(f.calls.length,2)});
