@@ -18,9 +18,9 @@ function environment(response) {
       STORY_CACHE: { prepare },
       AI: {
         async run(_model, input) {
-          assert.equal(input.max_tokens, 12);
+          assert.equal(input.max_completion_tokens, 64);
           calls += 1;
-          return { response };
+          return { choices: [{ message: { content: response } }] };
         },
       },
     },
