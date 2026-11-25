@@ -19,4 +19,4 @@ database_name = "ai-news-desk-story-context-pilot"
 database_id = "d53a3a0d-e3bb-4193-8146-6d861e239280"
 
 [triggers]
-crons = ["*/5 * * * *"]
+crons = []
