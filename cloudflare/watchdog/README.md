@@ -1,6 +1,6 @@
 # Cloudflare watchdog pilot
 
-Status: deployed to Workers Free in observation mode. The scheduled Worker logs freshness without contacting GitHub Actions.
+Status: deployed to Workers Free. The live Worker has guarded dispatch enabled and the encrypted GitHub binding installed. The repository configuration defaults to observation mode so routine redeploys cannot accidentally enable writes.
 
 Existing GitHub Pages, GitHub Actions collector, and analytics are unchanged.
 
@@ -16,4 +16,4 @@ The watchdog checks every five minutes, dispatches only if published data is at 
 
 Rollback: remove the Cloudflare Cron Trigger, delete the pilot Worker and revoke its dedicated GitHub token. No production changes required.
 
-Workers AI and D1 are intentionally deferred until authenticated account inspection and an isolated source-grounded AI pilot with strict no-cost controls.
+The private Workers AI and D1 test is under `cloudflare/story-context-pilot`. See `PROJECT_STATUS.md` for observed results.
