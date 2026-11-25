@@ -18,9 +18,9 @@ function environment(response) {
       STORY_CACHE: { prepare },
       AI: {
         async run(_model, input) {
-          assert.equal(input.max_completion_tokens, 64);
+          assert.equal(input.max_tokens, 24);
           calls += 1;
-          return { choices: [{ message: { content: response } }] };
+          return { response };
         },
       },
     },
@@ -30,7 +30,7 @@ function environment(response) {
 }
 
 test("one concurrent request generates and subsequent requests reuse the result", async (t) => {
-  const fixture = environment("2");
+  const fixture = environment({ id: 2 });
   t.after(fixture.close);
   const results = await Promise.all([storyContext(fixture.env), storyContext(fixture.env)]);
   assert.deepEqual(results.map(({ status }) => status).sort(), ["generated", "limit"]);
@@ -41,7 +41,7 @@ test("one concurrent request generates and subsequent requests reuse the result"
 });
 
 test("an invalid selection cannot be cached or retried", async (t) => {
-  const fixture = environment("9");
+  const fixture = environment('{"id":9}');
   t.after(fixture.close);
   assert.equal((await storyContext(fixture.env)).status, "invalid-selection");
   assert.equal((await storyContext(fixture.env)).status, "limit");
