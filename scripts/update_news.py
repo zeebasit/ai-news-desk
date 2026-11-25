@@ -437,13 +437,11 @@ def score(text,weight,semantic):
         if any(k in t for k in terms):
             s+=pts; reasons.append("high-impact event" if pts>=18 else "significant public impact")
             break
-    m=CAS.search(t)
-    if m:
-        nums=[int(x) for x in m.groups() if x]
-        if nums:
-            s+=min(22,5+math.log10(max(nums))*7); reasons.append("reported fatalities")
-            if max(nums)>=10 and any(k in t for k in ["attack","attacks","strike","strikes","bombing","shelling","drone","missile"]):
-                s+=14; reasons.append("mass-casualty attack")
+    nums=[int(x) for m in CAS.finditer(t) for x in m.groups() if x and int(x)>0]
+    if nums:
+        s+=min(22,5+math.log10(max(nums))*7); reasons.append("reported fatalities")
+        if max(nums)>=10 and any(k in t for k in ["attack","attacks","strike","strikes","bombing","shelling","drone","missile"]):
+            s+=14; reasons.append("mass-casualty attack")
     if any(k in t for k in ["nationwide","state of emergency","hundreds of thousands","millions","hundreds of schools"]):
         s+=float(EW.get("quantified_scale",10)); reasons.append("large scale")
     if "naval blockade" in t or "shipping blockade" in t:
@@ -458,12 +456,12 @@ def score(text,weight,semantic):
     if any(k in t for k in ["norway","norwegian","stavanger","rogaland","sandnes"]):
         s+=float(EW.get("local_relevance",8)); reasons.append("Norway/local relevance")
     mag=re.search(r"\bmagnitude\s+([0-9]+(?:\.[0-9]+)?)",t)
-    if mag and float(mag.group(1))<5.0 and not CAS.search(t):
+    if mag and float(mag.group(1))<5.0 and not nums:
         s-=30; reasons.append("minor event filtered")
     if any(k in t for k in ["celebrity","horoscope","recipe","movie review","football transfer","lottery","christmas tree","royal ceremony","anniversary ceremony","travel tips","restaurant review"]):s-=28
     if any(k in t for k in ["not that unusual","what to know","what you need to know","explainer:","here's what","here is what","what next","what do we know"]):s-=16
     if re.search(r"^(why|how|what|can|could|should|will)\b.*\?$",t.strip()):s-=12
-    if any(k in t for k in ["brief delays","minor disruption","brief disruption","quickly restored"]) and not CAS.search(t):s-=8
+    if any(k in t for k in ["brief delays","minor disruption","brief disruption","quickly restored"]) and not nums:s-=8
     return s,reasons
 def sid(t): return hashlib.sha1(" ".join(sorted(toks(t))[:12]).encode()).hexdigest()[:12]
 def importance_level(sc,reasons,text):
@@ -707,11 +705,11 @@ def apply_continuity(payload, previous):
 CONTEXT_DAYS=7300
 CONTEXT_ARCHIVE_LIMIT=500
 CONTEXT_REPORT_LIMIT=6
-CONTEXT_QUERY_LIMIT=6
-CONTEXT_QUERY_VERSION=3
+CONTEXT_QUERY_LIMIT=12
+CONTEXT_QUERY_VERSION=4
 CONTEXT_STOP=set("a an the as at by of in to for from and or with into through over under its their his her is are was were be been being has have had can could would should will may might year years month months week weeks day days on ago later after before since anniversary about what know why how who when where this that these those here there deadly killed kills death deaths people latest update updates news report reports reporting says said more much new old first look looking back remember remembering last next today yesterday live breaking explained explainer guide timeline world suspected allegedly alleged officials official chief rep representative minister president democratic republican three two four five six seven eight nine ten dozens least".split())
 CONTEXT_EVENTS=set("fire blaze explosion blast crash derailment flood earthquake tsunami wildfire hurricane cyclone landslide conflict war invasion ceasefire blockade sanctions election referendum coup protest strike outbreak epidemic pandemic refinery takeover acquisition merger lawsuit trial inquiry investigation accident disaster cyberattack ransomware outage breach bankruptcy collapse resignation assassination shooting returns reinstatement leadership market valuation stocks shares military warship drones spaceflight astronaut safety framework suicide mortality aid hunger famine".split())
-CONTEXT_EQUIVALENTS={"blaze":"fire","fires":"fire","explosions":"explosion","blast":"explosion","crashes":"crash","flooding":"flood","earthquakes":"earthquake","protests":"protest","elections":"election","investigations":"investigation","inquiries":"inquiry","mergers":"merger","acquisitions":"acquisition","takeovers":"takeover","sanction":"sanctions"}
+CONTEXT_EQUIVALENTS={"return":"returns","returned":"returns","reinstated":"returns","reinstates":"returns","wars":"war","drones":"drone","warships":"warship","talks":"negotiation","negotiations":"negotiation","resigns":"resignation","resigned":"resignation","sanctioned":"sanctions","blaze":"fire","fires":"fire","explosions":"explosion","blast":"explosion","crashes":"crash","flooding":"flood","earthquakes":"earthquake","protests":"protest","elections":"election","investigations":"investigation","inquiries":"inquiry","mergers":"merger","acquisitions":"acquisition","takeovers":"takeover","sanction":"sanctions"}
 
 def context_date(raw):
     try:
@@ -757,16 +755,18 @@ def context_related(title,other,anchored=False):
     return anchored and len(entities)>=2 and bool(shared&CONTEXT_EVENTS) and len(shared)>=3
 
 def context_query(title):
+    # Remove publisher suffixes and prefer compact event-specific terms.
+    title=re.split(r"\s+[|–—]\s+|\s+-\s+",title,maxsplit=1)[0]
     words=context_words(title)
     entities=context_entities(title)
     named=[w for w in words if w in entities]
     events=[w for w in words if w in CONTEXT_EVENTS and w not in named]
     if not named and not events:return ""
     # Keep short, high-information event nouns (e.g. fire, war, coup).
-    terms=named[:4]+events[:2]
+    terms=named[:3]+events[:2]
     for word in words:
-        if word not in terms and len(terms)<4:terms.append(word)
-    return " ".join(terms[:6]) if len(terms)>=2 else ""
+        if word not in terms and len(terms)<3:terms.append(word)
+    return " ".join(terms[:5]) if len(terms)>=2 else ""
 
 def context_plan(title,date):
     age=retrospective_age(title)
@@ -796,6 +796,7 @@ def add_story_context(payload,previous,articles,discover=True):
         raw_archive.append(old)
         raw_archive.extend(old.get("context",{}).get("earlier_reporting",[]))
     raw_archive.extend(payload.get("stories",[]))
+    previous_by_id={s.get("id"):s for s in previous.get("stories",[])}
     archive={}
     for item in raw_archive:
         report=context_report(item)
@@ -831,6 +832,14 @@ def add_story_context(payload,previous,articles,discover=True):
                 and not re.search(r"^(?:opinion|editorial|commentary)\s*[:—–-]",report["title"],re.I))
         candidates=[r for r in list(archive.values())+recent if eligible(r)]
         key=story.get("id","")
+        prior=previous_by_id.get(key,{})
+        # Do not discard already accepted reporting simply because a new lead or query appeared.
+        # Require the prior lead to match, and retain only trusted, genuinely earlier, distinct reports.
+        if prior and (prior.get("title")==title or context_related(title,prior.get("title",""))):
+            for item in prior.get("context",{}).get("earlier_reporting",[]):
+                report=context_report(item)
+                if report and report["url"] not in urls and context_date(report["published_at"])<date and toks(title)!=toks(report["title"]):
+                    candidates.append(report)
         check=checks.get(key,{})
         if check.get("query")!=query:check={}
         last=context_date(check.get("at"))
@@ -852,9 +861,14 @@ def add_story_context(payload,previous,articles,discover=True):
         if len({r["url"] for r in candidates})>=3 and not w["anchor_start"]:continue
         queries+=1
         plan=plans[stage];days,start,end=plan
+        # Alternate a compact named/topic query on widening attempts instead of repeating all terms.
+        search_query=query
+        if stage>0 and len(query.split())>3:
+            terms=query.split(); event_terms=[x for x in terms if x in CONTEXT_EVENTS]
+            search_query=" ".join(list(dict.fromkeys(terms[:2]+event_terms[:1] or terms[:3])))
         matches=[]
         try:
-            older=fetch(context_search_url(query,plan),"Context discovery",5,45,max_age=timedelta(days=days+30))
+            older=fetch(context_search_url(search_query,plan),"Context discovery",5,45,max_age=timedelta(days=days+30))
             for item in older:
                 report=context_report(item)
                 if not report:continue
@@ -890,6 +904,7 @@ def add_story_context(payload,previous,articles,discover=True):
     remaining=sorted((r for k,r in archive.items() if k not in pinned),key=lambda r:r["published_at"],reverse=True)
     payload["context_archive"]=(list(pinned.values())+remaining)[:CONTEXT_ARCHIVE_LIMIT]
     payload["context_checks"]=dict(sorted(checks.items(),key=lambda x:x[1]["at"],reverse=True)[:CONTEXT_ARCHIVE_LIMIT])
+    print("Context coverage:",sum(bool(w["story"]["context"]["earlier_reporting"]) for w in work),"/",len(work),"cards;",queries,"historical searches")
     return payload
 
 def main():
