@@ -1,0 +1,8 @@
+name = "ai-news-desk-watchdog"
+main = "worker.mjs"
+compatibility_date = "2026-11-25"
+workers_dev = false
+preview_urls = false
+
+[triggers]
+crons = ["*/5 * * * *"]
