@@ -6,7 +6,8 @@ const RELEVANT = new Set(["Update curated news","News freshness watchdog"]);
 const MIN = 60_000;
 
 export async function check(env, now = Date.now(), request = fetch) {
-  if (!env.GITHUB_TOKEN) throw new Error("Missing encrypted GITHUB_TOKEN");
+  const dispatchEnabled = env.DISPATCH_ENABLED === "true";
+  if (dispatchEnabled && !env.GITHUB_TOKEN) throw new Error("Missing encrypted GITHUB_TOKEN");
   const feedResponse = await request(FEED+"?watchdog="+now, {cache:"no-store"});
   if (!feedResponse.ok) throw new Error("Published feed unavailable; dispatch skipped");
   const feed = await feedResponse.json();
@@ -14,6 +15,7 @@ export async function check(env, now = Date.now(), request = fetch) {
   if (!Number.isFinite(published) || published>now+5*MIN) throw new Error("Invalid feed timestamp; dispatch skipped");
   const age = (now-published)/MIN;
   if (age<50) return {status:"fresh",age};
+  if (!dispatchEnabled) return {status:"stale-observed",age};
   const headers = {"Authorization":"Bearer "+env.GITHUB_TOKEN,"Accept":"application/vnd.github+json","User-Agent":"ai-news-desk-watchdog","X-GitHub-Api-Version":"2022-11-28"};
   const runsResponse=await request(API+"/runs?branch=main&per_page=30",{headers});
   if (!runsResponse.ok) throw new Error("Cannot inspect GitHub runs; dispatch skipped");
