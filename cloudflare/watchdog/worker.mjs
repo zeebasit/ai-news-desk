@@ -25,7 +25,7 @@ export async function check(env, now = Date.now(), request = fetch) {
   if (relevant.some(r=>r.name==="Update curated news" && now-Date.parse(r.created_at)<15*MIN)) return {status:"cooldown",age};
   const dispatch=await request(API+"/workflows/update-news.yml/dispatches",{
     method:"POST",headers:{...headers,"Content-Type":"application/json"},
-    body:JSON.stringify({ref:"main"})
+    body:JSON.stringify({ref:"main",inputs:{watchdog_recovery:true}})
   });
   if (!dispatch.ok) throw new Error("GitHub workflow dispatch failed: "+dispatch.status);
   return {status:"dispatched",age};
