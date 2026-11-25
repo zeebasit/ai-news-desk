@@ -101,3 +101,5 @@ main{max-width:var(--max);margin:auto;padding:20px 16px 86px}
 .context-timeline a{display:block;line-height:1.4}
 .context-note{font-size:.73rem;color:#6b5d50}
 .context-search{font-weight:750;font-size:.79rem}
+
+.status.stale{border-color:#946a3c;color:#e8b87b}.status.stale .live-dot{background:#db9345;box-shadow:0 0 0 4px rgba(219,147,69,.15)}
