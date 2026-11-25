@@ -3,7 +3,7 @@ import assert from "node:assert/strict";
 import {check} from "./worker.mjs";
 
 const now=Date.parse("2026-11-25T07:00:00Z");
-const env={GITHUB_TOKEN:"mock-only"};
+const env={GITHUB_TOKEN:"mock-only",DISPATCH_ENABLED:"true"};
 function fixture(age,runs=[],statuses={}) {
   const calls=[];
   const request=async(url,options={})=>{
@@ -19,5 +19,7 @@ test("stale feed dispatches only designated workflow",async()=>{const f=fixture(
 test("active watchdog prevents duplicate dispatch",async()=>{const f=fixture(90,[{name:"News freshness watchdog",status:"in_progress"}]);assert.equal((await check(env,now,f.request)).status,"active");assert.equal(f.calls.length,2)});
 test("recent failed collector imposes cooldown",async()=>{const f=fixture(90,[{name:"Update curated news",status:"completed",conclusion:"failure",created_at:new Date(now-60000).toISOString()}]);assert.equal((await check(env,now,f.request)).status,"cooldown")});
 test("failed status request fails closed",async()=>{const f=fixture(90,[],{runs:403});await assert.rejects(check(env,now,f.request),/dispatch skipped/);assert.equal(f.calls.length,2)});
-test("missing secret fails closed",async()=>{const f=fixture(90);await assert.rejects(check({},now,f.request),/Missing/);assert.equal(f.calls.length,0)});
+test("missing secret fails closed",async()=>{const f=fixture(90);await assert.rejects(check({DISPATCH_ENABLED:"true"},now,f.request),/Missing/);assert.equal(f.calls.length,0)});
 test("failed dispatch not reported as success",async()=>{const f=fixture(90,[],{dispatch:403});await assert.rejects(check(env,now,f.request),/dispatch failed/)});
+
+test("observation mode reports stale without calling GitHub",async()=>{const f=fixture(60);assert.equal((await check({},now,f.request)).status,"stale-observed");assert.equal(f.calls.length,1)});
