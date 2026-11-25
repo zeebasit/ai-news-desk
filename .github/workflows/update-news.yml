@@ -2,6 +2,11 @@ name: Update curated news
 on:
   workflow_call:
   workflow_dispatch:
+    inputs:
+      watchdog_recovery:
+        description: "Skip collection if the current feed is already fresh"
+        type: boolean
+        default: false
   push:
     branches: [main]
     paths:
@@ -18,7 +23,40 @@ concurrency:
   group: update-news
   cancel-in-progress: false
 jobs:
+  recovery:
+    if: github.event_name == 'workflow_dispatch' && inputs.watchdog_recovery
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    outputs:
+      stale: ${{ steps.check.outputs.stale }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          persist-credentials: false
+      - name: Recheck freshness under collector concurrency
+        id: check
+        run: |
+          python3 - <<'PY'
+          import json
+          import os
+          from datetime import datetime, timezone
+          from pathlib import Path
+
+          data = json.loads(Path("docs/data/news.json").read_text(encoding="utf-8"))
+          published = datetime.fromisoformat(data["generated_at"].replace("Z", "+00:00"))
+          age_minutes = (datetime.now(timezone.utc) - published).total_seconds() / 60
+          if age_minutes < -5:
+              raise ValueError("Feed timestamp is more than five minutes in the future")
+          stale = age_minutes >= 50
+          print(f"Feed age: {age_minutes:.1f} minutes. Recovery needed: {stale}")
+          with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as output:
+              print(f"stale={str(stale).lower()}", file=output)
+          PY
   update:
+    needs: recovery
+    if: "${{ !cancelled() && (needs.recovery.result == 'skipped' || (needs.recovery.result == 'success' && needs.recovery.outputs.stale == 'true')) }}"
     runs-on: ubuntu-latest
     timeout-minutes: 25
     steps:
