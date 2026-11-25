@@ -1,37 +1,67 @@
 {
-  "generated_at": "2026-11-25T21:42:22.933198+00:00",
+  "generated_at": "2026-11-25T22:37:18.712208+00:00",
   "model_mode": "sentence-transformers",
   "stories": [
     {
-      "id": "b9a8fe3004a6",
-      "title": "At least 30 killed in massive fire as fuel tanker crashes on Cairo highway",
-      "summary": "Another 19 are injured after the tanker reportedly overturns on a busy ring road in the Egyptian capital.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/49ab/live/4933ad90-e913-11f1-a094-5fdc692f3e33.jpg",
+      "id": "5ceed16d1376",
+      "title": "31 dead in huge blast following crash on Ring Road near Al-Warraq, Giza",
+      "summary": "31 dead in huge blast following crash on Ring Road near Al-Warraq, Giza Egypt Today",
+      "image": "",
       "category": "World",
       "importance": "Major",
       "background_only": false,
-      "score": 73.2,
-      "published_at": "2026-11-25T21:25:14+00:00",
-      "source_count": 6,
+      "score": 71.1,
+      "published_at": "2026-11-25T10:23:00+00:00",
+      "source_count": 1,
       "reasons": [
+        "high-impact event",
         "reported fatalities",
-        "significant accident with human impact",
-        "2 trusted sources",
-        "rapid coverage growth"
+        "significant accident with human impact"
       ],
       "sources": [
         {
-          "name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNaEhpcnZZbkFLdDdZb1VrR2laRkJMMUxDYi1FZHZPOUo0LVpBdl9wUUlXMG1Ealh0eHJOU0o3Q0JSOFU4LXVlcWgyUDd6bDVLa2ZNWGY2aWVId0pnYlNNaHkzSkw2YzdEN3dMN0hGUzNZRktJekRLQWZIbmk5d2lrTElCeXZSV1IxUi0yamFWZzJsUQ?oc=5",
-          "published_at": "2026-11-25T20:22:04+00:00",
+          "name": "Egypt Today",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOWUl2Y0RXNXItTTQzS3J5QVdINXFFSVF4bld3TlF6eHcyYk9zTjgzanh0R0dRQ19hYkJVM2hwVTRPd0d3SHl0c3liOTJacVo3amRTN3M1V2JFazA1QmprXzlEei04WXNQQktXamhHM21yZDZaVlpKNmtFb0RDU3ZZRVgyOWJzeWZxekZDam9PSzl5VlBHZ1g3eS1n?oc=5",
+          "published_at": "2026-11-25T10:23:00+00:00",
           "paywalled": false
-        },
+        }
+      ],
+      "lead_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOWUl2Y0RXNXItTTQzS3J5QVdINXFFSVF4bld3TlF6eHcyYk9zTjgzanh0R0dRQ19hYkJVM2hwVTRPd0d3SHl0c3liOTJacVo3amRTN3M1V2JFazA1QmprXzlEei04WXNQQktXamhHM21yZDZaVlpKNmtFb0RDU3ZZRVgyOWJzeWZxekZDam9PSzl5VlBHZ1g3eS1n?oc=5",
+      "first_reported_at": "2026-11-25T10:23:00+00:00",
+      "update_count": 0,
+      "updated": false,
+      "coverage_history": [
         {
-          "name": "BBC World",
-          "url": "https://www.bbc.co.uk/news/articles/cqy7rn30v314o?at_medium=RSS&at_campaign=rss",
-          "published_at": "2026-11-25T21:25:14+00:00",
-          "paywalled": false
-        },
+          "at": "2026-11-25T22:37:18.712208+00:00",
+          "source_count": 1
+        }
+      ],
+      "context": {
+        "earlier_reporting": [],
+        "coverage_from": null,
+        "search_query": "ring road giza explosion crash",
+        "search_days": 730,
+        "searched_days": 30,
+        "search_status": "searched"
+      }
+    },
+    {
+      "id": "8ebe7b96eac0",
+      "title": "At least 30 killed in Egypt vehicle fire, health ministry says",
+      "summary": "At least 30 killed in Egypt vehicle fire, health ministry says Al Jazeera",
+      "image": "",
+      "category": "World",
+      "importance": "Major",
+      "background_only": false,
+      "score": 64.2,
+      "published_at": "2026-11-25T21:43:17+00:00",
+      "source_count": 2,
+      "reasons": [
+        "reported fatalities",
+        "significant accident with human impact",
+        "2 trusted sources"
+      ],
+      "sources": [
         {
           "name": "Reuters",
           "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQek1Ma05abHVBcXY5WHhUQWpvTUJKZl82T0xDWjVqc2dqdDRvdnMtNFFRLUhHdFgtU3d4eEFnd3UycFdxMTF5d3N2U010UGRuR3NPU2VHQzYzeGd1dndCSlVPWjJkeUZGZUpzcXQyM3h4aXZHRGl4eS1kV3NUVjhfYVYyZExXVnVMQmoxWGV4TUYzRFNCZHQ1YnNWMFJ3QzZweUY0SXFDeko3YnFILURaUmVvNGVqd1RkMFlfZEhB?oc=5",
@@ -43,49 +73,24 @@
           "url": "https://www.aljazeera.com/video/newsfeed/2026/11/25/aje-onl-nf_dozens-killed-in-egypt-vehicle-fire-251126?traffic_source=rss",
           "published_at": "2026-11-25T19:41:14+00:00",
           "paywalled": false
-        },
-        {
-          "name": "Al-Monitor",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQR0FjcFF6WDZoVDBxNUt5Y0tFSzlTUWh1NTdJQWJNWHc5U2M0TmJqZjhsNEFyR1AtVzJTaTEzMXhQclFoWWlydVFDSG00d1BhaDk5QWVhZzZPNk1iNWI1Tm83VEdrMmNrNHkxdnBCckJxdTgtMEtqZGZHOXVMLWRVMFBWUHNvY2lSVDVEWjM4UEs?oc=5",
-          "published_at": "2026-11-25T20:53:49+00:00",
-          "paywalled": false
-        },
-        {
-          "name": "The National",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOR1hlSEtNU0prWG0tUzBvTUZKRXJqOTAtZ09MV1hvQWVvR3ZjLWNmal9QN0hWc25ZMUVueUw4UnN4cVc0V3ZKTjcyczczVWcwWXdMWVl2NFF5YlFZSG5VN2FJTXhCVVRDMGJwUkJ4S0ZhdVh6SG5xRnNfZ1dPZ185b3ZZUVpLZ2YtdEZkeGEzc1B6ZjdvQ1lUdE1iTXFRbFZiWFgtamFzOHZZQQ?oc=5",
-          "published_at": "2026-11-25T20:48:45+00:00",
-          "paywalled": false
         }
       ],
-      "lead_url": "https://www.bbc.co.uk/news/articles/cqy7rn30v314o?at_medium=RSS&at_campaign=rss",
-      "first_reported_at": "2026-11-25T18:27:32+00:00",
-      "update_count": 2,
-      "updated": true,
-      "coverage_momentum": {
-        "new_sources": 5,
-        "hours": 1.84,
-        "bonus": 8.0
-      },
+      "lead_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQTlU0RXBRWWJMUXd0Z01rcmhMeTI0V1hJLVdXUUY3eEhwb2w2R0pza2RxSnZyd044elUxX3UyemhQTG5wN1VadlphRjE2SGJvMmlRQ0N0TGRScDlwYUVWejFyX0FDMWpQZGJkZWZTSmxia2tTUkZQSFZ1XzBzNVU1ZVB5cFBGblBxWGtfb2ZXZGxTNGRzWlNBdkJaTm9tdWVlQTJfNnJB0gGrAUFVX3lxTFBxMmtCU1JWQ2xhSXBTMEczWEc0MGpvSExWY2xIcEl4VFZCOGdNRWg0ZFJxSzZZek52aV9pdUVFcFdUSEh1YmlVSmRQUU53RzE1dVhkZzc4RWZxSzEtNUZZbUNvbkFJU1hRdDljX21MY0xIZ2NmbGRKZXc3NkFkRTVhdTJZdExmYVJObVNNWk1Hd2EtdHJSb0lCRmplNC1XcXVfd3pnVS03MHkxaw?oc=5",
+      "first_reported_at": "2026-11-25T21:43:17+00:00",
+      "update_count": 0,
+      "updated": false,
       "coverage_history": [
         {
-          "at": "2026-11-25T19:52:04.605723+00:00",
-          "source_count": 1
-        },
-        {
-          "at": "2026-11-25T20:47:10.474938+00:00",
-          "source_count": 1
-        },
-        {
-          "at": "2026-11-25T21:42:22.933198+00:00",
-          "source_count": 6
+          "at": "2026-11-25T22:37:18.712208+00:00",
+          "source_count": 2
         }
       ],
       "context": {
         "earlier_reporting": [],
         "coverage_from": null,
-        "search_query": "cairo fire crash",
+        "search_query": "egypt fire vehicle",
         "search_days": 730,
-        "searched_days": 30,
+        "searched_days": 365,
         "search_status": "searched"
       }
     },
@@ -97,15 +102,22 @@
       "category": "Tech",
       "importance": "Major",
       "background_only": false,
-      "score": 55.8,
+      "score": 61.8,
       "published_at": "2026-11-23T21:23:42+00:00",
-      "source_count": 1,
+      "source_count": 2,
       "reasons": [
         "significant public impact",
         "large market move",
-        "major market-value change"
+        "major market-value change",
+        "2 trusted sources"
       ],
       "sources": [
+        {
+          "name": "Financial Times",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOY0VMY3VZRlBrNGs0bElpa1NJSEZtREllUzFhaGFRTWVNYXN0eVA3Y0hFMjdrRUtyekZnQ3RDRTVLdTNTNWlSRHdXMkRVeXFEX2tvczJxUVRVYjhRX0hSR0FabmJwMlBrZEhNeHBCS3kxcHladGtoQlFkOW5TMG81Y3RGODk?oc=5",
+          "published_at": "2026-11-23T14:04:54+00:00",
+          "paywalled": true
+        },
         {
           "name": "BBC Technology",
           "url": "https://www.bbc.co.uk/news/articles/cq62pn6j42jko?at_medium=RSS&at_campaign=rss",
@@ -115,13 +127,9 @@
       ],
       "lead_url": "https://www.bbc.co.uk/news/articles/cq62pn6j42jko?at_medium=RSS&at_campaign=rss",
       "first_reported_at": "2026-11-24T10:35:00+00:00",
-      "update_count": 5,
-      "updated": false,
+      "update_count": 6,
+      "updated": true,
       "coverage_history": [
-        {
-          "at": "2026-11-25T12:02:13.392466+00:00",
-          "source_count": 1
-        },
         {
           "at": "2026-11-25T12:57:08.856806+00:00",
           "source_count": 1
@@ -165,6 +173,10 @@
         {
           "at": "2026-11-25T21:42:22.933198+00:00",
           "source_count": 1
+        },
+        {
+          "at": "2026-11-25T22:37:18.712208+00:00",
+          "source_count": 2
         }
       ],
       "context": {
@@ -181,6 +193,60 @@
         "search_days": 730,
         "searched_days": 30,
         "search_status": "matched"
+      }
+    },
+    {
+      "id": "b9a8fe3004a6",
+      "title": "Thirty-one killed in massive fire as fuel tanker crashes on Cairo highway",
+      "summary": "Another 21 are injured after the tanker reportedly overturns on a busy ring road in the Egyptian capital.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2d4b/live/5e57daf0-e91f-11f1-9108-c5b270b0703d.jpg",
+      "category": "World",
+      "importance": "Major",
+      "background_only": false,
+      "score": 57.8,
+      "published_at": "2026-11-25T22:18:06+00:00",
+      "source_count": 1,
+      "reasons": [
+        "reported fatalities",
+        "significant accident with human impact"
+      ],
+      "sources": [
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cqy7rn30v314o?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-11-25T22:18:06+00:00",
+          "paywalled": false
+        }
+      ],
+      "lead_url": "https://www.bbc.co.uk/news/articles/cqy7rn30v314o?at_medium=RSS&at_campaign=rss",
+      "first_reported_at": "2026-11-25T18:27:32+00:00",
+      "update_count": 3,
+      "updated": true,
+      "coverage_history": [
+        {
+          "at": "2026-11-25T19:52:04.605723+00:00",
+          "source_count": 1
+        },
+        {
+          "at": "2026-11-25T20:47:10.474938+00:00",
+          "source_count": 1
+        },
+        {
+          "at": "2026-11-25T21:42:22.933198+00:00",
+          "source_count": 6
+        },
+        {
+          "at": "2026-11-25T22:37:18.712208+00:00",
+          "source_count": 1
+        }
+      ],
+      "context": {
+        "earlier_reporting": [],
+        "coverage_from": null,
+        "search_query": "cairo fire crash",
+        "search_days": 730,
+        "searched_days": 180,
+        "search_status": "searched"
       }
     },
     {
@@ -213,6 +279,10 @@
       "coverage_history": [
         {
           "at": "2026-11-25T21:42:22.933198+00:00",
+          "source_count": 1
+        },
+        {
+          "at": "2026-11-25T22:37:18.712208+00:00",
           "source_count": 1
         }
       ],
@@ -254,10 +324,6 @@
       "updated": false,
       "coverage_history": [
         {
-          "at": "2026-11-25T12:02:13.392466+00:00",
-          "source_count": 1
-        },
-        {
           "at": "2026-11-25T12:57:08.856806+00:00",
           "source_count": 1
         },
@@ -300,6 +366,10 @@
         {
           "at": "2026-11-25T21:42:22.933198+00:00",
           "source_count": 1
+        },
+        {
+          "at": "2026-11-25T22:37:18.712208+00:00",
+          "source_count": 1
         }
       ],
       "context": {
@@ -339,10 +409,6 @@
       "update_count": 3,
       "updated": false,
       "coverage_history": [
-        {
-          "at": "2026-11-25T12:02:13.392466+00:00",
-          "source_count": 1
-        },
         {
           "at": "2026-11-25T12:57:08.856806+00:00",
           "source_count": 1
@@ -385,6 +451,10 @@
         },
         {
           "at": "2026-11-25T21:42:22.933198+00:00",
+          "source_count": 1
+        },
+        {
+          "at": "2026-11-25T22:37:18.712208+00:00",
           "source_count": 1
         }
       ],
@@ -430,12 +500,8 @@
       "lead_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNM3FwNzdnMkNQV2N6S0hUZjBWQVRqbkhaU3Z4b0piU2IwbHFwXzd6U1pMSE90dFBtcFhxXzQwcm5mWnNXMFdwQ21tbC1TWnlIMjZYVGFmSWZ2YUFBUUJHMjJFTHBhMTFhV1dWU3NJcEZOcUdIbkQwSDVkSGlhT25WMFVYbXJST05yUW9tWGhUZDBmTmphb0cwMDdXSVlubi0tY0U5VdIBqgFBVV95cUxNbGZZLU9qSF9uaGs0OVUzNFdGdll0bTJrN0pYOGJLZDA3ejFtQ1JnaDhiWW1JeUxualRrbzF0WWE3dHdFSjU0bU9zTXpvLXRVS3B4VGdOOEwyZS1jcUwxNThqM0hBRkF2d1pSZWMtRTBMWVpMR1FIZFhTTjE0Umg1U0dnVnF2NmtxNFFxblZQR3VvLU45MmZZX3AwekhCRzJNZFctUzFxakR4QQ?oc=5",
       "first_reported_at": "2026-11-23T10:45:26+00:00",
       "update_count": 7,
-      "updated": true,
+      "updated": false,
       "coverage_history": [
-        {
-          "at": "2026-11-25T12:02:13.392466+00:00",
-          "source_count": 1
-        },
         {
           "at": "2026-11-25T12:57:08.856806+00:00",
           "source_count": 1
@@ -479,6 +545,10 @@
         {
           "at": "2026-11-25T21:42:22.933198+00:00",
           "source_count": 1
+        },
+        {
+          "at": "2026-11-25T22:37:18.712208+00:00",
+          "source_count": 1
         }
       ],
       "context": {
@@ -486,7 +556,7 @@
         "coverage_from": null,
         "search_query": "indonesia fire confirms",
         "search_days": 730,
-        "searched_days": 30,
+        "searched_days": 180,
         "search_status": "searched"
       }
     },
@@ -499,8 +569,8 @@
       "importance": "Major",
       "background_only": false,
       "score": 54.1,
-      "published_at": "2026-11-25T17:33:00+00:00",
-      "source_count": 1,
+      "published_at": "2026-11-25T17:41:11+00:00",
+      "source_count": 2,
       "reasons": [
         "significant public impact",
         "historic space milestone"
@@ -511,12 +581,18 @@
           "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNR3M0QnJvdnFlSmxYai1OZWNwd0pYOFVKa2t3UDZhLXZkcXVkcmNOZHU2ZEVCQk1HX0liM2ZVb3piZDFiaE5SSkY2MWdZeFNmOVhTWkM3RDdqSHYySDNkSTNwcExoemNqTWtoLWNQV1VDNXota0w3Ym1FLUZxOXFPZnB3UlllbEJySmhJ?oc=5",
           "published_at": "2026-11-25T17:33:00+00:00",
           "paywalled": false
+        },
+        {
+          "name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNbUNDa1I5NlZaa2hiOFJGSHJlOHkyU3QtMEl0S2lvbGNlTWhJdGd6TzA3TV9VV0p2azc3OUZWeU0zLWtZbjZ3dlc5SXAxSklBbmlOeU5GcFdhMzZWbnJPTExMWG9KcElUOUotS3BGMDJmS2xVVV95MjFiYzdFTEcwOE1DU0tRY1ZmTzFHQ2pvYmFQUVY4dmRCb2tERDZZZV9IMWpLUTA0NXFNYnlwMm1UaTJyaXE2bThCMDRza1JDZlg?oc=5",
+          "published_at": "2026-11-25T00:27:00+00:00",
+          "paywalled": false
         }
       ],
       "lead_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNR3M0QnJvdnFlSmxYai1OZWNwd0pYOFVKa2t3UDZhLXZkcXVkcmNOZHU2ZEVCQk1HX0liM2ZVb3piZDFiaE5SSkY2MWdZeFNmOVhTWkM3RDdqSHYySDNkSTNwcExoemNqTWtoLWNQV1VDNXota0w3Ym1FLUZxOXFPZnB3UlllbEJySmhJ?oc=5",
       "first_reported_at": "2026-11-25T13:58:27+00:00",
-      "update_count": 1,
-      "updated": false,
+      "update_count": 2,
+      "updated": true,
       "coverage_history": [
         {
           "at": "2026-11-25T18:57:18.796437+00:00",
@@ -533,6 +609,10 @@
         {
           "at": "2026-11-25T21:42:22.933198+00:00",
           "source_count": 1
+        },
+        {
+          "at": "2026-11-25T22:37:18.712208+00:00",
+          "source_count": 2
         }
       ],
       "context": {
@@ -558,42 +638,42 @@
       }
     },
     {
-      "id": "43d8c34ae7f5",
-      "title": "DRDO awards contract to olee.space for laser-based drone communication system",
-      "summary": "DRDO awards contract to olee.space for laser-based drone communication system ET Manufacturing",
+      "id": "c664d0e0b784",
+      "title": "Extreme heat linked to 5,258 deaths as experts warn what comes next",
+      "summary": "Extreme heat linked to 5,258 deaths as experts warn what comes next https://www.birmingham-now.co.uk/",
       "image": "",
       "category": "World",
       "importance": "Major",
       "background_only": false,
-      "score": 51.9,
-      "published_at": "2026-11-23T09:05:06+00:00",
+      "score": 52.3,
+      "published_at": "2026-11-25T05:15:00+00:00",
       "source_count": 1,
       "reasons": [
         "high-impact event",
-        "defence industrial agreement"
+        "reported fatalities"
       ],
       "sources": [
         {
-          "name": "ET Manufacturing",
-          "url": "https://news.google.com/rss/articles/CBMirAJBVV95cUxQOWJmZmpEQnhBeGdnVkwxRkR0Q2QwQkNKNm9MSHVxVnQwSW1JdmYzWWItWWd6bTAteHJvX09KSHhQN3k5RHBySGl6cVR6aEZBaUVVa2N6RXdxR2ZKY1JGNlRpUEE4ZGtzLUxpeEJQYi1FRXFaeXhaa1pZR2xvcTQ5dmZTMGdWQUlNM3RBcF9qTmZKekhLTTFmclRVVFhuakJZOXdrRGZKV2Y2TkItaWx6LXZZNEhLeHlYSy03NWNZbmpVaVJtY3RTU2Z2Wldxc19Jcm1WR3dTZGNFWURMM0ZlZkowdjlpdFBmNkFialhKUlVuY1FqUEt1YTdoeVZ4VFpfcmpldUNiN04zaHB3SEtkNWhsVkx6dTE4MEFuc0E1ZlAwckVsZlhaRG9mVU7SAfcBQVVfeXFMTWlMNWp1OFZtUnBjbjJhUVl5NmUwZ0VKYkZLSzE4Wk5MdEZqUUN4TEdTdy1QWFlkN2Y4WVplak1CZlVrYkd1aXQ3WnJnRVhiQkplS29oVHdXem14UWNSYkFuZzJFV1VVLXpiTEtsb3RrS05mMTVncDNna2pHbW9neVBOeG9OanJ1RVNMNnNMM3JXRmZhYVdIcWFpcmtZQ0E5QUwzaDhsdFBiUjdSX0tYZng0RjRkeGxzMC1zMC1UZFJxaTBIU2tKWDI5c2l3MTVJVkNvc3dmUkhzekgyUE9EcENqSVlPYnNoOTBhMEtkSlZyRHpQNDRzRQ?oc=5",
-          "published_at": "2026-11-23T09:05:06+00:00",
+          "name": "https://www.birmingham-now.co.uk/",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQaVhtYWtJd21yVDQwYkE2V3BoS0tPbWVhWGxZbXdXU3A4VEsxSjFLcy1iNVhNRHBLM2dYb29CbHphQ3VJWlRuM3EtZjFBSTlwQzd5NUVoUEZ2dFVGazlVTXQwTkdvcTFuS0NxaFM4R0E4UnRvNlEyLUNTcXZoMlBORUlIUHQ0dlQxSkRzbXBYUVJmeV91OUR4UTRNM3c?oc=5",
+          "published_at": "2026-11-25T05:15:00+00:00",
           "paywalled": false
         }
       ],
-      "lead_url": "https://news.google.com/rss/articles/CBMirAJBVV95cUxQOWJmZmpEQnhBeGdnVkwxRkR0Q2QwQkNKNm9MSHVxVnQwSW1JdmYzWWItWWd6bTAteHJvX09KSHhQN3k5RHBySGl6cVR6aEZBaUVVa2N6RXdxR2ZKY1JGNlRpUEE4ZGtzLUxpeEJQYi1FRXFaeXhaa1pZR2xvcTQ5dmZTMGdWQUlNM3RBcF9qTmZKekhLTTFmclRVVFhuakJZOXdrRGZKV2Y2TkItaWx6LXZZNEhLeHlYSy03NWNZbmpVaVJtY3RTU2Z2Wldxc19Jcm1WR3dTZGNFWURMM0ZlZkowdjlpdFBmNkFialhKUlVuY1FqUEt1YTdoeVZ4VFpfcmpldUNiN04zaHB3SEtkNWhsVkx6dTE4MEFuc0E1ZlAwckVsZlhaRG9mVU7SAfcBQVVfeXFMTWlMNWp1OFZtUnBjbjJhUVl5NmUwZ0VKYkZLSzE4Wk5MdEZqUUN4TEdTdy1QWFlkN2Y4WVplak1CZlVrYkd1aXQ3WnJnRVhiQkplS29oVHdXem14UWNSYkFuZzJFV1VVLXpiTEtsb3RrS05mMTVncDNna2pHbW9neVBOeG9OanJ1RVNMNnNMM3JXRmZhYVdIcWFpcmtZQ0E5QUwzaDhsdFBiUjdSX0tYZng0RjRkeGxzMC1zMC1UZFJxaTBIU2tKWDI5c2l3MTVJVkNvc3dmUkhzekgyUE9EcENqSVlPYnNoOTBhMEtkSlZyRHpQNDRzRQ?oc=5",
-      "first_reported_at": "2026-11-23T09:05:06+00:00",
+      "lead_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQaVhtYWtJd21yVDQwYkE2V3BoS0tPbWVhWGxZbXdXU3A4VEsxSjFLcy1iNVhNRHBLM2dYb29CbHphQ3VJWlRuM3EtZjFBSTlwQzd5NUVoUEZ2dFVGazlVTXQwTkdvcTFuS0NxaFM4R0E4UnRvNlEyLUNTcXZoMlBORUlIUHQ0dlQxSkRzbXBYUVJmeV91OUR4UTRNM3c?oc=5",
+      "first_reported_at": "2026-11-25T05:15:00+00:00",
       "update_count": 0,
       "updated": false,
       "coverage_history": [
         {
-          "at": "2026-11-25T21:42:22.933198+00:00",
+          "at": "2026-11-25T22:37:18.712208+00:00",
           "source_count": 1
         }
       ],
       "context": {
         "earlier_reporting": [],
         "coverage_from": null,
-        "search_query": "drdo awards contract",
+        "search_query": "extreme heat linked",
         "search_days": 730,
         "searched_days": 730,
         "search_status": "searched"
@@ -627,10 +707,6 @@
       "update_count": 9,
       "updated": false,
       "coverage_history": [
-        {
-          "at": "2026-11-25T12:02:13.392466+00:00",
-          "source_count": 5
-        },
         {
           "at": "2026-11-25T12:57:08.856806+00:00",
           "source_count": 1
@@ -673,6 +749,10 @@
         },
         {
           "at": "2026-11-25T21:42:22.933198+00:00",
+          "source_count": 1
+        },
+        {
+          "at": "2026-11-25T22:37:18.712208+00:00",
           "source_count": 1
         }
       ],
@@ -739,6 +819,10 @@
         {
           "at": "2026-11-25T21:42:22.933198+00:00",
           "source_count": 1
+        },
+        {
+          "at": "2026-11-25T22:37:18.712208+00:00",
+          "source_count": 1
         }
       ],
       "context": {
@@ -751,86 +835,42 @@
       }
     },
     {
-      "id": "bfcc0158a669",
-      "title": "23 deaths push Israeli troops' suicide rate to highest in 16 years | Daily Sabah",
-      "summary": "23 deaths push Israeli troops' suicide rate to highest in 16 years | Daily Sabah Daily Sabah",
+      "id": "231a40545049",
+      "title": "Massive factory explosion leaves 17 dead and 12 injured in Izmir, Turkey",
+      "summary": "Massive factory explosion leaves 17 dead and 12 injured in Izmir, Turkey Hispanatolia",
       "image": "",
-      "category": "Middle East",
+      "category": "Europe/UK",
       "importance": "Major",
       "background_only": false,
-      "score": 50.1,
-      "published_at": "2026-11-23T11:02:00+00:00",
+      "score": 50.3,
+      "published_at": "2026-11-24T17:33:20+00:00",
       "source_count": 1,
       "reasons": [
         "reported fatalities",
-        "record institutional or health trend"
+        "significant accident with human impact"
       ],
       "sources": [
         {
-          "name": "Daily Sabah",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPVHdKOU1EdTRJZE01X1Z6UzkzZUw1V0tUN0t6T25GT3E4OTFhc3BLYldMWXpMYUpfM2ExQnJ5T3dUWXpQYWhSOUpuQ0IwSnVnYnIycTVnSlVDNWlXVjg5WjhlRWdLNTBweWFYTmxlU0x2ampReF9Rd0dadktJbFpCUXN1alI3SEpEcXUxRFV0THVCdU9JNDZzLXBGdjI3VlZnRFFmU2dZVUJuYWvSAbABQVVfeXFMUGVBdlRmVlB2enlIem5hSDVQaDF3N3Vtb0NfdV9DOERCNkp1WUdHS1VTY0FoX3psWVYxV1JXOUJfc3gtV1l1eHpwTURrblhGUkxzUkVDWEVKR1RaOUZXNy0waXM0ekJFVXpWYXI5QU5QQ2NCb2VuaXlLSWNCTWJpMndaMjNxR3RUeS0zeUlPck5ONzVJNTA3a19QaWxNV24xd1JBOWRtamtVUE1tYUF6NW8?oc=5",
-          "published_at": "2026-11-23T11:02:00+00:00",
+          "name": "Hispanatolia",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOdFFEMlQyTVp3MDVnSVpYUDlxc0xNQ2xRaVEwMENoVElUa3RjWFYtUU1BTjNVWXdvTTZQaVQyUzNjUUlnSjAzR3FFbk9kRHFaaVdhUkQyYXV4Xy1WWlFaZmVvUDhILVQ3RVY5QXVUN2YycjhJa0dTSDZDSldoa05FNXdRaWw0RmNISnMyY21aaURpQm5XUDBtRExLNTBlUEJLTUE?oc=5",
+          "published_at": "2026-11-24T17:33:20+00:00",
           "paywalled": false
         }
       ],
-      "lead_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPVHdKOU1EdTRJZE01X1Z6UzkzZUw1V0tUN0t6T25GT3E4OTFhc3BLYldMWXpMYUpfM2ExQnJ5T3dUWXpQYWhSOUpuQ0IwSnVnYnIycTVnSlVDNWlXVjg5WjhlRWdLNTBweWFYTmxlU0x2ampReF9Rd0dadktJbFpCUXN1alI3SEpEcXUxRFV0THVCdU9JNDZzLXBGdjI3VlZnRFFmU2dZVUJuYWvSAbABQVVfeXFMUGVBdlRmVlB2enlIem5hSDVQaDF3N3Vtb0NfdV9DOERCNkp1WUdHS1VTY0FoX3psWVYxV1JXOUJfc3gtV1l1eHpwTURrblhGUkxzUkVDWEVKR1RaOUZXNy0waXM0ekJFVXpWYXI5QU5QQ2NCb2VuaXlLSWNCTWJpMndaMjNxR3RUeS0zeUlPck5ONzVJNTA3a19QaWxNV24xd1JBOWRtamtVUE1tYUF6NW8?oc=5",
-      "first_reported_at": "2026-11-23T11:02:00+00:00",
-      "update_count": 7,
+      "lead_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOdFFEMlQyTVp3MDVnSVpYUDlxc0xNQ2xRaVEwMENoVElUa3RjWFYtUU1BTjNVWXdvTTZQaVQyUzNjUUlnSjAzR3FFbk9kRHFaaVdhUkQyYXV4Xy1WWlFaZmVvUDhILVQ3RVY5QXVUN2YycjhJa0dTSDZDSldoa05FNXdRaWw0RmNISnMyY21aaURpQm5XUDBtRExLNTBlUEJLTUE?oc=5",
+      "first_reported_at": "2026-11-24T17:33:20+00:00",
+      "update_count": 0,
       "updated": false,
       "coverage_history": [
         {
-          "at": "2026-11-25T12:02:13.392466+00:00",
-          "source_count": 1
-        },
-        {
-          "at": "2026-11-25T12:57:08.856806+00:00",
-          "source_count": 6
-        },
-        {
-          "at": "2026-11-25T13:52:05.760808+00:00",
-          "source_count": 6
-        },
-        {
-          "at": "2026-11-25T14:17:24.724951+00:00",
-          "source_count": 1
-        },
-        {
-          "at": "2026-11-25T15:12:08.958448+00:00",
-          "source_count": 1
-        },
-        {
-          "at": "2026-11-25T16:07:23.079151+00:00",
-          "source_count": 1
-        },
-        {
-          "at": "2026-11-25T17:07:10.683225+00:00",
-          "source_count": 6
-        },
-        {
-          "at": "2026-11-25T18:02:05.466284+00:00",
-          "source_count": 5
-        },
-        {
-          "at": "2026-11-25T18:57:18.796437+00:00",
-          "source_count": 1
-        },
-        {
-          "at": "2026-11-25T19:52:04.605723+00:00",
-          "source_count": 1
-        },
-        {
-          "at": "2026-11-25T20:47:10.474938+00:00",
-          "source_count": 6
-        },
-        {
-          "at": "2026-11-25T21:42:22.933198+00:00",
+          "at": "2026-11-25T22:37:18.712208+00:00",
           "source_count": 1
         }
       ],
       "context": {
         "earlier_reporting": [],
         "coverage_from": null,
-        "search_query": "israeli suicide push",
+        "search_query": "massive izmir turkey explosion",
         "search_days": 730,
         "searched_days": 730,
         "search_status": "searched"
@@ -879,6 +919,10 @@
         {
           "at": "2026-11-25T21:42:22.933198+00:00",
           "source_count": 1
+        },
+        {
+          "at": "2026-11-25T22:37:18.712208+00:00",
+          "source_count": 1
         }
       ],
       "context": {
@@ -886,7 +930,7 @@
         "coverage_from": null,
         "search_query": "indonesia flood hit",
         "search_days": 730,
-        "searched_days": 365,
+        "searched_days": 730,
         "search_status": "searched"
       }
     },
@@ -909,14 +953,14 @@
         {
           "name": "Financial Times",
           "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQRC1pbmw0S04yVGtzUkRuLUhnWGl1ejJHWW9DZXRoZW5ueC1pNFRVMTZOaXlGaDNkQUNjeFh6d1hUbm9hcVhGUEhfRVBIX3BHS1JtdUQ1REQ0YlRzZVVBRHJYVFBxT19WeEdGQXZKdFdpeTNDR2FHel93ZC1iZ1RPX3NmSlU?oc=5",
-          "published_at": "2026-11-25T03:28:02+00:00",
+          "published_at": "2026-11-25T03:29:39+00:00",
           "paywalled": true
         }
       ],
       "lead_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQRC1pbmw0S04yVGtzUkRuLUhnWGl1ejJHWW9DZXRoZW5ueC1pNFRVMTZOaXlGaDNkQUNjeFh6d1hUbm9hcVhGUEhfRVBIX3BHS1JtdUQ1REQ0YlRzZVVBRHJYVFBxT19WeEdGQXZKdFdpeTNDR2FHel93ZC1iZ1RPX3NmSlU?oc=5",
       "first_reported_at": "2026-11-25T18:40:00+00:00",
       "update_count": 1,
-      "updated": true,
+      "updated": false,
       "coverage_history": [
         {
           "at": "2026-11-25T18:57:18.796437+00:00",
@@ -932,6 +976,10 @@
         },
         {
           "at": "2026-11-25T21:42:22.933198+00:00",
+          "source_count": 1
+        },
+        {
+          "at": "2026-11-25T22:37:18.712208+00:00",
           "source_count": 1
         }
       ],
@@ -998,10 +1046,6 @@
       "updated": false,
       "coverage_history": [
         {
-          "at": "2026-11-25T12:02:13.392466+00:00",
-          "source_count": 1
-        },
-        {
           "at": "2026-11-25T12:57:08.856806+00:00",
           "source_count": 1
         },
@@ -1044,6 +1088,10 @@
         {
           "at": "2026-11-25T21:42:22.933198+00:00",
           "source_count": 1
+        },
+        {
+          "at": "2026-11-25T22:37:18.712208+00:00",
+          "source_count": 1
         }
       ],
       "context": {
@@ -1064,7 +1112,7 @@
       "importance": "Major",
       "background_only": false,
       "score": 46.9,
-      "published_at": "2026-11-25T20:12:00+00:00",
+      "published_at": "2026-11-25T21:29:22+00:00",
       "source_count": 2,
       "reasons": [
         "high-impact event",
@@ -1075,7 +1123,7 @@
         {
           "name": "Reuters",
           "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQUnBxTTlMWW9sR2p0cHd4OXk3enppYzRYOTFkOENpamtod1VHTExCQjRqZ1cxRWRjZ04wZlp4NzR1SVdQaGpPeWNTLVpmN09fc3R0WGxUMUFUQ0tOekxYV3ZSY2w2WTQtUDR6N2pETVotWWRlV1VrRVhXYTFYY19SRXRfZ3Z5bmFnb2xVVjNjRkJPdG9qRE4yRGxMMVNyMjlEdXBvSEw1SjMxYVFvNjVEckszYw?oc=5",
-          "published_at": "2026-11-25T20:12:00+00:00",
+          "published_at": "2026-11-25T21:29:22+00:00",
           "paywalled": false
         },
         {
@@ -1087,7 +1135,7 @@
       ],
       "lead_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQUnBxTTlMWW9sR2p0cHd4OXk3enppYzRYOTFkOENpamtod1VHTExCQjRqZ1cxRWRjZ04wZlp4NzR1SVdQaGpPeWNTLVpmN09fc3R0WGxUMUFUQ0tOekxYV3ZSY2w2WTQtUDR6N2pETVotWWRlV1VrRVhXYTFYY19SRXRfZ3Z5bmFnb2xVVjNjRkJPdG9qRE4yRGxMMVNyMjlEdXBvSEw1SjMxYVFvNjVEckszYw?oc=5",
       "first_reported_at": "2026-11-25T16:12:03+00:00",
-      "update_count": 2,
+      "update_count": 3,
       "updated": true,
       "coverage_history": [
         {
@@ -1105,6 +1153,10 @@
         {
           "at": "2026-11-25T21:42:22.933198+00:00",
           "source_count": 2
+        },
+        {
+          "at": "2026-11-25T22:37:18.712208+00:00",
+          "source_count": 2
         }
       ],
       "context": {
@@ -1117,84 +1169,42 @@
       }
     },
     {
-      "id": "6d1b9e2a6507",
-      "title": "Different cultures, a shared dream: Chinese astronaut on historic joint space mission",
-      "summary": "Different cultures, a shared dream: Chinese astronaut on historic joint space mission Ecns.cn",
+      "id": "a3bdd39dfde0",
+      "title": "China: 8 dead after houses collapse in industrial area",
+      "summary": "China: 8 dead after houses collapse in industrial area Yeni Safak English",
       "image": "",
       "category": "World",
       "importance": "Major",
       "background_only": false,
       "score": 46.2,
-      "published_at": "2026-11-25T14:34:18+00:00",
+      "published_at": "2026-11-24T15:21:52+00:00",
       "source_count": 1,
       "reasons": [
-        "significant public impact",
-        "historic space milestone"
-      ],
-      "sources": [
-        {
-          "name": "Ecns.cn",
-          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOeG1DYUlwVWY5RDJ3NXprQzdZSHpxbnpKU2ZxYzJXdUNfaVRjNnJPV3RuQTV6bjAwMmZKWlhtSDIwVU1iVzF1TDNCMUZFcWZqektfWjExa1F5cWlmS282VXVfZ3JwYkxPd3p3WGNzNFFNQURZYjVqeHl0MEd5UEpmNw?oc=5",
-          "published_at": "2026-11-25T14:34:18+00:00",
-          "paywalled": false
-        }
-      ],
-      "lead_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOeG1DYUlwVWY5RDJ3NXprQzdZSHpxbnpKU2ZxYzJXdUNfaVRjNnJPV3RuQTV6bjAwMmZKWlhtSDIwVU1iVzF1TDNCMUZFcWZqektfWjExa1F5cWlmS282VXVfZ3JwYkxPd3p3WGNzNFFNQURZYjVqeHl0MEd5UEpmNw?oc=5",
-      "first_reported_at": "2026-11-25T14:34:18+00:00",
-      "update_count": 0,
-      "updated": false,
-      "coverage_history": [
-        {
-          "at": "2026-11-25T21:42:22.933198+00:00",
-          "source_count": 1
-        }
-      ],
-      "context": {
-        "earlier_reporting": [],
-        "coverage_from": null,
-        "search_query": "different chinese astronaut",
-        "search_days": 730,
-        "searched_days": 180,
-        "search_status": "searched"
-      }
-    },
-    {
-      "id": "18b9b3b87ad8",
-      "title": "Cholera outbreak kills 55 in Niger: UN agency",
-      "summary": "Cholera outbreak kills 55 in Niger: UN agency Yeni Safak English",
-      "image": "",
-      "category": "World",
-      "importance": "Major",
-      "background_only": false,
-      "score": 46.2,
-      "published_at": "2026-11-25T09:04:04+00:00",
-      "source_count": 1,
-      "reasons": [
-        "high-impact event",
-        "reported fatalities"
+        "reported fatalities",
+        "significant accident with human impact"
       ],
       "sources": [
         {
           "name": "Yeni Safak English",
-          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQaXNFT2ZJRXY5c1BDbEd1MzRHTmpUaDRiaXhxZEtDSUdBV0xadmFSVDV2TFlJcThUb1h4OXRUSnBuT3dza2NSc2JHQ0pzZUs0QjFXRFFBMXBQa1RveGZ5OUVNa1N0ZXJfQTBPTVdlNHp4Mk4tOGJiZU1jX1BUMWwzWHVQWmwzVlRmSXdN?oc=5",
-          "published_at": "2026-11-25T09:04:04+00:00",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQRDFlZzRZLVlWdF85c0V2Q25SNnBBYWJXVV82STRYbjQ0Um5MNXpNWjdoRkpTWUxrY1B0cWR6amlPVWM0MGI0VXVpV0xIOWF3SW1NV0NRcEdsa1dUU1dvbzBtUDVYbHp5aEtQdGlmbGZKb2ZWS3loQ1FxZl9lTzg3Rkp4b3BEckFBQ2JuaGNaQS1WTkE0MGFF?oc=5",
+          "published_at": "2026-11-24T15:21:52+00:00",
           "paywalled": false
         }
       ],
-      "lead_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQaXNFT2ZJRXY5c1BDbEd1MzRHTmpUaDRiaXhxZEtDSUdBV0xadmFSVDV2TFlJcThUb1h4OXRUSnBuT3dza2NSc2JHQ0pzZUs0QjFXRFFBMXBQa1RveGZ5OUVNa1N0ZXJfQTBPTVdlNHp4Mk4tOGJiZU1jX1BUMWwzWHVQWmwzVlRmSXdN?oc=5",
-      "first_reported_at": "2026-11-25T09:04:04+00:00",
+      "lead_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQRDFlZzRZLVlWdF85c0V2Q25SNnBBYWJXVV82STRYbjQ0Um5MNXpNWjdoRkpTWUxrY1B0cWR6amlPVWM0MGI0VXVpV0xIOWF3SW1NV0NRcEdsa1dUU1dvbzBtUDVYbHp5aEtQdGlmbGZKb2ZWS3loQ1FxZl9lTzg3Rkp4b3BEckFBQ2JuaGNaQS1WTkE0MGFF?oc=5",
+      "first_reported_at": "2026-11-24T15:21:52+00:00",
       "update_count": 0,
       "updated": false,
       "coverage_history": [
         {
-          "at": "2026-11-25T21:42:22.933198+00:00",
+          "at": "2026-11-25T22:37:18.712208+00:00",
           "source_count": 1
         }
       ],
       "context": {
         "earlier_reporting": [],
         "coverage_from": null,
-        "search_query": "cholera niger un outbreak",
+        "search_query": "china collapse dead",
         "search_days": 730,
         "searched_days": 730,
         "search_status": "searched"
@@ -1239,6 +1249,10 @@
         {
           "at": "2026-11-25T21:42:22.933198+00:00",
           "source_count": 1
+        },
+        {
+          "at": "2026-11-25T22:37:18.712208+00:00",
+          "source_count": 1
         }
       ],
       "context": {
@@ -1246,7 +1260,7 @@
         "coverage_from": null,
         "search_query": "hodeidah yemen renewed",
         "search_days": 730,
-        "searched_days": 365,
+        "searched_days": 730,
         "search_status": "searched"
       }
     },
@@ -1321,6 +1335,10 @@
         {
           "at": "2026-11-25T21:42:22.933198+00:00",
           "source_count": 1
+        },
+        {
+          "at": "2026-11-25T22:37:18.712208+00:00",
+          "source_count": 1
         }
       ],
       "context": {
@@ -1330,146 +1348,6 @@
         "search_days": 730,
         "searched_days": 730,
         "search_status": "searched"
-      }
-    },
-    {
-      "id": "25e532817ca1",
-      "title": "Australia warns tech giants of multibillion-dollar fines for online ‘harm’",
-      "summary": "Australia warns tech giants of multibillion-dollar fines for online ‘harm’ Al Jazeera",
-      "image": "",
-      "category": "World",
-      "importance": "Notable",
-      "background_only": false,
-      "score": 42.3,
-      "published_at": "2026-11-25T09:27:00+00:00",
-      "source_count": 2,
-      "reasons": [
-        "high-impact event",
-        "2 trusted sources"
-      ],
-      "sources": [
-        {
-          "name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQb0VmbVBBdkFRU29MMjl2RmM1bDgtcFI1ZlpKN2lJV2JocVppeS1zbzJPSWhvVjVSNnExam1KMHhDSTgtdVpSR2RMV0dhOFEyRTJzQnI0eW1lNGxkWDUxZ2V1a2JNX0pkcWFtT1VCVWtKNE5IY3plZHRabVJySThIekJkVmFJNGlRVUFjNS1INHR4WHk4WVM0aEFUbklvMEpyVm1R?oc=5",
-          "published_at": "2026-11-25T09:27:00+00:00",
-          "paywalled": false
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPbFFSWDBtY3JjZDBOMG15Z3ZUdVlLcW5panRBaXJsX1dnQkVOakVtUExFbGl4cWJtdFJONXFpQkZkdUg3a050TEZSbEt5M0x2SHpqREI5N1VJMUthRVMtWldIbFExT3Y1TDRIdXZBTHc2U0s4MGN5bkI3S3NkX0VpYlhmMUpDcnk1T3l2Q0xDVmJyNVRxMzRwWVV4SUFySG80M3JWbHFoRGdjc2EwUHhQcUgwa2jSAboBQVVfeXFMTlVfYkdfS0tHWWJqVlN3SWhtM2pYNmsyVWpLWnJ3Q3E5MGVMMGhDaVRHUkEyZWNCRy0wdlA3SWN5S19YeHU1QkRuLXN1U1l1WWRDUUQ4eEluTmNJYjFyTkhjU1hMUWFtV09oTERJaExqOTAxc0FlcXJXTkdWdDVzU19yVW4zdUxCalZuR1hkLVdPTWgwZUJqUFhUVXVKNFRxaXdreFJzZ0lBRVFrWDVKNEtqcWJTZy1MLUpR?oc=5",
-          "published_at": "2026-11-24T07:09:06+00:00",
-          "paywalled": false
-        }
-      ],
-      "lead_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPbFFSWDBtY3JjZDBOMG15Z3ZUdVlLcW5panRBaXJsX1dnQkVOakVtUExFbGl4cWJtdFJONXFpQkZkdUg3a050TEZSbEt5M0x2SHpqREI5N1VJMUthRVMtWldIbFExT3Y1TDRIdXZBTHc2U0s4MGN5bkI3S3NkX0VpYlhmMUpDcnk1T3l2Q0xDVmJyNVRxMzRwWVV4SUFySG80M3JWbHFoRGdjc2EwUHhQcUgwa2jSAboBQVVfeXFMTlVfYkdfS0tHWWJqVlN3SWhtM2pYNmsyVWpLWnJ3Q3E5MGVMMGhDaVRHUkEyZWNCRy0wdlA3SWN5S19YeHU1QkRuLXN1U1l1WWRDUUQ4eEluTmNJYjFyTkhjU1hMUWFtV09oTERJaExqOTAxc0FlcXJXTkdWdDVzU19yVW4zdUxCalZuR1hkLVdPTWgwZUJqUFhUVXVKNFRxaXdreFJzZ0lBRVFrWDVKNEtqcWJTZy1MLUpR?oc=5",
-      "first_reported_at": "2026-11-25T09:27:00+00:00",
-      "update_count": 0,
-      "updated": false,
-      "coverage_history": [
-        {
-          "at": "2026-11-25T21:42:22.933198+00:00",
-          "source_count": 2
-        }
-      ],
-      "context": {
-        "earlier_reporting": [],
-        "coverage_from": null,
-        "search_query": "australia warns tech",
-        "search_days": 730,
-        "searched_days": 365,
-        "search_status": "searched"
-      }
-    },
-    {
-      "id": "34aa2e4bf448",
-      "title": "More remains recovered in the search for 34 workers missing after an Indonesian candy factory fire",
-      "summary": "More remains recovered in the search for 34 workers missing after an Indonesian candy factory fire AP News",
-      "image": "",
-      "category": "World",
-      "importance": "Notable",
-      "background_only": false,
-      "score": 42.2,
-      "published_at": "2026-11-23T06:26:37+00:00",
-      "source_count": 1,
-      "reasons": [
-        "significant accident with human impact"
-      ],
-      "sources": [
-        {
-          "name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQN0J5Zy1JLXlBTWc5d0o3OEg0dVBLMXQ0TktFb0ZHT196VEgzYVNfOFhlamNLVjdEMUlOWVFldmsxeUN1MUk0VGFDMlkxWmpCSTFIQzVaZndyeFZjanNQajh2Y2I0c3duUllpOWRTRWdPYzFXeFZRdmJJUndoSDlYUFlQZHV2bU02YWZzdm1vclMwenNYbmZpZkk1UGg?oc=5",
-          "published_at": "2026-11-23T01:23:00+00:00",
-          "paywalled": false
-        }
-      ],
-      "lead_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQN0J5Zy1JLXlBTWc5d0o3OEg0dVBLMXQ0TktFb0ZHT196VEgzYVNfOFhlamNLVjdEMUlOWVFldmsxeUN1MUk0VGFDMlkxWmpCSTFIQzVaZndyeFZjanNQajh2Y2I0c3duUllpOWRTRWdPYzFXeFZRdmJJUndoSDlYUFlQZHV2bU02YWZzdm1vclMwenNYbmZpZkk1UGg?oc=5",
-      "first_reported_at": "2026-11-23T06:26:37+00:00",
-      "update_count": 6,
-      "updated": false,
-      "coverage_history": [
-        {
-          "at": "2026-11-25T12:02:13.392466+00:00",
-          "source_count": 1
-        },
-        {
-          "at": "2026-11-25T12:57:08.856806+00:00",
-          "source_count": 2
-        },
-        {
-          "at": "2026-11-25T13:52:05.760808+00:00",
-          "source_count": 2
-        },
-        {
-          "at": "2026-11-25T14:17:24.724951+00:00",
-          "source_count": 1
-        },
-        {
-          "at": "2026-11-25T15:12:08.958448+00:00",
-          "source_count": 1
-        },
-        {
-          "at": "2026-11-25T16:07:23.079151+00:00",
-          "source_count": 1
-        },
-        {
-          "at": "2026-11-25T17:07:10.683225+00:00",
-          "source_count": 1
-        },
-        {
-          "at": "2026-11-25T18:02:05.466284+00:00",
-          "source_count": 1
-        },
-        {
-          "at": "2026-11-25T18:57:18.796437+00:00",
-          "source_count": 1
-        },
-        {
-          "at": "2026-11-25T19:52:04.605723+00:00",
-          "source_count": 1
-        },
-        {
-          "at": "2026-11-25T20:47:10.474938+00:00",
-          "source_count": 1
-        },
-        {
-          "at": "2026-11-25T21:42:22.933198+00:00",
-          "source_count": 1
-        }
-      ],
-      "context": {
-        "earlier_reporting": [
-          {
-            "title": "Three killed and dozens missing after fire at Indonesian factory",
-            "source": "BBC",
-            "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBuMGkzUWVjU3BUZmhJME96bFlDWHhReTVmSUVKNmtSZ2p5cm1KWlZTM2l1Z3pFRlBPdmhlV0tTVG9fQl91dzhLWHhMN2FFdjlhS2F5N3NLeDdOLWc?oc=5",
-            "published_at": "2026-11-22T14:05:20+00:00"
-          }
-        ],
-        "coverage_from": "2026-11-22T14:05:20+00:00",
-        "search_query": "indonesian fire remains",
-        "search_days": 730,
-        "searched_days": 180,
-        "search_status": "matched"
       }
     },
     {
@@ -1521,6 +1399,10 @@
         {
           "at": "2026-11-25T21:42:22.933198+00:00",
           "source_count": 2
+        },
+        {
+          "at": "2026-11-25T22:37:18.712208+00:00",
+          "source_count": 2
         }
       ],
       "context": {
@@ -1564,7 +1446,7 @@
       "lead_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxObWthWEU2V2VxbjBhWTVtNE5wdC1LWFBYM24tVF92ekgyb25wMDRablR5eUJCQXFNUFVXU2NMYnkwWUlkWmpmNnhNaUhXZGdOSjUxeVItUzdING0xbDZZRENTTmFHdzJyWXZHM0NCbl91QU1DR3ZpMlpWNGYyVmVVV3dXM2RJSWMxUk1qckdVR18tSjJfbml3enVHUFpZcDBEaG5lSVlDQQ?oc=5",
       "first_reported_at": "2026-11-23T17:49:00+00:00",
       "update_count": 1,
-      "updated": true,
+      "updated": false,
       "coverage_history": [
         {
           "at": "2026-11-25T20:47:10.474938+00:00",
@@ -1572,6 +1454,10 @@
         },
         {
           "at": "2026-11-25T21:42:22.933198+00:00",
+          "source_count": 2
+        },
+        {
+          "at": "2026-11-25T22:37:18.712208+00:00",
           "source_count": 2
         }
       ],
@@ -1589,6 +1475,48 @@
         "search_days": 730,
         "searched_days": 30,
         "search_status": "matched"
+      }
+    },
+    {
+      "id": "88a836383598",
+      "title": "South Korea vows to stabilise stock market after KOSPI drops 5%",
+      "summary": "South Korea vows to stabilise stock market after KOSPI drops 5% Reuters",
+      "image": "",
+      "category": "World",
+      "importance": "Notable",
+      "background_only": false,
+      "score": 40.3,
+      "published_at": "2026-11-23T03:57:40+00:00",
+      "source_count": 1,
+      "reasons": [
+        "significant public impact",
+        "large market move"
+      ],
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOaF9QVUplYkNRSkhhV19adWpudklsdXcxV0dodVVtYzc1WHJUWTNRMkduX1UxaURycVZTREc4RGpzOURZcFhvSTN3MUxwYUhuNWluQzVfSFAydjZ1bnVFR3VYaXpFY05XVW5OOUR2R0E3VkYwZzJHajh6MndCYUtsNnBxOGhib0dUUFlvRlNIRnp2TGl2Mml3emx5emcyQWFMajdNWGhRNnRkbW5fTk1ZUlV2VURvcHgwcndHN0Z1eDE5S19IS0FTZm43NmVZbUk?oc=5",
+          "published_at": "2026-11-23T03:57:40+00:00",
+          "paywalled": false
+        }
+      ],
+      "lead_url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOaF9QVUplYkNRSkhhV19adWpudklsdXcxV0dodVVtYzc1WHJUWTNRMkduX1UxaURycVZTREc4RGpzOURZcFhvSTN3MUxwYUhuNWluQzVfSFAydjZ1bnVFR3VYaXpFY05XVW5OOUR2R0E3VkYwZzJHajh6MndCYUtsNnBxOGhib0dUUFlvRlNIRnp2TGl2Mml3emx5emcyQWFMajdNWGhRNnRkbW5fTk1ZUlV2VURvcHgwcndHN0Z1eDE5S19IS0FTZm43NmVZbUk?oc=5",
+      "first_reported_at": "2026-11-23T03:57:40+00:00",
+      "update_count": 0,
+      "updated": false,
+      "coverage_history": [
+        {
+          "at": "2026-11-25T22:37:18.712208+00:00",
+          "source_count": 1
+        }
+      ],
+      "context": {
+        "earlier_reporting": [],
+        "coverage_from": null,
+        "search_query": "south korea kospi market",
+        "search_days": 730,
+        "searched_days": 730,
+        "search_status": "searched"
       }
     },
     {
@@ -1661,6 +1589,10 @@
         {
           "at": "2026-11-25T21:42:22.933198+00:00",
           "source_count": 1
+        },
+        {
+          "at": "2026-11-25T22:37:18.712208+00:00",
+          "source_count": 1
         }
       ],
       "context": {
@@ -1672,9 +1604,9 @@
             "published_at": "2025-11-26T08:00:00+00:00"
           },
           {
-            "title": "'My heart breaks every time I'm called a hero' - Hong Kong fire survivor",
-            "source": "BBC",
-            "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFAyRGlLeEE0QUZ5ZlNhV0dpcFJTclRBeWFOajA5cUFJUzlnQkpIV0l2YTBUc19rU0ctTjFCYUFxVDdpYk1HQ2UzYXROZlBVTHR6VEpKcHlsbnd4Zw?oc=5",
+            "title": "Hong Kong high-rise fire death toll rises to 159 as authorities arrest 6 over failed fire alarms",
+            "source": "AP News",
+            "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNUnp0dXRBQldCQkhaNGxqUHVVNTc1WGNYM1d2SWhpaEF3UU9yMExkMFF4TnNJY3JOaDY5dUhlcUdtSXdFeUdvMmlvd3VjaElYNWRnN3B3a1lKeUpzQ2YtRDVmZHc1VVpuNU1MYmJGQ1RoMFVNRFZSbWFIdTM2cEZRSDF1RWRIUEM5Z2p1cXRnRmp0aHNl?oc=5",
             "published_at": "2025-12-03T08:00:00+00:00"
           },
           {
@@ -1739,6 +1671,10 @@
         {
           "at": "2026-11-25T21:42:22.933198+00:00",
           "source_count": 1
+        },
+        {
+          "at": "2026-11-25T22:37:18.712208+00:00",
+          "source_count": 1
         }
       ],
       "context": {
@@ -1759,14 +1695,14 @@
     },
     {
       "id": "091998ae83a7",
-      "title": "CrowdStrike snaps up Zscaler in $44 billion deal as cyber threats mount",
-      "summary": "CrowdStrike snaps up Zscaler in $44 billion deal as cyber threats mount Reuters",
+      "title": "CrowdStrike to acquire Zscaler in a $44 billion deal that would create a cybersecurity giant",
+      "summary": "CrowdStrike to acquire Zscaler in a $44 billion deal that would create a cybersecurity giant AP News",
       "image": "",
       "category": "Tech",
       "importance": "Notable",
       "background_only": false,
-      "score": 39.5,
-      "published_at": "2026-11-23T18:31:10+00:00",
+      "score": 39.1,
+      "published_at": "2026-11-23T16:33:00+00:00",
       "source_count": 2,
       "reasons": [
         "major transaction",
@@ -1774,35 +1710,52 @@
       ],
       "sources": [
         {
-          "name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOcUdmOUFLaEppLU9uMl80V2x1RTg4YWg3VUc5cWZsVzNfUWJBN2pFY3BhTndKanI0U2gzZHMzZVdpeWlkVkdBMkxGZkEtNFYyYmhteTQ5MHM0NnhkN2lfVk1WcDRxZDluQzVXNll2OWhodnVmaG9qNm15SWdweEM4YmxSWXVKd21mNW9uWW82MHUyWlJLTEE?oc=5",
-          "published_at": "2026-11-23T18:31:10+00:00",
-          "paywalled": false
-        },
-        {
           "name": "AP News",
           "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQekFodWNTV2dTaVZ6VDJScmUybjJ3QXRURFJjeVNtQVBmOEJkYUZTNnFlMnNKalRWdFdXOWVwTjg1TFU3THJIOU9hSXNtSXZCczVaT0xDYnNKUEJUYXFXbVpTUkhTNWRFb3VIa1RDcHdOMzB4ZVV4cTZ6STBQZ2RWLWNPT2U1RGRHYjIxNEZ1QlFXQXZJMDhJeHdDLUFUc2tSUjJoejc1dGhzTWtkUS1Hb3V1V1hKbXplV3J2Zw?oc=5",
           "published_at": "2026-11-23T16:33:00+00:00",
           "paywalled": false
+        },
+        {
+          "name": "Financial Times",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNaXRqYWdBS2lmTXl0cGRSN0lSa1JjMTBKNzlLSktkUXBQaW9idWU1b3hSc0kwUExtMV9SODYzSHU4REJWakg5cDc3X01jU2ctMUdRV0w1eHRBUXh0NjlQUDB6MXVwb09lVUZZdUNBNEhpLWw2V2hPSXF1QlAteEpFSEQ2bFU?oc=5",
+          "published_at": "2026-11-23T11:02:10+00:00",
+          "paywalled": true
         }
       ],
-      "lead_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOcUdmOUFLaEppLU9uMl80V2x1RTg4YWg3VUc5cWZsVzNfUWJBN2pFY3BhTndKanI0U2gzZHMzZVdpeWlkVkdBMkxGZkEtNFYyYmhteTQ5MHM0NnhkN2lfVk1WcDRxZDluQzVXNll2OWhodnVmaG9qNm15SWdweEM4YmxSWXVKd21mNW9uWW82MHUyWlJLTEE?oc=5",
+      "lead_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQekFodWNTV2dTaVZ6VDJScmUybjJ3QXRURFJjeVNtQVBmOEJkYUZTNnFlMnNKalRWdFdXOWVwTjg1TFU3THJIOU9hSXNtSXZCczVaT0xDYnNKUEJUYXFXbVpTUkhTNWRFb3VIa1RDcHdOMzB4ZVV4cTZ6STBQZ2RWLWNPT2U1RGRHYjIxNEZ1QlFXQXZJMDhJeHdDLUFUc2tSUjJoejc1dGhzTWtkUS1Hb3V1V1hKbXplV3J2Zw?oc=5",
       "first_reported_at": "2026-11-23T18:31:10+00:00",
-      "update_count": 0,
-      "updated": false,
+      "update_count": 1,
+      "updated": true,
       "coverage_history": [
         {
           "at": "2026-11-25T21:42:22.933198+00:00",
           "source_count": 2
+        },
+        {
+          "at": "2026-11-25T22:37:18.712208+00:00",
+          "source_count": 2
         }
       ],
       "context": {
-        "earlier_reporting": [],
-        "coverage_from": null,
-        "search_query": "crowdstrike zscaler snaps",
+        "earlier_reporting": [
+          {
+            "title": "CrowdStrike Is in Talks to Buy Cybersecurity Firm Zscaler",
+            "source": "Bloomberg.com",
+            "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPUDlYenRVSVVSdEFHTkNYUnI1YlVBSHJzbzB2XzFTWXRLNXYwcHp2SjRidXN0UFpQRndNUzR0d2lYS2NfczV2cTRudS13azRKV0dVdWZJbF9hcllhMVVOWVRKcHRxN1AyUm5DSzFhRHFMMW5YYzFyMllyTVVER1VTcTlsMXJydGNvTkxaT3FaX2hyZDJJUnMtMG5UTGFKUjhDS1lyVHlwSGJScWVB?oc=5",
+            "published_at": "2026-11-20T21:41:24+00:00"
+          },
+          {
+            "title": "CrowdStrike in talks to acquire Zscaler, sources say",
+            "source": "Reuters",
+            "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQelZkLVhGN0lQVWs3SVJrWU00RjF6LV9tUEUyaDlySnhaQ29EVW1mUWFBajFfMmpTckxRUHY3aUxDTHRYV3kxSm1zbDNUdTQ3UnFuRVVULVk1bXlOaDNRc3hrM3k4dDQ2OVBtTHRNR1dlSzQweG1Ya2RjTVNGNk0xLVlKTzBHQjRtTHhhQVBUeW5ZMm1YZ3lUWUNfbGUtNk0?oc=5",
+            "published_at": "2026-11-20T22:31:25+00:00"
+          }
+        ],
+        "coverage_from": "2026-11-20T21:41:24+00:00",
+        "search_query": "crowdstrike zscaler acquire",
         "search_days": 730,
-        "searched_days": 730,
-        "search_status": "searched"
+        "searched_days": 30,
+        "search_status": "matched"
       }
     },
     {
@@ -1814,7 +1767,7 @@
       "importance": "Notable",
       "background_only": false,
       "score": 39.0,
-      "published_at": "2026-11-25T12:47:27+00:00",
+      "published_at": "2026-11-24T20:47:56+00:00",
       "source_count": 1,
       "reasons": [
         "frontier AI safety development"
@@ -1830,7 +1783,7 @@
       "lead_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNMHBNOVY5RDc1NmxUUjNnZkNhLWROQkhUOFZpVmQ0SEI0UG9aSUpTTjhpV3EydTNkdW8xYm1KOWF6OXg2Z3BMaUJCWTE3WnFCM0hCZGNuQ3ZKUklsYUROVWQzdExOamNKVlJLRTgwYWpoYVdOUjlDY0pxTmxZajlvckJ4cHc0TG1hbW1ZUkszaDZ2M2Rvd3RqTWRFaVRENXVWT0pr?oc=5",
       "first_reported_at": "2026-11-25T12:47:27+00:00",
       "update_count": 3,
-      "updated": true,
+      "updated": false,
       "coverage_history": [
         {
           "at": "2026-11-25T14:17:24.724951+00:00",
@@ -1866,6 +1819,10 @@
         },
         {
           "at": "2026-11-25T21:42:22.933198+00:00",
+          "source_count": 1
+        },
+        {
+          "at": "2026-11-25T22:37:18.712208+00:00",
           "source_count": 1
         }
       ],
@@ -1948,6 +1905,10 @@
         {
           "at": "2026-11-25T21:42:22.933198+00:00",
           "source_count": 1
+        },
+        {
+          "at": "2026-11-25T22:37:18.712208+00:00",
+          "source_count": 1
         }
       ],
       "context": {
@@ -1988,6 +1949,10 @@
       "coverage_history": [
         {
           "at": "2026-11-25T21:42:22.933198+00:00",
+          "source_count": 1
+        },
+        {
+          "at": "2026-11-25T22:37:18.712208+00:00",
           "source_count": 1
         }
       ],
@@ -2058,12 +2023,6 @@
       "published_at": "2026-11-24T13:47:00+00:00"
     },
     {
-      "title": "Three killed and dozens missing after fire at Indonesian factory",
-      "source": "BBC",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBuMGkzUWVjU3BUZmhJME96bFlDWHhReTVmSUVKNmtSZ2p5cm1KWlZTM2l1Z3pFRlBPdmhlV0tTVG9fQl91dzhLWHhMN2FFdjlhS2F5N3NLeDdOLWc?oc=5",
-      "published_at": "2026-11-22T14:05:20+00:00"
-    },
-    {
       "title": "MI5 warns UK companies supplying Ukraine military about Russian sabotage risk",
       "source": "Financial Times",
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOdEE2TjdOdHFaSjBic0FSeTAyMXlENTdkS3ZkaTVadlhvLWtLcHVhaEdqa1lsRnJzNldoZjVNU0N2LU5PdTEyWFhtN3RhTXJCb0t2aWpZZEYyQms1eVZtY2ZpY3QwTWh6RllHUGxPOU5VS3RCOWZMMXJUc3BRamlYQVVzcXQ?oc=5",
@@ -2076,9 +2035,9 @@
       "published_at": "2025-11-26T08:00:00+00:00"
     },
     {
-      "title": "'My heart breaks every time I'm called a hero' - Hong Kong fire survivor",
-      "source": "BBC",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFAyRGlLeEE0QUZ5ZlNhV0dpcFJTclRBeWFOajA5cUFJUzlnQkpIV0l2YTBUc19rU0ctTjFCYUFxVDdpYk1HQ2UzYXROZlBVTHR6VEpKcHlsbnd4Zw?oc=5",
+      "title": "Hong Kong high-rise fire death toll rises to 159 as authorities arrest 6 over failed fire alarms",
+      "source": "AP News",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNUnp0dXRBQldCQkhaNGxqUHVVNTc1WGNYM1d2SWhpaEF3UU9yMExkMFF4TnNJY3JOaDY5dUhlcUdtSXdFeUdvMmlvd3VjaElYNWRnN3B3a1lKeUpzQ2YtRDVmZHc1VVpuNU1MYmJGQ1RoMFVNRFZSbWFIdTM2cEZRSDF1RWRIUEM5Z2p1cXRnRmp0aHNl?oc=5",
       "published_at": "2025-12-03T08:00:00+00:00"
     },
     {
@@ -2112,22 +2071,34 @@
       "published_at": "2026-11-24T07:59:43+00:00"
     },
     {
+      "title": "CrowdStrike Is in Talks to Buy Cybersecurity Firm Zscaler",
+      "source": "Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPUDlYenRVSVVSdEFHTkNYUnI1YlVBSHJzbzB2XzFTWXRLNXYwcHp2SjRidXN0UFpQRndNUzR0d2lYS2NfczV2cTRudS13azRKV0dVdWZJbF9hcllhMVVOWVRKcHRxN1AyUm5DSzFhRHFMMW5YYzFyMllyTVVER1VTcTlsMXJydGNvTkxaT3FaX2hyZDJJUnMtMG5UTGFKUjhDS1lyVHlwSGJScWVB?oc=5",
+      "published_at": "2026-11-20T21:41:24+00:00"
+    },
+    {
+      "title": "CrowdStrike in talks to acquire Zscaler, sources say",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQelZkLVhGN0lQVWs3SVJrWU00RjF6LV9tUEUyaDlySnhaQ29EVW1mUWFBajFfMmpTckxRUHY3aUxDTHRYV3kxSm1zbDNUdTQ3UnFuRVVULVk1bXlOaDNRc3hrM3k4dDQ2OVBtTHRNR1dlSzQweG1Ya2RjTVNGNk0xLVlKTzBHQjRtTHhhQVBUeW5ZMm1YZ3lUWUNfbGUtNk0?oc=5",
+      "published_at": "2026-11-20T22:31:25+00:00"
+    },
+    {
       "title": "Anthropic falls below IPO price as tech rally fades",
       "source": "Financial Times",
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPal9tdUdZVTJvVTB5aGJHZ0FwTk1GVW8zRWFzNlFEdU9YTERXNlNPcGFzbHUyaXd5U3I4WlMzTGNFUUtPVlA2VmpYSW94TFZKMFhGOFlsU19WV09kVkFGRk9IQ3h3MkRLUGlqWms3akdWTUNaR1hxX2VXakFVMm1tNWk0MW8?oc=5",
       "published_at": "2026-11-24T00:40:35+00:00"
     },
     {
-      "title": "At least 30 killed in massive fire as fuel tanker crashes on Cairo highway",
+      "title": "Thirty-one killed in massive fire as fuel tanker crashes on Cairo highway",
       "source": "BBC World",
       "url": "https://www.bbc.co.uk/news/articles/cqy7rn30v314o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-25T21:25:14+00:00"
+      "published_at": "2026-11-25T22:18:06+00:00"
     },
     {
       "title": "Airline Norse Atlantic says financial situation 'critical,' shares plunge",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQUnBxTTlMWW9sR2p0cHd4OXk3enppYzRYOTFkOENpamtod1VHTExCQjRqZ1cxRWRjZ04wZlp4NzR1SVdQaGpPeWNTLVpmN09fc3R0WGxUMUFUQ0tOekxYV3ZSY2w2WTQtUDR6N2pETVotWWRlV1VrRVhXYTFYY19SRXRfZ3Z5bmFnb2xVVjNjRkJPdG9qRE4yRGxMMVNyMjlEdXBvSEw1SjMxYVFvNjVEckszYw?oc=5",
-      "published_at": "2026-11-25T20:12:00+00:00"
+      "published_at": "2026-11-25T21:29:22+00:00"
     },
     {
       "title": "Could renewed strikes on Hodeidah port worsen Yemen’s humanitarian crisis?",
@@ -2196,16 +2167,16 @@
       "published_at": "2026-11-25T04:13:58+00:00"
     },
     {
+      "title": "China launches first space mission with foreign astronaut",
+      "source": "Financial Times",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQRC1pbmw0S04yVGtzUkRuLUhnWGl1ejJHWW9DZXRoZW5ueC1pNFRVMTZOaXlGaDNkQUNjeFh6d1hUbm9hcVhGUEhfRVBIX3BHS1JtdUQ1REQ0YlRzZVVBRHJYVFBxT19WeEdGQXZKdFdpeTNDR2FHel93ZC1iZ1RPX3NmSlU?oc=5",
+      "published_at": "2026-11-25T03:29:39+00:00"
+    },
+    {
       "title": "Moment Chinese space mission lifts off with first Pakistan astronaut aboard",
       "source": "BBC World",
       "url": "https://www.bbc.co.uk/news/videos/cmz74l0yzzvyo?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-11-25T03:28:37+00:00"
-    },
-    {
-      "title": "China launches first space mission with foreign astronaut",
-      "source": "Financial Times",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQRC1pbmw0S04yVGtzUkRuLUhnWGl1ejJHWW9DZXRoZW5ueC1pNFRVMTZOaXlGaDNkQUNjeFh6d1hUbm9hcVhGUEhfRVBIX3BHS1JtdUQ1REQ0YlRzZVVBRHJYVFBxT19WeEdGQXZKdFdpeTNDR2FHel93ZC1iZ1RPX3NmSlU?oc=5",
-      "published_at": "2026-11-25T03:28:02+00:00"
     },
     {
       "title": "Bangladesh minimum wage hike misses garment worker demands, sparks fresh protests",
@@ -2454,21 +2425,15 @@
       "published_at": "2026-11-22T18:26:51+00:00"
     },
     {
-      "title": "CrowdStrike in talks to acquire Zscaler, sources say",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQelZkLVhGN0lQVWs3SVJrWU00RjF6LV9tUEUyaDlySnhaQ29EVW1mUWFBajFfMmpTckxRUHY3aUxDTHRYV3kxSm1zbDNUdTQ3UnFuRVVULVk1bXlOaDNRc3hrM3k4dDQ2OVBtTHRNR1dlSzQweG1Ya2RjTVNGNk0xLVlKTzBHQjRtTHhhQVBUeW5ZMm1YZ3lUWUNfbGUtNk0?oc=5",
-      "published_at": "2026-11-20T22:31:25+00:00"
+      "title": "Three killed and dozens missing after fire at Indonesian factory",
+      "source": "BBC",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBuMGkzUWVjU3BUZmhJME96bFlDWHhReTVmSUVKNmtSZ2p5cm1KWlZTM2l1Z3pFRlBPdmhlV0tTVG9fQl91dzhLWHhMN2FFdjlhS2F5N3NLeDdOLWc?oc=5",
+      "published_at": "2026-11-22T14:05:20+00:00"
     },
     {
-      "title": "CrowdStrike Is in Talks to Buy Cybersecurity Firm Zscaler",
-      "source": "Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPUDlYenRVSVVSdEFHTkNYUnI1YlVBSHJzbzB2XzFTWXRLNXYwcHp2SjRidXN0UFpQRndNUzR0d2lYS2NfczV2cTRudS13azRKV0dVdWZJbF9hcllhMVVOWVRKcHRxN1AyUm5DSzFhRHFMMW5YYzFyMllyTVVER1VTcTlsMXJydGNvTkxaT3FaX2hyZDJJUnMtMG5UTGFKUjhDS1lyVHlwSGJScWVB?oc=5",
-      "published_at": "2026-11-20T21:41:24+00:00"
-    },
-    {
-      "title": "Hong Kong high-rise fire death toll rises to 159 as authorities arrest 6 over failed fire alarms",
-      "source": "AP News",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNUnp0dXRBQldCQkhaNGxqUHVVNTc1WGNYM1d2SWhpaEF3UU9yMExkMFF4TnNJY3JOaDY5dUhlcUdtSXdFeUdvMmlvd3VjaElYNWRnN3B3a1lKeUpzQ2YtRDVmZHc1VVpuNU1MYmJGQ1RoMFVNRFZSbWFIdTM2cEZRSDF1RWRIUEM5Z2p1cXRnRmp0aHNl?oc=5",
+      "title": "'My heart breaks every time I'm called a hero' - Hong Kong fire survivor",
+      "source": "BBC",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFAyRGlLeEE0QUZ5ZlNhV0dpcFJTclRBeWFOajA5cUFJUzlnQkpIV0l2YTBUc19rU0ctTjFCYUFxVDdpYk1HQ2UzYXROZlBVTHR6VEpKcHlsbnd4Zw?oc=5",
       "published_at": "2025-12-03T08:00:00+00:00"
     }
   ],
@@ -2476,38 +2441,74 @@
     "a607439c929a": {
       "version": 4,
       "query": "indonesia flood hit",
-      "at": "2026-11-25T21:42:22.933198+00:00",
+      "at": "2026-11-25T22:37:18.712208+00:00",
       "stage": 3,
       "matched": false,
-      "exhausted": false,
-      "searched_days": 365
+      "exhausted": true,
+      "searched_days": 730
     },
     "cdb241f775d6": {
       "version": 4,
       "query": "indonesia fire confirms",
-      "at": "2026-11-25T21:42:22.933198+00:00",
-      "stage": 1,
+      "at": "2026-11-25T22:37:18.712208+00:00",
+      "stage": 2,
       "matched": false,
       "exhausted": false,
-      "searched_days": 30
+      "searched_days": 180
     },
     "b9a8fe3004a6": {
       "version": 4,
       "query": "cairo fire crash",
-      "at": "2026-11-25T21:42:22.933198+00:00",
-      "stage": 1,
+      "at": "2026-11-25T22:37:18.712208+00:00",
+      "stage": 2,
       "matched": false,
       "exhausted": false,
-      "searched_days": 30
+      "searched_days": 180
     },
     "dd90b597c06c": {
       "version": 4,
       "query": "hodeidah yemen renewed",
-      "at": "2026-11-25T21:42:22.933198+00:00",
+      "at": "2026-11-25T22:37:18.712208+00:00",
+      "stage": 3,
+      "matched": false,
+      "exhausted": true,
+      "searched_days": 730
+    },
+    "8ebe7b96eac0": {
+      "version": 4,
+      "query": "egypt fire vehicle",
+      "at": "2026-11-25T22:37:18.712208+00:00",
       "stage": 3,
       "matched": false,
       "exhausted": false,
       "searched_days": 365
+    },
+    "c664d0e0b784": {
+      "version": 4,
+      "query": "extreme heat linked",
+      "at": "2026-11-25T22:37:18.712208+00:00",
+      "stage": 3,
+      "matched": false,
+      "exhausted": true,
+      "searched_days": 730
+    },
+    "091998ae83a7": {
+      "version": 4,
+      "query": "crowdstrike zscaler acquire",
+      "at": "2026-11-25T22:37:18.712208+00:00",
+      "stage": 0,
+      "matched": true,
+      "exhausted": false,
+      "searched_days": 30
+    },
+    "5ceed16d1376": {
+      "version": 4,
+      "query": "ring road giza explosion crash",
+      "at": "2026-11-25T22:37:18.712208+00:00",
+      "stage": 1,
+      "matched": false,
+      "exhausted": false,
+      "searched_days": 30
     },
     "e93179d87a91": {
       "version": 4,
@@ -2571,24 +2572,6 @@
       "matched": false,
       "exhausted": true,
       "searched_days": 730
-    },
-    "8ebe7b96eac0": {
-      "version": 4,
-      "query": "egypt fire vehicle",
-      "at": "2026-11-25T20:47:10.474938+00:00",
-      "stage": 2,
-      "matched": false,
-      "exhausted": false,
-      "searched_days": 180
-    },
-    "c664d0e0b784": {
-      "version": 4,
-      "query": "extreme heat linked",
-      "at": "2026-11-25T20:47:10.474938+00:00",
-      "stage": 3,
-      "matched": false,
-      "exhausted": false,
-      "searched_days": 365
     },
     "3d9a1a038455": {
       "version": 4,
@@ -2701,15 +2684,6 @@
     "43d8c34ae7f5": {
       "version": 4,
       "query": "drdo awards contract",
-      "at": "2026-11-25T16:07:23.079151+00:00",
-      "stage": 3,
-      "matched": false,
-      "exhausted": true,
-      "searched_days": 730
-    },
-    "091998ae83a7": {
-      "version": 4,
-      "query": "crowdstrike zscaler snaps",
       "at": "2026-11-25T16:07:23.079151+00:00",
       "stage": 3,
       "matched": false,
