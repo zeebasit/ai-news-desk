@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T18:27:15.422828+00:00",
+  "generated_at": "2026-11-26T19:22:04.575591+00:00",
   "model_mode": "sentence-transformers",
   "stories": [
     {
@@ -31,10 +31,6 @@
       "update_count": 0,
       "updated": false,
       "coverage_history": [
-        {
-          "at": "2026-11-26T09:07:07.270203+00:00",
-          "source_count": 1
-        },
         {
           "at": "2026-11-26T10:02:19.467227+00:00",
           "source_count": 1
@@ -77,6 +73,10 @@
         },
         {
           "at": "2026-11-26T18:27:15.422828+00:00",
+          "source_count": 1
+        },
+        {
+          "at": "2026-11-26T19:22:04.575591+00:00",
           "source_count": 1
         }
       ],
@@ -151,6 +151,10 @@
         {
           "at": "2026-11-26T18:27:15.422828+00:00",
           "source_count": 2
+        },
+        {
+          "at": "2026-11-26T19:22:04.575591+00:00",
+          "source_count": 2
         }
       ],
       "context": {
@@ -160,103 +164,6 @@
         "search_days": 730,
         "searched_days": 730,
         "search_status": "searched"
-      }
-    },
-    {
-      "id": "1dc7e99d600c",
-      "title": "China launches Shenzhou 24 spacecraft carrying 2 Chinese and 1 Pakistani astronaut",
-      "summary": "China launches Shenzhou 24 spacecraft carrying 2 Chinese and 1 Pakistani astronaut AP News",
-      "image": "",
-      "category": "World",
-      "importance": "Major",
-      "background_only": false,
-      "score": 60.8,
-      "published_at": "2026-11-26T15:10:00+00:00",
-      "source_count": 4,
-      "reasons": [
-        "significant public impact",
-        "historic space milestone",
-        "rapid coverage growth"
-      ],
-      "sources": [
-        {
-          "name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNR3M0QnJvdnFlSmxYai1OZWNwd0pYOFVKa2t3UDZhLXZkcXVkcmNOZHU2ZEVCQk1HX0liM2ZVb3piZDFiaE5SSkY2MWdZeFNmOVhTWkM3RDdqSHYySDNkSTNwcExoemNqTWtoLWNQV1VDNXota0w3Ym1FLUZxOXFPZnB3UlllbEJySmhJ?oc=5",
-          "published_at": "2026-11-25T17:33:00+00:00",
-          "paywalled": false
-        },
-        {
-          "name": "Global Times",
-          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBKNDVhaGdMZXhUY0U4cmNSYUROTUVOUUpGRGM1LUhkc2MzRlJlaGFPVkRyWjV4XzFFMXdvdWhZaUFsMHVaV1hmREV1dmpSTHBqeTVCYXA5WGV3UEptcEJtTFVn?oc=5",
-          "published_at": "2026-11-26T15:10:00+00:00",
-          "paywalled": false
-        },
-        {
-          "name": "The China-Global South Project",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQNDFhREdteHpFb0w5MkZEV25GWUlVQXRGaFRsSzlWZ1prSEMtR0h0YUNHY1dKMTMybVlWT1N5ZUdOMlJrZENxTFdBZ0ppcDNaN3d5T0UtV3lVOW51Q3NXZUZ4Zk12aDBBdWk4VEFmN3hOUW1fMG10UFpWcXZhcWVEb0pJdzU2cE5qVFRuUXIzRUlZYkU?oc=5",
-          "published_at": "2026-11-26T04:40:14+00:00",
-          "paywalled": false
-        },
-        {
-          "name": "AzerNews",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9Sb0FfWW9DNG95dVBqTW8yU3kyUjUyRHdqc0NIWUlUdkw2ZldsdGxBZUJfVG81TTdKZ0FBUlRudUFxdGRNSmd4Z0VJTjh1dWZQeGNINQ?oc=5",
-          "published_at": "2026-11-26T12:19:00+00:00",
-          "paywalled": false
-        }
-      ],
-      "lead_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNR3M0QnJvdnFlSmxYai1OZWNwd0pYOFVKa2t3UDZhLXZkcXVkcmNOZHU2ZEVCQk1HX0liM2ZVb3piZDFiaE5SSkY2MWdZeFNmOVhTWkM3RDdqSHYySDNkSTNwcExoemNqTWtoLWNQV1VDNXota0w3Ym1FLUZxOXFPZnB3UlllbEJySmhJ?oc=5",
-      "first_reported_at": "2026-11-26T12:19:00+00:00",
-      "update_count": 1,
-      "updated": false,
-      "coverage_momentum": {
-        "new_sources": 3,
-        "hours": 2.7,
-        "bonus": 8.0
-      },
-      "coverage_history": [
-        {
-          "at": "2026-11-26T15:45:02.812979+00:00",
-          "source_count": 1
-        },
-        {
-          "at": "2026-11-26T16:37:19.128735+00:00",
-          "source_count": 4
-        },
-        {
-          "at": "2026-11-26T17:32:11.193860+00:00",
-          "source_count": 4
-        },
-        {
-          "at": "2026-11-26T18:27:15.422828+00:00",
-          "source_count": 4
-        }
-      ],
-      "context": {
-        "earlier_reporting": [
-          {
-            "title": "Pakistani astronaut to board Shenzhou 24 and become the first foreigner on China's space station",
-            "source": "AP News",
-            "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQenFsUWZUMFNoeXpOUXdEX0xad010OWlJemJJQl93YjBrcFhySkxxWVpackkxamQ3Q08yampBaXRtOFNhWVd1VHNjSklUSy1JWC1taUszYTdVbnJ2U2N5aWhmcVlpLVFLSjRQWGhNZS1ieTBpdjVuWG9MRkROWXNBV0YzSkdobnl2T1hwU0hUNThiREQtQWFsZXZHdWFVN2hp?oc=5",
-            "published_at": "2026-11-06T08:00:00+00:00"
-          },
-          {
-            "title": "Pakistani astronaut launches into space aboard Chinese rocket",
-            "source": "Al Jazeera",
-            "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNVWdUSGN0dUpVbVFWRXZwVUJ6akp5Sm5SNFVwbzRHYmJ5RkprMDRDVDFxdXFQTUdCc0VrUWo1QmV2QWFOVmZFVHQ4N1JWQWJRZnY5UUgwUkJjaHlzWEY2ZGt5dVd3R3RqMEh4TWZCTzNhUGx4bDZMeTNITHZfbFZBQWZ5enZoRU5aZEZJbWEyOU93YjZVcm94VE9PT1JqY19WY1daeXVMMkRheVlkUkJrSmkxNNIBuAFBVV95cUxQTVJFWXhCeC0tQ0U1ZDhyTFg0eDFDYzVOZVBtNUx4MnNIVkdtN1YxdDhWbGZtYkhNV0hHWU9vN2J5NEJ0aGdrekxVdy1Ba0FnakJPMEt0ZEtkS1BDRmQ0S2F2Z3dlRXVHWXNONkJRQnZELUdZREVjdXRWa3VZbFl3enVhSUtGY2dTckw2QV9GZUxsZ1RCWnNRNzhpNXYxd2dqVGFSZnpuZkdaNDY2VmhoaEFYVHhycWpF?oc=5",
-            "published_at": "2026-11-25T02:45:57+00:00"
-          },
-          {
-            "title": "China launches Shenzhou-24 with Pakistani as first foreign astronaut",
-            "source": "Reuters",
-            "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0yMlVqQWJYTUozUzd4SkJZcFhHOWx5TEN4RnJKLVFXbG9UN3N1TVJVVkZUVEJoUXUxTmxyR3B2dXNtWWhwT20tUDJtWHV4YVlrOElPYldiOER0NDNRYkVCYjRYeVRhcFU?oc=5",
-            "published_at": "2026-11-25T06:15:20+00:00"
-          }
-        ],
-        "coverage_from": "2026-11-06T08:00:00+00:00",
-        "search_query": "china shenzhou chinese astronaut",
-        "search_days": 730,
-        "searched_days": 30,
-        "search_status": "matched"
       }
     },
     {
@@ -290,6 +197,10 @@
         {
           "at": "2026-11-26T18:27:15.422828+00:00",
           "source_count": 1
+        },
+        {
+          "at": "2026-11-26T19:22:04.575591+00:00",
+          "source_count": 1
         }
       ],
       "context": {
@@ -297,7 +208,7 @@
         "coverage_from": null,
         "search_query": "ai un safety",
         "search_days": 730,
-        "searched_days": 365,
+        "searched_days": 730,
         "search_status": "searched"
       }
     },
@@ -330,10 +241,6 @@
       "update_count": 6,
       "updated": false,
       "coverage_history": [
-        {
-          "at": "2026-11-26T09:07:07.270203+00:00",
-          "source_count": 1
-        },
         {
           "at": "2026-11-26T10:02:19.467227+00:00",
           "source_count": 1
@@ -377,6 +284,10 @@
         {
           "at": "2026-11-26T18:27:15.422828+00:00",
           "source_count": 1
+        },
+        {
+          "at": "2026-11-26T19:22:04.575591+00:00",
+          "source_count": 1
         }
       ],
       "context": {
@@ -410,14 +321,14 @@
     {
       "id": "cf7748e353eb",
       "title": "Egyptian authorities arrest motorist over tanker crash that killed 31",
-      "summary": "Egyptian authorities arrest motorist over tanker crash that killed 31 BBC",
+      "summary": "Officials say the man confessed to travelling at speed and clipping the fuel truck as he was overtaking traffic.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e387/live/8aafd3d0-e98f-11f1-9d1c-4dcc8fcde666.jpg",
       "category": "World",
       "importance": "Major",
       "background_only": false,
       "score": 55.2,
-      "published_at": "2026-11-26T16:50:16+00:00",
-      "source_count": 2,
+      "published_at": "2026-11-26T12:16:06+00:00",
+      "source_count": 1,
       "reasons": [
         "reported fatalities",
         "significant accident with human impact"
@@ -428,15 +339,9 @@
           "url": "https://www.bbc.co.uk/news/articles/c3gre90l0g45o?at_medium=RSS&at_campaign=rss",
           "published_at": "2026-11-26T12:16:06+00:00",
           "paywalled": false
-        },
-        {
-          "name": "ABC News - Breaking News, Latest News and Videos",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNWTlvYXVmTGRzVkNJQWRKc0QzT3JjeHhtZHVPY09GT2xTTTZLckZraEt3NXVaNG90S2hZYWNZbWg5TDhwa0ZfTE9VclZ6NUxWaGtqUmtiMklTT3gxbEt3Ry1oeVBXYVo1Y0Q5QzlBUFNWLVgxa3U4UG9JTllnaGVFT1k0dS1wYl9VS0JJbFk3WndBUVY4Y0g3dHZnVmFNcnRNMDlWajYxaWtjRGM2Q3V0UdIBtgFBVV95cUxQWHJhajhjUVluRmZEUF9GdmJmdlRSaFI3Uk9Oa200cDg2UkRSSmxRU0JQaTFRTUI5dlBaOHc4ZXd6SkFjTmFMenZZNzNnMFo3bE85a3NGNnlPTHB3VXRPazNUUDR3Vm5GR0dLSFVZTS1SUjRaajVmZ0VpZVpoZExBRm5CZmcwU0xLb1RXdm4ycmRrTF9EVUFtelVDSGxCSjVaZEtVNFp3dnJNWDkyR3BDMFZXSXUxZw?oc=5",
-          "published_at": "2026-11-26T16:50:16+00:00",
-          "paywalled": false
         }
       ],
-      "lead_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBwUGVkZU5HZHFBb1lzaTdPaUlqOUtqSWNXYWJkaG1iOGU4RmotelctbXNteENGR21ZTTdtOF81SkpwNEttRURTSHNHT0pEb1VGbWt5Q281djNpcmc?oc=5",
+      "lead_url": "https://www.bbc.co.uk/news/articles/c3gre90l0g45o?at_medium=RSS&at_campaign=rss",
       "first_reported_at": "2026-11-26T12:16:06+00:00",
       "update_count": 1,
       "updated": false,
@@ -452,6 +357,10 @@
         {
           "at": "2026-11-26T18:27:15.422828+00:00",
           "source_count": 2
+        },
+        {
+          "at": "2026-11-26T19:22:04.575591+00:00",
+          "source_count": 1
         }
       ],
       "context": {
@@ -459,7 +368,7 @@
         "coverage_from": null,
         "search_query": "egyptian crash authorities",
         "search_days": 730,
-        "searched_days": 365,
+        "searched_days": 730,
         "search_status": "searched"
       }
     },
@@ -510,6 +419,10 @@
         {
           "at": "2026-11-26T18:27:15.422828+00:00",
           "source_count": 1
+        },
+        {
+          "at": "2026-11-26T19:22:04.575591+00:00",
+          "source_count": 1
         }
       ],
       "context": {
@@ -518,6 +431,48 @@
         "search_query": "baghdad iraq kurdish",
         "search_days": 730,
         "searched_days": 730,
+        "search_status": "searched"
+      }
+    },
+    {
+      "id": "e00bca84c9dc",
+      "title": "Set AI safety standards backed by penalties, Australian parliamentary report says",
+      "summary": "Set AI safety standards backed by penalties, Australian parliamentary report says MLex",
+      "image": "",
+      "category": "Tech",
+      "importance": "Major",
+      "background_only": false,
+      "score": 54.3,
+      "published_at": "2026-11-24T06:03:05+00:00",
+      "source_count": 1,
+      "reasons": [
+        "high-impact event",
+        "frontier AI safety development"
+      ],
+      "sources": [
+        {
+          "name": "MLex",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOSUE2WmZiOTBRR29vbS1FOW51NHdscjFRUjg2RnFkWGxFeldod0FKdFl2ajh4bnM3Yzl3aElJUmJ5X1ZpS3RmcGVpQWRpTk5BblpHcDY1OE9pSFpFajhOdFNTdEVKUFlCZjcxOTcwX0V0TnFXRXFOVzVUTDEyU19lT0cwd3BkMHdzREN4eFMycmNMcVpWN3hlS1d6THRCMUtkWEVydGdFcVIzN2hRUVdOX1NwczRfV0JwSDRpNGY0NmXSAVpBVV95cUxPamhJMndqRDdXQlNWVmNpVUFIMEFReGRjUXJGbnYwc3dDb2dJZVNTcXhLeEZJX0Nsc09malFBTW1MWUtBWlpqWGU4bm1HSzI2NGFERXRKb3lWdWc?oc=5",
+          "published_at": "2026-11-24T06:03:05+00:00",
+          "paywalled": false
+        }
+      ],
+      "lead_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOSUE2WmZiOTBRR29vbS1FOW51NHdscjFRUjg2RnFkWGxFeldod0FKdFl2ajh4bnM3Yzl3aElJUmJ5X1ZpS3RmcGVpQWRpTk5BblpHcDY1OE9pSFpFajhOdFNTdEVKUFlCZjcxOTcwX0V0TnFXRXFOVzVUTDEyU19lT0cwd3BkMHdzREN4eFMycmNMcVpWN3hlS1d6THRCMUtkWEVydGdFcVIzN2hRUVdOX1NwczRfV0JwSDRpNGY0NmXSAVpBVV95cUxPamhJMndqRDdXQlNWVmNpVUFIMEFReGRjUXJGbnYwc3dDb2dJZVNTcXhLeEZJX0Nsc09malFBTW1MWUtBWlpqWGU4bm1HSzI2NGFERXRKb3lWdWc?oc=5",
+      "first_reported_at": "2026-11-24T06:03:05+00:00",
+      "update_count": 0,
+      "updated": false,
+      "coverage_history": [
+        {
+          "at": "2026-11-26T19:22:04.575591+00:00",
+          "source_count": 1
+        }
+      ],
+      "context": {
+        "earlier_reporting": [],
+        "coverage_from": null,
+        "search_query": "set ai australian safety",
+        "search_days": 730,
+        "searched_days": 180,
         "search_status": "searched"
       }
     },
@@ -547,12 +502,8 @@
       "lead_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPRk9RUFpJVjE0Z3QtZ29MVllxLTlHQlVrSWFBVHZQUU5LbGZsWkhkWnJLQXhrVm95YjF5RFdzSUJ6NDB6V015aDNmU3JXUlQydUZUN0FKX3Rsc3ZtTEpuTTlOUDVDbmZiSXNnR3VSNDlrMFpqRTRnbm4zeXdSMzgxdnFOSDV5UGloWmx3Mng0X3JscGs2ZkxmVXd0bXl4X2hHeTY5ZnN3al95RGJwdXc?oc=5",
       "first_reported_at": "2026-11-23T17:36:51+00:00",
       "update_count": 8,
-      "updated": true,
+      "updated": false,
       "coverage_history": [
-        {
-          "at": "2026-11-26T09:07:07.270203+00:00",
-          "source_count": 1
-        },
         {
           "at": "2026-11-26T10:02:19.467227+00:00",
           "source_count": 1
@@ -596,6 +547,10 @@
         {
           "at": "2026-11-26T18:27:15.422828+00:00",
           "source_count": 1
+        },
+        {
+          "at": "2026-11-26T19:22:04.575591+00:00",
+          "source_count": 1
         }
       ],
       "context": {
@@ -615,31 +570,37 @@
       }
     },
     {
-      "id": "c664d0e0b784",
-      "title": "Extreme heat linked to 5,258 deaths as experts warn what comes next",
-      "summary": "Extreme heat linked to 5,258 deaths as experts warn what comes next https://www.birmingham-now.co.uk/",
+      "id": "1dc7e99d600c",
+      "title": "China launches Shenzhou 24 spacecraft carrying 2 Chinese and 1 Pakistani astronaut",
+      "summary": "China launches Shenzhou 24 spacecraft carrying 2 Chinese and 1 Pakistani astronaut AP News",
       "image": "",
       "category": "World",
       "importance": "Major",
       "background_only": false,
-      "score": 52.3,
-      "published_at": "2026-11-25T05:15:00+00:00",
-      "source_count": 1,
+      "score": 52.8,
+      "published_at": "2026-11-26T12:19:00+00:00",
+      "source_count": 2,
       "reasons": [
-        "high-impact event",
-        "reported fatalities"
+        "significant public impact",
+        "historic space milestone"
       ],
       "sources": [
         {
-          "name": "https://www.birmingham-now.co.uk/",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQaVhtYWtJd21yVDQwYkE2V3BoS0tPbWVhWGxZbXdXU3A4VEsxSjFLcy1iNVhNRHBLM2dYb29CbHphQ3VJWlRuM3EtZjFBSTlwQzd5NUVoUEZ2dFVGazlVTXQwTkdvcTFuS0NxaFM4R0E4UnRvNlEyLUNTcXZoMlBORUlIUHQ0dlQxSkRzbXBYUVJmeV91OUR4UTRNM3c?oc=5",
-          "published_at": "2026-11-25T05:15:00+00:00",
+          "name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNR3M0QnJvdnFlSmxYai1OZWNwd0pYOFVKa2t3UDZhLXZkcXVkcmNOZHU2ZEVCQk1HX0liM2ZVb3piZDFiaE5SSkY2MWdZeFNmOVhTWkM3RDdqSHYySDNkSTNwcExoemNqTWtoLWNQV1VDNXota0w3Ym1FLUZxOXFPZnB3UlllbEJySmhJ?oc=5",
+          "published_at": "2026-11-25T17:33:00+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "AzerNews",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9Sb0FfWW9DNG95dVBqTW8yU3kyUjUyRHdqc0NIWUlUdkw2ZldsdGxBZUJfVG81TTdKZ0FBUlRudUFxdGRNSmd4Z0VJTjh1dWZQeGNINQ?oc=5",
+          "published_at": "2026-11-26T12:19:00+00:00",
           "paywalled": false
         }
       ],
-      "lead_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQaVhtYWtJd21yVDQwYkE2V3BoS0tPbWVhWGxZbXdXU3A4VEsxSjFLcy1iNVhNRHBLM2dYb29CbHphQ3VJWlRuM3EtZjFBSTlwQzd5NUVoUEZ2dFVGazlVTXQwTkdvcTFuS0NxaFM4R0E4UnRvNlEyLUNTcXZoMlBORUlIUHQ0dlQxSkRzbXBYUVJmeV91OUR4UTRNM3c?oc=5",
-      "first_reported_at": "2026-11-25T05:15:00+00:00",
-      "update_count": 0,
+      "lead_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNR3M0QnJvdnFlSmxYai1OZWNwd0pYOFVKa2t3UDZhLXZkcXVkcmNOZHU2ZEVCQk1HX0liM2ZVb3piZDFiaE5SSkY2MWdZeFNmOVhTWkM3RDdqSHYySDNkSTNwcExoemNqTWtoLWNQV1VDNXota0w3Ym1FLUZxOXFPZnB3UlllbEJySmhJ?oc=5",
+      "first_reported_at": "2026-11-26T12:19:00+00:00",
+      "update_count": 1,
       "updated": false,
       "coverage_history": [
         {
@@ -648,24 +609,47 @@
         },
         {
           "at": "2026-11-26T16:37:19.128735+00:00",
-          "source_count": 1
+          "source_count": 4
         },
         {
           "at": "2026-11-26T17:32:11.193860+00:00",
-          "source_count": 1
+          "source_count": 4
         },
         {
           "at": "2026-11-26T18:27:15.422828+00:00",
-          "source_count": 1
+          "source_count": 4
+        },
+        {
+          "at": "2026-11-26T19:22:04.575591+00:00",
+          "source_count": 2
         }
       ],
       "context": {
-        "earlier_reporting": [],
-        "coverage_from": null,
-        "search_query": "extreme heat linked",
+        "earlier_reporting": [
+          {
+            "title": "Pakistani astronaut to board Shenzhou 24 and become the first foreigner on China's space station",
+            "source": "AP News",
+            "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQenFsUWZUMFNoeXpOUXdEX0xad010OWlJemJJQl93YjBrcFhySkxxWVpackkxamQ3Q08yampBaXRtOFNhWVd1VHNjSklUSy1JWC1taUszYTdVbnJ2U2N5aWhmcVlpLVFLSjRQWGhNZS1ieTBpdjVuWG9MRkROWXNBV0YzSkdobnl2T1hwU0hUNThiREQtQWFsZXZHdWFVN2hp?oc=5",
+            "published_at": "2026-11-06T08:00:00+00:00"
+          },
+          {
+            "title": "Pakistani astronaut launches into space aboard Chinese rocket",
+            "source": "Al Jazeera",
+            "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNVWdUSGN0dUpVbVFWRXZwVUJ6akp5Sm5SNFVwbzRHYmJ5RkprMDRDVDFxdXFQTUdCc0VrUWo1QmV2QWFOVmZFVHQ4N1JWQWJRZnY5UUgwUkJjaHlzWEY2ZGt5dVd3R3RqMEh4TWZCTzNhUGx4bDZMeTNITHZfbFZBQWZ5enZoRU5aZEZJbWEyOU93YjZVcm94VE9PT1JqY19WY1daeXVMMkRheVlkUkJrSmkxNNIBuAFBVV95cUxQTVJFWXhCeC0tQ0U1ZDhyTFg0eDFDYzVOZVBtNUx4MnNIVkdtN1YxdDhWbGZtYkhNV0hHWU9vN2J5NEJ0aGdrekxVdy1Ba0FnakJPMEt0ZEtkS1BDRmQ0S2F2Z3dlRXVHWXNONkJRQnZELUdZREVjdXRWa3VZbFl3enVhSUtGY2dTckw2QV9GZUxsZ1RCWnNRNzhpNXYxd2dqVGFSZnpuZkdaNDY2VmhoaEFYVHhycWpF?oc=5",
+            "published_at": "2026-11-25T02:45:57+00:00"
+          },
+          {
+            "title": "China launches Shenzhou-24 with Pakistani as first foreign astronaut",
+            "source": "Reuters",
+            "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0yMlVqQWJYTUozUzd4SkJZcFhHOWx5TEN4RnJKLVFXbG9UN3N1TVJVVkZUVEJoUXUxTmxyR3B2dXNtWWhwT20tUDJtWHV4YVlrOElPYldiOER0NDNRYkVCYjRYeVRhcFU?oc=5",
+            "published_at": "2026-11-25T06:15:20+00:00"
+          }
+        ],
+        "coverage_from": "2026-11-06T08:00:00+00:00",
+        "search_query": "china shenzhou chinese astronaut",
         "search_days": 730,
-        "searched_days": 730,
-        "search_status": "searched"
+        "searched_days": 30,
+        "search_status": "matched"
       }
     },
     {
@@ -732,6 +716,10 @@
         {
           "at": "2026-11-26T18:27:15.422828+00:00",
           "source_count": 3
+        },
+        {
+          "at": "2026-11-26T19:22:04.575591+00:00",
+          "source_count": 3
         }
       ],
       "context": {
@@ -744,6 +732,52 @@
       }
     },
     {
+      "id": "8af617be3645",
+      "title": "Egyptians mourn, demand accountability after deadly tanker explosion kills 31",
+      "summary": "Egyptians mourn, demand accountability after deadly tanker explosion kills 31 Reuters",
+      "image": "",
+      "category": "World",
+      "importance": "Major",
+      "background_only": false,
+      "score": 51.4,
+      "published_at": "2026-11-26T15:55:43+00:00",
+      "source_count": 1,
+      "reasons": [
+        "reported fatalities",
+        "significant accident with human impact"
+      ],
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQRTl5WjBUX0txaW41ckZVaWczbF8wYjRPTXlTX19BNFpYai1lOU5PbHNKY0RxODBydy0tVjBtWFZ1T0RYVHB1RDI0YmhELVFpSDNoMk1KYWZua2RyU0VmWENQVV9NZG11MzFJSmhlX3ZUMk4yNmV2SG1GRnUtMlowbS1IYmFnb2FSb2pZdFlwN3hTSUd3aVM2VEhtZDVDYXZsMGRQN2NiNjFYNGxKV2RFZG5yem1Mcks1V3VsUDc0Y2tnRzQ?oc=5",
+          "published_at": "2026-11-26T15:55:43+00:00",
+          "paywalled": false
+        }
+      ],
+      "lead_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQRTl5WjBUX0txaW41ckZVaWczbF8wYjRPTXlTX19BNFpYai1lOU5PbHNKY0RxODBydy0tVjBtWFZ1T0RYVHB1RDI0YmhELVFpSDNoMk1KYWZua2RyU0VmWENQVV9NZG11MzFJSmhlX3ZUMk4yNmV2SG1GRnUtMlowbS1IYmFnb2FSb2pZdFlwN3hTSUd3aVM2VEhtZDVDYXZsMGRQN2NiNjFYNGxKV2RFZG5yem1Mcks1V3VsUDc0Y2tnRzQ?oc=5",
+      "first_reported_at": "2026-11-26T15:55:43+00:00",
+      "update_count": 0,
+      "updated": false,
+      "coverage_history": [
+        {
+          "at": "2026-11-26T18:27:15.422828+00:00",
+          "source_count": 1
+        },
+        {
+          "at": "2026-11-26T19:22:04.575591+00:00",
+          "source_count": 1
+        }
+      ],
+      "context": {
+        "earlier_reporting": [],
+        "coverage_from": null,
+        "search_query": "egyptians explosion mourn",
+        "search_days": 730,
+        "searched_days": 180,
+        "search_status": "searched"
+      }
+    },
+    {
       "id": "8ebe7b96eac0",
       "title": "At least 31 killed in Egypt vehicle fire, Health Ministry says",
       "summary": "At least 31 killed in Egypt vehicle fire, Health Ministry says Al Jazeera",
@@ -751,7 +785,7 @@
       "category": "World",
       "importance": "Major",
       "background_only": false,
-      "score": 52.0,
+      "score": 51.2,
       "published_at": "2026-11-26T04:40:09+00:00",
       "source_count": 1,
       "reasons": [
@@ -771,10 +805,6 @@
       "update_count": 11,
       "updated": false,
       "coverage_history": [
-        {
-          "at": "2026-11-26T09:07:07.270203+00:00",
-          "source_count": 8
-        },
         {
           "at": "2026-11-26T10:02:19.467227+00:00",
           "source_count": 6
@@ -818,6 +848,10 @@
         {
           "at": "2026-11-26T18:27:15.422828+00:00",
           "source_count": 1
+        },
+        {
+          "at": "2026-11-26T19:22:04.575591+00:00",
+          "source_count": 1
         }
       ],
       "context": {
@@ -830,15 +864,15 @@
       }
     },
     {
-      "id": "8af617be3645",
-      "title": "Egyptians mourn, demand accountability after deadly tanker explosion kills 31",
-      "summary": "Egyptians mourn, demand accountability after deadly tanker explosion kills 31 Reuters",
+      "id": "b7ecedbc410c",
+      "title": "Egypt detains a driver suspected of causing Cairo tanker crash that killed 31 - ABC News",
+      "summary": "Egypt detains a driver suspected of causing Cairo tanker crash that killed 31 ABC News - Breaking News, Latest News and Videos",
       "image": "",
       "category": "World",
       "importance": "Major",
       "background_only": false,
-      "score": 51.4,
-      "published_at": "2026-11-26T15:55:43+00:00",
+      "score": 50.3,
+      "published_at": "2026-11-26T16:50:16+00:00",
       "source_count": 1,
       "reasons": [
         "reported fatalities",
@@ -846,26 +880,26 @@
       ],
       "sources": [
         {
-          "name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQRTl5WjBUX0txaW41ckZVaWczbF8wYjRPTXlTX19BNFpYai1lOU5PbHNKY0RxODBydy0tVjBtWFZ1T0RYVHB1RDI0YmhELVFpSDNoMk1KYWZua2RyU0VmWENQVV9NZG11MzFJSmhlX3ZUMk4yNmV2SG1GRnUtMlowbS1IYmFnb2FSb2pZdFlwN3hTSUd3aVM2VEhtZDVDYXZsMGRQN2NiNjFYNGxKV2RFZG5yem1Mcks1V3VsUDc0Y2tnRzQ?oc=5",
-          "published_at": "2026-11-26T15:55:43+00:00",
+          "name": "ABC News - Breaking News, Latest News and Videos",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNWTlvYXVmTGRzVkNJQWRKc0QzT3JjeHhtZHVPY09GT2xTTTZLckZraEt3NXVaNG90S2hZYWNZbWg5TDhwa0ZfTE9VclZ6NUxWaGtqUmtiMklTT3gxbEt3Ry1oeVBXYVo1Y0Q5QzlBUFNWLVgxa3U4UG9JTllnaGVFT1k0dS1wYl9VS0JJbFk3WndBUVY4Y0g3dHZnVmFNcnRNMDlWajYxaWtjRGM2Q3V0UdIBtgFBVV95cUxQWHJhajhjUVluRmZEUF9GdmJmdlRSaFI3Uk9Oa200cDg2UkRSSmxRU0JQaTFRTUI5dlBaOHc4ZXd6SkFjTmFMenZZNzNnMFo3bE85a3NGNnlPTHB3VXRPazNUUDR3Vm5GR0dLSFVZTS1SUjRaajVmZ0VpZVpoZExBRm5CZmcwU0xLb1RXdm4ycmRrTF9EVUFtelVDSGxCSjVaZEtVNFp3dnJNWDkyR3BDMFZXSXUxZw?oc=5",
+          "published_at": "2026-11-26T16:50:16+00:00",
           "paywalled": false
         }
       ],
-      "lead_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQRTl5WjBUX0txaW41ckZVaWczbF8wYjRPTXlTX19BNFpYai1lOU5PbHNKY0RxODBydy0tVjBtWFZ1T0RYVHB1RDI0YmhELVFpSDNoMk1KYWZua2RyU0VmWENQVV9NZG11MzFJSmhlX3ZUMk4yNmV2SG1GRnUtMlowbS1IYmFnb2FSb2pZdFlwN3hTSUd3aVM2VEhtZDVDYXZsMGRQN2NiNjFYNGxKV2RFZG5yem1Mcks1V3VsUDc0Y2tnRzQ?oc=5",
-      "first_reported_at": "2026-11-26T15:55:43+00:00",
+      "lead_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNWTlvYXVmTGRzVkNJQWRKc0QzT3JjeHhtZHVPY09GT2xTTTZLckZraEt3NXVaNG90S2hZYWNZbWg5TDhwa0ZfTE9VclZ6NUxWaGtqUmtiMklTT3gxbEt3Ry1oeVBXYVo1Y0Q5QzlBUFNWLVgxa3U4UG9JTllnaGVFT1k0dS1wYl9VS0JJbFk3WndBUVY4Y0g3dHZnVmFNcnRNMDlWajYxaWtjRGM2Q3V0UdIBtgFBVV95cUxQWHJhajhjUVluRmZEUF9GdmJmdlRSaFI3Uk9Oa200cDg2UkRSSmxRU0JQaTFRTUI5dlBaOHc4ZXd6SkFjTmFMenZZNzNnMFo3bE85a3NGNnlPTHB3VXRPazNUUDR3Vm5GR0dLSFVZTS1SUjRaajVmZ0VpZVpoZExBRm5CZmcwU0xLb1RXdm4ycmRrTF9EVUFtelVDSGxCSjVaZEtVNFp3dnJNWDkyR3BDMFZXSXUxZw?oc=5",
+      "first_reported_at": "2026-11-26T16:50:16+00:00",
       "update_count": 0,
       "updated": false,
       "coverage_history": [
         {
-          "at": "2026-11-26T18:27:15.422828+00:00",
+          "at": "2026-11-26T19:22:04.575591+00:00",
           "source_count": 1
         }
       ],
       "context": {
         "earlier_reporting": [],
         "coverage_from": null,
-        "search_query": "egyptians explosion mourn",
+        "search_query": "egypt cairo crash",
         "search_days": 730,
         "searched_days": 30,
         "search_status": "searched"
@@ -930,6 +964,10 @@
         {
           "at": "2026-11-26T18:27:15.422828+00:00",
           "source_count": 1
+        },
+        {
+          "at": "2026-11-26T19:22:04.575591+00:00",
+          "source_count": 1
         }
       ],
       "context": {
@@ -942,9 +980,64 @@
       }
     },
     {
+      "id": "6c321baec8b3",
+      "title": "Trump calls the pre-election GDP figures 'fake' and demands an investigation of Commerce Department",
+      "summary": "Trump calls the pre-election GDP figures 'fake' and demands an investigation of Commerce Department AP News",
+      "image": "",
+      "category": "World",
+      "importance": "Major",
+      "background_only": false,
+      "score": 49.6,
+      "published_at": "2026-11-26T18:27:27+00:00",
+      "source_count": 3,
+      "reasons": [
+        "high-impact event",
+        "3 trusted sources",
+        "rapid cross-source coverage"
+      ],
+      "sources": [
+        {
+          "name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPSWs0NUw0T1MxU0FFajZoSzUzQ2tCblZyZGhDc25mSVpXV0NpczlfWHpwaWdaUEE0T3lFSXdhYl9oUVZ3cTV1ei01aXprNTBoYUJCbG02THdJeGVISENOWjdrVzJpb2pxZEI5aU94VmFCTWU4ckR5MjFjZ2JDMzFibl9WVGZ2Q09PeVo5LXc1WQ?oc=5",
+          "published_at": "2026-11-26T16:55:00+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "Bloomberg.com",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPR1Vua2tUbUlVUWhkOUNkaThiaG5UcnRiTHoyQWluZ1JOUkZLMG5Mdl8zdk5GMDBXSk9mb0YtZmJnOGRRTE1WbWpvQXdkTzBBeWtJOTI4dkZpUzRVVWtENTdsek5pX0Y5emNGOEZoa2JoamV4T0VXWHJYS1ZsRzJfUjlYZHc5aWVTQmZqN0pHT2YxdkdsN2o4ZzRYUTdyRVlsaGZfbG9jckRYTHFzNmNZ?oc=5",
+          "published_at": "2026-11-26T16:24:24+00:00",
+          "paywalled": true
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/economy/2026/11/26/trump-calls-gdp-data-released-before-midterms-fake-demands-investigation?traffic_source=rss",
+          "published_at": "2026-11-26T18:27:27+00:00",
+          "paywalled": false
+        }
+      ],
+      "lead_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPSWs0NUw0T1MxU0FFajZoSzUzQ2tCblZyZGhDc25mSVpXV0NpczlfWHpwaWdaUEE0T3lFSXdhYl9oUVZ3cTV1ei01aXprNTBoYUJCbG02THdJeGVISENOWjdrVzJpb2pxZEI5aU94VmFCTWU4ckR5MjFjZ2JDMzFibl9WVGZ2Q09PeVo5LXc1WQ?oc=5",
+      "first_reported_at": "2026-11-26T18:27:27+00:00",
+      "update_count": 0,
+      "updated": false,
+      "coverage_history": [
+        {
+          "at": "2026-11-26T19:22:04.575591+00:00",
+          "source_count": 3
+        }
+      ],
+      "context": {
+        "earlier_reporting": [],
+        "coverage_from": null,
+        "search_query": "trump gdp commerce election investigation",
+        "search_days": 730,
+        "searched_days": 180,
+        "search_status": "searched"
+      }
+    },
+    {
       "id": "47e9efef38df",
       "title": "Nine injured, three critically, after Bangkok oil refinery explosion",
-      "summary": "Nine injured, three critically, after Bangkok oil refinery explosion BBC",
+      "summary": "Black smoke could be seen across Bangkok's skyline after the blast, as officials urged residents to leave the area.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/579b/live/12356f50-e985-11f1-bb43-d1b6102e3b60.jpg",
       "category": "World",
       "importance": "Major",
@@ -977,7 +1070,7 @@
           "paywalled": false
         }
       ],
-      "lead_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9QVXBDSWVlVWRYTVNyeWxlcWtGR1lGRDlCOERrRGRON3lEVGp3WmpaNlkyWVd6cm1ULXZqa2ptVU5yN1B6UHI4eHhUa2hkbWxhNjNpUlp2YklsVHc?oc=5",
+      "lead_url": "https://www.bbc.co.uk/news/articles/crx209kwk4kzo?at_medium=RSS&at_campaign=rss",
       "first_reported_at": "2026-11-26T16:21:19+00:00",
       "update_count": 0,
       "updated": false,
@@ -989,6 +1082,10 @@
         {
           "at": "2026-11-26T18:27:15.422828+00:00",
           "source_count": 3
+        },
+        {
+          "at": "2026-11-26T19:22:04.575591+00:00",
+          "source_count": 3
         }
       ],
       "context": {
@@ -996,69 +1093,7 @@
         "coverage_from": null,
         "search_query": "bangkok refinery explosion",
         "search_days": 730,
-        "searched_days": 180,
-        "search_status": "searched"
-      }
-    },
-    {
-      "id": "1d8d06fc1c91",
-      "title": "At Least 6 Dead, 10 Hospitalized After Explosion Destroys Restaurant in Popular Tourist Destination",
-      "summary": "At Least 6 Dead, 10 Hospitalized After Explosion Destroys Restaurant in Popular Tourist Destination People.com",
-      "image": "",
-      "category": "World",
-      "importance": "Major",
-      "background_only": false,
-      "score": 47.4,
-      "published_at": "2026-11-24T16:51:00+00:00",
-      "source_count": 1,
-      "reasons": [
-        "reported fatalities",
-        "significant accident with human impact"
-      ],
-      "sources": [
-        {
-          "name": "People.com",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNcjN4Sk9uM1o0WGM2QXhvWVpYRVJBZUkyR0RTOG1SN3FSLUxQc29UVkRnU3Uya0lja0Z1dUMzVl9zRnFEcUEzaWctRlBDdFlzeFlJZFlBdmdNTmZ2M0gydVQtMHpzdy1kX2lFUDRiTW5BOVdXLWtTRlc5RTFlVHlPY2lEaFdUVUdXTXhQYmVfdVdYSk4wMGhIRlBxZHpUTFVhNFdKdkpYSEtiVEpuR1I5WWNScHUyY1NQTEE?oc=5",
-          "published_at": "2026-11-24T16:51:00+00:00",
-          "paywalled": false
-        }
-      ],
-      "lead_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNcjN4Sk9uM1o0WGM2QXhvWVpYRVJBZUkyR0RTOG1SN3FSLUxQc29UVkRnU3Uya0lja0Z1dUMzVl9zRnFEcUEzaWctRlBDdFlzeFlJZFlBdmdNTmZ2M0gydVQtMHpzdy1kX2lFUDRiTW5BOVdXLWtTRlc5RTFlVHlPY2lEaFdUVUdXTXhQYmVfdVdYSk4wMGhIRlBxZHpUTFVhNFdKdkpYSEtiVEpuR1I5WWNScHUyY1NQTEE?oc=5",
-      "first_reported_at": "2026-11-24T16:51:00+00:00",
-      "update_count": 0,
-      "updated": false,
-      "coverage_history": [
-        {
-          "at": "2026-11-26T14:37:15.748675+00:00",
-          "source_count": 1
-        },
-        {
-          "at": "2026-11-26T15:32:05.886828+00:00",
-          "source_count": 1
-        },
-        {
-          "at": "2026-11-26T15:45:02.812979+00:00",
-          "source_count": 1
-        },
-        {
-          "at": "2026-11-26T16:37:19.128735+00:00",
-          "source_count": 1
-        },
-        {
-          "at": "2026-11-26T17:32:11.193860+00:00",
-          "source_count": 1
-        },
-        {
-          "at": "2026-11-26T18:27:15.422828+00:00",
-          "source_count": 1
-        }
-      ],
-      "context": {
-        "earlier_reporting": [],
-        "coverage_from": null,
-        "search_query": "dead hospitalized destroys explosion",
-        "search_days": 730,
-        "searched_days": 730,
+        "searched_days": 365,
         "search_status": "searched"
       }
     },
@@ -1071,7 +1106,7 @@
       "importance": "Major",
       "background_only": false,
       "score": 46.4,
-      "published_at": "2026-11-26T16:21:35+00:00",
+      "published_at": "2026-11-26T14:14:20+00:00",
       "source_count": 3,
       "reasons": [
         "major transaction",
@@ -1094,14 +1129,14 @@
         {
           "name": "Axios",
           "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9maHp6OXN1a3ZmMDR3a3F6amFwaVF2RnZKRkd0NlMtQmEySkY5LThsd19mNDRsb2VfQjlSWkNzbC01dHd0Vkhqb18yMkFzUm9Kck9TMzZRUFVxRUlNNEdHMU5BNnBFN0FjMTdRc0xXWGpOX0tD?oc=5",
-          "published_at": "2026-11-26T16:21:35+00:00",
+          "published_at": "2026-11-26T05:41:31+00:00",
           "paywalled": false
         }
       ],
       "lead_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNklmekFZWmFURnFwVlBHa2FlTGZwYkxaSkNSRUxMV2lsanFDc2hkdGF1RGhHWlJoUTBicHFXY1B3dWxHa0xmdU5mYzFBbGpYN3Z5N2xTS2U1bVBJeVZQVHRucldkRVhsVlVfNldnTWpRclIzSjJQa0tMMnBFVGhDTS1HYzdwVlctaXowdDJtdVJaNkxLcXo2Tk9Odi1XZnI0c1JScHZycXhWRUNUZmQ4?oc=5",
       "first_reported_at": "2026-11-26T14:14:20+00:00",
       "update_count": 1,
-      "updated": true,
+      "updated": false,
       "coverage_history": [
         {
           "at": "2026-11-26T15:45:02.812979+00:00",
@@ -1117,6 +1152,10 @@
         },
         {
           "at": "2026-11-26T18:27:15.422828+00:00",
+          "source_count": 3
+        },
+        {
+          "at": "2026-11-26T19:22:04.575591+00:00",
           "source_count": 3
         }
       ],
@@ -1124,64 +1163,6 @@
         "earlier_reporting": [],
         "coverage_from": null,
         "search_query": "musk spacex us shares",
-        "search_days": 730,
-        "searched_days": 730,
-        "search_status": "searched"
-      }
-    },
-    {
-      "id": "a3bdd39dfde0",
-      "title": "China: 8 dead after houses collapse in industrial area",
-      "summary": "China: 8 dead after houses collapse in industrial area Yeni Safak English",
-      "image": "",
-      "category": "World",
-      "importance": "Major",
-      "background_only": false,
-      "score": 46.2,
-      "published_at": "2026-11-24T15:21:52+00:00",
-      "source_count": 1,
-      "reasons": [
-        "reported fatalities",
-        "significant accident with human impact"
-      ],
-      "sources": [
-        {
-          "name": "Yeni Safak English",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQRDFlZzRZLVlWdF85c0V2Q25SNnBBYWJXVV82STRYbjQ0Um5MNXpNWjdoRkpTWUxrY1B0cWR6amlPVWM0MGI0VXVpV0xIOWF3SW1NV0NRcEdsa1dUU1dvbzBtUDVYbHp5aEtQdGlmbGZKb2ZWS3loQ1FxZl9lTzg3Rkp4b3BEckFBQ2JuaGNaQS1WTkE0MGFF?oc=5",
-          "published_at": "2026-11-24T15:21:52+00:00",
-          "paywalled": false
-        }
-      ],
-      "lead_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQRDFlZzRZLVlWdF85c0V2Q25SNnBBYWJXVV82STRYbjQ0Um5MNXpNWjdoRkpTWUxrY1B0cWR6amlPVWM0MGI0VXVpV0xIOWF3SW1NV0NRcEdsa1dUU1dvbzBtUDVYbHp5aEtQdGlmbGZKb2ZWS3loQ1FxZl9lTzg3Rkp4b3BEckFBQ2JuaGNaQS1WTkE0MGFF?oc=5",
-      "first_reported_at": "2026-11-24T15:21:52+00:00",
-      "update_count": 0,
-      "updated": false,
-      "coverage_history": [
-        {
-          "at": "2026-11-26T15:32:05.886828+00:00",
-          "source_count": 1
-        },
-        {
-          "at": "2026-11-26T15:45:02.812979+00:00",
-          "source_count": 1
-        },
-        {
-          "at": "2026-11-26T16:37:19.128735+00:00",
-          "source_count": 1
-        },
-        {
-          "at": "2026-11-26T17:32:11.193860+00:00",
-          "source_count": 1
-        },
-        {
-          "at": "2026-11-26T18:27:15.422828+00:00",
-          "source_count": 1
-        }
-      ],
-      "context": {
-        "earlier_reporting": [],
-        "coverage_from": null,
-        "search_query": "china collapse dead",
         "search_days": 730,
         "searched_days": 730,
         "search_status": "searched"
@@ -1196,7 +1177,7 @@
       "importance": "Notable",
       "background_only": false,
       "score": 41.1,
-      "published_at": "2026-11-26T13:48:05+00:00",
+      "published_at": "2026-11-26T09:22:00+00:00",
       "source_count": 2,
       "reasons": [
         "high-impact event",
@@ -1206,7 +1187,7 @@
         {
           "name": "AP News",
           "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOODk5TW1rbDA5Ml84Vzh3OWVzdW12UkFLbXJzQlZSbG9rNTQxZGl1bjBPQ1FsNURnQ21MU3FFX1RqZFVDdzJrSXR5YkRTTndHcERGWUpyaklFeWxlQ2l4aXhKT1ctM1cwMDdtOHg5RHQ3ZmhqVTIyWFVHUWdHSG40WExZWkJSM1lZNndDSFBlbEdNNnM?oc=5",
-          "published_at": "2026-11-26T13:48:05+00:00",
+          "published_at": "2026-11-26T09:22:00+00:00",
           "paywalled": false
         },
         {
@@ -1221,10 +1202,6 @@
       "update_count": 5,
       "updated": false,
       "coverage_history": [
-        {
-          "at": "2026-11-26T09:07:07.270203+00:00",
-          "source_count": 2
-        },
         {
           "at": "2026-11-26T10:02:19.467227+00:00",
           "source_count": 3
@@ -1268,6 +1245,10 @@
         {
           "at": "2026-11-26T18:27:15.422828+00:00",
           "source_count": 2
+        },
+        {
+          "at": "2026-11-26T19:22:04.575591+00:00",
+          "source_count": 2
         }
       ],
       "context": {
@@ -1290,64 +1271,6 @@
         "search_days": 730,
         "searched_days": 30,
         "search_status": "matched"
-      }
-    },
-    {
-      "id": "a496c6c5c319",
-      "title": "Bangladesh raises minimum wage for garment workers after weeks of protests",
-      "summary": "Bangladesh raises minimum wage for garment workers after weeks of protests AP News",
-      "image": "",
-      "category": "World",
-      "importance": "Notable",
-      "background_only": false,
-      "score": 40.8,
-      "published_at": "2026-11-25T14:28:23+00:00",
-      "source_count": 3,
-      "reasons": [
-        "significant public impact",
-        "3 trusted sources"
-      ],
-      "sources": [
-        {
-          "name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQeG1YZnFJZHdHdHJvOEVqWEtMaG9jalF4REswUkl4SEYtVHJXNDQ5STNRMGRxVVhUTFZzNjhEOGZ4ZjhmUXpaQTFwN0dMQkZtV0NENXB5WFQ3bHEwVHU4Q19YUzRwTmZjUXJfcnAyOUxOZFpfa2xFYU4tZXN3Y2xlQVUtTGtGN2FPbm5BajROd2xBempqbUNz?oc=5",
-          "published_at": "2026-11-25T07:20:00+00:00",
-          "paywalled": false
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNT2N1VVFPTTh1X3Jwc1d4NEhYdS0xcUpCZV9pd0F4cEZ5MGMyU2pNb2hVS0R3aEF6NDVXbENHWTdyVzR4OHd4cUdfQmNvQlB6UmFLcG5SOXdfZm1jTVFpSlBNcUhsU0psOWdsU1VDOEtMWXMxTGtDbURSRjNoVVFySm4xRWxHdVV3Zk5JaG9NdlVkN1BTcmFfaDBNWWpVTkItbTVINHc0a2NXZ2_SAbABQVVfeXFMTlRueFB0TkZLU2NyQlN3bmV1NF9kOEYxNmx0eEdLMTVNLWIyX2h3dC0wVkxyLVllc2h1UDlzSzJNUGpmOUVpYVRGcjVYU05nRFNfWXNWSzI5cnV0SmJDU2RmdC0wdnNwRFdidnVIamRNOWZmYnVkNEFmS05IcmNNZUFoVmVyVXpJM0FDNTdPbDU5TFo0N3psV1ZmajJfeGJFb0FPWGdBQWpNcFZNeG1vVlU?oc=5",
-          "published_at": "2026-11-25T07:14:26+00:00",
-          "paywalled": false
-        },
-        {
-          "name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE05TFZDM0dqSmtCM0pPRmg5dmlEUnBUeXB5d2liQUtiNzlmNFJ2ZmFGTDhLTlhVWnBoMkRfRVBOQkluTi1DUFlmZnFQdDVLb0Zldm9qZVhlbTNiSzNhZ3RWRlUtRTV5S2s?oc=5",
-          "published_at": "2026-11-25T14:28:23+00:00",
-          "paywalled": false
-        }
-      ],
-      "lead_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQeG1YZnFJZHdHdHJvOEVqWEtMaG9jalF4REswUkl4SEYtVHJXNDQ5STNRMGRxVVhUTFZzNjhEOGZ4ZjhmUXpaQTFwN0dMQkZtV0NENXB5WFQ3bHEwVHU4Q19YUzRwTmZjUXJfcnAyOUxOZFpfa2xFYU4tZXN3Y2xlQVUtTGtGN2FPbm5BajROd2xBempqbUNz?oc=5",
-      "first_reported_at": "2026-11-25T14:28:23+00:00",
-      "update_count": 0,
-      "updated": false,
-      "coverage_history": [
-        {
-          "at": "2026-11-26T17:32:11.193860+00:00",
-          "source_count": 3
-        },
-        {
-          "at": "2026-11-26T18:27:15.422828+00:00",
-          "source_count": 3
-        }
-      ],
-      "context": {
-        "earlier_reporting": [],
-        "coverage_from": null,
-        "search_query": "bangladesh protest raises",
-        "search_days": 730,
-        "searched_days": 730,
-        "search_status": "searched"
       }
     },
     {
@@ -1421,6 +1344,10 @@
         {
           "at": "2026-11-26T18:27:15.422828+00:00",
           "source_count": 3
+        },
+        {
+          "at": "2026-11-26T19:22:04.575591+00:00",
+          "source_count": 3
         }
       ],
       "context": {
@@ -1459,10 +1386,6 @@
       "update_count": 0,
       "updated": false,
       "coverage_history": [
-        {
-          "at": "2026-11-26T09:07:07.270203+00:00",
-          "source_count": 1
-        },
         {
           "at": "2026-11-26T10:02:19.467227+00:00",
           "source_count": 1
@@ -1505,6 +1428,10 @@
         },
         {
           "at": "2026-11-26T18:27:15.422828+00:00",
+          "source_count": 1
+        },
+        {
+          "at": "2026-11-26T19:22:04.575591+00:00",
           "source_count": 1
         }
       ],
@@ -1545,10 +1472,6 @@
       "updated": false,
       "coverage_history": [
         {
-          "at": "2026-11-26T09:07:07.270203+00:00",
-          "source_count": 1
-        },
-        {
           "at": "2026-11-26T10:02:19.467227+00:00",
           "source_count": 1
         },
@@ -1591,6 +1514,10 @@
         {
           "at": "2026-11-26T18:27:15.422828+00:00",
           "source_count": 1
+        },
+        {
+          "at": "2026-11-26T19:22:04.575591+00:00",
+          "source_count": 1
         }
       ],
       "context": {
@@ -1602,9 +1529,9 @@
             "published_at": "2025-11-26T08:00:00+00:00"
           },
           {
-            "title": "'My heart breaks every time I'm called a hero' - Hong Kong fire survivor",
-            "source": "BBC",
-            "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFAyRGlLeEE0QUZ5ZlNhV0dpcFJTclRBeWFOajA5cUFJUzlnQkpIV0l2YTBUc19rU0ctTjFCYUFxVDdpYk1HQ2UzYXROZlBVTHR6VEpKcHlsbnd4Zw?oc=5",
+            "title": "Hong Kong high-rise fire death toll rises to 159 as authorities arrest 6 over failed fire alarms",
+            "source": "AP News",
+            "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNUnp0dXRBQldCQkhaNGxqUHVVNTc1WGNYM1d2SWhpaEF3UU9yMExkMFF4TnNJY3JOaDY5dUhlcUdtSXdFeUdvMmlvd3VjaElYNWRnN3B3a1lKeUpzQ2YtRDVmZHc1VVpuNU1MYmJGQ1RoMFVNRFZSbWFIdTM2cEZRSDF1RWRIUEM5Z2p1cXRnRmp0aHNl?oc=5",
             "published_at": "2025-12-03T08:00:00+00:00"
           },
           {
@@ -1640,50 +1567,50 @@
       }
     },
     {
-      "id": "efbee3c51904",
-      "title": "Anthropic shares tumble below $83 IPO price, on track to lose nearly $200 billion in value",
-      "summary": "Anthropic shares tumble below $83 IPO price, on track to lose nearly $200 billion in value Reuters",
+      "id": "e44511a60243",
+      "title": "China's Shenzhou-24 carries Pakistan's first astronaut Muhammad Zeeshan Ali into space",
+      "summary": "China's Shenzhou-24 carries Pakistan's first astronaut Muhammad Zeeshan Ali into space BBC",
       "image": "",
-      "category": "Tech",
+      "category": "World",
       "importance": "Notable",
       "background_only": false,
-      "score": 39.0,
-      "published_at": "2026-11-24T20:47:56+00:00",
+      "score": 39.8,
+      "published_at": "2026-11-25T16:24:31+00:00",
       "source_count": 1,
       "reasons": [
-        "frontier AI safety development"
+        "historic space milestone"
       ],
       "sources": [
         {
-          "name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNMHBNOVY5RDc1NmxUUjNnZkNhLWROQkhUOFZpVmQ0SEI0UG9aSUpTTjhpV3EydTNkdW8xYm1KOWF6OXg2Z3BMaUJCWTE3WnFCM0hCZGNuQ3ZKUklsYUROVWQzdExOamNKVlJLRTgwYWpoYVdOUjlDY0pxTmxZajlvckJ4cHc0TG1hbW1ZUkszaDZ2M2Rvd3RqTWRFaVRENXVWT0pr?oc=5",
-          "published_at": "2026-11-24T20:47:56+00:00",
+          "name": "BBC",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA0eDZwOGtQQnBoOXlyLWhIME9fanAwcGZVWjlNMWhGcmRBeWs2czVPNHRyM2NtQk1sekhQNmFLcjU2VFJLT2Nzb3hTM2xuelVqWmZDU1oxY0xhSXM?oc=5",
+          "published_at": "2026-11-25T04:46:23+00:00",
           "paywalled": false
         }
       ],
-      "lead_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNMHBNOVY5RDc1NmxUUjNnZkNhLWROQkhUOFZpVmQ0SEI0UG9aSUpTTjhpV3EydTNkdW8xYm1KOWF6OXg2Z3BMaUJCWTE3WnFCM0hCZGNuQ3ZKUklsYUROVWQzdExOamNKVlJLRTgwYWpoYVdOUjlDY0pxTmxZajlvckJ4cHc0TG1hbW1ZUkszaDZ2M2Rvd3RqTWRFaVRENXVWT0pr?oc=5",
-      "first_reported_at": "2026-11-24T20:47:56+00:00",
+      "lead_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA0eDZwOGtQQnBoOXlyLWhIME9fanAwcGZVWjlNMWhGcmRBeWs2czVPNHRyM2NtQk1sekhQNmFLcjU2VFJLT2Nzb3hTM2xuelVqWmZDU1oxY0xhSXM?oc=5",
+      "first_reported_at": "2026-11-25T16:24:31+00:00",
       "update_count": 0,
       "updated": false,
       "coverage_history": [
         {
-          "at": "2026-11-26T18:27:15.422828+00:00",
+          "at": "2026-11-26T19:22:04.575591+00:00",
           "source_count": 1
         }
       ],
       "context": {
         "earlier_reporting": [
           {
-            "title": "Anthropic falls below IPO price as tech rally fades",
-            "source": "Financial Times",
-            "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPal9tdUdZVTJvVTB5aGJHZ0FwTk1GVW8zRWFzNlFEdU9YTERXNlNPcGFzbHUyaXd5U3I4WlMzTGNFUUtPVlA2VmpYSW94TFZKMFhGOFlsU19WV09kVkFGRk9IQ3h3MkRLUGlqWms3akdWTUNaR1hxX2VXakFVMm1tNWk0MW8?oc=5",
-            "published_at": "2026-11-24T00:40:35+00:00"
+            "title": "Pakistan’s Zeeshan Ali set for historic flight to China’s space station",
+            "source": "Al Jazeera",
+            "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPOXhLLUZlSUhsY0lrTHdpbWpxYkZPM21nd3ozcmE3ejk5enR4ZVFidmVFa3MwWkNzVzBBSFR3NnU5NmRUMU11U1FUTEw2OXlKcHpxa1FtZHc0bVNNT0x1NS1Gb2RaZE1OYnlMRk9veEtFRjdRNmJrSVFUM0NmRFJ2LTdTLXFXSHVtYzVOYnlaSEdPX0c0UUVLMGxxb2R3Uy1RSVZrRlhxNUNXMkxqOF9UOdIBtgFBVV95cUxQck1SM2t1NVRXT3Z0aWUwRG5penVkWERLSGdaUWV4bUpDQm1zQnVaSnp3Wk1OQm53YlhOeENVY1VCSkU0OXV4Q1cxcGtPT2JLc2xzZlBhVWJwZnB6eDZpOGI2MUdYZzl0Q3NDVjhERDRyX0wwaVJKQVFySjM4dGlhdlNlOTlUT01wVHFjTGpnNXJxSHU1U3czSk40SHprbldPRE5KczJsN1VBdHBaUHRsMDVwNUlQUQ?oc=5",
+            "published_at": "2026-11-24T07:59:43+00:00"
           }
         ],
-        "coverage_from": "2026-11-24T00:40:35+00:00",
-        "search_query": "anthropic ipo shares",
+        "coverage_from": "2026-11-24T07:59:43+00:00",
+        "search_query": "china pakistan muhammad astronaut",
         "search_days": 730,
-        "searched_days": 730,
+        "searched_days": 30,
         "search_status": "matched"
       }
     },
@@ -1724,6 +1651,10 @@
         {
           "at": "2026-11-26T18:27:15.422828+00:00",
           "source_count": 2
+        },
+        {
+          "at": "2026-11-26T19:22:04.575591+00:00",
+          "source_count": 2
         }
       ],
       "context": {
@@ -1731,31 +1662,13 @@
         "coverage_from": null,
         "search_query": "serbia dec election",
         "search_days": 730,
-        "searched_days": 365,
+        "searched_days": 730,
         "search_status": "searched"
       }
     }
   ],
   "watchlist": [],
   "context_archive": [
-    {
-      "title": "Pakistani astronaut to board Shenzhou 24 and become the first foreigner on China's space station",
-      "source": "AP News",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQenFsUWZUMFNoeXpOUXdEX0xad010OWlJemJJQl93YjBrcFhySkxxWVpackkxamQ3Q08yampBaXRtOFNhWVd1VHNjSklUSy1JWC1taUszYTdVbnJ2U2N5aWhmcVlpLVFLSjRQWGhNZS1ieTBpdjVuWG9MRkROWXNBV0YzSkdobnl2T1hwU0hUNThiREQtQWFsZXZHdWFVN2hp?oc=5",
-      "published_at": "2026-11-06T08:00:00+00:00"
-    },
-    {
-      "title": "Pakistani astronaut launches into space aboard Chinese rocket",
-      "source": "Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNVWdUSGN0dUpVbVFWRXZwVUJ6akp5Sm5SNFVwbzRHYmJ5RkprMDRDVDFxdXFQTUdCc0VrUWo1QmV2QWFOVmZFVHQ4N1JWQWJRZnY5UUgwUkJjaHlzWEY2ZGt5dVd3R3RqMEh4TWZCTzNhUGx4bDZMeTNITHZfbFZBQWZ5enZoRU5aZEZJbWEyOU93YjZVcm94VE9PT1JqY19WY1daeXVMMkRheVlkUkJrSmkxNNIBuAFBVV95cUxQTVJFWXhCeC0tQ0U1ZDhyTFg0eDFDYzVOZVBtNUx4MnNIVkdtN1YxdDhWbGZtYkhNV0hHWU9vN2J5NEJ0aGdrekxVdy1Ba0FnakJPMEt0ZEtkS1BDRmQ0S2F2Z3dlRXVHWXNONkJRQnZELUdZREVjdXRWa3VZbFl3enVhSUtGY2dTckw2QV9GZUxsZ1RCWnNRNzhpNXYxd2dqVGFSZnpuZkdaNDY2VmhoaEFYVHhycWpF?oc=5",
-      "published_at": "2026-11-25T02:45:57+00:00"
-    },
-    {
-      "title": "China launches Shenzhou-24 with Pakistani as first foreign astronaut",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0yMlVqQWJYTUozUzd4SkJZcFhHOWx5TEN4RnJKLVFXbG9UN3N1TVJVVkZUVEJoUXUxTmxyR3B2dXNtWWhwT20tUDJtWHV4YVlrOElPYldiOER0NDNRYkVCYjRYeVRhcFU?oc=5",
-      "published_at": "2026-11-25T06:15:20+00:00"
-    },
     {
       "title": "Wall Street rebounds as Jensen Huang returns as Nvidia CEO",
       "source": "Reuters",
@@ -1781,6 +1694,24 @@
       "published_at": "2026-09-16T07:00:00+00:00"
     },
     {
+      "title": "Pakistani astronaut to board Shenzhou 24 and become the first foreigner on China's space station",
+      "source": "AP News",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQenFsUWZUMFNoeXpOUXdEX0xad010OWlJemJJQl93YjBrcFhySkxxWVpackkxamQ3Q08yampBaXRtOFNhWVd1VHNjSklUSy1JWC1taUszYTdVbnJ2U2N5aWhmcVlpLVFLSjRQWGhNZS1ieTBpdjVuWG9MRkROWXNBV0YzSkdobnl2T1hwU0hUNThiREQtQWFsZXZHdWFVN2hp?oc=5",
+      "published_at": "2026-11-06T08:00:00+00:00"
+    },
+    {
+      "title": "Pakistani astronaut launches into space aboard Chinese rocket",
+      "source": "Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNVWdUSGN0dUpVbVFWRXZwVUJ6akp5Sm5SNFVwbzRHYmJ5RkprMDRDVDFxdXFQTUdCc0VrUWo1QmV2QWFOVmZFVHQ4N1JWQWJRZnY5UUgwUkJjaHlzWEY2ZGt5dVd3R3RqMEh4TWZCTzNhUGx4bDZMeTNITHZfbFZBQWZ5enZoRU5aZEZJbWEyOU93YjZVcm94VE9PT1JqY19WY1daeXVMMkRheVlkUkJrSmkxNNIBuAFBVV95cUxQTVJFWXhCeC0tQ0U1ZDhyTFg0eDFDYzVOZVBtNUx4MnNIVkdtN1YxdDhWbGZtYkhNV0hHWU9vN2J5NEJ0aGdrekxVdy1Ba0FnakJPMEt0ZEtkS1BDRmQ0S2F2Z3dlRXVHWXNONkJRQnZELUdZREVjdXRWa3VZbFl3enVhSUtGY2dTckw2QV9GZUxsZ1RCWnNRNzhpNXYxd2dqVGFSZnpuZkdaNDY2VmhoaEFYVHhycWpF?oc=5",
+      "published_at": "2026-11-25T02:45:57+00:00"
+    },
+    {
+      "title": "China launches Shenzhou-24 with Pakistani as first foreign astronaut",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0yMlVqQWJYTUozUzd4SkJZcFhHOWx5TEN4RnJKLVFXbG9UN3N1TVJVVkZUVEJoUXUxTmxyR3B2dXNtWWhwT20tUDJtWHV4YVlrOElPYldiOER0NDNRYkVCYjRYeVRhcFU?oc=5",
+      "published_at": "2026-11-25T06:15:20+00:00"
+    },
+    {
       "title": "Fighting in eastern Congo forces Ebola workers to evacuate, threatening outbreak response",
       "source": "AP News",
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNRDFtT0M3ampBX21sZVc4a0VHSDhwMjcwdm16S2ltOE1SUnBEN29UbmhFQVg2d0U0cmVLTVdrU3k5TS15eWNsUGZKekFqYWFUdGlkTlpWTG93ZHlEUE5CRkJYV2ZfU3lQcUpYcEpiT2g2MXN1OHJWSzhPNWdsX2hwbHJPQVlvQm41UFBNZE5ES1N1d1FMZEkybDJ0ZVp0cHRpSWVibA?oc=5",
@@ -1799,9 +1730,9 @@
       "published_at": "2025-11-26T08:00:00+00:00"
     },
     {
-      "title": "'My heart breaks every time I'm called a hero' - Hong Kong fire survivor",
-      "source": "BBC",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFAyRGlLeEE0QUZ5ZlNhV0dpcFJTclRBeWFOajA5cUFJUzlnQkpIV0l2YTBUc19rU0ctTjFCYUFxVDdpYk1HQ2UzYXROZlBVTHR6VEpKcHlsbnd4Zw?oc=5",
+      "title": "Hong Kong high-rise fire death toll rises to 159 as authorities arrest 6 over failed fire alarms",
+      "source": "AP News",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNUnp0dXRBQldCQkhaNGxqUHVVNTc1WGNYM1d2SWhpaEF3UU9yMExkMFF4TnNJY3JOaDY5dUhlcUdtSXdFeUdvMmlvd3VjaElYNWRnN3B3a1lKeUpzQ2YtRDVmZHc1VVpuNU1MYmJGQ1RoMFVNRFZSbWFIdTM2cEZRSDF1RWRIUEM5Z2p1cXRnRmp0aHNl?oc=5",
       "published_at": "2025-12-03T08:00:00+00:00"
     },
     {
@@ -1829,10 +1760,22 @@
       "published_at": "2025-12-11T08:00:00+00:00"
     },
     {
-      "title": "Anthropic falls below IPO price as tech rally fades",
-      "source": "Financial Times",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPal9tdUdZVTJvVTB5aGJHZ0FwTk1GVW8zRWFzNlFEdU9YTERXNlNPcGFzbHUyaXd5U3I4WlMzTGNFUUtPVlA2VmpYSW94TFZKMFhGOFlsU19WV09kVkFGRk9IQ3h3MkRLUGlqWms3akdWTUNaR1hxX2VXakFVMm1tNWk0MW8?oc=5",
-      "published_at": "2026-11-24T00:40:35+00:00"
+      "title": "Pakistan’s Zeeshan Ali set for historic flight to China’s space station",
+      "source": "Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPOXhLLUZlSUhsY0lrTHdpbWpxYkZPM21nd3ozcmE3ejk5enR4ZVFidmVFa3MwWkNzVzBBSFR3NnU5NmRUMU11U1FUTEw2OXlKcHpxa1FtZHc0bVNNT0x1NS1Gb2RaZE1OYnlMRk9veEtFRjdRNmJrSVFUM0NmRFJ2LTdTLXFXSHVtYzVOYnlaSEdPX0c0UUVLMGxxb2R3Uy1RSVZrRlhxNUNXMkxqOF9UOdIBtgFBVV95cUxQck1SM2t1NVRXT3Z0aWUwRG5penVkWERLSGdaUWV4bUpDQm1zQnVaSnp3Wk1OQm53YlhOeENVY1VCSkU0OXV4Q1cxcGtPT2JLc2xzZlBhVWJwZnB6eDZpOGI2MUdYZzl0Q3NDVjhERDRyX0wwaVJKQVFySjM4dGlhdlNlOTlUT01wVHFjTGpnNXJxSHU1U3czSk40SHprbldPRE5KczJsN1VBdHBaUHRsMDVwNUlQUQ?oc=5",
+      "published_at": "2026-11-24T07:59:43+00:00"
+    },
+    {
+      "title": "Trump calls the pre-election GDP figures 'fake' and demands an investigation of Commerce Department",
+      "source": "AP News",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPSWs0NUw0T1MxU0FFajZoSzUzQ2tCblZyZGhDc25mSVpXV0NpczlfWHpwaWdaUEE0T3lFSXdhYl9oUVZ3cTV1ei01aXprNTBoYUJCbG02THdJeGVISENOWjdrVzJpb2pxZEI5aU94VmFCTWU4ckR5MjFjZ2JDMzFibl9WVGZ2Q09PeVo5LXc1WQ?oc=5",
+      "published_at": "2026-11-26T16:55:00+00:00"
+    },
+    {
+      "title": "Nine injured, three critically, after Bangkok oil refinery explosion",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/crx209kwk4kzo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-26T16:21:19+00:00"
     },
     {
       "title": "Egyptians mourn, demand accountability after deadly tanker explosion kills 31",
@@ -1845,12 +1788,6 @@
       "source": "Al Jazeera",
       "url": "https://www.aljazeera.com/news/2026/11/26/how-an-oil-feud-is-deepening-rift-between-baghdad-and-iraqs-kurdish-region?traffic_source=rss",
       "published_at": "2026-11-26T14:10:00+00:00"
-    },
-    {
-      "title": "Ebola outbreak in Congo reaches 12,000 cases as violence forces some responders to evacuate",
-      "source": "AP News",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOODk5TW1rbDA5Ml84Vzh3OWVzdW12UkFLbXJzQlZSbG9rNTQxZGl1bjBPQ1FsNURnQ21MU3FFX1RqZFVDdzJrSXR5YkRTTndHcERGWUpyaklFeWxlQ2l4aXhKT1ctM1cwMDdtOHg5RHQ3ZmhqVTIyWFVHUWdHSG40WExZWkJSM1lZNndDSFBlbEdNNnM?oc=5",
-      "published_at": "2026-11-26T13:48:05+00:00"
     },
     {
       "title": "Altria explores takeover bid for Imperial Brands",
@@ -1893,6 +1830,12 @@
       "source": "BBC",
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9QVXBDSWVlVWRYTVNyeWxlcWtGR1lGRDlCOERrRGRON3lEVGp3WmpaNlkyWVd6cm1ULXZqa2ptVU5yN1B6UHI4eHhUa2hkbWxhNjNpUlp2YklsVHc?oc=5",
       "published_at": "2026-11-26T10:31:19+00:00"
+    },
+    {
+      "title": "Ebola outbreak in Congo reaches 12,000 cases as violence forces some responders to evacuate",
+      "source": "AP News",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOODk5TW1rbDA5Ml84Vzh3OWVzdW12UkFLbXJzQlZSbG9rNTQxZGl1bjBPQ1FsNURnQ21MU3FFX1RqZFVDdzJrSXR5YkRTTndHcERGWUpyaklFeWxlQ2l4aXhKT1ctM1cwMDdtOHg5RHQ3ZmhqVTIyWFVHUWdHSG40WExZWkJSM1lZNndDSFBlbEdNNnM?oc=5",
+      "published_at": "2026-11-26T09:22:00+00:00"
     },
     {
       "title": "At least 13 dead in Indonesia gold mine flood as rescue efforts intensify",
@@ -2207,12 +2150,6 @@
       "published_at": "2026-11-24T08:09:31+00:00"
     },
     {
-      "title": "Pakistan’s Zeeshan Ali set for historic flight to China’s space station",
-      "source": "Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPOXhLLUZlSUhsY0lrTHdpbWpxYkZPM21nd3ozcmE3ejk5enR4ZVFidmVFa3MwWkNzVzBBSFR3NnU5NmRUMU11U1FUTEw2OXlKcHpxa1FtZHc0bVNNT0x1NS1Gb2RaZE1OYnlMRk9veEtFRjdRNmJrSVFUM0NmRFJ2LTdTLXFXSHVtYzVOYnlaSEdPX0c0UUVLMGxxb2R3Uy1RSVZrRlhxNUNXMkxqOF9UOdIBtgFBVV95cUxQck1SM2t1NVRXT3Z0aWUwRG5penVkWERLSGdaUWV4bUpDQm1zQnVaSnp3Wk1OQm53YlhOeENVY1VCSkU0OXV4Q1cxcGtPT2JLc2xzZlBhVWJwZnB6eDZpOGI2MUdYZzl0Q3NDVjhERDRyX0wwaVJKQVFySjM4dGlhdlNlOTlUT01wVHFjTGpnNXJxSHU1U3czSk40SHprbldPRE5KczJsN1VBdHBaUHRsMDVwNUlQUQ?oc=5",
-      "published_at": "2026-11-24T07:59:43+00:00"
-    },
-    {
       "title": "Explosion kills 6, injures 10 in Vietnam capital Hanoi",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQZldRdngyRk9qdWlNdVBkYlFrTnBtV3M3WU45al9qVVp6OE9VRktQTWVKRWY0aWlfNjBhTVFNVlhaYkp4aEJVeVItSlpIUjAwd2I5RGh5MV9wZHVnNkc5c3F1MzA0elVvZ2x2bVFrMUM3NHgwVjJYaHpPRS0xa25Tb0VIUVBySTd5blMxNXhQYlVWMkh5bG0tbHRNN3hvck8zQnI3SG4tdGg?oc=5",
@@ -2235,6 +2172,12 @@
       "source": "AP News",
       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPbEdETmxDZ2pxSlU0VUFEWktyS2ZfTU5EZ3pKNlVqOW95dFRPTTRFWC15RFdiTF9OT2xDaVBsTHliQURsUlluM0U3QVp3N3EyY08xRGwzQjNBQk4xeW8xNzdkbU1fc04zbEFCM2w4azBoeC1jTUNISHpUbWVTMU9VT29XbkZyUGc?oc=5",
       "published_at": "2026-11-24T01:00:00+00:00"
+    },
+    {
+      "title": "Anthropic falls below IPO price as tech rally fades",
+      "source": "Financial Times",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPal9tdUdZVTJvVTB5aGJHZ0FwTk1GVW8zRWFzNlFEdU9YTERXNlNPcGFzbHUyaXd5U3I4WlMzTGNFUUtPVlA2VmpYSW94TFZKMFhGOFlsU19WV09kVkFGRk9IQ3h3MkRLUGlqWms3akdWTUNaR1hxX2VXakFVMm1tNWk0MW8?oc=5",
+      "published_at": "2026-11-24T00:40:35+00:00"
     },
     {
       "title": "Democratic Rep. Jimmy Gomez resigns after Ethics panel finds evidence of sexual misconduct",
@@ -2423,13 +2366,85 @@
       "published_at": "2026-05-22T07:00:00+00:00"
     },
     {
-      "title": "Hong Kong high-rise fire death toll rises to 159 as authorities arrest 6 over failed fire alarms",
-      "source": "AP News",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNUnp0dXRBQldCQkhaNGxqUHVVNTc1WGNYM1d2SWhpaEF3UU9yMExkMFF4TnNJY3JOaDY5dUhlcUdtSXdFeUdvMmlvd3VjaElYNWRnN3B3a1lKeUpzQ2YtRDVmZHc1VVpuNU1MYmJGQ1RoMFVNRFZSbWFIdTM2cEZRSDF1RWRIUEM5Z2p1cXRnRmp0aHNl?oc=5",
+      "title": "'My heart breaks every time I'm called a hero' - Hong Kong fire survivor",
+      "source": "BBC",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFAyRGlLeEE0QUZ5ZlNhV0dpcFJTclRBeWFOajA5cUFJUzlnQkpIV0l2YTBUc19rU0ctTjFCYUFxVDdpYk1HQ2UzYXROZlBVTHR6VEpKcHlsbnd4Zw?oc=5",
       "published_at": "2025-12-03T08:00:00+00:00"
     }
   ],
   "context_checks": {
+    "cf7748e353eb": {
+      "version": 4,
+      "query": "egyptian crash authorities",
+      "at": "2026-11-26T19:22:04.575591+00:00",
+      "stage": 3,
+      "matched": false,
+      "exhausted": true,
+      "searched_days": 730
+    },
+    "47e9efef38df": {
+      "version": 4,
+      "query": "bangkok refinery explosion",
+      "at": "2026-11-26T19:22:04.575591+00:00",
+      "stage": 3,
+      "matched": false,
+      "exhausted": false,
+      "searched_days": 365
+    },
+    "aba270237d9a": {
+      "version": 4,
+      "query": "serbia dec election",
+      "at": "2026-11-26T19:22:04.575591+00:00",
+      "stage": 3,
+      "matched": false,
+      "exhausted": true,
+      "searched_days": 730
+    },
+    "2fdfb28059ab": {
+      "version": 4,
+      "query": "ai un safety",
+      "at": "2026-11-26T19:22:04.575591+00:00",
+      "stage": 3,
+      "matched": false,
+      "exhausted": true,
+      "searched_days": 730
+    },
+    "8af617be3645": {
+      "version": 4,
+      "query": "egyptians explosion mourn",
+      "at": "2026-11-26T19:22:04.575591+00:00",
+      "stage": 2,
+      "matched": false,
+      "exhausted": false,
+      "searched_days": 180
+    },
+    "e00bca84c9dc": {
+      "version": 4,
+      "query": "set ai australian safety",
+      "at": "2026-11-26T19:22:04.575591+00:00",
+      "stage": 2,
+      "matched": false,
+      "exhausted": false,
+      "searched_days": 180
+    },
+    "b7ecedbc410c": {
+      "version": 4,
+      "query": "egypt cairo crash",
+      "at": "2026-11-26T19:22:04.575591+00:00",
+      "stage": 1,
+      "matched": false,
+      "exhausted": false,
+      "searched_days": 30
+    },
+    "6c321baec8b3": {
+      "version": 4,
+      "query": "trump gdp commerce election investigation",
+      "at": "2026-11-26T19:22:04.575591+00:00",
+      "stage": 1,
+      "matched": false,
+      "exhausted": false,
+      "searched_days": 180
+    },
     "32b997860448": {
       "version": 4,
       "query": "baghdad iraq kurdish",
@@ -2438,51 +2453,6 @@
       "matched": false,
       "exhausted": true,
       "searched_days": 730
-    },
-    "cf7748e353eb": {
-      "version": 4,
-      "query": "egyptian crash authorities",
-      "at": "2026-11-26T18:27:15.422828+00:00",
-      "stage": 3,
-      "matched": false,
-      "exhausted": false,
-      "searched_days": 365
-    },
-    "47e9efef38df": {
-      "version": 4,
-      "query": "bangkok refinery explosion",
-      "at": "2026-11-26T18:27:15.422828+00:00",
-      "stage": 2,
-      "matched": false,
-      "exhausted": false,
-      "searched_days": 180
-    },
-    "aba270237d9a": {
-      "version": 4,
-      "query": "serbia dec election",
-      "at": "2026-11-26T18:27:15.422828+00:00",
-      "stage": 3,
-      "matched": false,
-      "exhausted": false,
-      "searched_days": 365
-    },
-    "2fdfb28059ab": {
-      "version": 4,
-      "query": "ai un safety",
-      "at": "2026-11-26T18:27:15.422828+00:00",
-      "stage": 3,
-      "matched": false,
-      "exhausted": false,
-      "searched_days": 365
-    },
-    "8af617be3645": {
-      "version": 4,
-      "query": "egyptians explosion mourn",
-      "at": "2026-11-26T18:27:15.422828+00:00",
-      "stage": 1,
-      "matched": false,
-      "exhausted": false,
-      "searched_days": 30
     },
     "641f02c2d5d8": {
       "version": 4,
@@ -3199,15 +3169,6 @@
       "version": 4,
       "query": "mississippi coast us crash",
       "at": "2026-11-25T09:17:10.972757+00:00",
-      "stage": 1,
-      "matched": false,
-      "exhausted": false,
-      "searched_days": 30
-    },
-    "e00bca84c9dc": {
-      "version": 4,
-      "query": "set ai australian safety",
-      "at": "2026-11-25T07:30:06.817864+00:00",
       "stage": 1,
       "matched": false,
       "exhausted": false,
