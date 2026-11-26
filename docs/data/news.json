@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T14:37:15.748675+00:00",
+  "generated_at": "2026-11-26T15:32:05.886828+00:00",
   "model_mode": "sentence-transformers",
   "stories": [
     {
@@ -31,10 +31,6 @@
       "update_count": 0,
       "updated": false,
       "coverage_history": [
-        {
-          "at": "2026-11-26T04:47:09.533099+00:00",
-          "source_count": 1
-        },
         {
           "at": "2026-11-26T05:26:19.831573+00:00",
           "source_count": 1
@@ -78,6 +74,10 @@
         {
           "at": "2026-11-26T14:37:15.748675+00:00",
           "source_count": 1
+        },
+        {
+          "at": "2026-11-26T15:32:05.886828+00:00",
+          "source_count": 1
         }
       ],
       "context": {
@@ -109,7 +109,7 @@
         {
           "name": "AP News",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNaEhpcnZZbkFLdDdZb1VrR2laRkJMMUxDYi1FZHZPOUo0LVpBdl9wUUlXMG1Ealh0eHJOU0o3Q0JSOFU4LXVlcWgyUDd6bDVLa2ZNWGY2aWVId0pnYlNNaHkzSkw2YzdEN3dMN0hGUzNZRktJekRLQWZIbmk5d2lrTElCeXZSV1IxUi0yamFWZzJsUQ?oc=5",
-          "published_at": "2026-11-25T20:22:04+00:00",
+          "published_at": "2026-11-25T23:14:00+00:00",
           "paywalled": false
         },
         {
@@ -131,6 +131,10 @@
         {
           "at": "2026-11-26T14:37:15.748675+00:00",
           "source_count": 2
+        },
+        {
+          "at": "2026-11-26T15:32:05.886828+00:00",
+          "source_count": 2
         }
       ],
       "context": {
@@ -150,7 +154,7 @@
       "category": "World",
       "importance": "Major",
       "background_only": false,
-      "score": 57.9,
+      "score": 58.8,
       "published_at": "2026-11-26T12:19:00+00:00",
       "source_count": 3,
       "reasons": [
@@ -166,25 +170,25 @@
           "paywalled": false
         },
         {
-          "name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNbUNDa1I5NlZaa2hiOFJGSHJlOHkyU3QtMEl0S2lvbGNlTWhJdGd6TzA3TV9VV0p2azc3OUZWeU0zLWtZbjZ3dlc5SXAxSklBbmlOeU5GcFdhMzZWbnJPTExMWG9KcElUOUotS3BGMDJmS2xVVV95MjFiYzdFTEcwOE1DU0tRY1ZmTzFHQ2pvYmFQUVY4dmRCb2tERDZZZV9IMWpLUTA0NXFNYnlwMm1UaTJyaXE2bThCMDRza1JDZlg?oc=5",
-          "published_at": "2026-11-25T09:18:00+00:00",
-          "paywalled": false
-        },
-        {
           "name": "AzerNews",
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9Sb0FfWW9DNG95dVBqTW8yU3kyUjUyRHdqc0NIWUlUdkw2ZldsdGxBZUJfVG81TTdKZ0FBUlRudUFxdGRNSmd4Z0VJTjh1dWZQeGNINQ?oc=5",
           "published_at": "2026-11-26T12:19:00+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "The China-Global South Project",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQNDFhREdteHpFb0w5MkZEV25GWUlVQXRGaFRsSzlWZ1prSEMtR0h0YUNHY1dKMTMybVlWT1N5ZUdOMlJrZENxTFdBZ0ppcDNaN3d5T0UtV3lVOW51Q3NXZUZ4Zk12aDBBdWk4VEFmN3hOUW1fMG10UFpWcXZhcWVEb0pJdzU2cE5qVFRuUXIzRUlZYkU?oc=5",
+          "published_at": "2026-11-26T04:40:14+00:00",
           "paywalled": false
         }
       ],
       "lead_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNR3M0QnJvdnFlSmxYai1OZWNwd0pYOFVKa2t3UDZhLXZkcXVkcmNOZHU2ZEVCQk1HX0liM2ZVb3piZDFiaE5SSkY2MWdZeFNmOVhTWkM3RDdqSHYySDNkSTNwcExoemNqTWtoLWNQV1VDNXota0w3Ym1FLUZxOXFPZnB3UlllbEJySmhJ?oc=5",
       "first_reported_at": "2026-11-26T12:19:00+00:00",
-      "update_count": 2,
+      "update_count": 3,
       "updated": true,
       "coverage_momentum": {
         "new_sources": 2,
-        "hours": 1.83,
+        "hours": 2.75,
         "bonus": 6.0
       },
       "coverage_history": [
@@ -198,6 +202,10 @@
         },
         {
           "at": "2026-11-26T14:37:15.748675+00:00",
+          "source_count": 3
+        },
+        {
+          "at": "2026-11-26T15:32:05.886828+00:00",
           "source_count": 3
         }
       ],
@@ -238,7 +246,7 @@
       "importance": "Major",
       "background_only": false,
       "score": 57.8,
-      "published_at": "2026-11-26T13:42:56+00:00",
+      "published_at": "2026-11-26T13:48:05+00:00",
       "source_count": 3,
       "reasons": [
         "high-impact event",
@@ -249,7 +257,7 @@
         {
           "name": "AP News",
           "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOODk5TW1rbDA5Ml84Vzh3OWVzdW12UkFLbXJzQlZSbG9rNTQxZGl1bjBPQ1FsNURnQ21MU3FFX1RqZFVDdzJrSXR5YkRTTndHcERGWUpyaklFeWxlQ2l4aXhKT1ctM1cwMDdtOHg5RHQ3ZmhqVTIyWFVHUWdHSG40WExZWkJSM1lZNndDSFBlbEdNNnM?oc=5",
-          "published_at": "2026-11-26T11:41:34+00:00",
+          "published_at": "2026-11-26T13:48:05+00:00",
           "paywalled": false
         },
         {
@@ -268,7 +276,7 @@
       "lead_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOODk5TW1rbDA5Ml84Vzh3OWVzdW12UkFLbXJzQlZSbG9rNTQxZGl1bjBPQ1FsNURnQ21MU3FFX1RqZFVDdzJrSXR5YkRTTndHcERGWUpyaklFeWxlQ2l4aXhKT1ctM1cwMDdtOHg5RHQ3ZmhqVTIyWFVHUWdHSG40WExZWkJSM1lZNndDSFBlbEdNNnM?oc=5",
       "first_reported_at": "2026-11-26T07:42:24+00:00",
       "update_count": 4,
-      "updated": true,
+      "updated": false,
       "coverage_history": [
         {
           "at": "2026-11-26T08:12:09.781933+00:00",
@@ -300,6 +308,10 @@
         },
         {
           "at": "2026-11-26T14:37:15.748675+00:00",
+          "source_count": 3
+        },
+        {
+          "at": "2026-11-26T15:32:05.886828+00:00",
           "source_count": 3
         }
       ],
@@ -349,10 +361,6 @@
       "updated": false,
       "coverage_history": [
         {
-          "at": "2026-11-26T04:47:09.533099+00:00",
-          "source_count": 1
-        },
-        {
           "at": "2026-11-26T05:26:19.831573+00:00",
           "source_count": 1
         },
@@ -394,6 +402,10 @@
         },
         {
           "at": "2026-11-26T14:37:15.748675+00:00",
+          "source_count": 1
+        },
+        {
+          "at": "2026-11-26T15:32:05.886828+00:00",
           "source_count": 1
         }
       ],
@@ -426,27 +438,63 @@
       }
     },
     {
+      "id": "32b997860448",
+      "title": "How an oil feud is deepening rift between Baghdad and Iraq’s Kurdish region",
+      "summary": "Prime Minister al-Zaidi's move to take control of border crossings and oilfields has drawn a sharp response from Erbil.",
+      "image": "",
+      "category": "Middle East",
+      "importance": "Major",
+      "background_only": false,
+      "score": 54.9,
+      "published_at": "2026-11-26T14:10:00+00:00",
+      "source_count": 1,
+      "reasons": [
+        "high-impact event",
+        "strategic asset intervention"
+      ],
+      "sources": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/26/how-an-oil-feud-is-deepening-rift-between-baghdad-and-iraqs-kurdish-region?traffic_source=rss",
+          "published_at": "2026-11-26T14:10:00+00:00",
+          "paywalled": false
+        }
+      ],
+      "lead_url": "https://www.aljazeera.com/news/2026/11/26/how-an-oil-feud-is-deepening-rift-between-baghdad-and-iraqs-kurdish-region?traffic_source=rss",
+      "first_reported_at": "2026-11-26T14:10:00+00:00",
+      "update_count": 0,
+      "updated": false,
+      "coverage_history": [
+        {
+          "at": "2026-11-26T15:32:05.886828+00:00",
+          "source_count": 1
+        }
+      ],
+      "context": {
+        "earlier_reporting": [],
+        "coverage_from": null,
+        "search_query": "baghdad iraq kurdish",
+        "search_days": 730,
+        "searched_days": 30,
+        "search_status": "searched"
+      }
+    },
+    {
       "id": "bf932f56bb2e",
       "title": "UN chief urges talks on global AI safety framework, warns of historic shift in power",
-      "summary": "UN chief urges talks on global AI safety framework, warns of historic shift in power The European Sting",
+      "summary": "UN chief urges talks on global AI safety framework, warns of historic shift in power UN News",
       "image": "",
       "category": "Tech",
       "importance": "Major",
       "background_only": false,
-      "score": 54.4,
-      "published_at": "2026-11-24T09:13:18+00:00",
-      "source_count": 2,
+      "score": 54.3,
+      "published_at": "2026-11-23T17:36:51+00:00",
+      "source_count": 1,
       "reasons": [
         "high-impact event",
         "frontier AI safety development"
       ],
       "sources": [
-        {
-          "name": "The European Sting",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOU0tJNTdVcGJyNHlsNUpaVmJtUTktRG1hdUJNWVJEQkZvR1JqZ0ppQlViOGN3ZE1RQXhuRF8xRjZ0VjZ5amo0QmZkUks0UmZCem8zTEJGLVg2bDBxX0lFU3pYdW1xRVgtVGVZMDdYaThSMjBhSXJjRkVKc1RpOHNXa2NycEE5b2U4SnlnN1lYcVlzU1N4bzBWcWY5YTJ4TjVpZXpMOTN4d19XZWtJSzViM0JLRjFYVGNycU1UbEln?oc=5",
-          "published_at": "2026-11-24T09:13:18+00:00",
-          "paywalled": false
-        },
         {
           "name": "UN News",
           "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBLOUE0WFFXblpadU5iSEdheDJ5MlF1V1JNa2k0YzRVSVFXZ2o4S0FSNmt6LTh6d1dPTmhTTzNOZGMtQWpSNjZudldCLW5tN2dIX0lGYnNQcw?oc=5",
@@ -454,15 +502,11 @@
           "paywalled": false
         }
       ],
-      "lead_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOU0tJNTdVcGJyNHlsNUpaVmJtUTktRG1hdUJNWVJEQkZvR1JqZ0ppQlViOGN3ZE1RQXhuRF8xRjZ0VjZ5amo0QmZkUks0UmZCem8zTEJGLVg2bDBxX0lFU3pYdW1xRVgtVGVZMDdYaThSMjBhSXJjRkVKc1RpOHNXa2NycEE5b2U4SnlnN1lYcVlzU1N4bzBWcWY5YTJ4TjVpZXpMOTN4d19XZWtJSzViM0JLRjFYVGNycU1UbEln?oc=5",
+      "lead_url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBLOUE0WFFXblpadU5iSEdheDJ5MlF1V1JNa2k0YzRVSVFXZ2o4S0FSNmt6LTh6d1dPTmhTTzNOZGMtQWpSNjZudldCLW5tN2dIX0lGYnNQcw?oc=5",
       "first_reported_at": "2026-11-23T17:36:51+00:00",
       "update_count": 5,
       "updated": false,
       "coverage_history": [
-        {
-          "at": "2026-11-26T04:47:09.533099+00:00",
-          "source_count": 1
-        },
         {
           "at": "2026-11-26T05:26:19.831573+00:00",
           "source_count": 2
@@ -506,6 +550,10 @@
         {
           "at": "2026-11-26T14:37:15.748675+00:00",
           "source_count": 2
+        },
+        {
+          "at": "2026-11-26T15:32:05.886828+00:00",
+          "source_count": 1
         }
       ],
       "context": {
@@ -522,60 +570,6 @@
         "search_days": 730,
         "searched_days": 365,
         "search_status": "matched"
-      }
-    },
-    {
-      "id": "c664d0e0b784",
-      "title": "Extreme heat linked to 5,258 deaths as experts warn what comes next",
-      "summary": "Extreme heat linked to 5,258 deaths as experts warn what comes next https://www.birmingham-now.co.uk/",
-      "image": "",
-      "category": "World",
-      "importance": "Major",
-      "background_only": false,
-      "score": 52.3,
-      "published_at": "2026-11-25T05:15:00+00:00",
-      "source_count": 1,
-      "reasons": [
-        "high-impact event",
-        "reported fatalities"
-      ],
-      "sources": [
-        {
-          "name": "https://www.birmingham-now.co.uk/",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQaVhtYWtJd21yVDQwYkE2V3BoS0tPbWVhWGxZbXdXU3A4VEsxSjFLcy1iNVhNRHBLM2dYb29CbHphQ3VJWlRuM3EtZjFBSTlwQzd5NUVoUEZ2dFVGazlVTXQwTkdvcTFuS0NxaFM4R0E4UnRvNlEyLUNTcXZoMlBORUlIUHQ0dlQxSkRzbXBYUVJmeV91OUR4UTRNM3c?oc=5",
-          "published_at": "2026-11-25T05:15:00+00:00",
-          "paywalled": false
-        }
-      ],
-      "lead_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQaVhtYWtJd21yVDQwYkE2V3BoS0tPbWVhWGxZbXdXU3A4VEsxSjFLcy1iNVhNRHBLM2dYb29CbHphQ3VJWlRuM3EtZjFBSTlwQzd5NUVoUEZ2dFVGazlVTXQwTkdvcTFuS0NxaFM4R0E4UnRvNlEyLUNTcXZoMlBORUlIUHQ0dlQxSkRzbXBYUVJmeV91OUR4UTRNM3c?oc=5",
-      "first_reported_at": "2026-11-25T05:15:00+00:00",
-      "update_count": 0,
-      "updated": false,
-      "coverage_history": [
-        {
-          "at": "2026-11-26T11:52:04.911049+00:00",
-          "source_count": 1
-        },
-        {
-          "at": "2026-11-26T12:47:14.334641+00:00",
-          "source_count": 1
-        },
-        {
-          "at": "2026-11-26T13:42:28.539516+00:00",
-          "source_count": 1
-        },
-        {
-          "at": "2026-11-26T14:37:15.748675+00:00",
-          "source_count": 1
-        }
-      ],
-      "context": {
-        "earlier_reporting": [],
-        "coverage_from": null,
-        "search_query": "extreme heat linked",
-        "search_days": 730,
-        "searched_days": 730,
-        "search_status": "searched"
       }
     },
     {
@@ -622,6 +616,10 @@
         {
           "at": "2026-11-26T14:37:15.748675+00:00",
           "source_count": 3
+        },
+        {
+          "at": "2026-11-26T15:32:05.886828+00:00",
+          "source_count": 3
         }
       ],
       "context": {
@@ -629,7 +627,7 @@
         "coverage_from": null,
         "search_query": "indonesia flood dead",
         "search_days": 730,
-        "searched_days": 30,
+        "searched_days": 180,
         "search_status": "searched"
       }
     },
@@ -659,12 +657,8 @@
       "lead_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQTlU0RXBRWWJMUXd0Z01rcmhMeTI0V1hJLVdXUUY3eEhwb2w2R0pza2RxSnZyd044elUxX3UyemhQTG5wN1VadlphRjE2SGJvMmlRQ0N0TGRScDlwYUVWejFyX0FDMWpQZGJkZWZTSmxia2tTUkZQSFZ1XzBzNVU1ZVB5cFBGblBxWGtfb2ZXZGxTNGRzWlNBdkJaTm9tdWVlQTJfNnJB0gGrAUFVX3lxTFBxMmtCU1JWQ2xhSXBTMEczWEc0MGpvSExWY2xIcEl4VFZCOGdNRWg0ZFJxSzZZek52aV9pdUVFcFdUSEh1YmlVSmRQUU53RzE1dVhkZzc4RWZxSzEtNUZZbUNvbkFJU1hRdDljX21MY0xIZ2NmbGRKZXc3NkFkRTVhdTJZdExmYVJObVNNWk1Hd2EtdHJSb0lCRmplNC1XcXVfd3pnVS03MHkxaw?oc=5",
       "first_reported_at": "2026-11-25T21:43:17+00:00",
       "update_count": 10,
-      "updated": true,
+      "updated": false,
       "coverage_history": [
-        {
-          "at": "2026-11-26T04:47:09.533099+00:00",
-          "source_count": 5
-        },
         {
           "at": "2026-11-26T05:26:19.831573+00:00",
           "source_count": 6
@@ -708,6 +702,10 @@
         {
           "at": "2026-11-26T14:37:15.748675+00:00",
           "source_count": 1
+        },
+        {
+          "at": "2026-11-26T15:32:05.886828+00:00",
+          "source_count": 1
         }
       ],
       "context": {
@@ -715,63 +713,7 @@
         "coverage_from": null,
         "search_query": "egypt health ministry fire",
         "search_days": 730,
-        "searched_days": 30,
-        "search_status": "searched"
-      }
-    },
-    {
-      "id": "641f02c2d5d8",
-      "title": "Musk pledges two SpaceX shares for every US child in $18 billion AI charm offensive",
-      "summary": "Musk pledges two SpaceX shares for every US child in $18 billion AI charm offensive Reuters",
-      "image": "",
-      "category": "World",
-      "importance": "Major",
-      "background_only": false,
-      "score": 51.4,
-      "published_at": "2026-11-26T14:14:20+00:00",
-      "source_count": 3,
-      "reasons": [
-        "major transaction",
-        "3 trusted sources",
-        "broad recent coverage",
-        "corroborated transaction impact"
-      ],
-      "sources": [
-        {
-          "name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNklmekFZWmFURnFwVlBHa2FlTGZwYkxaSkNSRUxMV2lsanFDc2hkdGF1RGhHWlJoUTBicHFXY1B3dWxHa0xmdU5mYzFBbGpYN3Z5N2xTS2U1bVBJeVZQVHRucldkRVhsVlVfNldnTWpRclIzSjJQa0tMMnBFVGhDTS1HYzdwVlctaXowdDJtdVJaNkxLcXo2Tk9Odi1XZnI0c1JScHZycXhWRUNUZmQ4?oc=5",
-          "published_at": "2026-11-26T12:40:19+00:00",
-          "paywalled": false
-        },
-        {
-          "name": "Bloomberg.com",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPSjg1OVFibDU2bFpQd0pYX1NWM3c2N25fN3l6TXVBYWk0SUw5RUdQV1NjUWx1Tm1remRsdWhzYjQzd0ZOei1FTlh4VFl3RzBfeXg2UDFLVmN0UFltWkJpdjJNUXBHRXlST0ttV1YwMFhmU0NSOVZ6aldXVTJXUGVfNzhtSWw0VnZBMmI1NHRMZU5QTUZMRHotMXRHTkRWNGNfWXdMbksxWjNPU2RVMDN1Q0FjSXg?oc=5",
-          "published_at": "2026-11-26T04:57:47+00:00",
-          "paywalled": true
-        },
-        {
-          "name": "Axios",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9maHp6OXN1a3ZmMDR3a3F6amFwaVF2RnZKRkd0NlMtQmEySkY5LThsd19mNDRsb2VfQjlSWkNzbC01dHd0Vkhqb18yMkFzUm9Kck9TMzZRUFVxRUlNNEdHMU5BNnBFN0FjMTdRc0xXWGpOX0tD?oc=5",
-          "published_at": "2026-11-26T05:41:31+00:00",
-          "paywalled": false
-        }
-      ],
-      "lead_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNklmekFZWmFURnFwVlBHa2FlTGZwYkxaSkNSRUxMV2lsanFDc2hkdGF1RGhHWlJoUTBicHFXY1B3dWxHa0xmdU5mYzFBbGpYN3Z5N2xTS2U1bVBJeVZQVHRucldkRVhsVlVfNldnTWpRclIzSjJQa0tMMnBFVGhDTS1HYzdwVlctaXowdDJtdVJaNkxLcXo2Tk9Odi1XZnI0c1JScHZycXhWRUNUZmQ4?oc=5",
-      "first_reported_at": "2026-11-26T14:14:20+00:00",
-      "update_count": 0,
-      "updated": false,
-      "coverage_history": [
-        {
-          "at": "2026-11-26T14:37:15.748675+00:00",
-          "source_count": 3
-        }
-      ],
-      "context": {
-        "earlier_reporting": [],
-        "coverage_from": null,
-        "search_query": "musk spacex us shares",
-        "search_days": 730,
-        "searched_days": 30,
+        "searched_days": 180,
         "search_status": "searched"
       }
     },
@@ -801,7 +743,7 @@
       "lead_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNWTlvYXVmTGRzVkNJQWRKc0QzT3JjeHhtZHVPY09GT2xTTTZLckZraEt3NXVaNG90S2hZYWNZbWg5TDhwa0ZfTE9VclZ6NUxWaGtqUmtiMklTT3gxbEt3Ry1oeVBXYVo1Y0Q5QzlBUFNWLVgxa3U4UG9JTllnaGVFT1k0dS1wYl9VS0JJbFk3WndBUVY4Y0g3dHZnVmFNcnRNMDlWajYxaWtjRGM2Q3V0UdIBtgFBVV95cUxQWHJhajhjUVluRmZEUF9GdmJmdlRSaFI3Uk9Oa200cDg2UkRSSmxRU0JQaTFRTUI5dlBaOHc4ZXd6SkFjTmFMenZZNzNnMFo3bE85a3NGNnlPTHB3VXRPazNUUDR3Vm5GR0dLSFVZTS1SUjRaajVmZ0VpZVpoZExBRm5CZmcwU0xLb1RXdm4ycmRrTF9EVUFtelVDSGxCSjVaZEtVNFp3dnJNWDkyR3BDMFZXSXUxZw?oc=5",
       "first_reported_at": "2026-11-26T12:25:31+00:00",
       "update_count": 2,
-      "updated": true,
+      "updated": false,
       "coverage_history": [
         {
           "at": "2026-11-26T12:47:14.334641+00:00",
@@ -814,6 +756,10 @@
         {
           "at": "2026-11-26T14:37:15.748675+00:00",
           "source_count": 1
+        },
+        {
+          "at": "2026-11-26T15:32:05.886828+00:00",
+          "source_count": 1
         }
       ],
       "context": {
@@ -821,7 +767,7 @@
         "coverage_from": null,
         "search_query": "egypt cairo crash",
         "search_days": 730,
-        "searched_days": 365,
+        "searched_days": 730,
         "search_status": "searched"
       }
     },
@@ -864,6 +810,10 @@
         {
           "at": "2026-11-26T14:37:15.748675+00:00",
           "source_count": 1
+        },
+        {
+          "at": "2026-11-26T15:32:05.886828+00:00",
+          "source_count": 1
         }
       ],
       "context": {
@@ -871,7 +821,7 @@
         "coverage_from": null,
         "search_query": "rescuers indonesian battle",
         "search_days": 730,
-        "searched_days": 365,
+        "searched_days": 730,
         "search_status": "searched"
       }
     },
@@ -906,12 +856,58 @@
         {
           "at": "2026-11-26T14:37:15.748675+00:00",
           "source_count": 1
+        },
+        {
+          "at": "2026-11-26T15:32:05.886828+00:00",
+          "source_count": 1
         }
       ],
       "context": {
         "earlier_reporting": [],
         "coverage_from": null,
         "search_query": "dead hospitalized destroys explosion",
+        "search_days": 730,
+        "searched_days": 730,
+        "search_status": "searched"
+      }
+    },
+    {
+      "id": "a3bdd39dfde0",
+      "title": "China: 8 dead after houses collapse in industrial area",
+      "summary": "China: 8 dead after houses collapse in industrial area Yeni Safak English",
+      "image": "",
+      "category": "World",
+      "importance": "Major",
+      "background_only": false,
+      "score": 46.2,
+      "published_at": "2026-11-24T15:21:52+00:00",
+      "source_count": 1,
+      "reasons": [
+        "reported fatalities",
+        "significant accident with human impact"
+      ],
+      "sources": [
+        {
+          "name": "Yeni Safak English",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQRDFlZzRZLVlWdF85c0V2Q25SNnBBYWJXVV82STRYbjQ0Um5MNXpNWjdoRkpTWUxrY1B0cWR6amlPVWM0MGI0VXVpV0xIOWF3SW1NV0NRcEdsa1dUU1dvbzBtUDVYbHp5aEtQdGlmbGZKb2ZWS3loQ1FxZl9lTzg3Rkp4b3BEckFBQ2JuaGNaQS1WTkE0MGFF?oc=5",
+          "published_at": "2026-11-24T15:21:52+00:00",
+          "paywalled": false
+        }
+      ],
+      "lead_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQRDFlZzRZLVlWdF85c0V2Q25SNnBBYWJXVV82STRYbjQ0Um5MNXpNWjdoRkpTWUxrY1B0cWR6amlPVWM0MGI0VXVpV0xIOWF3SW1NV0NRcEdsa1dUU1dvbzBtUDVYbHp5aEtQdGlmbGZKb2ZWS3loQ1FxZl9lTzg3Rkp4b3BEckFBQ2JuaGNaQS1WTkE0MGFF?oc=5",
+      "first_reported_at": "2026-11-24T15:21:52+00:00",
+      "update_count": 0,
+      "updated": false,
+      "coverage_history": [
+        {
+          "at": "2026-11-26T15:32:05.886828+00:00",
+          "source_count": 1
+        }
+      ],
+      "context": {
+        "earlier_reporting": [],
+        "coverage_from": null,
+        "search_query": "china collapse dead",
         "search_days": 730,
         "searched_days": 730,
         "search_status": "searched"
@@ -945,10 +941,6 @@
       "update_count": 1,
       "updated": false,
       "coverage_history": [
-        {
-          "at": "2026-11-26T04:47:09.533099+00:00",
-          "source_count": 1
-        },
         {
           "at": "2026-11-26T05:26:19.831573+00:00",
           "source_count": 1
@@ -992,6 +984,10 @@
         {
           "at": "2026-11-26T14:37:15.748675+00:00",
           "source_count": 1
+        },
+        {
+          "at": "2026-11-26T15:32:05.886828+00:00",
+          "source_count": 1
         }
       ],
       "context": {
@@ -1008,64 +1004,6 @@
         "search_days": 730,
         "searched_days": 30,
         "search_status": "matched"
-      }
-    },
-    {
-      "id": "a496c6c5c319",
-      "title": "Bangladesh raises minimum wage for garment workers after weeks of protests",
-      "summary": "Bangladesh raises minimum wage for garment workers after weeks of protests AP News",
-      "image": "",
-      "category": "World",
-      "importance": "Notable",
-      "background_only": false,
-      "score": 40.8,
-      "published_at": "2026-11-25T14:28:23+00:00",
-      "source_count": 3,
-      "reasons": [
-        "significant public impact",
-        "3 trusted sources"
-      ],
-      "sources": [
-        {
-          "name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQeG1YZnFJZHdHdHJvOEVqWEtMaG9jalF4REswUkl4SEYtVHJXNDQ5STNRMGRxVVhUTFZzNjhEOGZ4ZjhmUXpaQTFwN0dMQkZtV0NENXB5WFQ3bHEwVHU4Q19YUzRwTmZjUXJfcnAyOUxOZFpfa2xFYU4tZXN3Y2xlQVUtTGtGN2FPbm5BajROd2xBempqbUNz?oc=5",
-          "published_at": "2026-11-25T07:20:00+00:00",
-          "paywalled": false
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNT2N1VVFPTTh1X3Jwc1d4NEhYdS0xcUpCZV9pd0F4cEZ5MGMyU2pNb2hVS0R3aEF6NDVXbENHWTdyVzR4OHd4cUdfQmNvQlB6UmFLcG5SOXdfZm1jTVFpSlBNcUhsU0psOWdsU1VDOEtMWXMxTGtDbURSRjNoVVFySm4xRWxHdVV3Zk5JaG9NdlVkN1BTcmFfaDBNWWpVTkItbTVINHc0a2NXZ2_SAbABQVVfeXFMTlRueFB0TkZLU2NyQlN3bmV1NF9kOEYxNmx0eEdLMTVNLWIyX2h3dC0wVkxyLVllc2h1UDlzSzJNUGpmOUVpYVRGcjVYU05nRFNfWXNWSzI5cnV0SmJDU2RmdC0wdnNwRFdidnVIamRNOWZmYnVkNEFmS05IcmNNZUFoVmVyVXpJM0FDNTdPbDU5TFo0N3psV1ZmajJfeGJFb0FPWGdBQWpNcFZNeG1vVlU?oc=5",
-          "published_at": "2026-11-25T07:14:26+00:00",
-          "paywalled": false
-        },
-        {
-          "name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE05TFZDM0dqSmtCM0pPRmg5dmlEUnBUeXB5d2liQUtiNzlmNFJ2ZmFGTDhLTlhVWnBoMkRfRVBOQkluTi1DUFlmZnFQdDVLb0Zldm9qZVhlbTNiSzNhZ3RWRlUtRTV5S2s?oc=5",
-          "published_at": "2026-11-25T14:28:23+00:00",
-          "paywalled": false
-        }
-      ],
-      "lead_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQeG1YZnFJZHdHdHJvOEVqWEtMaG9jalF4REswUkl4SEYtVHJXNDQ5STNRMGRxVVhUTFZzNjhEOGZ4ZjhmUXpaQTFwN0dMQkZtV0NENXB5WFQ3bHEwVHU4Q19YUzRwTmZjUXJfcnAyOUxOZFpfa2xFYU4tZXN3Y2xlQVUtTGtGN2FPbm5BajROd2xBempqbUNz?oc=5",
-      "first_reported_at": "2026-11-25T14:28:23+00:00",
-      "update_count": 0,
-      "updated": false,
-      "coverage_history": [
-        {
-          "at": "2026-11-26T13:42:28.539516+00:00",
-          "source_count": 3
-        },
-        {
-          "at": "2026-11-26T14:37:15.748675+00:00",
-          "source_count": 3
-        }
-      ],
-      "context": {
-        "earlier_reporting": [],
-        "coverage_from": null,
-        "search_query": "bangladesh protest raises",
-        "search_days": 730,
-        "searched_days": 730,
-        "search_status": "searched"
       }
     },
     {
@@ -1118,6 +1056,10 @@
         },
         {
           "at": "2026-11-26T14:37:15.748675+00:00",
+          "source_count": 3
+        },
+        {
+          "at": "2026-11-26T15:32:05.886828+00:00",
           "source_count": 3
         }
       ],
@@ -1192,6 +1134,10 @@
         {
           "at": "2026-11-26T14:37:15.748675+00:00",
           "source_count": 1
+        },
+        {
+          "at": "2026-11-26T15:32:05.886828+00:00",
+          "source_count": 1
         }
       ],
       "context": {
@@ -1230,10 +1176,6 @@
       "update_count": 0,
       "updated": false,
       "coverage_history": [
-        {
-          "at": "2026-11-26T04:47:09.533099+00:00",
-          "source_count": 1
-        },
         {
           "at": "2026-11-26T05:26:19.831573+00:00",
           "source_count": 1
@@ -1277,6 +1219,10 @@
         {
           "at": "2026-11-26T14:37:15.748675+00:00",
           "source_count": 1
+        },
+        {
+          "at": "2026-11-26T15:32:05.886828+00:00",
+          "source_count": 1
         }
       ],
       "context": {
@@ -1288,9 +1234,9 @@
             "published_at": "2025-11-26T08:00:00+00:00"
           },
           {
-            "title": "Hong Kong high-rise fire death toll rises to 159 as authorities arrest 6 over failed fire alarms",
-            "source": "AP News",
-            "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNUnp0dXRBQldCQkhaNGxqUHVVNTc1WGNYM1d2SWhpaEF3UU9yMExkMFF4TnNJY3JOaDY5dUhlcUdtSXdFeUdvMmlvd3VjaElYNWRnN3B3a1lKeUpzQ2YtRDVmZHc1VVpuNU1MYmJGQ1RoMFVNRFZSbWFIdTM2cEZRSDF1RWRIUEM5Z2p1cXRnRmp0aHNl?oc=5",
+            "title": "'My heart breaks every time I'm called a hero' - Hong Kong fire survivor",
+            "source": "BBC",
+            "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFAyRGlLeEE0QUZ5ZlNhV0dpcFJTclRBeWFOajA5cUFJUzlnQkpIV0l2YTBUc19rU0ctTjFCYUFxVDdpYk1HQ2UzYXROZlBVTHR6VEpKcHlsbnd4Zw?oc=5",
             "published_at": "2025-12-03T08:00:00+00:00"
           },
           {
@@ -1366,6 +1312,10 @@
         {
           "at": "2026-11-26T14:37:15.748675+00:00",
           "source_count": 2
+        },
+        {
+          "at": "2026-11-26T15:32:05.886828+00:00",
+          "source_count": 2
         }
       ],
       "context": {
@@ -1373,55 +1323,7 @@
         "coverage_from": null,
         "search_query": "fifa confirms internal",
         "search_days": 730,
-        "searched_days": 180,
-        "search_status": "searched"
-      }
-    },
-    {
-      "id": "091998ae83a7",
-      "title": "CrowdStrike snaps up Zscaler in $44 billion deal as cyber threats mount",
-      "summary": "CrowdStrike snaps up Zscaler in $44 billion deal as cyber threats mount Reuters",
-      "image": "",
-      "category": "Tech",
-      "importance": "Notable",
-      "background_only": false,
-      "score": 39.5,
-      "published_at": "2026-11-23T18:31:10+00:00",
-      "source_count": 2,
-      "reasons": [
-        "major transaction",
-        "2 trusted sources"
-      ],
-      "sources": [
-        {
-          "name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOcUdmOUFLaEppLU9uMl80V2x1RTg4YWg3VUc5cWZsVzNfUWJBN2pFY3BhTndKanI0U2gzZHMzZVdpeWlkVkdBMkxGZkEtNFYyYmhteTQ5MHM0NnhkN2lfVk1WcDRxZDluQzVXNll2OWhodnVmaG9qNm15SWdweEM4YmxSWXVKd21mNW9uWW82MHUyWlJLTEE?oc=5",
-          "published_at": "2026-11-23T18:31:10+00:00",
-          "paywalled": false
-        },
-        {
-          "name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQekFodWNTV2dTaVZ6VDJScmUybjJ3QXRURFJjeVNtQVBmOEJkYUZTNnFlMnNKalRWdFdXOWVwTjg1TFU3THJIOU9hSXNtSXZCczVaT0xDYnNKUEJUYXFXbVpTUkhTNWRFb3VIa1RDcHdOMzB4ZVV4cTZ6STBQZ2RWLWNPT2U1RGRHYjIxNEZ1QlFXQXZJMDhJeHdDLUFUc2tSUjJoejc1dGhzTWtkUS1Hb3V1V1hKbXplV3J2Zw?oc=5",
-          "published_at": "2026-11-23T16:33:00+00:00",
-          "paywalled": false
-        }
-      ],
-      "lead_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOcUdmOUFLaEppLU9uMl80V2x1RTg4YWg3VUc5cWZsVzNfUWJBN2pFY3BhTndKanI0U2gzZHMzZVdpeWlkVkdBMkxGZkEtNFYyYmhteTQ5MHM0NnhkN2lfVk1WcDRxZDluQzVXNll2OWhodnVmaG9qNm15SWdweEM4YmxSWXVKd21mNW9uWW82MHUyWlJLTEE?oc=5",
-      "first_reported_at": "2026-11-23T18:31:10+00:00",
-      "update_count": 0,
-      "updated": false,
-      "coverage_history": [
-        {
-          "at": "2026-11-26T14:37:15.748675+00:00",
-          "source_count": 2
-        }
-      ],
-      "context": {
-        "earlier_reporting": [],
-        "coverage_from": null,
-        "search_query": "crowdstrike zscaler snaps",
-        "search_days": 730,
-        "searched_days": 730,
+        "searched_days": 365,
         "search_status": "searched"
       }
     },
@@ -1478,6 +1380,10 @@
         {
           "at": "2026-11-26T14:37:15.748675+00:00",
           "source_count": 2
+        },
+        {
+          "at": "2026-11-26T15:32:05.886828+00:00",
+          "source_count": 2
         }
       ],
       "context": {
@@ -1487,6 +1393,54 @@
         "search_days": 730,
         "searched_days": 730,
         "search_status": "searched"
+      }
+    },
+    {
+      "id": "efbee3c51904",
+      "title": "Anthropic shares tumble below $83 IPO price, on track to lose nearly $200 billion in value",
+      "summary": "Anthropic shares tumble below $83 IPO price, on track to lose nearly $200 billion in value Reuters",
+      "image": "",
+      "category": "Tech",
+      "importance": "Notable",
+      "background_only": false,
+      "score": 39.0,
+      "published_at": "2026-11-24T20:47:56+00:00",
+      "source_count": 1,
+      "reasons": [
+        "frontier AI safety development"
+      ],
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNMHBNOVY5RDc1NmxUUjNnZkNhLWROQkhUOFZpVmQ0SEI0UG9aSUpTTjhpV3EydTNkdW8xYm1KOWF6OXg2Z3BMaUJCWTE3WnFCM0hCZGNuQ3ZKUklsYUROVWQzdExOamNKVlJLRTgwYWpoYVdOUjlDY0pxTmxZajlvckJ4cHc0TG1hbW1ZUkszaDZ2M2Rvd3RqTWRFaVRENXVWT0pr?oc=5",
+          "published_at": "2026-11-24T20:47:56+00:00",
+          "paywalled": false
+        }
+      ],
+      "lead_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNMHBNOVY5RDc1NmxUUjNnZkNhLWROQkhUOFZpVmQ0SEI0UG9aSUpTTjhpV3EydTNkdW8xYm1KOWF6OXg2Z3BMaUJCWTE3WnFCM0hCZGNuQ3ZKUklsYUROVWQzdExOamNKVlJLRTgwYWpoYVdOUjlDY0pxTmxZajlvckJ4cHc0TG1hbW1ZUkszaDZ2M2Rvd3RqTWRFaVRENXVWT0pr?oc=5",
+      "first_reported_at": "2026-11-24T20:47:56+00:00",
+      "update_count": 0,
+      "updated": false,
+      "coverage_history": [
+        {
+          "at": "2026-11-26T15:32:05.886828+00:00",
+          "source_count": 1
+        }
+      ],
+      "context": {
+        "earlier_reporting": [
+          {
+            "title": "Anthropic falls below IPO price as tech rally fades",
+            "source": "Financial Times",
+            "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPal9tdUdZVTJvVTB5aGJHZ0FwTk1GVW8zRWFzNlFEdU9YTERXNlNPcGFzbHUyaXd5U3I4WlMzTGNFUUtPVlA2VmpYSW94TFZKMFhGOFlsU19WV09kVkFGRk9IQ3h3MkRLUGlqWms3akdWTUNaR1hxX2VXakFVMm1tNWk0MW8?oc=5",
+            "published_at": "2026-11-24T00:40:35+00:00"
+          }
+        ],
+        "coverage_from": "2026-11-24T00:40:35+00:00",
+        "search_query": "anthropic ipo shares",
+        "search_days": 730,
+        "searched_days": 730,
+        "search_status": "matched"
       }
     },
     {
@@ -1526,12 +1480,64 @@
         {
           "at": "2026-11-26T14:37:15.748675+00:00",
           "source_count": 2
+        },
+        {
+          "at": "2026-11-26T15:32:05.886828+00:00",
+          "source_count": 2
         }
       ],
       "context": {
         "earlier_reporting": [],
         "coverage_from": null,
         "search_query": "serbia dec election",
+        "search_days": 730,
+        "searched_days": 180,
+        "search_status": "searched"
+      }
+    },
+    {
+      "id": "f275c340c8c7",
+      "title": "Altria explores takeover bid for Imperial Brands",
+      "summary": "Altria explores takeover bid for Imperial Brands Financial Times",
+      "image": "",
+      "category": "World",
+      "importance": "Notable",
+      "background_only": false,
+      "score": 38.5,
+      "published_at": "2026-11-26T15:00:57+00:00",
+      "source_count": 2,
+      "reasons": [
+        "significant public impact",
+        "2 trusted sources"
+      ],
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNYjc1S044enVDVHpleXVSM2YwME5kOGM4azBiSF9QNVc1Q2MyYmNRVFNJZ1p1dFVSOXdKTGxqYi1pU1dhdzcycGQ0dm5pN1NaRmZUendRME9GRVFfNHluZ0pUZkpsc0xLX1pNb1ZFdEk0TU8yTjZxbklUbC04ZkNJbWt6V21qUEowclUwME5KY1ZfUlVXaUlPQm9faDZPVzB4clJfZkFLekxaQVNWaldMT0ZwSFl3LVYwblRiaXYzNEt3dzBMck1WUkp1QQ?oc=5",
+          "published_at": "2026-11-26T15:00:57+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "Financial Times",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxORDB6MFYwMEJCMzYwVkJ6SUN1M0xlOVdKajZtaUx5MllIY3p0R3FmRUdpTUR2UndNUkNqZEN2WmhZamlSajBNRHNvNE83TTg3ejRCZFVIOEdpWmZoQV9LS2dGRjZHNmJjVENZOE9JVEM4VlhSbERFbXJvUFhOOUI0aXIyYTA?oc=5",
+          "published_at": "2026-11-26T13:28:17+00:00",
+          "paywalled": true
+        }
+      ],
+      "lead_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxORDB6MFYwMEJCMzYwVkJ6SUN1M0xlOVdKajZtaUx5MllIY3p0R3FmRUdpTUR2UndNUkNqZEN2WmhZamlSajBNRHNvNE83TTg3ejRCZFVIOEdpWmZoQV9LS2dGRjZHNmJjVENZOE9JVEM4VlhSbERFbXJvUFhOOUI0aXIyYTA?oc=5",
+      "first_reported_at": "2026-11-26T15:00:57+00:00",
+      "update_count": 0,
+      "updated": false,
+      "coverage_history": [
+        {
+          "at": "2026-11-26T15:32:05.886828+00:00",
+          "source_count": 2
+        }
+      ],
+      "context": {
+        "earlier_reporting": [],
+        "coverage_from": null,
+        "search_query": "altria imperial brands takeover",
         "search_days": 730,
         "searched_days": 30,
         "search_status": "searched"
@@ -1601,9 +1607,9 @@
       "published_at": "2025-11-26T08:00:00+00:00"
     },
     {
-      "title": "Hong Kong high-rise fire death toll rises to 159 as authorities arrest 6 over failed fire alarms",
-      "source": "AP News",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNUnp0dXRBQldCQkhaNGxqUHVVNTc1WGNYM1d2SWhpaEF3UU9yMExkMFF4TnNJY3JOaDY5dUhlcUdtSXdFeUdvMmlvd3VjaElYNWRnN3B3a1lKeUpzQ2YtRDVmZHc1VVpuNU1MYmJGQ1RoMFVNRFZSbWFIdTM2cEZRSDF1RWRIUEM5Z2p1cXRnRmp0aHNl?oc=5",
+      "title": "'My heart breaks every time I'm called a hero' - Hong Kong fire survivor",
+      "source": "BBC",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFAyRGlLeEE0QUZ5ZlNhV0dpcFJTclRBeWFOajA5cUFJUzlnQkpIV0l2YTBUc19rU0ctTjFCYUFxVDdpYk1HQ2UzYXROZlBVTHR6VEpKcHlsbnd4Zw?oc=5",
       "published_at": "2025-12-03T08:00:00+00:00"
     },
     {
@@ -1631,6 +1637,30 @@
       "published_at": "2025-12-11T08:00:00+00:00"
     },
     {
+      "title": "Anthropic falls below IPO price as tech rally fades",
+      "source": "Financial Times",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPal9tdUdZVTJvVTB5aGJHZ0FwTk1GVW8zRWFzNlFEdU9YTERXNlNPcGFzbHUyaXd5U3I4WlMzTGNFUUtPVlA2VmpYSW94TFZKMFhGOFlsU19WV09kVkFGRk9IQ3h3MkRLUGlqWms3akdWTUNaR1hxX2VXakFVMm1tNWk0MW8?oc=5",
+      "published_at": "2026-11-24T00:40:35+00:00"
+    },
+    {
+      "title": "How an oil feud is deepening rift between Baghdad and Iraq’s Kurdish region",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/11/26/how-an-oil-feud-is-deepening-rift-between-baghdad-and-iraqs-kurdish-region?traffic_source=rss",
+      "published_at": "2026-11-26T14:10:00+00:00"
+    },
+    {
+      "title": "Ebola outbreak in Congo reaches 12,000 cases as violence forces some responders to evacuate",
+      "source": "AP News",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOODk5TW1rbDA5Ml84Vzh3OWVzdW12UkFLbXJzQlZSbG9rNTQxZGl1bjBPQ1FsNURnQ21MU3FFX1RqZFVDdzJrSXR5YkRTTndHcERGWUpyaklFeWxlQ2l4aXhKT1ctM1cwMDdtOHg5RHQ3ZmhqVTIyWFVHUWdHSG40WExZWkJSM1lZNndDSFBlbEdNNnM?oc=5",
+      "published_at": "2026-11-26T13:48:05+00:00"
+    },
+    {
+      "title": "Altria explores takeover bid for Imperial Brands",
+      "source": "Financial Times",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxORDB6MFYwMEJCMzYwVkJ6SUN1M0xlOVdKajZtaUx5MllIY3p0R3FmRUdpTUR2UndNUkNqZEN2WmhZamlSajBNRHNvNE83TTg3ejRCZFVIOEdpWmZoQV9LS2dGRjZHNmJjVENZOE9JVEM4VlhSbERFbXJvUFhOOUI0aXIyYTA?oc=5",
+      "published_at": "2026-11-26T13:28:17+00:00"
+    },
+    {
       "title": "Musk pledges two SpaceX shares for every US child in $18 billion AI charm offensive",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNklmekFZWmFURnFwVlBHa2FlTGZwYkxaSkNSRUxMV2lsanFDc2hkdGF1RGhHWlJoUTBicHFXY1B3dWxHa0xmdU5mYzFBbGpYN3Z5N2xTS2U1bVBJeVZQVHRucldkRVhsVlVfNldnTWpRclIzSjJQa0tMMnBFVGhDTS1HYzdwVlctaXowdDJtdVJaNkxLcXo2Tk9Odi1XZnI0c1JScHZycXhWRUNUZmQ4?oc=5",
@@ -1647,12 +1677,6 @@
       "source": "AP News",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNU2w0bC1tN2k4SU92bG9kc3U2U053dGZvZEh5WEs4U2IzRnVkRk9RdDlYSGZkekNQNy1WYmtKaHhWblI0U1F6SmxmVHJuWmhkRFJQV0xTaXRQRGFxUnd2b0tNMlNNZkszZy00cDNzazdNR1k4WElZTk5lSWNmR1dnQ1l1N2tCa1dtYmNoZmdZS21nd3NDVENDQ01XcDRCQXpocEpIeVhiMA?oc=5",
       "published_at": "2026-11-26T11:49:00+00:00"
-    },
-    {
-      "title": "Ebola outbreak in Congo reaches 12,000 cases as violence forces some responders to evacuate",
-      "source": "AP News",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOODk5TW1rbDA5Ml84Vzh3OWVzdW12UkFLbXJzQlZSbG9rNTQxZGl1bjBPQ1FsNURnQ21MU3FFX1RqZFVDdzJrSXR5YkRTTndHcERGWUpyaklFeWxlQ2l4aXhKT1ctM1cwMDdtOHg5RHQ3ZmhqVTIyWFVHUWdHSG40WExZWkJSM1lZNndDSFBlbEdNNnM?oc=5",
-      "published_at": "2026-11-26T11:41:34+00:00"
     },
     {
       "title": "Fifa confirms internal data stolen in cyber attack",
@@ -1739,6 +1763,12 @@
       "published_at": "2026-11-25T23:33:39+00:00"
     },
     {
+      "title": "Fuel tanker crash ignites a massive fire on a highway surrounding Cairo, killing at least 31 people",
+      "source": "AP News",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNaEhpcnZZbkFLdDdZb1VrR2laRkJMMUxDYi1FZHZPOUo0LVpBdl9wUUlXMG1Ealh0eHJOU0o3Q0JSOFU4LXVlcWgyUDd6bDVLa2ZNWGY2aWVId0pnYlNNaHkzSkw2YzdEN3dMN0hGUzNZRktJekRLQWZIbmk5d2lrTElCeXZSV1IxUi0yamFWZzJsUQ?oc=5",
+      "published_at": "2026-11-25T23:14:00+00:00"
+    },
+    {
       "title": "Thirty-one killed in massive fire as fuel tanker crashes on Cairo highway",
       "source": "BBC World",
       "url": "https://www.bbc.co.uk/news/articles/cqy7rn30v314o?at_medium=RSS&at_campaign=rss",
@@ -1761,12 +1791,6 @@
       "source": "AP News",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxONEtNTlFzQUotcXU1N1VCaXBGY0pYWnlqLWVfQ0F3WVl4YkdGMXBIZzdOczlFaFNnUUdZclhRVVlxNE5yVjhzektQSDh0YmRtaGVGQWk3UmNMbUljUjNmZ3NDMTh2dUhlNDdKMzBydnRGZ09EelN2anNjNTcyWkN5OTZkR25TUllOWjZ5SVhoVDJwZ245Q01lSVozd2dfdjRoRFhYTXo3LWtaaTgwanR2eURrMnY2ZEt5?oc=5",
       "published_at": "2026-11-25T20:40:00+00:00"
-    },
-    {
-      "title": "Fuel tanker crash ignites a massive fire on a highway surrounding Cairo, killing at least 31 people",
-      "source": "AP News",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNaEhpcnZZbkFLdDdZb1VrR2laRkJMMUxDYi1FZHZPOUo0LVpBdl9wUUlXMG1Ealh0eHJOU0o3Q0JSOFU4LXVlcWgyUDd6bDVLa2ZNWGY2aWVId0pnYlNNaHkzSkw2YzdEN3dMN0hGUzNZRktJekRLQWZIbmk5d2lrTElCeXZSV1IxUi0yamFWZzJsUQ?oc=5",
-      "published_at": "2026-11-25T20:22:04+00:00"
     },
     {
       "title": "Could renewed strikes on Hodeidah port worsen Yemen’s humanitarian crisis?",
@@ -1997,12 +2021,6 @@
       "published_at": "2026-11-24T01:00:00+00:00"
     },
     {
-      "title": "Anthropic falls below IPO price as tech rally fades",
-      "source": "Financial Times",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPal9tdUdZVTJvVTB5aGJHZ0FwTk1GVW8zRWFzNlFEdU9YTERXNlNPcGFzbHUyaXd5U3I4WlMzTGNFUUtPVlA2VmpYSW94TFZKMFhGOFlsU19WV09kVkFGRk9IQ3h3MkRLUGlqWms3akdWTUNaR1hxX2VXakFVMm1tNWk0MW8?oc=5",
-      "published_at": "2026-11-24T00:40:35+00:00"
-    },
-    {
       "title": "Democratic Rep. Jimmy Gomez resigns after Ethics panel finds evidence of sexual misconduct",
       "source": "AP News",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOdkIzeGhIdlZKM1NTNnVWN3V1eHhyZEtkcU9zd2F6ZFpuc0ZyWUVScHRmT0I0VTU1NlFBYXFTc1U1NmVPSnVwWVZUS3dQd3ByRTg5MERGaUhheE15UFdpQWYtZ0ZYdTNMR3Nmb3BIN09KTHZYZm9yWVdqME03UGdqMHl6T0QtbjJCOGtSX0JQem16ZGotM2dsdXVaN3piZWNqZDhTb01hU2lKcmxFc1lqSlFPMkg?oc=5",
@@ -2183,9 +2201,9 @@
       "published_at": "2026-05-22T07:00:00+00:00"
     },
     {
-      "title": "'My heart breaks every time I'm called a hero' - Hong Kong fire survivor",
-      "source": "BBC",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFAyRGlLeEE0QUZ5ZlNhV0dpcFJTclRBeWFOajA5cUFJUzlnQkpIV0l2YTBUc19rU0ctTjFCYUFxVDdpYk1HQ2UzYXROZlBVTHR6VEpKcHlsbnd4Zw?oc=5",
+      "title": "Hong Kong high-rise fire death toll rises to 159 as authorities arrest 6 over failed fire alarms",
+      "source": "AP News",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNUnp0dXRBQldCQkhaNGxqUHVVNTc1WGNYM1d2SWhpaEF3UU9yMExkMFF4TnNJY3JOaDY5dUhlcUdtSXdFeUdvMmlvd3VjaElYNWRnN3B3a1lKeUpzQ2YtRDVmZHc1VVpuNU1MYmJGQ1RoMFVNRFZSbWFIdTM2cEZRSDF1RWRIUEM5Z2p1cXRnRmp0aHNl?oc=5",
       "published_at": "2025-12-03T08:00:00+00:00"
     }
   ],
@@ -2193,20 +2211,74 @@
     "36b3cc28dbe7": {
       "version": 4,
       "query": "egypt cairo crash",
-      "at": "2026-11-26T14:37:15.748675+00:00",
+      "at": "2026-11-26T15:32:05.886828+00:00",
+      "stage": 3,
+      "matched": false,
+      "exhausted": true,
+      "searched_days": 730
+    },
+    "2d3439ef5696": {
+      "version": 4,
+      "query": "rescuers indonesian battle",
+      "at": "2026-11-26T15:32:05.886828+00:00",
+      "stage": 3,
+      "matched": false,
+      "exhausted": true,
+      "searched_days": 730
+    },
+    "8ebe7b96eac0": {
+      "version": 4,
+      "query": "egypt health ministry fire",
+      "at": "2026-11-26T15:32:05.886828+00:00",
+      "stage": 2,
+      "matched": false,
+      "exhausted": false,
+      "searched_days": 180
+    },
+    "6e3c3ba252f9": {
+      "version": 4,
+      "query": "fifa confirms internal",
+      "at": "2026-11-26T15:32:05.886828+00:00",
       "stage": 3,
       "matched": false,
       "exhausted": false,
       "searched_days": 365
     },
-    "2d3439ef5696": {
+    "64e810ac5c13": {
       "version": 4,
-      "query": "rescuers indonesian battle",
-      "at": "2026-11-26T14:37:15.748675+00:00",
-      "stage": 3,
+      "query": "indonesia flood dead",
+      "at": "2026-11-26T15:32:05.886828+00:00",
+      "stage": 2,
       "matched": false,
       "exhausted": false,
-      "searched_days": 365
+      "searched_days": 180
+    },
+    "aba270237d9a": {
+      "version": 4,
+      "query": "serbia dec election",
+      "at": "2026-11-26T15:32:05.886828+00:00",
+      "stage": 2,
+      "matched": false,
+      "exhausted": false,
+      "searched_days": 180
+    },
+    "32b997860448": {
+      "version": 4,
+      "query": "baghdad iraq kurdish",
+      "at": "2026-11-26T15:32:05.886828+00:00",
+      "stage": 1,
+      "matched": false,
+      "exhausted": false,
+      "searched_days": 30
+    },
+    "f275c340c8c7": {
+      "version": 4,
+      "query": "altria imperial brands takeover",
+      "at": "2026-11-26T15:32:05.886828+00:00",
+      "stage": 1,
+      "matched": false,
+      "exhausted": false,
+      "searched_days": 30
     },
     "0ca94f3b97a4": {
       "version": 4,
@@ -2216,24 +2288,6 @@
       "matched": false,
       "exhausted": true,
       "searched_days": 730
-    },
-    "8ebe7b96eac0": {
-      "version": 4,
-      "query": "egypt health ministry fire",
-      "at": "2026-11-26T14:37:15.748675+00:00",
-      "stage": 1,
-      "matched": false,
-      "exhausted": false,
-      "searched_days": 30
-    },
-    "6e3c3ba252f9": {
-      "version": 4,
-      "query": "fifa confirms internal",
-      "at": "2026-11-26T14:37:15.748675+00:00",
-      "stage": 2,
-      "matched": false,
-      "exhausted": false,
-      "searched_days": 180
     },
     "1d8d06fc1c91": {
       "version": 4,
@@ -2253,27 +2307,9 @@
       "exhausted": true,
       "searched_days": 876
     },
-    "64e810ac5c13": {
-      "version": 4,
-      "query": "indonesia flood dead",
-      "at": "2026-11-26T14:37:15.748675+00:00",
-      "stage": 1,
-      "matched": false,
-      "exhausted": false,
-      "searched_days": 30
-    },
     "641f02c2d5d8": {
       "version": 4,
       "query": "musk spacex us shares",
-      "at": "2026-11-26T14:37:15.748675+00:00",
-      "stage": 1,
-      "matched": false,
-      "exhausted": false,
-      "searched_days": 30
-    },
-    "aba270237d9a": {
-      "version": 4,
-      "query": "serbia dec election",
       "at": "2026-11-26T14:37:15.748675+00:00",
       "stage": 1,
       "matched": false,
