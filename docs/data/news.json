@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T07:17:24.957884+00:00",
+  "generated_at": "2026-11-26T08:12:09.781933+00:00",
   "model_mode": "sentence-transformers",
   "stories": [
     {
@@ -10,9 +10,9 @@
       "category": "World",
       "importance": "Major",
       "background_only": false,
-      "score": 81.8,
-      "published_at": "2026-11-26T06:33:45+00:00",
-      "source_count": 8,
+      "score": 73.8,
+      "published_at": "2026-11-26T06:55:40+00:00",
+      "source_count": 7,
       "reasons": [
         "reported fatalities",
         "significant accident with human impact",
@@ -39,24 +39,6 @@
           "paywalled": false
         },
         {
-          "name": "The National",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOR1hlSEtNU0prWG0tUzBvTUZKRXJqOTAtZ09MV1hvQWVvR3ZjLWNmal9QN0hWc25ZMUVueUw4UnN4cVc0V3ZKTjcyczczVWcwWXdMWVl2NFF5YlFZSG5VN2FJTXhCVVRDMGJwUkJ4S0ZhdVh6SG5xRnNfZ1dPZ185b3ZZUVpLZ2YtdEZkeGEzc1B6ZjdvQ1lUdE1iTXFRbFZiWFgtamFzOHZZQQ?oc=5",
-          "published_at": "2026-11-26T06:33:45+00:00",
-          "paywalled": false
-        },
-        {
-          "name": "The Guardian",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPdGpVQVRrYmUxY1U1aU9SZVFkalpJS18zWXZaakhTeWNZRDBKTnI5blpSM2Y1Umo4QkFsV09ITGxJcjVSVXRoY3UyUmlGYjlPdXc2YVJjd2VlaGZIcnphNGJFMHc2NUozZFE3OGlIaEJuRlEwVWxhSmtHTHpJLTU5MkV6UkZHLWF2eDJPWDVFemppdDRGSG1wa01zZkJla0M5RzdMZmwtTmR2eHF0RlBj?oc=5",
-          "published_at": "2026-11-25T22:10:00+00:00",
-          "paywalled": false
-        },
-        {
-          "name": "CBC",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPTlNBNDBhWFE4d3h6MUo0cFJEVk84RjhUdGlqUDhVUU9FRTVfVVdCeHZLZ24yNzM0UmxjLWhlQVBDaWY5emxMOXRPYllLOWNHdjd0ODdhLWJOS2tmSGN6cS1kOE5WU0NnVU9jM1hVMWFMWFk5aWJsbzk0UU45STU2WUNnak8?oc=5",
-          "published_at": "2026-11-25T22:05:00+00:00",
-          "paywalled": false
-        },
-        {
           "name": "CBS News",
           "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1kTjZkYnBkaGRYdW9xaEdSRE5id3hVb1FMUHBmTHZnVVgzeDZSeVoxWHJoQ2NIYWM2T3Y1MzV5UElQVks0V3I0ZVFpQXZQbWs4U1U1akVOb19oY3B3NmluYUtuemxkcGVWV2xSSUFmS3JlXzBTeGxmOVlTNk0?oc=5",
           "published_at": "2026-11-26T00:54:00+00:00",
@@ -67,17 +49,24 @@
           "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQeTJmR04yZEpMbGJiNFYtb1pZWFFiLWw3aThnRHpoZnFWN2R4eHN6U1Bka1VUZ1ZtbjcwQ1B5NXJfMDlDNFBpbC00bTFLMmhTVW5IZU15U3IweVU0QmJmT1RYaFdZNkRaLXJkSjZjNHhsR3Y1MzZ2UUk4NTYzbTgxbkdB?oc=5",
           "published_at": "2026-11-25T18:44:38+00:00",
           "paywalled": false
+        },
+        {
+          "name": "The National",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOR1hlSEtNU0prWG0tUzBvTUZKRXJqOTAtZ09MV1hvQWVvR3ZjLWNmal9QN0hWc25ZMUVueUw4UnN4cVc0V3ZKTjcyczczVWcwWXdMWVl2NFF5YlFZSG5VN2FJTXhCVVRDMGJwUkJ4S0ZhdVh6SG5xRnNfZ1dPZ185b3ZZUVpLZ2YtdEZkeGEzc1B6ZjdvQ1lUdE1iTXFRbFZiWFgtamFzOHZZQQ?oc=5",
+          "published_at": "2026-11-26T06:55:40+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "The Guardian",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPdGpVQVRrYmUxY1U1aU9SZVFkalpJS18zWXZaakhTeWNZRDBKTnI5blpSM2Y1Umo4QkFsV09ITGxJcjVSVXRoY3UyUmlGYjlPdXc2YVJjd2VlaGZIcnphNGJFMHc2NUozZFE3OGlIaEJuRlEwVWxhSmtHTHpJLTU5MkV6UkZHLWF2eDJPWDVFemppdDRGSG1wa01zZkJla0M5RzdMZmwtTmR2eHF0RlBj?oc=5",
+          "published_at": "2026-11-25T22:10:00+00:00",
+          "paywalled": false
         }
       ],
       "lead_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQTlU0RXBRWWJMUXd0Z01rcmhMeTI0V1hJLVdXUUY3eEhwb2w2R0pza2RxSnZyd044elUxX3UyemhQTG5wN1VadlphRjE2SGJvMmlRQ0N0TGRScDlwYUVWejFyX0FDMWpQZGJkZWZTSmxia2tTUkZQSFZ1XzBzNVU1ZVB5cFBGblBxWGtfb2ZXZGxTNGRzWlNBdkJaTm9tdWVlQTJfNnJB0gGrAUFVX3lxTFBxMmtCU1JWQ2xhSXBTMEczWEc0MGpvSExWY2xIcEl4VFZCOGdNRWg0ZFJxSzZZek52aV9pdUVFcFdUSEh1YmlVSmRQUU53RzE1dVhkZzc4RWZxSzEtNUZZbUNvbkFJU1hRdDljX21MY0xIZ2NmbGRKZXc3NkFkRTVhdTJZdExmYVJObVNNWk1Hd2EtdHJSb0lCRmplNC1XcXVfd3pnVS03MHkxaw?oc=5",
       "first_reported_at": "2026-11-25T21:43:17+00:00",
-      "update_count": 6,
+      "update_count": 7,
       "updated": true,
-      "coverage_momentum": {
-        "new_sources": 3,
-        "hours": 2.5,
-        "bonus": 8.0
-      },
       "coverage_history": [
         {
           "at": "2026-11-25T22:37:18.712208+00:00",
@@ -122,6 +111,10 @@
         {
           "at": "2026-11-26T07:17:24.957884+00:00",
           "source_count": 8
+        },
+        {
+          "at": "2026-11-26T08:12:09.781933+00:00",
+          "source_count": 7
         }
       ],
       "context": {
@@ -129,7 +122,7 @@
         "coverage_from": null,
         "search_query": "egypt health ministry fire",
         "search_days": 730,
-        "searched_days": 180,
+        "searched_days": 365,
         "search_status": "searched"
       }
     },
@@ -205,12 +198,121 @@
         {
           "at": "2026-11-26T07:17:24.957884+00:00",
           "source_count": 1
+        },
+        {
+          "at": "2026-11-26T08:12:09.781933+00:00",
+          "source_count": 1
         }
       ],
       "context": {
         "earlier_reporting": [],
         "coverage_from": null,
         "search_query": "ring road giza explosion crash",
+        "search_days": 730,
+        "searched_days": 730,
+        "search_status": "searched"
+      }
+    },
+    {
+      "id": "a607439c929a",
+      "title": "A flood that hit an unauthorized gold mine in Indonesia left 9 dead, 17 believed trapped",
+      "summary": "A flood that hit an unauthorized gold mine in Indonesia left 9 dead, 17 believed trapped AP News",
+      "image": "",
+      "category": "World",
+      "importance": "Major",
+      "background_only": false,
+      "score": 60.5,
+      "published_at": "2026-11-26T07:38:00+00:00",
+      "source_count": 3,
+      "reasons": [
+        "high-impact event",
+        "reported fatalities",
+        "2 trusted sources",
+        "rapid coverage growth"
+      ],
+      "sources": [
+        {
+          "name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQbllNUG04bUpwSG83TWFhVWdBMmdqYVBZOWFpZG12WGFCWWxVZUk0ek1oRDk0WWNtRlJlQ2FsemFMYkNtekRDMzVsdjh3VVFneE92dkpzUXNOZ3BGaEFhVGNVeVBXXy1QUnZJT1hyUUdDek9Rb0dMd1RMQjJlUVIzbTJLREtCUkVzbmdrdXNxU3VvaWVU?oc=5",
+          "published_at": "2026-11-25T17:28:00+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "BBC",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBaQkl0UXBneHNlcGtoQlJLdjM4T3VYQUxxbFJXWERXeWJHZHgzNWc2VXkzQzFwb3JxQ1JvN0pjVlB0MUlJNEtTc2xMX2dzd2J5SVlrOHhPemlGXzA?oc=5",
+          "published_at": "2026-11-26T07:31:24+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/26/at-least-13-dead-in-indonesia-gold-mine-flood-as-rescue-efforts-intensify?traffic_source=rss",
+          "published_at": "2026-11-26T07:38:00+00:00",
+          "paywalled": false
+        }
+      ],
+      "lead_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQbllNUG04bUpwSG83TWFhVWdBMmdqYVBZOWFpZG12WGFCWWxVZUk0ek1oRDk0WWNtRlJlQ2FsemFMYkNtekRDMzVsdjh3VVFneE92dkpzUXNOZ3BGaEFhVGNVeVBXXy1QUnZJT1hyUUdDek9Rb0dMd1RMQjJlUVIzbTJLREtCUkVzbmdrdXNxU3VvaWVU?oc=5",
+      "first_reported_at": "2026-11-25T07:59:21+00:00",
+      "update_count": 2,
+      "updated": true,
+      "coverage_momentum": {
+        "new_sources": 2,
+        "hours": 2.76,
+        "bonus": 6.0
+      },
+      "coverage_history": [
+        {
+          "at": "2026-11-25T22:37:18.712208+00:00",
+          "source_count": 1
+        },
+        {
+          "at": "2026-11-25T23:18:17.119740+00:00",
+          "source_count": 1
+        },
+        {
+          "at": "2026-11-26T00:12:26.372923+00:00",
+          "source_count": 1
+        },
+        {
+          "at": "2026-11-26T01:07:02.055467+00:00",
+          "source_count": 1
+        },
+        {
+          "at": "2026-11-26T02:02:11.818246+00:00",
+          "source_count": 1
+        },
+        {
+          "at": "2026-11-26T02:57:11.469832+00:00",
+          "source_count": 1
+        },
+        {
+          "at": "2026-11-26T03:52:30.352934+00:00",
+          "source_count": 1
+        },
+        {
+          "at": "2026-11-26T04:47:09.533099+00:00",
+          "source_count": 1
+        },
+        {
+          "at": "2026-11-26T05:26:19.831573+00:00",
+          "source_count": 1
+        },
+        {
+          "at": "2026-11-26T06:22:05.290990+00:00",
+          "source_count": 1
+        },
+        {
+          "at": "2026-11-26T07:17:24.957884+00:00",
+          "source_count": 1
+        },
+        {
+          "at": "2026-11-26T08:12:09.781933+00:00",
+          "source_count": 3
+        }
+      ],
+      "context": {
+        "earlier_reporting": [],
+        "coverage_from": null,
+        "search_query": "indonesia flood hit",
         "search_days": 730,
         "searched_days": 730,
         "search_status": "searched"
@@ -245,10 +347,6 @@
       "update_count": 6,
       "updated": false,
       "coverage_history": [
-        {
-          "at": "2026-11-25T21:42:22.933198+00:00",
-          "source_count": 1
-        },
         {
           "at": "2026-11-25T22:37:18.712208+00:00",
           "source_count": 2
@@ -291,6 +389,10 @@
         },
         {
           "at": "2026-11-26T07:17:24.957884+00:00",
+          "source_count": 1
+        },
+        {
+          "at": "2026-11-26T08:12:09.781933+00:00",
           "source_count": 1
         }
       ],
@@ -345,10 +447,6 @@
       "updated": false,
       "coverage_history": [
         {
-          "at": "2026-11-25T21:42:22.933198+00:00",
-          "source_count": 1
-        },
-        {
           "at": "2026-11-25T22:37:18.712208+00:00",
           "source_count": 1
         },
@@ -390,6 +488,10 @@
         },
         {
           "at": "2026-11-26T07:17:24.957884+00:00",
+          "source_count": 1
+        },
+        {
+          "at": "2026-11-26T08:12:09.781933+00:00",
           "source_count": 1
         }
       ],
@@ -431,10 +533,6 @@
       "updated": false,
       "coverage_history": [
         {
-          "at": "2026-11-25T21:42:22.933198+00:00",
-          "source_count": 1
-        },
-        {
           "at": "2026-11-25T22:37:18.712208+00:00",
           "source_count": 1
         },
@@ -477,6 +575,10 @@
         {
           "at": "2026-11-26T07:17:24.957884+00:00",
           "source_count": 1
+        },
+        {
+          "at": "2026-11-26T08:12:09.781933+00:00",
+          "source_count": 1
         }
       ],
       "context": {
@@ -516,10 +618,6 @@
       "update_count": 4,
       "updated": false,
       "coverage_history": [
-        {
-          "at": "2026-11-25T21:42:22.933198+00:00",
-          "source_count": 1
-        },
         {
           "at": "2026-11-25T22:37:18.712208+00:00",
           "source_count": 1
@@ -562,6 +660,10 @@
         },
         {
           "at": "2026-11-26T07:17:24.957884+00:00",
+          "source_count": 1
+        },
+        {
+          "at": "2026-11-26T08:12:09.781933+00:00",
           "source_count": 1
         }
       ],
@@ -625,12 +727,8 @@
       "lead_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNR3M0QnJvdnFlSmxYai1OZWNwd0pYOFVKa2t3UDZhLXZkcXVkcmNOZHU2ZEVCQk1HX0liM2ZVb3piZDFiaE5SSkY2MWdZeFNmOVhTWkM3RDdqSHYySDNkSTNwcExoemNqTWtoLWNQV1VDNXota0w3Ym1FLUZxOXFPZnB3UlllbEJySmhJ?oc=5",
       "first_reported_at": "2026-11-25T13:58:27+00:00",
       "update_count": 7,
-      "updated": true,
+      "updated": false,
       "coverage_history": [
-        {
-          "at": "2026-11-25T21:42:22.933198+00:00",
-          "source_count": 1
-        },
         {
           "at": "2026-11-25T22:37:18.712208+00:00",
           "source_count": 2
@@ -674,6 +772,10 @@
         {
           "at": "2026-11-26T07:17:24.957884+00:00",
           "source_count": 4
+        },
+        {
+          "at": "2026-11-26T08:12:09.781933+00:00",
+          "source_count": 4
         }
       ],
       "context": {
@@ -696,48 +798,6 @@
         "search_days": 730,
         "searched_days": 180,
         "search_status": "matched"
-      }
-    },
-    {
-      "id": "43d8c34ae7f5",
-      "title": "DRDO awards contract to olee.space for laser-based drone communication system",
-      "summary": "DRDO awards contract to olee.space for laser-based drone communication system ET Manufacturing",
-      "image": "",
-      "category": "World",
-      "importance": "Major",
-      "background_only": false,
-      "score": 51.9,
-      "published_at": "2026-11-23T13:57:30+00:00",
-      "source_count": 1,
-      "reasons": [
-        "high-impact event",
-        "defence industrial agreement"
-      ],
-      "sources": [
-        {
-          "name": "ET Manufacturing",
-          "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNamVhbE9sZWJ6ZTY0eDhNSGNOSTNVWTNEejZheEhSdG5aZ25yVWRvNzRoUVpvNG11OU1zNWd5ZUttV1JKbUhpNzhHMUtaTkQxQWc5N2dNQXV1UHlxSWRZS1g3blRtQUNwNkpvNDJQTVRDNk54dTBqOHFNR0doTHl3NktvcXRvM1JZYU01Um1SaEVwU3RLTnVKZVliVXBfTlFnbnNxQ2JnSnJkeTJBcmhJamNYRXBJaDRULUEzM0s1OG41aHAySVQ2eU9qZno2eVRSYUhFTkxLR1VGNDREdmpyRDljSUhob05rbm5SVDZjSkIzNDTSAfgBQVVfeXFMTm51WFc0NUVlRW90TzZ4dW9wTnlidzRIYjEtSVJlYTR1eU4zZXJ2SjQ2cDNUcUpQUXlLTFRWZThpWmVwNEZ0ai12bE9QSFA5NkxyejVtbWJTZjFveGFCdGVHYWZ6MzN6MnhJQWpKc3VPVmRIazBPVVpNbFUydnhodFBWVW95NVVud29HMzdOVi1GN3oxQldwTVlSM0xoV3hpWXJQQkFqSlU0Z1QwTGtRaUhmdE1SLVpfV056MHFwdEVQeHhjWUlZcDZkVHhnTGtiVGRGNjVLRnlvc2VjNzVYbXpTQWZycTVrWnZ4U1QwZThhMmdMRGJ1WXU?oc=5",
-          "published_at": "2026-11-23T13:57:30+00:00",
-          "paywalled": false
-        }
-      ],
-      "lead_url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNamVhbE9sZWJ6ZTY0eDhNSGNOSTNVWTNEejZheEhSdG5aZ25yVWRvNzRoUVpvNG11OU1zNWd5ZUttV1JKbUhpNzhHMUtaTkQxQWc5N2dNQXV1UHlxSWRZS1g3blRtQUNwNkpvNDJQTVRDNk54dTBqOHFNR0doTHl3NktvcXRvM1JZYU01Um1SaEVwU3RLTnVKZVliVXBfTlFnbnNxQ2JnSnJkeTJBcmhJamNYRXBJaDRULUEzM0s1OG41aHAySVQ2eU9qZno2eVRSYUhFTkxLR1VGNDREdmpyRDljSUhob05rbm5SVDZjSkIzNDTSAfgBQVVfeXFMTm51WFc0NUVlRW90TzZ4dW9wTnlidzRIYjEtSVJlYTR1eU4zZXJ2SjQ2cDNUcUpQUXlLTFRWZThpWmVwNEZ0ai12bE9QSFA5NkxyejVtbWJTZjFveGFCdGVHYWZ6MzN6MnhJQWpKc3VPVmRIazBPVVpNbFUydnhodFBWVW95NVVud29HMzdOVi1GN3oxQldwTVlSM0xoV3hpWXJQQkFqSlU0Z1QwTGtRaUhmdE1SLVpfV056MHFwdEVQeHhjWUlZcDZkVHhnTGtiVGRGNjVLRnlvc2VjNzVYbXpTQWZycTVrWnZ4U1QwZThhMmdMRGJ1WXU?oc=5",
-      "first_reported_at": "2026-11-23T13:57:30+00:00",
-      "update_count": 0,
-      "updated": false,
-      "coverage_history": [
-        {
-          "at": "2026-11-26T07:17:24.957884+00:00",
-          "source_count": 1
-        }
-      ],
-      "context": {
-        "earlier_reporting": [],
-        "coverage_from": null,
-        "search_query": "drdo awards contract",
-        "search_days": 730,
-        "searched_days": 730,
-        "search_status": "searched"
       }
     },
     {
@@ -769,10 +829,6 @@
       "updated": false,
       "coverage_history": [
         {
-          "at": "2026-11-25T21:42:22.933198+00:00",
-          "source_count": 1
-        },
-        {
           "at": "2026-11-25T22:37:18.712208+00:00",
           "source_count": 1
         },
@@ -815,6 +871,10 @@
         {
           "at": "2026-11-26T07:17:24.957884+00:00",
           "source_count": 1
+        },
+        {
+          "at": "2026-11-26T08:12:09.781933+00:00",
+          "source_count": 1
         }
       ],
       "context": {
@@ -831,48 +891,6 @@
         "search_days": 730,
         "searched_days": 180,
         "search_status": "matched"
-      }
-    },
-    {
-      "id": "231a40545049",
-      "title": "Massive factory explosion leaves 17 dead and 12 injured in Izmir, Turkey",
-      "summary": "Massive factory explosion leaves 17 dead and 12 injured in Izmir, Turkey Hispanatolia",
-      "image": "",
-      "category": "Europe/UK",
-      "importance": "Major",
-      "background_only": false,
-      "score": 50.3,
-      "published_at": "2026-11-25T23:41:23+00:00",
-      "source_count": 1,
-      "reasons": [
-        "reported fatalities",
-        "significant accident with human impact"
-      ],
-      "sources": [
-        {
-          "name": "Hispanatolia",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOdFFEMlQyTVp3MDVnSVpYUDlxc0xNQ2xRaVEwMENoVElUa3RjWFYtUU1BTjNVWXdvTTZQaVQyUzNjUUlnSjAzR3FFbk9kRHFaaVdhUkQyYXV4Xy1WWlFaZmVvUDhILVQ3RVY5QXVUN2YycjhJa0dTSDZDSldoa05FNXdRaWw0RmNISnMyY21aaURpQm5XUDBtRExLNTBlUEJLTUE?oc=5",
-          "published_at": "2026-11-25T23:41:23+00:00",
-          "paywalled": false
-        }
-      ],
-      "lead_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOdFFEMlQyTVp3MDVnSVpYUDlxc0xNQ2xRaVEwMENoVElUa3RjWFYtUU1BTjNVWXdvTTZQaVQyUzNjUUlnSjAzR3FFbk9kRHFaaVdhUkQyYXV4Xy1WWlFaZmVvUDhILVQ3RVY5QXVUN2YycjhJa0dTSDZDSldoa05FNXdRaWw0RmNISnMyY21aaURpQm5XUDBtRExLNTBlUEJLTUE?oc=5",
-      "first_reported_at": "2026-11-25T23:41:23+00:00",
-      "update_count": 0,
-      "updated": false,
-      "coverage_history": [
-        {
-          "at": "2026-11-26T07:17:24.957884+00:00",
-          "source_count": 1
-        }
-      ],
-      "context": {
-        "earlier_reporting": [],
-        "coverage_from": null,
-        "search_query": "massive izmir turkey explosion",
-        "search_days": 730,
-        "searched_days": 730,
-        "search_status": "searched"
       }
     },
     {
@@ -904,10 +922,6 @@
       "updated": false,
       "coverage_history": [
         {
-          "at": "2026-11-25T21:42:22.933198+00:00",
-          "source_count": 1
-        },
-        {
           "at": "2026-11-25T22:37:18.712208+00:00",
           "source_count": 1
         },
@@ -949,6 +963,10 @@
         },
         {
           "at": "2026-11-26T07:17:24.957884+00:00",
+          "source_count": 1
+        },
+        {
+          "at": "2026-11-26T08:12:09.781933+00:00",
           "source_count": 1
         }
       ],
@@ -957,91 +975,47 @@
         "coverage_from": null,
         "search_query": "rips candy factory fire",
         "search_days": 730,
-        "searched_days": 365,
+        "searched_days": 730,
         "search_status": "searched"
       }
     },
     {
-      "id": "a607439c929a",
-      "title": "A flood that hit an unauthorized gold mine in Indonesia left 9 dead, 17 believed trapped",
-      "summary": "A flood that hit an unauthorized gold mine in Indonesia left 9 dead, 17 believed trapped AP News",
+      "id": "bfcc0158a669",
+      "title": "23 deaths push Israeli troops' suicide rate to highest in 16 years | Daily Sabah",
+      "summary": "23 deaths push Israeli troops' suicide rate to highest in 16 years | Daily Sabah Daily Sabah",
       "image": "",
-      "category": "World",
+      "category": "Middle East",
       "importance": "Major",
       "background_only": false,
-      "score": 47.8,
-      "published_at": "2026-11-25T17:28:00+00:00",
+      "score": 50.1,
+      "published_at": "2026-11-23T11:02:00+00:00",
       "source_count": 1,
       "reasons": [
-        "high-impact event",
-        "reported fatalities"
+        "reported fatalities",
+        "record institutional or health trend"
       ],
       "sources": [
         {
-          "name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQbllNUG04bUpwSG83TWFhVWdBMmdqYVBZOWFpZG12WGFCWWxVZUk0ek1oRDk0WWNtRlJlQ2FsemFMYkNtekRDMzVsdjh3VVFneE92dkpzUXNOZ3BGaEFhVGNVeVBXXy1QUnZJT1hyUUdDek9Rb0dMd1RMQjJlUVIzbTJLREtCUkVzbmdrdXNxU3VvaWVU?oc=5",
-          "published_at": "2026-11-25T17:28:00+00:00",
+          "name": "Daily Sabah",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPVHdKOU1EdTRJZE01X1Z6UzkzZUw1V0tUN0t6T25GT3E4OTFhc3BLYldMWXpMYUpfM2ExQnJ5T3dUWXpQYWhSOUpuQ0IwSnVnYnIycTVnSlVDNWlXVjg5WjhlRWdLNTBweWFYTmxlU0x2ampReF9Rd0dadktJbFpCUXN1alI3SEpEcXUxRFV0THVCdU9JNDZzLXBGdjI3VlZnRFFmU2dZVUJuYWvSAbABQVVfeXFMUGVBdlRmVlB2enlIem5hSDVQaDF3N3Vtb0NfdV9DOERCNkp1WUdHS1VTY0FoX3psWVYxV1JXOUJfc3gtV1l1eHpwTURrblhGUkxzUkVDWEVKR1RaOUZXNy0waXM0ekJFVXpWYXI5QU5QQ2NCb2VuaXlLSWNCTWJpMndaMjNxR3RUeS0zeUlPck5ONzVJNTA3a19QaWxNV24xd1JBOWRtamtVUE1tYUF6NW8?oc=5",
+          "published_at": "2026-11-23T11:02:00+00:00",
           "paywalled": false
         }
       ],
-      "lead_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQbllNUG04bUpwSG83TWFhVWdBMmdqYVBZOWFpZG12WGFCWWxVZUk0ek1oRDk0WWNtRlJlQ2FsemFMYkNtekRDMzVsdjh3VVFneE92dkpzUXNOZ3BGaEFhVGNVeVBXXy1QUnZJT1hyUUdDek9Rb0dMd1RMQjJlUVIzbTJLREtCUkVzbmdrdXNxU3VvaWVU?oc=5",
-      "first_reported_at": "2026-11-25T07:59:21+00:00",
-      "update_count": 1,
+      "lead_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPVHdKOU1EdTRJZE01X1Z6UzkzZUw1V0tUN0t6T25GT3E4OTFhc3BLYldMWXpMYUpfM2ExQnJ5T3dUWXpQYWhSOUpuQ0IwSnVnYnIycTVnSlVDNWlXVjg5WjhlRWdLNTBweWFYTmxlU0x2ampReF9Rd0dadktJbFpCUXN1alI3SEpEcXUxRFV0THVCdU9JNDZzLXBGdjI3VlZnRFFmU2dZVUJuYWvSAbABQVVfeXFMUGVBdlRmVlB2enlIem5hSDVQaDF3N3Vtb0NfdV9DOERCNkp1WUdHS1VTY0FoX3psWVYxV1JXOUJfc3gtV1l1eHpwTURrblhGUkxzUkVDWEVKR1RaOUZXNy0waXM0ekJFVXpWYXI5QU5QQ2NCb2VuaXlLSWNCTWJpMndaMjNxR3RUeS0zeUlPck5ONzVJNTA3a19QaWxNV24xd1JBOWRtamtVUE1tYUF6NW8?oc=5",
+      "first_reported_at": "2026-11-23T11:02:00+00:00",
+      "update_count": 0,
       "updated": false,
       "coverage_history": [
         {
-          "at": "2026-11-25T21:42:22.933198+00:00",
-          "source_count": 1
-        },
-        {
-          "at": "2026-11-25T22:37:18.712208+00:00",
-          "source_count": 1
-        },
-        {
-          "at": "2026-11-25T23:18:17.119740+00:00",
-          "source_count": 1
-        },
-        {
-          "at": "2026-11-26T00:12:26.372923+00:00",
-          "source_count": 1
-        },
-        {
-          "at": "2026-11-26T01:07:02.055467+00:00",
-          "source_count": 1
-        },
-        {
-          "at": "2026-11-26T02:02:11.818246+00:00",
-          "source_count": 1
-        },
-        {
-          "at": "2026-11-26T02:57:11.469832+00:00",
-          "source_count": 1
-        },
-        {
-          "at": "2026-11-26T03:52:30.352934+00:00",
-          "source_count": 1
-        },
-        {
-          "at": "2026-11-26T04:47:09.533099+00:00",
-          "source_count": 1
-        },
-        {
-          "at": "2026-11-26T05:26:19.831573+00:00",
-          "source_count": 1
-        },
-        {
-          "at": "2026-11-26T06:22:05.290990+00:00",
-          "source_count": 1
-        },
-        {
-          "at": "2026-11-26T07:17:24.957884+00:00",
+          "at": "2026-11-26T08:12:09.781933+00:00",
           "source_count": 1
         }
       ],
       "context": {
         "earlier_reporting": [],
         "coverage_from": null,
-        "search_query": "indonesia flood hit",
+        "search_query": "israeli suicide push",
         "search_days": 730,
         "searched_days": 730,
         "search_status": "searched"
@@ -1076,10 +1050,6 @@
       "updated": false,
       "coverage_history": [
         {
-          "at": "2026-11-25T21:42:22.933198+00:00",
-          "source_count": 1
-        },
-        {
           "at": "2026-11-25T22:37:18.712208+00:00",
           "source_count": 1
         },
@@ -1121,6 +1091,10 @@
         },
         {
           "at": "2026-11-26T07:17:24.957884+00:00",
+          "source_count": 1
+        },
+        {
+          "at": "2026-11-26T08:12:09.781933+00:00",
           "source_count": 1
         }
       ],
@@ -1164,135 +1138,16 @@
         {
           "at": "2026-11-26T07:17:24.957884+00:00",
           "source_count": 1
-        }
-      ],
-      "context": {
-        "earlier_reporting": [],
-        "coverage_from": null,
-        "search_query": "fears pakistan election",
-        "search_days": 730,
-        "searched_days": 730,
-        "search_status": "searched"
-      }
-    },
-    {
-      "id": "71b67f9c32cd",
-      "title": "UK warns of Russian sabotage threat to companies that supply Ukraine",
-      "summary": "UK warns of Russian sabotage threat to companies that supply Ukraine Reuters",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/263d/live/670b2250-e8df-11f1-a3b9-79c60ec9ab33.jpg",
-      "category": "Europe/UK",
-      "importance": "Major",
-      "background_only": false,
-      "score": 46.4,
-      "published_at": "2026-11-26T01:39:46+00:00",
-      "source_count": 4,
-      "reasons": [
-        "high-impact event",
-        "2 trusted sources",
-        "rapid coverage growth"
-      ],
-      "sources": [
-        {
-          "name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxObWthWEU2V2VxbjBhWTVtNE5wdC1LWFBYM24tVF92ekgyb25wMDRablR5eUJCQXFNUFVXU2NMYnkwWUlkWmpmNnhNaUhXZGdOSjUxeVItUzdING0xbDZZRENTTmFHdzJyWXZHM0NCbl91QU1DR3ZpMlpWNGYyVmVVV3dXM2RJSWMxUk1qckdVR18tSjJfbml3enVHUFpZcDBEaG5lSVlDQQ?oc=5",
-          "published_at": "2026-11-24T21:32:51+00:00",
-          "paywalled": false
         },
         {
-          "name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNMjlhMGNhc2xSNHhZdFRiSmZOaXhPZE50S2hxczJ4U1IwNWV0dmZyeTNkM0IyMmFMcHFJNDhjZnVUcHV6dG5vU2ZqUjRwS09yYTVqRm1ob2tZQktGZkM1NmktTVJKbVZUMWtHX0MwcFRYeUhmSGFTRm1KM3dDTFpLUTVGaVZ2YWdiMjR4QkNrZGtZbFV1V0VJRFpDSGZ2Zw?oc=5",
-          "published_at": "2026-11-24T16:14:00+00:00",
-          "paywalled": false
-        },
-        {
-          "name": "BBC World",
-          "url": "https://www.bbc.co.uk/news/articles/ck9q8xp5r5pgo?at_medium=RSS&at_campaign=rss",
-          "published_at": "2026-11-25T14:46:41+00:00",
-          "paywalled": false
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/26/ukraine-attacks-russian-military-base-says-five-planes-struck?traffic_source=rss",
-          "published_at": "2026-11-26T01:39:46+00:00",
-          "paywalled": false
-        }
-      ],
-      "lead_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxObWthWEU2V2VxbjBhWTVtNE5wdC1LWFBYM24tVF92ekgyb25wMDRablR5eUJCQXFNUFVXU2NMYnkwWUlkWmpmNnhNaUhXZGdOSjUxeVItUzdING0xbDZZRENTTmFHdzJyWXZHM0NCbl91QU1DR3ZpMlpWNGYyVmVVV3dXM2RJSWMxUk1qckdVR18tSjJfbml3enVHUFpZcDBEaG5lSVlDQQ?oc=5",
-      "first_reported_at": "2026-11-24T21:32:51+00:00",
-      "update_count": 1,
-      "updated": true,
-      "coverage_momentum": {
-        "new_sources": 2,
-        "hours": 1.85,
-        "bonus": 6.0
-      },
-      "coverage_history": [
-        {
-          "at": "2026-11-26T05:26:19.831573+00:00",
-          "source_count": 2
-        },
-        {
-          "at": "2026-11-26T06:22:05.290990+00:00",
-          "source_count": 2
-        },
-        {
-          "at": "2026-11-26T07:17:24.957884+00:00",
-          "source_count": 4
-        }
-      ],
-      "context": {
-        "earlier_reporting": [
-          {
-            "title": "MI5 warns UK companies supplying Ukraine military about Russian sabotage risk",
-            "source": "Financial Times",
-            "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOdEE2TjdOdHFaSjBic0FSeTAyMXlENTdkS3ZkaTVadlhvLWtLcHVhaEdqa1lsRnJzNldoZjVNU0N2LU5PdTEyWFhtN3RhTXJCb0t2aWpZZEYyQms1eVZtY2ZpY3QwTWh6RllHUGxPOU5VS3RCOWZMMXJUc3BRamlYQVVzcXQ?oc=5",
-            "published_at": "2026-11-24T14:30:21+00:00"
-          }
-        ],
-        "coverage_from": "2026-11-24T14:30:21+00:00",
-        "search_query": "uk russian ukraine",
-        "search_days": 730,
-        "searched_days": 30,
-        "search_status": "matched"
-      }
-    },
-    {
-      "id": "a3bdd39dfde0",
-      "title": "China: 8 dead after houses collapse in industrial area",
-      "summary": "China: 8 dead after houses collapse in industrial area Yeni Safak English",
-      "image": "",
-      "category": "World",
-      "importance": "Major",
-      "background_only": false,
-      "score": 46.2,
-      "published_at": "2026-11-24T15:21:52+00:00",
-      "source_count": 1,
-      "reasons": [
-        "reported fatalities",
-        "significant accident with human impact"
-      ],
-      "sources": [
-        {
-          "name": "Yeni Safak English",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQRDFlZzRZLVlWdF85c0V2Q25SNnBBYWJXVV82STRYbjQ0Um5MNXpNWjdoRkpTWUxrY1B0cWR6amlPVWM0MGI0VXVpV0xIOWF3SW1NV0NRcEdsa1dUU1dvbzBtUDVYbHp5aEtQdGlmbGZKb2ZWS3loQ1FxZl9lTzg3Rkp4b3BEckFBQ2JuaGNaQS1WTkE0MGFF?oc=5",
-          "published_at": "2026-11-24T15:21:52+00:00",
-          "paywalled": false
-        }
-      ],
-      "lead_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQRDFlZzRZLVlWdF85c0V2Q25SNnBBYWJXVV82STRYbjQ0Um5MNXpNWjdoRkpTWUxrY1B0cWR6amlPVWM0MGI0VXVpV0xIOWF3SW1NV0NRcEdsa1dUU1dvbzBtUDVYbHp5aEtQdGlmbGZKb2ZWS3loQ1FxZl9lTzg3Rkp4b3BEckFBQ2JuaGNaQS1WTkE0MGFF?oc=5",
-      "first_reported_at": "2026-11-24T15:21:52+00:00",
-      "update_count": 0,
-      "updated": false,
-      "coverage_history": [
-        {
-          "at": "2026-11-26T07:17:24.957884+00:00",
+          "at": "2026-11-26T08:12:09.781933+00:00",
           "source_count": 1
         }
       ],
       "context": {
         "earlier_reporting": [],
         "coverage_from": null,
-        "search_query": "china collapse dead",
+        "search_query": "fears pakistan election",
         "search_days": 730,
         "searched_days": 730,
         "search_status": "searched"
@@ -1353,6 +1208,10 @@
         {
           "at": "2026-11-26T07:17:24.957884+00:00",
           "source_count": 1
+        },
+        {
+          "at": "2026-11-26T08:12:09.781933+00:00",
+          "source_count": 1
         }
       ],
       "context": {
@@ -1402,6 +1261,10 @@
         {
           "at": "2026-11-26T07:17:24.957884+00:00",
           "source_count": 1
+        },
+        {
+          "at": "2026-11-26T08:12:09.781933+00:00",
+          "source_count": 1
         }
       ],
       "context": {
@@ -1409,7 +1272,7 @@
         "coverage_from": null,
         "search_query": "sudan war drought",
         "search_days": 730,
-        "searched_days": 30,
+        "searched_days": 180,
         "search_status": "searched"
       }
     },
@@ -1470,6 +1333,10 @@
         {
           "at": "2026-11-26T07:17:24.957884+00:00",
           "source_count": 2
+        },
+        {
+          "at": "2026-11-26T08:12:09.781933+00:00",
+          "source_count": 2
         }
       ],
       "context": {
@@ -1483,6 +1350,61 @@
         ],
         "coverage_from": "2026-10-30T07:00:00+00:00",
         "search_query": "north korea kim",
+        "search_days": 730,
+        "searched_days": 30,
+        "search_status": "matched"
+      }
+    },
+    {
+      "id": "80dcb20cb4fc",
+      "title": "Fighting in eastern Congo forces Ebola workers to evacuate, threatening outbreak response",
+      "summary": "Fighting in eastern Congo forces Ebola workers to evacuate, threatening outbreak response AP News",
+      "image": "",
+      "category": "World",
+      "importance": "Notable",
+      "background_only": false,
+      "score": 41.0,
+      "published_at": "2026-11-26T07:42:24+00:00",
+      "source_count": 2,
+      "reasons": [
+        "high-impact event",
+        "2 trusted sources"
+      ],
+      "sources": [
+        {
+          "name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNRDFtT0M3ampBX21sZVc4a0VHSDhwMjcwdm16S2ltOE1SUnBEN29UbmhFQVg2d0U0cmVLTVdrU3k5TS15eWNsUGZKekFqYWFUdGlkTlpWTG93ZHlEUE5CRkJYV2ZfU3lQcUpYcEpiT2g2MXN1OHJWSzhPNWdsX2hwbHJPQVlvQm41UFBNZE5ES1N1d1FMZEkybDJ0ZVp0cHRpSWVibA?oc=5",
+          "published_at": "2026-11-25T19:29:00+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNVzFQakZZX0tuY3NBTmY5c2ZxUVMtalhoRWEzMkx1YjFFb0luaHJYSzRpSFF5RExpX3ZqTmd6TjZOb0UyaWt0UVcwLXhZYm42ZUZrZkV1MTZvM0hweGZHX1NvN0RyeE0tdm5DdFhDUHZKQWxyN3MzYUowUnJpNXNobEVfdnN1OFZKMW5Hd1VTMEVsMnROb0ZZVEkyRWx0VF9ac25pQjg0Sl9OdnFBSHBBY2JNbnjSAboBQVVfeXFMTnNqSlM3NkdSazIteU1tVDJBNDkwYTVEV3NsYU1ScEJHWWgyS25WWGdGcWk1YTdxaGp1QVJDeGJJS09ZNlpaemJXVnZRckM1Y3pmRlI3bUFoVjJWODdIT0h0cHVpcHVUcno5UnRPc1N3OTFGWlVKaFVpQ3lYZkpOWEgyZmNYeW5xM3lINkhaVXRRaExjWlBWWGFLRkVRUzUxWTQ0YTdkb1FNcXBGdl9KWTJQdF8yb1pOQ25R?oc=5",
+          "published_at": "2026-11-26T07:42:24+00:00",
+          "paywalled": false
+        }
+      ],
+      "lead_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNRDFtT0M3ampBX21sZVc4a0VHSDhwMjcwdm16S2ltOE1SUnBEN29UbmhFQVg2d0U0cmVLTVdrU3k5TS15eWNsUGZKekFqYWFUdGlkTlpWTG93ZHlEUE5CRkJYV2ZfU3lQcUpYcEpiT2g2MXN1OHJWSzhPNWdsX2hwbHJPQVlvQm41UFBNZE5ES1N1d1FMZEkybDJ0ZVp0cHRpSWVibA?oc=5",
+      "first_reported_at": "2026-11-26T07:42:24+00:00",
+      "update_count": 0,
+      "updated": false,
+      "coverage_history": [
+        {
+          "at": "2026-11-26T08:12:09.781933+00:00",
+          "source_count": 2
+        }
+      ],
+      "context": {
+        "earlier_reporting": [
+          {
+            "title": "WHO chief says fighting near Congo Ebola outbreak area disrupts response efforts",
+            "source": "Reuters",
+            "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOVnZjcE50YXJiLWxXZE5OQldXSndtUVlUbnNJckNPY1lQM1ZpdlExMlNJX08zNFJQbnFYd3FKT3ZZbzBqY2s4a3c0RVg0M2dELVZrLUx5R0tobENIQWk2QUdNZG9YRl95STZFUlVOVTlVcThuRG90VndEZEZhaE5jbTRVYkN1SUxoYmlteUhlempZSVNGRjJNWjhZdXlSNzMtM1Q3VExpZmFqZHJKbVdjT3lpekdsb0dXQXg0NHdsUkZwdlNzQW9CaGVhblM2b0VHSWRZTGlFVUJBSnd3LXA2SXJoUlVmV1E?oc=5",
+            "published_at": "2026-11-22T20:17:43+00:00"
+          }
+        ],
+        "coverage_from": "2026-11-22T20:17:43+00:00",
+        "search_query": "fighting congo ebola outbreak",
         "search_days": 730,
         "searched_days": 30,
         "search_status": "matched"
@@ -1545,6 +1467,10 @@
         {
           "at": "2026-11-26T07:17:24.957884+00:00",
           "source_count": 2
+        },
+        {
+          "at": "2026-11-26T08:12:09.781933+00:00",
+          "source_count": 2
         }
       ],
       "context": {
@@ -1554,6 +1480,73 @@
         "search_days": 730,
         "searched_days": 730,
         "search_status": "searched"
+      }
+    },
+    {
+      "id": "71b67f9c32cd",
+      "title": "UK warns of Russian sabotage threat to companies that supply Ukraine",
+      "summary": "UK warns of Russian sabotage threat to companies that supply Ukraine Reuters",
+      "image": "",
+      "category": "Europe/UK",
+      "importance": "Notable",
+      "background_only": false,
+      "score": 40.4,
+      "published_at": "2026-11-24T21:32:51+00:00",
+      "source_count": 2,
+      "reasons": [
+        "high-impact event",
+        "2 trusted sources"
+      ],
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxObWthWEU2V2VxbjBhWTVtNE5wdC1LWFBYM24tVF92ekgyb25wMDRablR5eUJCQXFNUFVXU2NMYnkwWUlkWmpmNnhNaUhXZGdOSjUxeVItUzdING0xbDZZRENTTmFHdzJyWXZHM0NCbl91QU1DR3ZpMlpWNGYyVmVVV3dXM2RJSWMxUk1qckdVR18tSjJfbml3enVHUFpZcDBEaG5lSVlDQQ?oc=5",
+          "published_at": "2026-11-24T21:32:51+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNMjlhMGNhc2xSNHhZdFRiSmZOaXhPZE50S2hxczJ4U1IwNWV0dmZyeTNkM0IyMmFMcHFJNDhjZnVUcHV6dG5vU2ZqUjRwS09yYTVqRm1ob2tZQktGZkM1NmktTVJKbVZUMWtHX0MwcFRYeUhmSGFTRm1KM3dDTFpLUTVGaVZ2YWdiMjR4QkNrZGtZbFV1V0VJRFpDSGZ2Zw?oc=5",
+          "published_at": "2026-11-24T16:14:00+00:00",
+          "paywalled": false
+        }
+      ],
+      "lead_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxObWthWEU2V2VxbjBhWTVtNE5wdC1LWFBYM24tVF92ekgyb25wMDRablR5eUJCQXFNUFVXU2NMYnkwWUlkWmpmNnhNaUhXZGdOSjUxeVItUzdING0xbDZZRENTTmFHdzJyWXZHM0NCbl91QU1DR3ZpMlpWNGYyVmVVV3dXM2RJSWMxUk1qckdVR18tSjJfbml3enVHUFpZcDBEaG5lSVlDQQ?oc=5",
+      "first_reported_at": "2026-11-24T21:32:51+00:00",
+      "update_count": 1,
+      "updated": false,
+      "coverage_history": [
+        {
+          "at": "2026-11-26T05:26:19.831573+00:00",
+          "source_count": 2
+        },
+        {
+          "at": "2026-11-26T06:22:05.290990+00:00",
+          "source_count": 2
+        },
+        {
+          "at": "2026-11-26T07:17:24.957884+00:00",
+          "source_count": 4
+        },
+        {
+          "at": "2026-11-26T08:12:09.781933+00:00",
+          "source_count": 2
+        }
+      ],
+      "context": {
+        "earlier_reporting": [
+          {
+            "title": "MI5 warns UK companies supplying Ukraine military about Russian sabotage risk",
+            "source": "Financial Times",
+            "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOdEE2TjdOdHFaSjBic0FSeTAyMXlENTdkS3ZkaTVadlhvLWtLcHVhaEdqa1lsRnJzNldoZjVNU0N2LU5PdTEyWFhtN3RhTXJCb0t2aWpZZEYyQms1eVZtY2ZpY3QwTWh6RllHUGxPOU5VS3RCOWZMMXJUc3BRamlYQVVzcXQ?oc=5",
+            "published_at": "2026-11-24T14:30:21+00:00"
+          }
+        ],
+        "coverage_from": "2026-11-24T14:30:21+00:00",
+        "search_query": "uk russian ukraine",
+        "search_days": 730,
+        "searched_days": 30,
+        "search_status": "matched"
       }
     },
     {
@@ -1586,6 +1579,10 @@
         {
           "at": "2026-11-26T07:17:24.957884+00:00",
           "source_count": 1
+        },
+        {
+          "at": "2026-11-26T08:12:09.781933+00:00",
+          "source_count": 1
         }
       ],
       "context": {
@@ -1593,7 +1590,7 @@
         "coverage_from": null,
         "search_query": "apple minimax ai safety",
         "search_days": 730,
-        "searched_days": 30,
+        "searched_days": 180,
         "search_status": "searched"
       }
     },
@@ -1624,10 +1621,6 @@
       "update_count": 0,
       "updated": false,
       "coverage_history": [
-        {
-          "at": "2026-11-25T21:42:22.933198+00:00",
-          "source_count": 1
-        },
         {
           "at": "2026-11-25T22:37:18.712208+00:00",
           "source_count": 1
@@ -1671,6 +1664,10 @@
         {
           "at": "2026-11-26T07:17:24.957884+00:00",
           "source_count": 1
+        },
+        {
+          "at": "2026-11-26T08:12:09.781933+00:00",
+          "source_count": 1
         }
       ],
       "context": {
@@ -1682,9 +1679,9 @@
             "published_at": "2025-11-26T08:00:00+00:00"
           },
           {
-            "title": "Hong Kong high-rise fire death toll rises to 159 as authorities arrest 6 over failed fire alarms",
-            "source": "AP News",
-            "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNUnp0dXRBQldCQkhaNGxqUHVVNTc1WGNYM1d2SWhpaEF3UU9yMExkMFF4TnNJY3JOaDY5dUhlcUdtSXdFeUdvMmlvd3VjaElYNWRnN3B3a1lKeUpzQ2YtRDVmZHc1VVpuNU1MYmJGQ1RoMFVNRFZSbWFIdTM2cEZRSDF1RWRIUEM5Z2p1cXRnRmp0aHNl?oc=5",
+            "title": "'My heart breaks every time I'm called a hero' - Hong Kong fire survivor",
+            "source": "BBC",
+            "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFAyRGlLeEE0QUZ5ZlNhV0dpcFJTclRBeWFOajA5cUFJUzlnQkpIV0l2YTBUc19rU0ctTjFCYUFxVDdpYk1HQ2UzYXROZlBVTHR6VEpKcHlsbnd4Zw?oc=5",
             "published_at": "2025-12-03T08:00:00+00:00"
           },
           {
@@ -1753,6 +1750,10 @@
         {
           "at": "2026-11-26T07:17:24.957884+00:00",
           "source_count": 1
+        },
+        {
+          "at": "2026-11-26T08:12:09.781933+00:00",
+          "source_count": 1
         }
       ],
       "context": {
@@ -1800,10 +1801,6 @@
       "updated": false,
       "coverage_history": [
         {
-          "at": "2026-11-25T21:42:22.933198+00:00",
-          "source_count": 1
-        },
-        {
           "at": "2026-11-25T22:37:18.712208+00:00",
           "source_count": 1
         },
@@ -1845,6 +1842,10 @@
         },
         {
           "at": "2026-11-26T07:17:24.957884+00:00",
+          "source_count": 1
+        },
+        {
+          "at": "2026-11-26T08:12:09.781933+00:00",
           "source_count": 1
         }
       ],
@@ -1897,12 +1898,6 @@
       "published_at": "2026-08-10T07:00:00+00:00"
     },
     {
-      "title": "MI5 warns UK companies supplying Ukraine military about Russian sabotage risk",
-      "source": "Financial Times",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOdEE2TjdOdHFaSjBic0FSeTAyMXlENTdkS3ZkaTVadlhvLWtLcHVhaEdqa1lsRnJzNldoZjVNU0N2LU5PdTEyWFhtN3RhTXJCb0t2aWpZZEYyQms1eVZtY2ZpY3QwTWh6RllHUGxPOU5VS3RCOWZMMXJUc3BRamlYQVVzcXQ?oc=5",
-      "published_at": "2026-11-24T14:30:21+00:00"
-    },
-    {
       "title": "King tides could break decades-old records and flood communities on both coasts on Thanksgiving week",
       "source": "AP News",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQVDBaUDF5NW02MnhuTWFTbEhqVmhlb19TWVJJMjNjX2JlUzdFZFloWndteVRXZWtSUEJ1a2dvNEw3bHpoRlIxdEItbHJ4T1RaSi1kT2V6SGFnTFFMOFhRa3JySW1qcENMM0dySnZmM3I0WnB2UkRhSHB0dnpwT1hWY0tGS211eWM5b1Z4RnJzYWVGd0ltSU56QmR1LUdsWjQ?oc=5",
@@ -1915,15 +1910,27 @@
       "published_at": "2026-10-30T07:00:00+00:00"
     },
     {
+      "title": "WHO chief says fighting near Congo Ebola outbreak area disrupts response efforts",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOVnZjcE50YXJiLWxXZE5OQldXSndtUVlUbnNJckNPY1lQM1ZpdlExMlNJX08zNFJQbnFYd3FKT3ZZbzBqY2s4a3c0RVg0M2dELVZrLUx5R0tobENIQWk2QUdNZG9YRl95STZFUlVOVTlVcThuRG90VndEZEZhaE5jbTRVYkN1SUxoYmlteUhlempZSVNGRjJNWjhZdXlSNzMtM1Q3VExpZmFqZHJKbVdjT3lpekdsb0dXQXg0NHdsUkZwdlNzQW9CaGVhblM2b0VHSWRZTGlFVUJBSnd3LXA2SXJoUlVmV1E?oc=5",
+      "published_at": "2026-11-22T20:17:43+00:00"
+    },
+    {
+      "title": "MI5 warns UK companies supplying Ukraine military about Russian sabotage risk",
+      "source": "Financial Times",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOdEE2TjdOdHFaSjBic0FSeTAyMXlENTdkS3ZkaTVadlhvLWtLcHVhaEdqa1lsRnJzNldoZjVNU0N2LU5PdTEyWFhtN3RhTXJCb0t2aWpZZEYyQms1eVZtY2ZpY3QwTWh6RllHUGxPOU5VS3RCOWZMMXJUc3BRamlYQVVzcXQ?oc=5",
+      "published_at": "2026-11-24T14:30:21+00:00"
+    },
+    {
       "title": "Hong Kong buildings blaze kills 36, nearly 300 missing",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPd2JkUEZBb1RHQ1RiYV9pbEUtZ0pTa1l5Vk8yRzNCY0ZJX1pNQmdIbEVzQTZRRC16cFZyWkh2RkozRXBOMHBsbU9VX0NZZWlJOHJQSm0wM3RjbVVMMWRWZG0tcXdwRDBwMzF0UW1SNUpZdzNuRk90OVI4TXNwS0dFYnAwLVFBWG92dlpNM2JKVTdFdS1QN0E?oc=5",
       "published_at": "2025-11-26T08:00:00+00:00"
     },
     {
-      "title": "Hong Kong high-rise fire death toll rises to 159 as authorities arrest 6 over failed fire alarms",
-      "source": "AP News",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNUnp0dXRBQldCQkhaNGxqUHVVNTc1WGNYM1d2SWhpaEF3UU9yMExkMFF4TnNJY3JOaDY5dUhlcUdtSXdFeUdvMmlvd3VjaElYNWRnN3B3a1lKeUpzQ2YtRDVmZHc1VVpuNU1MYmJGQ1RoMFVNRFZSbWFIdTM2cEZRSDF1RWRIUEM5Z2p1cXRnRmp0aHNl?oc=5",
+      "title": "'My heart breaks every time I'm called a hero' - Hong Kong fire survivor",
+      "source": "BBC",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFAyRGlLeEE0QUZ5ZlNhV0dpcFJTclRBeWFOajA5cUFJUzlnQkpIV0l2YTBUc19rU0ctTjFCYUFxVDdpYk1HQ2UzYXROZlBVTHR6VEpKcHlsbnd4Zw?oc=5",
       "published_at": "2025-12-03T08:00:00+00:00"
     },
     {
@@ -2015,6 +2022,12 @@
       "source": "AP News",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxONEtNTlFzQUotcXU1N1VCaXBGY0pYWnlqLWVfQ0F3WVl4YkdGMXBIZzdOczlFaFNnUUdZclhRVVlxNE5yVjhzektQSDh0YmRtaGVGQWk3UmNMbUljUjNmZ3NDMTh2dUhlNDdKMzBydnRGZ09EelN2anNjNTcyWkN5OTZkR25TUllOWjZ5SVhoVDJwZ245Q01lSVozd2dfdjRoRFhYTXo3LWtaaTgwanR2eURrMnY2ZEt5?oc=5",
       "published_at": "2026-11-25T20:40:00+00:00"
+    },
+    {
+      "title": "Fighting in eastern Congo forces Ebola workers to evacuate, threatening outbreak response",
+      "source": "AP News",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNRDFtT0M3ampBX21sZVc4a0VHSDhwMjcwdm16S2ltOE1SUnBEN29UbmhFQVg2d0U0cmVLTVdrU3k5TS15eWNsUGZKekFqYWFUdGlkTlpWTG93ZHlEUE5CRkJYV2ZfU3lQcUpYcEpiT2g2MXN1OHJWSzhPNWdsX2hwbHJPQVlvQm41UFBNZE5ES1N1d1FMZEkybDJ0ZVp0cHRpSWVibA?oc=5",
+      "published_at": "2026-11-25T19:29:00+00:00"
     },
     {
       "title": "Could renewed strikes on Hodeidah port worsen Yemen’s humanitarian crisis?",
@@ -2401,9 +2414,9 @@
       "published_at": "2026-05-22T07:00:00+00:00"
     },
     {
-      "title": "'My heart breaks every time I'm called a hero' - Hong Kong fire survivor",
-      "source": "BBC",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFAyRGlLeEE0QUZ5ZlNhV0dpcFJTclRBeWFOajA5cUFJUzlnQkpIV0l2YTBUc19rU0ctTjFCYUFxVDdpYk1HQ2UzYXROZlBVTHR6VEpKcHlsbnd4Zw?oc=5",
+      "title": "Hong Kong high-rise fire death toll rises to 159 as authorities arrest 6 over failed fire alarms",
+      "source": "AP News",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNUnp0dXRBQldCQkhaNGxqUHVVNTc1WGNYM1d2SWhpaEF3UU9yMExkMFF4TnNJY3JOaDY5dUhlcUdtSXdFeUdvMmlvd3VjaElYNWRnN3B3a1lKeUpzQ2YtRDVmZHc1VVpuNU1MYmJGQ1RoMFVNRFZSbWFIdTM2cEZRSDF1RWRIUEM5Z2p1cXRnRmp0aHNl?oc=5",
       "published_at": "2025-12-03T08:00:00+00:00"
     }
   ],
@@ -2411,36 +2424,45 @@
     "cdb241f775d6": {
       "version": 4,
       "query": "rips candy factory fire",
-      "at": "2026-11-26T07:17:24.957884+00:00",
+      "at": "2026-11-26T08:12:09.781933+00:00",
+      "stage": 3,
+      "matched": false,
+      "exhausted": true,
+      "searched_days": 730
+    },
+    "8ebe7b96eac0": {
+      "version": 4,
+      "query": "egypt health ministry fire",
+      "at": "2026-11-26T08:12:09.781933+00:00",
       "stage": 3,
       "matched": false,
       "exhausted": false,
       "searched_days": 365
     },
-    "8ebe7b96eac0": {
+    "da9a0e5b4425": {
       "version": 4,
-      "query": "egypt health ministry fire",
-      "at": "2026-11-26T07:17:24.957884+00:00",
+      "query": "sudan war drought",
+      "at": "2026-11-26T08:12:09.781933+00:00",
       "stage": 2,
       "matched": false,
       "exhausted": false,
       "searched_days": 180
     },
-    "da9a0e5b4425": {
-      "version": 4,
-      "query": "sudan war drought",
-      "at": "2026-11-26T07:17:24.957884+00:00",
-      "stage": 1,
-      "matched": false,
-      "exhausted": false,
-      "searched_days": 30
-    },
     "868aaefcb642": {
       "version": 4,
       "query": "apple minimax ai safety",
-      "at": "2026-11-26T07:17:24.957884+00:00",
-      "stage": 1,
+      "at": "2026-11-26T08:12:09.781933+00:00",
+      "stage": 2,
       "matched": false,
+      "exhausted": false,
+      "searched_days": 180
+    },
+    "80dcb20cb4fc": {
+      "version": 4,
+      "query": "fighting congo ebola outbreak",
+      "at": "2026-11-26T08:12:09.781933+00:00",
+      "stage": 0,
+      "matched": true,
       "exhausted": false,
       "searched_days": 30
     },
