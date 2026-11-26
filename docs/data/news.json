@@ -1,7 +1,114 @@
 {
-  "generated_at": "2026-11-25T23:18:17.119740+00:00",
+  "generated_at": "2026-11-26T00:12:26.372923+00:00",
   "model_mode": "sentence-transformers",
   "stories": [
+    {
+      "id": "8ebe7b96eac0",
+      "title": "At least 30 killed in Egypt vehicle fire, health ministry says",
+      "summary": "An additional 15 were injured in blaze after vehicle carrying petroleum products flipped on a major road.",
+      "image": "",
+      "category": "World",
+      "importance": "Major",
+      "background_only": false,
+      "score": 76.7,
+      "published_at": "2026-11-25T22:18:06+00:00",
+      "source_count": 3,
+      "reasons": [
+        "reported fatalities",
+        "significant accident with human impact",
+        "3 trusted sources",
+        "rapid cross-source coverage"
+      ],
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQek1Ma05abHVBcXY5WHhUQWpvTUJKZl82T0xDWjVqc2dqdDRvdnMtNFFRLUhHdFgtU3d4eEFnd3UycFdxMTF5d3N2U010UGRuR3NPU2VHQzYzeGd1dndCSlVPWjJkeUZGZUpzcXQyM3h4aXZHRGl4eS1kV3NUVjhfYVYyZExXVnVMQmoxWGV4TUYzRFNCZHQ1YnNWMFJ3QzZweUY0SXFDeko3YnFILURaUmVvNGVqd1RkMFlfZEhB?oc=5",
+          "published_at": "2026-11-25T21:56:16+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cqy7rn30v314o?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-11-25T22:18:06+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/25/aje-onl-nf_dozens-killed-in-egypt-vehicle-fire-251126?traffic_source=rss",
+          "published_at": "2026-11-25T19:41:14+00:00",
+          "paywalled": false
+        }
+      ],
+      "lead_url": "https://www.aljazeera.com/news/2026/11/25/at-least-30-killed-in-egypt-vehicle-fire-health-ministry-says?traffic_source=rss",
+      "first_reported_at": "2026-11-25T21:43:17+00:00",
+      "update_count": 1,
+      "updated": true,
+      "coverage_history": [
+        {
+          "at": "2026-11-25T22:37:18.712208+00:00",
+          "source_count": 2
+        },
+        {
+          "at": "2026-11-25T23:18:17.119740+00:00",
+          "source_count": 2
+        },
+        {
+          "at": "2026-11-26T00:12:26.372923+00:00",
+          "source_count": 3
+        }
+      ],
+      "context": {
+        "earlier_reporting": [],
+        "coverage_from": null,
+        "search_query": "egypt fire vehicle",
+        "search_days": 730,
+        "searched_days": 730,
+        "search_status": "searched"
+      }
+    },
+    {
+      "id": "ff1c966f37cd",
+      "title": "Libyan officers die after Ukrainian strike, a highway fire in Egypt kills 30, and other Mideast news",
+      "summary": "Libyan officers die after Ukrainian strike, a highway fire in Egypt kills 30, and other Mideast news AP News",
+      "image": "",
+      "category": "World",
+      "importance": "Major",
+      "background_only": false,
+      "score": 72.1,
+      "published_at": "2026-11-25T20:40:00+00:00",
+      "source_count": 1,
+      "reasons": [
+        "reported fatalities",
+        "mass-casualty attack",
+        "significant accident with human impact"
+      ],
+      "sources": [
+        {
+          "name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxONEtNTlFzQUotcXU1N1VCaXBGY0pYWnlqLWVfQ0F3WVl4YkdGMXBIZzdOczlFaFNnUUdZclhRVVlxNE5yVjhzektQSDh0YmRtaGVGQWk3UmNMbUljUjNmZ3NDMTh2dUhlNDdKMzBydnRGZ09EelN2anNjNTcyWkN5OTZkR25TUllOWjZ5SVhoVDJwZ245Q01lSVozd2dfdjRoRFhYTXo3LWtaaTgwanR2eURrMnY2ZEt5?oc=5",
+          "published_at": "2026-11-25T20:40:00+00:00",
+          "paywalled": false
+        }
+      ],
+      "lead_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxONEtNTlFzQUotcXU1N1VCaXBGY0pYWnlqLWVfQ0F3WVl4YkdGMXBIZzdOczlFaFNnUUdZclhRVVlxNE5yVjhzektQSDh0YmRtaGVGQWk3UmNMbUljUjNmZ3NDMTh2dUhlNDdKMzBydnRGZ09EelN2anNjNTcyWkN5OTZkR25TUllOWjZ5SVhoVDJwZ245Q01lSVozd2dfdjRoRFhYTXo3LWtaaTgwanR2eURrMnY2ZEt5?oc=5",
+      "first_reported_at": "2026-11-25T20:40:00+00:00",
+      "update_count": 0,
+      "updated": false,
+      "coverage_history": [
+        {
+          "at": "2026-11-26T00:12:26.372923+00:00",
+          "source_count": 1
+        }
+      ],
+      "context": {
+        "earlier_reporting": [],
+        "coverage_from": null,
+        "search_query": "libyan ukrainian egypt strike fire",
+        "search_days": 730,
+        "searched_days": 30,
+        "search_status": "searched"
+      }
+    },
     {
       "id": "5ceed16d1376",
       "title": "31 dead in huge blast following crash on Ring Road near Al-Warraq, Giza",
@@ -38,123 +145,16 @@
         {
           "at": "2026-11-25T23:18:17.119740+00:00",
           "source_count": 1
+        },
+        {
+          "at": "2026-11-26T00:12:26.372923+00:00",
+          "source_count": 1
         }
       ],
       "context": {
         "earlier_reporting": [],
         "coverage_from": null,
         "search_query": "ring road giza explosion crash",
-        "search_days": 730,
-        "searched_days": 180,
-        "search_status": "searched"
-      }
-    },
-    {
-      "id": "8ebe7b96eac0",
-      "title": "At least 30 killed in Egypt vehicle fire, health ministry says",
-      "summary": "At least 30 killed in Egypt vehicle fire, health ministry says Al Jazeera",
-      "image": "",
-      "category": "World",
-      "importance": "Major",
-      "background_only": false,
-      "score": 64.2,
-      "published_at": "2026-11-25T21:43:17+00:00",
-      "source_count": 2,
-      "reasons": [
-        "reported fatalities",
-        "significant accident with human impact",
-        "2 trusted sources"
-      ],
-      "sources": [
-        {
-          "name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQek1Ma05abHVBcXY5WHhUQWpvTUJKZl82T0xDWjVqc2dqdDRvdnMtNFFRLUhHdFgtU3d4eEFnd3UycFdxMTF5d3N2U010UGRuR3NPU2VHQzYzeGd1dndCSlVPWjJkeUZGZUpzcXQyM3h4aXZHRGl4eS1kV3NUVjhfYVYyZExXVnVMQmoxWGV4TUYzRFNCZHQ1YnNWMFJ3QzZweUY0SXFDeko3YnFILURaUmVvNGVqd1RkMFlfZEhB?oc=5",
-          "published_at": "2026-11-25T20:38:09+00:00",
-          "paywalled": false
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/25/aje-onl-nf_dozens-killed-in-egypt-vehicle-fire-251126?traffic_source=rss",
-          "published_at": "2026-11-25T19:41:14+00:00",
-          "paywalled": false
-        }
-      ],
-      "lead_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQTlU0RXBRWWJMUXd0Z01rcmhMeTI0V1hJLVdXUUY3eEhwb2w2R0pza2RxSnZyd044elUxX3UyemhQTG5wN1VadlphRjE2SGJvMmlRQ0N0TGRScDlwYUVWejFyX0FDMWpQZGJkZWZTSmxia2tTUkZQSFZ1XzBzNVU1ZVB5cFBGblBxWGtfb2ZXZGxTNGRzWlNBdkJaTm9tdWVlQTJfNnJB0gGrAUFVX3lxTFBxMmtCU1JWQ2xhSXBTMEczWEc0MGpvSExWY2xIcEl4VFZCOGdNRWg0ZFJxSzZZek52aV9pdUVFcFdUSEh1YmlVSmRQUU53RzE1dVhkZzc4RWZxSzEtNUZZbUNvbkFJU1hRdDljX21MY0xIZ2NmbGRKZXc3NkFkRTVhdTJZdExmYVJObVNNWk1Hd2EtdHJSb0lCRmplNC1XcXVfd3pnVS03MHkxaw?oc=5",
-      "first_reported_at": "2026-11-25T21:43:17+00:00",
-      "update_count": 0,
-      "updated": false,
-      "coverage_history": [
-        {
-          "at": "2026-11-25T22:37:18.712208+00:00",
-          "source_count": 2
-        },
-        {
-          "at": "2026-11-25T23:18:17.119740+00:00",
-          "source_count": 2
-        }
-      ],
-      "context": {
-        "earlier_reporting": [],
-        "coverage_from": null,
-        "search_query": "egypt fire vehicle",
-        "search_days": 730,
-        "searched_days": 730,
-        "search_status": "searched"
-      }
-    },
-    {
-      "id": "b9a8fe3004a6",
-      "title": "Thirty-one killed in massive fire as fuel tanker crashes on Cairo highway",
-      "summary": "Another 21 are injured after the tanker reportedly overturns on a busy ring road in the Egyptian capital.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2d4b/live/5e57daf0-e91f-11f1-9108-c5b270b0703d.jpg",
-      "category": "World",
-      "importance": "Major",
-      "background_only": false,
-      "score": 57.8,
-      "published_at": "2026-11-25T22:18:06+00:00",
-      "source_count": 1,
-      "reasons": [
-        "reported fatalities",
-        "significant accident with human impact"
-      ],
-      "sources": [
-        {
-          "name": "BBC World",
-          "url": "https://www.bbc.co.uk/news/articles/cqy7rn30v314o?at_medium=RSS&at_campaign=rss",
-          "published_at": "2026-11-25T22:18:06+00:00",
-          "paywalled": false
-        }
-      ],
-      "lead_url": "https://www.bbc.co.uk/news/articles/cqy7rn30v314o?at_medium=RSS&at_campaign=rss",
-      "first_reported_at": "2026-11-25T18:27:32+00:00",
-      "update_count": 3,
-      "updated": false,
-      "coverage_history": [
-        {
-          "at": "2026-11-25T19:52:04.605723+00:00",
-          "source_count": 1
-        },
-        {
-          "at": "2026-11-25T20:47:10.474938+00:00",
-          "source_count": 1
-        },
-        {
-          "at": "2026-11-25T21:42:22.933198+00:00",
-          "source_count": 6
-        },
-        {
-          "at": "2026-11-25T22:37:18.712208+00:00",
-          "source_count": 1
-        },
-        {
-          "at": "2026-11-25T23:18:17.119740+00:00",
-          "source_count": 1
-        }
-      ],
-      "context": {
-        "earlier_reporting": [],
-        "coverage_from": null,
-        "search_query": "cairo fire crash",
         "search_days": 730,
         "searched_days": 365,
         "search_status": "searched"
@@ -189,10 +189,6 @@
       "update_count": 6,
       "updated": false,
       "coverage_history": [
-        {
-          "at": "2026-11-25T13:52:05.760808+00:00",
-          "source_count": 1
-        },
         {
           "at": "2026-11-25T14:17:24.724951+00:00",
           "source_count": 1
@@ -235,6 +231,10 @@
         },
         {
           "at": "2026-11-25T23:18:17.119740+00:00",
+          "source_count": 1
+        },
+        {
+          "at": "2026-11-26T00:12:26.372923+00:00",
           "source_count": 1
         }
       ],
@@ -293,6 +293,10 @@
         {
           "at": "2026-11-25T23:18:17.119740+00:00",
           "source_count": 1
+        },
+        {
+          "at": "2026-11-26T00:12:26.372923+00:00",
+          "source_count": 1
         }
       ],
       "context": {
@@ -333,10 +337,6 @@
       "updated": false,
       "coverage_history": [
         {
-          "at": "2026-11-25T13:52:05.760808+00:00",
-          "source_count": 1
-        },
-        {
           "at": "2026-11-25T14:17:24.724951+00:00",
           "source_count": 1
         },
@@ -379,6 +379,10 @@
         {
           "at": "2026-11-25T23:18:17.119740+00:00",
           "source_count": 1
+        },
+        {
+          "at": "2026-11-26T00:12:26.372923+00:00",
+          "source_count": 1
         }
       ],
       "context": {
@@ -387,6 +391,72 @@
         "search_query": "ai safety test",
         "search_days": 730,
         "searched_days": 730,
+        "search_status": "searched"
+      }
+    },
+    {
+      "id": "4d380d6cbdf1",
+      "title": "At least 30 killed, 15 injured in fuel tanker explosion near Cairo",
+      "summary": "At least 30 killed, 15 injured in fuel tanker explosion near Cairo upi",
+      "image": "",
+      "category": "World",
+      "importance": "Major",
+      "background_only": false,
+      "score": 54.8,
+      "published_at": "2026-11-25T23:29:00+00:00",
+      "source_count": 5,
+      "reasons": [
+        "reported fatalities",
+        "significant accident with human impact"
+      ],
+      "sources": [
+        {
+          "name": "The Guardian",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPdGpVQVRrYmUxY1U1aU9SZVFkalpJS18zWXZaakhTeWNZRDBKTnI5blpSM2Y1Umo4QkFsV09ITGxJcjVSVXRoY3UyUmlGYjlPdXc2YVJjd2VlaGZIcnphNGJFMHc2NUozZFE3OGlIaEJuRlEwVWxhSmtHTHpJLTU5MkV6UkZHLWF2eDJPWDVFemppdDRGSG1wa01zZkJla0M5RzdMZmwtTmR2eHF0RlBj?oc=5",
+          "published_at": "2026-11-25T23:29:00+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "upi",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNUktFcC05czFVT0xrNDBuc1BRMXdrNkszOE9pT2xWenVUZTY3ZktYSmlJTDZCQXFzTDV3c3hDVGhVNkpVV1pEOWNoRzFwZFFndzZ2Tlk2bUdUYXFydF8tdWp2VksxYmxFdDZnRnl5TW83SWdfRXQyaW5MZ3diUjZZdlhuaEE1MTZGS3ZnedIBkgFBVV95cUxQYnVZZ3RaZXhQdG9WejJhajBueE5IV25fNWQzUWx5Rkc4azVwa0lhSHExeW83Z211QzNwYk5Ya3hsSkdKaktYMkNzSEpTQ2dHcnRoOEZZTGJ0SDV5RVI0SWdyd2k4MUdLTFc1VEpqU2FjdmxuNFNBdGNBVzZrRlhZN2JlbmxNcEN3ZklDODFWR0xQUQ?oc=5",
+          "published_at": "2026-11-25T21:12:12+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "The National",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOR1hlSEtNU0prWG0tUzBvTUZKRXJqOTAtZ09MV1hvQWVvR3ZjLWNmal9QN0hWc25ZMUVueUw4UnN4cVc0V3ZKTjcyczczVWcwWXdMWVl2NFF5YlFZSG5VN2FJTXhCVVRDMGJwUkJ4S0ZhdVh6SG5xRnNfZ1dPZ185b3ZZUVpLZ2YtdEZkeGEzc1B6ZjdvQ1lUdE1iTXFRbFZiWFgtamFzOHZZQQ?oc=5",
+          "published_at": "2026-11-25T20:56:38+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "Al-Monitor",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQR0FjcFF6WDZoVDBxNUt5Y0tFSzlTUWh1NTdJQWJNWHc5U2M0TmJqZjhsNEFyR1AtVzJTaTEzMXhQclFoWWlydVFDSG00d1BhaDk5QWVhZzZPNk1iNWI1Tm83VEdrMmNrNHkxdnBCckJxdTgtMEtqZGZHOXVMLWRVMFBWUHNvY2lSVDVEWjM4UEs?oc=5",
+          "published_at": "2026-11-25T20:53:49+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "CNN",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQeTJmR04yZEpMbGJiNFYtb1pZWFFiLWw3aThnRHpoZnFWN2R4eHN6U1Bka1VUZ1ZtbjcwQ1B5NXJfMDlDNFBpbC00bTFLMmhTVW5IZU15U3IweVU0QmJmT1RYaFdZNkRaLXJkSjZjNHhsR3Y1MzZ2UUk4NTYzbTgxbkdB?oc=5",
+          "published_at": "2026-11-25T18:44:38+00:00",
+          "paywalled": false
+        }
+      ],
+      "lead_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNUktFcC05czFVT0xrNDBuc1BRMXdrNkszOE9pT2xWenVUZTY3ZktYSmlJTDZCQXFzTDV3c3hDVGhVNkpVV1pEOWNoRzFwZFFndzZ2Tlk2bUdUYXFydF8tdWp2VksxYmxFdDZnRnl5TW83SWdfRXQyaW5MZ3diUjZZdlhuaEE1MTZGS3ZnedIBkgFBVV95cUxQYnVZZ3RaZXhQdG9WejJhajBueE5IV25fNWQzUWx5Rkc4azVwa0lhSHExeW83Z211QzNwYk5Ya3hsSkdKaktYMkNzSEpTQ2dHcnRoOEZZTGJ0SDV5RVI0SWdyd2k4MUdLTFc1VEpqU2FjdmxuNFNBdGNBVzZrRlhZN2JlbmxNcEN3ZklDODFWR0xQUQ?oc=5",
+      "first_reported_at": "2026-11-25T23:29:00+00:00",
+      "update_count": 0,
+      "updated": false,
+      "coverage_history": [
+        {
+          "at": "2026-11-26T00:12:26.372923+00:00",
+          "source_count": 5
+        }
+      ],
+      "context": {
+        "earlier_reporting": [],
+        "coverage_from": null,
+        "search_query": "cairo explosion injured",
+        "search_days": 730,
+        "searched_days": 30,
         "search_status": "searched"
       }
     },
@@ -419,10 +489,6 @@
       "updated": false,
       "coverage_history": [
         {
-          "at": "2026-11-25T13:52:05.760808+00:00",
-          "source_count": 2
-        },
-        {
           "at": "2026-11-25T14:17:24.724951+00:00",
           "source_count": 1
         },
@@ -464,6 +530,10 @@
         },
         {
           "at": "2026-11-25T23:18:17.119740+00:00",
+          "source_count": 1
+        },
+        {
+          "at": "2026-11-26T00:12:26.372923+00:00",
           "source_count": 1
         }
       ],
@@ -534,6 +604,10 @@
         {
           "at": "2026-11-25T23:18:17.119740+00:00",
           "source_count": 1
+        },
+        {
+          "at": "2026-11-26T00:12:26.372923+00:00",
+          "source_count": 1
         }
       ],
       "context": {
@@ -567,7 +641,7 @@
       "importance": "Major",
       "background_only": false,
       "score": 52.6,
-      "published_at": "2026-11-25T22:43:00+00:00",
+      "published_at": "2026-11-25T23:44:00+00:00",
       "source_count": 1,
       "reasons": [
         "reported fatalities",
@@ -577,17 +651,21 @@
         {
           "name": "AP News",
           "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOeEh3VHJBUW9yQzVjTncwWGNBRkN2U0wtbkJxWHpkU2JXSmE2Ukc2Q25aUXZ3ZVVsN2lPd1JUTnE4ZUNxTDNIMXEwRXJZV01ZVGVwaERxdXdjMTZjWGQxaVpXSTBIWEtoTDNhZXdBcW5ESVdvUGhiLVpXYUFUMHRJQkVWZmNDM29CUS04cUx3?oc=5",
-          "published_at": "2026-11-25T22:43:00+00:00",
+          "published_at": "2026-11-25T23:44:00+00:00",
           "paywalled": false
         }
       ],
       "lead_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOeEh3VHJBUW9yQzVjTncwWGNBRkN2U0wtbkJxWHpkU2JXSmE2Ukc2Q25aUXZ3ZVVsN2lPd1JUTnE4ZUNxTDNIMXEwRXJZV01ZVGVwaERxdXdjMTZjWGQxaVpXSTBIWEtoTDNhZXdBcW5ESVdvUGhiLVpXYUFUMHRJQkVWZmNDM29CUS04cUx3?oc=5",
       "first_reported_at": "2026-11-25T22:43:00+00:00",
-      "update_count": 0,
-      "updated": false,
+      "update_count": 1,
+      "updated": true,
       "coverage_history": [
         {
           "at": "2026-11-25T23:18:17.119740+00:00",
+          "source_count": 1
+        },
+        {
+          "at": "2026-11-26T00:12:26.372923+00:00",
           "source_count": 1
         }
       ],
@@ -596,7 +674,7 @@
         "coverage_from": null,
         "search_query": "plane mississippi crash",
         "search_days": 730,
-        "searched_days": 30,
+        "searched_days": 180,
         "search_status": "searched"
       }
     },
@@ -630,6 +708,10 @@
       "coverage_history": [
         {
           "at": "2026-11-25T23:18:17.119740+00:00",
+          "source_count": 1
+        },
+        {
+          "at": "2026-11-26T00:12:26.372923+00:00",
           "source_count": 1
         }
       ],
@@ -670,10 +752,6 @@
       "update_count": 9,
       "updated": false,
       "coverage_history": [
-        {
-          "at": "2026-11-25T13:52:05.760808+00:00",
-          "source_count": 1
-        },
         {
           "at": "2026-11-25T14:17:24.724951+00:00",
           "source_count": 1
@@ -716,6 +794,10 @@
         },
         {
           "at": "2026-11-25T23:18:17.119740+00:00",
+          "source_count": 1
+        },
+        {
+          "at": "2026-11-26T00:12:26.372923+00:00",
           "source_count": 1
         }
       ],
@@ -790,12 +872,58 @@
         {
           "at": "2026-11-25T23:18:17.119740+00:00",
           "source_count": 1
+        },
+        {
+          "at": "2026-11-26T00:12:26.372923+00:00",
+          "source_count": 1
         }
       ],
       "context": {
         "earlier_reporting": [],
         "coverage_from": null,
         "search_query": "canadian astronaut welcomes",
+        "search_days": 730,
+        "searched_days": 730,
+        "search_status": "searched"
+      }
+    },
+    {
+      "id": "231a40545049",
+      "title": "Massive factory explosion leaves 17 dead and 12 injured in Izmir, Turkey",
+      "summary": "Massive factory explosion leaves 17 dead and 12 injured in Izmir, Turkey Hispanatolia",
+      "image": "",
+      "category": "Europe/UK",
+      "importance": "Major",
+      "background_only": false,
+      "score": 50.3,
+      "published_at": "2026-11-24T17:33:20+00:00",
+      "source_count": 1,
+      "reasons": [
+        "reported fatalities",
+        "significant accident with human impact"
+      ],
+      "sources": [
+        {
+          "name": "Hispanatolia",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOdFFEMlQyTVp3MDVnSVpYUDlxc0xNQ2xRaVEwMENoVElUa3RjWFYtUU1BTjNVWXdvTTZQaVQyUzNjUUlnSjAzR3FFbk9kRHFaaVdhUkQyYXV4Xy1WWlFaZmVvUDhILVQ3RVY5QXVUN2YycjhJa0dTSDZDSldoa05FNXdRaWw0RmNISnMyY21aaURpQm5XUDBtRExLNTBlUEJLTUE?oc=5",
+          "published_at": "2026-11-24T17:33:20+00:00",
+          "paywalled": false
+        }
+      ],
+      "lead_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOdFFEMlQyTVp3MDVnSVpYUDlxc0xNQ2xRaVEwMENoVElUa3RjWFYtUU1BTjNVWXdvTTZQaVQyUzNjUUlnSjAzR3FFbk9kRHFaaVdhUkQyYXV4Xy1WWlFaZmVvUDhILVQ3RVY5QXVUN2YycjhJa0dTSDZDSldoa05FNXdRaWw0RmNISnMyY21aaURpQm5XUDBtRExLNTBlUEJLTUE?oc=5",
+      "first_reported_at": "2026-11-24T17:33:20+00:00",
+      "update_count": 0,
+      "updated": false,
+      "coverage_history": [
+        {
+          "at": "2026-11-26T00:12:26.372923+00:00",
+          "source_count": 1
+        }
+      ],
+      "context": {
+        "earlier_reporting": [],
+        "coverage_from": null,
+        "search_query": "massive izmir turkey explosion",
         "search_days": 730,
         "searched_days": 730,
         "search_status": "searched"
@@ -827,12 +955,8 @@
       "lead_url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBkZDB3bVdUM2xISHUxRU5MdWdYbUF1WFV2RkN4WWxIM0xGTlZIbG9xU0s0YndDUXo5WVNFUndqWlotWGJmS1ZMakFQTGYzX1ExbEhsbVlKc3RWUS1LT05mbFdEY2tpeWkzWHJNOEppSmptdDRmcEJiWGJPNDFEZw?oc=5",
       "first_reported_at": "2026-11-23T10:45:26+00:00",
       "update_count": 8,
-      "updated": true,
+      "updated": false,
       "coverage_history": [
-        {
-          "at": "2026-11-25T13:52:05.760808+00:00",
-          "source_count": 2
-        },
         {
           "at": "2026-11-25T14:17:24.724951+00:00",
           "source_count": 1
@@ -876,6 +1000,10 @@
         {
           "at": "2026-11-25T23:18:17.119740+00:00",
           "source_count": 1
+        },
+        {
+          "at": "2026-11-26T00:12:26.372923+00:00",
+          "source_count": 1
         }
       ],
       "context": {
@@ -883,7 +1011,7 @@
         "coverage_from": null,
         "search_query": "rips candy factory fire",
         "search_days": 730,
-        "searched_days": 30,
+        "searched_days": 180,
         "search_status": "searched"
       }
     },
@@ -917,6 +1045,10 @@
       "coverage_history": [
         {
           "at": "2026-11-25T23:18:17.119740+00:00",
+          "source_count": 1
+        },
+        {
+          "at": "2026-11-26T00:12:26.372923+00:00",
           "source_count": 1
         }
       ],
@@ -980,6 +1112,10 @@
         {
           "at": "2026-11-25T23:18:17.119740+00:00",
           "source_count": 1
+        },
+        {
+          "at": "2026-11-26T00:12:26.372923+00:00",
+          "source_count": 1
         }
       ],
       "context": {
@@ -1000,7 +1136,7 @@
       "importance": "Major",
       "background_only": false,
       "score": 47.5,
-      "published_at": "2026-11-25T20:28:00+00:00",
+      "published_at": "2026-11-25T22:04:00+00:00",
       "source_count": 1,
       "reasons": [
         "significant public impact",
@@ -1016,8 +1152,8 @@
       ],
       "lead_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQRC1pbmw0S04yVGtzUkRuLUhnWGl1ejJHWW9DZXRoZW5ueC1pNFRVMTZOaXlGaDNkQUNjeFh6d1hUbm9hcVhGUEhfRVBIX3BHS1JtdUQ1REQ0YlRzZVVBRHJYVFBxT19WeEdGQXZKdFdpeTNDR2FHel93ZC1iZ1RPX3NmSlU?oc=5",
       "first_reported_at": "2026-11-25T18:40:00+00:00",
-      "update_count": 1,
-      "updated": false,
+      "update_count": 2,
+      "updated": true,
       "coverage_history": [
         {
           "at": "2026-11-25T18:57:18.796437+00:00",
@@ -1041,6 +1177,10 @@
         },
         {
           "at": "2026-11-25T23:18:17.119740+00:00",
+          "source_count": 1
+        },
+        {
+          "at": "2026-11-26T00:12:26.372923+00:00",
           "source_count": 1
         }
       ],
@@ -1107,10 +1247,6 @@
       "updated": false,
       "coverage_history": [
         {
-          "at": "2026-11-25T13:52:05.760808+00:00",
-          "source_count": 1
-        },
-        {
           "at": "2026-11-25T14:17:24.724951+00:00",
           "source_count": 1
         },
@@ -1152,6 +1288,10 @@
         },
         {
           "at": "2026-11-25T23:18:17.119740+00:00",
+          "source_count": 1
+        },
+        {
+          "at": "2026-11-26T00:12:26.372923+00:00",
           "source_count": 1
         }
       ],
@@ -1222,6 +1362,10 @@
         {
           "at": "2026-11-25T23:18:17.119740+00:00",
           "source_count": 2
+        },
+        {
+          "at": "2026-11-26T00:12:26.372923+00:00",
+          "source_count": 2
         }
       ],
       "context": {
@@ -1264,6 +1408,10 @@
         {
           "at": "2026-11-25T23:18:17.119740+00:00",
           "source_count": 1
+        },
+        {
+          "at": "2026-11-26T00:12:26.372923+00:00",
+          "source_count": 1
         }
       ],
       "context": {
@@ -1271,47 +1419,47 @@
         "coverage_from": null,
         "search_query": "different chinese astronaut",
         "search_days": 730,
-        "searched_days": 365,
+        "searched_days": 730,
         "search_status": "searched"
       }
     },
     {
-      "id": "18b9b3b87ad8",
-      "title": "Cholera outbreak kills 55 in Niger: UN agency",
-      "summary": "Cholera outbreak kills 55 in Niger: UN agency Yeni Safak English",
+      "id": "a3bdd39dfde0",
+      "title": "China: 8 dead after houses collapse in industrial area",
+      "summary": "China: 8 dead after houses collapse in industrial area Yeni Safak English",
       "image": "",
       "category": "World",
       "importance": "Major",
       "background_only": false,
       "score": 46.2,
-      "published_at": "2026-11-25T09:04:04+00:00",
+      "published_at": "2026-11-24T15:21:52+00:00",
       "source_count": 1,
       "reasons": [
-        "high-impact event",
-        "reported fatalities"
+        "reported fatalities",
+        "significant accident with human impact"
       ],
       "sources": [
         {
           "name": "Yeni Safak English",
-          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQaXNFT2ZJRXY5c1BDbEd1MzRHTmpUaDRiaXhxZEtDSUdBV0xadmFSVDV2TFlJcThUb1h4OXRUSnBuT3dza2NSc2JHQ0pzZUs0QjFXRFFBMXBQa1RveGZ5OUVNa1N0ZXJfQTBPTVdlNHp4Mk4tOGJiZU1jX1BUMWwzWHVQWmwzVlRmSXdN?oc=5",
-          "published_at": "2026-11-25T09:04:04+00:00",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQRDFlZzRZLVlWdF85c0V2Q25SNnBBYWJXVV82STRYbjQ0Um5MNXpNWjdoRkpTWUxrY1B0cWR6amlPVWM0MGI0VXVpV0xIOWF3SW1NV0NRcEdsa1dUU1dvbzBtUDVYbHp5aEtQdGlmbGZKb2ZWS3loQ1FxZl9lTzg3Rkp4b3BEckFBQ2JuaGNaQS1WTkE0MGFF?oc=5",
+          "published_at": "2026-11-24T15:21:52+00:00",
           "paywalled": false
         }
       ],
-      "lead_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQaXNFT2ZJRXY5c1BDbEd1MzRHTmpUaDRiaXhxZEtDSUdBV0xadmFSVDV2TFlJcThUb1h4OXRUSnBuT3dza2NSc2JHQ0pzZUs0QjFXRFFBMXBQa1RveGZ5OUVNa1N0ZXJfQTBPTVdlNHp4Mk4tOGJiZU1jX1BUMWwzWHVQWmwzVlRmSXdN?oc=5",
-      "first_reported_at": "2026-11-25T09:04:04+00:00",
+      "lead_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQRDFlZzRZLVlWdF85c0V2Q25SNnBBYWJXVV82STRYbjQ0Um5MNXpNWjdoRkpTWUxrY1B0cWR6amlPVWM0MGI0VXVpV0xIOWF3SW1NV0NRcEdsa1dUU1dvbzBtUDVYbHp5aEtQdGlmbGZKb2ZWS3loQ1FxZl9lTzg3Rkp4b3BEckFBQ2JuaGNaQS1WTkE0MGFF?oc=5",
+      "first_reported_at": "2026-11-24T15:21:52+00:00",
       "update_count": 0,
       "updated": false,
       "coverage_history": [
         {
-          "at": "2026-11-25T23:18:17.119740+00:00",
+          "at": "2026-11-26T00:12:26.372923+00:00",
           "source_count": 1
         }
       ],
       "context": {
         "earlier_reporting": [],
         "coverage_from": null,
-        "search_query": "cholera niger un outbreak",
+        "search_query": "china collapse dead",
         "search_days": 730,
         "searched_days": 730,
         "search_status": "searched"
@@ -1361,6 +1509,10 @@
         {
           "at": "2026-11-25T23:18:17.119740+00:00",
           "source_count": 3
+        },
+        {
+          "at": "2026-11-26T00:12:26.372923+00:00",
+          "source_count": 3
         }
       ],
       "context": {
@@ -1368,7 +1520,7 @@
         "coverage_from": null,
         "search_query": "bangladesh protest raises",
         "search_days": 730,
-        "searched_days": 30,
+        "searched_days": 180,
         "search_status": "searched"
       }
     },
@@ -1419,6 +1571,10 @@
         {
           "at": "2026-11-25T23:18:17.119740+00:00",
           "source_count": 1
+        },
+        {
+          "at": "2026-11-26T00:12:26.372923+00:00",
+          "source_count": 1
         }
       ],
       "context": {
@@ -1458,10 +1614,6 @@
       "update_count": 0,
       "updated": false,
       "coverage_history": [
-        {
-          "at": "2026-11-25T13:52:05.760808+00:00",
-          "source_count": 1
-        },
         {
           "at": "2026-11-25T14:17:24.724951+00:00",
           "source_count": 1
@@ -1505,6 +1657,10 @@
         {
           "at": "2026-11-25T23:18:17.119740+00:00",
           "source_count": 1
+        },
+        {
+          "at": "2026-11-26T00:12:26.372923+00:00",
+          "source_count": 1
         }
       ],
       "context": {
@@ -1514,6 +1670,67 @@
         "search_days": 730,
         "searched_days": 730,
         "search_status": "searched"
+      }
+    },
+    {
+      "id": "43eba89f26a1",
+      "title": "Houthis target Saudi Arabia’s Red Sea ports as strikes escalate",
+      "summary": "Explosion reported in Sanaa after Saudi air defenses intercept ballistic missiles targeting Riyadh.",
+      "image": "",
+      "category": "Middle East",
+      "importance": "Notable",
+      "background_only": false,
+      "score": 41.5,
+      "published_at": "2026-11-25T23:33:39+00:00",
+      "source_count": 2,
+      "reasons": [
+        "high-impact event",
+        "2 trusted sources"
+      ],
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPbmE5cEFGWGFLVzVEUlVvWlE5NzJaT2p0MTUxclgxejJ2ZHJPbTQ5d1BLNzh6R2tFb251aWQ4dHBUTDRtaTlETkVick9uV1hKVkdZSjNPbFk5M2NBd1oxQXptdzAtLS1zVzlidDBDVXBmWFAyVnRzMGRmZHNGZVk4T3Y1aV9ycGZFcWxGejZ0T29BbG9EUks5QjZ0bzFVRG05YlVQemt4UDdDSEY5cUZrYzNsSU9VMGVX?oc=5",
+          "published_at": "2026-11-25T02:42:00+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/25/houthis-target-saudi-arabias-red-sea-ports-as-strikes-escalate?traffic_source=rss",
+          "published_at": "2026-11-25T23:33:39+00:00",
+          "paywalled": false
+        }
+      ],
+      "lead_url": "https://www.aljazeera.com/news/2026/11/25/houthis-target-saudi-arabias-red-sea-ports-as-strikes-escalate?traffic_source=rss",
+      "first_reported_at": "2026-11-25T23:33:39+00:00",
+      "update_count": 0,
+      "updated": false,
+      "coverage_history": [
+        {
+          "at": "2026-11-26T00:12:26.372923+00:00",
+          "source_count": 2
+        }
+      ],
+      "context": {
+        "earlier_reporting": [
+          {
+            "title": "Are Houthis using Russian satellites as Saudi Arabia fends off strikes?",
+            "source": "Al Jazeera",
+            "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOR2JnM09TN0huWnRSdGZZMmtwLW51Q1lCM3lBWU1fMUl1YlR2Y203ckZKekRZREM5akNOMmpYTEo1VzFzQkItQmRxb0RxMHZnWGdpekdxNnZCdTVwR196NDJIekRjX00tYjlHVDlwcjVaRVh4ZjNJYTA4UTh0RWc5ZGM4QUtaQW1vVl81YUFpOHQ2dFBCUjFwaHR1c1h5VS0tTC0wRE1kNUXSAa4BQVVfeXFMTTNRV2V3eWthVkMtZTMzdHRIc2hBZ0wwRW1pNDk1MVRMQjg4NGZiSnFGLTJWZ21DWmJaT3A5OWR6aUYwQnlIMTNFUnZTd0Zma3JvSHp6RF9IcFo0cFZlT285RzZLc2NXZzIwVVFJenNWUFhrY3dvUDZReW9iRGFsazcyMGRQOEhnN0kzZTNvb3RfWmR6cGhxbVE0cE1EOGRpdnFOb1d4bWdHSHdURHVR?oc=5",
+            "published_at": "2026-10-31T07:00:00+00:00"
+          },
+          {
+            "title": "Yemen’s Houthis renew strikes on Saudi Arabia as UNSC extends sanctions",
+            "source": "Al Jazeera",
+            "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNczh4SThZNndlcnhvbjZxLWgzZ0x1Ym5zRUt0WHQ1V1k3dW54dDFGNFFGa015aE9NLVNBanFwNVB6S1JPLWp0ZEswUGpDc1pwRWtTbzJZOFdWQTlXVzA0QlhIZ0xTM1VNTUZzS3RGck80TU1tRmVxclhFLTlJbVBtWmdjVnNkUDB6RGJudDhabHktT1lkYzdlNzdBTUFDY0FjN3FXSTFuWGVxeWxvNkFlTUl30gG3AUFVX3lxTE1TT3FLV3RuLVdWMUR6TXc3UFhRODUxeVdpWDdoeUxnMUtpYTk1bVJJMy1jYnp4S0liVXJlTlB2WXM3M2ZwMktmTi1pbzBPbURfcl9LNDRaM0ZJZ21fOThTQzRtX3kzTUk3cWQ1TzlJb2I2OWFuWDk5ekVsd3JHck04SGpvUUhZU2lJaHhMRGhPNWR1eHJ1VFltYUU1ZzJjLTBLMmM3UVM5ZTFRbHZDSVRUZnlKdlFwbw?oc=5",
+            "published_at": "2026-11-12T08:00:00+00:00"
+          }
+        ],
+        "coverage_from": "2026-10-31T07:00:00+00:00",
+        "search_query": "houthis saudi arabia",
+        "search_days": 730,
+        "searched_days": 30,
+        "search_status": "matched"
       }
     },
     {
@@ -1572,6 +1789,10 @@
         },
         {
           "at": "2026-11-25T23:18:17.119740+00:00",
+          "source_count": 2
+        },
+        {
+          "at": "2026-11-26T00:12:26.372923+00:00",
           "source_count": 2
         }
       ],
@@ -1633,6 +1854,10 @@
         {
           "at": "2026-11-25T23:18:17.119740+00:00",
           "source_count": 2
+        },
+        {
+          "at": "2026-11-26T00:12:26.372923+00:00",
+          "source_count": 2
         }
       ],
       "context": {
@@ -1686,6 +1911,10 @@
         {
           "at": "2026-11-25T23:18:17.119740+00:00",
           "source_count": 1
+        },
+        {
+          "at": "2026-11-26T00:12:26.372923+00:00",
+          "source_count": 1
         }
       ],
       "context": {
@@ -1724,10 +1953,6 @@
       "update_count": 0,
       "updated": false,
       "coverage_history": [
-        {
-          "at": "2026-11-25T13:52:05.760808+00:00",
-          "source_count": 1
-        },
         {
           "at": "2026-11-25T14:17:24.724951+00:00",
           "source_count": 1
@@ -1771,6 +1996,10 @@
         {
           "at": "2026-11-25T23:18:17.119740+00:00",
           "source_count": 1
+        },
+        {
+          "at": "2026-11-26T00:12:26.372923+00:00",
+          "source_count": 1
         }
       ],
       "context": {
@@ -1782,9 +2011,9 @@
             "published_at": "2025-11-26T08:00:00+00:00"
           },
           {
-            "title": "'My heart breaks every time I'm called a hero' - Hong Kong fire survivor",
-            "source": "BBC",
-            "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFAyRGlLeEE0QUZ5ZlNhV0dpcFJTclRBeWFOajA5cUFJUzlnQkpIV0l2YTBUc19rU0ctTjFCYUFxVDdpYk1HQ2UzYXROZlBVTHR6VEpKcHlsbnd4Zw?oc=5",
+            "title": "Hong Kong high-rise fire death toll rises to 159 as authorities arrest 6 over failed fire alarms",
+            "source": "AP News",
+            "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNUnp0dXRBQldCQkhaNGxqUHVVNTc1WGNYM1d2SWhpaEF3UU9yMExkMFF4TnNJY3JOaDY5dUhlcUdtSXdFeUdvMmlvd3VjaElYNWRnN3B3a1lKeUpzQ2YtRDVmZHc1VVpuNU1MYmJGQ1RoMFVNRFZSbWFIdTM2cEZRSDF1RWRIUEM5Z2p1cXRnRmp0aHNl?oc=5",
             "published_at": "2025-12-03T08:00:00+00:00"
           },
           {
@@ -1816,131 +2045,6 @@
         "search_query": "hong kong fire",
         "search_days": 876,
         "searched_days": 876,
-        "search_status": "matched"
-      }
-    },
-    {
-      "id": "e44511a60243",
-      "title": "China's Shenzhou-24 carries Pakistan's first astronaut Muhammad Zeeshan Ali into space",
-      "summary": "China's Shenzhou-24 carries Pakistan's first astronaut Muhammad Zeeshan Ali into space BBC",
-      "image": "",
-      "category": "World",
-      "importance": "Notable",
-      "background_only": false,
-      "score": 39.8,
-      "published_at": "2026-11-25T16:24:31+00:00",
-      "source_count": 1,
-      "reasons": [
-        "historic space milestone"
-      ],
-      "sources": [
-        {
-          "name": "BBC",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA0eDZwOGtQQnBoOXlyLWhIME9fanAwcGZVWjlNMWhGcmRBeWs2czVPNHRyM2NtQk1sekhQNmFLcjU2VFJLT2Nzb3hTM2xuelVqWmZDU1oxY0xhSXM?oc=5",
-          "published_at": "2026-11-25T04:46:23+00:00",
-          "paywalled": false
-        }
-      ],
-      "lead_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA0eDZwOGtQQnBoOXlyLWhIME9fanAwcGZVWjlNMWhGcmRBeWs2czVPNHRyM2NtQk1sekhQNmFLcjU2VFJLT2Nzb3hTM2xuelVqWmZDU1oxY0xhSXM?oc=5",
-      "first_reported_at": "2026-11-25T16:24:31+00:00",
-      "update_count": 0,
-      "updated": false,
-      "coverage_history": [
-        {
-          "at": "2026-11-25T21:42:22.933198+00:00",
-          "source_count": 1
-        },
-        {
-          "at": "2026-11-25T22:37:18.712208+00:00",
-          "source_count": 1
-        },
-        {
-          "at": "2026-11-25T23:18:17.119740+00:00",
-          "source_count": 1
-        }
-      ],
-      "context": {
-        "earlier_reporting": [
-          {
-            "title": "Pakistan’s Zeeshan Ali set for historic flight to China’s space station",
-            "source": "Al Jazeera",
-            "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPOXhLLUZlSUhsY0lrTHdpbWpxYkZPM21nd3ozcmE3ejk5enR4ZVFidmVFa3MwWkNzVzBBSFR3NnU5NmRUMU11U1FUTEw2OXlKcHpxa1FtZHc0bVNNT0x1NS1Gb2RaZE1OYnlMRk9veEtFRjdRNmJrSVFUM0NmRFJ2LTdTLXFXSHVtYzVOYnlaSEdPX0c0UUVLMGxxb2R3Uy1RSVZrRlhxNUNXMkxqOF9UOdIBtgFBVV95cUxQck1SM2t1NVRXT3Z0aWUwRG5penVkWERLSGdaUWV4bUpDQm1zQnVaSnp3Wk1OQm53YlhOeENVY1VCSkU0OXV4Q1cxcGtPT2JLc2xzZlBhVWJwZnB6eDZpOGI2MUdYZzl0Q3NDVjhERDRyX0wwaVJKQVFySjM4dGlhdlNlOTlUT01wVHFjTGpnNXJxSHU1U3czSk40SHprbldPRE5KczJsN1VBdHBaUHRsMDVwNUlQUQ?oc=5",
-            "published_at": "2026-11-24T07:59:43+00:00"
-          }
-        ],
-        "coverage_from": "2026-11-24T07:59:43+00:00",
-        "search_query": "china pakistan muhammad astronaut",
-        "search_days": 730,
-        "searched_days": 30,
-        "search_status": "matched"
-      }
-    },
-    {
-      "id": "091998ae83a7",
-      "title": "CrowdStrike snaps up Zscaler in $44 billion deal as cyber threats mount",
-      "summary": "CrowdStrike snaps up Zscaler in $44 billion deal as cyber threats mount Reuters",
-      "image": "",
-      "category": "Tech",
-      "importance": "Notable",
-      "background_only": false,
-      "score": 39.5,
-      "published_at": "2026-11-23T18:31:10+00:00",
-      "source_count": 2,
-      "reasons": [
-        "major transaction",
-        "2 trusted sources"
-      ],
-      "sources": [
-        {
-          "name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOcUdmOUFLaEppLU9uMl80V2x1RTg4YWg3VUc5cWZsVzNfUWJBN2pFY3BhTndKanI0U2gzZHMzZVdpeWlkVkdBMkxGZkEtNFYyYmhteTQ5MHM0NnhkN2lfVk1WcDRxZDluQzVXNll2OWhodnVmaG9qNm15SWdweEM4YmxSWXVKd21mNW9uWW82MHUyWlJLTEE?oc=5",
-          "published_at": "2026-11-23T18:31:10+00:00",
-          "paywalled": false
-        },
-        {
-          "name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQekFodWNTV2dTaVZ6VDJScmUybjJ3QXRURFJjeVNtQVBmOEJkYUZTNnFlMnNKalRWdFdXOWVwTjg1TFU3THJIOU9hSXNtSXZCczVaT0xDYnNKUEJUYXFXbVpTUkhTNWRFb3VIa1RDcHdOMzB4ZVV4cTZ6STBQZ2RWLWNPT2U1RGRHYjIxNEZ1QlFXQXZJMDhJeHdDLUFUc2tSUjJoejc1dGhzTWtkUS1Hb3V1V1hKbXplV3J2Zw?oc=5",
-          "published_at": "2026-11-23T16:33:00+00:00",
-          "paywalled": false
-        }
-      ],
-      "lead_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOcUdmOUFLaEppLU9uMl80V2x1RTg4YWg3VUc5cWZsVzNfUWJBN2pFY3BhTndKanI0U2gzZHMzZVdpeWlkVkdBMkxGZkEtNFYyYmhteTQ5MHM0NnhkN2lfVk1WcDRxZDluQzVXNll2OWhodnVmaG9qNm15SWdweEM4YmxSWXVKd21mNW9uWW82MHUyWlJLTEE?oc=5",
-      "first_reported_at": "2026-11-23T18:31:10+00:00",
-      "update_count": 2,
-      "updated": true,
-      "coverage_history": [
-        {
-          "at": "2026-11-25T21:42:22.933198+00:00",
-          "source_count": 2
-        },
-        {
-          "at": "2026-11-25T22:37:18.712208+00:00",
-          "source_count": 2
-        },
-        {
-          "at": "2026-11-25T23:18:17.119740+00:00",
-          "source_count": 2
-        }
-      ],
-      "context": {
-        "earlier_reporting": [
-          {
-            "title": "CrowdStrike Is in Talks to Buy Cybersecurity Firm Zscaler",
-            "source": "Bloomberg.com",
-            "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPUDlYenRVSVVSdEFHTkNYUnI1YlVBSHJzbzB2XzFTWXRLNXYwcHp2SjRidXN0UFpQRndNUzR0d2lYS2NfczV2cTRudS13azRKV0dVdWZJbF9hcllhMVVOWVRKcHRxN1AyUm5DSzFhRHFMMW5YYzFyMllyTVVER1VTcTlsMXJydGNvTkxaT3FaX2hyZDJJUnMtMG5UTGFKUjhDS1lyVHlwSGJScWVB?oc=5",
-            "published_at": "2026-11-20T21:41:24+00:00"
-          },
-          {
-            "title": "CrowdStrike in talks to acquire Zscaler, sources say",
-            "source": "Reuters",
-            "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQelZkLVhGN0lQVWs3SVJrWU00RjF6LV9tUEUyaDlySnhaQ29EVW1mUWFBajFfMmpTckxRUHY3aUxDTHRYV3kxSm1zbDNUdTQ3UnFuRVVULVk1bXlOaDNRc3hrM3k4dDQ2OVBtTHRNR1dlSzQweG1Ya2RjTVNGNk0xLVlKTzBHQjRtTHhhQVBUeW5ZMm1YZ3lUWUNfbGUtNk0?oc=5",
-            "published_at": "2026-11-20T22:31:25+00:00"
-          }
-        ],
-        "coverage_from": "2026-11-20T21:41:24+00:00",
-        "search_query": "crowdstrike zscaler snaps",
-        "search_days": 730,
-        "searched_days": 30,
         "search_status": "matched"
       }
     },
@@ -2013,6 +2117,10 @@
         },
         {
           "at": "2026-11-25T23:18:17.119740+00:00",
+          "source_count": 1
+        },
+        {
+          "at": "2026-11-26T00:12:26.372923+00:00",
           "source_count": 1
         }
       ],
@@ -2103,6 +2211,10 @@
         {
           "at": "2026-11-25T23:18:17.119740+00:00",
           "source_count": 1
+        },
+        {
+          "at": "2026-11-26T00:12:26.372923+00:00",
+          "source_count": 1
         }
       ],
       "context": {
@@ -2151,6 +2263,10 @@
         },
         {
           "at": "2026-11-25T23:18:17.119740+00:00",
+          "source_count": 1
+        },
+        {
+          "at": "2026-11-26T00:12:26.372923+00:00",
           "source_count": 1
         }
       ],
@@ -2221,6 +2337,18 @@
       "published_at": "2026-11-24T13:47:00+00:00"
     },
     {
+      "title": "Are Houthis using Russian satellites as Saudi Arabia fends off strikes?",
+      "source": "Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOR2JnM09TN0huWnRSdGZZMmtwLW51Q1lCM3lBWU1fMUl1YlR2Y203ckZKekRZREM5akNOMmpYTEo1VzFzQkItQmRxb0RxMHZnWGdpekdxNnZCdTVwR196NDJIekRjX00tYjlHVDlwcjVaRVh4ZjNJYTA4UTh0RWc5ZGM4QUtaQW1vVl81YUFpOHQ2dFBCUjFwaHR1c1h5VS0tTC0wRE1kNUXSAa4BQVVfeXFMTTNRV2V3eWthVkMtZTMzdHRIc2hBZ0wwRW1pNDk1MVRMQjg4NGZiSnFGLTJWZ21DWmJaT3A5OWR6aUYwQnlIMTNFUnZTd0Zma3JvSHp6RF9IcFo0cFZlT285RzZLc2NXZzIwVVFJenNWUFhrY3dvUDZReW9iRGFsazcyMGRQOEhnN0kzZTNvb3RfWmR6cGhxbVE0cE1EOGRpdnFOb1d4bWdHSHdURHVR?oc=5",
+      "published_at": "2026-10-31T07:00:00+00:00"
+    },
+    {
+      "title": "Yemen’s Houthis renew strikes on Saudi Arabia as UNSC extends sanctions",
+      "source": "Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNczh4SThZNndlcnhvbjZxLWgzZ0x1Ym5zRUt0WHQ1V1k3dW54dDFGNFFGa015aE9NLVNBanFwNVB6S1JPLWp0ZEswUGpDc1pwRWtTbzJZOFdWQTlXVzA0QlhIZ0xTM1VNTUZzS3RGck80TU1tRmVxclhFLTlJbVBtWmdjVnNkUDB6RGJudDhabHktT1lkYzdlNzdBTUFDY0FjN3FXSTFuWGVxeWxvNkFlTUl30gG3AUFVX3lxTE1TT3FLV3RuLVdWMUR6TXc3UFhRODUxeVdpWDdoeUxnMUtpYTk1bVJJMy1jYnp4S0liVXJlTlB2WXM3M2ZwMktmTi1pbzBPbURfcl9LNDRaM0ZJZ21fOThTQzRtX3kzTUk3cWQ1TzlJb2I2OWFuWDk5ekVsd3JHck04SGpvUUhZU2lJaHhMRGhPNWR1eHJ1VFltYUU1ZzJjLTBLMmM3UVM5ZTFRbHZDSVRUZnlKdlFwbw?oc=5",
+      "published_at": "2026-11-12T08:00:00+00:00"
+    },
+    {
       "title": "MI5 warns UK companies supplying Ukraine military about Russian sabotage risk",
       "source": "Financial Times",
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOdEE2TjdOdHFaSjBic0FSeTAyMXlENTdkS3ZkaTVadlhvLWtLcHVhaEdqa1lsRnJzNldoZjVNU0N2LU5PdTEyWFhtN3RhTXJCb0t2aWpZZEYyQms1eVZtY2ZpY3QwTWh6RllHUGxPOU5VS3RCOWZMMXJUc3BRamlYQVVzcXQ?oc=5",
@@ -2233,9 +2361,9 @@
       "published_at": "2025-11-26T08:00:00+00:00"
     },
     {
-      "title": "'My heart breaks every time I'm called a hero' - Hong Kong fire survivor",
-      "source": "BBC",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFAyRGlLeEE0QUZ5ZlNhV0dpcFJTclRBeWFOajA5cUFJUzlnQkpIV0l2YTBUc19rU0ctTjFCYUFxVDdpYk1HQ2UzYXROZlBVTHR6VEpKcHlsbnd4Zw?oc=5",
+      "title": "Hong Kong high-rise fire death toll rises to 159 as authorities arrest 6 over failed fire alarms",
+      "source": "AP News",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNUnp0dXRBQldCQkhaNGxqUHVVNTc1WGNYM1d2SWhpaEF3UU9yMExkMFF4TnNJY3JOaDY5dUhlcUdtSXdFeUdvMmlvd3VjaElYNWRnN3B3a1lKeUpzQ2YtRDVmZHc1VVpuNU1MYmJGQ1RoMFVNRFZSbWFIdTM2cEZRSDF1RWRIUEM5Z2p1cXRnRmp0aHNl?oc=5",
       "published_at": "2025-12-03T08:00:00+00:00"
     },
     {
@@ -2263,24 +2391,6 @@
       "published_at": "2025-12-11T08:00:00+00:00"
     },
     {
-      "title": "Pakistan’s Zeeshan Ali set for historic flight to China’s space station",
-      "source": "Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPOXhLLUZlSUhsY0lrTHdpbWpxYkZPM21nd3ozcmE3ejk5enR4ZVFidmVFa3MwWkNzVzBBSFR3NnU5NmRUMU11U1FUTEw2OXlKcHpxa1FtZHc0bVNNT0x1NS1Gb2RaZE1OYnlMRk9veEtFRjdRNmJrSVFUM0NmRFJ2LTdTLXFXSHVtYzVOYnlaSEdPX0c0UUVLMGxxb2R3Uy1RSVZrRlhxNUNXMkxqOF9UOdIBtgFBVV95cUxQck1SM2t1NVRXT3Z0aWUwRG5penVkWERLSGdaUWV4bUpDQm1zQnVaSnp3Wk1OQm53YlhOeENVY1VCSkU0OXV4Q1cxcGtPT2JLc2xzZlBhVWJwZnB6eDZpOGI2MUdYZzl0Q3NDVjhERDRyX0wwaVJKQVFySjM4dGlhdlNlOTlUT01wVHFjTGpnNXJxSHU1U3czSk40SHprbldPRE5KczJsN1VBdHBaUHRsMDVwNUlQUQ?oc=5",
-      "published_at": "2026-11-24T07:59:43+00:00"
-    },
-    {
-      "title": "CrowdStrike Is in Talks to Buy Cybersecurity Firm Zscaler",
-      "source": "Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPUDlYenRVSVVSdEFHTkNYUnI1YlVBSHJzbzB2XzFTWXRLNXYwcHp2SjRidXN0UFpQRndNUzR0d2lYS2NfczV2cTRudS13azRKV0dVdWZJbF9hcllhMVVOWVRKcHRxN1AyUm5DSzFhRHFMMW5YYzFyMllyTVVER1VTcTlsMXJydGNvTkxaT3FaX2hyZDJJUnMtMG5UTGFKUjhDS1lyVHlwSGJScWVB?oc=5",
-      "published_at": "2026-11-20T21:41:24+00:00"
-    },
-    {
-      "title": "CrowdStrike in talks to acquire Zscaler, sources say",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQelZkLVhGN0lQVWs3SVJrWU00RjF6LV9tUEUyaDlySnhaQ29EVW1mUWFBajFfMmpTckxRUHY3aUxDTHRYV3kxSm1zbDNUdTQ3UnFuRVVULVk1bXlOaDNRc3hrM3k4dDQ2OVBtTHRNR1dlSzQweG1Ya2RjTVNGNk0xLVlKTzBHQjRtTHhhQVBUeW5ZMm1YZ3lUWUNfbGUtNk0?oc=5",
-      "published_at": "2026-11-20T22:31:25+00:00"
-    },
-    {
       "title": "Anthropic falls below IPO price as tech rally fades",
       "source": "Financial Times",
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPal9tdUdZVTJvVTB5aGJHZ0FwTk1GVW8zRWFzNlFEdU9YTERXNlNPcGFzbHUyaXd5U3I4WlMzTGNFUUtPVlA2VmpYSW94TFZKMFhGOFlsU19WV09kVkFGRk9IQ3h3MkRLUGlqWms3akdWTUNaR1hxX2VXakFVMm1tNWk0MW8?oc=5",
@@ -2290,7 +2400,13 @@
       "title": "Plane crash off the coast of Mississippi kills extended family of 6 on fishing trip",
       "source": "AP News",
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOeEh3VHJBUW9yQzVjTncwWGNBRkN2U0wtbkJxWHpkU2JXSmE2Ukc2Q25aUXZ3ZVVsN2lPd1JUTnE4ZUNxTDNIMXEwRXJZV01ZVGVwaERxdXdjMTZjWGQxaVpXSTBIWEtoTDNhZXdBcW5ESVdvUGhiLVpXYUFUMHRJQkVWZmNDM29CUS04cUx3?oc=5",
-      "published_at": "2026-11-25T22:43:00+00:00"
+      "published_at": "2026-11-25T23:44:00+00:00"
+    },
+    {
+      "title": "Houthis target Saudi Arabia’s Red Sea ports as strikes escalate",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/11/25/houthis-target-saudi-arabias-red-sea-ports-as-strikes-escalate?traffic_source=rss",
+      "published_at": "2026-11-25T23:33:39+00:00"
     },
     {
       "title": "Thirty-one killed in massive fire as fuel tanker crashes on Cairo highway",
@@ -2303,6 +2419,12 @@
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQUnBxTTlMWW9sR2p0cHd4OXk3enppYzRYOTFkOENpamtod1VHTExCQjRqZ1cxRWRjZ04wZlp4NzR1SVdQaGpPeWNTLVpmN09fc3R0WGxUMUFUQ0tOekxYV3ZSY2w2WTQtUDR6N2pETVotWWRlV1VrRVhXYTFYY19SRXRfZ3Z5bmFnb2xVVjNjRkJPdG9qRE4yRGxMMVNyMjlEdXBvSEw1SjMxYVFvNjVEckszYw?oc=5",
       "published_at": "2026-11-25T21:29:22+00:00"
+    },
+    {
+      "title": "Libyan officers die after Ukrainian strike, a highway fire in Egypt kills 30, and other Mideast news",
+      "source": "AP News",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxONEtNTlFzQUotcXU1N1VCaXBGY0pYWnlqLWVfQ0F3WVl4YkdGMXBIZzdOczlFaFNnUUdZclhRVVlxNE5yVjhzektQSDh0YmRtaGVGQWk3UmNMbUljUjNmZ3NDMTh2dUhlNDdKMzBydnRGZ09EelN2anNjNTcyWkN5OTZkR25TUllOWjZ5SVhoVDJwZ245Q01lSVozd2dfdjRoRFhYTXo3LWtaaTgwanR2eURrMnY2ZEt5?oc=5",
+      "published_at": "2026-11-25T20:40:00+00:00"
     },
     {
       "title": "Could renewed strikes on Hodeidah port worsen Yemen’s humanitarian crisis?",
@@ -2491,6 +2613,12 @@
       "published_at": "2026-11-24T08:09:31+00:00"
     },
     {
+      "title": "Pakistan’s Zeeshan Ali set for historic flight to China’s space station",
+      "source": "Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPOXhLLUZlSUhsY0lrTHdpbWpxYkZPM21nd3ozcmE3ejk5enR4ZVFidmVFa3MwWkNzVzBBSFR3NnU5NmRUMU11U1FUTEw2OXlKcHpxa1FtZHc0bVNNT0x1NS1Gb2RaZE1OYnlMRk9veEtFRjdRNmJrSVFUM0NmRFJ2LTdTLXFXSHVtYzVOYnlaSEdPX0c0UUVLMGxxb2R3Uy1RSVZrRlhxNUNXMkxqOF9UOdIBtgFBVV95cUxQck1SM2t1NVRXT3Z0aWUwRG5penVkWERLSGdaUWV4bUpDQm1zQnVaSnp3Wk1OQm53YlhOeENVY1VCSkU0OXV4Q1cxcGtPT2JLc2xzZlBhVWJwZnB6eDZpOGI2MUdYZzl0Q3NDVjhERDRyX0wwaVJKQVFySjM4dGlhdlNlOTlUT01wVHFjTGpnNXJxSHU1U3czSk40SHprbldPRE5KczJsN1VBdHBaUHRsMDVwNUlQUQ?oc=5",
+      "published_at": "2026-11-24T07:59:43+00:00"
+    },
+    {
       "title": "Explosion kills 6, injures 10 in Vietnam capital Hanoi",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQZldRdngyRk9qdWlNdVBkYlFrTnBtV3M3WU45al9qVVp6OE9VRktQTWVKRWY0aWlfNjBhTVFNVlhaYkp4aEJVeVItSlpIUjAwd2I5RGh5MV9wZHVnNkc5c3F1MzA0elVvZ2x2bVFrMUM3NHgwVjJYaHpPRS0xa25Tb0VIUVBySTd5blMxNXhQYlVWMkh5bG0tbHRNN3hvck8zQnI3SG4tdGg?oc=5",
@@ -2635,9 +2763,21 @@
       "published_at": "2026-11-22T14:05:20+00:00"
     },
     {
-      "title": "Hong Kong high-rise fire death toll rises to 159 as authorities arrest 6 over failed fire alarms",
-      "source": "AP News",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNUnp0dXRBQldCQkhaNGxqUHVVNTc1WGNYM1d2SWhpaEF3UU9yMExkMFF4TnNJY3JOaDY5dUhlcUdtSXdFeUdvMmlvd3VjaElYNWRnN3B3a1lKeUpzQ2YtRDVmZHc1VVpuNU1MYmJGQ1RoMFVNRFZSbWFIdTM2cEZRSDF1RWRIUEM5Z2p1cXRnRmp0aHNl?oc=5",
+      "title": "CrowdStrike in talks to acquire Zscaler, sources say",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQelZkLVhGN0lQVWs3SVJrWU00RjF6LV9tUEUyaDlySnhaQ29EVW1mUWFBajFfMmpTckxRUHY3aUxDTHRYV3kxSm1zbDNUdTQ3UnFuRVVULVk1bXlOaDNRc3hrM3k4dDQ2OVBtTHRNR1dlSzQweG1Ya2RjTVNGNk0xLVlKTzBHQjRtTHhhQVBUeW5ZMm1YZ3lUWUNfbGUtNk0?oc=5",
+      "published_at": "2026-11-20T22:31:25+00:00"
+    },
+    {
+      "title": "CrowdStrike Is in Talks to Buy Cybersecurity Firm Zscaler",
+      "source": "Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPUDlYenRVSVVSdEFHTkNYUnI1YlVBSHJzbzB2XzFTWXRLNXYwcHp2SjRidXN0UFpQRndNUzR0d2lYS2NfczV2cTRudS13azRKV0dVdWZJbF9hcllhMVVOWVRKcHRxN1AyUm5DSzFhRHFMMW5YYzFyMllyTVVER1VTcTlsMXJydGNvTkxaT3FaX2hyZDJJUnMtMG5UTGFKUjhDS1lyVHlwSGJScWVB?oc=5",
+      "published_at": "2026-11-20T21:41:24+00:00"
+    },
+    {
+      "title": "'My heart breaks every time I'm called a hero' - Hong Kong fire survivor",
+      "source": "BBC",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFAyRGlLeEE0QUZ5ZlNhV0dpcFJTclRBeWFOajA5cUFJUzlnQkpIV0l2YTBUc19rU0ctTjFCYUFxVDdpYk1HQ2UzYXROZlBVTHR6VEpKcHlsbnd4Zw?oc=5",
       "published_at": "2025-12-03T08:00:00+00:00"
     }
   ],
@@ -2645,9 +2785,72 @@
     "cdb241f775d6": {
       "version": 4,
       "query": "rips candy factory fire",
-      "at": "2026-11-25T23:18:17.119740+00:00",
+      "at": "2026-11-26T00:12:26.372923+00:00",
+      "stage": 2,
+      "matched": false,
+      "exhausted": false,
+      "searched_days": 180
+    },
+    "5ceed16d1376": {
+      "version": 4,
+      "query": "ring road giza explosion crash",
+      "at": "2026-11-26T00:12:26.372923+00:00",
+      "stage": 3,
+      "matched": false,
+      "exhausted": false,
+      "searched_days": 365
+    },
+    "6d1b9e2a6507": {
+      "version": 4,
+      "query": "different chinese astronaut",
+      "at": "2026-11-26T00:12:26.372923+00:00",
+      "stage": 3,
+      "matched": false,
+      "exhausted": true,
+      "searched_days": 730
+    },
+    "dbb20455bdf2": {
+      "version": 4,
+      "query": "plane mississippi crash",
+      "at": "2026-11-26T00:12:26.372923+00:00",
+      "stage": 2,
+      "matched": false,
+      "exhausted": false,
+      "searched_days": 180
+    },
+    "a496c6c5c319": {
+      "version": 4,
+      "query": "bangladesh protest raises",
+      "at": "2026-11-26T00:12:26.372923+00:00",
+      "stage": 2,
+      "matched": false,
+      "exhausted": false,
+      "searched_days": 180
+    },
+    "ff1c966f37cd": {
+      "version": 4,
+      "query": "libyan ukrainian egypt strike fire",
+      "at": "2026-11-26T00:12:26.372923+00:00",
       "stage": 1,
       "matched": false,
+      "exhausted": false,
+      "searched_days": 30
+    },
+    "4d380d6cbdf1": {
+      "version": 4,
+      "query": "cairo explosion injured",
+      "at": "2026-11-26T00:12:26.372923+00:00",
+      "stage": 1,
+      "matched": false,
+      "exhausted": false,
+      "searched_days": 30
+    },
+    "43eba89f26a1": {
+      "version": 4,
+      "query": "houthis saudi arabia",
+      "at": "2026-11-26T00:12:26.372923+00:00",
+      "stage": 0,
+      "matched": true,
       "exhausted": false,
       "searched_days": 30
     },
@@ -2672,42 +2875,6 @@
     "091998ae83a7": {
       "version": 4,
       "query": "crowdstrike zscaler snaps",
-      "at": "2026-11-25T23:18:17.119740+00:00",
-      "stage": 1,
-      "matched": false,
-      "exhausted": false,
-      "searched_days": 30
-    },
-    "5ceed16d1376": {
-      "version": 4,
-      "query": "ring road giza explosion crash",
-      "at": "2026-11-25T23:18:17.119740+00:00",
-      "stage": 2,
-      "matched": false,
-      "exhausted": false,
-      "searched_days": 180
-    },
-    "6d1b9e2a6507": {
-      "version": 4,
-      "query": "different chinese astronaut",
-      "at": "2026-11-25T23:18:17.119740+00:00",
-      "stage": 3,
-      "matched": false,
-      "exhausted": false,
-      "searched_days": 365
-    },
-    "dbb20455bdf2": {
-      "version": 4,
-      "query": "plane mississippi crash",
-      "at": "2026-11-25T23:18:17.119740+00:00",
-      "stage": 1,
-      "matched": false,
-      "exhausted": false,
-      "searched_days": 30
-    },
-    "a496c6c5c319": {
-      "version": 4,
-      "query": "bangladesh protest raises",
       "at": "2026-11-25T23:18:17.119740+00:00",
       "stage": 1,
       "matched": false,
