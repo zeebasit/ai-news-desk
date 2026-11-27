@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T02:22:30.337925+00:00",
+  "generated_at": "2026-11-27T03:17:07.171169+00:00",
   "model_mode": "sentence-transformers",
   "stories": [
     {
@@ -38,10 +38,6 @@
       "update_count": 8,
       "updated": false,
       "coverage_history": [
-        {
-          "at": "2026-11-26T16:37:19.128735+00:00",
-          "source_count": 2
-        },
         {
           "at": "2026-11-26T17:32:11.193860+00:00",
           "source_count": 2
@@ -84,6 +80,10 @@
         },
         {
           "at": "2026-11-27T02:22:30.337925+00:00",
+          "source_count": 2
+        },
+        {
+          "at": "2026-11-27T03:17:07.171169+00:00",
           "source_count": 2
         }
       ],
@@ -140,6 +140,10 @@
       "coverage_history": [
         {
           "at": "2026-11-27T02:22:30.337925+00:00",
+          "source_count": 1
+        },
+        {
+          "at": "2026-11-27T03:17:07.171169+00:00",
           "source_count": 1
         }
       ],
@@ -216,6 +220,10 @@
         {
           "at": "2026-11-27T02:22:30.337925+00:00",
           "source_count": 3
+        },
+        {
+          "at": "2026-11-27T03:17:07.171169+00:00",
+          "source_count": 3
         }
       ],
       "context": {
@@ -232,6 +240,48 @@
         "search_days": 730,
         "searched_days": 730,
         "search_status": "matched"
+      }
+    },
+    {
+      "id": "2fdfb28059ab",
+      "title": "AI safety debate intensifies as researchers warn of risks, UN seeks rules",
+      "summary": "AI safety debate intensifies as researchers warn of risks, UN seeks rules Business Standard",
+      "image": "",
+      "category": "Tech",
+      "importance": "Major",
+      "background_only": false,
+      "score": 56.0,
+      "published_at": "2026-11-26T10:50:42+00:00",
+      "source_count": 1,
+      "reasons": [
+        "high-impact event",
+        "frontier AI safety development"
+      ],
+      "sources": [
+        {
+          "name": "Business Standard",
+          "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNdkxiVXoxN0tLaDd3MmRCbEJOUDg2Y3ByWExrSTREMjVFWWVmSW5faGtmVDJ1ZHZaZ3gwVHhRUHRiV1BKVU5CNGVCeEQ4Z01aVDdkampTbU92M2JlQlNHUHJ2NlhEaUhzMGZXb0E1MVdNR2xyQjJxVWl3VFUtY0thUjVuR0gtVzRRYjg2NFZSOWRSVHd6ajdJaTg4WDIxXzhyTktJdGNmNzNKZW44ekJPWTdmWnJOUW5RSXhCTE9kWENKZ18yMW9CZzkwRDRESlpqVHEyclJYU3R4blFXaklWakRtaHBTTjBERWMyY3c1QzBXOUHSAfgBQVVfeXFMT1FYYmQ5Q1l4LTYta1djTXBzcGdMM2R3V0diemxfZ2hNNHNVb0c2YWQ3S1JMR1VrMWlWV2JtaVF0LXhrRURTMmRLWXdlSHY3RW12X2swWEFiODhFU3R5bGdVSGtfLWFjLVQ0XzloMGhFbXpfRWxQM01JUTdyOTN0aUtMYl9tby14aFJsWUFiN0JscDk5QnBSVVcwY0RId1NVQ200Y2V2Nk8tWThJeHltVHZmX2VXT3BlR0ZVUExmQnkyb3dqN0xSamFNb1plYkpTOGFlOU9YSjdLelp3OHlaQzMyeGRxVjNNUUJHZW9TVDBrQXNrT2JMMU0?oc=5",
+          "published_at": "2026-11-26T10:50:42+00:00",
+          "paywalled": false
+        }
+      ],
+      "lead_url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNdkxiVXoxN0tLaDd3MmRCbEJOUDg2Y3ByWExrSTREMjVFWWVmSW5faGtmVDJ1ZHZaZ3gwVHhRUHRiV1BKVU5CNGVCeEQ4Z01aVDdkampTbU92M2JlQlNHUHJ2NlhEaUhzMGZXb0E1MVdNR2xyQjJxVWl3VFUtY0thUjVuR0gtVzRRYjg2NFZSOWRSVHd6ajdJaTg4WDIxXzhyTktJdGNmNzNKZW44ekJPWTdmWnJOUW5RSXhCTE9kWENKZ18yMW9CZzkwRDRESlpqVHEyclJYU3R4blFXaklWakRtaHBTTjBERWMyY3c1QzBXOUHSAfgBQVVfeXFMT1FYYmQ5Q1l4LTYta1djTXBzcGdMM2R3V0diemxfZ2hNNHNVb0c2YWQ3S1JMR1VrMWlWV2JtaVF0LXhrRURTMmRLWXdlSHY3RW12X2swWEFiODhFU3R5bGdVSGtfLWFjLVQ0XzloMGhFbXpfRWxQM01JUTdyOTN0aUtMYl9tby14aFJsWUFiN0JscDk5QnBSVVcwY0RId1NVQ200Y2V2Nk8tWThJeHltVHZmX2VXT3BlR0ZVUExmQnkyb3dqN0xSamFNb1plYkpTOGFlOU9YSjdLelp3OHlaQzMyeGRxVjNNUUJHZW9TVDBrQXNrT2JMMU0?oc=5",
+      "first_reported_at": "2026-11-26T10:50:42+00:00",
+      "update_count": 0,
+      "updated": false,
+      "coverage_history": [
+        {
+          "at": "2026-11-27T03:17:07.171169+00:00",
+          "source_count": 1
+        }
+      ],
+      "context": {
+        "earlier_reporting": [],
+        "coverage_from": null,
+        "search_query": "ai un safety",
+        "search_days": 730,
+        "searched_days": 730,
+        "search_status": "searched"
       }
     },
     {
@@ -263,10 +313,6 @@
       "update_count": 6,
       "updated": false,
       "coverage_history": [
-        {
-          "at": "2026-11-26T16:37:19.128735+00:00",
-          "source_count": 1
-        },
         {
           "at": "2026-11-26T17:32:11.193860+00:00",
           "source_count": 1
@@ -309,6 +355,10 @@
         },
         {
           "at": "2026-11-27T02:22:30.337925+00:00",
+          "source_count": 1
+        },
+        {
+          "at": "2026-11-27T03:17:07.171169+00:00",
           "source_count": 1
         }
       ],
@@ -369,10 +419,6 @@
       "updated": false,
       "coverage_history": [
         {
-          "at": "2026-11-26T16:37:19.128735+00:00",
-          "source_count": 1
-        },
-        {
           "at": "2026-11-26T17:32:11.193860+00:00",
           "source_count": 2
         },
@@ -414,6 +460,10 @@
         },
         {
           "at": "2026-11-27T02:22:30.337925+00:00",
+          "source_count": 1
+        },
+        {
+          "at": "2026-11-27T03:17:07.171169+00:00",
           "source_count": 1
         }
       ],
@@ -429,25 +479,19 @@
     {
       "id": "bf932f56bb2e",
       "title": "UN chief urges talks on global AI safety framework, warns of historic shift in power",
-      "summary": "UN chief urges talks on global AI safety framework, warns of historic shift in power The European Sting",
+      "summary": "UN chief urges talks on global AI safety framework, warns of historic shift in power Welcome to the United Nations",
       "image": "",
       "category": "Tech",
       "importance": "Major",
       "background_only": false,
-      "score": 54.4,
-      "published_at": "2026-11-24T09:13:18+00:00",
-      "source_count": 2,
+      "score": 53.9,
+      "published_at": "2026-11-24T07:20:24+00:00",
+      "source_count": 1,
       "reasons": [
         "high-impact event",
         "frontier AI safety development"
       ],
       "sources": [
-        {
-          "name": "The European Sting",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOU0tJNTdVcGJyNHlsNUpaVmJtUTktRG1hdUJNWVJEQkZvR1JqZ0ppQlViOGN3ZE1RQXhuRF8xRjZ0VjZ5amo0QmZkUks0UmZCem8zTEJGLVg2bDBxX0lFU3pYdW1xRVgtVGVZMDdYaThSMjBhSXJjRkVKc1RpOHNXa2NycEE5b2U4SnlnN1lYcVlzU1N4bzBWcWY5YTJ4TjVpZXpMOTN4d19XZWtJSzViM0JLRjFYVGNycU1UbEln?oc=5",
-          "published_at": "2026-11-24T09:13:18+00:00",
-          "paywalled": false
-        },
         {
           "name": "Welcome to the United Nations",
           "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPRk9RUFpJVjE0Z3QtZ29MVllxLTlHQlVrSWFBVHZQUU5LbGZsWkhkWnJLQXhrVm95YjF5RFdzSUJ6NDB6V015aDNmU3JXUlQydUZUN0FKX3Rsc3ZtTEpuTTlOUDVDbmZiSXNnR3VSNDlrMFpqRTRnbm4zeXdSMzgxdnFOSDV5UGloWmx3Mng0X3JscGs2ZkxmVXd0bXl4X2hHeTY5ZnN3al95RGJwdXc?oc=5",
@@ -455,15 +499,11 @@
           "paywalled": false
         }
       ],
-      "lead_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOU0tJNTdVcGJyNHlsNUpaVmJtUTktRG1hdUJNWVJEQkZvR1JqZ0ppQlViOGN3ZE1RQXhuRF8xRjZ0VjZ5amo0QmZkUks0UmZCem8zTEJGLVg2bDBxX0lFU3pYdW1xRVgtVGVZMDdYaThSMjBhSXJjRkVKc1RpOHNXa2NycEE5b2U4SnlnN1lYcVlzU1N4bzBWcWY5YTJ4TjVpZXpMOTN4d19XZWtJSzViM0JLRjFYVGNycU1UbEln?oc=5",
+      "lead_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPRk9RUFpJVjE0Z3QtZ29MVllxLTlHQlVrSWFBVHZQUU5LbGZsWkhkWnJLQXhrVm95YjF5RFdzSUJ6NDB6V015aDNmU3JXUlQydUZUN0FKX3Rsc3ZtTEpuTTlOUDVDbmZiSXNnR3VSNDlrMFpqRTRnbm4zeXdSMzgxdnFOSDV5UGloWmx3Mng0X3JscGs2ZkxmVXd0bXl4X2hHeTY5ZnN3al95RGJwdXc?oc=5",
       "first_reported_at": "2026-11-23T17:36:51+00:00",
       "update_count": 11,
-      "updated": true,
+      "updated": false,
       "coverage_history": [
-        {
-          "at": "2026-11-26T16:37:19.128735+00:00",
-          "source_count": 1
-        },
         {
           "at": "2026-11-26T17:32:11.193860+00:00",
           "source_count": 2
@@ -507,6 +547,10 @@
         {
           "at": "2026-11-27T02:22:30.337925+00:00",
           "source_count": 2
+        },
+        {
+          "at": "2026-11-27T03:17:07.171169+00:00",
+          "source_count": 1
         }
       ],
       "context": {
@@ -533,8 +577,8 @@
       "category": "World",
       "importance": "Major",
       "background_only": false,
-      "score": 53.2,
-      "published_at": "2026-11-26T12:19:00+00:00",
+      "score": 52.8,
+      "published_at": "2026-11-26T15:10:00+00:00",
       "source_count": 3,
       "reasons": [
         "significant public impact",
@@ -548,21 +592,21 @@
           "paywalled": false
         },
         {
-          "name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNbUNDa1I5NlZaa2hiOFJGSHJlOHkyU3QtMEl0S2lvbGNlTWhJdGd6TzA3TV9VV0p2azc3OUZWeU0zLWtZbjZ3dlc5SXAxSklBbmlOeU5GcFdhMzZWbnJPTExMWG9KcElUOUotS3BGMDJmS2xVVV95MjFiYzdFTEcwOE1DU0tRY1ZmTzFHQ2pvYmFQUVY4dmRCb2tERDZZZV9IMWpLUTA0NXFNYnlwMm1UaTJyaXE2bThCMDRza1JDZlg?oc=5",
-          "published_at": "2026-11-25T00:27:00+00:00",
+          "name": "Global Times",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBKNDVhaGdMZXhUY0U4cmNSYUROTUVOUUpGRGM1LUhkc2MzRlJlaGFPVkRyWjV4XzFFMXdvdWhZaUFsMHVaV1hmREV1dmpSTHBqeTVCYXA5WGV3UEptcEJtTFVn?oc=5",
+          "published_at": "2026-11-26T15:10:00+00:00",
           "paywalled": false
         },
         {
-          "name": "AzerNews",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9Sb0FfWW9DNG95dVBqTW8yU3kyUjUyRHdqc0NIWUlUdkw2ZldsdGxBZUJfVG81TTdKZ0FBUlRudUFxdGRNSmd4Z0VJTjh1dWZQeGNINQ?oc=5",
-          "published_at": "2026-11-26T12:19:00+00:00",
+          "name": "The China-Global South Project",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQNDFhREdteHpFb0w5MkZEV25GWUlVQXRGaFRsSzlWZ1prSEMtR0h0YUNHY1dKMTMybVlWT1N5ZUdOMlJrZENxTFdBZ0ppcDNaN3d5T0UtV3lVOW51Q3NXZUZ4Zk12aDBBdWk4VEFmN3hOUW1fMG10UFpWcXZhcWVEb0pJdzU2cE5qVFRuUXIzRUlZYkU?oc=5",
+          "published_at": "2026-11-26T04:40:14+00:00",
           "paywalled": false
         }
       ],
       "lead_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNR3M0QnJvdnFlSmxYai1OZWNwd0pYOFVKa2t3UDZhLXZkcXVkcmNOZHU2ZEVCQk1HX0liM2ZVb3piZDFiaE5SSkY2MWdZeFNmOVhTWkM3RDdqSHYySDNkSTNwcExoemNqTWtoLWNQV1VDNXota0w3Ym1FLUZxOXFPZnB3UlllbEJySmhJ?oc=5",
       "first_reported_at": "2026-11-26T15:10:00+00:00",
-      "update_count": 1,
+      "update_count": 2,
       "updated": true,
       "coverage_history": [
         {
@@ -571,6 +615,10 @@
         },
         {
           "at": "2026-11-27T02:22:30.337925+00:00",
+          "source_count": 3
+        },
+        {
+          "at": "2026-11-27T03:17:07.171169+00:00",
           "source_count": 3
         }
       ],
@@ -603,42 +651,42 @@
       }
     },
     {
-      "id": "271ab25f0d67",
-      "title": "A blast at a hot pot eatery in Vietnam’s capital Hanoi kills 6 and injures more than a dozen",
-      "summary": "A blast at a hot pot eatery in Vietnam’s capital Hanoi kills 6 and injures more than a dozen AP News",
+      "id": "c664d0e0b784",
+      "title": "Extreme heat linked to 5,258 deaths as experts warn what comes next",
+      "summary": "Extreme heat linked to 5,258 deaths as experts warn what comes next https://www.birmingham-now.co.uk/",
       "image": "",
       "category": "World",
       "importance": "Major",
       "background_only": false,
-      "score": 52.4,
-      "published_at": "2026-11-24T10:12:00+00:00",
+      "score": 52.3,
+      "published_at": "2026-11-25T05:15:00+00:00",
       "source_count": 1,
       "reasons": [
-        "reported fatalities",
-        "significant accident with human impact"
+        "high-impact event",
+        "reported fatalities"
       ],
       "sources": [
         {
-          "name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOSE9ZWEhqNHBLUzMzYXVpOGd4S1N0cVlCWUFPV2Yyblh2dE11Q2VVUjIwZEFfWUxyLUIzWElhdFRDNlZmdldqVWU0NG5WU3RfeFQyQTU3YnVsQlR6OC1TeUZvWUYzbEU0NnhNZ2tNc3h6TWJBRFdpZ2xOamY0anBaVWNhSnh2SlVvX3V2VmJ0alRocEFOS3VPM0tHZUttNUJ4TTRmdXBoZ21nMVdfTkE?oc=5",
-          "published_at": "2026-11-24T10:12:00+00:00",
+          "name": "https://www.birmingham-now.co.uk/",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQaVhtYWtJd21yVDQwYkE2V3BoS0tPbWVhWGxZbXdXU3A4VEsxSjFLcy1iNVhNRHBLM2dYb29CbHphQ3VJWlRuM3EtZjFBSTlwQzd5NUVoUEZ2dFVGazlVTXQwTkdvcTFuS0NxaFM4R0E4UnRvNlEyLUNTcXZoMlBORUlIUHQ0dlQxSkRzbXBYUVJmeV91OUR4UTRNM3c?oc=5",
+          "published_at": "2026-11-25T05:15:00+00:00",
           "paywalled": false
         }
       ],
-      "lead_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOSE9ZWEhqNHBLUzMzYXVpOGd4S1N0cVlCWUFPV2Yyblh2dE11Q2VVUjIwZEFfWUxyLUIzWElhdFRDNlZmdldqVWU0NG5WU3RfeFQyQTU3YnVsQlR6OC1TeUZvWUYzbEU0NnhNZ2tNc3h6TWJBRFdpZ2xOamY0anBaVWNhSnh2SlVvX3V2VmJ0alRocEFOS3VPM0tHZUttNUJ4TTRmdXBoZ21nMVdfTkE?oc=5",
-      "first_reported_at": "2026-11-24T10:12:00+00:00",
+      "lead_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQaVhtYWtJd21yVDQwYkE2V3BoS0tPbWVhWGxZbXdXU3A4VEsxSjFLcy1iNVhNRHBLM2dYb29CbHphQ3VJWlRuM3EtZjFBSTlwQzd5NUVoUEZ2dFVGazlVTXQwTkdvcTFuS0NxaFM4R0E4UnRvNlEyLUNTcXZoMlBORUlIUHQ0dlQxSkRzbXBYUVJmeV91OUR4UTRNM3c?oc=5",
+      "first_reported_at": "2026-11-25T05:15:00+00:00",
       "update_count": 0,
       "updated": false,
       "coverage_history": [
         {
-          "at": "2026-11-27T02:22:30.337925+00:00",
+          "at": "2026-11-27T03:17:07.171169+00:00",
           "source_count": 1
         }
       ],
       "context": {
         "earlier_reporting": [],
         "coverage_from": null,
-        "search_query": "vietnam hanoi explosion",
+        "search_query": "extreme heat linked",
         "search_days": 730,
         "searched_days": 730,
         "search_status": "searched"
@@ -686,10 +734,6 @@
       "updated": false,
       "coverage_history": [
         {
-          "at": "2026-11-26T16:37:19.128735+00:00",
-          "source_count": 3
-        },
-        {
           "at": "2026-11-26T17:32:11.193860+00:00",
           "source_count": 3
         },
@@ -732,12 +776,58 @@
         {
           "at": "2026-11-27T02:22:30.337925+00:00",
           "source_count": 3
+        },
+        {
+          "at": "2026-11-27T03:17:07.171169+00:00",
+          "source_count": 3
         }
       ],
       "context": {
         "earlier_reporting": [],
         "coverage_from": null,
         "search_query": "indonesia flood dead",
+        "search_days": 730,
+        "searched_days": 730,
+        "search_status": "searched"
+      }
+    },
+    {
+      "id": "8af617be3645",
+      "title": "Egyptians mourn, demand accountability after deadly tanker explosion kills 31",
+      "summary": "Egyptians mourn, demand accountability after deadly tanker explosion kills 31 Reuters",
+      "image": "",
+      "category": "World",
+      "importance": "Major",
+      "background_only": false,
+      "score": 51.4,
+      "published_at": "2026-11-26T15:55:43+00:00",
+      "source_count": 1,
+      "reasons": [
+        "reported fatalities",
+        "significant accident with human impact"
+      ],
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQRTl5WjBUX0txaW41ckZVaWczbF8wYjRPTXlTX19BNFpYai1lOU5PbHNKY0RxODBydy0tVjBtWFZ1T0RYVHB1RDI0YmhELVFpSDNoMk1KYWZua2RyU0VmWENQVV9NZG11MzFJSmhlX3ZUMk4yNmV2SG1GRnUtMlowbS1IYmFnb2FSb2pZdFlwN3hTSUd3aVM2VEhtZDVDYXZsMGRQN2NiNjFYNGxKV2RFZG5yem1Mcks1V3VsUDc0Y2tnRzQ?oc=5",
+          "published_at": "2026-11-26T15:55:43+00:00",
+          "paywalled": false
+        }
+      ],
+      "lead_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQRTl5WjBUX0txaW41ckZVaWczbF8wYjRPTXlTX19BNFpYai1lOU5PbHNKY0RxODBydy0tVjBtWFZ1T0RYVHB1RDI0YmhELVFpSDNoMk1KYWZua2RyU0VmWENQVV9NZG11MzFJSmhlX3ZUMk4yNmV2SG1GRnUtMlowbS1IYmFnb2FSb2pZdFlwN3hTSUd3aVM2VEhtZDVDYXZsMGRQN2NiNjFYNGxKV2RFZG5yem1Mcks1V3VsUDc0Y2tnRzQ?oc=5",
+      "first_reported_at": "2026-11-26T15:55:43+00:00",
+      "update_count": 0,
+      "updated": false,
+      "coverage_history": [
+        {
+          "at": "2026-11-27T03:17:07.171169+00:00",
+          "source_count": 1
+        }
+      ],
+      "context": {
+        "earlier_reporting": [],
+        "coverage_from": null,
+        "search_query": "egyptians explosion mourn",
         "search_days": 730,
         "searched_days": 730,
         "search_status": "searched"
@@ -772,10 +862,6 @@
       "updated": false,
       "coverage_history": [
         {
-          "at": "2026-11-26T16:37:19.128735+00:00",
-          "source_count": 1
-        },
-        {
           "at": "2026-11-26T17:32:11.193860+00:00",
           "source_count": 1
         },
@@ -818,6 +904,10 @@
         {
           "at": "2026-11-27T02:22:30.337925+00:00",
           "source_count": 1
+        },
+        {
+          "at": "2026-11-27T03:17:07.171169+00:00",
+          "source_count": 1
         }
       ],
       "context": {
@@ -826,67 +916,6 @@
         "search_query": "rescuers indonesian battle",
         "search_days": 730,
         "searched_days": 730,
-        "search_status": "searched"
-      }
-    },
-    {
-      "id": "641f02c2d5d8",
-      "title": "Musk pledges two SpaceX shares for every US child in $18 billion AI charm offensive",
-      "summary": "Musk pledges two SpaceX shares for every US child in $18 billion AI charm offensive Reuters",
-      "image": "",
-      "category": "World",
-      "importance": "Major",
-      "background_only": false,
-      "score": 49.4,
-      "published_at": "2026-11-26T21:57:16+00:00",
-      "source_count": 4,
-      "reasons": [
-        "major transaction",
-        "4 trusted sources",
-        "corroborated transaction impact"
-      ],
-      "sources": [
-        {
-          "name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNklmekFZWmFURnFwVlBHa2FlTGZwYkxaSkNSRUxMV2lsanFDc2hkdGF1RGhHWlJoUTBicHFXY1B3dWxHa0xmdU5mYzFBbGpYN3Z5N2xTS2U1bVBJeVZQVHRucldkRVhsVlVfNldnTWpRclIzSjJQa0tMMnBFVGhDTS1HYzdwVlctaXowdDJtdVJaNkxLcXo2Tk9Odi1XZnI0c1JScHZycXhWRUNUZmQ4?oc=5",
-          "published_at": "2026-11-26T04:15:00+00:00",
-          "paywalled": false
-        },
-        {
-          "name": "Bloomberg.com",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPSjg1OVFibDU2bFpQd0pYX1NWM3c2N25fN3l6TXVBYWk0SUw5RUdQV1NjUWx1Tm1remRsdWhzYjQzd0ZOei1FTlh4VFl3RzBfeXg2UDFLVmN0UFltWkJpdjJNUXBHRXlST0ttV1YwMFhmU0NSOVZ6aldXVTJXUGVfNzhtSWw0VnZBMmI1NHRMZU5QTUZMRHotMXRHTkRWNGNfWXdMbksxWjNPU2RVMDN1Q0FjSXg?oc=5",
-          "published_at": "2026-11-26T21:57:16+00:00",
-          "paywalled": true
-        },
-        {
-          "name": "Axios",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9maHp6OXN1a3ZmMDR3a3F6amFwaVF2RnZKRkd0NlMtQmEySkY5LThsd19mNDRsb2VfQjlSWkNzbC01dHd0Vkhqb18yMkFzUm9Kck9TMzZRUFVxRUlNNEdHMU5BNnBFN0FjMTdRc0xXWGpOX0tD?oc=5",
-          "published_at": "2026-11-26T16:16:33+00:00",
-          "paywalled": false
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNSEhJZS1fLUlSRGRxWC11ZXlKbHRMTGVHQW9UazJsaUJKMEpaWHVkTGxNSUZJX3hRWkZlTmIybjBZbFNIVm51V1hmbk4yMWlxbWJWanpUX3FyRkgydVpFQ2l1emU2aW0yOTRQYUhWc3FGT2g3NUxsYzNlandaQ0lvTGotT0w2c1Q0SDZYc253Rks0dUZRUV9JMzBR0gGfAUFVX3lxTE5qWWxoY0VXaW1GWXcyVFRiRzZ1bU43X0U5RjBXOERMaGRjWVhreHRvRGsySUc1S0p1TzJzRFZyT2FPclRvVklBQ2NIWXZubV96Qi1rdHp5bjkzbERfcVNXeWVUZWhEbmthTkZQZWIyLWJ1endoY0hlQkdUTUtraUt2Z3dxbC1EOE1KaWxjYUV0ZmFEbW5aeTZqSDJTR29rOA?oc=5",
-          "published_at": "2026-11-26T20:22:43+00:00",
-          "paywalled": false
-        }
-      ],
-      "lead_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNklmekFZWmFURnFwVlBHa2FlTGZwYkxaSkNSRUxMV2lsanFDc2hkdGF1RGhHWlJoUTBicHFXY1B3dWxHa0xmdU5mYzFBbGpYN3Z5N2xTS2U1bVBJeVZQVHRucldkRVhsVlVfNldnTWpRclIzSjJQa0tMMnBFVGhDTS1HYzdwVlctaXowdDJtdVJaNkxLcXo2Tk9Odi1XZnI0c1JScHZycXhWRUNUZmQ4?oc=5",
-      "first_reported_at": "2026-11-26T21:57:16+00:00",
-      "update_count": 0,
-      "updated": false,
-      "coverage_history": [
-        {
-          "at": "2026-11-27T02:22:30.337925+00:00",
-          "source_count": 4
-        }
-      ],
-      "context": {
-        "earlier_reporting": [],
-        "coverage_from": null,
-        "search_query": "musk spacex us shares",
-        "search_days": 730,
-        "searched_days": 365,
         "search_status": "searched"
       }
     },
@@ -921,6 +950,10 @@
         {
           "at": "2026-11-27T02:22:30.337925+00:00",
           "source_count": 1
+        },
+        {
+          "at": "2026-11-27T03:17:07.171169+00:00",
+          "source_count": 1
         }
       ],
       "context": {
@@ -933,144 +966,198 @@
       }
     },
     {
-      "id": "6c321baec8b3",
-      "title": "Trump calls the pre-election GDP figures 'fake' and demands an investigation of Commerce Department",
-      "summary": "Trump calls the pre-election GDP figures 'fake' and demands an investigation of Commerce Department AP News",
+      "id": "e94b464ded25",
+      "title": "Pakistan celebrates historic space mission with China",
+      "summary": "Pakistan celebrates historic space mission with China Modern Ghana",
       "image": "",
       "category": "World",
       "importance": "Major",
       "background_only": false,
       "score": 46.6,
-      "published_at": "2026-11-26T18:27:27+00:00",
+      "published_at": "2026-11-26T23:20:00+00:00",
+      "source_count": 2,
+      "reasons": [
+        "significant public impact",
+        "historic space milestone"
+      ],
+      "sources": [
+        {
+          "name": "Modern Ghana",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9IdmpfUVF0S1hXOTdtQzFHZWdKQnYtcVByMW1md3Nibk5kc1lrQkJDY2dtbGc4TWt1NkhNMDlXMFN2cklwSUl6dFlWdmU1dEZZMFFTcmF5VnM3VmdMSy14VtIBXEFVX3lxTE5aaU9yN2tILVBlSEFyU2E0MnAwVFBjYmJGcTdYSkNKNk40MkRYM1QxRmFWMWNTeFVOY3RQbmt4Tk5YSHNMX3ZPa3pWb1ZBeHhRZEdleXNma3llcDkx?oc=5",
+          "published_at": "2026-11-26T23:20:00+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "chinadailyhk",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5PVnV0MGZ6UjgyVlE3aExRWHFfZlptRktXeVNDTndjaDQ0cmtyVU8zWS1fZlF1Y2hQSGRnMnhOR3JfLWgwR1pUcHQwNm5DcWpfbFVvUUNKT0k?oc=5",
+          "published_at": "2026-11-26T10:06:36+00:00",
+          "paywalled": false
+        }
+      ],
+      "lead_url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9IdmpfUVF0S1hXOTdtQzFHZWdKQnYtcVByMW1md3Nibk5kc1lrQkJDY2dtbGc4TWt1NkhNMDlXMFN2cklwSUl6dFlWdmU1dEZZMFFTcmF5VnM3VmdMSy14VtIBXEFVX3lxTE5aaU9yN2tILVBlSEFyU2E0MnAwVFBjYmJGcTdYSkNKNk40MkRYM1QxRmFWMWNTeFVOY3RQbmt4Tk5YSHNMX3ZPa3pWb1ZBeHhRZEdleXNma3llcDkx?oc=5",
+      "first_reported_at": "2026-11-26T23:20:00+00:00",
+      "update_count": 0,
+      "updated": false,
+      "coverage_history": [
+        {
+          "at": "2026-11-27T03:17:07.171169+00:00",
+          "source_count": 2
+        }
+      ],
+      "context": {
+        "earlier_reporting": [
+          {
+            "title": "Pakistan’s Zeeshan Ali set for historic flight to China’s space station",
+            "source": "Al Jazeera",
+            "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPOXhLLUZlSUhsY0lrTHdpbWpxYkZPM21nd3ozcmE3ejk5enR4ZVFidmVFa3MwWkNzVzBBSFR3NnU5NmRUMU11U1FUTEw2OXlKcHpxa1FtZHc0bVNNT0x1NS1Gb2RaZE1OYnlMRk9veEtFRjdRNmJrSVFUM0NmRFJ2LTdTLXFXSHVtYzVOYnlaSEdPX0c0UUVLMGxxb2R3Uy1RSVZrRlhxNUNXMkxqOF9UOdIBtgFBVV95cUxQck1SM2t1NVRXT3Z0aWUwRG5penVkWERLSGdaUWV4bUpDQm1zQnVaSnp3Wk1OQm53YlhOeENVY1VCSkU0OXV4Q1cxcGtPT2JLc2xzZlBhVWJwZnB6eDZpOGI2MUdYZzl0Q3NDVjhERDRyX0wwaVJKQVFySjM4dGlhdlNlOTlUT01wVHFjTGpnNXJxSHU1U3czSk40SHprbldPRE5KczJsN1VBdHBaUHRsMDVwNUlQUQ?oc=5",
+            "published_at": "2026-11-24T07:59:43+00:00"
+          },
+          {
+            "title": "China Space Program to Fly Pakistan Pilot as its First Foreigner",
+            "source": "Bloomberg",
+            "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQaEdLdW51bWxKbUxtdm1hbFdFQVlJbkFHdHdjaS1CQ25tMGFITEhialNKS213aC1lOFpnaU9ORVZOcDMzbURwX1FYWjExNmNpbE9Xc2k1R2tJSEpqNGJSX1lMMzdxYWhETkw1ZVZmajJWaF9mdWtqcVR1bnYtUk94dDI0bWY0d1VBVFVDRE5uYWV2c2E1dXVwcFNFcXUwWC1zRHN6VUJNRW5TN2ltSUpmTU1uaEV1dw?oc=5",
+            "published_at": "2026-11-24T08:09:31+00:00"
+          },
+          {
+            "title": "China's Shenzhou-24 carries Pakistan's first astronaut into space",
+            "source": "BBC",
+            "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA0eDZwOGtQQnBoOXlyLWhIME9fanAwcGZVWjlNMWhGcmRBeWs2czVPNHRyM2NtQk1sekhQNmFLcjU2VFJLT2Nzb3hTM2xuelVqWmZDU1oxY0xhSXM?oc=5",
+            "published_at": "2026-11-25T04:46:23+00:00"
+          },
+          {
+            "title": "Pakistan congratulates China on flight that carried a Pakistani astronaut to space station",
+            "source": "AP News",
+            "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNWktkYnY5NmlFTHBBcUxmbmFKdlg3ajdxSmVTQnJlWHd6Qm1wUUJ2VGtGN29zOFM0RlNZeWlJV1kybjVFVS1RNU5TQkY3cUEycURLaXEwTUExRjJMUkpKTXNUZVpvQXo1TGNpSVEwR3daQ0QyU2RTbzJ6N1hUS09PcGhmNlhkYlNXcUM5VDdTVXlNaThHaEtuaHVSVGxYeTg?oc=5",
+            "published_at": "2026-11-26T10:58:00+00:00"
+          }
+        ],
+        "coverage_from": "2026-11-24T07:59:43+00:00",
+        "search_query": "pakistan china celebrates",
+        "search_days": 730,
+        "searched_days": null,
+        "search_status": "matched"
+      }
+    },
+    {
+      "id": "47e9efef38df",
+      "title": "Nine injured, three critically, after Bangkok oil refinery explosion",
+      "summary": "Nine injured, three critically, after Bangkok oil refinery explosion BBC",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/579b/live/12356f50-e985-11f1-bb43-d1b6102e3b60.jpg",
+      "category": "World",
+      "importance": "Notable",
+      "background_only": false,
+      "score": 45.5,
+      "published_at": "2026-11-26T16:21:19+00:00",
       "source_count": 3,
       "reasons": [
-        "high-impact event",
+        "significant public impact",
         "3 trusted sources",
         "broad recent coverage"
       ],
       "sources": [
         {
           "name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPSWs0NUw0T1MxU0FFajZoSzUzQ2tCblZyZGhDc25mSVpXV0NpczlfWHpwaWdaUEE0T3lFSXdhYl9oUVZ3cTV1ei01aXprNTBoYUJCbG02THdJeGVISENOWjdrVzJpb2pxZEI5aU94VmFCTWU4ckR5MjFjZ2JDMzFibl9WVGZ2Q09PeVo5LXc1WQ?oc=5",
-          "published_at": "2026-11-26T16:55:00+00:00",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQVzFENGpGWEdCaDJ4ZjBybVNUQTRvaEgxeVJycDhqdHMtOUlHMGF4Q0lIVVJILU83d0IyeFdxQ3Jza2xzd0ZoZV8zR2IwdXpQNTU4M0pBUGFBSHhsQWN3OGFtWWdyRV9JS250NGdrSTBPaDhSQ0VOdWRRdFh5UlJZZjVLRXNsUWpJYm5wbkJmZDdSLUtLY3dTNF84bHRpYUgw?oc=5",
+          "published_at": "2026-11-26T11:11:00+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/crx209kwk4kzo?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-11-26T16:21:19+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOZWNWUWFfMnZSdENxR0VlSFJrYW4tSmkwSzE4ampGZlNwUkxBdEYwcXZha0dKbzJmRFEyT0hnUFFCbGVWWldGMHd3d3ZGejl1UklVYWhxRExSZGhGNEtPZWQtaFVwa19OcHRfQjFHalBmaHQ0dEE1YTdka2hpOWJ6V3pNdUowdGc2R3Bsbmd2eUxYd3MycUZESVd6b9IBoAFBVV95cUxPVWVRdXdlLVZtNTRUZnp0XzlBaS0yb1lHSFBZV01BbXNCajBVVmxqdEJqX3hEc3JicFdWcFZpWk5aODlnNE9RdjNWcGVvSjFINlZXXzBKZ3NrclpkVEZMNG1UakFmd3U3SFIxQUE5OER4MTdjTC1YSEJCOE5yamhodFJmX1I2aEU5TFE4WmtxZ3c1cTdGSWJQM3VqNTN6YXds?oc=5",
+          "published_at": "2026-11-26T13:48:16+00:00",
+          "paywalled": false
+        }
+      ],
+      "lead_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9QVXBDSWVlVWRYTVNyeWxlcWtGR1lGRDlCOERrRGRON3lEVGp3WmpaNlkyWVd6cm1ULXZqa2ptVU5yN1B6UHI4eHhUa2hkbWxhNjNpUlp2YklsVHc?oc=5",
+      "first_reported_at": "2026-11-26T16:21:19+00:00",
+      "update_count": 0,
+      "updated": false,
+      "coverage_history": [
+        {
+          "at": "2026-11-27T03:17:07.171169+00:00",
+          "source_count": 3
+        }
+      ],
+      "context": {
+        "earlier_reporting": [],
+        "coverage_from": null,
+        "search_query": "bangkok refinery explosion",
+        "search_days": 730,
+        "searched_days": 730,
+        "search_status": "searched"
+      }
+    },
+    {
+      "id": "efbee3c51904",
+      "title": "Anthropic shares tumble below $83 IPO price, on track to lose nearly $200 billion in value",
+      "summary": "Anthropic shares tumble below $83 IPO price, on track to lose nearly $200 billion in value Reuters",
+      "image": "",
+      "category": "World",
+      "importance": "Notable",
+      "background_only": false,
+      "score": 44.2,
+      "published_at": "2026-11-24T21:10:02+00:00",
+      "source_count": 2,
+      "reasons": [
+        "frontier AI safety development",
+        "2 trusted sources"
+      ],
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNMHBNOVY5RDc1NmxUUjNnZkNhLWROQkhUOFZpVmQ0SEI0UG9aSUpTTjhpV3EydTNkdW8xYm1KOWF6OXg2Z3BMaUJCWTE3WnFCM0hCZGNuQ3ZKUklsYUROVWQzdExOamNKVlJLRTgwYWpoYVdOUjlDY0pxTmxZajlvckJ4cHc0TG1hbW1ZUkszaDZ2M2Rvd3RqTWRFaVRENXVWT0pr?oc=5",
+          "published_at": "2026-11-24T20:47:56+00:00",
           "paywalled": false
         },
         {
           "name": "Bloomberg.com",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPR1Vua2tUbUlVUWhkOUNkaThiaG5UcnRiTHoyQWluZ1JOUkZLMG5Mdl8zdk5GMDBXSk9mb0YtZmJnOGRRTE1WbWpvQXdkTzBBeWtJOTI4dkZpUzRVVWtENTdsek5pX0Y5emNGOEZoa2JoamV4T0VXWHJYS1ZsRzJfUjlYZHc5aWVTQmZqN0pHT2YxdkdsN2o4ZzRYUTdyRVlsaGZfbG9jckRYTHFzNmNZ?oc=5",
-          "published_at": "2026-11-26T16:24:24+00:00",
-          "paywalled": true
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/economy/2026/11/26/trump-calls-gdp-data-released-before-midterms-fake-demands-investigation?traffic_source=rss",
-          "published_at": "2026-11-26T18:27:27+00:00",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPT0hkbFdEeDFKTWo1UXlkenJzS3l0QWpGSDdIWGxpbTdiMkpzVkl0bFN0d2RUSGxJS3FxNFNjeEVOeE9qUlB6X1ZKNldQdFA5b2NUam1pZjQzXzFZSFZYQ21mUXJlSzVvOWs5dS1lc3A2NG5zeGQ1RXlQR0c4QkxOUVNQUzNyYzBMT1A5emhvX2VNc2thcUJoSjhqYzZjM0Y2ZmdQellESkczaXc?oc=5",
+          "published_at": "2026-11-24T21:10:02+00:00",
           "paywalled": false
         }
       ],
-      "lead_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPSWs0NUw0T1MxU0FFajZoSzUzQ2tCblZyZGhDc25mSVpXV0NpczlfWHpwaWdaUEE0T3lFSXdhYl9oUVZ3cTV1ei01aXprNTBoYUJCbG02THdJeGVISENOWjdrVzJpb2pxZEI5aU94VmFCTWU4ckR5MjFjZ2JDMzFibl9WVGZ2Q09PeVo5LXc1WQ?oc=5",
-      "first_reported_at": "2026-11-26T18:27:27+00:00",
+      "lead_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNMHBNOVY5RDc1NmxUUjNnZkNhLWROQkhUOFZpVmQ0SEI0UG9aSUpTTjhpV3EydTNkdW8xYm1KOWF6OXg2Z3BMaUJCWTE3WnFCM0hCZGNuQ3ZKUklsYUROVWQzdExOamNKVlJLRTgwYWpoYVdOUjlDY0pxTmxZajlvckJ4cHc0TG1hbW1ZUkszaDZ2M2Rvd3RqTWRFaVRENXVWT0pr?oc=5",
+      "first_reported_at": "2026-11-24T21:10:02+00:00",
       "update_count": 0,
       "updated": false,
       "coverage_history": [
         {
-          "at": "2026-11-26T22:07:05.129925+00:00",
-          "source_count": 3
-        },
-        {
-          "at": "2026-11-26T23:02:19.302861+00:00",
-          "source_count": 3
-        },
-        {
-          "at": "2026-11-26T23:57:02.651664+00:00",
-          "source_count": 3
-        },
-        {
-          "at": "2026-11-27T00:32:38.622564+00:00",
-          "source_count": 3
-        },
-        {
-          "at": "2026-11-27T01:27:15.199439+00:00",
-          "source_count": 3
-        },
-        {
-          "at": "2026-11-27T02:22:30.337925+00:00",
-          "source_count": 3
+          "at": "2026-11-27T03:17:07.171169+00:00",
+          "source_count": 2
         }
       ],
       "context": {
-        "earlier_reporting": [],
-        "coverage_from": null,
-        "search_query": "trump gdp commerce election investigation",
+        "earlier_reporting": [
+          {
+            "title": "Anthropic falls below IPO price as tech rally fades",
+            "source": "Financial Times",
+            "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPal9tdUdZVTJvVTB5aGJHZ0FwTk1GVW8zRWFzNlFEdU9YTERXNlNPcGFzbHUyaXd5U3I4WlMzTGNFUUtPVlA2VmpYSW94TFZKMFhGOFlsU19WV09kVkFGRk9IQ3h3MkRLUGlqWms3akdWTUNaR1hxX2VXakFVMm1tNWk0MW8?oc=5",
+            "published_at": "2026-11-24T00:40:35+00:00"
+          }
+        ],
+        "coverage_from": "2026-11-24T00:40:35+00:00",
+        "search_query": "anthropic ipo shares",
         "search_days": 730,
         "searched_days": 730,
-        "search_status": "searched"
-      }
-    },
-    {
-      "id": "18b5e712824c",
-      "title": "Fort Myers families grieve 6 killed in plane crash near Mississippi’s Horn Island",
-      "summary": "Fort Myers families grieve 6 killed in plane crash near Mississippi’s Horn Island Gulf Coast News and Weather",
-      "image": "",
-      "category": "US/Canada",
-      "importance": "Major",
-      "background_only": false,
-      "score": 46.3,
-      "published_at": "2026-11-26T22:45:00+00:00",
-      "source_count": 1,
-      "reasons": [
-        "reported fatalities",
-        "significant accident with human impact"
-      ],
-      "sources": [
-        {
-          "name": "Gulf Coast News and Weather",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNSVFqSUtfNE1NSWpLakhhclpCZmg5Z3Q5aThwb0VMUDNRcEU0azI4OGlNWjZzWGFpRUhaNkNiRGphTWI5VWF0ZDZIanh2NGMzNjR0MVRRNFJhR0lmN0N1TVZJeTJoTHh6YXZsZHotMkhjenJEVjBRUDRzWVZJTHcxQlFBektxMXFLWkI5QWtYSDVBOWRKZXZobEQwQlNFeWc?oc=5",
-          "published_at": "2026-11-26T22:45:00+00:00",
-          "paywalled": false
-        }
-      ],
-      "lead_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNSVFqSUtfNE1NSWpLakhhclpCZmg5Z3Q5aThwb0VMUDNRcEU0azI4OGlNWjZzWGFpRUhaNkNiRGphTWI5VWF0ZDZIanh2NGMzNjR0MVRRNFJhR0lmN0N1TVZJeTJoTHh6YXZsZHotMkhjenJEVjBRUDRzWVZJTHcxQlFBektxMXFLWkI5QWtYSDVBOWRKZXZobEQwQlNFeWc?oc=5",
-      "first_reported_at": "2026-11-26T22:45:00+00:00",
-      "update_count": 0,
-      "updated": false,
-      "coverage_history": [
-        {
-          "at": "2026-11-26T23:57:02.651664+00:00",
-          "source_count": 1
-        },
-        {
-          "at": "2026-11-27T00:32:38.622564+00:00",
-          "source_count": 1
-        },
-        {
-          "at": "2026-11-27T01:27:15.199439+00:00",
-          "source_count": 1
-        },
-        {
-          "at": "2026-11-27T02:22:30.337925+00:00",
-          "source_count": 1
-        }
-      ],
-      "context": {
-        "earlier_reporting": [],
-        "coverage_from": null,
-        "search_query": "fort myers mississippi crash",
-        "search_days": 730,
-        "searched_days": 730,
-        "search_status": "searched"
+        "search_status": "matched"
       }
     },
     {
       "id": "51e7eafb4ff1",
-      "title": "Zelenskyy warns of major Russian attack as Trump urges Putin to ‘pull back’",
-      "summary": "Trump says he urged Putin to 'pull back' military aggression in Europe amid escalating Russian and Ukrainian attacks.",
+      "title": "Zelenskyy warns of imminent major Russian attack on Ukraine’s power grid",
+      "summary": "Zelenskyy warns of imminent major Russian attack on Ukraine’s power grid AP News",
       "image": "",
       "category": "Europe/UK",
       "importance": "Notable",
       "background_only": false,
-      "score": 41.9,
-      "published_at": "2026-11-27T02:14:25+00:00",
+      "score": 41.4,
+      "published_at": "2026-11-27T02:20:43+00:00",
       "source_count": 2,
       "reasons": [
         "high-impact event",
@@ -1078,158 +1165,51 @@
       ],
       "sources": [
         {
-          "name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOLTBqZDFmdVZMYUhDSHRObmlwNXBGNXRpXzdBVnBTc2hZTk54NU9BYThqQUswalJPMklvaGhHNmJiNW5venFCYk1FbjdNQUdJU1RISjlXbGtpc0lWektRUThRNEhOdFdSZ3B3cGZTSlk5blFMWnhGOGNfaEFjbzBha29XdlNxTXUzemUzR1FIc0FPc0kybGZLSmp5OVNNSGRLOXNZM21pd0Fac2prOVoxcC1rMnFIUQ?oc=5",
-          "published_at": "2026-11-26T22:32:57+00:00",
+          "name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQR3dNRHNDWkJtLWk2U1poUUJkTjNwb2lHcXZweUN1d3ZNRDRkZ0FsRU5adXNVRzcxWVVvbGE2ZTBYRzZDUlhPa3IwT3JlMlpzS055Z0Rqb3R0RTdHQkwwVXlzSXhXamVNU2c4cS1iQTZoREZicHZKUmVGRHNKQlQ1QjNGMnNWdm1lcWk1Nk9MZ1FJNmRtRjNmZEJB?oc=5",
+          "published_at": "2026-11-26T15:50:00+00:00",
           "paywalled": false
         },
         {
           "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/27/zelenskyy-warns-of-major-russian-attack-as-trump-urges-putin-to-pull-back?traffic_source=rss",
-          "published_at": "2026-11-27T02:14:25+00:00",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNUWhTZEtvSHh2TnVxc2VyZHdvaTFta0F0WGI4TTc3aHhIZzk0dV9iZXJSSGk0VEFDd3JQZ2puU3dERnlzc0h2TEdFcVVSaXhOZXVrTlN3MDBmZmZXUlFrQno0MDNWQ1dCU1hsTnVWYzBFOUlXRjQzd21CX3ExWmR1T1JDNEkyTm9yU2JZeW8waFFCTDI1cHB3cmFWXzNuemkyR3NRZ1hnMDdUZHVTOGpjN3U3MDA1QdIBuwFBVV95cUxOd242M2lqRVpQSGdGdEEyMk4wQWZzZjFPTnJBWXoxaURLaFdhUnZHQUpubzlVVTJzYWp2SUtRTVNKS1FhWG5TMGNLSlltVmdFZXNNdUEyUmx0THZ5aTdhQ1ZzTlFQaFJ1TThZY1B0MHpObS1YeGFxeFk4czg3aVZpRElDcVVnYTJjRDB4SjRXYlY4QzkxZ0V1SWNQZ3hnOXRaNWRLam5HdkxZRTF0NzFkWmxicmNEbWNodkxj?oc=5",
+          "published_at": "2026-11-27T02:20:43+00:00",
           "paywalled": false
         }
       ],
-      "lead_url": "https://www.aljazeera.com/news/2026/11/27/zelenskyy-warns-of-major-russian-attack-as-trump-urges-putin-to-pull-back?traffic_source=rss",
+      "lead_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQR3dNRHNDWkJtLWk2U1poUUJkTjNwb2lHcXZweUN1d3ZNRDRkZ0FsRU5adXNVRzcxWVVvbGE2ZTBYRzZDUlhPa3IwT3JlMlpzS055Z0Rqb3R0RTdHQkwwVXlzSXhXamVNU2c4cS1iQTZoREZicHZKUmVGRHNKQlQ1QjNGMnNWdm1lcWk1Nk9MZ1FJNmRtRjNmZEJB?oc=5",
       "first_reported_at": "2026-11-27T02:14:25+00:00",
-      "update_count": 0,
-      "updated": false,
+      "update_count": 1,
+      "updated": true,
       "coverage_history": [
         {
           "at": "2026-11-27T02:22:30.337925+00:00",
+          "source_count": 2
+        },
+        {
+          "at": "2026-11-27T03:17:07.171169+00:00",
           "source_count": 2
         }
       ],
       "context": {
         "earlier_reporting": [
           {
-            "title": "Zelenskyy warns of imminent major Russian attack on Ukraine’s power grid",
+            "title": "Russian strikes aim to cut Ukraine in half, Zelenskyy warns",
+            "source": "Financial Times",
+            "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPeHBnamJTa0pVQ0g3dVFFNlVIOXRvLTE0QVRmbVVNcnY5c3d5MHVHUEdCQXhlZEpUZU1XaUFHZWMyUkFoRHVva2Mwc3FhdEtKRy1Vdl9kbERTYndCalNWMXpFQXUzZTI2ZnBRSWkyTUs3bFlRRUNDMF9zY2liSHJIajBsSjE?oc=5",
+            "published_at": "2026-11-09T08:00:00+00:00"
+          },
+          {
+            "title": "Zelenskyy hails Ukraine’s attack on a Russian warship docked at a naval base in Libya",
             "source": "AP News",
-            "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQR3dNRHNDWkJtLWk2U1poUUJkTjNwb2lHcXZweUN1d3ZNRDRkZ0FsRU5adXNVRzcxWVVvbGE2ZTBYRzZDUlhPa3IwT3JlMlpzS055Z0Rqb3R0RTdHQkwwVXlzSXhXamVNU2c4cS1iQTZoREZicHZKUmVGRHNKQlQ1QjNGMnNWdm1lcWk1Nk9MZ1FJNmRtRjNmZEJB?oc=5",
-            "published_at": "2026-11-26T15:50:00+00:00"
+            "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPR1VjenRaWHFSYy04RXNZOGtGZ21ldWg3a1B4WVp3dk1OY2pPZ2pRcXFCLTk0YnJjalVEMnBqV2M2UnpCSENVWVNPVDhEZXhNQTdPZnlPWDJhNXR5VThOTVdKT2JRYmJfOW9hTzdqRUdMakNOUEFHVmdwWnNNOEx6ZmFiRVc5Z1JyZE5nNHFwODlkTkp5aHRVNUZxZVo2aDR0TnN6U2VRTlE?oc=5",
+            "published_at": "2026-11-23T17:49:00+00:00"
           }
         ],
-        "coverage_from": "2026-11-26T15:50:00+00:00",
-        "search_query": "zelenskyy russian trump",
+        "coverage_from": "2026-11-09T08:00:00+00:00",
+        "search_query": "zelenskyy russian ukraine",
         "search_days": 730,
         "searched_days": 30,
-        "search_status": "matched"
-      }
-    },
-    {
-      "id": "8e5843993d36",
-      "title": "Nvidia board joins Jensen Huang under scrutiny after reinstating embattled CEO",
-      "summary": "Nvidia board joins Jensen Huang under scrutiny after reinstating embattled CEO AP News",
-      "image": "",
-      "category": "Tech",
-      "importance": "Notable",
-      "background_only": false,
-      "score": 40.5,
-      "published_at": "2026-11-25T14:19:00+00:00",
-      "source_count": 1,
-      "reasons": [
-        "high-impact event",
-        "leadership/governance change"
-      ],
-      "sources": [
-        {
-          "name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNdDBtR1FfWU5YMzBKWUlXWmc3YVotaWZ2eHBQTEdLd1ZJN0duSzA3RFNkQnFFM29rSXVrdnlzMk1ZYzJLbUd5dnJhYUQxb1pVYU9DT0wzMmlfSk84NW03TUZqTEtQNDNDRzQ0OWIyOWJ4OHNEdUV6c0hIWDNtRlk3WGFkbl9LbkpwNExRSS13SjFnQ0o2b0JrbjZKNHZJQmpmZ0VYMw?oc=5",
-          "published_at": "2026-11-25T00:21:00+00:00",
-          "paywalled": false
-        }
-      ],
-      "lead_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNdDBtR1FfWU5YMzBKWUlXWmc3YVotaWZ2eHBQTEdLd1ZJN0duSzA3RFNkQnFFM29rSXVrdnlzMk1ZYzJLbUd5dnJhYUQxb1pVYU9DT0wzMmlfSk84NW03TUZqTEtQNDNDRzQ0OWIyOWJ4OHNEdUV6c0hIWDNtRlk3WGFkbl9LbkpwNExRSS13SjFnQ0o2b0JrbjZKNHZJQmpmZ0VYMw?oc=5",
-      "first_reported_at": "2026-11-24T10:35:00+00:00",
-      "update_count": 7,
-      "updated": true,
-      "coverage_history": [
-        {
-          "at": "2026-11-26T16:37:19.128735+00:00",
-          "source_count": 1
-        },
-        {
-          "at": "2026-11-26T17:32:11.193860+00:00",
-          "source_count": 1
-        },
-        {
-          "at": "2026-11-26T18:27:15.422828+00:00",
-          "source_count": 1
-        },
-        {
-          "at": "2026-11-26T19:22:04.575591+00:00",
-          "source_count": 1
-        },
-        {
-          "at": "2026-11-26T20:17:07.993954+00:00",
-          "source_count": 1
-        },
-        {
-          "at": "2026-11-26T21:12:33.543989+00:00",
-          "source_count": 1
-        },
-        {
-          "at": "2026-11-26T22:07:05.129925+00:00",
-          "source_count": 1
-        },
-        {
-          "at": "2026-11-26T23:02:19.302861+00:00",
-          "source_count": 1
-        },
-        {
-          "at": "2026-11-26T23:57:02.651664+00:00",
-          "source_count": 1
-        },
-        {
-          "at": "2026-11-27T00:32:38.622564+00:00",
-          "source_count": 1
-        },
-        {
-          "at": "2026-11-27T01:27:15.199439+00:00",
-          "source_count": 1
-        },
-        {
-          "at": "2026-11-27T02:22:30.337925+00:00",
-          "source_count": 1
-        }
-      ],
-      "context": {
-        "earlier_reporting": [
-          {
-            "title": "Wall Street rebounds as Jensen Huang returns as Nvidia CEO",
-            "source": "Reuters",
-            "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNNEVIVnBMbFk4UVlXOGlieWlkeWhldU5HWnFSdWNVU3BIU2YycVJnV3NWZGxGNXFMTjlKU3VuUTBnWGxZUjBtV3JCVlZjNU11MXZOT0s4V3QyRTNPNDlBRzAzX095cHphSWNSYnBTZmprLTVmdUVKd0RHc1FCbHdITU9Mb3BZMWlZM3pLQkF5MElMakFJME1WVWZOY0xJVWJnbTQ4dnpsQlNEZw?oc=5",
-            "published_at": "2026-11-23T07:55:00+00:00"
-          },
-          {
-            "title": "Nvidia and board still face legal risks after Jensen Huang's return",
-            "source": "Reuters",
-            "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPeWJxc20wNUxQMWd0dzdxU0M1NTQwTW1wWWJtV3I1UjRxTEVXczI1cDdPSnV6QUc5Q0Nqek9oVDg4Z2JuVFBxVGU1WG9NcFVXc0tSaDlUMGUwNk1qTU92eGg3S1ExM2JUMVcxYjdqQ0NOOU1qT0VQRktWc3Q5Wlp6SlVpVUZlYThNTTFCSV9DMDlVbnJuNGZFNEdSa2pRd0N0MXZ5THhncUdBRlgtdWszMWVFLTdhT0RaWlZEeUJ3?oc=5",
-            "published_at": "2026-11-23T08:00:00+00:00"
-          },
-          {
-            "title": "Nvidia board reinstates Jensen Huang as CEO just days after rejecting his offer to return",
-            "source": "AP News",
-            "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNbUdPNnFZNXVRRHJqeGNYX0ptRk1oUW85OHlueHM2aW5teGxVWmViTWdKOGVTTVBYdWNVTjA3M2d4NUFfQ1Fac2g2ZzVZZ0hMdnZ6V1RQdFRmdWNfZlFzNnRYNmR0YWsxUjFIaTNYR2c5V3RQUHdVVUx4X1loaHF6dEcyNF9fQQ?oc=5",
-            "published_at": "2026-11-23T14:13:55+00:00"
-          },
-          {
-            "title": "Huang returns as Nvidia CEO after Trump intervention in abrupt board reversal",
-            "source": "Reuters",
-            "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOd19EYmc4X2wzaW5zXzZ5VXZ1cUFJbS1OYzJsZ2VSTVRnMkQteWdiN3Z0dTBlNmltdll6Vy1RWnpxVUthOF9XX3g0YmVvNWdXODJUMGpSeXdldVdYQWE3N2hCQXU3RExXSDViSWI3S2xHNVZFc0NUVmh5bGRhem5aUzdDa29xb1hH?oc=5",
-            "published_at": "2026-11-24T09:39:56+00:00"
-          },
-          {
-            "title": "Why Trump wanted Jensen Huang back as Nvidia CEO",
-            "source": "AP News",
-            "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNZHQxVDJnTmhseUozTDFmb0FkSVhDOWhXLTZRcHhoUHdmakJYbmM0RmFobFlYTzBINC0tczQ1UklLNnQwVUY4Z0RFaE9Wd1RuVFRYT3hmUXgzQjR2VG9lc2xfdzN1WG9fVUE1Q0Fka20wX3NPSVNvNjE5ZDdOZ0NQa3lobWVXS05NR2V0ZlVuTmVOaFR2UEJIN25Ublp3TGhIMW9UMjc0YjNyUQ?oc=5",
-            "published_at": "2026-11-24T16:22:00+00:00"
-          }
-        ],
-        "coverage_from": "2026-11-23T07:55:00+00:00",
-        "search_query": "nvidia jensen huang",
-        "search_days": 730,
-        "searched_days": 730,
         "search_status": "matched"
       }
     },
@@ -1261,10 +1241,6 @@
       "updated": false,
       "coverage_history": [
         {
-          "at": "2026-11-26T16:37:19.128735+00:00",
-          "source_count": 1
-        },
-        {
           "at": "2026-11-26T17:32:11.193860+00:00",
           "source_count": 1
         },
@@ -1306,6 +1282,10 @@
         },
         {
           "at": "2026-11-27T02:22:30.337925+00:00",
+          "source_count": 1
+        },
+        {
+          "at": "2026-11-27T03:17:07.171169+00:00",
           "source_count": 1
         }
       ],
@@ -1348,6 +1328,10 @@
         {
           "at": "2026-11-27T02:22:30.337925+00:00",
           "source_count": 1
+        },
+        {
+          "at": "2026-11-27T03:17:07.171169+00:00",
+          "source_count": 1
         }
       ],
       "context": {
@@ -1359,9 +1343,9 @@
             "published_at": "2025-11-26T08:00:00+00:00"
           },
           {
-            "title": "'My heart breaks every time I'm called a hero' - Hong Kong fire survivor",
-            "source": "BBC",
-            "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFAyRGlLeEE0QUZ5ZlNhV0dpcFJTclRBeWFOajA5cUFJUzlnQkpIV0l2YTBUc19rU0ctTjFCYUFxVDdpYk1HQ2UzYXROZlBVTHR6VEpKcHlsbnd4Zw?oc=5",
+            "title": "Hong Kong high-rise fire death toll rises to 159 as authorities arrest 6 over failed fire alarms",
+            "source": "AP News",
+            "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNUnp0dXRBQldCQkhaNGxqUHVVNTc1WGNYM1d2SWhpaEF3UU9yMExkMFF4TnNJY3JOaDY5dUhlcUdtSXdFeUdvMmlvd3VjaElYNWRnN3B3a1lKeUpzQ2YtRDVmZHc1VVpuNU1MYmJGQ1RoMFVNRFZSbWFIdTM2cEZRSDF1RWRIUEM5Z2p1cXRnRmp0aHNl?oc=5",
             "published_at": "2025-12-03T08:00:00+00:00"
           },
           {
@@ -1469,6 +1453,10 @@
         {
           "at": "2026-11-27T02:22:30.337925+00:00",
           "source_count": 2
+        },
+        {
+          "at": "2026-11-27T03:17:07.171169+00:00",
+          "source_count": 2
         }
       ],
       "context": {
@@ -1489,7 +1477,7 @@
       "importance": "Notable",
       "background_only": false,
       "score": 38.6,
-      "published_at": "2026-11-26T20:52:42+00:00",
+      "published_at": "2026-11-27T03:00:00+00:00",
       "source_count": 2,
       "reasons": [
         "high-impact event",
@@ -1505,14 +1493,14 @@
         {
           "name": "Al Jazeera",
           "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNTTJLR040dFNoUlFYaVk0RF9CMUp2d1drUlVYVkNXWGQ4MldxM0VFTE52MDMzTHNXVmpFVEZjeGUteHlCY00zWjFNcFVVX1ZWOWhLSE9GeF9tRGE2bWVVd1l4eHVtY3hUc0dnN19rbVZfN0k4cUtZcTRwQlgzbXF5NUZmM242RmU2UGVXR2tGRHM1RUNOMF9qdVZDTjBFZFZDOWp1blozM3lhU1VXcVhR0gG0AUFVX3lxTFBoVDAzRnVkN1JNUEliazROM0hQamFsWVF0a3lxZXBISlcwOFhoWndKNnlDU1JVMzZWVXM1aVVLRm1aQXNNOU45bnZIVHlqcUg2R2hCbHY4bEtHaEFqS2dmY0RmUlpRMG9MRTZoZTYxMDRLLXhaLWtla2dzNWY1b0xzMU15R0dlVkdJTW9EeFNHYkdRN0RwT2llT2ZWUVlKQ3IwS1ZrRWRHSXdwMUdGZGVkcjF0WA?oc=5",
-          "published_at": "2026-11-26T20:52:42+00:00",
+          "published_at": "2026-11-27T03:00:00+00:00",
           "paywalled": false
         }
       ],
       "lead_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPNm4zZTlKbV96Q0dXS29sTnIwNGIzYi1JMnVzTjl0TjkzTTBhYlQ5YTVZVDF0MXdHMVduXzhJVzZxR2NmX2R0cHdwaXpGdFl1dURTc0tYZ2R4MUlrV242elRGYTBJSTMwbHhnMzBYS18zWnNualZiTXVwcUhmdXFFdWJzeW0?oc=5",
       "first_reported_at": "2026-11-26T16:43:19+00:00",
-      "update_count": 1,
-      "updated": false,
+      "update_count": 2,
+      "updated": true,
       "coverage_history": [
         {
           "at": "2026-11-26T21:12:33.543989+00:00",
@@ -1540,6 +1528,10 @@
         },
         {
           "at": "2026-11-27T02:22:30.337925+00:00",
+          "source_count": 2
+        },
+        {
+          "at": "2026-11-27T03:17:07.171169+00:00",
           "source_count": 2
         }
       ],
@@ -1616,22 +1608,46 @@
       "published_at": "2026-11-25T06:15:20+00:00"
     },
     {
-      "title": "Zelenskyy warns of imminent major Russian attack on Ukraine’s power grid",
-      "source": "AP News",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQR3dNRHNDWkJtLWk2U1poUUJkTjNwb2lHcXZweUN1d3ZNRDRkZ0FsRU5adXNVRzcxWVVvbGE2ZTBYRzZDUlhPa3IwT3JlMlpzS055Z0Rqb3R0RTdHQkwwVXlzSXhXamVNU2c4cS1iQTZoREZicHZKUmVGRHNKQlQ1QjNGMnNWdm1lcWk1Nk9MZ1FJNmRtRjNmZEJB?oc=5",
-      "published_at": "2026-11-26T15:50:00+00:00"
+      "title": "Pakistan’s Zeeshan Ali set for historic flight to China’s space station",
+      "source": "Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPOXhLLUZlSUhsY0lrTHdpbWpxYkZPM21nd3ozcmE3ejk5enR4ZVFidmVFa3MwWkNzVzBBSFR3NnU5NmRUMU11U1FUTEw2OXlKcHpxa1FtZHc0bVNNT0x1NS1Gb2RaZE1OYnlMRk9veEtFRjdRNmJrSVFUM0NmRFJ2LTdTLXFXSHVtYzVOYnlaSEdPX0c0UUVLMGxxb2R3Uy1RSVZrRlhxNUNXMkxqOF9UOdIBtgFBVV95cUxQck1SM2t1NVRXT3Z0aWUwRG5penVkWERLSGdaUWV4bUpDQm1zQnVaSnp3Wk1OQm53YlhOeENVY1VCSkU0OXV4Q1cxcGtPT2JLc2xzZlBhVWJwZnB6eDZpOGI2MUdYZzl0Q3NDVjhERDRyX0wwaVJKQVFySjM4dGlhdlNlOTlUT01wVHFjTGpnNXJxSHU1U3czSk40SHprbldPRE5KczJsN1VBdHBaUHRsMDVwNUlQUQ?oc=5",
+      "published_at": "2026-11-24T07:59:43+00:00"
     },
     {
-      "title": "Huang returns as Nvidia CEO after Trump intervention in abrupt board reversal",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOd19EYmc4X2wzaW5zXzZ5VXZ1cUFJbS1OYzJsZ2VSTVRnMkQteWdiN3Z0dTBlNmltdll6Vy1RWnpxVUthOF9XX3g0YmVvNWdXODJUMGpSeXdldVdYQWE3N2hCQXU3RExXSDViSWI3S2xHNVZFc0NUVmh5bGRhem5aUzdDa29xb1hH?oc=5",
-      "published_at": "2026-11-24T09:39:56+00:00"
+      "title": "China Space Program to Fly Pakistan Pilot as its First Foreigner",
+      "source": "Bloomberg",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQaEdLdW51bWxKbUxtdm1hbFdFQVlJbkFHdHdjaS1CQ25tMGFITEhialNKS213aC1lOFpnaU9ORVZOcDMzbURwX1FYWjExNmNpbE9Xc2k1R2tJSEpqNGJSX1lMMzdxYWhETkw1ZVZmajJWaF9mdWtqcVR1bnYtUk94dDI0bWY0d1VBVFVDRE5uYWV2c2E1dXVwcFNFcXUwWC1zRHN6VUJNRW5TN2ltSUpmTU1uaEV1dw?oc=5",
+      "published_at": "2026-11-24T08:09:31+00:00"
     },
     {
-      "title": "Why Trump wanted Jensen Huang back as Nvidia CEO",
+      "title": "China's Shenzhou-24 carries Pakistan's first astronaut into space",
+      "source": "BBC",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA0eDZwOGtQQnBoOXlyLWhIME9fanAwcGZVWjlNMWhGcmRBeWs2czVPNHRyM2NtQk1sekhQNmFLcjU2VFJLT2Nzb3hTM2xuelVqWmZDU1oxY0xhSXM?oc=5",
+      "published_at": "2026-11-25T04:46:23+00:00"
+    },
+    {
+      "title": "Pakistan congratulates China on flight that carried a Pakistani astronaut to space station",
       "source": "AP News",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNZHQxVDJnTmhseUozTDFmb0FkSVhDOWhXLTZRcHhoUHdmakJYbmM0RmFobFlYTzBINC0tczQ1UklLNnQwVUY4Z0RFaE9Wd1RuVFRYT3hmUXgzQjR2VG9lc2xfdzN1WG9fVUE1Q0Fka20wX3NPSVNvNjE5ZDdOZ0NQa3lobWVXS05NR2V0ZlVuTmVOaFR2UEJIN25Ublp3TGhIMW9UMjc0YjNyUQ?oc=5",
-      "published_at": "2026-11-24T16:22:00+00:00"
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNWktkYnY5NmlFTHBBcUxmbmFKdlg3ajdxSmVTQnJlWHd6Qm1wUUJ2VGtGN29zOFM0RlNZeWlJV1kybjVFVS1RNU5TQkY3cUEycURLaXEwTUExRjJMUkpKTXNUZVpvQXo1TGNpSVEwR3daQ0QyU2RTbzJ6N1hUS09PcGhmNlhkYlNXcUM5VDdTVXlNaThHaEtuaHVSVGxYeTg?oc=5",
+      "published_at": "2026-11-26T10:58:00+00:00"
+    },
+    {
+      "title": "Anthropic falls below IPO price as tech rally fades",
+      "source": "Financial Times",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPal9tdUdZVTJvVTB5aGJHZ0FwTk1GVW8zRWFzNlFEdU9YTERXNlNPcGFzbHUyaXd5U3I4WlMzTGNFUUtPVlA2VmpYSW94TFZKMFhGOFlsU19WV09kVkFGRk9IQ3h3MkRLUGlqWms3akdWTUNaR1hxX2VXakFVMm1tNWk0MW8?oc=5",
+      "published_at": "2026-11-24T00:40:35+00:00"
+    },
+    {
+      "title": "Russian strikes aim to cut Ukraine in half, Zelenskyy warns",
+      "source": "Financial Times",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPeHBnamJTa0pVQ0g3dVFFNlVIOXRvLTE0QVRmbVVNcnY5c3d5MHVHUEdCQXhlZEpUZU1XaUFHZWMyUkFoRHVva2Mwc3FhdEtKRy1Vdl9kbERTYndCalNWMXpFQXUzZTI2ZnBRSWkyTUs3bFlRRUNDMF9zY2liSHJIajBsSjE?oc=5",
+      "published_at": "2026-11-09T08:00:00+00:00"
+    },
+    {
+      "title": "Zelenskyy hails Ukraine’s attack on a Russian warship docked at a naval base in Libya",
+      "source": "AP News",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPR1VjenRaWHFSYy04RXNZOGtGZ21ldWg3a1B4WVp3dk1OY2pPZ2pRcXFCLTk0YnJjalVEMnBqV2M2UnpCSENVWVNPVDhEZXhNQTdPZnlPWDJhNXR5VThOTVdKT2JRYmJfOW9hTzdqRUdMakNOUEFHVmdwWnNNOEx6ZmFiRVc5Z1JyZE5nNHFwODlkTkp5aHRVNUZxZVo2aDR0TnN6U2VRTlE?oc=5",
+      "published_at": "2026-11-23T17:49:00+00:00"
     },
     {
       "title": "Hong Kong buildings blaze kills 36, nearly 300 missing",
@@ -1640,9 +1656,9 @@
       "published_at": "2025-11-26T08:00:00+00:00"
     },
     {
-      "title": "'My heart breaks every time I'm called a hero' - Hong Kong fire survivor",
-      "source": "BBC",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFAyRGlLeEE0QUZ5ZlNhV0dpcFJTclRBeWFOajA5cUFJUzlnQkpIV0l2YTBUc19rU0ctTjFCYUFxVDdpYk1HQ2UzYXROZlBVTHR6VEpKcHlsbnd4Zw?oc=5",
+      "title": "Hong Kong high-rise fire death toll rises to 159 as authorities arrest 6 over failed fire alarms",
+      "source": "AP News",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNUnp0dXRBQldCQkhaNGxqUHVVNTc1WGNYM1d2SWhpaEF3UU9yMExkMFF4TnNJY3JOaDY5dUhlcUdtSXdFeUdvMmlvd3VjaElYNWRnN3B3a1lKeUpzQ2YtRDVmZHc1VVpuNU1MYmJGQ1RoMFVNRFZSbWFIdTM2cEZRSDF1RWRIUEM5Z2p1cXRnRmp0aHNl?oc=5",
       "published_at": "2025-12-03T08:00:00+00:00"
     },
     {
@@ -1718,6 +1734,12 @@
       "published_at": "2026-11-26T15:55:43+00:00"
     },
     {
+      "title": "Zelenskyy warns of imminent major Russian attack on Ukraine’s power grid",
+      "source": "AP News",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQR3dNRHNDWkJtLWk2U1poUUJkTjNwb2lHcXZweUN1d3ZNRDRkZ0FsRU5adXNVRzcxWVVvbGE2ZTBYRzZDUlhPa3IwT3JlMlpzS055Z0Rqb3R0RTdHQkwwVXlzSXhXamVNU2c4cS1iQTZoREZicHZKUmVGRHNKQlQ1QjNGMnNWdm1lcWk1Nk9MZ1FJNmRtRjNmZEJB?oc=5",
+      "published_at": "2026-11-26T15:50:00+00:00"
+    },
+    {
       "title": "How an oil feud is deepening rift between Baghdad and Iraq’s Kurdish region",
       "source": "Al Jazeera",
       "url": "https://www.aljazeera.com/news/2026/11/26/how-an-oil-feud-is-deepening-rift-between-baghdad-and-iraqs-kurdish-region?traffic_source=rss",
@@ -1758,12 +1780,6 @@
       "source": "Al Jazeera",
       "url": "https://www.aljazeera.com/news/2026/11/26/highway-explosion-in-giza-how-deadly-are-egypts-roads-and-railways?traffic_source=rss",
       "published_at": "2026-11-26T11:22:59+00:00"
-    },
-    {
-      "title": "Pakistan congratulates China on flight that carried a Pakistani astronaut to space station",
-      "source": "AP News",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNWktkYnY5NmlFTHBBcUxmbmFKdlg3ajdxSmVTQnJlWHd6Qm1wUUJ2VGtGN29zOFM0RlNZeWlJV1kybjVFVS1RNU5TQkY3cUEycURLaXEwTUExRjJMUkpKTXNUZVpvQXo1TGNpSVEwR3daQ0QyU2RTbzJ6N1hUS09PcGhmNlhkYlNXcUM5VDdTVXlNaThHaEtuaHVSVGxYeTg?oc=5",
-      "published_at": "2026-11-26T10:58:00+00:00"
     },
     {
       "title": "Seven injured, four critically, after Bangkok oil refinery explosion",
@@ -1934,12 +1950,6 @@
       "published_at": "2026-11-25T07:08:22+00:00"
     },
     {
-      "title": "China's Shenzhou-24 carries Pakistan's first astronaut into space",
-      "source": "BBC",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA0eDZwOGtQQnBoOXlyLWhIME9fanAwcGZVWjlNMWhGcmRBeWs2czVPNHRyM2NtQk1sekhQNmFLcjU2VFJLT2Nzb3hTM2xuelVqWmZDU1oxY0xhSXM?oc=5",
-      "published_at": "2026-11-25T04:46:23+00:00"
-    },
-    {
       "title": "Israeli strike kills four people in Gaza",
       "source": "Al Jazeera",
       "url": "https://www.aljazeera.com/video/newsfeed/2026/11/25/israeli-strike-kills-four-people-in-gaza?traffic_source=rss",
@@ -2060,6 +2070,12 @@
       "published_at": "2026-11-24T16:22:16+00:00"
     },
     {
+      "title": "Why Trump wanted Jensen Huang back as Nvidia CEO",
+      "source": "AP News",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNZHQxVDJnTmhseUozTDFmb0FkSVhDOWhXLTZRcHhoUHdmakJYbmM0RmFobFlYTzBINC0tczQ1UklLNnQwVUY4Z0RFaE9Wd1RuVFRYT3hmUXgzQjR2VG9lc2xfdzN1WG9fVUE1Q0Fka20wX3NPSVNvNjE5ZDdOZ0NQa3lobWVXS05NR2V0ZlVuTmVOaFR2UEJIN25Ublp3TGhIMW9UMjc0YjNyUQ?oc=5",
+      "published_at": "2026-11-24T16:22:00+00:00"
+    },
+    {
       "title": "PM Shehbaz thanks President Xi as Pakistani astronaut prepares to fly to Tiangong aboard Shenzhou-24",
       "source": "| Associated Press Of Pakistan",
       "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQTndCQVdVdlFYcEo0SUNESlZPZ0VIWVA1WmtoeHMyNHp4Q003TmxVVXNnaXNNS19uV0U4X29aS19YZWpBSnU3SHZ1a3Y2QmFuT2ZkdTNUaEI1VmpEQS14NGRVQ3BYcld3U202NXU1dk9kY0wxNVNLTEFJYl9UZ0QtcXJsdURxVG1raXBqYk1PNE0xOFIxTFZtRmZDbnNRd2p3bGFwenlCX0wyTERTeWZQUnc2Mm1FUS1DaU9ld2JmWUdyeWI0Y0FLb0JydTE3Zw?oc=5",
@@ -2102,16 +2118,10 @@
       "published_at": "2026-11-24T10:12:00+00:00"
     },
     {
-      "title": "China Space Program to Fly Pakistan Pilot as its First Foreigner",
-      "source": "Bloomberg",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQaEdLdW51bWxKbUxtdm1hbFdFQVlJbkFHdHdjaS1CQ25tMGFITEhialNKS213aC1lOFpnaU9ORVZOcDMzbURwX1FYWjExNmNpbE9Xc2k1R2tJSEpqNGJSX1lMMzdxYWhETkw1ZVZmajJWaF9mdWtqcVR1bnYtUk94dDI0bWY0d1VBVFVDRE5uYWV2c2E1dXVwcFNFcXUwWC1zRHN6VUJNRW5TN2ltSUpmTU1uaEV1dw?oc=5",
-      "published_at": "2026-11-24T08:09:31+00:00"
-    },
-    {
-      "title": "Pakistan’s Zeeshan Ali set for historic flight to China’s space station",
-      "source": "Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPOXhLLUZlSUhsY0lrTHdpbWpxYkZPM21nd3ozcmE3ejk5enR4ZVFidmVFa3MwWkNzVzBBSFR3NnU5NmRUMU11U1FUTEw2OXlKcHpxa1FtZHc0bVNNT0x1NS1Gb2RaZE1OYnlMRk9veEtFRjdRNmJrSVFUM0NmRFJ2LTdTLXFXSHVtYzVOYnlaSEdPX0c0UUVLMGxxb2R3Uy1RSVZrRlhxNUNXMkxqOF9UOdIBtgFBVV95cUxQck1SM2t1NVRXT3Z0aWUwRG5penVkWERLSGdaUWV4bUpDQm1zQnVaSnp3Wk1OQm53YlhOeENVY1VCSkU0OXV4Q1cxcGtPT2JLc2xzZlBhVWJwZnB6eDZpOGI2MUdYZzl0Q3NDVjhERDRyX0wwaVJKQVFySjM4dGlhdlNlOTlUT01wVHFjTGpnNXJxSHU1U3czSk40SHprbldPRE5KczJsN1VBdHBaUHRsMDVwNUlQUQ?oc=5",
-      "published_at": "2026-11-24T07:59:43+00:00"
+      "title": "Huang returns as Nvidia CEO after Trump intervention in abrupt board reversal",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOd19EYmc4X2wzaW5zXzZ5VXZ1cUFJbS1OYzJsZ2VSTVRnMkQteWdiN3Z0dTBlNmltdll6Vy1RWnpxVUthOF9XX3g0YmVvNWdXODJUMGpSeXdldVdYQWE3N2hCQXU3RExXSDViSWI3S2xHNVZFc0NUVmh5bGRhem5aUzdDa29xb1hH?oc=5",
+      "published_at": "2026-11-24T09:39:56+00:00"
     },
     {
       "title": "Explosion kills 6, injures 10 in Vietnam capital Hanoi",
@@ -2136,12 +2146,6 @@
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNTjlOOEE2ZGVBYmJLbmlvRXdLTzF4UjNOVXFoY0J6c29vSDF1cDZBTk02QTFDWlRwbk9ESThyeGI0dzdKUFhhMmRyb0ZmVWlsLXlUR2ZNTHJjckdybTRlMTRYOWNwcDhSV2duaTI4ZXB5dFlCNlBTSnlCYTNQN25ZdThTS3NHVUtlZ1NIQ2Z1cWZLLTgzQ3VocjZNcFRBMmJQZjZ0dFZ1UXRCcU0?oc=5",
       "published_at": "2026-11-24T02:49:00+00:00"
-    },
-    {
-      "title": "Anthropic falls below IPO price as tech rally fades",
-      "source": "Financial Times",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPal9tdUdZVTJvVTB5aGJHZ0FwTk1GVW8zRWFzNlFEdU9YTERXNlNPcGFzbHUyaXd5U3I4WlMzTGNFUUtPVlA2VmpYSW94TFZKMFhGOFlsU19WV09kVkFGRk9IQ3h3MkRLUGlqWms3akdWTUNaR1hxX2VXakFVMm1tNWk0MW8?oc=5",
-      "published_at": "2026-11-24T00:40:35+00:00"
     },
     {
       "title": "Democratic Rep. Jimmy Gomez resigns after Ethics panel finds evidence of sexual misconduct",
@@ -2172,12 +2176,6 @@
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOcUdmOUFLaEppLU9uMl80V2x1RTg4YWg3VUc5cWZsVzNfUWJBN2pFY3BhTndKanI0U2gzZHMzZVdpeWlkVkdBMkxGZkEtNFYyYmhteTQ5MHM0NnhkN2lfVk1WcDRxZDluQzVXNll2OWhodnVmaG9qNm15SWdweEM4YmxSWXVKd21mNW9uWW82MHUyWlJLTEE?oc=5",
       "published_at": "2026-11-23T18:31:10+00:00"
-    },
-    {
-      "title": "Zelenskyy hails Ukraine’s attack on a Russian warship docked at a naval base in Libya",
-      "source": "AP News",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPR1VjenRaWHFSYy04RXNZOGtGZ21ldWg3a1B4WVp3dk1OY2pPZ2pRcXFCLTk0YnJjalVEMnBqV2M2UnpCSENVWVNPVDhEZXhNQTdPZnlPWDJhNXR5VThOTVdKT2JRYmJfOW9hTzdqRUdMakNOUEFHVmdwWnNNOEx6ZmFiRVc5Z1JyZE5nNHFwODlkTkp5aHRVNUZxZVo2aDR0TnN6U2VRTlE?oc=5",
-      "published_at": "2026-11-23T17:49:00+00:00"
     },
     {
       "title": "EU proposes sweeping new Russia sanctions targeting banks, crypto and sports events",
@@ -2330,13 +2328,22 @@
       "published_at": "2026-05-22T07:00:00+00:00"
     },
     {
-      "title": "Hong Kong high-rise fire death toll rises to 159 as authorities arrest 6 over failed fire alarms",
-      "source": "AP News",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNUnp0dXRBQldCQkhaNGxqUHVVNTc1WGNYM1d2SWhpaEF3UU9yMExkMFF4TnNJY3JOaDY5dUhlcUdtSXdFeUdvMmlvd3VjaElYNWRnN3B3a1lKeUpzQ2YtRDVmZHc1VVpuNU1MYmJGQ1RoMFVNRFZSbWFIdTM2cEZRSDF1RWRIUEM5Z2p1cXRnRmp0aHNl?oc=5",
+      "title": "'My heart breaks every time I'm called a hero' - Hong Kong fire survivor",
+      "source": "BBC",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFAyRGlLeEE0QUZ5ZlNhV0dpcFJTclRBeWFOajA5cUFJUzlnQkpIV0l2YTBUc19rU0ctTjFCYUFxVDdpYk1HQ2UzYXROZlBVTHR6VEpKcHlsbnd4Zw?oc=5",
       "published_at": "2025-12-03T08:00:00+00:00"
     }
   ],
   "context_checks": {
+    "51e7eafb4ff1": {
+      "version": 4,
+      "query": "zelenskyy russian ukraine",
+      "at": "2026-11-27T03:17:07.171169+00:00",
+      "stage": 0,
+      "matched": true,
+      "exhausted": false,
+      "searched_days": 30
+    },
     "18b5e712824c": {
       "version": 4,
       "query": "fort myers mississippi crash",
@@ -2372,15 +2379,6 @@
       "matched": false,
       "exhausted": true,
       "searched_days": 730
-    },
-    "51e7eafb4ff1": {
-      "version": 4,
-      "query": "zelenskyy russian trump",
-      "at": "2026-11-27T02:22:30.337925+00:00",
-      "stage": 1,
-      "matched": false,
-      "exhausted": false,
-      "searched_days": 30
     },
     "c664d0e0b784": {
       "version": 4,
