@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T22:32:06.682815+00:00",
+  "generated_at": "2026-11-27T23:27:25.081588+00:00",
   "model_mode": "sentence-transformers",
   "stories": [
     {
@@ -10,8 +10,8 @@
       "category": "World",
       "importance": "Major",
       "background_only": false,
-      "score": 87.1,
-      "published_at": "2026-11-27T06:48:50+00:00",
+      "score": 77.8,
+      "published_at": "2026-11-26T15:22:26+00:00",
       "source_count": 2,
       "reasons": [
         "high-impact event",
@@ -38,10 +38,6 @@
       "update_count": 5,
       "updated": false,
       "coverage_history": [
-        {
-          "at": "2026-11-27T12:42:10.715543+00:00",
-          "source_count": 1
-        },
         {
           "at": "2026-11-27T13:37:10.370062+00:00",
           "source_count": 2
@@ -84,6 +80,10 @@
         },
         {
           "at": "2026-11-27T22:32:06.682815+00:00",
+          "source_count": 2
+        },
+        {
+          "at": "2026-11-27T23:27:25.081588+00:00",
           "source_count": 2
         }
       ],
@@ -116,6 +116,49 @@
       }
     },
     {
+      "id": "5ceed16d1376",
+      "title": "31 dead in huge blast following crash on Ring Road near Al-Warraq, Giza",
+      "summary": "31 dead in huge blast following crash on Ring Road near Al-Warraq, Giza Egypt Today",
+      "image": "",
+      "category": "World",
+      "importance": "Major",
+      "background_only": false,
+      "score": 71.1,
+      "published_at": "2026-11-25T10:23:00+00:00",
+      "source_count": 1,
+      "reasons": [
+        "high-impact event",
+        "reported fatalities",
+        "significant accident with human impact"
+      ],
+      "sources": [
+        {
+          "name": "Egypt Today",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOWUl2Y0RXNXItTTQzS3J5QVdINXFFSVF4bld3TlF6eHcyYk9zTjgzanh0R0dRQ19hYkJVM2hwVTRPd0d3SHl0c3liOTJacVo3amRTN3M1V2JFazA1QmprXzlEei04WXNQQktXamhHM21yZDZaVlpKNmtFb0RDU3ZZRVgyOWJzeWZxekZDam9PSzl5VlBHZ1g3eS1n?oc=5",
+          "published_at": "2026-11-25T10:23:00+00:00",
+          "paywalled": false
+        }
+      ],
+      "lead_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOWUl2Y0RXNXItTTQzS3J5QVdINXFFSVF4bld3TlF6eHcyYk9zTjgzanh0R0dRQ19hYkJVM2hwVTRPd0d3SHl0c3liOTJacVo3amRTN3M1V2JFazA1QmprXzlEei04WXNQQktXamhHM21yZDZaVlpKNmtFb0RDU3ZZRVgyOWJzeWZxekZDam9PSzl5VlBHZ1g3eS1n?oc=5",
+      "first_reported_at": "2026-11-25T10:23:00+00:00",
+      "update_count": 0,
+      "updated": false,
+      "coverage_history": [
+        {
+          "at": "2026-11-27T23:27:25.081588+00:00",
+          "source_count": 1
+        }
+      ],
+      "context": {
+        "earlier_reporting": [],
+        "coverage_from": null,
+        "search_query": "ring road giza explosion crash",
+        "search_days": 730,
+        "searched_days": 730,
+        "search_status": "searched"
+      }
+    },
+    {
       "id": "7fdc94861d8b",
       "title": "Egypt detains driver over Cairo fuel tanker fire that killed 31",
       "summary": "Egypt detains driver over Cairo fuel tanker fire that killed 31 Al Jazeera",
@@ -125,7 +168,7 @@
       "background_only": false,
       "score": 65.6,
       "published_at": "2026-11-26T21:10:50+00:00",
-      "source_count": 3,
+      "source_count": 4,
       "reasons": [
         "reported fatalities",
         "significant accident with human impact",
@@ -145,6 +188,12 @@
           "paywalled": false
         },
         {
+          "name": "ABC News - Breaking News, Latest News and Videos",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNWTlvYXVmTGRzVkNJQWRKc0QzT3JjeHhtZHVPY09GT2xTTTZLckZraEt3NXVaNG90S2hZYWNZbWg5TDhwa0ZfTE9VclZ6NUxWaGtqUmtiMklTT3gxbEt3Ry1oeVBXYVo1Y0Q5QzlBUFNWLVgxa3U4UG9JTllnaGVFT1k0dS1wYl9VS0JJbFk3WndBUVY4Y0g3dHZnVmFNcnRNMDlWajYxaWtjRGM2Q3V0UdIBtgFBVV95cUxQWHJhajhjUVluRmZEUF9GdmJmdlRSaFI3Uk9Oa200cDg2UkRSSmxRU0JQaTFRTUI5dlBaOHc4ZXd6SkFjTmFMenZZNzNnMFo3bE85a3NGNnlPTHB3VXRPazNUUDR3Vm5GR0dLSFVZTS1SUjRaajVmZ0VpZVpoZExBRm5CZmcwU0xLb1RXdm4ycmRrTF9EVUFtelVDSGxCSjVaZEtVNFp3dnJNWDkyR3BDMFZXSXUxZw?oc=5",
+          "published_at": "2026-11-26T16:50:16+00:00",
+          "paywalled": false
+        },
+        {
           "name": "Fox News",
           "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPYWp2Z1RsbUd0MXByd2EtT21Jdkk4MGlQd2EzUkp6TGFKWVBia1lRTXRKbmlRcjQyN1QtTU9NaHZwTWxuWnlhNWw3SzRBOHkwZGxkYWFjS2ZxT3U5U0M0VlJ1T1JEWXlZR2YtWDU5eUJsTzVKdXNBRG02MmtWN3lmeHdhaFFPQWtUcDRycEVYeTF2SHd1Q0daT095dVcybnhCN0d1VnhoWG93NUVFYTh5a08yVdIBuAFBVV95cUxORnpJbFc2QUNYX0hJM1RIWC1BSVYtQjk5TGJnSjJUMTdkTWZDMEtxd0JwQWJ5a1YwcXJSMjM2TXFxRmsxSmYtazkwNTcwZUhjeEJoQmNlRWQxUDJvdjNsMUpFUVo3WVlISktTUGRuUDUxcHFHdlJxc2VIV29xN3lrVS04d2tpeDQ4ZzVVN2luV0RmRktLTjNMVUF4QzhJeURoNlpRTmNpSnlhSnJfUFFVZVByQXRHcWRx?oc=5",
           "published_at": "2026-11-26T15:41:46+00:00",
@@ -153,13 +202,9 @@
       ],
       "lead_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQSVlnZUw4RDlTOHozeE16S3Y2ZkZtSmx1MURPMHhHNTNSUmZ5UnhzR0RtbXBzM1NiTDlXejI2YjBiYm5fQzBsNkNkOGxQSllwQ3JJUWsxdUNRMTFjRnBiVzR4YlVaM0FoTDRGRkJJYVl5dnB1Wmw3NmM3bnJnTDlIZ0RiandFckZOTzluRjB0VGIwdEFEejd3WEgyeWY2dmRuY0JiaVRyZ2LSAa4BQVVfeXFMT2JzRFExbl8xU0JKX0VBT2dRNDU1LVlXalk0YndDc0F6OFdOSW02RmVsc3JZNmNXMnB6aHA2R1RYTzFsbk9UeS1ob0ZpYXdlWEJvMnR2OXhLeS1nTDJwRXU3VEp2cmRFUUF4dFMzdGVtZThDRXFtRGhuU21rdGhmMzF3R0RLbTNvM1plSmcwSngyTFRtZTBRemNndklEY1k5b05qbGdGeVl4RTdyQ3p3?oc=5",
       "first_reported_at": "2026-11-26T21:10:50+00:00",
-      "update_count": 10,
+      "update_count": 11,
       "updated": true,
       "coverage_history": [
-        {
-          "at": "2026-11-27T12:42:10.715543+00:00",
-          "source_count": 4
-        },
         {
           "at": "2026-11-27T13:37:10.370062+00:00",
           "source_count": 3
@@ -203,6 +248,10 @@
         {
           "at": "2026-11-27T22:32:06.682815+00:00",
           "source_count": 3
+        },
+        {
+          "at": "2026-11-27T23:27:25.081588+00:00",
+          "source_count": 4
         }
       ],
       "context": {
@@ -218,56 +267,6 @@
         "search_query": "egypt cairo fire",
         "search_days": 730,
         "searched_days": 730,
-        "search_status": "matched"
-      }
-    },
-    {
-      "id": "25e6eec2a29f",
-      "title": "Yemen's Houthis say an airstrike killed 11 people, including children, and other Mideast news",
-      "summary": "Yemen's Houthis say an airstrike killed 11 people, including children, and other Mideast news AP News",
-      "image": "",
-      "category": "Middle East",
-      "importance": "Major",
-      "background_only": false,
-      "score": 61.4,
-      "published_at": "2026-11-27T16:48:00+00:00",
-      "source_count": 1,
-      "reasons": [
-        "high-impact event",
-        "reported fatalities",
-        "mass-casualty attack"
-      ],
-      "sources": [
-        {
-          "name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOVlJjWkszRWtsblptbVZSdklWc0pQeTZOOTYxLWhJS3o2eC02YTJjc0MxQkZDbk5iU1FSSklIT3k4YzVzenBQTzhpZ1pXWTJ2aTNtOTY1S1FyeWhhdjdwTnE2RENkSDN1Q3AyZHlzUlAzckJvNkxUYU5lLTdkZ1pDN0tiM3ZhYjEzZ1dzY09Od1U3ZkZXck5ndHE1SkdCbVJWRGc?oc=5",
-          "published_at": "2026-11-27T16:48:00+00:00",
-          "paywalled": false
-        }
-      ],
-      "lead_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOVlJjWkszRWtsblptbVZSdklWc0pQeTZOOTYxLWhJS3o2eC02YTJjc0MxQkZDbk5iU1FSSklIT3k4YzVzenBQTzhpZ1pXWTJ2aTNtOTY1S1FyeWhhdjdwTnE2RENkSDN1Q3AyZHlzUlAzckJvNkxUYU5lLTdkZ1pDN0tiM3ZhYjEzZ1dzY09Od1U3ZkZXck5ndHE1SkdCbVJWRGc?oc=5",
-      "first_reported_at": "2026-11-27T16:48:00+00:00",
-      "update_count": 0,
-      "updated": false,
-      "coverage_history": [
-        {
-          "at": "2026-11-27T22:32:06.682815+00:00",
-          "source_count": 1
-        }
-      ],
-      "context": {
-        "earlier_reporting": [
-          {
-            "title": "Saudi-backed forces in Yemen bolster defenses near Aden to deter Houthis, and other Mideast news",
-            "source": "AP News",
-            "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOR2l1bWc4eTF3NXJ2NktEbGZGWnRzeUJyYzBaQmxBdnpnblVHeEVzaDVZR01ndG1UQVAzTkdtVGxaYlRZcEJ6S3BHRTJuVkRXVjFkZkpOb3lYcGlsc25UVW41QjA1QmgxY1hBaUp0ZWYxQjFZYXhyWklaZFdLMEVEcnFoOWRSR1poMEh4ZWN0ZXlETnlJWU5JdXUycEMtdkszeXAxZEtPa2gwS3MwcDQ0eDRFNUQ?oc=5",
-            "published_at": "2026-11-17T08:00:00+00:00"
-          }
-        ],
-        "coverage_from": "2026-11-17T08:00:00+00:00",
-        "search_query": "yemen houthis mideast",
-        "search_days": 730,
-        "searched_days": 30,
         "search_status": "matched"
       }
     },
@@ -303,6 +302,10 @@
         {
           "at": "2026-11-27T22:32:06.682815+00:00",
           "source_count": 1
+        },
+        {
+          "at": "2026-11-27T23:27:25.081588+00:00",
+          "source_count": 1
         }
       ],
       "context": {
@@ -310,7 +313,7 @@
         "coverage_from": null,
         "search_query": "severe thanksgiving storms",
         "search_days": 730,
-        "searched_days": 30,
+        "searched_days": 180,
         "search_status": "searched"
       }
     },
@@ -385,6 +388,10 @@
         {
           "at": "2026-11-27T22:32:06.682815+00:00",
           "source_count": 1
+        },
+        {
+          "at": "2026-11-27T23:27:25.081588+00:00",
+          "source_count": 1
         }
       ],
       "context": {
@@ -397,15 +404,70 @@
       }
     },
     {
-      "id": "8af617be3645",
-      "title": "Egyptians mourn, demand accountability after deadly tanker explosion kills 31",
-      "summary": "Egyptians mourn, demand accountability after deadly tanker explosion kills 31 Reuters",
+      "id": "64e810ac5c13",
+      "title": "At least 13 dead in Indonesia gold mine flood as rescue efforts intensify",
+      "summary": "At least 13 dead in Indonesia gold mine flood as rescue efforts intensify Al Jazeera",
       "image": "",
       "category": "World",
       "importance": "Major",
       "background_only": false,
-      "score": 51.4,
-      "published_at": "2026-11-26T15:55:43+00:00",
+      "score": 52.2,
+      "published_at": "2026-11-26T08:07:42+00:00",
+      "source_count": 3,
+      "reasons": [
+        "high-impact event",
+        "reported fatalities",
+        "2 trusted sources"
+      ],
+      "sources": [
+        {
+          "name": "BBC",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBaQkl0UXBneHNlcGtoQlJLdjM4T3VYQUxxbFJXWERXeWJHZHgzNWc2VXkzQzFwb3JxQ1JvN0pjVlB0MUlJNEtTc2xMX2dzd2J5SVlrOHhPemlGXzA?oc=5",
+          "published_at": "2026-11-26T07:31:24+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQWkJ4Z1dXNWRXTmQ5emI0VEF4b2FsMkcxNUNpRjB6N2tFNmNKUzZzbmhORHhTQ1hsNS1BT2JFTzJrQ01aQjk3dS1vVWZaQ3pMV3A2WUFRODJsNFBBN1c4a25VbHZkY2dqVzJMTWp2ZVRxbmZNQnNodWlnTjMxWG1jQWJjMWlZd2h4Tm14QTNJQ3VSNkJPbTF2aUNvdmlENzExR1kwSnFHRHdfOUoxakZTOERmRGl6d9IBuwFBVV95cUxPV051MjYwaUJXZ2pzLW90aTJ0enhCSDdWbTd4eGZaWU4xWTBhMTFsZGxnbUZveHF3b3JIbDZPU284ZXNKZXJWek5vVVlidlQyQlBVOEJ6NDcyRlNPSkF4cG02dE9Vbm1Bb0Z3MGxaUmp0MlJNVVhmZm9iaE1vM3UyQzhUYkUydzFuSWVLNk81WXhKdlpudnJLakNIc29uQWNHS0diUTQ4czJZZF9FTDFTdG5LdkxGeEJtVUJF?oc=5",
+          "published_at": "2026-11-26T08:07:42+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQbllNUG04bUpwSG83TWFhVWdBMmdqYVBZOWFpZG12WGFCWWxVZUk0ek1oRDk0WWNtRlJlQ2FsemFMYkNtekRDMzVsdjh3VVFneE92dkpzUXNOZ3BGaEFhVGNVeVBXXy1QUnZJT1hyUUdDek9Rb0dMd1RMQjJlUVIzbTJLREtCUkVzbmdrdXNxU3VvaWVU?oc=5",
+          "published_at": "2026-11-25T07:59:21+00:00",
+          "paywalled": false
+        }
+      ],
+      "lead_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQWkJ4Z1dXNWRXTmQ5emI0VEF4b2FsMkcxNUNpRjB6N2tFNmNKUzZzbmhORHhTQ1hsNS1BT2JFTzJrQ01aQjk3dS1vVWZaQ3pMV3A2WUFRODJsNFBBN1c4a25VbHZkY2dqVzJMTWp2ZVRxbmZNQnNodWlnTjMxWG1jQWJjMWlZd2h4Tm14QTNJQ3VSNkJPbTF2aUNvdmlENzExR1kwSnFHRHdfOUoxakZTOERmRGl6d9IBuwFBVV95cUxPV051MjYwaUJXZ2pzLW90aTJ0enhCSDdWbTd4eGZaWU4xWTBhMTFsZGxnbUZveHF3b3JIbDZPU284ZXNKZXJWek5vVVlidlQyQlBVOEJ6NDcyRlNPSkF4cG02dE9Vbm1Bb0Z3MGxaUmp0MlJNVVhmZm9iaE1vM3UyQzhUYkUydzFuSWVLNk81WXhKdlpudnJLakNIc29uQWNHS0diUTQ4czJZZF9FTDFTdG5LdkxGeEJtVUJF?oc=5",
+      "first_reported_at": "2026-11-26T08:07:42+00:00",
+      "update_count": 0,
+      "updated": false,
+      "coverage_history": [
+        {
+          "at": "2026-11-27T23:27:25.081588+00:00",
+          "source_count": 3
+        }
+      ],
+      "context": {
+        "earlier_reporting": [],
+        "coverage_from": null,
+        "search_query": "indonesia flood dead",
+        "search_days": 730,
+        "searched_days": 730,
+        "search_status": "searched"
+      }
+    },
+    {
+      "id": "02e1790be689",
+      "title": "Shock and anger in Egypt after tanker explosion kills 31 people",
+      "summary": "Shock and anger in Egypt after tanker explosion kills 31 people The New Arab",
+      "image": "",
+      "category": "World",
+      "importance": "Major",
+      "background_only": false,
+      "score": 52.1,
+      "published_at": "2026-11-26T14:35:19+00:00",
       "source_count": 1,
       "reasons": [
         "reported fatalities",
@@ -413,32 +475,28 @@
       ],
       "sources": [
         {
-          "name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQRTl5WjBUX0txaW41ckZVaWczbF8wYjRPTXlTX19BNFpYai1lOU5PbHNKY0RxODBydy0tVjBtWFZ1T0RYVHB1RDI0YmhELVFpSDNoMk1KYWZua2RyU0VmWENQVV9NZG11MzFJSmhlX3ZUMk4yNmV2SG1GRnUtMlowbS1IYmFnb2FSb2pZdFlwN3hTSUd3aVM2VEhtZDVDYXZsMGRQN2NiNjFYNGxKV2RFZG5yem1Mcks1V3VsUDc0Y2tnRzQ?oc=5",
-          "published_at": "2026-11-26T15:55:43+00:00",
+          "name": "The New Arab",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOMW5MWWFBVnJOQVFVSGZ5R18xN1J5dHl6WTRjbmlIUzVpbGFtTlFTTDVSbEsyVDVkVEpPUmlKaVVuYW9xbzhrRVh1TlQwMUhnWjFGSkRCMFJzOUtRYUVpVll2dDZIZU5aNzV3dVRXRkJNU2VvMndnRGpUYVU1SmwtcFdhU3hJWXFneWlDdlhxa3NOekJWbV9sRtIBmAFBVV95cUxOMW5MWWFBVnJOQVFVSGZ5R18xN1J5dHl6WTRjbmlIUzVpbGFtTlFTTDVSbEsyVDVkVEpPUmlKaVVuYW9xbzhrRVh1TlQwMUhnWjFGSkRCMFJzOUtRYUVpVll2dDZIZU5aNzV3dVRXRkJNU2VvMndnRGpUYVU1SmwtcFdhU3hJWXFneWlDdlhxa3NOekJWbV9sRg?oc=5",
+          "published_at": "2026-11-26T14:35:19+00:00",
           "paywalled": false
         }
       ],
-      "lead_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQRTl5WjBUX0txaW41ckZVaWczbF8wYjRPTXlTX19BNFpYai1lOU5PbHNKY0RxODBydy0tVjBtWFZ1T0RYVHB1RDI0YmhELVFpSDNoMk1KYWZua2RyU0VmWENQVV9NZG11MzFJSmhlX3ZUMk4yNmV2SG1GRnUtMlowbS1IYmFnb2FSb2pZdFlwN3hTSUd3aVM2VEhtZDVDYXZsMGRQN2NiNjFYNGxKV2RFZG5yem1Mcks1V3VsUDc0Y2tnRzQ?oc=5",
-      "first_reported_at": "2026-11-26T15:55:43+00:00",
+      "lead_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOMW5MWWFBVnJOQVFVSGZ5R18xN1J5dHl6WTRjbmlIUzVpbGFtTlFTTDVSbEsyVDVkVEpPUmlKaVVuYW9xbzhrRVh1TlQwMUhnWjFGSkRCMFJzOUtRYUVpVll2dDZIZU5aNzV3dVRXRkJNU2VvMndnRGpUYVU1SmwtcFdhU3hJWXFneWlDdlhxa3NOekJWbV9sRtIBmAFBVV95cUxOMW5MWWFBVnJOQVFVSGZ5R18xN1J5dHl6WTRjbmlIUzVpbGFtTlFTTDVSbEsyVDVkVEpPUmlKaVVuYW9xbzhrRVh1TlQwMUhnWjFGSkRCMFJzOUtRYUVpVll2dDZIZU5aNzV3dVRXRkJNU2VvMndnRGpUYVU1SmwtcFdhU3hJWXFneWlDdlhxa3NOekJWbV9sRg?oc=5",
+      "first_reported_at": "2026-11-26T14:35:19+00:00",
       "update_count": 0,
       "updated": false,
       "coverage_history": [
         {
-          "at": "2026-11-27T21:37:02.626027+00:00",
-          "source_count": 1
-        },
-        {
-          "at": "2026-11-27T22:32:06.682815+00:00",
+          "at": "2026-11-27T23:27:25.081588+00:00",
           "source_count": 1
         }
       ],
       "context": {
         "earlier_reporting": [],
         "coverage_from": null,
-        "search_query": "egyptians explosion mourn",
+        "search_query": "shock egypt explosion",
         "search_days": 730,
-        "searched_days": 730,
+        "searched_days": 30,
         "search_status": "searched"
       }
     },
@@ -472,6 +530,10 @@
       "coverage_history": [
         {
           "at": "2026-11-27T22:32:06.682815+00:00",
+          "source_count": 1
+        },
+        {
+          "at": "2026-11-27T23:27:25.081588+00:00",
           "source_count": 1
         }
       ],
@@ -512,10 +574,6 @@
       "update_count": 0,
       "updated": false,
       "coverage_history": [
-        {
-          "at": "2026-11-27T12:42:10.715543+00:00",
-          "source_count": 1
-        },
         {
           "at": "2026-11-27T13:37:10.370062+00:00",
           "source_count": 1
@@ -559,6 +617,10 @@
         {
           "at": "2026-11-27T22:32:06.682815+00:00",
           "source_count": 1
+        },
+        {
+          "at": "2026-11-27T23:27:25.081588+00:00",
+          "source_count": 1
         }
       ],
       "context": {
@@ -567,48 +629,6 @@
         "search_query": "rescuers indonesian battle",
         "search_days": 730,
         "searched_days": 730,
-        "search_status": "searched"
-      }
-    },
-    {
-      "id": "ac91e1ec76d8",
-      "title": "A flood that hit an unauthorized gold mine in Indonesia left 9 dead, 17 believed trapped",
-      "summary": "A flood that hit an unauthorized gold mine in Indonesia left 9 dead, 17 believed trapped AP News",
-      "image": "",
-      "category": "World",
-      "importance": "Major",
-      "background_only": false,
-      "score": 47.8,
-      "published_at": "2026-11-25T17:28:00+00:00",
-      "source_count": 1,
-      "reasons": [
-        "high-impact event",
-        "reported fatalities"
-      ],
-      "sources": [
-        {
-          "name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQbllNUG04bUpwSG83TWFhVWdBMmdqYVBZOWFpZG12WGFCWWxVZUk0ek1oRDk0WWNtRlJlQ2FsemFMYkNtekRDMzVsdjh3VVFneE92dkpzUXNOZ3BGaEFhVGNVeVBXXy1QUnZJT1hyUUdDek9Rb0dMd1RMQjJlUVIzbTJLREtCUkVzbmdrdXNxU3VvaWVU?oc=5",
-          "published_at": "2026-11-25T17:28:00+00:00",
-          "paywalled": false
-        }
-      ],
-      "lead_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQbllNUG04bUpwSG83TWFhVWdBMmdqYVBZOWFpZG12WGFCWWxVZUk0ek1oRDk0WWNtRlJlQ2FsemFMYkNtekRDMzVsdjh3VVFneE92dkpzUXNOZ3BGaEFhVGNVeVBXXy1QUnZJT1hyUUdDek9Rb0dMd1RMQjJlUVIzbTJLREtCUkVzbmdrdXNxU3VvaWVU?oc=5",
-      "first_reported_at": "2026-11-25T17:28:00+00:00",
-      "update_count": 0,
-      "updated": false,
-      "coverage_history": [
-        {
-          "at": "2026-11-27T22:32:06.682815+00:00",
-          "source_count": 1
-        }
-      ],
-      "context": {
-        "earlier_reporting": [],
-        "coverage_from": null,
-        "search_query": "indonesia flood hit",
-        "search_days": 730,
-        "searched_days": 180,
         "search_status": "searched"
       }
     },
@@ -638,7 +658,7 @@
       "lead_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNbUNDa1I5NlZaa2hiOFJGSHJlOHkyU3QtMEl0S2lvbGNlTWhJdGd6TzA3TV9VV0p2azc3OUZWeU0zLWtZbjZ3dlc5SXAxSklBbmlOeU5GcFdhMzZWbnJPTExMWG9KcElUOUotS3BGMDJmS2xVVV95MjFiYzdFTEcwOE1DU0tRY1ZmTzFHQ2pvYmFQUVY4dmRCb2tERDZZZV9IMWpLUTA0NXFNYnlwMm1UaTJyaXE2bThCMDRza1JDZlg?oc=5",
       "first_reported_at": "2026-11-25T17:41:11+00:00",
       "update_count": 3,
-      "updated": true,
+      "updated": false,
       "coverage_history": [
         {
           "at": "2026-11-27T19:47:13.106519+00:00",
@@ -654,6 +674,10 @@
         },
         {
           "at": "2026-11-27T22:32:06.682815+00:00",
+          "source_count": 1
+        },
+        {
+          "at": "2026-11-27T23:27:25.081588+00:00",
           "source_count": 1
         }
       ],
@@ -737,6 +761,10 @@
         {
           "at": "2026-11-27T22:32:06.682815+00:00",
           "source_count": 2
+        },
+        {
+          "at": "2026-11-27T23:27:25.081588+00:00",
+          "source_count": 2
         }
       ],
       "context": {
@@ -752,91 +780,6 @@
         "search_query": "armed niger group",
         "search_days": 730,
         "searched_days": 180,
-        "search_status": "matched"
-      }
-    },
-    {
-      "id": "2cff44a2c8b0",
-      "title": "China launches Shenzhou 24 spacecraft carrying first foreign astronaut",
-      "summary": "China launches Shenzhou 24 spacecraft carrying first foreign astronaut Euronews.com",
-      "image": "",
-      "category": "World",
-      "importance": "Major",
-      "background_only": false,
-      "score": 46.2,
-      "published_at": "2026-11-25T11:24:37+00:00",
-      "source_count": 2,
-      "reasons": [
-        "significant public impact",
-        "historic space milestone"
-      ],
-      "sources": [
-        {
-          "name": "Phys.org",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPUzhHVERJRUxLRjdnN2paT0N5Sk4yVFhLRW5JRGM1TjY3QmlxMDlUT05YNXdIdjRwUDRNR0RGMkpQd1FOMFJSc0VwMElCQ2hhYThxSU1HcEMteEdudTA5N1NoTlBpQ0JkWUZQc3RZQlFwaDFzY3Q1R2ZmaHZpQ2ZXYlZOODQ?oc=5",
-          "published_at": "2026-11-25T11:24:37+00:00",
-          "paywalled": false
-        },
-        {
-          "name": "Euronews.com",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQeXNPaDBDaGY3Uk40bjNkOS1VSl96RUFxUlFaSzB5aGtiNzRuNWcxMUdNalNFNjZUejQ1bTB4NG1aTkZNQVFMSkxrMEgxMzFGc3QzRkt4YkRxSTA1YzBwN0ZsMkhoZVdsalRpdnZGUVF1dkphYjdYNVp0MlNTNHF2RHFzdjFBdTlSUWVZR0lLV0ZqQ3Q3Mzk5VEc3eFdVX0UwdXFfUEpVMWhwaXdQcXZkSWdvMzkwNGJaZXM3alFPWTM4b1Za?oc=5",
-          "published_at": "2026-11-25T05:12:28+00:00",
-          "paywalled": false
-        }
-      ],
-      "lead_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQeXNPaDBDaGY3Uk40bjNkOS1VSl96RUFxUlFaSzB5aGtiNzRuNWcxMUdNalNFNjZUejQ1bTB4NG1aTkZNQVFMSkxrMEgxMzFGc3QzRkt4YkRxSTA1YzBwN0ZsMkhoZVdsalRpdnZGUVF1dkphYjdYNVp0MlNTNHF2RHFzdjFBdTlSUWVZR0lLV0ZqQ3Q3Mzk5VEc3eFdVX0UwdXFfUEpVMWhwaXdQcXZkSWdvMzkwNGJaZXM3alFPWTM4b1Za?oc=5",
-      "first_reported_at": "2026-11-25T17:41:11+00:00",
-      "update_count": 3,
-      "updated": true,
-      "coverage_history": [
-        {
-          "at": "2026-11-27T19:47:13.106519+00:00",
-          "source_count": 3
-        },
-        {
-          "at": "2026-11-27T20:42:04.272737+00:00",
-          "source_count": 1
-        },
-        {
-          "at": "2026-11-27T21:37:02.626027+00:00",
-          "source_count": 2
-        },
-        {
-          "at": "2026-11-27T22:32:06.682815+00:00",
-          "source_count": 2
-        }
-      ],
-      "context": {
-        "earlier_reporting": [
-          {
-            "title": "Pakistani astronaut to board Shenzhou 24 and become the first foreigner on China's space station",
-            "source": "AP News",
-            "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQenFsUWZUMFNoeXpOUXdEX0xad010OWlJemJJQl93YjBrcFhySkxxWVpackkxamQ3Q08yampBaXRtOFNhWVd1VHNjSklUSy1JWC1taUszYTdVbnJ2U2N5aWhmcVlpLVFLSjRQWGhNZS1ieTBpdjVuWG9MRkROWXNBV0YzSkdobnl2T1hwU0hUNThiREQtQWFsZXZHdWFVN2hp?oc=5",
-            "published_at": "2026-11-06T08:00:00+00:00"
-          },
-          {
-            "title": "Pakistani astronaut launches into space aboard Chinese rocket",
-            "source": "Al Jazeera",
-            "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNVWdUSGN0dUpVbVFWRXZwVUJ6akp5Sm5SNFVwbzRHYmJ5RkprMDRDVDFxdXFQTUdCc0VrUWo1QmV2QWFOVmZFVHQ4N1JWQWJRZnY5UUgwUkJjaHlzWEY2ZGt5dVd3R3RqMEh4TWZCTzNhUGx4bDZMeTNITHZfbFZBQWZ5enZoRU5aZEZJbWEyOU93YjZVcm94VE9PT1JqY19WY1daeXVMMkRheVlkUkJrSmkxNNIBuAFBVV95cUxQTVJFWXhCeC0tQ0U1ZDhyTFg0eDFDYzVOZVBtNUx4MnNIVkdtN1YxdDhWbGZtYkhNV0hHWU9vN2J5NEJ0aGdrekxVdy1Ba0FnakJPMEt0ZEtkS1BDRmQ0S2F2Z3dlRXVHWXNONkJRQnZELUdZREVjdXRWa3VZbFl3enVhSUtGY2dTckw2QV9GZUxsZ1RCWnNRNzhpNXYxd2dqVGFSZnpuZkdaNDY2VmhoaEFYVHhycWpF?oc=5",
-            "published_at": "2026-11-25T02:45:57+00:00"
-          },
-          {
-            "title": "China launches first space mission with foreign astronaut",
-            "source": "Financial Times",
-            "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQRC1pbmw0S04yVGtzUkRuLUhnWGl1ejJHWW9DZXRoZW5ueC1pNFRVMTZOaXlGaDNkQUNjeFh6d1hUbm9hcVhGUEhfRVBIX3BHS1JtdUQ1REQ0YlRzZVVBRHJYVFBxT19WeEdGQXZKdFdpeTNDR2FHel93ZC1iZ1RPX3NmSlU?oc=5",
-            "published_at": "2026-11-25T03:29:39+00:00"
-          },
-          {
-            "title": "China launches Shenzhou-24 with Pakistani as first foreign astronaut",
-            "source": "Reuters",
-            "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0yMlVqQWJYTUozUzd4SkJZcFhHOWx5TEN4RnJKLVFXbG9UN3N1TVJVVkZUVEJoUXUxTmxyR3B2dXNtWWhwT20tUDJtWHV4YVlrOElPYldiOER0NDNRYkVCYjRYeVRhcFU?oc=5",
-            "published_at": "2026-11-25T06:15:20+00:00"
-          }
-        ],
-        "coverage_from": "2026-11-06T08:00:00+00:00",
-        "search_query": "china shenzhou astronaut",
-        "search_days": 730,
-        "searched_days": null,
         "search_status": "matched"
       }
     },
@@ -864,15 +807,15 @@
           "paywalled": false
         },
         {
-          "name": "Financial Times",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQYzFFM2ktMW9uTG81dUw2dGhZTkhNTV9leUNsczRQRWRGNUYyN2htRzZfeXlEQXZDRDFhaDJiSElabkVUN3ZzOG9ta2NaTlU3Q3A3empUZU11TnNXT0ZuZVpjTktYR21BdlktZWE1QXVFdTdKUVB0QS1hRnI5YUhCb183S0o?oc=5",
-          "published_at": "2026-11-27T17:29:29+00:00",
+          "name": "Bloomberg.com",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNVDlMYVRaRWRJSWFBRHlXRlVWWWZvTVlXZjRrWkgzdGc5UjJlX2JqQ1hkYzg3ck5TVzE4UE9ybVBEWEYtaExwdElaNTI1dWtHNVhmQVFnWHRjV3B1amwzNWNTU19BNXpfbVRaZ0dUbU1EX285bmFQaEhycm1Xc2pEQ1l2Ym5kMk5EdkhLVW1XS3JaOWlaYzFGTjhXU1loYjk2NXhSendJOVlpVkk?oc=5",
+          "published_at": "2026-11-27T18:12:57+00:00",
           "paywalled": true
         },
         {
-          "name": "Bloomberg",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNVDlMYVRaRWRJSWFBRHlXRlVWWWZvTVlXZjRrWkgzdGc5UjJlX2JqQ1hkYzg3ck5TVzE4UE9ybVBEWEYtaExwdElaNTI1dWtHNVhmQVFnWHRjV3B1amwzNWNTU19BNXpfbVRaZ0dUbU1EX285bmFQaEhycm1Xc2pEQ1l2Ym5kMk5EdkhLVW1XS3JaOWlaYzFGTjhXU1loYjk2NXhSendJOVlpVkk?oc=5",
-          "published_at": "2026-11-27T18:12:57+00:00",
+          "name": "Financial Times",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQYzFFM2ktMW9uTG81dUw2dGhZTkhNTV9leUNsczRQRWRGNUYyN2htRzZfeXlEQXZDRDFhaDJiSElabkVUN3ZzOG9ta2NaTlU3Q3A3empUZU11TnNXT0ZuZVpjTktYR21BdlktZWE1QXVFdTdKUVB0QS1hRnI5YUhCb183S0o?oc=5",
+          "published_at": "2026-11-27T17:29:29+00:00",
           "paywalled": true
         }
       ],
@@ -892,12 +835,64 @@
         {
           "at": "2026-11-27T22:32:06.682815+00:00",
           "source_count": 3
+        },
+        {
+          "at": "2026-11-27T23:27:25.081588+00:00",
+          "source_count": 3
         }
       ],
       "context": {
         "earlier_reporting": [],
         "coverage_from": null,
         "search_query": "verizon fidium ft",
+        "search_days": 730,
+        "searched_days": 365,
+        "search_status": "searched"
+      }
+    },
+    {
+      "id": "c93236f7b0d9",
+      "title": "EXCLUSIVE: Hackers breach US Air Force flagship Cloud One computing platform",
+      "summary": "EXCLUSIVE: Hackers breach US Air Force flagship Cloud One computing platform Reuters",
+      "image": "",
+      "category": "Tech",
+      "importance": "Notable",
+      "background_only": false,
+      "score": 43.5,
+      "published_at": "2026-11-27T20:56:01+00:00",
+      "source_count": 2,
+      "reasons": [
+        "high-impact event",
+        "2 trusted sources"
+      ],
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPQnhWb2oyc2Qta3k0bUhwbGZTcWZMREZ0VU41eVNZWDJZTDlBcmMxZzFrLXlmVGJpUHBRbVdBRlNoQU9lWUlIcVpMcXQwWWpyYVJ2eDJQa1ZvNFU5MUFHLWdpQW1BVloyUW5lTUlVSlFpLXJwVHNLMl9fQnBFTTNnemY4Q0JiUkN3SXFndG1pX1l1TmdySFJDOHJlWC1fMnE3cjlaVFB5M1hWbU0?oc=5",
+          "published_at": "2026-11-27T20:56:01+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "Bloomberg.com",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPVWQyN0hNdVF3TzdCQ0tpd052U2tzMFVTa3lzQmdqb0xiTXZtbWp1OExOb0pHMTZ4aFAycHFmekFTU19lTEx1VENSNUwyeV91V1lrbDF3R0tKX3BsMkFJY1ozd215SWYtWXNVX3dQWXpPaVFrN1RlZ1l5X0hUUU96MEptcjh3ZlFvZkRGRk5Hci1Yb0MzQ0JfcFpkdEFodw?oc=5",
+          "published_at": "2026-11-27T11:53:55+00:00",
+          "paywalled": true
+        }
+      ],
+      "lead_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPQnhWb2oyc2Qta3k0bUhwbGZTcWZMREZ0VU41eVNZWDJZTDlBcmMxZzFrLXlmVGJpUHBRbVdBRlNoQU9lWUlIcVpMcXQwWWpyYVJ2eDJQa1ZvNFU5MUFHLWdpQW1BVloyUW5lTUlVSlFpLXJwVHNLMl9fQnBFTTNnemY4Q0JiUkN3SXFndG1pX1l1TmdySFJDOHJlWC1fMnE3cjlaVFB5M1hWbU0?oc=5",
+      "first_reported_at": "2026-11-27T20:56:01+00:00",
+      "update_count": 0,
+      "updated": false,
+      "coverage_history": [
+        {
+          "at": "2026-11-27T23:27:25.081588+00:00",
+          "source_count": 2
+        }
+      ],
+      "context": {
+        "earlier_reporting": [],
+        "coverage_from": null,
+        "search_query": "exclusive hackers us breach",
         "search_days": 730,
         "searched_days": 180,
         "search_status": "searched"
@@ -912,7 +907,7 @@
       "importance": "Notable",
       "background_only": false,
       "score": 41.8,
-      "published_at": "2026-11-27T22:23:02+00:00",
+      "published_at": "2026-11-27T22:24:28+00:00",
       "source_count": 2,
       "reasons": [
         "high-impact event",
@@ -928,7 +923,7 @@
         {
           "name": "Al Jazeera",
           "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNVHhKQVVmUXhlYkI2T3JnUlhHb3pLYk9FRmlqX19JcjZrNWdFV0g3VDdZbGRSclp6akN4bnNjTFctbkdNanpLZWxVSkhPZXVWMDNLVjY1Vm9fTFZWQk10NFAtNFBkenhpMkZkSDFFaWpVVlRGVDhxZnNncmg5dXlVT1ZoaVlYQTZEQnVpc3o4UEhmLVFaeUJpQ0VwTzFVVkdhQWpHWGZ2T2JtM0pTSVl3YzA3R0dNUdIBuwFBVV95cUxQMl9KeEFfTjdYTkRLM1Zfblg0S3Q1OUVhQ1l1VVcyNHhrbHRjQ2Zvcl9TengzSTVrakVPWDM0d00zZy16N21VQVJ0QXNpSW1TT1hraHJYUkc5V3Q5bGxQbktSQ2t0SWlSWWlDeGtYeHBiS1haNDZhNHJJQ1Y0bU5sR1NwX0VCeVJaVlFlMVZkcEhJbzJZbHc0SGx6MFBRc3dLeVVwS0FSd0psbllDMXl6NThCdUNzbnpYcFY0?oc=5",
-          "published_at": "2026-11-27T22:23:02+00:00",
+          "published_at": "2026-11-27T22:24:28+00:00",
           "paywalled": false
         }
       ],
@@ -939,6 +934,10 @@
       "coverage_history": [
         {
           "at": "2026-11-27T22:32:06.682815+00:00",
+          "source_count": 2
+        },
+        {
+          "at": "2026-11-27T23:27:25.081588+00:00",
           "source_count": 2
         }
       ],
@@ -1025,6 +1024,10 @@
         {
           "at": "2026-11-27T22:32:06.682815+00:00",
           "source_count": 2
+        },
+        {
+          "at": "2026-11-27T23:27:25.081588+00:00",
+          "source_count": 2
         }
       ],
       "context": {
@@ -1071,10 +1074,6 @@
       "updated": false,
       "coverage_history": [
         {
-          "at": "2026-11-27T12:42:10.715543+00:00",
-          "source_count": 1
-        },
-        {
           "at": "2026-11-27T13:37:10.370062+00:00",
           "source_count": 1
         },
@@ -1117,6 +1116,10 @@
         {
           "at": "2026-11-27T22:32:06.682815+00:00",
           "source_count": 1
+        },
+        {
+          "at": "2026-11-27T23:27:25.081588+00:00",
+          "source_count": 1
         }
       ],
       "context": {
@@ -1126,6 +1129,122 @@
         "search_days": 730,
         "searched_days": 730,
         "search_status": "searched"
+      }
+    },
+    {
+      "id": "27e824d5e2d7",
+      "title": "Spain's Sanchez insists he will defy polls as election campaign wraps up",
+      "summary": "Spain's Sanchez insists he will defy polls as election campaign wraps up Reuters",
+      "image": "",
+      "category": "Europe/UK",
+      "importance": "Notable",
+      "background_only": false,
+      "score": 39.0,
+      "published_at": "2026-11-27T19:12:26+00:00",
+      "source_count": 2,
+      "reasons": [
+        "high-impact event",
+        "2 trusted sources"
+      ],
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOWWJleDNqeFIxY19DeHdSdjNfMWJKYkxMMmtnTWJkZzZDYzFidEVrOXZ0Und0eTJldEx1c1llcnp6VmhSRnJWczVGOXNwbUM5RVZPbDNOUmFPaTRzbWp6YnRtTFM1Y3FxREs5WkFKaUZzeUh3d0hhci1rWlB0QlEwbFNxY1h6bEI0Mkp3NG55aXRBc2JzVmstZk5xeE0wMWg5TS1jVnE5T2U4UlBGR3Y3V0hHZzlfM3B3?oc=5",
+          "published_at": "2026-11-27T19:12:26+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNem1pMTg5cnBXUWhMQU1pV1pmbjBmR29lcnpsS2hQM2pwTlpJUGRxbktCOW5EMGZQb3hlM3JUWDg4Xzh3bU1VYnItYklVNlNRa1lpdERuNHRDQ1l4T3NGQWF4MzhWdEh4TWFNVnBZZ2p0TzJQTWdMWlZrYms3UGhXdU9tSHc2a3FMa3BMaUhlNFZfSUZqeXA5VFFwS280ckpsR2NsN29UMkxFa29XN01mbGd2VkUwczTSAbwBQVVfeXFMTlJackVKZUtBOGZaX3VvbGI5ZGEwZ3VzUDlBaTY5NnEyZEJDUXdIdjI0cGU5MG53cHppUnFCR2pOMkYxNEI5UjhjSVhQdXJYX3RqbnhFTUcyOURER0d6MlU3TGNRMWQwUlhPRWpuZGx5MjIyTEl5aGRnOUZMN2ZBeU9kLXBZYmwybDZNME9zY3ZOVk5raWJHOTV5UUdhMV8yY0h6WWlDV3hVek56aGFIamVMOU1EV1pCcVpUYjA?oc=5",
+          "published_at": "2026-11-27T17:22:18+00:00",
+          "paywalled": false
+        }
+      ],
+      "lead_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOWWJleDNqeFIxY19DeHdSdjNfMWJKYkxMMmtnTWJkZzZDYzFidEVrOXZ0Und0eTJldEx1c1llcnp6VmhSRnJWczVGOXNwbUM5RVZPbDNOUmFPaTRzbWp6YnRtTFM1Y3FxREs5WkFKaUZzeUh3d0hhci1rWlB0QlEwbFNxY1h6bEI0Mkp3NG55aXRBc2JzVmstZk5xeE0wMWg5TS1jVnE5T2U4UlBGR3Y3V0hHZzlfM3B3?oc=5",
+      "first_reported_at": "2026-11-27T19:12:26+00:00",
+      "update_count": 0,
+      "updated": false,
+      "coverage_history": [
+        {
+          "at": "2026-11-27T23:27:25.081588+00:00",
+          "source_count": 2
+        }
+      ],
+      "context": {
+        "earlier_reporting": [
+          {
+            "title": "Spain general election 2026: polls, Sanchez vs Feijoo and what happens next",
+            "source": "Reuters",
+            "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxONjZzMy1MR1FIaWhtS2xqeWlHSmVfN3piVTAtczU5djZMOFludlVUa3M3SC1yeDBqWGlOd0NFMmdUUWRGX3ZMVDQ4aDF2TTN1U2lXOEdfb1pNWmt0TXQ2OHhHUEMwcFhBdk5TMFZKejdhRktPM2ZXUEp6Ym1IOVA1M1RvNnpZNFkwQ05TLWRGb25uTmtqYlM1YlliWFhUcGs?oc=5",
+            "published_at": "2026-11-26T16:00:00+00:00"
+          }
+        ],
+        "coverage_from": "2026-11-26T16:00:00+00:00",
+        "search_query": "spain sanchez election",
+        "search_days": 730,
+        "searched_days": 180,
+        "search_status": "matched"
+      }
+    },
+    {
+      "id": "1fe1c9afe550",
+      "title": "Paul Mackenzie: Kenyan doomsday cult leader convicted over further 123 deaths",
+      "summary": "Paul Mackenzie: Kenyan doomsday cult leader convicted over further 123 deaths BBC",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fd53/live/e165d810-ea74-11f1-a828-d384c0290f6b.jpg",
+      "category": "World",
+      "importance": "Notable",
+      "background_only": false,
+      "score": 38.5,
+      "published_at": "2026-11-27T22:33:17+00:00",
+      "source_count": 2,
+      "reasons": [
+        "reported fatalities",
+        "2 trusted sources"
+      ],
+      "sources": [
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cmy49de4xx1zo?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-11-27T17:19:31+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/27/kenyan-cult-leader-guilty-of-manslaughter-more-than-123-starvation-deaths?traffic_source=rss",
+          "published_at": "2026-11-27T22:33:17+00:00",
+          "paywalled": false
+        }
+      ],
+      "lead_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBENnZRQ2JjaFRidXRBYVU2b19WSGJrU2t3Sy1UV2FvM1YxZTluNHZQbVJwb1EyR0dfVl9GMldyaXZsTHRScDdRV1JuMEkxWlI2Rlh2NmoxU2MxTWc?oc=5",
+      "first_reported_at": "2026-11-27T22:33:17+00:00",
+      "update_count": 0,
+      "updated": false,
+      "coverage_history": [
+        {
+          "at": "2026-11-27T23:27:25.081588+00:00",
+          "source_count": 2
+        }
+      ],
+      "context": {
+        "earlier_reporting": [
+          {
+            "title": "Paul Mackenzie: Kenya doomsday cult leader sentenced to 200 years in prison for Shakahola deaths",
+            "source": "BBC",
+            "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5SMWN0VDFUWEppMnUzNmFNUjlGdHpWM2c5REYyMG85V3RtT29KQlhaN3lTenRHT0pMSjI3V2pkSTQ4Z1hxeUZEMS1McnNETnhzTldVY2gxRVBRS054aGc?oc=5",
+            "published_at": "2026-11-06T08:00:00+00:00"
+          },
+          {
+            "title": "Leader of Kenyan doomsday cult sentenced to 200 years in prison",
+            "source": "AP News",
+            "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOdUw2eEJsbFByTGFvckM5bXBFbHBVOTZZQ1FFTFdtdjJLSXJlU21jNGRGWXZwV2M3WGFLNVZ4a1ZVZDZPRGgtTzU1OVVrdVg2Z2V2TklKTjRzbkRmUXMwd0c0YTlwUDFfWC1EWnFsekxxYUJ0NWhHQ3hUU0swOUpXOUViZGpHV3FuM2N6Wi1WUkotUQ?oc=5",
+            "published_at": "2026-11-07T08:00:00+00:00"
+          }
+        ],
+        "coverage_from": "2026-11-06T08:00:00+00:00",
+        "search_query": "paul mackenzie kenyan",
+        "search_days": 730,
+        "searched_days": 30,
+        "search_status": "matched"
       }
     },
     {
@@ -1173,6 +1292,10 @@
         {
           "at": "2026-11-27T22:32:06.682815+00:00",
           "source_count": 2
+        },
+        {
+          "at": "2026-11-27T23:27:25.081588+00:00",
+          "source_count": 2
         }
       ],
       "context": {
@@ -1180,7 +1303,7 @@
         "coverage_from": null,
         "search_query": "south korea central",
         "search_days": 730,
-        "searched_days": 365,
+        "searched_days": 730,
         "search_status": "searched"
       }
     }
@@ -1210,12 +1333,6 @@
       "source": "AP News",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNU2w0bC1tN2k4SU92bG9kc3U2U053dGZvZEh5WEs4U2IzRnVkRk9RdDlYSGZkekNQNy1WYmtKaHhWblI0U1F6SmxmVHJuWmhkRFJQV0xTaXRQRGFxUnd2b0tNMlNNZkszZy00cDNzazdNR1k4WElZTk5lSWNmR1dnQ1l1N2tCa1dtYmNoZmdZS21nd3NDVENDQ01XcDRCQXpocEpIeVhiMA?oc=5",
       "published_at": "2026-11-26T11:49:00+00:00"
-    },
-    {
-      "title": "Saudi-backed forces in Yemen bolster defenses near Aden to deter Houthis, and other Mideast news",
-      "source": "AP News",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOR2l1bWc4eTF3NXJ2NktEbGZGWnRzeUJyYzBaQmxBdnpnblVHeEVzaDVZR01ndG1UQVAzTkdtVGxaYlRZcEJ6S3BHRTJuVkRXVjFkZkpOb3lYcGlsc25UVW41QjA1QmgxY1hBaUp0ZWYxQjFZYXhyWklaZFdLMEVEcnFoOWRSR1poMEh4ZWN0ZXlETnlJWU5JdXUycEMtdkszeXAxZEtPa2gwS3MwcDQ0eDRFNUQ?oc=5",
-      "published_at": "2026-11-17T08:00:00+00:00"
     },
     {
       "title": "Pakistani astronaut to board Shenzhou 24 and become the first foreigner on China's space station",
@@ -1248,24 +1365,6 @@
       "published_at": "2026-06-18T07:00:00+00:00"
     },
     {
-      "title": "Pakistani astronaut launches into space aboard Chinese rocket",
-      "source": "Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNVWdUSGN0dUpVbVFWRXZwVUJ6akp5Sm5SNFVwbzRHYmJ5RkprMDRDVDFxdXFQTUdCc0VrUWo1QmV2QWFOVmZFVHQ4N1JWQWJRZnY5UUgwUkJjaHlzWEY2ZGt5dVd3R3RqMEh4TWZCTzNhUGx4bDZMeTNITHZfbFZBQWZ5enZoRU5aZEZJbWEyOU93YjZVcm94VE9PT1JqY19WY1daeXVMMkRheVlkUkJrSmkxNNIBuAFBVV95cUxQTVJFWXhCeC0tQ0U1ZDhyTFg0eDFDYzVOZVBtNUx4MnNIVkdtN1YxdDhWbGZtYkhNV0hHWU9vN2J5NEJ0aGdrekxVdy1Ba0FnakJPMEt0ZEtkS1BDRmQ0S2F2Z3dlRXVHWXNONkJRQnZELUdZREVjdXRWa3VZbFl3enVhSUtGY2dTckw2QV9GZUxsZ1RCWnNRNzhpNXYxd2dqVGFSZnpuZkdaNDY2VmhoaEFYVHhycWpF?oc=5",
-      "published_at": "2026-11-25T02:45:57+00:00"
-    },
-    {
-      "title": "China launches first space mission with foreign astronaut",
-      "source": "Financial Times",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQRC1pbmw0S04yVGtzUkRuLUhnWGl1ejJHWW9DZXRoZW5ueC1pNFRVMTZOaXlGaDNkQUNjeFh6d1hUbm9hcVhGUEhfRVBIX3BHS1JtdUQ1REQ0YlRzZVVBRHJYVFBxT19WeEdGQXZKdFdpeTNDR2FHel93ZC1iZ1RPX3NmSlU?oc=5",
-      "published_at": "2026-11-25T03:29:39+00:00"
-    },
-    {
-      "title": "China launches Shenzhou-24 with Pakistani as first foreign astronaut",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0yMlVqQWJYTUozUzd4SkJZcFhHOWx5TEN4RnJKLVFXbG9UN3N1TVJVVkZUVEJoUXUxTmxyR3B2dXNtWWhwT20tUDJtWHV4YVlrOElPYldiOER0NDNRYkVCYjRYeVRhcFU?oc=5",
-      "published_at": "2026-11-25T06:15:20+00:00"
-    },
-    {
       "title": "‘Too early’ to determine impact of US blockade on Iran, with Tehran defiant",
       "source": "Al Jazeera",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNR0tDOEoxcE1oTWlVYnFZX2w3SXQ4UHY5ZGM5NUhiOVNiblhqMm1ZblFiWFF4YTVPM0RaZURuMjFkNjNFOHRiaDExTGtFZEJrN0tMR0EycjdieDZCRHRPTFdvVDlqSE4wMnYzbl83TkJvRE11bWRtdVU3a1RWLXdwdzhyRXhmVndmU0ZHZ3NJLWowdWh1QVA3TkJyS0RfdnV1SFRRQlNCR3lGSnplWXVmUWgzMWfSAboBQVVfeXFMTU1hWUtoLVAyQ3VmUW1hVDJRRUxjYXRyODAzY2RrdWR0SnE2a09VMDROQjRfdUc3azJSU0R2djhtdTAyb0hwTHREMFZjcURxTDlyMHVKZjBlcDdYbzNtOTFCdzNadnZhZ3VjUV9tVmlDcUJvWVJNNU1xa3puRzVXVVZHNmhiSmhBai14WWQzbWpIVHJQVXIyVWlBaDVIWElzeDNmUVdDMTRuYmFNTzdUMVBSNDBXRkxaX0Jn?oc=5",
@@ -1284,16 +1383,34 @@
       "published_at": "2026-11-26T13:58:06+00:00"
     },
     {
+      "title": "Spain general election 2026: polls, Sanchez vs Feijoo and what happens next",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxONjZzMy1MR1FIaWhtS2xqeWlHSmVfN3piVTAtczU5djZMOFludlVUa3M3SC1yeDBqWGlOd0NFMmdUUWRGX3ZMVDQ4aDF2TTN1U2lXOEdfb1pNWmt0TXQ2OHhHUEMwcFhBdk5TMFZKejdhRktPM2ZXUEp6Ym1IOVA1M1RvNnpZNFkwQ05TLWRGb25uTmtqYlM1YlliWFhUcGs?oc=5",
+      "published_at": "2026-11-26T16:00:00+00:00"
+    },
+    {
+      "title": "Paul Mackenzie: Kenya doomsday cult leader sentenced to 200 years in prison for Shakahola deaths",
+      "source": "BBC",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5SMWN0VDFUWEppMnUzNmFNUjlGdHpWM2c5REYyMG85V3RtT29KQlhaN3lTenRHT0pMSjI3V2pkSTQ4Z1hxeUZEMS1McnNETnhzTldVY2gxRVBRS054aGc?oc=5",
+      "published_at": "2026-11-06T08:00:00+00:00"
+    },
+    {
+      "title": "Leader of Kenyan doomsday cult sentenced to 200 years in prison",
+      "source": "AP News",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOdUw2eEJsbFByTGFvckM5bXBFbHBVOTZZQ1FFTFdtdjJLSXJlU21jNGRGWXZwV2M3WGFLNVZ4a1ZVZDZPRGgtTzU1OVVrdVg2Z2V2TklKTjRzbkRmUXMwd0c0YTlwUDFfWC1EWnFsekxxYUJ0NWhHQ3hUU0swOUpXOUViZGpHV3FuM2N6Wi1WUkotUQ?oc=5",
+      "published_at": "2026-11-07T08:00:00+00:00"
+    },
+    {
+      "title": "EXCLUSIVE: Hackers breach US Air Force flagship Cloud One computing platform",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPQnhWb2oyc2Qta3k0bUhwbGZTcWZMREZ0VU41eVNZWDJZTDlBcmMxZzFrLXlmVGJpUHBRbVdBRlNoQU9lWUlIcVpMcXQwWWpyYVJ2eDJQa1ZvNFU5MUFHLWdpQW1BVloyUW5lTUlVSlFpLXJwVHNLMl9fQnBFTTNnemY4Q0JiUkN3SXFndG1pX1l1TmdySFJDOHJlWC1fMnE3cjlaVFB5M1hWbU0?oc=5",
+      "published_at": "2026-11-27T20:56:01+00:00"
+    },
+    {
       "title": "US disables ship trying to leave Iran, as Tehran vows to confront blockade",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPbzhtZElCdnJJN0hCYkdsQ1lTWHc5UDRtNGE4cF9sWE14dlpacmk2blU5cXJMTHp0MGNaMElaQzdSem91dXNpNVRtd1k4ekZza09jVEpubTh3cjlpbE9CNWdMSU1seV9vNDFEeGQ1aDZBY1J1R0JoNVdlcjJaQnlWcU5Ib3ZISHVmNHA4eklQclI2WDIzR0VtNVp0NEJjaDZfcTlKNHRNbW54bGF2TExrR1NaSFJvLUxRcnc?oc=5",
       "published_at": "2026-11-27T20:06:57+00:00"
-    },
-    {
-      "title": "EXCLUSIVE Hackers breach US Air Force flagship Cloud One computing platform",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPQnhWb2oyc2Qta3k0bUhwbGZTcWZMREZ0VU41eVNZWDJZTDlBcmMxZzFrLXlmVGJpUHBRbVdBRlNoQU9lWUlIcVpMcXQwWWpyYVJ2eDJQa1ZvNFU5MUFHLWdpQW1BVloyUW5lTUlVSlFpLXJwVHNLMl9fQnBFTTNnemY4Q0JiUkN3SXFndG1pX1l1TmdySFJDOHJlWC1fMnE3cjlaVFB5M1hWbU0?oc=5",
-      "published_at": "2026-11-27T20:00:10+00:00"
     },
     {
       "title": "Spain's Sanchez insists he will defy polls as election campaign wraps up",
@@ -1432,12 +1549,6 @@
       "source": "BBC World",
       "url": "https://www.bbc.co.uk/news/articles/crx209kwk4kzo?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-11-26T16:21:19+00:00"
-    },
-    {
-      "title": "Spain general election 2026: polls, Sanchez vs Feijoo and what happens next",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxONjZzMy1MR1FIaWhtS2xqeWlHSmVfN3piVTAtczU5djZMOFludlVUa3M3SC1yeDBqWGlOd0NFMmdUUWRGX3ZMVDQ4aDF2TTN1U2lXOEdfb1pNWmt0TXQ2OHhHUEMwcFhBdk5TMFZKejdhRktPM2ZXUEp6Ym1IOVA1M1RvNnpZNFkwQ05TLWRGb25uTmtqYlM1YlliWFhUcGs?oc=5",
-      "published_at": "2026-11-26T16:00:00+00:00"
     },
     {
       "title": "Two Italians killed in drone strike on Kuwait",
@@ -1698,6 +1809,12 @@
       "published_at": "2026-11-25T07:08:22+00:00"
     },
     {
+      "title": "China launches Shenzhou-24 with Pakistani as first foreign astronaut",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0yMlVqQWJYTUozUzd4SkJZcFhHOWx5TEN4RnJKLVFXbG9UN3N1TVJVVkZUVEJoUXUxTmxyR3B2dXNtWWhwT20tUDJtWHV4YVlrOElPYldiOER0NDNRYkVCYjRYeVRhcFU?oc=5",
+      "published_at": "2026-11-25T06:15:20+00:00"
+    },
+    {
       "title": "China's Shenzhou-24 carries Pakistan's first astronaut into space",
       "source": "BBC",
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA0eDZwOGtQQnBoOXlyLWhIME9fanAwcGZVWjlNMWhGcmRBeWs2czVPNHRyM2NtQk1sekhQNmFLcjU2VFJLT2Nzb3hTM2xuelVqWmZDU1oxY0xhSXM?oc=5",
@@ -1708,6 +1825,12 @@
       "source": "Al Jazeera",
       "url": "https://www.aljazeera.com/video/newsfeed/2026/11/25/israeli-strike-kills-four-people-in-gaza?traffic_source=rss",
       "published_at": "2026-11-25T04:13:58+00:00"
+    },
+    {
+      "title": "China launches first space mission with foreign astronaut",
+      "source": "Financial Times",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQRC1pbmw0S04yVGtzUkRuLUhnWGl1ejJHWW9DZXRoZW5ueC1pNFRVMTZOaXlGaDNkQUNjeFh6d1hUbm9hcVhGUEhfRVBIX3BHS1JtdUQ1REQ0YlRzZVVBRHJYVFBxT19WeEdGQXZKdFdpeTNDR2FHel93ZC1iZ1RPX3NmSlU?oc=5",
+      "published_at": "2026-11-25T03:29:39+00:00"
     },
     {
       "title": "Moment Chinese space mission lifts off with first Pakistan astronaut aboard",
@@ -1726,6 +1849,12 @@
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNX25GRDZCYm1IVFNncXVSenBCSUFwYTVUbEZYU1JvQktGWTNZa0FsNzl5bXQyazNzeXF1ODl1VXJBa1hYZkdZc0s2dUFPRi1JS3V1SXFnTjQ3M0hRTEtQaE1GaF9lVm9KNUc2amhiYkFudk5WT0M4RXpUMWJNRzVvQzFneHp6TUF5Vng2YWd2UUJFRlBmU2pxc3RidmZ3SlUzLXViTmw4VmhtclBDVUFxSDdhNFlfTTFEcVZyYm5KRkU?oc=5",
       "published_at": "2026-11-25T03:13:00+00:00"
+    },
+    {
+      "title": "Pakistani astronaut launches into space aboard Chinese rocket",
+      "source": "Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNVWdUSGN0dUpVbVFWRXZwVUJ6akp5Sm5SNFVwbzRHYmJ5RkprMDRDVDFxdXFQTUdCc0VrUWo1QmV2QWFOVmZFVHQ4N1JWQWJRZnY5UUgwUkJjaHlzWEY2ZGt5dVd3R3RqMEh4TWZCTzNhUGx4bDZMeTNITHZfbFZBQWZ5enZoRU5aZEZJbWEyOU93YjZVcm94VE9PT1JqY19WY1daeXVMMkRheVlkUkJrSmkxNNIBuAFBVV95cUxQTVJFWXhCeC0tQ0U1ZDhyTFg0eDFDYzVOZVBtNUx4MnNIVkdtN1YxdDhWbGZtYkhNV0hHWU9vN2J5NEJ0aGdrekxVdy1Ba0FnakJPMEt0ZEtkS1BDRmQ0S2F2Z3dlRXVHWXNONkJRQnZELUdZREVjdXRWa3VZbFl3enVhSUtGY2dTckw2QV9GZUxsZ1RCWnNRNzhpNXYxd2dqVGFSZnpuZkdaNDY2VmhoaEFYVHhycWpF?oc=5",
+      "published_at": "2026-11-25T02:45:57+00:00"
     },
     {
       "title": "King tides could break decades-old records and flood communities on both coasts on Thanksgiving week",
@@ -2076,6 +2205,12 @@
       "published_at": "2026-11-20T21:41:24+00:00"
     },
     {
+      "title": "Saudi-backed forces in Yemen bolster defenses near Aden to deter Houthis, and other Mideast news",
+      "source": "AP News",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOR2l1bWc4eTF3NXJ2NktEbGZGWnRzeUJyYzBaQmxBdnpnblVHeEVzaDVZR01ndG1UQVAzTkdtVGxaYlRZcEJ6S3BHRTJuVkRXVjFkZkpOb3lYcGlsc25UVW41QjA1QmgxY1hBaUp0ZWYxQjFZYXhyWklaZFdLMEVEcnFoOWRSR1poMEh4ZWN0ZXlETnlJWU5JdXUycEMtdkszeXAxZEtPa2gwS3MwcDQ0eDRFNUQ?oc=5",
+      "published_at": "2026-11-17T08:00:00+00:00"
+    },
+    {
       "title": "Yemen’s Houthis renew strikes on Saudi Arabia as UNSC extends sanctions",
       "source": "Al Jazeera",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNczh4SThZNndlcnhvbjZxLWgzZ0x1Ym5zRUt0WHQ1V1k3dW54dDFGNFFGa015aE9NLVNBanFwNVB6S1JPLWp0ZEswUGpDc1pwRWtTbzJZOFdWQTlXVzA0QlhIZ0xTM1VNTUZzS3RGck80TU1tRmVxclhFLTlJbVBtWmdjVnNkUDB6RGJudDhabHktT1lkYzdlNzdBTUFDY0FjN3FXSTFuWGVxeWxvNkFlTUl30gG3AUFVX3lxTE1TT3FLV3RuLVdWMUR6TXc3UFhRODUxeVdpWDdoeUxnMUtpYTk1bVJJMy1jYnp4S0liVXJlTlB2WXM3M2ZwMktmTi1pbzBPbURfcl9LNDRaM0ZJZ21fOThTQzRtX3kzTUk3cWQ1TzlJb2I2OWFuWDk5ekVsd3JHck04SGpvUUhZU2lJaHhMRGhPNWR1eHJ1VFltYUU1ZzJjLTBLMmM3UVM5ZTFRbHZDSVRUZnlKdlFwbw?oc=5",
@@ -2170,20 +2305,56 @@
     "de658703d516": {
       "version": 4,
       "query": "verizon fidium ft",
-      "at": "2026-11-27T22:32:06.682815+00:00",
+      "at": "2026-11-27T23:27:25.081588+00:00",
+      "stage": 3,
+      "matched": false,
+      "exhausted": false,
+      "searched_days": 365
+    },
+    "447845e246ab": {
+      "version": 4,
+      "query": "south korea central",
+      "at": "2026-11-27T23:27:25.081588+00:00",
+      "stage": 3,
+      "matched": false,
+      "exhausted": true,
+      "searched_days": 730
+    },
+    "4e329fa4ac09": {
+      "version": 4,
+      "query": "severe thanksgiving storms",
+      "at": "2026-11-27T23:27:25.081588+00:00",
       "stage": 2,
       "matched": false,
       "exhausted": false,
       "searched_days": 180
     },
-    "447845e246ab": {
+    "c93236f7b0d9": {
       "version": 4,
-      "query": "south korea central",
-      "at": "2026-11-27T22:32:06.682815+00:00",
-      "stage": 3,
+      "query": "exclusive hackers us breach",
+      "at": "2026-11-27T23:27:25.081588+00:00",
+      "stage": 2,
       "matched": false,
       "exhausted": false,
-      "searched_days": 365
+      "searched_days": 180
+    },
+    "02e1790be689": {
+      "version": 4,
+      "query": "shock egypt explosion",
+      "at": "2026-11-27T23:27:25.081588+00:00",
+      "stage": 1,
+      "matched": false,
+      "exhausted": false,
+      "searched_days": 30
+    },
+    "1fe1c9afe550": {
+      "version": 4,
+      "query": "paul mackenzie kenyan",
+      "at": "2026-11-27T23:27:25.081588+00:00",
+      "stage": 0,
+      "matched": true,
+      "exhausted": false,
+      "searched_days": 30
     },
     "ac91e1ec76d8": {
       "version": 4,
@@ -2193,15 +2364,6 @@
       "matched": false,
       "exhausted": false,
       "searched_days": 180
-    },
-    "4e329fa4ac09": {
-      "version": 4,
-      "query": "severe thanksgiving storms",
-      "at": "2026-11-27T22:32:06.682815+00:00",
-      "stage": 1,
-      "matched": false,
-      "exhausted": false,
-      "searched_days": 30
     },
     "0899220521e4": {
       "version": 4,
@@ -2281,15 +2443,6 @@
       "at": "2026-11-27T20:42:04.272737+00:00",
       "stage": 0,
       "matched": true,
-      "exhausted": false,
-      "searched_days": 30
-    },
-    "c93236f7b0d9": {
-      "version": 4,
-      "query": "exclusive hackers us breach",
-      "at": "2026-11-27T20:42:04.272737+00:00",
-      "stage": 1,
-      "matched": false,
       "exhausted": false,
       "searched_days": 30
     },
