@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T15:27:19.994448+00:00",
+  "generated_at": "2026-11-27T16:22:09.965297+00:00",
   "model_mode": "sentence-transformers",
   "stories": [
     {
@@ -11,7 +11,7 @@
       "importance": "Major",
       "background_only": false,
       "score": 82.1,
-      "published_at": "2026-11-27T06:48:50+00:00",
+      "published_at": "2026-11-27T13:16:53+00:00",
       "source_count": 1,
       "reasons": [
         "high-impact event",
@@ -22,13 +22,13 @@
         {
           "name": "AP News",
           "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOODk5TW1rbDA5Ml84Vzh3OWVzdW12UkFLbXJzQlZSbG9rNTQxZGl1bjBPQ1FsNURnQ21MU3FFX1RqZFVDdzJrSXR5YkRTTndHcERGWUpyaklFeWxlQ2l4aXhKT1ctM1cwMDdtOHg5RHQ3ZmhqVTIyWFVHUWdHSG40WExZWkJSM1lZNndDSFBlbEdNNnM?oc=5",
-          "published_at": "2026-11-26T09:22:00+00:00",
+          "published_at": "2026-11-26T13:48:05+00:00",
           "paywalled": false
         }
       ],
       "lead_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOODk5TW1rbDA5Ml84Vzh3OWVzdW12UkFLbXJzQlZSbG9rNTQxZGl1bjBPQ1FsNURnQ21MU3FFX1RqZFVDdzJrSXR5YkRTTndHcERGWUpyaklFeWxlQ2l4aXhKT1ctM1cwMDdtOHg5RHQ3ZmhqVTIyWFVHUWdHSG40WExZWkJSM1lZNndDSFBlbEdNNnM?oc=5",
       "first_reported_at": "2026-11-27T06:48:50+00:00",
-      "update_count": 2,
+      "update_count": 3,
       "updated": true,
       "coverage_history": [
         {
@@ -57,6 +57,10 @@
         },
         {
           "at": "2026-11-27T15:27:19.994448+00:00",
+          "source_count": 1
+        },
+        {
+          "at": "2026-11-27T16:22:09.965297+00:00",
           "source_count": 1
         }
       ],
@@ -89,53 +93,6 @@
       }
     },
     {
-      "id": "5ceed16d1376",
-      "title": "31 dead in huge blast following crash on Ring Road near Al-Warraq, Giza",
-      "summary": "31 dead in huge blast following crash on Ring Road near Al-Warraq, Giza Egypt Today",
-      "image": "",
-      "category": "World",
-      "importance": "Major",
-      "background_only": false,
-      "score": 71.1,
-      "published_at": "2026-11-25T10:23:00+00:00",
-      "source_count": 1,
-      "reasons": [
-        "high-impact event",
-        "reported fatalities",
-        "significant accident with human impact"
-      ],
-      "sources": [
-        {
-          "name": "Egypt Today",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOWUl2Y0RXNXItTTQzS3J5QVdINXFFSVF4bld3TlF6eHcyYk9zTjgzanh0R0dRQ19hYkJVM2hwVTRPd0d3SHl0c3liOTJacVo3amRTN3M1V2JFazA1QmprXzlEei04WXNQQktXamhHM21yZDZaVlpKNmtFb0RDU3ZZRVgyOWJzeWZxekZDam9PSzl5VlBHZ1g3eS1n?oc=5",
-          "published_at": "2026-11-25T10:23:00+00:00",
-          "paywalled": false
-        }
-      ],
-      "lead_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOWUl2Y0RXNXItTTQzS3J5QVdINXFFSVF4bld3TlF6eHcyYk9zTjgzanh0R0dRQ19hYkJVM2hwVTRPd0d3SHl0c3liOTJacVo3amRTN3M1V2JFazA1QmprXzlEei04WXNQQktXamhHM21yZDZaVlpKNmtFb0RDU3ZZRVgyOWJzeWZxekZDam9PSzl5VlBHZ1g3eS1n?oc=5",
-      "first_reported_at": "2026-11-25T10:23:00+00:00",
-      "update_count": 0,
-      "updated": false,
-      "coverage_history": [
-        {
-          "at": "2026-11-27T14:32:29.973263+00:00",
-          "source_count": 1
-        },
-        {
-          "at": "2026-11-27T15:27:19.994448+00:00",
-          "source_count": 1
-        }
-      ],
-      "context": {
-        "earlier_reporting": [],
-        "coverage_from": null,
-        "search_query": "ring road giza explosion crash",
-        "search_days": 730,
-        "searched_days": 730,
-        "search_status": "searched"
-      }
-    },
-    {
       "id": "7fdc94861d8b",
       "title": "Egypt detains driver over Cairo fuel tanker fire that killed 31",
       "summary": "Egypt detains driver over Cairo fuel tanker fire that killed 31 Al Jazeera",
@@ -145,7 +102,7 @@
       "background_only": false,
       "score": 65.6,
       "published_at": "2026-11-26T21:10:50+00:00",
-      "source_count": 4,
+      "source_count": 3,
       "reasons": [
         "reported fatalities",
         "significant accident with human impact",
@@ -165,12 +122,6 @@
           "paywalled": false
         },
         {
-          "name": "ABC News - Breaking News, Latest News and Videos",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNWTlvYXVmTGRzVkNJQWRKc0QzT3JjeHhtZHVPY09GT2xTTTZLckZraEt3NXVaNG90S2hZYWNZbWg5TDhwa0ZfTE9VclZ6NUxWaGtqUmtiMklTT3gxbEt3Ry1oeVBXYVo1Y0Q5QzlBUFNWLVgxa3U4UG9JTllnaGVFT1k0dS1wYl9VS0JJbFk3WndBUVY4Y0g3dHZnVmFNcnRNMDlWajYxaWtjRGM2Q3V0UdIBtgFBVV95cUxQWHJhajhjUVluRmZEUF9GdmJmdlRSaFI3Uk9Oa200cDg2UkRSSmxRU0JQaTFRTUI5dlBaOHc4ZXd6SkFjTmFMenZZNzNnMFo3bE85a3NGNnlPTHB3VXRPazNUUDR3Vm5GR0dLSFVZTS1SUjRaajVmZ0VpZVpoZExBRm5CZmcwU0xLb1RXdm4ycmRrTF9EVUFtelVDSGxCSjVaZEtVNFp3dnJNWDkyR3BDMFZXSXUxZw?oc=5",
-          "published_at": "2026-11-26T16:50:16+00:00",
-          "paywalled": false
-        },
-        {
           "name": "Fox News",
           "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPYWp2Z1RsbUd0MXByd2EtT21Jdkk4MGlQd2EzUkp6TGFKWVBia1lRTXRKbmlRcjQyN1QtTU9NaHZwTWxuWnlhNWw3SzRBOHkwZGxkYWFjS2ZxT3U5U0M0VlJ1T1JEWXlZR2YtWDU5eUJsTzVKdXNBRG02MmtWN3lmeHdhaFFPQWtUcDRycEVYeTF2SHd1Q0daT095dVcybnhCN0d1VnhoWG93NUVFYTh5a08yVdIBuAFBVV95cUxORnpJbFc2QUNYX0hJM1RIWC1BSVYtQjk5TGJnSjJUMTdkTWZDMEtxd0JwQWJ5a1YwcXJSMjM2TXFxRmsxSmYtazkwNTcwZUhjeEJoQmNlRWQxUDJvdjNsMUpFUVo3WVlISktTUGRuUDUxcHFHdlJxc2VIV29xN3lrVS04d2tpeDQ4ZzVVN2luV0RmRktLTjNMVUF4QzhJeURoNlpRTmNpSnlhSnJfUFFVZVByQXRHcWRx?oc=5",
           "published_at": "2026-11-26T15:41:46+00:00",
@@ -182,10 +133,6 @@
       "update_count": 6,
       "updated": false,
       "coverage_history": [
-        {
-          "at": "2026-11-27T06:02:24.117526+00:00",
-          "source_count": 4
-        },
         {
           "at": "2026-11-27T06:57:06.856935+00:00",
           "source_count": 3
@@ -229,6 +176,10 @@
         {
           "at": "2026-11-27T15:27:19.994448+00:00",
           "source_count": 4
+        },
+        {
+          "at": "2026-11-27T16:22:09.965297+00:00",
+          "source_count": 3
         }
       ],
       "context": {
@@ -286,6 +237,10 @@
         {
           "at": "2026-11-27T15:27:19.994448+00:00",
           "source_count": 1
+        },
+        {
+          "at": "2026-11-27T16:22:09.965297+00:00",
+          "source_count": 1
         }
       ],
       "context": {
@@ -294,6 +249,48 @@
         "search_query": "ai un safety",
         "search_days": 730,
         "searched_days": 730,
+        "search_status": "searched"
+      }
+    },
+    {
+      "id": "469b1c31525e",
+      "title": "Funeral prayers held for 31 victims of Egypt tanker crash",
+      "summary": "Funeral prayers were held at Cairo’s Al-Azhar Mosque on Friday for 31 people killed when a car collided with a tanker",
+      "image": "",
+      "category": "World",
+      "importance": "Major",
+      "background_only": false,
+      "score": 55.4,
+      "published_at": "2026-11-27T15:07:22+00:00",
+      "source_count": 1,
+      "reasons": [
+        "reported fatalities",
+        "significant accident with human impact"
+      ],
+      "sources": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/27/funeral-prayers-held-for-31-victims-of-egypt-tanker-crash?traffic_source=rss",
+          "published_at": "2026-11-27T15:07:22+00:00",
+          "paywalled": false
+        }
+      ],
+      "lead_url": "https://www.aljazeera.com/video/newsfeed/2026/11/27/funeral-prayers-held-for-31-victims-of-egypt-tanker-crash?traffic_source=rss",
+      "first_reported_at": "2026-11-27T15:07:22+00:00",
+      "update_count": 0,
+      "updated": false,
+      "coverage_history": [
+        {
+          "at": "2026-11-27T16:22:09.965297+00:00",
+          "source_count": 1
+        }
+      ],
+      "context": {
+        "earlier_reporting": [],
+        "coverage_from": null,
+        "search_query": "funeral egypt crash",
+        "search_days": 730,
+        "searched_days": 30,
         "search_status": "searched"
       }
     },
@@ -353,6 +350,10 @@
         },
         {
           "at": "2026-11-27T15:27:19.994448+00:00",
+          "source_count": 2
+        },
+        {
+          "at": "2026-11-27T16:22:09.965297+00:00",
           "source_count": 2
         }
       ],
@@ -452,6 +453,10 @@
         {
           "at": "2026-11-27T15:27:19.994448+00:00",
           "source_count": 3
+        },
+        {
+          "at": "2026-11-27T16:22:09.965297+00:00",
+          "source_count": 3
         }
       ],
       "context": {
@@ -518,6 +523,10 @@
         {
           "at": "2026-11-27T15:27:19.994448+00:00",
           "source_count": 1
+        },
+        {
+          "at": "2026-11-27T16:22:09.965297+00:00",
+          "source_count": 1
         }
       ],
       "context": {
@@ -557,10 +566,6 @@
       "update_count": 2,
       "updated": false,
       "coverage_history": [
-        {
-          "at": "2026-11-27T06:02:24.117526+00:00",
-          "source_count": 1
-        },
         {
           "at": "2026-11-27T06:57:06.856935+00:00",
           "source_count": 1
@@ -603,6 +608,10 @@
         },
         {
           "at": "2026-11-27T15:27:19.994448+00:00",
+          "source_count": 1
+        },
+        {
+          "at": "2026-11-27T16:22:09.965297+00:00",
           "source_count": 1
         }
       ],
@@ -644,10 +653,6 @@
       "updated": false,
       "coverage_history": [
         {
-          "at": "2026-11-27T06:02:24.117526+00:00",
-          "source_count": 1
-        },
-        {
           "at": "2026-11-27T06:57:06.856935+00:00",
           "source_count": 1
         },
@@ -690,6 +695,10 @@
         {
           "at": "2026-11-27T15:27:19.994448+00:00",
           "source_count": 1
+        },
+        {
+          "at": "2026-11-27T16:22:09.965297+00:00",
+          "source_count": 1
         }
       ],
       "context": {
@@ -702,69 +711,51 @@
       }
     },
     {
-      "id": "459c3f76ca86",
-      "title": "China launches first space mission with foreign astronaut",
-      "summary": "China launches first space mission with foreign astronaut Financial Times",
+      "id": "33e8f182fa91",
+      "title": "Airline Norse Atlantic's Norwegian operating unit declares bankruptcy",
+      "summary": "Airline Norse Atlantic's Norwegian operating unit declares bankruptcy Reuters",
       "image": "",
-      "category": "World",
-      "importance": "Major",
+      "category": "Norway",
+      "importance": "Notable",
       "background_only": false,
-      "score": 47.5,
-      "published_at": "2026-11-25T22:04:00+00:00",
+      "score": 44.4,
+      "published_at": "2026-11-27T15:04:34+00:00",
       "source_count": 1,
       "reasons": [
-        "significant public impact",
-        "historic space milestone"
+        "high-impact event",
+        "Norway/local relevance"
       ],
       "sources": [
         {
-          "name": "Financial Times",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQRC1pbmw0S04yVGtzUkRuLUhnWGl1ejJHWW9DZXRoZW5ueC1pNFRVMTZOaXlGaDNkQUNjeFh6d1hUbm9hcVhGUEhfRVBIX3BHS1JtdUQ1REQ0YlRzZVVBRHJYVFBxT19WeEdGQXZKdFdpeTNDR2FHel93ZC1iZ1RPX3NmSlU?oc=5",
-          "published_at": "2026-11-25T03:29:39+00:00",
-          "paywalled": true
+          "name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOZjF6SXBzRmpCeHczaU9VZnNGczNjcWtlMXNCMUFrTUxfbUViN3cxUXpPbFU0YVRTQzU0aEY5MGdLY1hnU2I1R21jd2tYNnIyLVVLeEtoSEY2WjZKNTE0QkdLWWFzcmkySGFYUWE4Vmh3OVpzLWJ3V25LX18zSUJ4TS1TcExrVFFoUUVvOS13NmF1dUZJWVo1S2hLRlZaNmMzTWh1dDFsTHpXUzlzN2lWQ01sc1VVR0hOUzlZSTJ3?oc=5",
+          "published_at": "2026-11-27T13:37:31+00:00",
+          "paywalled": false
         }
       ],
-      "lead_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQRC1pbmw0S04yVGtzUkRuLUhnWGl1ejJHWW9DZXRoZW5ueC1pNFRVMTZOaXlGaDNkQUNjeFh6d1hUbm9hcVhGUEhfRVBIX3BHS1JtdUQ1REQ0YlRzZVVBRHJYVFBxT19WeEdGQXZKdFdpeTNDR2FHel93ZC1iZ1RPX3NmSlU?oc=5",
-      "first_reported_at": "2026-11-25T22:04:00+00:00",
+      "lead_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOZjF6SXBzRmpCeHczaU9VZnNGczNjcWtlMXNCMUFrTUxfbUViN3cxUXpPbFU0YVRTQzU0aEY5MGdLY1hnU2I1R21jd2tYNnIyLVVLeEtoSEY2WjZKNTE0QkdLWWFzcmkySGFYUWE4Vmh3OVpzLWJ3V25LX18zSUJ4TS1TcExrVFFoUUVvOS13NmF1dUZJWVo1S2hLRlZaNmMzTWh1dDFsTHpXUzlzN2lWQ01sc1VVR0hOUzlZSTJ3?oc=5",
+      "first_reported_at": "2026-11-27T15:04:34+00:00",
       "update_count": 0,
       "updated": false,
       "coverage_history": [
         {
-          "at": "2026-11-27T15:27:19.994448+00:00",
+          "at": "2026-11-27T16:22:09.965297+00:00",
           "source_count": 1
         }
       ],
       "context": {
         "earlier_reporting": [
           {
-            "title": "Hong Kong’s First Astronaut Joins Mission to China Space Station",
-            "source": "Bloomberg.com",
-            "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOd3V6NkFWVWRXUVhhdmd1RHlBRGhUREpOUWlpNU5LRTh4cVphMGZVaDdDanJtdjhBZVFXRV93Y1NvenlWczhwTFFoeFVTTC1lRUcyajZLNWdQN0pCMFpTYkk3UXo2ZElycmJNbjBCdGlfejhpdGgydDB4T21QU1pPTURlalhvak84VEh6aV9pS2F0U29Cb0E0RGxna1lHQVVKaGZiaklBbVlQc3padmcxRHFZLXBOUQ?oc=5",
-            "published_at": "2026-05-22T07:00:00+00:00"
-          },
-          {
-            "title": "Li Jiaying: China launches first Hong Kong astronaut into space",
-            "source": "BBC",
-            "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5NLXF5R1dQdXUwOFFURm5LbWdvYmJKaDU1ZmhoM0Q5bllZRjlGbHh4RFRfVC1lT1ZZeGZmRzVyV2k1amM5MlZBNHpUajk1RFpkYng5U1VRcFh3Zw?oc=5",
-            "published_at": "2026-05-25T07:00:00+00:00"
-          },
-          {
-            "title": "Pakistani astronaut to join China’s next space station mission",
-            "source": "Al Jazeera",
-            "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOQTRRRXdXNmphejg5d3hubWpfNVZ2Skp0XzNQamJZRE1hN202Y3czZ3JyZWRPalJDaks3VlNvMy10NERJa1YxRDVUUVVxempZRk1oTjBPMVQwdm5UMW52VEJyMFRvSDNBTFI5Q2hQY3RBOWpacnA5eFFicGNYWXZpdXhFUmRKYnlwZ0VaYlNBUFd6Mm16M2hkTW5zd3lLQXYxaXIzQ9IBqgFBVV95cUxQSXZKQ0VIZHBaejV4UGp5Zy04MmJ0Njd2ejNJTkpZOThpX3VZT2huRHY4YzJsNUJyd0pwdnIxQ0xiQ0lDWnd6MmYzQU9CRTZPRTc2bjY0d081NkcwelZBVWhKeDlsV3Z4Q2NXODhMZkVCME5QUHE4YS1oRzRfeDZTaDdaQmdnb09EVjJEM212MEdwclBnaFhtZWttbXd0OUhHTFZ1SGtycXZPUQ?oc=5",
-            "published_at": "2026-11-07T08:00:00+00:00"
-          },
-          {
-            "title": "China unveils new space mission crew, with a Pakistani astronaut set to board its space station",
-            "source": "AP News",
-            "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPTno4Y1I0UnZqSU1JaG15VG5qTm1HNjhQbUpab2ZIbDQ4YTY1YTdxMkxWenVxOUFOMWhXQUlTT1NIVGZYUGJrRUdkXzdxLXZEMzFmLVlxelhRRXlWbFVQQ1JuVTlBZDhjS09RS1JuTUs1Q3RrWTRHTzBOUFNEQmZha0FXNndUY25NY2ozbTlqSEc0TFVUSUFJ?oc=5",
-            "published_at": "2026-11-24T13:47:00+00:00"
+            "title": "Airline Norse Atlantic flags bankruptcy risk as flights suspended",
+            "source": "Reuters",
+            "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNelVSdGZIMFMxelZ3SVpNZHYyYzRTZWN4S010bExkN0lmVVk5eng2VWp0VUszQXhGVDF5TUFxTDQzSXFuNmxHazV3d1VSR1BWMFRIeFBMQzJDeUM0RG5Cazhya0dpdDA2ZzJDSnd0WGVvVGItS0ttemdLUGhUbUwwbjBWbUk2VktZQUxsa0haX290d21lVFg5Ri1UZ0FkcFo1ZUpnSUNTd1ZudHJWYnQ5T0U4X0w2aExZRXBSOE9ETlEwa2ljRmxF?oc=5",
+            "published_at": "2026-11-26T13:58:06+00:00"
           }
         ],
-        "coverage_from": "2026-05-22T07:00:00+00:00",
-        "search_query": "china astronaut launches",
+        "coverage_from": "2026-11-26T13:58:06+00:00",
+        "search_query": "airline norse atlantic bankruptcy",
         "search_days": 730,
-        "searched_days": null,
+        "searched_days": 30,
         "search_status": "matched"
       }
     },
@@ -806,6 +797,10 @@
         {
           "at": "2026-11-27T15:27:19.994448+00:00",
           "source_count": 2
+        },
+        {
+          "at": "2026-11-27T16:22:09.965297+00:00",
+          "source_count": 2
         }
       ],
       "context": {
@@ -813,75 +808,7 @@
         "coverage_from": null,
         "search_query": "hundreds us thanksgiving",
         "search_days": 730,
-        "searched_days": 30,
-        "search_status": "searched"
-      }
-    },
-    {
-      "id": "562d47d0255f",
-      "title": "Inflation-Wary Shoppers Keep Spending Heading Into Black Friday",
-      "summary": "Inflation-Wary Shoppers Keep Spending Heading Into Black Friday Bloomberg.com",
-      "image": "",
-      "category": "World",
-      "importance": "Notable",
-      "background_only": false,
-      "score": 42.0,
-      "published_at": "2026-11-27T06:49:26+00:00",
-      "source_count": 2,
-      "reasons": [
-        "high-impact event",
-        "2 trusted sources"
-      ],
-      "sources": [
-        {
-          "name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNXzUyQUp1enhRcjVIdWlBejd2XzFsdXVwaFF1SUswaVBuTzBKMkE2cU5GdnVSX2tiMjVIYnQzLXFKN3E2UWZ0bVZkX3dvdjEzaHRQRUdsM1pBOF9vaG0wYWVKZ2JNam5zWXZmT25QcVhPcWIwcDQ5cEx2U3QyQW1LcE43UEpGQVhpMF94bjVid21hYm9YbEZ0UnhBTnhPdlBJRFpzbFhsbWxBNndmeGNjcHptNXhJMnlQNk94TQ?oc=5",
-          "published_at": "2026-11-27T06:49:26+00:00",
-          "paywalled": false
-        },
-        {
-          "name": "Bloomberg.com",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxORm9qaE9iZFZNUnZnZTJzQmhYek41SWZoUE5sSDVTdGhmZ3BaQmdDcmtNb0V5YjdJMm1EU19BWDl4cVBOOVBIQ0gxVF9nRUFjaEs1eld5UlBXejdlcG5RdXY1ei11NnZNU0hfUTVsWkdIbmhVZVFxeXN3dXZIU0tqbzR4am9kNDF1XzFtTklQa3dKd0cxMGNfY05mN3UxWWp5Mjl2Q1ltaGVtUUdlSXVKWm9JbVo?oc=5",
-          "published_at": "2026-11-24T16:53:42+00:00",
-          "paywalled": false
-        }
-      ],
-      "lead_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxORm9qaE9iZFZNUnZnZTJzQmhYek41SWZoUE5sSDVTdGhmZ3BaQmdDcmtNb0V5YjdJMm1EU19BWDl4cVBOOVBIQ0gxVF9nRUFjaEs1eld5UlBXejdlcG5RdXY1ei11NnZNU0hfUTVsWkdIbmhVZVFxeXN3dXZIU0tqbzR4am9kNDF1XzFtTklQa3dKd0cxMGNfY05mN3UxWWp5Mjl2Q1ltaGVtUUdlSXVKWm9JbVo?oc=5",
-      "first_reported_at": "2026-11-27T00:03:00+00:00",
-      "update_count": 1,
-      "updated": false,
-      "coverage_history": [
-        {
-          "at": "2026-11-27T10:52:06.088617+00:00",
-          "source_count": 2
-        },
-        {
-          "at": "2026-11-27T11:47:23.548371+00:00",
-          "source_count": 2
-        },
-        {
-          "at": "2026-11-27T12:42:10.715543+00:00",
-          "source_count": 2
-        },
-        {
-          "at": "2026-11-27T13:37:10.370062+00:00",
-          "source_count": 2
-        },
-        {
-          "at": "2026-11-27T14:32:29.973263+00:00",
-          "source_count": 2
-        },
-        {
-          "at": "2026-11-27T15:27:19.994448+00:00",
-          "source_count": 2
-        }
-      ],
-      "context": {
-        "earlier_reporting": [],
-        "coverage_from": null,
-        "search_query": "shoppers keep spending",
-        "search_days": 730,
-        "searched_days": 730,
+        "searched_days": 180,
         "search_status": "searched"
       }
     },
@@ -939,6 +866,10 @@
         },
         {
           "at": "2026-11-27T15:27:19.994448+00:00",
+          "source_count": 3
+        },
+        {
+          "at": "2026-11-27T16:22:09.965297+00:00",
           "source_count": 3
         }
       ],
@@ -1005,6 +936,10 @@
         {
           "at": "2026-11-27T15:27:19.994448+00:00",
           "source_count": 1
+        },
+        {
+          "at": "2026-11-27T16:22:09.965297+00:00",
+          "source_count": 1
         }
       ],
       "context": {
@@ -1014,62 +949,6 @@
         "search_days": 730,
         "searched_days": 730,
         "search_status": "searched"
-      }
-    },
-    {
-      "id": "efbee3c51904",
-      "title": "Anthropic shares tumble below $83 IPO price, on track to lose nearly $200 billion in value",
-      "summary": "Anthropic shares tumble below $83 IPO price, on track to lose nearly $200 billion in value Reuters",
-      "image": "",
-      "category": "Tech",
-      "importance": "Notable",
-      "background_only": false,
-      "score": 39.0,
-      "published_at": "2026-11-24T20:47:56+00:00",
-      "source_count": 1,
-      "reasons": [
-        "frontier AI safety development"
-      ],
-      "sources": [
-        {
-          "name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNMHBNOVY5RDc1NmxUUjNnZkNhLWROQkhUOFZpVmQ0SEI0UG9aSUpTTjhpV3EydTNkdW8xYm1KOWF6OXg2Z3BMaUJCWTE3WnFCM0hCZGNuQ3ZKUklsYUROVWQzdExOamNKVlJLRTgwYWpoYVdOUjlDY0pxTmxZajlvckJ4cHc0TG1hbW1ZUkszaDZ2M2Rvd3RqTWRFaVRENXVWT0pr?oc=5",
-          "published_at": "2026-11-24T20:47:56+00:00",
-          "paywalled": false
-        }
-      ],
-      "lead_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNMHBNOVY5RDc1NmxUUjNnZkNhLWROQkhUOFZpVmQ0SEI0UG9aSUpTTjhpV3EydTNkdW8xYm1KOWF6OXg2Z3BMaUJCWTE3WnFCM0hCZGNuQ3ZKUklsYUROVWQzdExOamNKVlJLRTgwYWpoYVdOUjlDY0pxTmxZajlvckJ4cHc0TG1hbW1ZUkszaDZ2M2Rvd3RqTWRFaVRENXVWT0pr?oc=5",
-      "first_reported_at": "2026-11-24T20:47:56+00:00",
-      "update_count": 0,
-      "updated": false,
-      "coverage_history": [
-        {
-          "at": "2026-11-27T13:37:10.370062+00:00",
-          "source_count": 1
-        },
-        {
-          "at": "2026-11-27T14:32:29.973263+00:00",
-          "source_count": 1
-        },
-        {
-          "at": "2026-11-27T15:27:19.994448+00:00",
-          "source_count": 1
-        }
-      ],
-      "context": {
-        "earlier_reporting": [
-          {
-            "title": "Anthropic falls below IPO price as tech rally fades",
-            "source": "Financial Times",
-            "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPal9tdUdZVTJvVTB5aGJHZ0FwTk1GVW8zRWFzNlFEdU9YTERXNlNPcGFzbHUyaXd5U3I4WlMzTGNFUUtPVlA2VmpYSW94TFZKMFhGOFlsU19WV09kVkFGRk9IQ3h3MkRLUGlqWms3akdWTUNaR1hxX2VXakFVMm1tNWk0MW8?oc=5",
-            "published_at": "2026-11-24T00:40:35+00:00"
-          }
-        ],
-        "coverage_from": "2026-11-24T00:40:35+00:00",
-        "search_query": "anthropic ipo shares",
-        "search_days": 730,
-        "searched_days": 730,
-        "search_status": "matched"
       }
     }
   ],
@@ -1118,40 +997,22 @@
       "published_at": "2026-11-25T06:15:20+00:00"
     },
     {
-      "title": "Hong Kong’s First Astronaut Joins Mission to China Space Station",
-      "source": "Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOd3V6NkFWVWRXUVhhdmd1RHlBRGhUREpOUWlpNU5LRTh4cVphMGZVaDdDanJtdjhBZVFXRV93Y1NvenlWczhwTFFoeFVTTC1lRUcyajZLNWdQN0pCMFpTYkk3UXo2ZElycmJNbjBCdGlfejhpdGgydDB4T21QU1pPTURlalhvak84VEh6aV9pS2F0U29Cb0E0RGxna1lHQVVKaGZiaklBbVlQc3padmcxRHFZLXBOUQ?oc=5",
-      "published_at": "2026-05-22T07:00:00+00:00"
+      "title": "Airline Norse Atlantic flags bankruptcy risk as flights suspended",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNelVSdGZIMFMxelZ3SVpNZHYyYzRTZWN4S010bExkN0lmVVk5eng2VWp0VUszQXhGVDF5TUFxTDQzSXFuNmxHazV3d1VSR1BWMFRIeFBMQzJDeUM0RG5Cazhya0dpdDA2ZzJDSnd0WGVvVGItS0ttemdLUGhUbUwwbjBWbUk2VktZQUxsa0haX290d21lVFg5Ri1UZ0FkcFo1ZUpnSUNTd1ZudHJWYnQ5T0U4X0w2aExZRXBSOE9ETlEwa2ljRmxF?oc=5",
+      "published_at": "2026-11-26T13:58:06+00:00"
     },
     {
-      "title": "Li Jiaying: China launches first Hong Kong astronaut into space",
-      "source": "BBC",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5NLXF5R1dQdXUwOFFURm5LbWdvYmJKaDU1ZmhoM0Q5bllZRjlGbHh4RFRfVC1lT1ZZeGZmRzVyV2k1amM5MlZBNHpUajk1RFpkYng5U1VRcFh3Zw?oc=5",
-      "published_at": "2026-05-25T07:00:00+00:00"
-    },
-    {
-      "title": "Pakistani astronaut to join China’s next space station mission",
+      "title": "Funeral prayers held for 31 victims of Egypt tanker crash",
       "source": "Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOQTRRRXdXNmphejg5d3hubWpfNVZ2Skp0XzNQamJZRE1hN202Y3czZ3JyZWRPalJDaks3VlNvMy10NERJa1YxRDVUUVVxempZRk1oTjBPMVQwdm5UMW52VEJyMFRvSDNBTFI5Q2hQY3RBOWpacnA5eFFicGNYWXZpdXhFUmRKYnlwZ0VaYlNBUFd6Mm16M2hkTW5zd3lLQXYxaXIzQ9IBqgFBVV95cUxQSXZKQ0VIZHBaejV4UGp5Zy04MmJ0Njd2ejNJTkpZOThpX3VZT2huRHY4YzJsNUJyd0pwdnIxQ0xiQ0lDWnd6MmYzQU9CRTZPRTc2bjY0d081NkcwelZBVWhKeDlsV3Z4Q2NXODhMZkVCME5QUHE4YS1oRzRfeDZTaDdaQmdnb09EVjJEM212MEdwclBnaFhtZWttbXd0OUhHTFZ1SGtycXZPUQ?oc=5",
-      "published_at": "2026-11-07T08:00:00+00:00"
-    },
-    {
-      "title": "China unveils new space mission crew, with a Pakistani astronaut set to board its space station",
-      "source": "AP News",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPTno4Y1I0UnZqSU1JaG15VG5qTm1HNjhQbUpab2ZIbDQ4YTY1YTdxMkxWenVxOUFOMWhXQUlTT1NIVGZYUGJrRUdkXzdxLXZEMzFmLVlxelhRRXlWbFVQQ1JuVTlBZDhjS09RS1JuTUs1Q3RrWTRHTzBOUFNEQmZha0FXNndUY25NY2ozbTlqSEc0TFVUSUFJ?oc=5",
-      "published_at": "2026-11-24T13:47:00+00:00"
-    },
-    {
-      "title": "Anthropic falls below IPO price as tech rally fades",
-      "source": "Financial Times",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPal9tdUdZVTJvVTB5aGJHZ0FwTk1GVW8zRWFzNlFEdU9YTERXNlNPcGFzbHUyaXd5U3I4WlMzTGNFUUtPVlA2VmpYSW94TFZKMFhGOFlsU19WV09kVkFGRk9IQ3h3MkRLUGlqWms3akdWTUNaR1hxX2VXakFVMm1tNWk0MW8?oc=5",
-      "published_at": "2026-11-24T00:40:35+00:00"
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/27/funeral-prayers-held-for-31-victims-of-egypt-tanker-crash?traffic_source=rss",
+      "published_at": "2026-11-27T15:07:22+00:00"
     },
     {
       "title": "Airline Norse Atlantic's Norwegian operating unit declares bankruptcy",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOZjF6SXBzRmpCeHczaU9VZnNGczNjcWtlMXNCMUFrTUxfbUViN3cxUXpPbFU0YVRTQzU0aEY5MGdLY1hnU2I1R21jd2tYNnIyLVVLeEtoSEY2WjZKNTE0QkdLWWFzcmkySGFYUWE4Vmh3OVpzLWJ3V25LX18zSUJ4TS1TcExrVFFoUUVvOS13NmF1dUZJWVo1S2hLRlZaNmMzTWh1dDFsTHpXUzlzN2lWQ01sc1VVR0hOUzlZSTJ3?oc=5",
-      "published_at": "2026-11-27T13:28:56+00:00"
+      "published_at": "2026-11-27T13:37:31+00:00"
     },
     {
       "title": "Hundreds of thousands still without power after storms hit US on Thanksgiving",
@@ -1250,10 +1111,10 @@
       "published_at": "2026-11-26T14:10:00+00:00"
     },
     {
-      "title": "Airline Norse Atlantic flags bankruptcy risk as flights suspended",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNelVSdGZIMFMxelZ3SVpNZHYyYzRTZWN4S010bExkN0lmVVk5eng2VWp0VUszQXhGVDF5TUFxTDQzSXFuNmxHazV3d1VSR1BWMFRIeFBMQzJDeUM0RG5Cazhya0dpdDA2ZzJDSnd0WGVvVGItS0ttemdLUGhUbUwwbjBWbUk2VktZQUxsa0haX290d21lVFg5Ri1UZ0FkcFo1ZUpnSUNTd1ZudHJWYnQ5T0U4X0w2aExZRXBSOE9ETlEwa2ljRmxF?oc=5",
-      "published_at": "2026-11-26T13:58:06+00:00"
+      "title": "Ebola outbreak in Congo reaches 12,000 cases as violence forces some responders to evacuate",
+      "source": "AP News",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOODk5TW1rbDA5Ml84Vzh3OWVzdW12UkFLbXJzQlZSbG9rNTQxZGl1bjBPQ1FsNURnQ21MU3FFX1RqZFVDdzJrSXR5YkRTTndHcERGWUpyaklFeWxlQ2l4aXhKT1ctM1cwMDdtOHg5RHQ3ZmhqVTIyWFVHUWdHSG40WExZWkJSM1lZNndDSFBlbEdNNnM?oc=5",
+      "published_at": "2026-11-26T13:48:05+00:00"
     },
     {
       "title": "Altria explores takeover bid for Imperial Brands",
@@ -1308,12 +1169,6 @@
       "source": "BBC",
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9QVXBDSWVlVWRYTVNyeWxlcWtGR1lGRDlCOERrRGRON3lEVGp3WmpaNlkyWVd6cm1ULXZqa2ptVU5yN1B6UHI4eHhUa2hkbWxhNjNpUlp2YklsVHc?oc=5",
       "published_at": "2026-11-26T10:31:19+00:00"
-    },
-    {
-      "title": "Ebola outbreak in Congo reaches 12,000 cases as violence forces some responders to evacuate",
-      "source": "AP News",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOODk5TW1rbDA5Ml84Vzh3OWVzdW12UkFLbXJzQlZSbG9rNTQxZGl1bjBPQ1FsNURnQ21MU3FFX1RqZFVDdzJrSXR5YkRTTndHcERGWUpyaklFeWxlQ2l4aXhKT1ctM1cwMDdtOHg5RHQ3ZmhqVTIyWFVHUWdHSG40WExZWkJSM1lZNndDSFBlbEdNNnM?oc=5",
-      "published_at": "2026-11-26T09:22:00+00:00"
     },
     {
       "title": "At least 13 dead in Indonesia gold mine flood as rescue efforts intensify",
@@ -1640,6 +1495,12 @@
       "published_at": "2026-11-24T14:30:21+00:00"
     },
     {
+      "title": "China unveils new space mission crew, with a Pakistani astronaut set to board its space station",
+      "source": "AP News",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPTno4Y1I0UnZqSU1JaG15VG5qTm1HNjhQbUpab2ZIbDQ4YTY1YTdxMkxWenVxOUFOMWhXQUlTT1NIVGZYUGJrRUdkXzdxLXZEMzFmLVlxelhRRXlWbFVQQ1JuVTlBZDhjS09RS1JuTUs1Q3RrWTRHTzBOUFNEQmZha0FXNndUY25NY2ozbTlqSEc0TFVUSUFJ?oc=5",
+      "published_at": "2026-11-24T13:47:00+00:00"
+    },
+    {
       "title": "Heat deaths reach record high in UK in 2026",
       "source": "Al Jazeera",
       "url": "https://www.aljazeera.com/news/2026/11/24/heat-deaths-reach-record-high-in-uk-in-2026?traffic_source=rss",
@@ -1704,6 +1565,12 @@
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNTjlOOEE2ZGVBYmJLbmlvRXdLTzF4UjNOVXFoY0J6c29vSDF1cDZBTk02QTFDWlRwbk9ESThyeGI0dzdKUFhhMmRyb0ZmVWlsLXlUR2ZNTHJjckdybTRlMTRYOWNwcDhSV2duaTI4ZXB5dFlCNlBTSnlCYTNQN25ZdThTS3NHVUtlZ1NIQ2Z1cWZLLTgzQ3VocjZNcFRBMmJQZjZ0dFZ1UXRCcU0?oc=5",
       "published_at": "2026-11-24T02:49:00+00:00"
+    },
+    {
+      "title": "Anthropic falls below IPO price as tech rally fades",
+      "source": "Financial Times",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPal9tdUdZVTJvVTB5aGJHZ0FwTk1GVW8zRWFzNlFEdU9YTERXNlNPcGFzbHUyaXd5U3I4WlMzTGNFUUtPVlA2VmpYSW94TFZKMFhGOFlsU19WV09kVkFGRk9IQ3h3MkRLUGlqWms3akdWTUNaR1hxX2VXakFVMm1tNWk0MW8?oc=5",
+      "published_at": "2026-11-24T00:40:35+00:00"
     },
     {
       "title": "Democratic Rep. Jimmy Gomez resigns after Ethics panel finds evidence of sexual misconduct",
@@ -1880,6 +1747,12 @@
       "published_at": "2026-11-09T08:00:00+00:00"
     },
     {
+      "title": "Pakistani astronaut to join China’s next space station mission",
+      "source": "Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOQTRRRXdXNmphejg5d3hubWpfNVZ2Skp0XzNQamJZRE1hN202Y3czZ3JyZWRPalJDaks3VlNvMy10NERJa1YxRDVUUVVxempZRk1oTjBPMVQwdm5UMW52VEJyMFRvSDNBTFI5Q2hQY3RBOWpacnA5eFFicGNYWXZpdXhFUmRKYnlwZ0VaYlNBUFd6Mm16M2hkTW5zd3lLQXYxaXIzQ9IBqgFBVV95cUxQSXZKQ0VIZHBaejV4UGp5Zy04MmJ0Njd2ejNJTkpZOThpX3VZT2huRHY4YzJsNUJyd0pwdnIxQ0xiQ0lDWnd6MmYzQU9CRTZPRTc2bjY0d081NkcwelZBVWhKeDlsV3Z4Q2NXODhMZkVCME5QUHE4YS1oRzRfeDZTaDdaQmdnb09EVjJEM212MEdwclBnaFhtZWttbXd0OUhHTFZ1SGtycXZPUQ?oc=5",
+      "published_at": "2026-11-07T08:00:00+00:00"
+    },
+    {
       "title": "Are Houthis using Russian satellites as Saudi Arabia fends off strikes?",
       "source": "Al Jazeera",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOR2JnM09TN0huWnRSdGZZMmtwLW51Q1lCM3lBWU1fMUl1YlR2Y203ckZKekRZREM5akNOMmpYTEo1VzFzQkItQmRxb0RxMHZnWGdpekdxNnZCdTVwR196NDJIekRjX00tYjlHVDlwcjVaRVh4ZjNJYTA4UTh0RWc5ZGM4QUtaQW1vVl81YUFpOHQ2dFBCUjFwaHR1c1h5VS0tTC0wRE1kNUXSAa4BQVVfeXFMTTNRV2V3eWthVkMtZTMzdHRIc2hBZ0wwRW1pNDk1MVRMQjg4NGZiSnFGLTJWZ21DWmJaT3A5OWR6aUYwQnlIMTNFUnZTd0Zma3JvSHp6RF9IcFo0cFZlT285RzZLc2NXZzIwVVFJenNWUFhrY3dvUDZReW9iRGFsazcyMGRQOEhnN0kzZTNvb3RfWmR6cGhxbVE0cE1EOGRpdnFOb1d4bWdHSHdURHVR?oc=5",
@@ -1902,6 +1775,18 @@
       "source": "BBC",
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9YeFM1dXhTWU4wLTVRdDMxLUJwZExBdzVRX0RhOFF1elVWcGJyRXNiSE5ncGMtSGJzbk1EYV9aUmtWaTZXMGxweXliUTNweHNCVWtQT3FETVpUdw?oc=5",
       "published_at": "2026-08-10T07:00:00+00:00"
+    },
+    {
+      "title": "Li Jiaying: China launches first Hong Kong astronaut into space",
+      "source": "BBC",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5NLXF5R1dQdXUwOFFURm5LbWdvYmJKaDU1ZmhoM0Q5bllZRjlGbHh4RFRfVC1lT1ZZeGZmRzVyV2k1amM5MlZBNHpUajk1RFpkYng5U1VRcFh3Zw?oc=5",
+      "published_at": "2026-05-25T07:00:00+00:00"
+    },
+    {
+      "title": "Hong Kong’s First Astronaut Joins Mission to China Space Station",
+      "source": "Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOd3V6NkFWVWRXUVhhdmd1RHlBRGhUREpOUWlpNU5LRTh4cVphMGZVaDdDanJtdjhBZVFXRV93Y1NvenlWczhwTFFoeFVTTC1lRUcyajZLNWdQN0pCMFpTYkk3UXo2ZElycmJNbjBCdGlfejhpdGgydDB4T21QU1pPTURlalhvak84VEh6aV9pS2F0U29Cb0E0RGxna1lHQVVKaGZiaklBbVlQc3padmcxRHFZLXBOUQ?oc=5",
+      "published_at": "2026-05-22T07:00:00+00:00"
     },
     {
       "title": "Hong Kong leader says fire probe expected to conclude within 9 months",
@@ -1950,7 +1835,25 @@
     "0693fe40b2bf": {
       "version": 4,
       "query": "hundreds us thanksgiving",
-      "at": "2026-11-27T15:27:19.994448+00:00",
+      "at": "2026-11-27T16:22:09.965297+00:00",
+      "stage": 2,
+      "matched": false,
+      "exhausted": false,
+      "searched_days": 180
+    },
+    "2d3439ef5696": {
+      "version": 4,
+      "query": "rescuers indonesian battle",
+      "at": "2026-11-27T16:22:09.965297+00:00",
+      "stage": 3,
+      "matched": false,
+      "exhausted": true,
+      "searched_days": 730
+    },
+    "469b1c31525e": {
+      "version": 4,
+      "query": "funeral egypt crash",
+      "at": "2026-11-27T16:22:09.965297+00:00",
       "stage": 1,
       "matched": false,
       "exhausted": false,
@@ -2355,15 +2258,6 @@
     "36b3cc28dbe7": {
       "version": 4,
       "query": "egypt cairo crash",
-      "at": "2026-11-26T15:32:05.886828+00:00",
-      "stage": 3,
-      "matched": false,
-      "exhausted": true,
-      "searched_days": 730
-    },
-    "2d3439ef5696": {
-      "version": 4,
-      "query": "rescuers indonesian battle",
       "at": "2026-11-26T15:32:05.886828+00:00",
       "stage": 3,
       "matched": false,
