@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T10:52:06.088617+00:00",
+  "generated_at": "2026-11-27T11:47:23.548371+00:00",
   "model_mode": "sentence-transformers",
   "stories": [
     {
@@ -45,6 +45,10 @@
         {
           "at": "2026-11-27T10:52:06.088617+00:00",
           "source_count": 2
+        },
+        {
+          "at": "2026-11-27T11:47:23.548371+00:00",
+          "source_count": 2
         }
       ],
       "context": {
@@ -83,13 +87,14 @@
       "category": "World",
       "importance": "Major",
       "background_only": false,
-      "score": 65.6,
+      "score": 71.6,
       "published_at": "2026-11-26T21:10:50+00:00",
       "source_count": 3,
       "reasons": [
         "reported fatalities",
         "significant accident with human impact",
-        "2 trusted sources"
+        "2 trusted sources",
+        "rapid coverage growth"
       ],
       "sources": [
         {
@@ -115,11 +120,12 @@
       "first_reported_at": "2026-11-26T21:10:50+00:00",
       "update_count": 4,
       "updated": false,
+      "coverage_momentum": {
+        "new_sources": 2,
+        "hours": 2.77,
+        "bonus": 6.0
+      },
       "coverage_history": [
-        {
-          "at": "2026-11-27T01:27:15.199439+00:00",
-          "source_count": 4
-        },
         {
           "at": "2026-11-27T02:22:30.337925+00:00",
           "source_count": 3
@@ -162,6 +168,10 @@
         },
         {
           "at": "2026-11-27T10:52:06.088617+00:00",
+          "source_count": 3
+        },
+        {
+          "at": "2026-11-27T11:47:23.548371+00:00",
           "source_count": 3
         }
       ],
@@ -216,6 +226,10 @@
         {
           "at": "2026-11-27T10:52:06.088617+00:00",
           "source_count": 1
+        },
+        {
+          "at": "2026-11-27T11:47:23.548371+00:00",
+          "source_count": 1
         }
       ],
       "context": {
@@ -255,10 +269,6 @@
       "update_count": 2,
       "updated": false,
       "coverage_history": [
-        {
-          "at": "2026-11-27T01:27:15.199439+00:00",
-          "source_count": 1
-        },
         {
           "at": "2026-11-27T02:22:30.337925+00:00",
           "source_count": 1
@@ -302,6 +312,10 @@
         {
           "at": "2026-11-27T10:52:06.088617+00:00",
           "source_count": 1
+        },
+        {
+          "at": "2026-11-27T11:47:23.548371+00:00",
+          "source_count": 1
         }
       ],
       "context": {
@@ -322,8 +336,8 @@
       "importance": "Major",
       "background_only": false,
       "score": 53.2,
-      "published_at": "2026-11-25T17:33:00+00:00",
-      "source_count": 1,
+      "published_at": "2026-11-25T17:41:11+00:00",
+      "source_count": 2,
       "reasons": [
         "significant public impact",
         "historic space milestone"
@@ -334,16 +348,26 @@
           "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNR3M0QnJvdnFlSmxYai1OZWNwd0pYOFVKa2t3UDZhLXZkcXVkcmNOZHU2ZEVCQk1HX0liM2ZVb3piZDFiaE5SSkY2MWdZeFNmOVhTWkM3RDdqSHYySDNkSTNwcExoemNqTWtoLWNQV1VDNXota0w3Ym1FLUZxOXFPZnB3UlllbEJySmhJ?oc=5",
           "published_at": "2026-11-25T17:33:00+00:00",
           "paywalled": false
+        },
+        {
+          "name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNbUNDa1I5NlZaa2hiOFJGSHJlOHkyU3QtMEl0S2lvbGNlTWhJdGd6TzA3TV9VV0p2azc3OUZWeU0zLWtZbjZ3dlc5SXAxSklBbmlOeU5GcFdhMzZWbnJPTExMWG9KcElUOUotS3BGMDJmS2xVVV95MjFiYzdFTEcwOE1DU0tRY1ZmTzFHQ2pvYmFQUVY4dmRCb2tERDZZZV9IMWpLUTA0NXFNYnlwMm1UaTJyaXE2bThCMDRza1JDZlg?oc=5",
+          "published_at": "2026-11-25T09:18:00+00:00",
+          "paywalled": false
         }
       ],
       "lead_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNR3M0QnJvdnFlSmxYai1OZWNwd0pYOFVKa2t3UDZhLXZkcXVkcmNOZHU2ZEVCQk1HX0liM2ZVb3piZDFiaE5SSkY2MWdZeFNmOVhTWkM3RDdqSHYySDNkSTNwcExoemNqTWtoLWNQV1VDNXota0w3Ym1FLUZxOXFPZnB3UlllbEJySmhJ?oc=5",
       "first_reported_at": "2026-11-25T17:33:00+00:00",
-      "update_count": 0,
-      "updated": false,
+      "update_count": 1,
+      "updated": true,
       "coverage_history": [
         {
           "at": "2026-11-27T10:52:06.088617+00:00",
           "source_count": 1
+        },
+        {
+          "at": "2026-11-27T11:47:23.548371+00:00",
+          "source_count": 2
         }
       ],
       "context": {
@@ -375,59 +399,86 @@
       }
     },
     {
-      "id": "c664d0e0b784",
-      "title": "Extreme heat linked to 5,258 deaths as experts warn what comes next",
-      "summary": "Extreme heat linked to 5,258 deaths as experts warn what comes next https://www.birmingham-now.co.uk/",
+      "id": "3d9a1a038455",
+      "title": "Pakistan congratulates China on flight that carried a Pakistani astronaut to space station",
+      "summary": "Pakistan congratulates China on flight that carried a Pakistani astronaut to space station AP News",
       "image": "",
       "category": "World",
       "importance": "Major",
       "background_only": false,
-      "score": 52.3,
-      "published_at": "2026-11-25T05:15:00+00:00",
-      "source_count": 2,
+      "score": 53.0,
+      "published_at": "2026-11-27T02:49:00+00:00",
+      "source_count": 1,
       "reasons": [
-        "high-impact event",
-        "reported fatalities"
+        "significant public impact",
+        "historic space milestone"
       ],
       "sources": [
         {
-          "name": "https://www.birmingham-now.co.uk/",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQaVhtYWtJd21yVDQwYkE2V3BoS0tPbWVhWGxZbXdXU3A4VEsxSjFLcy1iNVhNRHBLM2dYb29CbHphQ3VJWlRuM3EtZjFBSTlwQzd5NUVoUEZ2dFVGazlVTXQwTkdvcTFuS0NxaFM4R0E4UnRvNlEyLUNTcXZoMlBORUlIUHQ0dlQxSkRzbXBYUVJmeV91OUR4UTRNM3c?oc=5",
-          "published_at": "2026-11-25T05:15:00+00:00",
-          "paywalled": false
-        },
-        {
-          "name": "UA.NEWS",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPQkExZEhGQlZBSU14WEQtWTBheXZJTVA4R1hleXFFNVJ3cllRQUl6ZWJfOTJWYnY2bUU2VkdrZml0Zk5ma3NkVEMxUDZHZDZYSUJuNHA3LWNSMUJHY0dIUFc4NDNxdXpRNW1XTERyOUNSUGM0NDBKSTlaR2NzSDZXVTh1X0dHbER5OE5xX1JCNjBGdTVraDdYM2ZvMTlOU25jZkdTOHo3MjZBLWdi?oc=5",
-          "published_at": "2026-11-24T11:13:28+00:00",
+          "name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNWktkYnY5NmlFTHBBcUxmbmFKdlg3ajdxSmVTQnJlWHd6Qm1wUUJ2VGtGN29zOFM0RlNZeWlJV1kybjVFVS1RNU5TQkY3cUEycURLaXEwTUExRjJMUkpKTXNUZVpvQXo1TGNpSVEwR3daQ0QyU2RTbzJ6N1hUS09PcGhmNlhkYlNXcUM5VDdTVXlNaThHaEtuaHVSVGxYeTg?oc=5",
+          "published_at": "2026-11-26T10:58:00+00:00",
           "paywalled": false
         }
       ],
-      "lead_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQaVhtYWtJd21yVDQwYkE2V3BoS0tPbWVhWGxZbXdXU3A4VEsxSjFLcy1iNVhNRHBLM2dYb29CbHphQ3VJWlRuM3EtZjFBSTlwQzd5NUVoUEZ2dFVGazlVTXQwTkdvcTFuS0NxaFM4R0E4UnRvNlEyLUNTcXZoMlBORUlIUHQ0dlQxSkRzbXBYUVJmeV91OUR4UTRNM3c?oc=5",
-      "first_reported_at": "2026-11-25T05:15:00+00:00",
+      "lead_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNWktkYnY5NmlFTHBBcUxmbmFKdlg3ajdxSmVTQnJlWHd6Qm1wUUJ2VGtGN29zOFM0RlNZeWlJV1kybjVFVS1RNU5TQkY3cUEycURLaXEwTUExRjJMUkpKTXNUZVpvQXo1TGNpSVEwR3daQ0QyU2RTbzJ6N1hUS09PcGhmNlhkYlNXcUM5VDdTVXlNaThHaEtuaHVSVGxYeTg?oc=5",
+      "first_reported_at": "2026-11-25T17:33:00+00:00",
       "update_count": 1,
       "updated": true,
       "coverage_history": [
         {
-          "at": "2026-11-27T09:01:24.911799+00:00",
-          "source_count": 1
-        },
-        {
-          "at": "2026-11-27T09:57:19.510067+00:00",
-          "source_count": 1
-        },
-        {
           "at": "2026-11-27T10:52:06.088617+00:00",
-          "source_count": 2
+          "source_count": 1
+        },
+        {
+          "at": "2026-11-27T11:47:23.548371+00:00",
+          "source_count": 1
         }
       ],
       "context": {
-        "earlier_reporting": [],
-        "coverage_from": null,
-        "search_query": "extreme heat linked",
+        "earlier_reporting": [
+          {
+            "title": "Pakistani astronaut to board Shenzhou 24 and become the first foreigner on China's space station",
+            "source": "AP News",
+            "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQenFsUWZUMFNoeXpOUXdEX0xad010OWlJemJJQl93YjBrcFhySkxxWVpackkxamQ3Q08yampBaXRtOFNhWVd1VHNjSklUSy1JWC1taUszYTdVbnJ2U2N5aWhmcVlpLVFLSjRQWGhNZS1ieTBpdjVuWG9MRkROWXNBV0YzSkdobnl2T1hwU0hUNThiREQtQWFsZXZHdWFVN2hp?oc=5",
+            "published_at": "2026-11-06T08:00:00+00:00"
+          },
+          {
+            "title": "Pakistani pilot to become first foreigner to fly to China's space station",
+            "source": "Reuters",
+            "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNTjlOOEE2ZGVBYmJLbmlvRXdLTzF4UjNOVXFoY0J6c29vSDF1cDZBTk02QTFDWlRwbk9ESThyeGI0dzdKUFhhMmRyb0ZmVWlsLXlUR2ZNTHJjckdybTRlMTRYOWNwcDhSV2duaTI4ZXB5dFlCNlBTSnlCYTNQN25ZdThTS3NHVUtlZ1NIQ2Z1cWZLLTgzQ3VocjZNcFRBMmJQZjZ0dFZ1UXRCcU0?oc=5",
+            "published_at": "2026-11-24T02:49:00+00:00"
+          },
+          {
+            "title": "Pakistan’s Zeeshan Ali set for historic flight to China’s space station",
+            "source": "Al Jazeera",
+            "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPOXhLLUZlSUhsY0lrTHdpbWpxYkZPM21nd3ozcmE3ejk5enR4ZVFidmVFa3MwWkNzVzBBSFR3NnU5NmRUMU11U1FUTEw2OXlKcHpxa1FtZHc0bVNNT0x1NS1Gb2RaZE1OYnlMRk9veEtFRjdRNmJrSVFUM0NmRFJ2LTdTLXFXSHVtYzVOYnlaSEdPX0c0UUVLMGxxb2R3Uy1RSVZrRlhxNUNXMkxqOF9UOdIBtgFBVV95cUxQck1SM2t1NVRXT3Z0aWUwRG5penVkWERLSGdaUWV4bUpDQm1zQnVaSnp3Wk1OQm53YlhOeENVY1VCSkU0OXV4Q1cxcGtPT2JLc2xzZlBhVWJwZnB6eDZpOGI2MUdYZzl0Q3NDVjhERDRyX0wwaVJKQVFySjM4dGlhdlNlOTlUT01wVHFjTGpnNXJxSHU1U3czSk40SHprbldPRE5KczJsN1VBdHBaUHRsMDVwNUlQUQ?oc=5",
+            "published_at": "2026-11-24T07:59:43+00:00"
+          },
+          {
+            "title": "China unveils new space mission crew, with a Pakistani astronaut set to board its space station",
+            "source": "AP News",
+            "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPTno4Y1I0UnZqSU1JaG15VG5qTm1HNjhQbUpab2ZIbDQ4YTY1YTdxMkxWenVxOUFOMWhXQUlTT1NIVGZYUGJrRUdkXzdxLXZEMzFmLVlxelhRRXlWbFVQQ1JuVTlBZDhjS09RS1JuTUs1Q3RrWTRHTzBOUFNEQmZha0FXNndUY25NY2ozbTlqSEc0TFVUSUFJ?oc=5",
+            "published_at": "2026-11-24T13:47:00+00:00"
+          },
+          {
+            "title": "Pakistani astronaut becomes first foreigner to board China's Tiangong space station",
+            "source": "Reuters",
+            "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNbUNDa1I5NlZaa2hiOFJGSHJlOHkyU3QtMEl0S2lvbGNlTWhJdGd6TzA3TV9VV0p2azc3OUZWeU0zLWtZbjZ3dlc5SXAxSklBbmlOeU5GcFdhMzZWbnJPTExMWG9KcElUOUotS3BGMDJmS2xVVV95MjFiYzdFTEcwOE1DU0tRY1ZmTzFHQ2pvYmFQUVY4dmRCb2tERDZZZV9IMWpLUTA0NXFNYnlwMm1UaTJyaXE2bThCMDRza1JDZlg?oc=5",
+            "published_at": "2026-11-25T00:27:00+00:00"
+          },
+          {
+            "title": "China's Shenzhou-24 carries Pakistan's first astronaut into space",
+            "source": "BBC",
+            "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA0eDZwOGtQQnBoOXlyLWhIME9fanAwcGZVWjlNMWhGcmRBeWs2czVPNHRyM2NtQk1sekhQNmFLcjU2VFJLT2Nzb3hTM2xuelVqWmZDU1oxY0xhSXM?oc=5",
+            "published_at": "2026-11-25T04:46:23+00:00"
+          }
+        ],
+        "coverage_from": "2026-11-06T08:00:00+00:00",
+        "search_query": "pakistan china pakistani astronaut",
         "search_days": 730,
-        "searched_days": 730,
-        "search_status": "searched"
+        "searched_days": 180,
+        "search_status": "matched"
       }
     },
     {
@@ -448,8 +499,8 @@
       ],
       "sources": [
         {
-          "name": "BBC World",
-          "url": "https://www.bbc.co.uk/news/articles/cmde1zr0nlyro?at_medium=RSS&at_campaign=rss",
+          "name": "BBC",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBaQkl0UXBneHNlcGtoQlJLdjM4T3VYQUxxbFJXWERXeWJHZHgzNWc2VXkzQzFwb3JxQ1JvN0pjVlB0MUlJNEtTc2xMX2dzd2J5SVlrOHhPemlGXzA?oc=5",
           "published_at": "2026-11-26T07:31:24+00:00",
           "paywalled": false
         },
@@ -477,6 +528,10 @@
         },
         {
           "at": "2026-11-27T10:52:06.088617+00:00",
+          "source_count": 3
+        },
+        {
+          "at": "2026-11-27T11:47:23.548371+00:00",
           "source_count": 3
         }
       ],
@@ -524,6 +579,10 @@
         {
           "at": "2026-11-27T10:52:06.088617+00:00",
           "source_count": 1
+        },
+        {
+          "at": "2026-11-27T11:47:23.548371+00:00",
+          "source_count": 1
         }
       ],
       "context": {
@@ -563,10 +622,6 @@
       "update_count": 0,
       "updated": false,
       "coverage_history": [
-        {
-          "at": "2026-11-27T01:27:15.199439+00:00",
-          "source_count": 1
-        },
         {
           "at": "2026-11-27T02:22:30.337925+00:00",
           "source_count": 1
@@ -610,6 +665,10 @@
         {
           "at": "2026-11-27T10:52:06.088617+00:00",
           "source_count": 1
+        },
+        {
+          "at": "2026-11-27T11:47:23.548371+00:00",
+          "source_count": 1
         }
       ],
       "context": {
@@ -622,209 +681,57 @@
       }
     },
     {
-      "id": "459c3f76ca86",
-      "title": "China launches first space mission with foreign astronaut",
-      "summary": "China launches first space mission with foreign astronaut Financial Times",
-      "image": "",
-      "category": "World",
-      "importance": "Major",
-      "background_only": false,
-      "score": 47.5,
-      "published_at": "2026-11-25T22:04:00+00:00",
-      "source_count": 1,
-      "reasons": [
-        "significant public impact",
-        "historic space milestone"
-      ],
-      "sources": [
-        {
-          "name": "Financial Times",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQRC1pbmw0S04yVGtzUkRuLUhnWGl1ejJHWW9DZXRoZW5ueC1pNFRVMTZOaXlGaDNkQUNjeFh6d1hUbm9hcVhGUEhfRVBIX3BHS1JtdUQ1REQ0YlRzZVVBRHJYVFBxT19WeEdGQXZKdFdpeTNDR2FHel93ZC1iZ1RPX3NmSlU?oc=5",
-          "published_at": "2026-11-25T03:29:39+00:00",
-          "paywalled": true
-        }
-      ],
-      "lead_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQRC1pbmw0S04yVGtzUkRuLUhnWGl1ejJHWW9DZXRoZW5ueC1pNFRVMTZOaXlGaDNkQUNjeFh6d1hUbm9hcVhGUEhfRVBIX3BHS1JtdUQ1REQ0YlRzZVVBRHJYVFBxT19WeEdGQXZKdFdpeTNDR2FHel93ZC1iZ1RPX3NmSlU?oc=5",
-      "first_reported_at": "2026-11-25T22:04:00+00:00",
-      "update_count": 0,
-      "updated": false,
-      "coverage_history": [
-        {
-          "at": "2026-11-27T09:57:19.510067+00:00",
-          "source_count": 1
-        },
-        {
-          "at": "2026-11-27T10:52:06.088617+00:00",
-          "source_count": 1
-        }
-      ],
-      "context": {
-        "earlier_reporting": [
-          {
-            "title": "Hong Kong’s First Astronaut Joins Mission to China Space Station",
-            "source": "Bloomberg.com",
-            "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOd3V6NkFWVWRXUVhhdmd1RHlBRGhUREpOUWlpNU5LRTh4cVphMGZVaDdDanJtdjhBZVFXRV93Y1NvenlWczhwTFFoeFVTTC1lRUcyajZLNWdQN0pCMFpTYkk3UXo2ZElycmJNbjBCdGlfejhpdGgydDB4T21QU1pPTURlalhvak84VEh6aV9pS2F0U29Cb0E0RGxna1lHQVVKaGZiaklBbVlQc3padmcxRHFZLXBOUQ?oc=5",
-            "published_at": "2026-05-22T07:00:00+00:00"
-          },
-          {
-            "title": "Li Jiaying: China launches first Hong Kong astronaut into space",
-            "source": "BBC",
-            "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5NLXF5R1dQdXUwOFFURm5LbWdvYmJKaDU1ZmhoM0Q5bllZRjlGbHh4RFRfVC1lT1ZZeGZmRzVyV2k1amM5MlZBNHpUajk1RFpkYng5U1VRcFh3Zw?oc=5",
-            "published_at": "2026-05-25T07:00:00+00:00"
-          },
-          {
-            "title": "Pakistani astronaut to join China’s next space station mission",
-            "source": "Al Jazeera",
-            "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOQTRRRXdXNmphejg5d3hubWpfNVZ2Skp0XzNQamJZRE1hN202Y3czZ3JyZWRPalJDaks3VlNvMy10NERJa1YxRDVUUVVxempZRk1oTjBPMVQwdm5UMW52VEJyMFRvSDNBTFI5Q2hQY3RBOWpacnA5eFFicGNYWXZpdXhFUmRKYnlwZ0VaYlNBUFd6Mm16M2hkTW5zd3lLQXYxaXIzQ9IBqgFBVV95cUxQSXZKQ0VIZHBaejV4UGp5Zy04MmJ0Njd2ejNJTkpZOThpX3VZT2huRHY4YzJsNUJyd0pwdnIxQ0xiQ0lDWnd6MmYzQU9CRTZPRTc2bjY0d081NkcwelZBVWhKeDlsV3Z4Q2NXODhMZkVCME5QUHE4YS1oRzRfeDZTaDdaQmdnb09EVjJEM212MEdwclBnaFhtZWttbXd0OUhHTFZ1SGtycXZPUQ?oc=5",
-            "published_at": "2026-11-07T08:00:00+00:00"
-          },
-          {
-            "title": "China unveils new space mission crew, with a Pakistani astronaut set to board its space station",
-            "source": "AP News",
-            "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPTno4Y1I0UnZqSU1JaG15VG5qTm1HNjhQbUpab2ZIbDQ4YTY1YTdxMkxWenVxOUFOMWhXQUlTT1NIVGZYUGJrRUdkXzdxLXZEMzFmLVlxelhRRXlWbFVQQ1JuVTlBZDhjS09RS1JuTUs1Q3RrWTRHTzBOUFNEQmZha0FXNndUY25NY2ozbTlqSEc0TFVUSUFJ?oc=5",
-            "published_at": "2026-11-24T13:47:00+00:00"
-          }
-        ],
-        "coverage_from": "2026-05-22T07:00:00+00:00",
-        "search_query": "china astronaut launches",
-        "search_days": 730,
-        "searched_days": null,
-        "search_status": "matched"
-      }
-    },
-    {
-      "id": "e94b464ded25",
-      "title": "Pakistan celebrates historic space mission with China",
-      "summary": "Pakistan celebrates historic space mission with China Modern Ghana",
-      "image": "",
-      "category": "World",
-      "importance": "Major",
-      "background_only": false,
-      "score": 46.6,
-      "published_at": "2026-11-26T23:20:00+00:00",
-      "source_count": 2,
-      "reasons": [
-        "significant public impact",
-        "historic space milestone"
-      ],
-      "sources": [
-        {
-          "name": "Modern Ghana",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9IdmpfUVF0S1hXOTdtQzFHZWdKQnYtcVByMW1md3Nibk5kc1lrQkJDY2dtbGc4TWt1NkhNMDlXMFN2cklwSUl6dFlWdmU1dEZZMFFTcmF5VnM3VmdMSy14VtIBXEFVX3lxTE5aaU9yN2tILVBlSEFyU2E0MnAwVFBjYmJGcTdYSkNKNk40MkRYM1QxRmFWMWNTeFVOY3RQbmt4Tk5YSHNMX3ZPa3pWb1ZBeHhRZEdleXNma3llcDkx?oc=5",
-          "published_at": "2026-11-26T23:20:00+00:00",
-          "paywalled": false
-        },
-        {
-          "name": "chinadailyhk",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5PVnV0MGZ6UjgyVlE3aExRWHFfZlptRktXeVNDTndjaDQ0cmtyVU8zWS1fZlF1Y2hQSGRnMnhOR3JfLWgwR1pUcHQwNm5DcWpfbFVvUUNKT0k?oc=5",
-          "published_at": "2026-11-26T10:06:36+00:00",
-          "paywalled": false
-        }
-      ],
-      "lead_url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9IdmpfUVF0S1hXOTdtQzFHZWdKQnYtcVByMW1md3Nibk5kc1lrQkJDY2dtbGc4TWt1NkhNMDlXMFN2cklwSUl6dFlWdmU1dEZZMFFTcmF5VnM3VmdMSy14VtIBXEFVX3lxTE5aaU9yN2tILVBlSEFyU2E0MnAwVFBjYmJGcTdYSkNKNk40MkRYM1QxRmFWMWNTeFVOY3RQbmt4Tk5YSHNMX3ZPa3pWb1ZBeHhRZEdleXNma3llcDkx?oc=5",
-      "first_reported_at": "2026-11-27T02:49:00+00:00",
-      "update_count": 0,
-      "updated": false,
-      "coverage_history": [
-        {
-          "at": "2026-11-27T09:57:19.510067+00:00",
-          "source_count": 3
-        },
-        {
-          "at": "2026-11-27T10:52:06.088617+00:00",
-          "source_count": 2
-        }
-      ],
-      "context": {
-        "earlier_reporting": [
-          {
-            "title": "Pakistan’s Zeeshan Ali set for historic flight to China’s space station",
-            "source": "Al Jazeera",
-            "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPOXhLLUZlSUhsY0lrTHdpbWpxYkZPM21nd3ozcmE3ejk5enR4ZVFidmVFa3MwWkNzVzBBSFR3NnU5NmRUMU11U1FUTEw2OXlKcHpxa1FtZHc0bVNNT0x1NS1Gb2RaZE1OYnlMRk9veEtFRjdRNmJrSVFUM0NmRFJ2LTdTLXFXSHVtYzVOYnlaSEdPX0c0UUVLMGxxb2R3Uy1RSVZrRlhxNUNXMkxqOF9UOdIBtgFBVV95cUxQck1SM2t1NVRXT3Z0aWUwRG5penVkWERLSGdaUWV4bUpDQm1zQnVaSnp3Wk1OQm53YlhOeENVY1VCSkU0OXV4Q1cxcGtPT2JLc2xzZlBhVWJwZnB6eDZpOGI2MUdYZzl0Q3NDVjhERDRyX0wwaVJKQVFySjM4dGlhdlNlOTlUT01wVHFjTGpnNXJxSHU1U3czSk40SHprbldPRE5KczJsN1VBdHBaUHRsMDVwNUlQUQ?oc=5",
-            "published_at": "2026-11-24T07:59:43+00:00"
-          },
-          {
-            "title": "China Space Program to Fly Pakistan Pilot as its First Foreigner",
-            "source": "Bloomberg",
-            "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQaEdLdW51bWxKbUxtdm1hbFdFQVlJbkFHdHdjaS1CQ25tMGFITEhialNKS213aC1lOFpnaU9ORVZOcDMzbURwX1FYWjExNmNpbE9Xc2k1R2tJSEpqNGJSX1lMMzdxYWhETkw1ZVZmajJWaF9mdWtqcVR1bnYtUk94dDI0bWY0d1VBVFVDRE5uYWV2c2E1dXVwcFNFcXUwWC1zRHN6VUJNRW5TN2ltSUpmTU1uaEV1dw?oc=5",
-            "published_at": "2026-11-24T08:09:31+00:00"
-          },
-          {
-            "title": "China's Shenzhou-24 carries Pakistan's first astronaut into space",
-            "source": "BBC",
-            "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA0eDZwOGtQQnBoOXlyLWhIME9fanAwcGZVWjlNMWhGcmRBeWs2czVPNHRyM2NtQk1sekhQNmFLcjU2VFJLT2Nzb3hTM2xuelVqWmZDU1oxY0xhSXM?oc=5",
-            "published_at": "2026-11-25T04:46:23+00:00"
-          },
-          {
-            "title": "Pakistan congratulates China on flight that carried a Pakistani astronaut to space station",
-            "source": "AP News",
-            "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNWktkYnY5NmlFTHBBcUxmbmFKdlg3ajdxSmVTQnJlWHd6Qm1wUUJ2VGtGN29zOFM0RlNZeWlJV1kybjVFVS1RNU5TQkY3cUEycURLaXEwTUExRjJMUkpKTXNUZVpvQXo1TGNpSVEwR3daQ0QyU2RTbzJ6N1hUS09PcGhmNlhkYlNXcUM5VDdTVXlNaThHaEtuaHVSVGxYeTg?oc=5",
-            "published_at": "2026-11-26T10:58:00+00:00"
-          }
-        ],
-        "coverage_from": "2026-11-24T07:59:43+00:00",
-        "search_query": "pakistan china celebrates",
-        "search_days": 730,
-        "searched_days": null,
-        "search_status": "matched"
-      }
-    },
-    {
-      "id": "efbee3c51904",
-      "title": "Anthropic shares tumble below $83 IPO price, on track to lose nearly $200 billion in value",
-      "summary": "Anthropic shares tumble below $83 IPO price, on track to lose nearly $200 billion in value Reuters",
+      "id": "203e2c22d6bd",
+      "title": "How Sanofi's new CEO struck a rapid $41 billion deal for Insmed",
+      "summary": "How Sanofi's new CEO struck a rapid $41 billion deal for Insmed Reuters",
       "image": "",
       "category": "World",
       "importance": "Notable",
       "background_only": false,
-      "score": 44.0,
-      "published_at": "2026-11-24T21:10:02+00:00",
-      "source_count": 2,
+      "score": 43.1,
+      "published_at": "2026-11-27T10:31:16+00:00",
+      "source_count": 1,
       "reasons": [
-        "frontier AI safety development",
-        "2 trusted sources"
+        "significant public impact",
+        "major transaction"
       ],
       "sources": [
         {
           "name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNMHBNOVY5RDc1NmxUUjNnZkNhLWROQkhUOFZpVmQ0SEI0UG9aSUpTTjhpV3EydTNkdW8xYm1KOWF6OXg2Z3BMaUJCWTE3WnFCM0hCZGNuQ3ZKUklsYUROVWQzdExOamNKVlJLRTgwYWpoYVdOUjlDY0pxTmxZajlvckJ4cHc0TG1hbW1ZUkszaDZ2M2Rvd3RqTWRFaVRENXVWT0pr?oc=5",
-          "published_at": "2026-11-24T20:47:56+00:00",
-          "paywalled": false
-        },
-        {
-          "name": "Bloomberg.com",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPT0hkbFdEeDFKTWo1UXlkenJzS3l0QWpGSDdIWGxpbTdiMkpzVkl0bFN0d2RUSGxJS3FxNFNjeEVOeE9qUlB6X1ZKNldQdFA5b2NUam1pZjQzXzFZSFZYQ21mUXJlSzVvOWs5dS1lc3A2NG5zeGQ1RXlQR0c4QkxOUVNQUzNyYzBMT1A5emhvX2VNc2thcUJoSjhqYzZjM0Y2ZmdQellESkczaXc?oc=5",
-          "published_at": "2026-11-24T21:10:02+00:00",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxObU1CTWI1cG1XTE9pbkN0cEl4NGFSYVFkalA1bVRsZ2xBVDhwa1lSbFBJUEJubXdSVnlKOTE5UVB3NHhFREZGUnlIMk1pU1RCdHUwWXhGdDJka2cxVEUyaVNPN3dmV2VudGlxWTJpM2NNTmhRNmJiNjVGNkpsZzZTbWFZNlpWc19sYTNNc1VDN1NRMzJESGlYZWVpeU5fdFZMTC1DZWdzZzIzQS1BTFJkVG5sOA?oc=5",
+          "published_at": "2026-11-27T06:03:00+00:00",
           "paywalled": false
         }
       ],
-      "lead_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNMHBNOVY5RDc1NmxUUjNnZkNhLWROQkhUOFZpVmQ0SEI0UG9aSUpTTjhpV3EydTNkdW8xYm1KOWF6OXg2Z3BMaUJCWTE3WnFCM0hCZGNuQ3ZKUklsYUROVWQzdExOamNKVlJLRTgwYWpoYVdOUjlDY0pxTmxZajlvckJ4cHc0TG1hbW1ZUkszaDZ2M2Rvd3RqTWRFaVRENXVWT0pr?oc=5",
-      "first_reported_at": "2026-11-24T21:10:02+00:00",
+      "lead_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxObU1CTWI1cG1XTE9pbkN0cEl4NGFSYVFkalA1bVRsZ2xBVDhwa1lSbFBJUEJubXdSVnlKOTE5UVB3NHhFREZGUnlIMk1pU1RCdHUwWXhGdDJka2cxVEUyaVNPN3dmV2VudGlxWTJpM2NNTmhRNmJiNjVGNkpsZzZTbWFZNlpWc19sYTNNc1VDN1NRMzJESGlYZWVpeU5fdFZMTC1DZWdzZzIzQS1BTFJkVG5sOA?oc=5",
+      "first_reported_at": "2026-11-27T10:31:16+00:00",
       "update_count": 0,
       "updated": false,
       "coverage_history": [
         {
-          "at": "2026-11-27T09:57:19.510067+00:00",
-          "source_count": 2
-        },
-        {
-          "at": "2026-11-27T10:52:06.088617+00:00",
-          "source_count": 2
+          "at": "2026-11-27T11:47:23.548371+00:00",
+          "source_count": 1
         }
       ],
       "context": {
         "earlier_reporting": [
           {
-            "title": "Anthropic falls below IPO price as tech rally fades",
-            "source": "Financial Times",
-            "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPal9tdUdZVTJvVTB5aGJHZ0FwTk1GVW8zRWFzNlFEdU9YTERXNlNPcGFzbHUyaXd5U3I4WlMzTGNFUUtPVlA2VmpYSW94TFZKMFhGOFlsU19WV09kVkFGRk9IQ3h3MkRLUGlqWms3akdWTUNaR1hxX2VXakFVMm1tNWk0MW8?oc=5",
-            "published_at": "2026-11-24T00:40:35+00:00"
+            "title": "Sanofi’s $41 Billion Insmed Deal Shows Cost of a Patent Cliff",
+            "source": "Bloomberg.com",
+            "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNcFF3eGlyR1o4aXEtbTBrN2c2a2k5NUg5NUxkc0MwV0M2bEJxNmgwWHVUMWREMWxnS21tT3RFTG9raEdIYnduY3daOEl6RzNjMzdTSkpxazhzZHNkN0ZSMFNWSmRGNzFUdXZWdks2V2oyUXJTNU9TTE9jdS1qc0RnSDZHRFdmSTVKOEJmQWY1cFNjMTBDM2JfNndnQmI1T3pjSS1IcGJabnNxNnQyTGNOQw?oc=5",
+            "published_at": "2026-11-24T14:52:50+00:00"
+          },
+          {
+            "title": "Sanofi strikes $41 billion deal for Insmed as CEO Garijo makes her mark",
+            "source": "Reuters",
+            "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8zQUJjamRaZWpUd2lCRW1VcDZMQnhPM2tiMkNTYXpNakVfNHNqTXB6S2hGSHk3Z1JPbWNUZHVRTFEtX2ZOLVRrWlVwT2JsVmN5bGp2NGlITERKTjdobVVEMXlDbzZIdjA?oc=5",
+            "published_at": "2026-11-24T22:44:42+00:00"
           }
         ],
-        "coverage_from": "2026-11-24T00:40:35+00:00",
-        "search_query": "anthropic ipo shares",
+        "coverage_from": "2026-11-24T14:52:50+00:00",
+        "search_query": "sanofi ceo insmed",
         "search_days": 730,
-        "searched_days": 730,
+        "searched_days": 30,
         "search_status": "matched"
       }
     },
@@ -864,6 +771,10 @@
       "coverage_history": [
         {
           "at": "2026-11-27T10:52:06.088617+00:00",
+          "source_count": 2
+        },
+        {
+          "at": "2026-11-27T11:47:23.548371+00:00",
           "source_count": 2
         }
       ],
@@ -953,6 +864,10 @@
         {
           "at": "2026-11-27T10:52:06.088617+00:00",
           "source_count": 2
+        },
+        {
+          "at": "2026-11-27T11:47:23.548371+00:00",
+          "source_count": 2
         }
       ],
       "context": {
@@ -975,6 +890,48 @@
         "search_days": 730,
         "searched_days": 30,
         "search_status": "matched"
+      }
+    },
+    {
+      "id": "72e9232fdd70",
+      "title": "EXCLUSIVE: Global brands shift hundreds of millions in orders from Bangladesh to India amid unrest",
+      "summary": "EXCLUSIVE: Global brands shift hundreds of millions in orders from Bangladesh to India amid unrest Reuters",
+      "image": "",
+      "category": "World",
+      "importance": "Notable",
+      "background_only": false,
+      "score": 40.4,
+      "published_at": "2026-11-27T10:22:04+00:00",
+      "source_count": 1,
+      "reasons": [
+        "significant public impact",
+        "large scale"
+      ],
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOcVhoVXVubGp1bk52dUFmd2p1NVdJQzNwaXRBTm5TWXdEZXNHTmNlUmIwLXMyWlBMdVByV3RKRFFkV19UVzNCV3UydGgwUjhXMlBES1lFbkxvQndUSkpRXy1RU3k5TmxJOHhHSjZYOWcyNFM0cW95N0twYjJyVU9BZlY2cTVEU2dsNkx0MTFXRXNya0t3alBPN2FnUDgyTUxkUzlUTTN1c21BR19HeDNzZWhOTEFWS2JYNEl1OVdad1dna21acnI4TDhuRDdUWk5EeWk4?oc=5",
+          "published_at": "2026-11-27T10:22:04+00:00",
+          "paywalled": false
+        }
+      ],
+      "lead_url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOcVhoVXVubGp1bk52dUFmd2p1NVdJQzNwaXRBTm5TWXdEZXNHTmNlUmIwLXMyWlBMdVByV3RKRFFkV19UVzNCV3UydGgwUjhXMlBES1lFbkxvQndUSkpRXy1RU3k5TmxJOHhHSjZYOWcyNFM0cW95N0twYjJyVU9BZlY2cTVEU2dsNkx0MTFXRXNya0t3alBPN2FnUDgyTUxkUzlUTTN1c21BR19HeDNzZWhOTEFWS2JYNEl1OVdad1dna21acnI4TDhuRDdUWk5EeWk4?oc=5",
+      "first_reported_at": "2026-11-27T10:22:04+00:00",
+      "update_count": 0,
+      "updated": false,
+      "coverage_history": [
+        {
+          "at": "2026-11-27T11:47:23.548371+00:00",
+          "source_count": 1
+        }
+      ],
+      "context": {
+        "earlier_reporting": [],
+        "coverage_from": null,
+        "search_query": "exclusive global bangladesh",
+        "search_days": 730,
+        "searched_days": 30,
+        "search_status": "searched"
       }
     },
     {
@@ -1011,6 +968,10 @@
         {
           "at": "2026-11-27T10:52:06.088617+00:00",
           "source_count": 1
+        },
+        {
+          "at": "2026-11-27T11:47:23.548371+00:00",
+          "source_count": 1
         }
       ],
       "context": {
@@ -1023,43 +984,32 @@
       }
     },
     {
-      "id": "aae0370b581c",
-      "title": "The main issues driving Spain’s election and why they matter for Europe",
-      "summary": "The main issues driving Spain’s election and why they matter for Europe AP News",
+      "id": "efbee3c51904",
+      "title": "Anthropic shares tumble below $83 IPO price, on track to lose nearly $200 billion in value",
+      "summary": "Anthropic shares tumble below $83 IPO price, on track to lose nearly $200 billion in value Reuters",
       "image": "",
-      "category": "Europe/UK",
+      "category": "Tech",
       "importance": "Notable",
       "background_only": false,
       "score": 39.0,
-      "published_at": "2026-11-27T08:39:43+00:00",
-      "source_count": 2,
+      "published_at": "2026-11-24T20:47:56+00:00",
+      "source_count": 1,
       "reasons": [
-        "high-impact event",
-        "2 trusted sources"
+        "frontier AI safety development"
       ],
       "sources": [
         {
           "name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNQWRyM0NQRDdFNTJsMVZKTzVoMEd3UXpzOWZQYjZSejZXc29xbVA3emVPcC1XV0lSMnRXWWhObmJ6cDJrMTdzV005ZVJlT3Z2UGJLWTBNeDE1T0hsOUtXNkp4T3VtV0VJeE83SkFUTjZlTkxRYUI5NTNPdTVsek5RNWdaSXM0Q3FCM1JRM2x1UlhaSzk0bWxkWFdHdw?oc=5",
-          "published_at": "2026-11-27T08:39:43+00:00",
-          "paywalled": false
-        },
-        {
-          "name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPTVpPaFdxTUpHbXNSemNIelRrb2xZQm5jZTBvT2VncV9EbWdWdjd3ZWdaUVVWSkl0dGpQaFRIcGFicTBKZDlFeG1lMHlyNTV2aHAtYXR6eFM2N2RwTDZyeS10VWtWNjhUcUtoamd3R3IzSzBaXzFDNl9KeXZUZlFRYXhhUUlzcF96OXJmZFpKTXN0ZDNERUY2b1RsYkhvbklYNXpTeW1na3Y?oc=5",
-          "published_at": "2026-11-27T08:31:00+00:00",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNMHBNOVY5RDc1NmxUUjNnZkNhLWROQkhUOFZpVmQ0SEI0UG9aSUpTTjhpV3EydTNkdW8xYm1KOWF6OXg2Z3BMaUJCWTE3WnFCM0hCZGNuQ3ZKUklsYUROVWQzdExOamNKVlJLRTgwYWpoYVdOUjlDY0pxTmxZajlvckJ4cHc0TG1hbW1ZUkszaDZ2M2Rvd3RqTWRFaVRENXVWT0pr?oc=5",
+          "published_at": "2026-11-24T20:47:56+00:00",
           "paywalled": false
         }
       ],
-      "lead_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPTVpPaFdxTUpHbXNSemNIelRrb2xZQm5jZTBvT2VncV9EbWdWdjd3ZWdaUVVWSkl0dGpQaFRIcGFicTBKZDlFeG1lMHlyNTV2aHAtYXR6eFM2N2RwTDZyeS10VWtWNjhUcUtoamd3R3IzSzBaXzFDNl9KeXZUZlFRYXhhUUlzcF96OXJmZFpKTXN0ZDNERUY2b1RsYkhvbklYNXpTeW1na3Y?oc=5",
-      "first_reported_at": "2026-11-27T08:39:43+00:00",
-      "update_count": 1,
+      "lead_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNMHBNOVY5RDc1NmxUUjNnZkNhLWROQkhUOFZpVmQ0SEI0UG9aSUpTTjhpV3EydTNkdW8xYm1KOWF6OXg2Z3BMaUJCWTE3WnFCM0hCZGNuQ3ZKUklsYUROVWQzdExOamNKVlJLRTgwYWpoYVdOUjlDY0pxTmxZajlvckJ4cHc0TG1hbW1ZUkszaDZ2M2Rvd3RqTWRFaVRENXVWT0pr?oc=5",
+      "first_reported_at": "2026-11-24T21:10:02+00:00",
+      "update_count": 0,
       "updated": false,
       "coverage_history": [
-        {
-          "at": "2026-11-27T09:01:24.911799+00:00",
-          "source_count": 2
-        },
         {
           "at": "2026-11-27T09:57:19.510067+00:00",
           "source_count": 2
@@ -1067,15 +1017,26 @@
         {
           "at": "2026-11-27T10:52:06.088617+00:00",
           "source_count": 2
+        },
+        {
+          "at": "2026-11-27T11:47:23.548371+00:00",
+          "source_count": 1
         }
       ],
       "context": {
-        "earlier_reporting": [],
-        "coverage_from": null,
-        "search_query": "spain europe election",
+        "earlier_reporting": [
+          {
+            "title": "Anthropic falls below IPO price as tech rally fades",
+            "source": "Financial Times",
+            "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPal9tdUdZVTJvVTB5aGJHZ0FwTk1GVW8zRWFzNlFEdU9YTERXNlNPcGFzbHUyaXd5U3I4WlMzTGNFUUtPVlA2VmpYSW94TFZKMFhGOFlsU19WV09kVkFGRk9IQ3h3MkRLUGlqWms3akdWTUNaR1hxX2VXakFVMm1tNWk0MW8?oc=5",
+            "published_at": "2026-11-24T00:40:35+00:00"
+          }
+        ],
+        "coverage_from": "2026-11-24T00:40:35+00:00",
+        "search_query": "anthropic ipo shares",
         "search_days": 730,
-        "searched_days": 365,
-        "search_status": "searched"
+        "searched_days": 730,
+        "search_status": "matched"
       }
     },
     {
@@ -1139,6 +1100,10 @@
         {
           "at": "2026-11-27T10:52:06.088617+00:00",
           "source_count": 2
+        },
+        {
+          "at": "2026-11-27T11:47:23.548371+00:00",
+          "source_count": 2
         }
       ],
       "context": {
@@ -1196,28 +1161,10 @@
       "published_at": "2026-11-25T06:15:20+00:00"
     },
     {
-      "title": "Hong Kong’s First Astronaut Joins Mission to China Space Station",
-      "source": "Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOd3V6NkFWVWRXUVhhdmd1RHlBRGhUREpOUWlpNU5LRTh4cVphMGZVaDdDanJtdjhBZVFXRV93Y1NvenlWczhwTFFoeFVTTC1lRUcyajZLNWdQN0pCMFpTYkk3UXo2ZElycmJNbjBCdGlfejhpdGgydDB4T21QU1pPTURlalhvak84VEh6aV9pS2F0U29Cb0E0RGxna1lHQVVKaGZiaklBbVlQc3padmcxRHFZLXBOUQ?oc=5",
-      "published_at": "2026-05-22T07:00:00+00:00"
-    },
-    {
-      "title": "Li Jiaying: China launches first Hong Kong astronaut into space",
-      "source": "BBC",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5NLXF5R1dQdXUwOFFURm5LbWdvYmJKaDU1ZmhoM0Q5bllZRjlGbHh4RFRfVC1lT1ZZeGZmRzVyV2k1amM5MlZBNHpUajk1RFpkYng5U1VRcFh3Zw?oc=5",
-      "published_at": "2026-05-25T07:00:00+00:00"
-    },
-    {
-      "title": "Pakistani astronaut to join China’s next space station mission",
-      "source": "Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOQTRRRXdXNmphejg5d3hubWpfNVZ2Skp0XzNQamJZRE1hN202Y3czZ3JyZWRPalJDaks3VlNvMy10NERJa1YxRDVUUVVxempZRk1oTjBPMVQwdm5UMW52VEJyMFRvSDNBTFI5Q2hQY3RBOWpacnA5eFFicGNYWXZpdXhFUmRKYnlwZ0VaYlNBUFd6Mm16M2hkTW5zd3lLQXYxaXIzQ9IBqgFBVV95cUxQSXZKQ0VIZHBaejV4UGp5Zy04MmJ0Njd2ejNJTkpZOThpX3VZT2huRHY4YzJsNUJyd0pwdnIxQ0xiQ0lDWnd6MmYzQU9CRTZPRTc2bjY0d081NkcwelZBVWhKeDlsV3Z4Q2NXODhMZkVCME5QUHE4YS1oRzRfeDZTaDdaQmdnb09EVjJEM212MEdwclBnaFhtZWttbXd0OUhHTFZ1SGtycXZPUQ?oc=5",
-      "published_at": "2026-11-07T08:00:00+00:00"
-    },
-    {
-      "title": "China unveils new space mission crew, with a Pakistani astronaut set to board its space station",
-      "source": "AP News",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPTno4Y1I0UnZqSU1JaG15VG5qTm1HNjhQbUpab2ZIbDQ4YTY1YTdxMkxWenVxOUFOMWhXQUlTT1NIVGZYUGJrRUdkXzdxLXZEMzFmLVlxelhRRXlWbFVQQ1JuVTlBZDhjS09RS1JuTUs1Q3RrWTRHTzBOUFNEQmZha0FXNndUY25NY2ozbTlqSEc0TFVUSUFJ?oc=5",
-      "published_at": "2026-11-24T13:47:00+00:00"
+      "title": "Pakistani pilot to become first foreigner to fly to China's space station",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNTjlOOEE2ZGVBYmJLbmlvRXdLTzF4UjNOVXFoY0J6c29vSDF1cDZBTk02QTFDWlRwbk9ESThyeGI0dzdKUFhhMmRyb0ZmVWlsLXlUR2ZNTHJjckdybTRlMTRYOWNwcDhSV2duaTI4ZXB5dFlCNlBTSnlCYTNQN25ZdThTS3NHVUtlZ1NIQ2Z1cWZLLTgzQ3VocjZNcFRBMmJQZjZ0dFZ1UXRCcU0?oc=5",
+      "published_at": "2026-11-24T02:49:00+00:00"
     },
     {
       "title": "Pakistan’s Zeeshan Ali set for historic flight to China’s space station",
@@ -1226,10 +1173,16 @@
       "published_at": "2026-11-24T07:59:43+00:00"
     },
     {
-      "title": "China Space Program to Fly Pakistan Pilot as its First Foreigner",
-      "source": "Bloomberg",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQaEdLdW51bWxKbUxtdm1hbFdFQVlJbkFHdHdjaS1CQ25tMGFITEhialNKS213aC1lOFpnaU9ORVZOcDMzbURwX1FYWjExNmNpbE9Xc2k1R2tJSEpqNGJSX1lMMzdxYWhETkw1ZVZmajJWaF9mdWtqcVR1bnYtUk94dDI0bWY0d1VBVFVDRE5uYWV2c2E1dXVwcFNFcXUwWC1zRHN6VUJNRW5TN2ltSUpmTU1uaEV1dw?oc=5",
-      "published_at": "2026-11-24T08:09:31+00:00"
+      "title": "China unveils new space mission crew, with a Pakistani astronaut set to board its space station",
+      "source": "AP News",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPTno4Y1I0UnZqSU1JaG15VG5qTm1HNjhQbUpab2ZIbDQ4YTY1YTdxMkxWenVxOUFOMWhXQUlTT1NIVGZYUGJrRUdkXzdxLXZEMzFmLVlxelhRRXlWbFVQQ1JuVTlBZDhjS09RS1JuTUs1Q3RrWTRHTzBOUFNEQmZha0FXNndUY25NY2ozbTlqSEc0TFVUSUFJ?oc=5",
+      "published_at": "2026-11-24T13:47:00+00:00"
+    },
+    {
+      "title": "Pakistani astronaut becomes first foreigner to board China's Tiangong space station",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNbUNDa1I5NlZaa2hiOFJGSHJlOHkyU3QtMEl0S2lvbGNlTWhJdGd6TzA3TV9VV0p2azc3OUZWeU0zLWtZbjZ3dlc5SXAxSklBbmlOeU5GcFdhMzZWbnJPTExMWG9KcElUOUotS3BGMDJmS2xVVV95MjFiYzdFTEcwOE1DU0tRY1ZmTzFHQ2pvYmFQUVY4dmRCb2tERDZZZV9IMWpLUTA0NXFNYnlwMm1UaTJyaXE2bThCMDRza1JDZlg?oc=5",
+      "published_at": "2026-11-25T00:27:00+00:00"
     },
     {
       "title": "China's Shenzhou-24 carries Pakistan's first astronaut into space",
@@ -1238,16 +1191,16 @@
       "published_at": "2026-11-25T04:46:23+00:00"
     },
     {
-      "title": "Pakistan congratulates China on flight that carried a Pakistani astronaut to space station",
-      "source": "AP News",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNWktkYnY5NmlFTHBBcUxmbmFKdlg3ajdxSmVTQnJlWHd6Qm1wUUJ2VGtGN29zOFM0RlNZeWlJV1kybjVFVS1RNU5TQkY3cUEycURLaXEwTUExRjJMUkpKTXNUZVpvQXo1TGNpSVEwR3daQ0QyU2RTbzJ6N1hUS09PcGhmNlhkYlNXcUM5VDdTVXlNaThHaEtuaHVSVGxYeTg?oc=5",
-      "published_at": "2026-11-26T10:58:00+00:00"
+      "title": "Sanofi’s $41 Billion Insmed Deal Shows Cost of a Patent Cliff",
+      "source": "Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNcFF3eGlyR1o4aXEtbTBrN2c2a2k5NUg5NUxkc0MwV0M2bEJxNmgwWHVUMWREMWxnS21tT3RFTG9raEdIYnduY3daOEl6RzNjMzdTSkpxazhzZHNkN0ZSMFNWSmRGNzFUdXZWdks2V2oyUXJTNU9TTE9jdS1qc0RnSDZHRFdmSTVKOEJmQWY1cFNjMTBDM2JfNndnQmI1T3pjSS1IcGJabnNxNnQyTGNOQw?oc=5",
+      "published_at": "2026-11-24T14:52:50+00:00"
     },
     {
-      "title": "Anthropic falls below IPO price as tech rally fades",
-      "source": "Financial Times",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPal9tdUdZVTJvVTB5aGJHZ0FwTk1GVW8zRWFzNlFEdU9YTERXNlNPcGFzbHUyaXd5U3I4WlMzTGNFUUtPVlA2VmpYSW94TFZKMFhGOFlsU19WV09kVkFGRk9IQ3h3MkRLUGlqWms3akdWTUNaR1hxX2VXakFVMm1tNWk0MW8?oc=5",
-      "published_at": "2026-11-24T00:40:35+00:00"
+      "title": "Sanofi strikes $41 billion deal for Insmed as CEO Garijo makes her mark",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8zQUJjamRaZWpUd2lCRW1VcDZMQnhPM2tiMkNTYXpNakVfNHNqTXB6S2hGSHk3Z1JPbWNUZHVRTFEtX2ZOLVRrWlVwT2JsVmN5bGp2NGlITERKTjdobVVEMXlDbzZIdjA?oc=5",
+      "published_at": "2026-11-24T22:44:42+00:00"
     },
     {
       "title": "Russian strikes aim to cut Ukraine in half, Zelenskyy warns",
@@ -1262,10 +1215,28 @@
       "published_at": "2026-11-23T17:49:00+00:00"
     },
     {
+      "title": "Anthropic falls below IPO price as tech rally fades",
+      "source": "Financial Times",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPal9tdUdZVTJvVTB5aGJHZ0FwTk1GVW8zRWFzNlFEdU9YTERXNlNPcGFzbHUyaXd5U3I4WlMzTGNFUUtPVlA2VmpYSW94TFZKMFhGOFlsU19WV09kVkFGRk9IQ3h3MkRLUGlqWms3akdWTUNaR1hxX2VXakFVMm1tNWk0MW8?oc=5",
+      "published_at": "2026-11-24T00:40:35+00:00"
+    },
+    {
+      "title": "EXCLUSIVE: Global brands shift hundreds of millions in orders from Bangladesh to India amid unrest",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOcVhoVXVubGp1bk52dUFmd2p1NVdJQzNwaXRBTm5TWXdEZXNHTmNlUmIwLXMyWlBMdVByV3RKRFFkV19UVzNCV3UydGgwUjhXMlBES1lFbkxvQndUSkpRXy1RU3k5TmxJOHhHSjZYOWcyNFM0cW95N0twYjJyVU9BZlY2cTVEU2dsNkx0MTFXRXNya0t3alBPN2FnUDgyTUxkUzlUTTN1c21BR19HeDNzZWhOTEFWS2JYNEl1OVdad1dna21acnI4TDhuRDdUWk5EeWk4?oc=5",
+      "published_at": "2026-11-27T10:22:04+00:00"
+    },
+    {
       "title": "The main issues driving Spain’s election and why they matter for Europe",
       "source": "AP News",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPTVpPaFdxTUpHbXNSemNIelRrb2xZQm5jZTBvT2VncV9EbWdWdjd3ZWdaUVVWSkl0dGpQaFRIcGFicTBKZDlFeG1lMHlyNTV2aHAtYXR6eFM2N2RwTDZyeS10VWtWNjhUcUtoamd3R3IzSzBaXzFDNl9KeXZUZlFRYXhhUUlzcF96OXJmZFpKTXN0ZDNERUY2b1RsYkhvbklYNXpTeW1na3Y?oc=5",
       "published_at": "2026-11-27T08:31:00+00:00"
+    },
+    {
+      "title": "How Sanofi's new CEO struck a rapid $41 billion deal for Insmed",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxObU1CTWI1cG1XTE9pbkN0cEl4NGFSYVFkalA1bVRsZ2xBVDhwa1lSbFBJUEJubXdSVnlKOTE5UVB3NHhFREZGUnlIMk1pU1RCdHUwWXhGdDJka2cxVEUyaVNPN3dmV2VudGlxWTJpM2NNTmhRNmJiNjVGNkpsZzZTbWFZNlpWc19sYTNNc1VDN1NRMzJESGlYZWVpeU5fdFZMTC1DZWdzZzIzQS1BTFJkVG5sOA?oc=5",
+      "published_at": "2026-11-27T06:03:00+00:00"
     },
     {
       "title": "New Zealand's ruling coalition falls short of parliamentary majority by one seat",
@@ -1380,6 +1351,12 @@
       "source": "Al Jazeera",
       "url": "https://www.aljazeera.com/news/2026/11/26/highway-explosion-in-giza-how-deadly-are-egypts-roads-and-railways?traffic_source=rss",
       "published_at": "2026-11-26T11:22:59+00:00"
+    },
+    {
+      "title": "Pakistan congratulates China on flight that carried a Pakistani astronaut to space station",
+      "source": "AP News",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNWktkYnY5NmlFTHBBcUxmbmFKdlg3ajdxSmVTQnJlWHd6Qm1wUUJ2VGtGN29zOFM0RlNZeWlJV1kybjVFVS1RNU5TQkY3cUEycURLaXEwTUExRjJMUkpKTXNUZVpvQXo1TGNpSVEwR3daQ0QyU2RTbzJ6N1hUS09PcGhmNlhkYlNXcUM5VDdTVXlNaThHaEtuaHVSVGxYeTg?oc=5",
+      "published_at": "2026-11-26T10:58:00+00:00"
     },
     {
       "title": "Seven injured, four critically, after Bangkok oil refinery explosion",
@@ -1586,12 +1563,6 @@
       "published_at": "2026-11-25T00:38:00+00:00"
     },
     {
-      "title": "Pakistani astronaut becomes first foreigner to board China's Tiangong space station",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNbUNDa1I5NlZaa2hiOFJGSHJlOHkyU3QtMEl0S2lvbGNlTWhJdGd6TzA3TV9VV0p2azc3OUZWeU0zLWtZbjZ3dlc5SXAxSklBbmlOeU5GcFdhMzZWbnJPTExMWG9KcElUOUotS3BGMDJmS2xVVV95MjFiYzdFTEcwOE1DU0tRY1ZmTzFHQ2pvYmFQUVY4dmRCb2tERDZZZV9IMWpLUTA0NXFNYnlwMm1UaTJyaXE2bThCMDRza1JDZlg?oc=5",
-      "published_at": "2026-11-25T00:27:00+00:00"
-    },
-    {
       "title": "Nvidia board joins Jensen Huang under scrutiny after reinstating embattled CEO",
       "source": "AP News",
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNdDBtR1FfWU5YMzBKWUlXWmc3YVotaWZ2eHBQTEdLd1ZJN0duSzA3RFNkQnFFM29rSXVrdnlzMk1ZYzJLbUd5dnJhYUQxb1pVYU9DT0wzMmlfSk84NW03TUZqTEtQNDNDRzQ0OWIyOWJ4OHNEdUV6c0hIWDNtRlk3WGFkbl9LbkpwNExRSS13SjFnQ0o2b0JrbjZKNHZJQmpmZ0VYMw?oc=5",
@@ -1724,6 +1695,12 @@
       "published_at": "2026-11-24T09:39:56+00:00"
     },
     {
+      "title": "China Space Program to Fly Pakistan Pilot as its First Foreigner",
+      "source": "Bloomberg",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQaEdLdW51bWxKbUxtdm1hbFdFQVlJbkFHdHdjaS1CQ25tMGFITEhialNKS213aC1lOFpnaU9ORVZOcDMzbURwX1FYWjExNmNpbE9Xc2k1R2tJSEpqNGJSX1lMMzdxYWhETkw1ZVZmajJWaF9mdWtqcVR1bnYtUk94dDI0bWY0d1VBVFVDRE5uYWV2c2E1dXVwcFNFcXUwWC1zRHN6VUJNRW5TN2ltSUpmTU1uaEV1dw?oc=5",
+      "published_at": "2026-11-24T08:09:31+00:00"
+    },
+    {
       "title": "Explosion kills 6, injures 10 in Vietnam capital Hanoi",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQZldRdngyRk9qdWlNdVBkYlFrTnBtV3M3WU45al9qVVp6OE9VRktQTWVKRWY0aWlfNjBhTVFNVlhaYkp4aEJVeVItSlpIUjAwd2I5RGh5MV9wZHVnNkc5c3F1MzA0elVvZ2x2bVFrMUM3NHgwVjJYaHpPRS0xa25Tb0VIUVBySTd5blMxNXhQYlVWMkh5bG0tbHRNN3hvck8zQnI3SG4tdGg?oc=5",
@@ -1740,12 +1717,6 @@
       "source": "AP News",
       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPbEdETmxDZ2pxSlU0VUFEWktyS2ZfTU5EZ3pKNlVqOW95dFRPTTRFWC15RFdiTF9OT2xDaVBsTHliQURsUlluM0U3QVp3N3EyY08xRGwzQjNBQk4xeW8xNzdkbU1fc04zbEFCM2w4azBoeC1jTUNISHpUbWVTMU9VT29XbkZyUGc?oc=5",
       "published_at": "2026-11-24T06:29:06+00:00"
-    },
-    {
-      "title": "Pakistani pilot to become first foreigner to fly to China's space station",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNTjlOOEE2ZGVBYmJLbmlvRXdLTzF4UjNOVXFoY0J6c29vSDF1cDZBTk02QTFDWlRwbk9ESThyeGI0dzdKUFhhMmRyb0ZmVWlsLXlUR2ZNTHJjckdybTRlMTRYOWNwcDhSV2duaTI4ZXB5dFlCNlBTSnlCYTNQN25ZdThTS3NHVUtlZ1NIQ2Z1cWZLLTgzQ3VocjZNcFRBMmJQZjZ0dFZ1UXRCcU0?oc=5",
-      "published_at": "2026-11-24T02:49:00+00:00"
     },
     {
       "title": "Democratic Rep. Jimmy Gomez resigns after Ethics panel finds evidence of sexual misconduct",
@@ -1910,6 +1881,12 @@
       "published_at": "2026-11-12T08:00:00+00:00"
     },
     {
+      "title": "Pakistani astronaut to join China’s next space station mission",
+      "source": "Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOQTRRRXdXNmphejg5d3hubWpfNVZ2Skp0XzNQamJZRE1hN202Y3czZ3JyZWRPalJDaks3VlNvMy10NERJa1YxRDVUUVVxempZRk1oTjBPMVQwdm5UMW52VEJyMFRvSDNBTFI5Q2hQY3RBOWpacnA5eFFicGNYWXZpdXhFUmRKYnlwZ0VaYlNBUFd6Mm16M2hkTW5zd3lLQXYxaXIzQ9IBqgFBVV95cUxQSXZKQ0VIZHBaejV4UGp5Zy04MmJ0Njd2ejNJTkpZOThpX3VZT2huRHY4YzJsNUJyd0pwdnIxQ0xiQ0lDWnd6MmYzQU9CRTZPRTc2bjY0d081NkcwelZBVWhKeDlsV3Z4Q2NXODhMZkVCME5QUHE4YS1oRzRfeDZTaDdaQmdnb09EVjJEM212MEdwclBnaFhtZWttbXd0OUhHTFZ1SGtycXZPUQ?oc=5",
+      "published_at": "2026-11-07T08:00:00+00:00"
+    },
+    {
       "title": "Are Houthis using Russian satellites as Saudi Arabia fends off strikes?",
       "source": "Al Jazeera",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOR2JnM09TN0huWnRSdGZZMmtwLW51Q1lCM3lBWU1fMUl1YlR2Y203ckZKekRZREM5akNOMmpYTEo1VzFzQkItQmRxb0RxMHZnWGdpekdxNnZCdTVwR196NDJIekRjX00tYjlHVDlwcjVaRVh4ZjNJYTA4UTh0RWc5ZGM4QUtaQW1vVl81YUFpOHQ2dFBCUjFwaHR1c1h5VS0tTC0wRE1kNUXSAa4BQVVfeXFMTTNRV2V3eWthVkMtZTMzdHRIc2hBZ0wwRW1pNDk1MVRMQjg4NGZiSnFGLTJWZ21DWmJaT3A5OWR6aUYwQnlIMTNFUnZTd0Zma3JvSHp6RF9IcFo0cFZlT285RzZLc2NXZzIwVVFJenNWUFhrY3dvUDZReW9iRGFsazcyMGRQOEhnN0kzZTNvb3RfWmR6cGhxbVE0cE1EOGRpdnFOb1d4bWdHSHdURHVR?oc=5",
@@ -1932,6 +1909,18 @@
       "source": "BBC",
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9YeFM1dXhTWU4wLTVRdDMxLUJwZExBdzVRX0RhOFF1elVWcGJyRXNiSE5ncGMtSGJzbk1EYV9aUmtWaTZXMGxweXliUTNweHNCVWtQT3FETVpUdw?oc=5",
       "published_at": "2026-08-10T07:00:00+00:00"
+    },
+    {
+      "title": "Li Jiaying: China launches first Hong Kong astronaut into space",
+      "source": "BBC",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5NLXF5R1dQdXUwOFFURm5LbWdvYmJKaDU1ZmhoM0Q5bllZRjlGbHh4RFRfVC1lT1ZZeGZmRzVyV2k1amM5MlZBNHpUajk1RFpkYng5U1VRcFh3Zw?oc=5",
+      "published_at": "2026-05-25T07:00:00+00:00"
+    },
+    {
+      "title": "Hong Kong’s First Astronaut Joins Mission to China Space Station",
+      "source": "Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOd3V6NkFWVWRXUVhhdmd1RHlBRGhUREpOUWlpNU5LRTh4cVphMGZVaDdDanJtdjhBZVFXRV93Y1NvenlWczhwTFFoeFVTTC1lRUcyajZLNWdQN0pCMFpTYkk3UXo2ZElycmJNbjBCdGlfejhpdGgydDB4T21QU1pPTURlalhvak84VEh6aV9pS2F0U29Cb0E0RGxna1lHQVVKaGZiaklBbVlQc3padmcxRHFZLXBOUQ?oc=5",
+      "published_at": "2026-05-22T07:00:00+00:00"
     },
     {
       "title": "Hong Kong leader says fire probe expected to conclude within 9 months",
@@ -1977,6 +1966,24 @@
     }
   ],
   "context_checks": {
+    "72e9232fdd70": {
+      "version": 4,
+      "query": "exclusive global bangladesh",
+      "at": "2026-11-27T11:47:23.548371+00:00",
+      "stage": 1,
+      "matched": false,
+      "exhausted": false,
+      "searched_days": 30
+    },
+    "203e2c22d6bd": {
+      "version": 4,
+      "query": "sanofi ceo insmed",
+      "at": "2026-11-27T11:47:23.548371+00:00",
+      "stage": 0,
+      "matched": true,
+      "exhausted": false,
+      "searched_days": 30
+    },
     "aae0370b581c": {
       "version": 4,
       "query": "spain europe election",
