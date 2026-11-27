@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T18:12:14.860436+00:00",
+  "generated_at": "2026-11-27T18:54:06.583318+00:00",
   "model_mode": "sentence-transformers",
   "stories": [
     {
@@ -11,7 +11,7 @@
       "importance": "Major",
       "background_only": false,
       "score": 82.1,
-      "published_at": "2026-11-27T06:48:50+00:00",
+      "published_at": "2026-11-27T05:00:00+00:00",
       "source_count": 1,
       "reasons": [
         "high-impact event",
@@ -69,6 +69,10 @@
         },
         {
           "at": "2026-11-27T18:12:14.860436+00:00",
+          "source_count": 1
+        },
+        {
+          "at": "2026-11-27T18:54:06.583318+00:00",
           "source_count": 1
         }
       ],
@@ -136,6 +140,10 @@
         {
           "at": "2026-11-27T18:12:14.860436+00:00",
           "source_count": 1
+        },
+        {
+          "at": "2026-11-27T18:54:06.583318+00:00",
+          "source_count": 1
         }
       ],
       "context": {
@@ -195,10 +203,6 @@
       "updated": false,
       "coverage_history": [
         {
-          "at": "2026-11-27T08:47:22.806898+00:00",
-          "source_count": 4
-        },
-        {
           "at": "2026-11-27T09:01:24.911799+00:00",
           "source_count": 1
         },
@@ -240,6 +244,10 @@
         },
         {
           "at": "2026-11-27T18:12:14.860436+00:00",
+          "source_count": 4
+        },
+        {
+          "at": "2026-11-27T18:54:06.583318+00:00",
           "source_count": 4
         }
       ],
@@ -310,6 +318,10 @@
         {
           "at": "2026-11-27T18:12:14.860436+00:00",
           "source_count": 1
+        },
+        {
+          "at": "2026-11-27T18:54:06.583318+00:00",
+          "source_count": 1
         }
       ],
       "context": {
@@ -318,48 +330,6 @@
         "search_query": "ai un safety",
         "search_days": 730,
         "searched_days": 730,
-        "search_status": "searched"
-      }
-    },
-    {
-      "id": "acba55a34b43",
-      "title": "AI safety researcher warns 2027 could be worse than COVID in letter to friends and family",
-      "summary": "AI safety researcher warns 2027 could be worse than COVID in letter to friends and family UNILAD Tech",
-      "image": "",
-      "category": "Tech",
-      "importance": "Major",
-      "background_only": false,
-      "score": 55.9,
-      "published_at": "2026-11-27T15:31:11+00:00",
-      "source_count": 1,
-      "reasons": [
-        "high-impact event",
-        "frontier AI safety development"
-      ],
-      "sources": [
-        {
-          "name": "UNILAD Tech",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOREVRSFJaWGNKMmQ1dVc2WERqZEFfb0htNktZREdQQkRnUUpYWGQwaElLOGo3MU9XZlVQTERaSGlNMG9IbUdrN3ZMVVI4TEdaT2ZoaWtGbmhzdzBTYjlYZlVRR0JaeDVZd0k5blY5cGxreExOVVpTelZxYkQtZjU2d29ScWFULWFhUTlRN19VaFc2YUVBelZSU0kwanE2LXI2amdkOUxDOGc2Zw?oc=5",
-          "published_at": "2026-11-27T15:31:11+00:00",
-          "paywalled": false
-        }
-      ],
-      "lead_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOREVRSFJaWGNKMmQ1dVc2WERqZEFfb0htNktZREdQQkRnUUpYWGQwaElLOGo3MU9XZlVQTERaSGlNMG9IbUdrN3ZMVVI4TEdaT2ZoaWtGbmhzdzBTYjlYZlVRR0JaeDVZd0k5blY5cGxreExOVVpTelZxYkQtZjU2d29ScWFULWFhUTlRN19VaFc2YUVBelZSU0kwanE2LXI2amdkOUxDOGc2Zw?oc=5",
-      "first_reported_at": "2026-11-27T15:31:11+00:00",
-      "update_count": 0,
-      "updated": false,
-      "coverage_history": [
-        {
-          "at": "2026-11-27T18:12:14.860436+00:00",
-          "source_count": 1
-        }
-      ],
-      "context": {
-        "earlier_reporting": [],
-        "coverage_from": null,
-        "search_query": "ai covid safety",
-        "search_days": 730,
-        "searched_days": 30,
         "search_status": "searched"
       }
     },
@@ -402,6 +372,10 @@
         {
           "at": "2026-11-27T18:12:14.860436+00:00",
           "source_count": 1
+        },
+        {
+          "at": "2026-11-27T18:54:06.583318+00:00",
+          "source_count": 1
         }
       ],
       "context": {
@@ -409,49 +383,7 @@
         "coverage_from": null,
         "search_query": "funeral egypt crash",
         "search_days": 730,
-        "searched_days": 365,
-        "search_status": "searched"
-      }
-    },
-    {
-      "id": "1f963f04c690",
-      "title": "Humanity May Not Live To See Thanksgiving 2027, AI Safety Researcher Warns",
-      "summary": "Humanity May Not Live To See Thanksgiving 2027, AI Safety Researcher Warns www.techtimes.co.uk",
-      "image": "",
-      "category": "Tech",
-      "importance": "Major",
-      "background_only": false,
-      "score": 53.7,
-      "published_at": "2026-11-27T17:03:40+00:00",
-      "source_count": 1,
-      "reasons": [
-        "high-impact event",
-        "frontier AI safety development"
-      ],
-      "sources": [
-        {
-          "name": "www.techtimes.co.uk",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPbkVWUUtSYkl3a1YzdWZxaFVhN0lHV1NIc2lYT0xlSVQ3M3loVVd1Ti1OVUlTNDVoX3dzOE5hUUR6aExNUTktbF9zWWo4X3FEQnlvOTBrREZOak0yUFI3a2x5NXhXYzdWYlNEanJCQ2FOUGlUNjZjSk9tc1ZJcTEwcjluRlUyOVJ6SkFONGFoMEk5Zw?oc=5",
-          "published_at": "2026-11-27T17:03:40+00:00",
-          "paywalled": false
-        }
-      ],
-      "lead_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPbkVWUUtSYkl3a1YzdWZxaFVhN0lHV1NIc2lYT0xlSVQ3M3loVVd1Ti1OVUlTNDVoX3dzOE5hUUR6aExNUTktbF9zWWo4X3FEQnlvOTBrREZOak0yUFI3a2x5NXhXYzdWYlNEanJCQ2FOUGlUNjZjSk9tc1ZJcTEwcjluRlUyOVJ6SkFONGFoMEk5Zw?oc=5",
-      "first_reported_at": "2026-11-27T17:03:40+00:00",
-      "update_count": 0,
-      "updated": false,
-      "coverage_history": [
-        {
-          "at": "2026-11-27T18:12:14.860436+00:00",
-          "source_count": 1
-        }
-      ],
-      "context": {
-        "earlier_reporting": [],
-        "coverage_from": null,
-        "search_query": "humanity not see safety",
-        "search_days": 730,
-        "searched_days": 30,
+        "searched_days": 730,
         "search_status": "searched"
       }
     },
@@ -523,6 +455,10 @@
         },
         {
           "at": "2026-11-27T18:12:14.860436+00:00",
+          "source_count": 2
+        },
+        {
+          "at": "2026-11-27T18:54:06.583318+00:00",
           "source_count": 2
         }
       ],
@@ -634,6 +570,10 @@
         {
           "at": "2026-11-27T18:12:14.860436+00:00",
           "source_count": 3
+        },
+        {
+          "at": "2026-11-27T18:54:06.583318+00:00",
+          "source_count": 3
         }
       ],
       "context": {
@@ -642,6 +582,48 @@
         "search_query": "indonesia flood dead",
         "search_days": 730,
         "searched_days": 730,
+        "search_status": "searched"
+      }
+    },
+    {
+      "id": "e8a5233aac94",
+      "title": "Egypt fire update: Death toll rises to 31, with 21 injured",
+      "summary": "Egypt fire update: Death toll rises to 31, with 21 injured Gulf News",
+      "image": "",
+      "category": "World",
+      "importance": "Major",
+      "background_only": false,
+      "score": 51.2,
+      "published_at": "2026-11-26T08:09:37+00:00",
+      "source_count": 1,
+      "reasons": [
+        "reported fatalities",
+        "significant accident with human impact"
+      ],
+      "sources": [
+        {
+          "name": "Gulf News",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxONkRvY2JXbUJTZjhsc1c5S0hGUzM2TjI4NkZGM1hvbDZYd1M2Rk14dVljSTIyWTFPd243VGdzVndsTXJFX3BuRVRwVF93U0lxNFdHYVR0d3JFV2dta05ENXJIS2dnMnFIdkRYN2kzTkVrRGVxVWVzMklMRnFMUGM0VTJFQjl6cXRlQlZYaWtGWXZhWlRnQlVJWFU0RFdSX3dFeHfSAbQBQVVfeXFMTWs1aTRXMEw1VTc2NDVVSU5neS1OeGlZb3A1TXBNSUtnc3llZmtmZlpHQmsxaENOeHZwZ3FaMTR6eldkdzFFSnlCeEpVMmhWd2RJYlg0ZklaUzFxMHBNem9ZcnYxQkNfXzZ1RkJEbkVyXzBFV3NkSl9fVmsxVEtCSnF1SVAwQl85aFhoS2RIZmotakdaMV9kT0hMT0hmNFVKQUlDVzdVOHhicVNjNmZpbk9vc3RM?oc=5",
+          "published_at": "2026-11-26T08:09:37+00:00",
+          "paywalled": false
+        }
+      ],
+      "lead_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxONkRvY2JXbUJTZjhsc1c5S0hGUzM2TjI4NkZGM1hvbDZYd1M2Rk14dVljSTIyWTFPd243VGdzVndsTXJFX3BuRVRwVF93U0lxNFdHYVR0d3JFV2dta05ENXJIS2dnMnFIdkRYN2kzTkVrRGVxVWVzMklMRnFMUGM0VTJFQjl6cXRlQlZYaWtGWXZhWlRnQlVJWFU0RFdSX3dFeHfSAbQBQVVfeXFMTWs1aTRXMEw1VTc2NDVVSU5neS1OeGlZb3A1TXBNSUtnc3llZmtmZlpHQmsxaENOeHZwZ3FaMTR6eldkdzFFSnlCeEpVMmhWd2RJYlg0ZklaUzFxMHBNem9ZcnYxQkNfXzZ1RkJEbkVyXzBFV3NkSl9fVmsxVEtCSnF1SVAwQl85aFhoS2RIZmotakdaMV9kT0hMT0hmNFVKQUlDVzdVOHhicVNjNmZpbk9vc3RM?oc=5",
+      "first_reported_at": "2026-11-26T08:09:37+00:00",
+      "update_count": 0,
+      "updated": false,
+      "coverage_history": [
+        {
+          "at": "2026-11-27T18:54:06.583318+00:00",
+          "source_count": 1
+        }
+      ],
+      "context": {
+        "earlier_reporting": [],
+        "coverage_from": null,
+        "search_query": "egypt fire toll",
+        "search_days": 730,
+        "searched_days": 30,
         "search_status": "searched"
       }
     },
@@ -673,10 +655,6 @@
       "update_count": 2,
       "updated": false,
       "coverage_history": [
-        {
-          "at": "2026-11-27T08:47:22.806898+00:00",
-          "source_count": 1
-        },
         {
           "at": "2026-11-27T09:01:24.911799+00:00",
           "source_count": 1
@@ -719,6 +697,10 @@
         },
         {
           "at": "2026-11-27T18:12:14.860436+00:00",
+          "source_count": 1
+        },
+        {
+          "at": "2026-11-27T18:54:06.583318+00:00",
           "source_count": 1
         }
       ],
@@ -760,10 +742,6 @@
       "updated": false,
       "coverage_history": [
         {
-          "at": "2026-11-27T08:47:22.806898+00:00",
-          "source_count": 1
-        },
-        {
           "at": "2026-11-27T09:01:24.911799+00:00",
           "source_count": 1
         },
@@ -806,6 +784,10 @@
         {
           "at": "2026-11-27T18:12:14.860436+00:00",
           "source_count": 1
+        },
+        {
+          "at": "2026-11-27T18:54:06.583318+00:00",
+          "source_count": 1
         }
       ],
       "context": {
@@ -818,21 +800,76 @@
       }
     },
     {
-      "id": "31a754ac8082",
-      "title": "Norse Atlantic files for bankruptcy, halts flights and ticket sales",
-      "summary": "Passengers advised to seek refunds via bankruptcy process, though guarantees are not assured, warns Norse Atlantic.",
+      "id": "36d9da62fb00",
+      "title": "Armed group kills 13 soldiers in western Niger attack, defense ministry says",
+      "summary": "Armed group kills 13 soldiers in western Niger attack, defense ministry says AP News",
       "image": "",
-      "category": "Norway",
+      "category": "World",
+      "importance": "Major",
+      "background_only": false,
+      "score": 46.6,
+      "published_at": "2026-11-27T14:31:00+00:00",
+      "source_count": 2,
+      "reasons": [
+        "reported fatalities",
+        "mass-casualty attack",
+        "2 trusted sources"
+      ],
+      "sources": [
+        {
+          "name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOX09kRWFacG5teU43bTdiNXNueFVzaFRva2hNUFFwMVlOeDZ2TFdKTkljV0hRQ0VpTkRWZnRvSmZRTUJpYXVacy02RUlUZGQ3NVJhS2JuelFjbTE5ZkY1Sm82Nk1FQTZZMFpfSW5NN1UzcF9hQ0hma0hKWE54dzducUMzQU9iUkFxSUo5YnE3NTBudw?oc=5",
+          "published_at": "2026-11-27T14:31:00+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNbzZ5N2UxNGRzdjJlTjJPNHlocEFyNmE4MHVqRmhvai1QTmctejc3M0V1V3hNWnhadE5qYU5LVm9Sd2p5UnJKMkNaMC1UQWthMlJoLW9TdHE5anV0T082RHBic0VlYjV5cXFiV1FxbllFejlwWkdhWEZpVjFnOUR0LTFrRi1GakpIdmdJZnBZZFRvU3JwcGNmMklJMXFaUdIBowFBVV95cUxQdDZBUldzSTdPeVBlNlVSMy1hWXRkN0pjZ2VOR2FlaElWX090d3J0NGY4bmVqcjJXU3FGZzBTcUliVkZBazlDenY3eklfR2RsLUtkVE5wWEJ6eFZPQlBud2ZKT2I3eUotM3VkaVFRZEpKRE9YdnBZX0VIcUpKcmhOOHdSWjFoSUlPQ2dwOWwzTGtWNktxT2dyRjJsdThxWnNjVXFn?oc=5",
+          "published_at": "2026-11-27T04:16:53+00:00",
+          "paywalled": false
+        }
+      ],
+      "lead_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOX09kRWFacG5teU43bTdiNXNueFVzaFRva2hNUFFwMVlOeDZ2TFdKTkljV0hRQ0VpTkRWZnRvSmZRTUJpYXVacy02RUlUZGQ3NVJhS2JuelFjbTE5ZkY1Sm82Nk1FQTZZMFpfSW5NN1UzcF9hQ0hma0hKWE54dzducUMzQU9iUkFxSUo5YnE3NTBudw?oc=5",
+      "first_reported_at": "2026-11-27T14:31:00+00:00",
+      "update_count": 0,
+      "updated": false,
+      "coverage_history": [
+        {
+          "at": "2026-11-27T18:54:06.583318+00:00",
+          "source_count": 2
+        }
+      ],
+      "context": {
+        "earlier_reporting": [],
+        "coverage_from": null,
+        "search_query": "armed niger group",
+        "search_days": 730,
+        "searched_days": 30,
+        "search_status": "searched"
+      }
+    },
+    {
+      "id": "31a754ac8082",
+      "title": "Norse Atlantic files for bankruptcy, halts flights as Iran war drives up fuel costs",
+      "summary": "Norse Atlantic files for bankruptcy, halts flights as Iran war drives up fuel costs Reuters",
+      "image": "",
+      "category": "Middle East",
       "importance": "Notable",
       "background_only": false,
       "score": 41.3,
       "published_at": "2026-11-27T16:31:20+00:00",
-      "source_count": 1,
+      "source_count": 2,
       "reasons": [
         "high-impact event",
-        "Norway/local relevance"
+        "2 trusted sources"
       ],
       "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOUFZ5amdzZG00RTRadGk1NlNDb0JFeTNseGJid3dwNWtNTFBvaVQ1LVdnSUs1Rkk3Uy1tTlNDVVBmMkRkV1QxU3lGcHR2ZzU0bG9PMlM4OXphZHpVVVBXNS14WnRNX2xsWEZrSXV4TjRHUlZFWUlEYldEY1NFZlRqa2xjNUE2T0l5cWJ3MTU4aGo3Qk91WVcwdHdtZWdkTEZ2bWdnUGxrVHdOYmZ4ZDVMOGtWc2U5S2ZuM1FjRQ?oc=5",
+          "published_at": "2026-11-27T07:39:00+00:00",
+          "paywalled": false
+        },
         {
           "name": "Al Jazeera",
           "url": "https://www.aljazeera.com/economy/2026/11/27/norse-atlantic-files-for-bankruptcy-halts-flights-and-ticket-sales?traffic_source=rss",
@@ -840,9 +877,9 @@
           "paywalled": false
         }
       ],
-      "lead_url": "https://www.aljazeera.com/economy/2026/11/27/norse-atlantic-files-for-bankruptcy-halts-flights-and-ticket-sales?traffic_source=rss",
+      "lead_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOUFZ5amdzZG00RTRadGk1NlNDb0JFeTNseGJid3dwNWtNTFBvaVQ1LVdnSUs1Rkk3Uy1tTlNDVVBmMkRkV1QxU3lGcHR2ZzU0bG9PMlM4OXphZHpVVVBXNS14WnRNX2xsWEZrSXV4TjRHUlZFWUlEYldEY1NFZlRqa2xjNUE2T0l5cWJ3MTU4aGo3Qk91WVcwdHdtZWdkTEZ2bWdnUGxrVHdOYmZ4ZDVMOGtWc2U5S2ZuM1FjRQ?oc=5",
       "first_reported_at": "2026-11-27T16:31:20+00:00",
-      "update_count": 1,
+      "update_count": 2,
       "updated": true,
       "coverage_history": [
         {
@@ -852,6 +889,10 @@
         {
           "at": "2026-11-27T18:12:14.860436+00:00",
           "source_count": 1
+        },
+        {
+          "at": "2026-11-27T18:54:06.583318+00:00",
+          "source_count": 2
         }
       ],
       "context": {
@@ -861,19 +902,67 @@
             "source": "Reuters",
             "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNelVSdGZIMFMxelZ3SVpNZHYyYzRTZWN4S010bExkN0lmVVk5eng2VWp0VUszQXhGVDF5TUFxTDQzSXFuNmxHazV3d1VSR1BWMFRIeFBMQzJDeUM0RG5Cazhya0dpdDA2ZzJDSnd0WGVvVGItS0ttemdLUGhUbUwwbjBWbUk2VktZQUxsa0haX290d21lVFg5Ri1UZ0FkcFo1ZUpnSUNTd1ZudHJWYnQ5T0U4X0w2aExZRXBSOE9ETlEwa2ljRmxF?oc=5",
             "published_at": "2026-11-26T13:58:06+00:00"
-          },
-          {
-            "title": "Norse Atlantic files for bankruptcy, halts flights as Iran war drives up fuel costs",
-            "source": "Reuters",
-            "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOUFZ5amdzZG00RTRadGk1NlNDb0JFeTNseGJid3dwNWtNTFBvaVQ1LVdnSUs1Rkk3Uy1tTlNDVVBmMkRkV1QxU3lGcHR2ZzU0bG9PMlM4OXphZHpVVVBXNS14WnRNX2xsWEZrSXV4TjRHUlZFWUlEYldEY1NFZlRqa2xjNUE2T0l5cWJ3MTU4aGo3Qk91WVcwdHdtZWdkTEZ2bWdnUGxrVHdOYmZ4ZDVMOGtWc2U5S2ZuM1FjRQ?oc=5",
-            "published_at": "2026-11-27T07:39:00+00:00"
           }
         ],
         "coverage_from": "2026-11-26T13:58:06+00:00",
-        "search_query": "norse atlantic bankruptcy",
+        "search_query": "norse atlantic iran bankruptcy war",
         "search_days": 730,
         "searched_days": 30,
         "search_status": "matched"
+      }
+    },
+    {
+      "id": "47e9efef38df",
+      "title": "Nine injured, three critically, after Bangkok oil refinery explosion",
+      "summary": "Black smoke could be seen across Bangkok's skyline after the blast, as officials urged residents to leave the area.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/579b/live/12356f50-e985-11f1-bb43-d1b6102e3b60.jpg",
+      "category": "World",
+      "importance": "Notable",
+      "background_only": false,
+      "score": 40.5,
+      "published_at": "2026-11-26T16:21:19+00:00",
+      "source_count": 3,
+      "reasons": [
+        "significant public impact",
+        "3 trusted sources"
+      ],
+      "sources": [
+        {
+          "name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQVzFENGpGWEdCaDJ4ZjBybVNUQTRvaEgxeVJycDhqdHMtOUlHMGF4Q0lIVVJILU83d0IyeFdxQ3Jza2xzd0ZoZV8zR2IwdXpQNTU4M0pBUGFBSHhsQWN3OGFtWWdyRV9JS250NGdrSTBPaDhSQ0VOdWRRdFh5UlJZZjVLRXNsUWpJYm5wbkJmZDdSLUtLY3dTNF84bHRpYUgw?oc=5",
+          "published_at": "2026-11-26T11:11:00+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/crx209kwk4kzo?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-11-26T16:21:19+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOZWNWUWFfMnZSdENxR0VlSFJrYW4tSmkwSzE4ampGZlNwUkxBdEYwcXZha0dKbzJmRFEyT0hnUFFCbGVWWldGMHd3d3ZGejl1UklVYWhxRExSZGhGNEtPZWQtaFVwa19OcHRfQjFHalBmaHQ0dEE1YTdka2hpOWJ6V3pNdUowdGc2R3Bsbmd2eUxYd3MycUZESVd6b9IBoAFBVV95cUxPVWVRdXdlLVZtNTRUZnp0XzlBaS0yb1lHSFBZV01BbXNCajBVVmxqdEJqX3hEc3JicFdWcFZpWk5aODlnNE9RdjNWcGVvSjFINlZXXzBKZ3NrclpkVEZMNG1UakFmd3U3SFIxQUE5OER4MTdjTC1YSEJCOE5yamhodFJmX1I2aEU5TFE4WmtxZ3c1cTdGSWJQM3VqNTN6YXds?oc=5",
+          "published_at": "2026-11-26T13:48:16+00:00",
+          "paywalled": false
+        }
+      ],
+      "lead_url": "https://www.bbc.co.uk/news/articles/crx209kwk4kzo?at_medium=RSS&at_campaign=rss",
+      "first_reported_at": "2026-11-26T16:21:19+00:00",
+      "update_count": 0,
+      "updated": false,
+      "coverage_history": [
+        {
+          "at": "2026-11-27T18:54:06.583318+00:00",
+          "source_count": 3
+        }
+      ],
+      "context": {
+        "earlier_reporting": [],
+        "coverage_from": null,
+        "search_query": "bangkok refinery explosion",
+        "search_days": 730,
+        "searched_days": 730,
+        "search_status": "searched"
       }
     },
     {
@@ -942,6 +1031,10 @@
         {
           "at": "2026-11-27T18:12:14.860436+00:00",
           "source_count": 1
+        },
+        {
+          "at": "2026-11-27T18:54:06.583318+00:00",
+          "source_count": 1
         }
       ],
       "context": {
@@ -950,6 +1043,54 @@
         "search_query": "apple minimax ai safety",
         "search_days": 730,
         "searched_days": 730,
+        "search_status": "searched"
+      }
+    },
+    {
+      "id": "27e824d5e2d7",
+      "title": "Spain's Sanchez insists he will defy polls as election campaign wraps up",
+      "summary": "Spain's Sanchez insists he will defy polls as election campaign wraps up Reuters",
+      "image": "",
+      "category": "Europe/UK",
+      "importance": "Notable",
+      "background_only": false,
+      "score": 39.0,
+      "published_at": "2026-11-27T17:22:18+00:00",
+      "source_count": 2,
+      "reasons": [
+        "high-impact event",
+        "2 trusted sources"
+      ],
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOWWJleDNqeFIxY19DeHdSdjNfMWJKYkxMMmtnTWJkZzZDYzFidEVrOXZ0Und0eTJldEx1c1llcnp6VmhSRnJWczVGOXNwbUM5RVZPbDNOUmFPaTRzbWp6YnRtTFM1Y3FxREs5WkFKaUZzeUh3d0hhci1rWlB0QlEwbFNxY1h6bEI0Mkp3NG55aXRBc2JzVmstZk5xeE0wMWg5TS1jVnE5T2U4UlBGR3Y3V0hHZzlfM3B3?oc=5",
+          "published_at": "2026-11-27T11:45:34+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNem1pMTg5cnBXUWhMQU1pV1pmbjBmR29lcnpsS2hQM2pwTlpJUGRxbktCOW5EMGZQb3hlM3JUWDg4Xzh3bU1VYnItYklVNlNRa1lpdERuNHRDQ1l4T3NGQWF4MzhWdEh4TWFNVnBZZ2p0TzJQTWdMWlZrYms3UGhXdU9tSHc2a3FMa3BMaUhlNFZfSUZqeXA5VFFwS280ckpsR2NsN29UMkxFa29XN01mbGd2VkUwczTSAbwBQVVfeXFMTlJackVKZUtBOGZaX3VvbGI5ZGEwZ3VzUDlBaTY5NnEyZEJDUXdIdjI0cGU5MG53cHppUnFCR2pOMkYxNEI5UjhjSVhQdXJYX3RqbnhFTUcyOURER0d6MlU3TGNRMWQwUlhPRWpuZGx5MjIyTEl5aGRnOUZMN2ZBeU9kLXBZYmwybDZNME9zY3ZOVk5raWJHOTV5UUdhMV8yY0h6WWlDV3hVek56aGFIamVMOU1EV1pCcVpUYjA?oc=5",
+          "published_at": "2026-11-27T17:22:18+00:00",
+          "paywalled": false
+        }
+      ],
+      "lead_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOWWJleDNqeFIxY19DeHdSdjNfMWJKYkxMMmtnTWJkZzZDYzFidEVrOXZ0Und0eTJldEx1c1llcnp6VmhSRnJWczVGOXNwbUM5RVZPbDNOUmFPaTRzbWp6YnRtTFM1Y3FxREs5WkFKaUZzeUh3d0hhci1rWlB0QlEwbFNxY1h6bEI0Mkp3NG55aXRBc2JzVmstZk5xeE0wMWg5TS1jVnE5T2U4UlBGR3Y3V0hHZzlfM3B3?oc=5",
+      "first_reported_at": "2026-11-27T17:22:18+00:00",
+      "update_count": 0,
+      "updated": false,
+      "coverage_history": [
+        {
+          "at": "2026-11-27T18:54:06.583318+00:00",
+          "source_count": 2
+        }
+      ],
+      "context": {
+        "earlier_reporting": [],
+        "coverage_from": null,
+        "search_query": "spain sanchez election",
+        "search_days": 730,
+        "searched_days": 30,
         "search_status": "searched"
       }
     },
@@ -982,6 +1123,10 @@
       "coverage_history": [
         {
           "at": "2026-11-27T18:12:14.860436+00:00",
+          "source_count": 1
+        },
+        {
+          "at": "2026-11-27T18:54:06.583318+00:00",
           "source_count": 1
         }
       ],
@@ -1020,7 +1165,7 @@
       "lead_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBuV1NzUW1LVDRtNXhBd1h1VTVHMVRPdlR1bm4xM1VOZzh4Nk9zOU9wT2pEMjFxU3U0NHBPd0tKZ1BZdWNmelg2c1ZmUFFJRVF0cEVMT2NtTVVMS0U?oc=5",
       "first_reported_at": "2026-11-27T15:23:00+00:00",
       "update_count": 1,
-      "updated": true,
+      "updated": false,
       "coverage_history": [
         {
           "at": "2026-11-27T15:27:19.994448+00:00",
@@ -1036,6 +1181,10 @@
         },
         {
           "at": "2026-11-27T18:12:14.860436+00:00",
+          "source_count": 1
+        },
+        {
+          "at": "2026-11-27T18:54:06.583318+00:00",
           "source_count": 1
         }
       ],
@@ -1100,12 +1249,6 @@
       "published_at": "2026-11-26T13:58:06+00:00"
     },
     {
-      "title": "Norse Atlantic files for bankruptcy, halts flights as Iran war drives up fuel costs",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOUFZ5amdzZG00RTRadGk1NlNDb0JFeTNseGJid3dwNWtNTFBvaVQ1LVdnSUs1Rkk3Uy1tTlNDVVBmMkRkV1QxU3lGcHR2ZzU0bG9PMlM4OXphZHpVVVBXNS14WnRNX2xsWEZrSXV4TjRHUlZFWUlEYldEY1NFZlRqa2xjNUE2T0l5cWJ3MTU4aGo3Qk91WVcwdHdtZWdkTEZ2bWdnUGxrVHdOYmZ4ZDVMOGtWc2U5S2ZuM1FjRQ?oc=5",
-      "published_at": "2026-11-27T07:39:00+00:00"
-    },
-    {
       "title": "Norse Atlantic files for bankruptcy, halts flights and ticket sales",
       "source": "Al Jazeera",
       "url": "https://www.aljazeera.com/economy/2026/11/27/norse-atlantic-files-for-bankruptcy-halts-flights-and-ticket-sales?traffic_source=rss",
@@ -1124,10 +1267,22 @@
       "published_at": "2026-11-27T14:49:59+00:00"
     },
     {
+      "title": "Armed group kills 13 soldiers in western Niger attack, defense ministry says",
+      "source": "AP News",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOX09kRWFacG5teU43bTdiNXNueFVzaFRva2hNUFFwMVlOeDZ2TFdKTkljV0hRQ0VpTkRWZnRvSmZRTUJpYXVacy02RUlUZGQ3NVJhS2JuelFjbTE5ZkY1Sm82Nk1FQTZZMFpfSW5NN1UzcF9hQ0hma0hKWE54dzducUMzQU9iUkFxSUo5YnE3NTBudw?oc=5",
+      "published_at": "2026-11-27T14:31:00+00:00"
+    },
+    {
       "title": "Airline Norse Atlantic's Norwegian operating unit declares bankruptcy",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOZjF6SXBzRmpCeHczaU9VZnNGczNjcWtlMXNCMUFrTUxfbUViN3cxUXpPbFU0YVRTQzU0aEY5MGdLY1hnU2I1R21jd2tYNnIyLVVLeEtoSEY2WjZKNTE0QkdLWWFzcmkySGFYUWE4Vmh3OVpzLWJ3V25LX18zSUJ4TS1TcExrVFFoUUVvOS13NmF1dUZJWVo1S2hLRlZaNmMzTWh1dDFsTHpXUzlzN2lWQ01sc1VVR0hOUzlZSTJ3?oc=5",
       "published_at": "2026-11-27T13:37:31+00:00"
+    },
+    {
+      "title": "Spain's Sanchez insists he will defy polls as election campaign wraps up",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOWWJleDNqeFIxY19DeHdSdjNfMWJKYkxMMmtnTWJkZzZDYzFidEVrOXZ0Und0eTJldEx1c1llcnp6VmhSRnJWczVGOXNwbUM5RVZPbDNOUmFPaTRzbWp6YnRtTFM1Y3FxREs5WkFKaUZzeUh3d0hhci1rWlB0QlEwbFNxY1h6bEI0Mkp3NG55aXRBc2JzVmstZk5xeE0wMWg5TS1jVnE5T2U4UlBGR3Y3V0hHZzlfM3B3?oc=5",
+      "published_at": "2026-11-27T11:45:34+00:00"
     },
     {
       "title": "EXCLUSIVE: Global brands shift hundreds of millions in orders from Bangladesh to India amid unrest",
@@ -1140,6 +1295,12 @@
       "source": "AP News",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPTVpPaFdxTUpHbXNSemNIelRrb2xZQm5jZTBvT2VncV9EbWdWdjd3ZWdaUVVWSkl0dGpQaFRIcGFicTBKZDlFeG1lMHlyNTV2aHAtYXR6eFM2N2RwTDZyeS10VWtWNjhUcUtoamd3R3IzSzBaXzFDNl9KeXZUZlFRYXhhUUlzcF96OXJmZFpKTXN0ZDNERUY2b1RsYkhvbklYNXpTeW1na3Y?oc=5",
       "published_at": "2026-11-27T08:31:00+00:00"
+    },
+    {
+      "title": "Norse Atlantic files for bankruptcy, halts flights as Iran war drives up fuel costs",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOUFZ5amdzZG00RTRadGk1NlNDb0JFeTNseGJid3dwNWtNTFBvaVQ1LVdnSUs1Rkk3Uy1tTlNDVVBmMkRkV1QxU3lGcHR2ZzU0bG9PMlM4OXphZHpVVVBXNS14WnRNX2xsWEZrSXV4TjRHUlZFWUlEYldEY1NFZlRqa2xjNUE2T0l5cWJ3MTU4aGo3Qk91WVcwdHdtZWdkTEZ2bWdnUGxrVHdOYmZ4ZDVMOGtWc2U5S2ZuM1FjRQ?oc=5",
+      "published_at": "2026-11-27T07:39:00+00:00"
     },
     {
       "title": "How Sanofi's new CEO struck a rapid $41 billion deal for Insmed",
@@ -1941,6 +2102,51 @@
     }
   ],
   "context_checks": {
+    "469b1c31525e": {
+      "version": 4,
+      "query": "funeral egypt crash",
+      "at": "2026-11-27T18:54:06.583318+00:00",
+      "stage": 3,
+      "matched": false,
+      "exhausted": true,
+      "searched_days": 730
+    },
+    "31a754ac8082": {
+      "version": 4,
+      "query": "norse atlantic iran bankruptcy war",
+      "at": "2026-11-27T18:54:06.583318+00:00",
+      "stage": 1,
+      "matched": false,
+      "exhausted": false,
+      "searched_days": 30
+    },
+    "e8a5233aac94": {
+      "version": 4,
+      "query": "egypt fire toll",
+      "at": "2026-11-27T18:54:06.583318+00:00",
+      "stage": 1,
+      "matched": false,
+      "exhausted": false,
+      "searched_days": 30
+    },
+    "36d9da62fb00": {
+      "version": 4,
+      "query": "armed niger group",
+      "at": "2026-11-27T18:54:06.583318+00:00",
+      "stage": 1,
+      "matched": false,
+      "exhausted": false,
+      "searched_days": 30
+    },
+    "27e824d5e2d7": {
+      "version": 4,
+      "query": "spain sanchez election",
+      "at": "2026-11-27T18:54:06.583318+00:00",
+      "stage": 1,
+      "matched": false,
+      "exhausted": false,
+      "searched_days": 30
+    },
     "0693fe40b2bf": {
       "version": 4,
       "query": "hundreds us thanksgiving",
@@ -1949,24 +2155,6 @@
       "matched": false,
       "exhausted": true,
       "searched_days": 730
-    },
-    "469b1c31525e": {
-      "version": 4,
-      "query": "funeral egypt crash",
-      "at": "2026-11-27T18:12:14.860436+00:00",
-      "stage": 3,
-      "matched": false,
-      "exhausted": false,
-      "searched_days": 365
-    },
-    "31a754ac8082": {
-      "version": 4,
-      "query": "norse atlantic bankruptcy",
-      "at": "2026-11-27T18:12:14.860436+00:00",
-      "stage": 0,
-      "matched": true,
-      "exhausted": false,
-      "searched_days": 30
     },
     "64e810ac5c13": {
       "version": 4,
