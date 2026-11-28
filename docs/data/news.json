@@ -1,17 +1,401 @@
 {
-  "generated_at": "2026-11-28T07:22:02.334024+00:00",
+  "generated_at": "2026-11-28T08:17:21.839151+00:00",
   "model_mode": "sentence-transformers",
   "stories": [
     {
-      "id": "3dfcea28dba1",
-      "title": "El Nino-linked deluges flood cities in Peru, Ecuador",
-      "summary": "Heavy rains affect 2,000 families in Peru's Piura and 47,000 people in Ecuador, where 34 deaths have been reported.",
+      "id": "f381af59dc09",
+      "title": "Ebola outbreak in Congo reaches 12,000 cases as violence forces some responders to evacuate",
+      "summary": "Ebola outbreak in Congo reaches 12,000 cases as violence forces some responders to evacuate AP News",
       "image": "",
       "category": "World",
       "importance": "Major",
       "background_only": false,
-      "score": 50.8,
-      "published_at": "2026-11-28T04:57:32+00:00",
+      "score": 82.1,
+      "published_at": "2026-11-27T13:16:53+00:00",
+      "source_count": 1,
+      "reasons": [
+        "high-impact event",
+        "reported fatalities",
+        "record institutional or health trend"
+      ],
+      "sources": [
+        {
+          "name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOODk5TW1rbDA5Ml84Vzh3OWVzdW12UkFLbXJzQlZSbG9rNTQxZGl1bjBPQ1FsNURnQ21MU3FFX1RqZFVDdzJrSXR5YkRTTndHcERGWUpyaklFeWxlQ2l4aXhKT1ctM1cwMDdtOHg5RHQ3ZmhqVTIyWFVHUWdHSG40WExZWkJSM1lZNndDSFBlbEdNNnM?oc=5",
+          "published_at": "2026-11-26T13:48:05+00:00",
+          "paywalled": false
+        }
+      ],
+      "lead_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOODk5TW1rbDA5Ml84Vzh3OWVzdW12UkFLbXJzQlZSbG9rNTQxZGl1bjBPQ1FsNURnQ21MU3FFX1RqZFVDdzJrSXR5YkRTTndHcERGWUpyaklFeWxlQ2l4aXhKT1ctM1cwMDdtOHg5RHQ3ZmhqVTIyWFVHUWdHSG40WExZWkJSM1lZNndDSFBlbEdNNnM?oc=5",
+      "first_reported_at": "2026-11-27T13:16:53+00:00",
+      "update_count": 0,
+      "updated": false,
+      "coverage_history": [
+        {
+          "at": "2026-11-28T08:17:21.839151+00:00",
+          "source_count": 1
+        }
+      ],
+      "context": {
+        "earlier_reporting": [
+          {
+            "title": "Ebola cases in DR Congo pass 11,000, with 5,387 deaths",
+            "source": "Al Jazeera",
+            "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQOHFneWtwQkdxVkhPdnVreTRPcEIwRG5aVDVfMDZuenQtZlZOREQ5NVNLSS1iNVRRbnlwd3FveXdRdzV5cUc1YUs1eHdRVEFKZFp2dlExeW5zeXl3cDlQcExZTWJUeElDSnlOcExUVlo5SEZGZjhWamMzeTZNVGdCR3paOUVaN0xJaEJGVjNBTTVZRlhLS3g2SNIBngFBVV95cUxPZjlOOGhLR2FhdFdMYk9oNWJEN0V3Q2NaMGJKcXJ4SGZRTHA5bWg3UEl3R2pVbFZIc04tSjFxX3otdFFDX2pySzhvN0NCWTJQZWxtTXhwVDU5RnZkd2hVNVUxT2NycksyNXNOMEMzWW8wNExESGJ4TURySHN5cEswMVBlNzhjZGpTLXhKVWppUS05Q3VhT1NsYTlBZjZjdw?oc=5",
+            "published_at": "2026-11-11T08:00:00+00:00"
+          },
+          {
+            "title": "Fighting in eastern Congo forces Ebola workers to evacuate, threatening outbreak response",
+            "source": "AP News",
+            "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNRDFtT0M3ampBX21sZVc4a0VHSDhwMjcwdm16S2ltOE1SUnBEN29UbmhFQVg2d0U0cmVLTVdrU3k5TS15eWNsUGZKekFqYWFUdGlkTlpWTG93ZHlEUE5CRkJYV2ZfU3lQcUpYcEpiT2g2MXN1OHJWSzhPNWdsX2hwbHJPQVlvQm41UFBNZE5ES1N1d1FMZEkybDJ0ZVp0cHRpSWVibA?oc=5",
+            "published_at": "2026-11-25T19:29:00+00:00"
+          },
+          {
+            "title": "Congo's Ebola cases exceed 12,000 as responders struggle to contain outbreak",
+            "source": "Reuters",
+            "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPUkt4SEJRQUV2dDAxRi1DbDRsOXlhVWhfNVZvRTRzbDhTYzN0R1JiN0tUbFVpMGF1LTlweUtaRTVySVphaDVRdTBJNmZhdzRMVUt0cTc0c0FPOTJuc3RMYTEyOTJZM3B0bnBJdm9PRGtIMk9LUHk4dXhrRnV0OE1zSDRtRTNlWXFOanJlQnNYbHBERUNfdDhMc2c0SGFFX1JnSnNIWWNvTjQwSUpRWVdlTE1DOElDVXhKRTROUUhOM0lxbVozZ01PN1F3eDZldXQ3dUtNVXhlMA?oc=5",
+            "published_at": "2026-11-26T05:29:00+00:00"
+          }
+        ],
+        "coverage_from": "2026-11-11T08:00:00+00:00",
+        "search_query": "ebola congo outbreak",
+        "search_days": 730,
+        "searched_days": 30,
+        "search_status": "matched"
+      }
+    },
+    {
+      "id": "5ceed16d1376",
+      "title": "31 dead in huge blast following crash on Ring Road near Al-Warraq, Giza",
+      "summary": "31 dead in huge blast following crash on Ring Road near Al-Warraq, Giza Egypt Today",
+      "image": "",
+      "category": "World",
+      "importance": "Major",
+      "background_only": false,
+      "score": 71.1,
+      "published_at": "2026-11-25T10:23:00+00:00",
+      "source_count": 1,
+      "reasons": [
+        "high-impact event",
+        "reported fatalities",
+        "significant accident with human impact"
+      ],
+      "sources": [
+        {
+          "name": "Egypt Today",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOWUl2Y0RXNXItTTQzS3J5QVdINXFFSVF4bld3TlF6eHcyYk9zTjgzanh0R0dRQ19hYkJVM2hwVTRPd0d3SHl0c3liOTJacVo3amRTN3M1V2JFazA1QmprXzlEei04WXNQQktXamhHM21yZDZaVlpKNmtFb0RDU3ZZRVgyOWJzeWZxekZDam9PSzl5VlBHZ1g3eS1n?oc=5",
+          "published_at": "2026-11-25T10:23:00+00:00",
+          "paywalled": false
+        }
+      ],
+      "lead_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOWUl2Y0RXNXItTTQzS3J5QVdINXFFSVF4bld3TlF6eHcyYk9zTjgzanh0R0dRQ19hYkJVM2hwVTRPd0d3SHl0c3liOTJacVo3amRTN3M1V2JFazA1QmprXzlEei04WXNQQktXamhHM21yZDZaVlpKNmtFb0RDU3ZZRVgyOWJzeWZxekZDam9PSzl5VlBHZ1g3eS1n?oc=5",
+      "first_reported_at": "2026-11-25T10:23:00+00:00",
+      "update_count": 0,
+      "updated": false,
+      "coverage_history": [
+        {
+          "at": "2026-11-28T08:17:21.839151+00:00",
+          "source_count": 1
+        }
+      ],
+      "context": {
+        "earlier_reporting": [],
+        "coverage_from": null,
+        "search_query": "ring road giza explosion crash",
+        "search_days": 730,
+        "searched_days": 730,
+        "search_status": "searched"
+      }
+    },
+    {
+      "id": "36b3cc28dbe7",
+      "title": "Egypt detains a driver suspected of causing Cairo tanker crash that killed 31",
+      "summary": "Egypt detains a driver suspected of causing Cairo tanker crash that killed 31 AP News",
+      "image": "",
+      "category": "World",
+      "importance": "Major",
+      "background_only": false,
+      "score": 62.9,
+      "published_at": "2026-11-26T21:10:50+00:00",
+      "source_count": 3,
+      "reasons": [
+        "reported fatalities",
+        "significant accident with human impact",
+        "2 trusted sources"
+      ],
+      "sources": [
+        {
+          "name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNU2w0bC1tN2k4SU92bG9kc3U2U053dGZvZEh5WEs4U2IzRnVkRk9RdDlYSGZkekNQNy1WYmtKaHhWblI0U1F6SmxmVHJuWmhkRFJQV0xTaXRQRGFxUnd2b0tNMlNNZkszZy00cDNzazdNR1k4WElZTk5lSWNmR1dnQ1l1N2tCa1dtYmNoZmdZS21nd3NDVENDQ01XcDRCQXpocEpIeVhiMA?oc=5",
+          "published_at": "2026-11-26T18:29:00+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQSVlnZUw4RDlTOHozeE16S3Y2ZkZtSmx1MURPMHhHNTNSUmZ5UnhzR0RtbXBzM1NiTDlXejI2YjBiYm5fQzBsNkNkOGxQSllwQ3JJUWsxdUNRMTFjRnBiVzR4YlVaM0FoTDRGRkJJYVl5dnB1Wmw3NmM3bnJnTDlIZ0RiandFckZOTzluRjB0VGIwdEFEejd3WEgyeWY2dmRuY0JiaVRyZ2LSAa4BQVVfeXFMT2JzRFExbl8xU0JKX0VBT2dRNDU1LVlXalk0YndDc0F6OFdOSW02RmVsc3JZNmNXMnB6aHA2R1RYTzFsbk9UeS1ob0ZpYXdlWEJvMnR2OXhLeS1nTDJwRXU3VEp2cmRFUUF4dFMzdGVtZThDRXFtRGhuU21rdGhmMzF3R0RLbTNvM1plSmcwSngyTFRtZTBRemNndklEY1k5b05qbGdGeVl4RTdyQ3p3?oc=5",
+          "published_at": "2026-11-26T21:10:50+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "BBC",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBwUGVkZU5HZHFBb1lzaTdPaUlqOUtqSWNXYWJkaG1iOGU4RmotelctbXNteENGR21ZTTdtOF81SkpwNEttRURTSHNHT0pEb1VGbWt5Q281djNpcmc?oc=5",
+          "published_at": "2026-11-26T12:16:06+00:00",
+          "paywalled": false
+        }
+      ],
+      "lead_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNU2w0bC1tN2k4SU92bG9kc3U2U053dGZvZEh5WEs4U2IzRnVkRk9RdDlYSGZkekNQNy1WYmtKaHhWblI0U1F6SmxmVHJuWmhkRFJQV0xTaXRQRGFxUnd2b0tNMlNNZkszZy00cDNzazdNR1k4WElZTk5lSWNmR1dnQ1l1N2tCa1dtYmNoZmdZS21nd3NDVENDQ01XcDRCQXpocEpIeVhiMA?oc=5",
+      "first_reported_at": "2026-11-26T21:10:50+00:00",
+      "update_count": 0,
+      "updated": false,
+      "coverage_history": [
+        {
+          "at": "2026-11-28T08:17:21.839151+00:00",
+          "source_count": 3
+        }
+      ],
+      "context": {
+        "earlier_reporting": [],
+        "coverage_from": null,
+        "search_query": "egypt cairo crash",
+        "search_days": 730,
+        "searched_days": 730,
+        "search_status": "searched"
+      }
+    },
+    {
+      "id": "bbfc20f71a9f",
+      "title": "Eight killed in Peruvian military helicopter crash on rescue mission",
+      "summary": "Eight killed in Peruvian military helicopter crash on rescue mission BBC",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/faea/live/b54be270-eadc-11f1-81da-2ff518b71d00.jpg",
+      "category": "World",
+      "importance": "Major",
+      "background_only": false,
+      "score": 61.5,
+      "published_at": "2026-11-28T07:17:34+00:00",
+      "source_count": 1,
+      "reasons": [
+        "significant public impact",
+        "reported fatalities",
+        "significant accident with human impact"
+      ],
+      "sources": [
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cwp9d85mlp88o?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-11-28T04:19:16+00:00",
+          "paywalled": false
+        }
+      ],
+      "lead_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1qY1VXdXNtSDFOdlhwV3pmREUyZVJYWGpyVDV6TWZMTWU1dVFOQnJLRXdRUVlrdm1BZHI2djRTaXRBQVhIWHJyM3F2UmJUVEhUcjgyeE92YTJqYVU?oc=5",
+      "first_reported_at": "2026-11-28T07:17:34+00:00",
+      "update_count": 0,
+      "updated": false,
+      "coverage_history": [
+        {
+          "at": "2026-11-28T08:17:21.839151+00:00",
+          "source_count": 1
+        }
+      ],
+      "context": {
+        "earlier_reporting": [],
+        "coverage_from": null,
+        "search_query": "peruvian military crash",
+        "search_days": 730,
+        "searched_days": 30,
+        "search_status": "searched"
+      }
+    },
+    {
+      "id": "0ca94f3b97a4",
+      "title": "Fuel tanker crash ignites a massive fire on a highway surrounding Cairo, killing at least 31 people",
+      "summary": "Fuel tanker crash ignites a massive fire on a highway surrounding Cairo, killing at least 31 people AP News",
+      "image": "",
+      "category": "World",
+      "importance": "Major",
+      "background_only": false,
+      "score": 60.6,
+      "published_at": "2026-11-26T11:27:25+00:00",
+      "source_count": 1,
+      "reasons": [
+        "reported fatalities",
+        "significant accident with human impact"
+      ],
+      "sources": [
+        {
+          "name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNaEhpcnZZbkFLdDdZb1VrR2laRkJMMUxDYi1FZHZPOUo0LVpBdl9wUUlXMG1Ealh0eHJOU0o3Q0JSOFU4LXVlcWgyUDd6bDVLa2ZNWGY2aWVId0pnYlNNaHkzSkw2YzdEN3dMN0hGUzNZRktJekRLQWZIbmk5d2lrTElCeXZSV1IxUi0yamFWZzJsUQ?oc=5",
+          "published_at": "2026-11-25T23:14:00+00:00",
+          "paywalled": false
+        }
+      ],
+      "lead_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNaEhpcnZZbkFLdDdZb1VrR2laRkJMMUxDYi1FZHZPOUo0LVpBdl9wUUlXMG1Ealh0eHJOU0o3Q0JSOFU4LXVlcWgyUDd6bDVLa2ZNWGY2aWVId0pnYlNNaHkzSkw2YzdEN3dMN0hGUzNZRktJekRLQWZIbmk5d2lrTElCeXZSV1IxUi0yamFWZzJsUQ?oc=5",
+      "first_reported_at": "2026-11-26T11:27:25+00:00",
+      "update_count": 0,
+      "updated": false,
+      "coverage_history": [
+        {
+          "at": "2026-11-28T08:17:21.839151+00:00",
+          "source_count": 1
+        }
+      ],
+      "context": {
+        "earlier_reporting": [],
+        "coverage_from": null,
+        "search_query": "fuel cairo crash fire",
+        "search_days": 730,
+        "searched_days": 730,
+        "search_status": "searched"
+      }
+    },
+    {
+      "id": "64e810ac5c13",
+      "title": "At least 13 dead in Indonesia gold mine flood as rescue efforts intensify",
+      "summary": "At least 13 dead in Indonesia gold mine flood as rescue efforts intensify Al Jazeera",
+      "image": "",
+      "category": "World",
+      "importance": "Major",
+      "background_only": false,
+      "score": 52.2,
+      "published_at": "2026-11-26T08:07:42+00:00",
+      "source_count": 3,
+      "reasons": [
+        "high-impact event",
+        "reported fatalities",
+        "2 trusted sources"
+      ],
+      "sources": [
+        {
+          "name": "BBC",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBaQkl0UXBneHNlcGtoQlJLdjM4T3VYQUxxbFJXWERXeWJHZHgzNWc2VXkzQzFwb3JxQ1JvN0pjVlB0MUlJNEtTc2xMX2dzd2J5SVlrOHhPemlGXzA?oc=5",
+          "published_at": "2026-11-26T07:31:24+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQWkJ4Z1dXNWRXTmQ5emI0VEF4b2FsMkcxNUNpRjB6N2tFNmNKUzZzbmhORHhTQ1hsNS1BT2JFTzJrQ01aQjk3dS1vVWZaQ3pMV3A2WUFRODJsNFBBN1c4a25VbHZkY2dqVzJMTWp2ZVRxbmZNQnNodWlnTjMxWG1jQWJjMWlZd2h4Tm14QTNJQ3VSNkJPbTF2aUNvdmlENzExR1kwSnFHRHdfOUoxakZTOERmRGl6d9IBuwFBVV95cUxPV051MjYwaUJXZ2pzLW90aTJ0enhCSDdWbTd4eGZaWU4xWTBhMTFsZGxnbUZveHF3b3JIbDZPU284ZXNKZXJWek5vVVlidlQyQlBVOEJ6NDcyRlNPSkF4cG02dE9Vbm1Bb0Z3MGxaUmp0MlJNVVhmZm9iaE1vM3UyQzhUYkUydzFuSWVLNk81WXhKdlpudnJLakNIc29uQWNHS0diUTQ4czJZZF9FTDFTdG5LdkxGeEJtVUJF?oc=5",
+          "published_at": "2026-11-26T08:07:42+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQbllNUG04bUpwSG83TWFhVWdBMmdqYVBZOWFpZG12WGFCWWxVZUk0ek1oRDk0WWNtRlJlQ2FsemFMYkNtekRDMzVsdjh3VVFneE92dkpzUXNOZ3BGaEFhVGNVeVBXXy1QUnZJT1hyUUdDek9Rb0dMd1RMQjJlUVIzbTJLREtCUkVzbmdrdXNxU3VvaWVU?oc=5",
+          "published_at": "2026-11-25T17:28:00+00:00",
+          "paywalled": false
+        }
+      ],
+      "lead_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQWkJ4Z1dXNWRXTmQ5emI0VEF4b2FsMkcxNUNpRjB6N2tFNmNKUzZzbmhORHhTQ1hsNS1BT2JFTzJrQ01aQjk3dS1vVWZaQ3pMV3A2WUFRODJsNFBBN1c4a25VbHZkY2dqVzJMTWp2ZVRxbmZNQnNodWlnTjMxWG1jQWJjMWlZd2h4Tm14QTNJQ3VSNkJPbTF2aUNvdmlENzExR1kwSnFHRHdfOUoxakZTOERmRGl6d9IBuwFBVV95cUxPV051MjYwaUJXZ2pzLW90aTJ0enhCSDdWbTd4eGZaWU4xWTBhMTFsZGxnbUZveHF3b3JIbDZPU284ZXNKZXJWek5vVVlidlQyQlBVOEJ6NDcyRlNPSkF4cG02dE9Vbm1Bb0Z3MGxaUmp0MlJNVVhmZm9iaE1vM3UyQzhUYkUydzFuSWVLNk81WXhKdlpudnJLakNIc29uQWNHS0diUTQ4czJZZF9FTDFTdG5LdkxGeEJtVUJF?oc=5",
+      "first_reported_at": "2026-11-26T08:07:42+00:00",
+      "update_count": 0,
+      "updated": false,
+      "coverage_history": [
+        {
+          "at": "2026-11-28T08:17:21.839151+00:00",
+          "source_count": 3
+        }
+      ],
+      "context": {
+        "earlier_reporting": [],
+        "coverage_from": null,
+        "search_query": "indonesia flood dead",
+        "search_days": 730,
+        "searched_days": 730,
+        "search_status": "searched"
+      }
+    },
+    {
+      "id": "e8a5233aac94",
+      "title": "Egypt fire update: Death toll rises to 31, with 21 injured",
+      "summary": "Egypt fire update: Death toll rises to 31, with 21 injured Gulf News",
+      "image": "",
+      "category": "World",
+      "importance": "Major",
+      "background_only": false,
+      "score": 51.2,
+      "published_at": "2026-11-26T08:09:37+00:00",
+      "source_count": 1,
+      "reasons": [
+        "reported fatalities",
+        "significant accident with human impact"
+      ],
+      "sources": [
+        {
+          "name": "Gulf News",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxONkRvY2JXbUJTZjhsc1c5S0hGUzM2TjI4NkZGM1hvbDZYd1M2Rk14dVljSTIyWTFPd243VGdzVndsTXJFX3BuRVRwVF93U0lxNFdHYVR0d3JFV2dta05ENXJIS2dnMnFIdkRYN2kzTkVrRGVxVWVzMklMRnFMUGM0VTJFQjl6cXRlQlZYaWtGWXZhWlRnQlVJWFU0RFdSX3dFeHfSAbQBQVVfeXFMTWs1aTRXMEw1VTc2NDVVSU5neS1OeGlZb3A1TXBNSUtnc3llZmtmZlpHQmsxaENOeHZwZ3FaMTR6eldkdzFFSnlCeEpVMmhWd2RJYlg0ZklaUzFxMHBNem9ZcnYxQkNfXzZ1RkJEbkVyXzBFV3NkSl9fVmsxVEtCSnF1SVAwQl85aFhoS2RIZmotakdaMV9kT0hMT0hmNFVKQUlDVzdVOHhicVNjNmZpbk9vc3RM?oc=5",
+          "published_at": "2026-11-26T08:09:37+00:00",
+          "paywalled": false
+        }
+      ],
+      "lead_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxONkRvY2JXbUJTZjhsc1c5S0hGUzM2TjI4NkZGM1hvbDZYd1M2Rk14dVljSTIyWTFPd243VGdzVndsTXJFX3BuRVRwVF93U0lxNFdHYVR0d3JFV2dta05ENXJIS2dnMnFIdkRYN2kzTkVrRGVxVWVzMklMRnFMUGM0VTJFQjl6cXRlQlZYaWtGWXZhWlRnQlVJWFU0RFdSX3dFeHfSAbQBQVVfeXFMTWs1aTRXMEw1VTc2NDVVSU5neS1OeGlZb3A1TXBNSUtnc3llZmtmZlpHQmsxaENOeHZwZ3FaMTR6eldkdzFFSnlCeEpVMmhWd2RJYlg0ZklaUzFxMHBNem9ZcnYxQkNfXzZ1RkJEbkVyXzBFV3NkSl9fVmsxVEtCSnF1SVAwQl85aFhoS2RIZmotakdaMV9kT0hMT0hmNFVKQUlDVzdVOHhicVNjNmZpbk9vc3RM?oc=5",
+      "first_reported_at": "2026-11-26T08:09:37+00:00",
+      "update_count": 0,
+      "updated": false,
+      "coverage_history": [
+        {
+          "at": "2026-11-28T08:17:21.839151+00:00",
+          "source_count": 1
+        }
+      ],
+      "context": {
+        "earlier_reporting": [],
+        "coverage_from": null,
+        "search_query": "egypt fire toll",
+        "search_days": 730,
+        "searched_days": 730,
+        "search_status": "searched"
+      }
+    },
+    {
+      "id": "8ebe7b96eac0",
+      "title": "At least 31 killed in Egypt vehicle fire, Health Ministry says",
+      "summary": "At least 31 killed in Egypt vehicle fire, Health Ministry says Al Jazeera",
+      "image": "",
+      "category": "World",
+      "importance": "Major",
+      "background_only": false,
+      "score": 51.2,
+      "published_at": "2026-11-26T04:40:09+00:00",
+      "source_count": 1,
+      "reasons": [
+        "reported fatalities",
+        "significant accident with human impact"
+      ],
+      "sources": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQTlU0RXBRWWJMUXd0Z01rcmhMeTI0V1hJLVdXUUY3eEhwb2w2R0pza2RxSnZyd044elUxX3UyemhQTG5wN1VadlphRjE2SGJvMmlRQ0N0TGRScDlwYUVWejFyX0FDMWpQZGJkZWZTSmxia2tTUkZQSFZ1XzBzNVU1ZVB5cFBGblBxWGtfb2ZXZGxTNGRzWlNBdkJaTm9tdWVlQTJfNnJB0gGrAUFVX3lxTFBxMmtCU1JWQ2xhSXBTMEczWEc0MGpvSExWY2xIcEl4VFZCOGdNRWg0ZFJxSzZZek52aV9pdUVFcFdUSEh1YmlVSmRQUU53RzE1dVhkZzc4RWZxSzEtNUZZbUNvbkFJU1hRdDljX21MY0xIZ2NmbGRKZXc3NkFkRTVhdTJZdExmYVJObVNNWk1Hd2EtdHJSb0lCRmplNC1XcXVfd3pnVS03MHkxaw?oc=5",
+          "published_at": "2026-11-26T04:40:09+00:00",
+          "paywalled": false
+        }
+      ],
+      "lead_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQTlU0RXBRWWJMUXd0Z01rcmhMeTI0V1hJLVdXUUY3eEhwb2w2R0pza2RxSnZyd044elUxX3UyemhQTG5wN1VadlphRjE2SGJvMmlRQ0N0TGRScDlwYUVWejFyX0FDMWpQZGJkZWZTSmxia2tTUkZQSFZ1XzBzNVU1ZVB5cFBGblBxWGtfb2ZXZGxTNGRzWlNBdkJaTm9tdWVlQTJfNnJB0gGrAUFVX3lxTFBxMmtCU1JWQ2xhSXBTMEczWEc0MGpvSExWY2xIcEl4VFZCOGdNRWg0ZFJxSzZZek52aV9pdUVFcFdUSEh1YmlVSmRQUU53RzE1dVhkZzc4RWZxSzEtNUZZbUNvbkFJU1hRdDljX21MY0xIZ2NmbGRKZXc3NkFkRTVhdTJZdExmYVJObVNNWk1Hd2EtdHJSb0lCRmplNC1XcXVfd3pnVS03MHkxaw?oc=5",
+      "first_reported_at": "2026-11-26T04:40:09+00:00",
+      "update_count": 0,
+      "updated": false,
+      "coverage_history": [
+        {
+          "at": "2026-11-28T08:17:21.839151+00:00",
+          "source_count": 1
+        }
+      ],
+      "context": {
+        "earlier_reporting": [],
+        "coverage_from": null,
+        "search_query": "egypt health ministry fire",
+        "search_days": 730,
+        "searched_days": 730,
+        "search_status": "searched"
+      }
+    },
+    {
+      "id": "2d3439ef5696",
+      "title": "Rescuers battle wet, dark conditions in flooded Indonesian mine where 16 died and 10 are missing",
+      "summary": "Rescuers battle wet, dark conditions in flooded Indonesian mine where 16 died and 10 are missing AP News",
+      "image": "",
+      "category": "World",
+      "importance": "Major",
+      "background_only": false,
+      "score": 49.9,
+      "published_at": "2026-11-26T07:13:00+00:00",
       "source_count": 1,
       "reasons": [
         "high-impact event",
@@ -19,29 +403,96 @@
       ],
       "sources": [
         {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/28/el-nino-linked-deluges-flood-cities-in-peru-ecuador?traffic_source=rss",
-          "published_at": "2026-11-28T04:57:32+00:00",
+          "name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPV2k5ZE4zX1RNVDhlc3RhSzRLNVEzVF9GSm9WaEd1SzFxZllTMUt4a3VwX3M1eG91b1pyLXVNZFpKZ0VoaUVQYnZCYk8zTHZPSFBsdUFuZnZTU1VxLVp1a2JROVdCNVZ3VTB5eTJRVHV3MzhHckZuY1RvWThqR194VDNhbmhqUjQtaTRRRWxubUpFUFRzOWh4MDhDOA?oc=5",
+          "published_at": "2026-11-26T07:13:00+00:00",
           "paywalled": false
         }
       ],
-      "lead_url": "https://www.aljazeera.com/news/2026/11/28/el-nino-linked-deluges-flood-cities-in-peru-ecuador?traffic_source=rss",
-      "first_reported_at": "2026-11-28T04:57:32+00:00",
+      "lead_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPV2k5ZE4zX1RNVDhlc3RhSzRLNVEzVF9GSm9WaEd1SzFxZllTMUt4a3VwX3M1eG91b1pyLXVNZFpKZ0VoaUVQYnZCYk8zTHZPSFBsdUFuZnZTU1VxLVp1a2JROVdCNVZ3VTB5eTJRVHV3MzhHckZuY1RvWThqR194VDNhbmhqUjQtaTRRRWxubUpFUFRzOWh4MDhDOA?oc=5",
+      "first_reported_at": "2026-11-26T07:13:00+00:00",
       "update_count": 0,
       "updated": false,
       "coverage_history": [
         {
-          "at": "2026-11-28T07:22:02.334024+00:00",
+          "at": "2026-11-28T08:17:21.839151+00:00",
           "source_count": 1
         }
       ],
       "context": {
         "earlier_reporting": [],
         "coverage_from": null,
-        "search_query": "el peru ecuador flood",
+        "search_query": "rescuers indonesian battle",
         "search_days": 730,
-        "searched_days": 30,
+        "searched_days": 730,
         "search_status": "searched"
+      }
+    },
+    {
+      "id": "c0729df94442",
+      "title": "Pakistani astronaut becomes first foreigner to board China's Tiangong space station",
+      "summary": "Pakistani astronaut becomes first foreigner to board China's Tiangong space station Reuters",
+      "image": "",
+      "category": "World",
+      "importance": "Major",
+      "background_only": false,
+      "score": 46.9,
+      "published_at": "2026-11-25T17:41:11+00:00",
+      "source_count": 1,
+      "reasons": [
+        "significant public impact",
+        "historic space milestone"
+      ],
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNbUNDa1I5NlZaa2hiOFJGSHJlOHkyU3QtMEl0S2lvbGNlTWhJdGd6TzA3TV9VV0p2azc3OUZWeU0zLWtZbjZ3dlc5SXAxSklBbmlOeU5GcFdhMzZWbnJPTExMWG9KcElUOUotS3BGMDJmS2xVVV95MjFiYzdFTEcwOE1DU0tRY1ZmTzFHQ2pvYmFQUVY4dmRCb2tERDZZZV9IMWpLUTA0NXFNYnlwMm1UaTJyaXE2bThCMDRza1JDZlg?oc=5",
+          "published_at": "2026-11-25T09:18:00+00:00",
+          "paywalled": false
+        }
+      ],
+      "lead_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNbUNDa1I5NlZaa2hiOFJGSHJlOHkyU3QtMEl0S2lvbGNlTWhJdGd6TzA3TV9VV0p2azc3OUZWeU0zLWtZbjZ3dlc5SXAxSklBbmlOeU5GcFdhMzZWbnJPTExMWG9KcElUOUotS3BGMDJmS2xVVV95MjFiYzdFTEcwOE1DU0tRY1ZmTzFHQ2pvYmFQUVY4dmRCb2tERDZZZV9IMWpLUTA0NXFNYnlwMm1UaTJyaXE2bThCMDRza1JDZlg?oc=5",
+      "first_reported_at": "2026-11-25T17:41:11+00:00",
+      "update_count": 0,
+      "updated": false,
+      "coverage_history": [
+        {
+          "at": "2026-11-28T08:17:21.839151+00:00",
+          "source_count": 1
+        }
+      ],
+      "context": {
+        "earlier_reporting": [
+          {
+            "title": "Pakistani astronaut to board Shenzhou 24 and become the first foreigner on China's space station",
+            "source": "AP News",
+            "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQenFsUWZUMFNoeXpOUXdEX0xad010OWlJemJJQl93YjBrcFhySkxxWVpackkxamQ3Q08yampBaXRtOFNhWVd1VHNjSklUSy1JWC1taUszYTdVbnJ2U2N5aWhmcVlpLVFLSjRQWGhNZS1ieTBpdjVuWG9MRkROWXNBV0YzSkdobnl2T1hwU0hUNThiREQtQWFsZXZHdWFVN2hp?oc=5",
+            "published_at": "2026-11-06T08:00:00+00:00"
+          },
+          {
+            "title": "Pakistani astronaut to join China’s next space station mission",
+            "source": "Al Jazeera",
+            "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOQTRRRXdXNmphejg5d3hubWpfNVZ2Skp0XzNQamJZRE1hN202Y3czZ3JyZWRPalJDaks3VlNvMy10NERJa1YxRDVUUVVxempZRk1oTjBPMVQwdm5UMW52VEJyMFRvSDNBTFI5Q2hQY3RBOWpacnA5eFFicGNYWXZpdXhFUmRKYnlwZ0VaYlNBUFd6Mm16M2hkTW5zd3lLQXYxaXIzQ9IBqgFBVV95cUxQSXZKQ0VIZHBaejV4UGp5Zy04MmJ0Njd2ejNJTkpZOThpX3VZT2huRHY4YzJsNUJyd0pwdnIxQ0xiQ0lDWnd6MmYzQU9CRTZPRTc2bjY0d081NkcwelZBVWhKeDlsV3Z4Q2NXODhMZkVCME5QUHE4YS1oRzRfeDZTaDdaQmdnb09EVjJEM212MEdwclBnaFhtZWttbXd0OUhHTFZ1SGtycXZPUQ?oc=5",
+            "published_at": "2026-11-07T08:00:00+00:00"
+          },
+          {
+            "title": "Pakistani pilot to become first foreigner to fly to China's space station",
+            "source": "Reuters",
+            "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNTjlOOEE2ZGVBYmJLbmlvRXdLTzF4UjNOVXFoY0J6c29vSDF1cDZBTk02QTFDWlRwbk9ESThyeGI0dzdKUFhhMmRyb0ZmVWlsLXlUR2ZNTHJjckdybTRlMTRYOWNwcDhSV2duaTI4ZXB5dFlCNlBTSnlCYTNQN25ZdThTS3NHVUtlZ1NIQ2Z1cWZLLTgzQ3VocjZNcFRBMmJQZjZ0dFZ1UXRCcU0?oc=5",
+            "published_at": "2026-11-24T02:49:00+00:00"
+          },
+          {
+            "title": "China unveils new space mission crew, with a Pakistani astronaut set to board its space station",
+            "source": "AP News",
+            "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPTno4Y1I0UnZqSU1JaG15VG5qTm1HNjhQbUpab2ZIbDQ4YTY1YTdxMkxWenVxOUFOMWhXQUlTT1NIVGZYUGJrRUdkXzdxLXZEMzFmLVlxelhRRXlWbFVQQ1JuVTlBZDhjS09RS1JuTUs1Q3RrWTRHTzBOUFNEQmZha0FXNndUY25NY2ozbTlqSEc0TFVUSUFJ?oc=5",
+            "published_at": "2026-11-24T13:47:00+00:00"
+          }
+        ],
+        "coverage_from": "2026-11-06T08:00:00+00:00",
+        "search_query": "pakistani china tiangong astronaut",
+        "search_days": 730,
+        "searched_days": null,
+        "search_status": "matched"
       }
     },
     {
@@ -115,6 +566,10 @@
         {
           "at": "2026-11-28T07:22:02.334024+00:00",
           "source_count": 1
+        },
+        {
+          "at": "2026-11-28T08:17:21.839151+00:00",
+          "source_count": 1
         }
       ],
       "context": {
@@ -127,9 +582,239 @@
       }
     },
     {
+      "id": "0899220521e4",
+      "title": "US disables ship trying to leave Iran, as Tehran vows to confront blockade",
+      "summary": "US disables ship trying to leave Iran, as Tehran vows to confront blockade Reuters",
+      "image": "",
+      "category": "Middle East",
+      "importance": "Notable",
+      "background_only": false,
+      "score": 42.1,
+      "published_at": "2026-11-28T00:16:56+00:00",
+      "source_count": 2,
+      "reasons": [
+        "high-impact event",
+        "2 trusted sources"
+      ],
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPbzhtZElCdnJJN0hCYkdsQ1lTWHc5UDRtNGE4cF9sWE14dlpacmk2blU5cXJMTHp0MGNaMElaQzdSem91dXNpNVRtd1k4ekZza09jVEpubTh3cjlpbE9CNWdMSU1seV9vNDFEeGQ1aDZBY1J1R0JoNVdlcjJaQnlWcU5Ib3ZISHVmNHA4eklQclI2WDIzR0VtNVp0NEJjaDZfcTlKNHRNbW54bGF2TExrR1NaSFJvLUxRcnc?oc=5",
+          "published_at": "2026-11-27T20:06:57+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQbEZ6UkxhSlY2bDVWRGhCX1k0MkxwR0c1LWFVeGVHVlV0dlNmQnNDNm96Z3ZjcjMzVWZaNno4bGpKWnZxa1lkam9FcTNaTTJWbFFSbVhJN21WMThTTFh2NllQWXExbmxmRkVobDNxa1cxMTFaQUZqelZ6bDhYSTh4cWFJM1pLVEFnY0g2eWg5YUlGem5nNjFGak1rVV9Ca2JWR1Y3M1dB0gGrAUFVX3lxTE94ZHZEOUJFb19EZ1BDVFYyeHZHTzF6ZUVncndiTWRqZXFRbVU5RkJtVVA1cVhxazBEcVlrVThGQ0VaZUxFamhHOTJTRF9SWS1od0lFZ3FHVUcwc0loWkpQa2x5QW9admJFSklFcWRkUFRUSllSWlF2REJVa3BmcjQyRkZoMkdfd1lkUmJQVGxMNTlEWEJ5TTh2ZEJ0aXpwTXVreG83OW5hTF9Ybw?oc=5",
+          "published_at": "2026-11-28T00:16:56+00:00",
+          "paywalled": false
+        }
+      ],
+      "lead_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPbzhtZElCdnJJN0hCYkdsQ1lTWHc5UDRtNGE4cF9sWE14dlpacmk2blU5cXJMTHp0MGNaMElaQzdSem91dXNpNVRtd1k4ekZza09jVEpubTh3cjlpbE9CNWdMSU1seV9vNDFEeGQ1aDZBY1J1R0JoNVdlcjJaQnlWcU5Ib3ZISHVmNHA4eklQclI2WDIzR0VtNVp0NEJjaDZfcTlKNHRNbW54bGF2TExrR1NaSFJvLUxRcnc?oc=5",
+      "first_reported_at": "2026-11-28T00:16:56+00:00",
+      "update_count": 0,
+      "updated": false,
+      "coverage_history": [
+        {
+          "at": "2026-11-28T08:17:21.839151+00:00",
+          "source_count": 2
+        }
+      ],
+      "context": {
+        "earlier_reporting": [
+          {
+            "title": "Can Tehran survive a ‘zero oil’ budget, if US blockade on Iran persists?",
+            "source": "Al Jazeera",
+            "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPZk10RTdpWlBNQTRoZ0dtdDJXcng3SDYtODIzYlNab0VKRFhGRVJVUHZueUE4UXpiQXNhd2RkYlgtYzFzUUVtTEZ0YV9tTlBkdHhsdzBvTi1mbHNqa2JCT200ekM1b3VyaEZocE5KU0Y1TUhpQ0lZN2hSek5YOUJJSHhIZDJzWk85VThuYmlDQnZwRXJQa1pjOFRSenFJbkRBMURuY0ZKRTJ6VW1QMXRzZ2hDVdIBuAFBVV95cUxQZDF3Rm1YU09HcC1FWEpPU0VfQTZON3hXZ21TZVJfRUIxT2ZFV1VxREJ5cXZfN3oyTnR1ZFFQckZlRkFualZodDFvLVd0alNZd2RaSXhMMlR6WVRoUzg1UWxNdFhZUlFZS2xWTFB1ZG9sYjZzWjVMU2oyaHRiQ0Z6V0U1R3N1NDZ2SU9GMFB5SVNTX1dXU0ktWC1iTjlDYXJ6V3dHUTNJWTNlMmt1RndlS3BVTUNaRUFk?oc=5",
+            "published_at": "2026-11-11T08:00:00+00:00"
+          },
+          {
+            "title": "‘Too early’ to determine impact of US blockade on Iran, with Tehran defiant",
+            "source": "Al Jazeera",
+            "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNR0tDOEoxcE1oTWlVYnFZX2w3SXQ4UHY5ZGM5NUhiOVNiblhqMm1ZblFiWFF4YTVPM0RaZURuMjFkNjNFOHRiaDExTGtFZEJrN0tMR0EycjdieDZCRHRPTFdvVDlqSE4wMnYzbl83TkJvRE11bWRtdVU3a1RWLXdwdzhyRXhmVndmU0ZHZ3NJLWowdWh1QVA3TkJyS0RfdnV1SFRRQlNCR3lGSnplWXVmUWgzMWfSAboBQVVfeXFMTU1hWUtoLVAyQ3VmUW1hVDJRRUxjYXRyODAzY2RrdWR0SnE2a09VMDROQjRfdUc3azJSU0R2djhtdTAyb0hwTHREMFZjcURxTDlyMHVKZjBlcDdYbzNtOTFCdzNadnZhZ3VjUV9tVmlDcUJvWVJNNU1xa3puRzVXVVZHNmhiSmhBai14WWQzbWpIVHJQVXIyVWlBaDVIWElzeDNmUVdDMTRuYmFNTzdUMVBSNDBXRkxaX0Jn?oc=5",
+            "published_at": "2026-11-19T08:00:00+00:00"
+          },
+          {
+            "title": "US targets Iran’s ship-to-ship transfers: Can Tehran break the blockade?",
+            "source": "Al Jazeera",
+            "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNQUpfdWFVN1RtcXA2YUJqWXhOUGRsdnY3VGR1SnJBX20zUExFTnA5c3RYVWhudXktd1RmQm95c2dpUE04QXdiU2dIb3YxakQzeVctc1c5cDZRZlZWLThzSmFQVnZXelBjaF9BZU1tZUJScGdXWGZXdS05aHFoZHdBbzhMZVpncDgyeTFvUm1NRWxoYkRONHhjVVJ5NjZIeEZuZHFtREVtSHVuTllranJBY9IBtgFBVV95cUxQUDQwdHJ3VzRYcEZhNjNkdGM2X1VtRy10R1RRVmR1NEt1dFU5bzRvZGJiZXo5bjVENmdjUlgzLTJyVm1ZdUdORF82d0hSRTVvcURLeTA1UGJiUFRrbFJUWmliOUNzRXdCb3hpNDNvMm1RWF82ZWg1LW5WeFZVbzlGQm4zRmp1UWJWQzZFNzNVS2haaGpnQWsteXNqTHRaQ1ZLNGRXMWh5WUhVOVNPQzV1RnNyaTJ2Zw?oc=5",
+            "published_at": "2026-11-20T13:27:05+00:00"
+          }
+        ],
+        "coverage_from": "2026-11-11T08:00:00+00:00",
+        "search_query": "us iran tehran blockade",
+        "search_days": 730,
+        "searched_days": 30,
+        "search_status": "matched"
+      }
+    },
+    {
+      "id": "868aaefcb642",
+      "title": "Apple pulls MiniMax AI chatbot from App Store over child safety concerns",
+      "summary": "Apple pulls MiniMax AI chatbot from App Store over child safety concerns Reuters",
+      "image": "",
+      "category": "Tech",
+      "importance": "Notable",
+      "background_only": false,
+      "score": 40.0,
+      "published_at": "2026-11-26T05:13:00+00:00",
+      "source_count": 1,
+      "reasons": [
+        "frontier AI safety development"
+      ],
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPNU9tZmh6STA3Ui1FY1FQaE9LMDgzQjJjV2xoZ3Q1Znlvbk5wdll2OXoyOUdxUHp2WEYteFpvTFBhVDZYbFozTXp5T0RpaE4zUUhBaDhiVDAxUkY2RURGQWFFaE1BRTVmdmdXTDh3UEdReDM5N0pjSjBzUXB3UEpPa05ma2ZoWDZhTzhJbTNFeDBfQllEWS02eHhST1FPRWI0VlRMOEhHanpvUjZpWkNPWEJLS1BlSllaZ25XeTRGUXF3bUZEcE5n?oc=5",
+          "published_at": "2026-11-26T05:13:00+00:00",
+          "paywalled": false
+        }
+      ],
+      "lead_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPNU9tZmh6STA3Ui1FY1FQaE9LMDgzQjJjV2xoZ3Q1Znlvbk5wdll2OXoyOUdxUHp2WEYteFpvTFBhVDZYbFozTXp5T0RpaE4zUUhBaDhiVDAxUkY2RURGQWFFaE1BRTVmdmdXTDh3UEdReDM5N0pjSjBzUXB3UEpPa05ma2ZoWDZhTzhJbTNFeDBfQllEWS02eHhST1FPRWI0VlRMOEhHanpvUjZpWkNPWEJLS1BlSllaZ25XeTRGUXF3bUZEcE5n?oc=5",
+      "first_reported_at": "2026-11-26T05:13:00+00:00",
+      "update_count": 0,
+      "updated": false,
+      "coverage_history": [
+        {
+          "at": "2026-11-28T08:17:21.839151+00:00",
+          "source_count": 1
+        }
+      ],
+      "context": {
+        "earlier_reporting": [],
+        "coverage_from": null,
+        "search_query": "apple minimax ai safety",
+        "search_days": 730,
+        "searched_days": 730,
+        "search_status": "searched"
+      }
+    },
+    {
+      "id": "e8fc703426d0",
+      "title": "Taiwan votes in local elections as China sends warplanes, lambastes Taipei candidate",
+      "summary": "Taiwan votes in local elections as China sends warplanes, lambastes Taipei candidate Reuters",
+      "image": "",
+      "category": "World",
+      "importance": "Notable",
+      "background_only": false,
+      "score": 39.7,
+      "published_at": "2026-11-28T05:20:00+00:00",
+      "source_count": 2,
+      "reasons": [
+        "high-impact event",
+        "2 trusted sources"
+      ],
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPd0hYazFSNFdJenpCQmdWUUh0cUZOTHhJWm5hYnB4ampiMXJRamNxVGtST2NuTV9rS2hjUHFUWElIUjhtX3VlZFlWTkpBOWh5SmJkNGdJd1VFVFFWSmR4LURfQUx0ZDVmWnk3MEpuc3hMN0QwaXFwYnZMc3kteEJpWUduWWNITVkwNTJGaGVRSWdHNVNyNjhn?oc=5",
+          "published_at": "2026-11-28T00:01:00+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "Bloomberg.com",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNMGo2aFkxSF9NMEJXV01UdldqU2MwSHRWWm44dzJ5NldkMllBRlJGeHFrc3VfMW9kQkphTGUxdFFjQ1NVQzM5QWIycjRmTUdIbk54SkFpamlVMG5xalN2SDZ0SjhsRUREeWpTTktSUEVHYXBDVTd0Yzh0Y3RDUE5wd1VCUUVzUUc5YS1ta2tYWkhCQ080OThzN3Q2dVdIcXVOY2lDeTkwZ1FieW5SZXZUQTBLdw?oc=5",
+          "published_at": "2026-11-28T05:20:00+00:00",
+          "paywalled": true
+        }
+      ],
+      "lead_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPd0hYazFSNFdJenpCQmdWUUh0cUZOTHhJWm5hYnB4ampiMXJRamNxVGtST2NuTV9rS2hjUHFUWElIUjhtX3VlZFlWTkpBOWh5SmJkNGdJd1VFVFFWSmR4LURfQUx0ZDVmWnk3MEpuc3hMN0QwaXFwYnZMc3kteEJpWUduWWNITVkwNTJGaGVRSWdHNVNyNjhn?oc=5",
+      "first_reported_at": "2026-11-28T05:20:00+00:00",
+      "update_count": 0,
+      "updated": false,
+      "coverage_history": [
+        {
+          "at": "2026-11-28T08:17:21.839151+00:00",
+          "source_count": 2
+        }
+      ],
+      "context": {
+        "earlier_reporting": [
+          {
+            "title": "What to Know About Taiwan’s Local Elections and Why China Is Watching",
+            "source": "Bloomberg.com",
+            "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQalgwbUp2N2RYa29nSEQ1aF9QVlE2eXlOVC1ydklpR3R3NVR3ZkZXQ1RiMVB3ckhpQlJ0N044M3ZvUEhReTQxelREcEtET1gyenozYURIVDZzRXo0X3llOUVSYU9pRzJ0OUdCTDFlLV9xT0NRa0NTY0k3VFVqSGdjUFRvNkJHMVdXWmxQTXVkQmRfdzdNRExNdG42X0Roa01LZXpBeG9mQWdUZ1Q5a281djB6dXFqLUdsS1Y0d2pScTdieEVMdThJ?oc=5",
+            "published_at": "2026-11-23T05:30:00+00:00"
+          },
+          {
+            "title": "What to know about Taiwan’s local elections and why they matter to China",
+            "source": "AP News",
+            "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNQkJtZkJkd3k1QWVRN1AyYU9YZUtNWG4wRndpSThLaHVoUUYyLWYySUVRbXlVTFdNVHZZdkFxNkoyOEhJVWJudHI4Y2FzUVA4b1kwclljQi1CVkFuSUxfaDVCSXoxeXF4YklYTXUtckpSWEFkOTdwM18xdjJNWHFHM0dhRHVBXzRsZElucnRjdWRONkJjcGYyeFFsSGE?oc=5",
+            "published_at": "2026-11-26T05:02:00+00:00"
+          },
+          {
+            "title": "Packed rallies close Taiwan election campaign; China sends warplanes",
+            "source": "Reuters",
+            "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNRzJNWEpPd2tGOERUMUhtUXFlcjBfSzhwZ2xnTVRGUjVSQlJIbEZ3TjJuT3hUMFJCa2tJVGhJdlNsVFBSVW9JVGw3ZHE4dWhZZElLNnVmWnhDS2pYWDgyemx6YzRsQURWV1psM1h4ancxWm15bGFKV0wzMkZZOXk1cVRMZ2JJcXlqazV2OEJmWkpWT29USEFSOHRPaFpxRG82OVVZWHVRNA?oc=5",
+            "published_at": "2026-11-27T06:07:00+00:00"
+          }
+        ],
+        "coverage_from": "2026-11-23T05:30:00+00:00",
+        "search_query": "taiwan china taipei election",
+        "search_days": 730,
+        "searched_days": null,
+        "search_status": "matched"
+      }
+    },
+    {
+      "id": "27e824d5e2d7",
+      "title": "Spain's Sanchez insists he will defy polls as election campaign wraps up",
+      "summary": "Spain's Sanchez insists he will defy polls as election campaign wraps up Reuters",
+      "image": "",
+      "category": "Europe/UK",
+      "importance": "Notable",
+      "background_only": false,
+      "score": 39.0,
+      "published_at": "2026-11-27T19:12:26+00:00",
+      "source_count": 2,
+      "reasons": [
+        "high-impact event",
+        "2 trusted sources"
+      ],
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOWWJleDNqeFIxY19DeHdSdjNfMWJKYkxMMmtnTWJkZzZDYzFidEVrOXZ0Und0eTJldEx1c1llcnp6VmhSRnJWczVGOXNwbUM5RVZPbDNOUmFPaTRzbWp6YnRtTFM1Y3FxREs5WkFKaUZzeUh3d0hhci1rWlB0QlEwbFNxY1h6bEI0Mkp3NG55aXRBc2JzVmstZk5xeE0wMWg5TS1jVnE5T2U4UlBGR3Y3V0hHZzlfM3B3?oc=5",
+          "published_at": "2026-11-27T19:12:26+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNem1pMTg5cnBXUWhMQU1pV1pmbjBmR29lcnpsS2hQM2pwTlpJUGRxbktCOW5EMGZQb3hlM3JUWDg4Xzh3bU1VYnItYklVNlNRa1lpdERuNHRDQ1l4T3NGQWF4MzhWdEh4TWFNVnBZZ2p0TzJQTWdMWlZrYms3UGhXdU9tSHc2a3FMa3BMaUhlNFZfSUZqeXA5VFFwS280ckpsR2NsN29UMkxFa29XN01mbGd2VkUwczTSAbwBQVVfeXFMTlJackVKZUtBOGZaX3VvbGI5ZGEwZ3VzUDlBaTY5NnEyZEJDUXdIdjI0cGU5MG53cHppUnFCR2pOMkYxNEI5UjhjSVhQdXJYX3RqbnhFTUcyOURER0d6MlU3TGNRMWQwUlhPRWpuZGx5MjIyTEl5aGRnOUZMN2ZBeU9kLXBZYmwybDZNME9zY3ZOVk5raWJHOTV5UUdhMV8yY0h6WWlDV3hVek56aGFIamVMOU1EV1pCcVpUYjA?oc=5",
+          "published_at": "2026-11-27T17:22:18+00:00",
+          "paywalled": false
+        }
+      ],
+      "lead_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOWWJleDNqeFIxY19DeHdSdjNfMWJKYkxMMmtnTWJkZzZDYzFidEVrOXZ0Und0eTJldEx1c1llcnp6VmhSRnJWczVGOXNwbUM5RVZPbDNOUmFPaTRzbWp6YnRtTFM1Y3FxREs5WkFKaUZzeUh3d0hhci1rWlB0QlEwbFNxY1h6bEI0Mkp3NG55aXRBc2JzVmstZk5xeE0wMWg5TS1jVnE5T2U4UlBGR3Y3V0hHZzlfM3B3?oc=5",
+      "first_reported_at": "2026-11-27T19:12:26+00:00",
+      "update_count": 0,
+      "updated": false,
+      "coverage_history": [
+        {
+          "at": "2026-11-28T08:17:21.839151+00:00",
+          "source_count": 2
+        }
+      ],
+      "context": {
+        "earlier_reporting": [
+          {
+            "title": "Spain general election 2026: polls, Sanchez vs Feijoo and what happens next",
+            "source": "Reuters",
+            "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxONjZzMy1MR1FIaWhtS2xqeWlHSmVfN3piVTAtczU5djZMOFludlVUa3M3SC1yeDBqWGlOd0NFMmdUUWRGX3ZMVDQ4aDF2TTN1U2lXOEdfb1pNWmt0TXQ2OHhHUEMwcFhBdk5TMFZKejdhRktPM2ZXUEp6Ym1IOVA1M1RvNnpZNFkwQ05TLWRGb25uTmtqYlM1YlliWFhUcGs?oc=5",
+            "published_at": "2026-11-26T16:00:00+00:00"
+          }
+        ],
+        "coverage_from": "2026-11-26T16:00:00+00:00",
+        "search_query": "spain sanchez election",
+        "search_days": 730,
+        "searched_days": 180,
+        "search_status": "matched"
+      }
+    },
+    {
       "id": "1fe1c9afe550",
-      "title": "Kenyan doomsday cult leader convicted over further 123 deaths",
-      "summary": "Paul Mackenzie is found guilty of killing his followers, weeks after being jailed for the mass murder of children.",
+      "title": "Paul Mackenzie: Kenyan doomsday cult leader convicted over further 123 deaths",
+      "summary": "Paul Mackenzie: Kenyan doomsday cult leader convicted over further 123 deaths BBC",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fd53/live/e165d810-ea74-11f1-a828-d384c0290f6b.jpg",
       "category": "World",
       "importance": "Notable",
@@ -155,9 +840,9 @@
           "paywalled": false
         }
       ],
-      "lead_url": "https://www.bbc.co.uk/news/articles/cmy49de4xx1zo?at_medium=RSS&at_campaign=rss",
+      "lead_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBENnZRQ2JjaFRidXRBYVU2b19WSGJrU2t3Sy1UV2FvM1YxZTluNHZQbVJwb1EyR0dfVl9GMldyaXZsTHRScDdRV1JuMEkxWlI2Rlh2NmoxU2MxTWc?oc=5",
       "first_reported_at": "2026-11-27T22:33:17+00:00",
-      "update_count": 1,
+      "update_count": 2,
       "updated": true,
       "coverage_history": [
         {
@@ -199,6 +884,10 @@
         {
           "at": "2026-11-28T07:22:02.334024+00:00",
           "source_count": 2
+        },
+        {
+          "at": "2026-11-28T08:17:21.839151+00:00",
+          "source_count": 2
         }
       ],
       "context": {
@@ -217,15 +906,147 @@
           }
         ],
         "coverage_from": "2026-11-06T08:00:00+00:00",
-        "search_query": "kenyan doomsday cult",
+        "search_query": "paul mackenzie kenyan",
         "search_days": 730,
         "searched_days": 30,
         "search_status": "matched"
+      }
+    },
+    {
+      "id": "447845e246ab",
+      "title": "South Korea’s central bank raises key interest rate to fight inflation",
+      "summary": "South Korea’s central bank raises key interest rate to fight inflation AP News",
+      "image": "",
+      "category": "World",
+      "importance": "Notable",
+      "background_only": false,
+      "score": 38.4,
+      "published_at": "2026-11-26T04:09:00+00:00",
+      "source_count": 2,
+      "reasons": [
+        "significant public impact",
+        "2 trusted sources"
+      ],
+      "sources": [
+        {
+          "name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOVGdNcTZ3YU1jUlFzdHFWalJWYzlUSzRuRkFsc3dBbXV1QmRoaW05cGdRYndKWi1vWkQzUVFockJQWjhOZFJKcEp4akY2OEVHdldkbWtoUGk4Wm52TnkxUXRqZ2FPc3JpVEdQV3lXREdSNTlaV0d2Yl9pYVQ3TG5mdzRvemF3MWkxRmdsb25DRGxWSWxTTXltNzM1TGVUNFEtUmt1S1ZhR01RdVJ0?oc=5",
+          "published_at": "2026-11-26T04:09:00+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQSTJjdUdXNzZ0QVUtZS1QMGowZkw1ellJM1ZkZUMzYVQ1OVp5ME5vQnRTMHgyYm9YVFRxcm11TkdSUmJ6RV9nYlY0YnkzZnhuNkNWa0g0MmNQVDhNMTRiYVN0M1lUbERad1Rqb1h0U3BCa2RJam5DVXBXUk8zNy1CNDlVaXQwRE56Ykl6NjhXTy1Bc21Lbm1sc214UlNVLUdOajVQWlprbG1mRnlIQVNyaWpNSDFBa0Fo?oc=5",
+          "published_at": "2026-11-26T01:05:00+00:00",
+          "paywalled": false
+        }
+      ],
+      "lead_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOVGdNcTZ3YU1jUlFzdHFWalJWYzlUSzRuRkFsc3dBbXV1QmRoaW05cGdRYndKWi1vWkQzUVFockJQWjhOZFJKcEp4akY2OEVHdldkbWtoUGk4Wm52TnkxUXRqZ2FPc3JpVEdQV3lXREdSNTlaV0d2Yl9pYVQ3TG5mdzRvemF3MWkxRmdsb25DRGxWSWxTTXltNzM1TGVUNFEtUmt1S1ZhR01RdVJ0?oc=5",
+      "first_reported_at": "2026-11-26T04:09:00+00:00",
+      "update_count": 0,
+      "updated": false,
+      "coverage_history": [
+        {
+          "at": "2026-11-28T08:17:21.839151+00:00",
+          "source_count": 2
+        }
+      ],
+      "context": {
+        "earlier_reporting": [],
+        "coverage_from": null,
+        "search_query": "south korea central",
+        "search_days": 730,
+        "searched_days": 730,
+        "search_status": "searched"
       }
     }
   ],
   "watchlist": [],
   "context_archive": [
+    {
+      "title": "Ebola cases in DR Congo pass 11,000, with 5,387 deaths",
+      "source": "Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQOHFneWtwQkdxVkhPdnVreTRPcEIwRG5aVDVfMDZuenQtZlZOREQ5NVNLSS1iNVRRbnlwd3FveXdRdzV5cUc1YUs1eHdRVEFKZFp2dlExeW5zeXl3cDlQcExZTWJUeElDSnlOcExUVlo5SEZGZjhWamMzeTZNVGdCR3paOUVaN0xJaEJGVjNBTTVZRlhLS3g2SNIBngFBVV95cUxPZjlOOGhLR2FhdFdMYk9oNWJEN0V3Q2NaMGJKcXJ4SGZRTHA5bWg3UEl3R2pVbFZIc04tSjFxX3otdFFDX2pySzhvN0NCWTJQZWxtTXhwVDU5RnZkd2hVNVUxT2NycksyNXNOMEMzWW8wNExESGJ4TURySHN5cEswMVBlNzhjZGpTLXhKVWppUS05Q3VhT1NsYTlBZjZjdw?oc=5",
+      "published_at": "2026-11-11T08:00:00+00:00"
+    },
+    {
+      "title": "Fighting in eastern Congo forces Ebola workers to evacuate, threatening outbreak response",
+      "source": "AP News",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNRDFtT0M3ampBX21sZVc4a0VHSDhwMjcwdm16S2ltOE1SUnBEN29UbmhFQVg2d0U0cmVLTVdrU3k5TS15eWNsUGZKekFqYWFUdGlkTlpWTG93ZHlEUE5CRkJYV2ZfU3lQcUpYcEpiT2g2MXN1OHJWSzhPNWdsX2hwbHJPQVlvQm41UFBNZE5ES1N1d1FMZEkybDJ0ZVp0cHRpSWVibA?oc=5",
+      "published_at": "2026-11-25T19:29:00+00:00"
+    },
+    {
+      "title": "Congo's Ebola cases exceed 12,000 as responders struggle to contain outbreak",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPUkt4SEJRQUV2dDAxRi1DbDRsOXlhVWhfNVZvRTRzbDhTYzN0R1JiN0tUbFVpMGF1LTlweUtaRTVySVphaDVRdTBJNmZhdzRMVUt0cTc0c0FPOTJuc3RMYTEyOTJZM3B0bnBJdm9PRGtIMk9LUHk4dXhrRnV0OE1zSDRtRTNlWXFOanJlQnNYbHBERUNfdDhMc2c0SGFFX1JnSnNIWWNvTjQwSUpRWVdlTE1DOElDVXhKRTROUUhOM0lxbVozZ01PN1F3eDZldXQ3dUtNVXhlMA?oc=5",
+      "published_at": "2026-11-26T05:29:00+00:00"
+    },
+    {
+      "title": "Pakistani astronaut to board Shenzhou 24 and become the first foreigner on China's space station",
+      "source": "AP News",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQenFsUWZUMFNoeXpOUXdEX0xad010OWlJemJJQl93YjBrcFhySkxxWVpackkxamQ3Q08yampBaXRtOFNhWVd1VHNjSklUSy1JWC1taUszYTdVbnJ2U2N5aWhmcVlpLVFLSjRQWGhNZS1ieTBpdjVuWG9MRkROWXNBV0YzSkdobnl2T1hwU0hUNThiREQtQWFsZXZHdWFVN2hp?oc=5",
+      "published_at": "2026-11-06T08:00:00+00:00"
+    },
+    {
+      "title": "Pakistani astronaut to join China’s next space station mission",
+      "source": "Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOQTRRRXdXNmphejg5d3hubWpfNVZ2Skp0XzNQamJZRE1hN202Y3czZ3JyZWRPalJDaks3VlNvMy10NERJa1YxRDVUUVVxempZRk1oTjBPMVQwdm5UMW52VEJyMFRvSDNBTFI5Q2hQY3RBOWpacnA5eFFicGNYWXZpdXhFUmRKYnlwZ0VaYlNBUFd6Mm16M2hkTW5zd3lLQXYxaXIzQ9IBqgFBVV95cUxQSXZKQ0VIZHBaejV4UGp5Zy04MmJ0Njd2ejNJTkpZOThpX3VZT2huRHY4YzJsNUJyd0pwdnIxQ0xiQ0lDWnd6MmYzQU9CRTZPRTc2bjY0d081NkcwelZBVWhKeDlsV3Z4Q2NXODhMZkVCME5QUHE4YS1oRzRfeDZTaDdaQmdnb09EVjJEM212MEdwclBnaFhtZWttbXd0OUhHTFZ1SGtycXZPUQ?oc=5",
+      "published_at": "2026-11-07T08:00:00+00:00"
+    },
+    {
+      "title": "Pakistani pilot to become first foreigner to fly to China's space station",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNTjlOOEE2ZGVBYmJLbmlvRXdLTzF4UjNOVXFoY0J6c29vSDF1cDZBTk02QTFDWlRwbk9ESThyeGI0dzdKUFhhMmRyb0ZmVWlsLXlUR2ZNTHJjckdybTRlMTRYOWNwcDhSV2duaTI4ZXB5dFlCNlBTSnlCYTNQN25ZdThTS3NHVUtlZ1NIQ2Z1cWZLLTgzQ3VocjZNcFRBMmJQZjZ0dFZ1UXRCcU0?oc=5",
+      "published_at": "2026-11-24T02:49:00+00:00"
+    },
+    {
+      "title": "China unveils new space mission crew, with a Pakistani astronaut set to board its space station",
+      "source": "AP News",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPTno4Y1I0UnZqSU1JaG15VG5qTm1HNjhQbUpab2ZIbDQ4YTY1YTdxMkxWenVxOUFOMWhXQUlTT1NIVGZYUGJrRUdkXzdxLXZEMzFmLVlxelhRRXlWbFVQQ1JuVTlBZDhjS09RS1JuTUs1Q3RrWTRHTzBOUFNEQmZha0FXNndUY25NY2ozbTlqSEc0TFVUSUFJ?oc=5",
+      "published_at": "2026-11-24T13:47:00+00:00"
+    },
+    {
+      "title": "Can Tehran survive a ‘zero oil’ budget, if US blockade on Iran persists?",
+      "source": "Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPZk10RTdpWlBNQTRoZ0dtdDJXcng3SDYtODIzYlNab0VKRFhGRVJVUHZueUE4UXpiQXNhd2RkYlgtYzFzUUVtTEZ0YV9tTlBkdHhsdzBvTi1mbHNqa2JCT200ekM1b3VyaEZocE5KU0Y1TUhpQ0lZN2hSek5YOUJJSHhIZDJzWk85VThuYmlDQnZwRXJQa1pjOFRSenFJbkRBMURuY0ZKRTJ6VW1QMXRzZ2hDVdIBuAFBVV95cUxQZDF3Rm1YU09HcC1FWEpPU0VfQTZON3hXZ21TZVJfRUIxT2ZFV1VxREJ5cXZfN3oyTnR1ZFFQckZlRkFualZodDFvLVd0alNZd2RaSXhMMlR6WVRoUzg1UWxNdFhZUlFZS2xWTFB1ZG9sYjZzWjVMU2oyaHRiQ0Z6V0U1R3N1NDZ2SU9GMFB5SVNTX1dXU0ktWC1iTjlDYXJ6V3dHUTNJWTNlMmt1RndlS3BVTUNaRUFk?oc=5",
+      "published_at": "2026-11-11T08:00:00+00:00"
+    },
+    {
+      "title": "‘Too early’ to determine impact of US blockade on Iran, with Tehran defiant",
+      "source": "Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNR0tDOEoxcE1oTWlVYnFZX2w3SXQ4UHY5ZGM5NUhiOVNiblhqMm1ZblFiWFF4YTVPM0RaZURuMjFkNjNFOHRiaDExTGtFZEJrN0tMR0EycjdieDZCRHRPTFdvVDlqSE4wMnYzbl83TkJvRE11bWRtdVU3a1RWLXdwdzhyRXhmVndmU0ZHZ3NJLWowdWh1QVA3TkJyS0RfdnV1SFRRQlNCR3lGSnplWXVmUWgzMWfSAboBQVVfeXFMTU1hWUtoLVAyQ3VmUW1hVDJRRUxjYXRyODAzY2RrdWR0SnE2a09VMDROQjRfdUc3azJSU0R2djhtdTAyb0hwTHREMFZjcURxTDlyMHVKZjBlcDdYbzNtOTFCdzNadnZhZ3VjUV9tVmlDcUJvWVJNNU1xa3puRzVXVVZHNmhiSmhBai14WWQzbWpIVHJQVXIyVWlBaDVIWElzeDNmUVdDMTRuYmFNTzdUMVBSNDBXRkxaX0Jn?oc=5",
+      "published_at": "2026-11-19T08:00:00+00:00"
+    },
+    {
+      "title": "US targets Iran’s ship-to-ship transfers: Can Tehran break the blockade?",
+      "source": "Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNQUpfdWFVN1RtcXA2YUJqWXhOUGRsdnY3VGR1SnJBX20zUExFTnA5c3RYVWhudXktd1RmQm95c2dpUE04QXdiU2dIb3YxakQzeVctc1c5cDZRZlZWLThzSmFQVnZXelBjaF9BZU1tZUJScGdXWGZXdS05aHFoZHdBbzhMZVpncDgyeTFvUm1NRWxoYkRONHhjVVJ5NjZIeEZuZHFtREVtSHVuTllranJBY9IBtgFBVV95cUxQUDQwdHJ3VzRYcEZhNjNkdGM2X1VtRy10R1RRVmR1NEt1dFU5bzRvZGJiZXo5bjVENmdjUlgzLTJyVm1ZdUdORF82d0hSRTVvcURLeTA1UGJiUFRrbFJUWmliOUNzRXdCb3hpNDNvMm1RWF82ZWg1LW5WeFZVbzlGQm4zRmp1UWJWQzZFNzNVS2haaGpnQWsteXNqTHRaQ1ZLNGRXMWh5WUhVOVNPQzV1RnNyaTJ2Zw?oc=5",
+      "published_at": "2026-11-20T13:27:05+00:00"
+    },
+    {
+      "title": "What to Know About Taiwan’s Local Elections and Why China Is Watching",
+      "source": "Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQalgwbUp2N2RYa29nSEQ1aF9QVlE2eXlOVC1ydklpR3R3NVR3ZkZXQ1RiMVB3ckhpQlJ0N044M3ZvUEhReTQxelREcEtET1gyenozYURIVDZzRXo0X3llOUVSYU9pRzJ0OUdCTDFlLV9xT0NRa0NTY0k3VFVqSGdjUFRvNkJHMVdXWmxQTXVkQmRfdzdNRExNdG42X0Roa01LZXpBeG9mQWdUZ1Q5a281djB6dXFqLUdsS1Y0d2pScTdieEVMdThJ?oc=5",
+      "published_at": "2026-11-23T05:30:00+00:00"
+    },
+    {
+      "title": "What to know about Taiwan’s local elections and why they matter to China",
+      "source": "AP News",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNQkJtZkJkd3k1QWVRN1AyYU9YZUtNWG4wRndpSThLaHVoUUYyLWYySUVRbXlVTFdNVHZZdkFxNkoyOEhJVWJudHI4Y2FzUVA4b1kwclljQi1CVkFuSUxfaDVCSXoxeXF4YklYTXUtckpSWEFkOTdwM18xdjJNWHFHM0dhRHVBXzRsZElucnRjdWRONkJjcGYyeFFsSGE?oc=5",
+      "published_at": "2026-11-26T05:02:00+00:00"
+    },
+    {
+      "title": "Packed rallies close Taiwan election campaign; China sends warplanes",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNRzJNWEpPd2tGOERUMUhtUXFlcjBfSzhwZ2xnTVRGUjVSQlJIbEZ3TjJuT3hUMFJCa2tJVGhJdlNsVFBSVW9JVGw3ZHE4dWhZZElLNnVmWnhDS2pYWDgyemx6YzRsQURWV1psM1h4ancxWm15bGFKV0wzMkZZOXk1cVRMZ2JJcXlqazV2OEJmWkpWT29USEFSOHRPaFpxRG82OVVZWHVRNA?oc=5",
+      "published_at": "2026-11-27T06:07:00+00:00"
+    },
+    {
+      "title": "Spain general election 2026: polls, Sanchez vs Feijoo and what happens next",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxONjZzMy1MR1FIaWhtS2xqeWlHSmVfN3piVTAtczU5djZMOFludlVUa3M3SC1yeDBqWGlOd0NFMmdUUWRGX3ZMVDQ4aDF2TTN1U2lXOEdfb1pNWmt0TXQ2OHhHUEMwcFhBdk5TMFZKejdhRktPM2ZXUEp6Ym1IOVA1M1RvNnpZNFkwQ05TLWRGb25uTmtqYlM1YlliWFhUcGs?oc=5",
+      "published_at": "2026-11-26T16:00:00+00:00"
+    },
     {
       "title": "Paul Mackenzie: Kenya doomsday cult leader sentenced to 200 years in prison for Shakahola deaths",
       "source": "BBC",
@@ -377,12 +1198,6 @@
       "published_at": "2026-11-27T07:39:00+00:00"
     },
     {
-      "title": "Packed rallies close Taiwan election campaign; China sends warplanes",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNRzJNWEpPd2tGOERUMUhtUXFlcjBfSzhwZ2xnTVRGUjVSQlJIbEZ3TjJuT3hUMFJCa2tJVGhJdlNsVFBSVW9JVGw3ZHE4dWhZZElLNnVmWnhDS2pYWDgyemx6YzRsQURWV1psM1h4ancxWm15bGFKV0wzMkZZOXk1cVRMZ2JJcXlqazV2OEJmWkpWT29USEFSOHRPaFpxRG82OVVZWHVRNA?oc=5",
-      "published_at": "2026-11-27T06:07:00+00:00"
-    },
-    {
       "title": "How Sanofi's new CEO struck a rapid $41 billion deal for Insmed",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxObU1CTWI1cG1XTE9pbkN0cEl4NGFSYVFkalA1bVRsZ2xBVDhwa1lSbFBJUEJubXdSVnlKOTE5UVB3NHhFREZGUnlIMk1pU1RCdHUwWXhGdDJka2cxVEUyaVNPN3dmV2VudGlxWTJpM2NNTmhRNmJiNjVGNkpsZzZTbWFZNlpWc19sYTNNc1VDN1NRMzJESGlYZWVpeU5fdFZMTC1DZWdzZzIzQS1BTFJkVG5sOA?oc=5",
@@ -443,12 +1258,6 @@
       "published_at": "2026-11-26T16:21:19+00:00"
     },
     {
-      "title": "Spain general election 2026: polls, Sanchez vs Feijoo and what happens next",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxONjZzMy1MR1FIaWhtS2xqeWlHSmVfN3piVTAtczU5djZMOFludlVUa3M3SC1yeDBqWGlOd0NFMmdUUWRGX3ZMVDQ4aDF2TTN1U2lXOEdfb1pNWmt0TXQ2OHhHUEMwcFhBdk5TMFZKejdhRktPM2ZXUEp6Ym1IOVA1M1RvNnpZNFkwQ05TLWRGb25uTmtqYlM1YlliWFhUcGs?oc=5",
-      "published_at": "2026-11-26T16:00:00+00:00"
-    },
-    {
       "title": "Two Italians killed in drone strike on Kuwait",
       "source": "Financial Times",
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPNm4zZTlKbV96Q0dXS29sTnIwNGIzYi1JMnVzTjl0TjkzTTBhYlQ5YTVZVDF0MXdHMVduXzhJVzZxR2NmX2R0cHdwaXpGdFl1dURTc0tYZ2R4MUlrV242elRGYTBJSTMwbHhnMzBYS18zWnNualZiTXVwcUhmdXFFdWJzeW0?oc=5",
@@ -477,6 +1286,12 @@
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNelVSdGZIMFMxelZ3SVpNZHYyYzRTZWN4S010bExkN0lmVVk5eng2VWp0VUszQXhGVDF5TUFxTDQzSXFuNmxHazV3d1VSR1BWMFRIeFBMQzJDeUM0RG5Cazhya0dpdDA2ZzJDSnd0WGVvVGItS0ttemdLUGhUbUwwbjBWbUk2VktZQUxsa0haX290d21lVFg5Ri1UZ0FkcFo1ZUpnSUNTd1ZudHJWYnQ5T0U4X0w2aExZRXBSOE9ETlEwa2ljRmxF?oc=5",
       "published_at": "2026-11-26T13:58:06+00:00"
+    },
+    {
+      "title": "Ebola outbreak in Congo reaches 12,000 cases as violence forces some responders to evacuate",
+      "source": "AP News",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOODk5TW1rbDA5Ml84Vzh3OWVzdW12UkFLbXJzQlZSbG9rNTQxZGl1bjBPQ1FsNURnQ21MU3FFX1RqZFVDdzJrSXR5YkRTTndHcERGWUpyaklFeWxlQ2l4aXhKT1ctM1cwMDdtOHg5RHQ3ZmhqVTIyWFVHUWdHSG40WExZWkJSM1lZNndDSFBlbEdNNnM?oc=5",
+      "published_at": "2026-11-26T13:48:05+00:00"
     },
     {
       "title": "Altria explores takeover bid for Imperial Brands",
@@ -533,12 +1348,6 @@
       "published_at": "2026-11-26T10:31:19+00:00"
     },
     {
-      "title": "Ebola outbreak in Congo reaches 12,000 cases as violence forces some responders to evacuate",
-      "source": "AP News",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOODk5TW1rbDA5Ml84Vzh3OWVzdW12UkFLbXJzQlZSbG9rNTQxZGl1bjBPQ1FsNURnQ21MU3FFX1RqZFVDdzJrSXR5YkRTTndHcERGWUpyaklFeWxlQ2l4aXhKT1ctM1cwMDdtOHg5RHQ3ZmhqVTIyWFVHUWdHSG40WExZWkJSM1lZNndDSFBlbEdNNnM?oc=5",
-      "published_at": "2026-11-26T09:22:00+00:00"
-    },
-    {
       "title": "At least 13 dead in Indonesia gold mine flood as rescue efforts intensify",
       "source": "Al Jazeera",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQWkJ4Z1dXNWRXTmQ5emI0VEF4b2FsMkcxNUNpRjB6N2tFNmNKUzZzbmhORHhTQ1hsNS1BT2JFTzJrQ01aQjk3dS1vVWZaQ3pMV3A2WUFRODJsNFBBN1c4a25VbHZkY2dqVzJMTWp2ZVRxbmZNQnNodWlnTjMxWG1jQWJjMWlZd2h4Tm14QTNJQ3VSNkJPbTF2aUNvdmlENzExR1kwSnFHRHdfOUoxakZTOERmRGl6d9IBuwFBVV95cUxPV051MjYwaUJXZ2pzLW90aTJ0enhCSDdWbTd4eGZaWU4xWTBhMTFsZGxnbUZveHF3b3JIbDZPU284ZXNKZXJWek5vVVlidlQyQlBVOEJ6NDcyRlNPSkF4cG02dE9Vbm1Bb0Z3MGxaUmp0MlJNVVhmZm9iaE1vM3UyQzhUYkUydzFuSWVLNk81WXhKdlpudnJLakNIc29uQWNHS0diUTQ4czJZZF9FTDFTdG5LdkxGeEJtVUJF?oc=5",
@@ -575,22 +1384,10 @@
       "published_at": "2026-11-26T05:41:31+00:00"
     },
     {
-      "title": "Congo's Ebola cases exceed 12,000 as responders struggle to contain outbreak",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPUkt4SEJRQUV2dDAxRi1DbDRsOXlhVWhfNVZvRTRzbDhTYzN0R1JiN0tUbFVpMGF1LTlweUtaRTVySVphaDVRdTBJNmZhdzRMVUt0cTc0c0FPOTJuc3RMYTEyOTJZM3B0bnBJdm9PRGtIMk9LUHk4dXhrRnV0OE1zSDRtRTNlWXFOanJlQnNYbHBERUNfdDhMc2c0SGFFX1JnSnNIWWNvTjQwSUpRWVdlTE1DOElDVXhKRTROUUhOM0lxbVozZ01PN1F3eDZldXQ3dUtNVXhlMA?oc=5",
-      "published_at": "2026-11-26T05:29:00+00:00"
-    },
-    {
       "title": "Apple pulls MiniMax AI chatbot from App Store over child safety concerns",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPNU9tZmh6STA3Ui1FY1FQaE9LMDgzQjJjV2xoZ3Q1Znlvbk5wdll2OXoyOUdxUHp2WEYteFpvTFBhVDZYbFozTXp5T0RpaE4zUUhBaDhiVDAxUkY2RURGQWFFaE1BRTVmdmdXTDh3UEdReDM5N0pjSjBzUXB3UEpPa05ma2ZoWDZhTzhJbTNFeDBfQllEWS02eHhST1FPRWI0VlRMOEhHanpvUjZpWkNPWEJLS1BlSllaZ25XeTRGUXF3bUZEcE5n?oc=5",
       "published_at": "2026-11-26T05:13:00+00:00"
-    },
-    {
-      "title": "What to know about Taiwan’s local elections and why they matter to China",
-      "source": "AP News",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNQkJtZkJkd3k1QWVRN1AyYU9YZUtNWG4wRndpSThLaHVoUUYyLWYySUVRbXlVTFdNVHZZdkFxNkoyOEhJVWJudHI4Y2FzUVA4b1kwclljQi1CVkFuSUxfaDVCSXoxeXF4YklYTXUtckpSWEFkOTdwM18xdjJNWHFHM0dhRHVBXzRsZElucnRjdWRONkJjcGYyeFFsSGE?oc=5",
-      "published_at": "2026-11-26T05:02:00+00:00"
     },
     {
       "title": "Musk Says Every US Kid to Get Two SpaceX Shares, Doubling Pledge",
@@ -663,12 +1460,6 @@
       "source": "AP News",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxONEtNTlFzQUotcXU1N1VCaXBGY0pYWnlqLWVfQ0F3WVl4YkdGMXBIZzdOczlFaFNnUUdZclhRVVlxNE5yVjhzektQSDh0YmRtaGVGQWk3UmNMbUljUjNmZ3NDMTh2dUhlNDdKMzBydnRGZ09EelN2anNjNTcyWkN5OTZkR25TUllOWjZ5SVhoVDJwZ245Q01lSVozd2dfdjRoRFhYTXo3LWtaaTgwanR2eURrMnY2ZEt5?oc=5",
       "published_at": "2026-11-25T20:40:00+00:00"
-    },
-    {
-      "title": "Fighting in eastern Congo forces Ebola workers to evacuate, threatening outbreak response",
-      "source": "AP News",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNRDFtT0M3ampBX21sZVc4a0VHSDhwMjcwdm16S2ltOE1SUnBEN29UbmhFQVg2d0U0cmVLTVdrU3k5TS15eWNsUGZKekFqYWFUdGlkTlpWTG93ZHlEUE5CRkJYV2ZfU3lQcUpYcEpiT2g2MXN1OHJWSzhPNWdsX2hwbHJPQVlvQm41UFBNZE5ES1N1d1FMZEkybDJ0ZVp0cHRpSWVibA?oc=5",
-      "published_at": "2026-11-25T19:29:00+00:00"
     },
     {
       "title": "Could renewed strikes on Hodeidah port worsen Yemen’s humanitarian crisis?",
@@ -911,12 +1702,6 @@
       "published_at": "2026-11-24T14:30:21+00:00"
     },
     {
-      "title": "China unveils new space mission crew, with a Pakistani astronaut set to board its space station",
-      "source": "AP News",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPTno4Y1I0UnZqSU1JaG15VG5qTm1HNjhQbUpab2ZIbDQ4YTY1YTdxMkxWenVxOUFOMWhXQUlTT1NIVGZYUGJrRUdkXzdxLXZEMzFmLVlxelhRRXlWbFVQQ1JuVTlBZDhjS09RS1JuTUs1Q3RrWTRHTzBOUFNEQmZha0FXNndUY25NY2ozbTlqSEc0TFVUSUFJ?oc=5",
-      "published_at": "2026-11-24T13:47:00+00:00"
-    },
-    {
       "title": "Heat deaths reach record high in UK in 2026",
       "source": "Al Jazeera",
       "url": "https://www.aljazeera.com/news/2026/11/24/heat-deaths-reach-record-high-in-uk-in-2026?traffic_source=rss",
@@ -975,12 +1760,6 @@
       "source": "AP News",
       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPbEdETmxDZ2pxSlU0VUFEWktyS2ZfTU5EZ3pKNlVqOW95dFRPTTRFWC15RFdiTF9OT2xDaVBsTHliQURsUlluM0U3QVp3N3EyY08xRGwzQjNBQk4xeW8xNzdkbU1fc04zbEFCM2w4azBoeC1jTUNISHpUbWVTMU9VT29XbkZyUGc?oc=5",
       "published_at": "2026-11-24T06:29:06+00:00"
-    },
-    {
-      "title": "Pakistani pilot to become first foreigner to fly to China's space station",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNTjlOOEE2ZGVBYmJLbmlvRXdLTzF4UjNOVXFoY0J6c29vSDF1cDZBTk02QTFDWlRwbk9ESThyeGI0dzdKUFhhMmRyb0ZmVWlsLXlUR2ZNTHJjckdybTRlMTRYOWNwcDhSV2duaTI4ZXB5dFlCNlBTSnlCYTNQN25ZdThTS3NHVUtlZ1NIQ2Z1cWZLLTgzQ3VocjZNcFRBMmJQZjZ0dFZ1UXRCcU0?oc=5",
-      "published_at": "2026-11-24T02:49:00+00:00"
     },
     {
       "title": "Anthropic falls below IPO price as tech rally fades",
@@ -1103,12 +1882,6 @@
       "published_at": "2026-11-23T05:57:28+00:00"
     },
     {
-      "title": "What to Know About Taiwan’s Local Elections and Why China Is Watching",
-      "source": "Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQalgwbUp2N2RYa29nSEQ1aF9QVlE2eXlOVC1ydklpR3R3NVR3ZkZXQ1RiMVB3ckhpQlJ0N044M3ZvUEhReTQxelREcEtET1gyenozYURIVDZzRXo0X3llOUVSYU9pRzJ0OUdCTDFlLV9xT0NRa0NTY0k3VFVqSGdjUFRvNkJHMVdXWmxQTXVkQmRfdzdNRExNdG42X0Roa01LZXpBeG9mQWdUZ1Q5a281djB6dXFqLUdsS1Y0d2pScTdieEVMdThJ?oc=5",
-      "published_at": "2026-11-23T05:30:00+00:00"
-    },
-    {
       "title": "South Korea vows to stabilise stock market after KOSPI drops 5%",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOaF9QVUplYkNRSkhhV19adWpudklsdXcxV0dodVVtYzc1WHJUWTNRMkduX1UxaURycVZTREc4RGpzOURZcFhvSTN3MUxwYUhuNWluQzVfSFAydjZ1bnVFR3VYaXpFY05XVW5OOUR2R0E3VkYwZzJHajh6MndCYUtsNnBxOGhib0dUUFlvRlNIRnp2TGl2Mml3emx5emcyQWFMajdNWGhRNnRkbW5fTk1ZUlV2VURvcHgwcndHN0Z1eDE5S19IS0FTZm43NmVZbUk?oc=5",
@@ -1157,18 +1930,6 @@
       "published_at": "2026-11-20T21:41:24+00:00"
     },
     {
-      "title": "US targets Iran’s ship-to-ship transfers: Can Tehran break the blockade?",
-      "source": "Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNQUpfdWFVN1RtcXA2YUJqWXhOUGRsdnY3VGR1SnJBX20zUExFTnA5c3RYVWhudXktd1RmQm95c2dpUE04QXdiU2dIb3YxakQzeVctc1c5cDZRZlZWLThzSmFQVnZXelBjaF9BZU1tZUJScGdXWGZXdS05aHFoZHdBbzhMZVpncDgyeTFvUm1NRWxoYkRONHhjVVJ5NjZIeEZuZHFtREVtSHVuTllranJBY9IBtgFBVV95cUxQUDQwdHJ3VzRYcEZhNjNkdGM2X1VtRy10R1RRVmR1NEt1dFU5bzRvZGJiZXo5bjVENmdjUlgzLTJyVm1ZdUdORF82d0hSRTVvcURLeTA1UGJiUFRrbFJUWmliOUNzRXdCb3hpNDNvMm1RWF82ZWg1LW5WeFZVbzlGQm4zRmp1UWJWQzZFNzNVS2haaGpnQWsteXNqTHRaQ1ZLNGRXMWh5WUhVOVNPQzV1RnNyaTJ2Zw?oc=5",
-      "published_at": "2026-11-20T13:27:05+00:00"
-    },
-    {
-      "title": "‘Too early’ to determine impact of US blockade on Iran, with Tehran defiant",
-      "source": "Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNR0tDOEoxcE1oTWlVYnFZX2w3SXQ4UHY5ZGM5NUhiOVNiblhqMm1ZblFiWFF4YTVPM0RaZURuMjFkNjNFOHRiaDExTGtFZEJrN0tMR0EycjdieDZCRHRPTFdvVDlqSE4wMnYzbl83TkJvRE11bWRtdVU3a1RWLXdwdzhyRXhmVndmU0ZHZ3NJLWowdWh1QVA3TkJyS0RfdnV1SFRRQlNCR3lGSnplWXVmUWgzMWfSAboBQVVfeXFMTU1hWUtoLVAyQ3VmUW1hVDJRRUxjYXRyODAzY2RrdWR0SnE2a09VMDROQjRfdUc3azJSU0R2djhtdTAyb0hwTHREMFZjcURxTDlyMHVKZjBlcDdYbzNtOTFCdzNadnZhZ3VjUV9tVmlDcUJvWVJNNU1xa3puRzVXVVZHNmhiSmhBai14WWQzbWpIVHJQVXIyVWlBaDVIWElzeDNmUVdDMTRuYmFNTzdUMVBSNDBXRkxaX0Jn?oc=5",
-      "published_at": "2026-11-19T08:00:00+00:00"
-    },
-    {
       "title": "Saudi-backed forces in Yemen bolster defenses near Aden to deter Houthis, and other Mideast news",
       "source": "AP News",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOR2l1bWc4eTF3NXJ2NktEbGZGWnRzeUJyYzBaQmxBdnpnblVHeEVzaDVZR01ndG1UQVAzTkdtVGxaYlRZcEJ6S3BHRTJuVkRXVjFkZkpOb3lYcGlsc25UVW41QjA1QmgxY1hBaUp0ZWYxQjFZYXhyWklaZFdLMEVEcnFoOWRSR1poMEh4ZWN0ZXlETnlJWU5JdXUycEMtdkszeXAxZEtPa2gwS3MwcDQ0eDRFNUQ?oc=5",
@@ -1181,34 +1942,10 @@
       "published_at": "2026-11-12T08:00:00+00:00"
     },
     {
-      "title": "Ebola cases in DR Congo pass 11,000, with 5,387 deaths",
-      "source": "Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQOHFneWtwQkdxVkhPdnVreTRPcEIwRG5aVDVfMDZuenQtZlZOREQ5NVNLSS1iNVRRbnlwd3FveXdRdzV5cUc1YUs1eHdRVEFKZFp2dlExeW5zeXl3cDlQcExZTWJUeElDSnlOcExUVlo5SEZGZjhWamMzeTZNVGdCR3paOUVaN0xJaEJGVjNBTTVZRlhLS3g2SNIBngFBVV95cUxPZjlOOGhLR2FhdFdMYk9oNWJEN0V3Q2NaMGJKcXJ4SGZRTHA5bWg3UEl3R2pVbFZIc04tSjFxX3otdFFDX2pySzhvN0NCWTJQZWxtTXhwVDU5RnZkd2hVNVUxT2NycksyNXNOMEMzWW8wNExESGJ4TURySHN5cEswMVBlNzhjZGpTLXhKVWppUS05Q3VhT1NsYTlBZjZjdw?oc=5",
-      "published_at": "2026-11-11T08:00:00+00:00"
-    },
-    {
-      "title": "Can Tehran survive a ‘zero oil’ budget, if US blockade on Iran persists?",
-      "source": "Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPZk10RTdpWlBNQTRoZ0dtdDJXcng3SDYtODIzYlNab0VKRFhGRVJVUHZueUE4UXpiQXNhd2RkYlgtYzFzUUVtTEZ0YV9tTlBkdHhsdzBvTi1mbHNqa2JCT200ekM1b3VyaEZocE5KU0Y1TUhpQ0lZN2hSek5YOUJJSHhIZDJzWk85VThuYmlDQnZwRXJQa1pjOFRSenFJbkRBMURuY0ZKRTJ6VW1QMXRzZ2hDVdIBuAFBVV95cUxQZDF3Rm1YU09HcC1FWEpPU0VfQTZON3hXZ21TZVJfRUIxT2ZFV1VxREJ5cXZfN3oyTnR1ZFFQckZlRkFualZodDFvLVd0alNZd2RaSXhMMlR6WVRoUzg1UWxNdFhZUlFZS2xWTFB1ZG9sYjZzWjVMU2oyaHRiQ0Z6V0U1R3N1NDZ2SU9GMFB5SVNTX1dXU0ktWC1iTjlDYXJ6V3dHUTNJWTNlMmt1RndlS3BVTUNaRUFk?oc=5",
-      "published_at": "2026-11-11T08:00:00+00:00"
-    },
-    {
       "title": "Russian strikes aim to cut Ukraine in half, Zelenskyy warns",
       "source": "Financial Times",
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPeHBnamJTa0pVQ0g3dVFFNlVIOXRvLTE0QVRmbVVNcnY5c3d5MHVHUEdCQXhlZEpUZU1XaUFHZWMyUkFoRHVva2Mwc3FhdEtKRy1Vdl9kbERTYndCalNWMXpFQXUzZTI2ZnBRSWkyTUs3bFlRRUNDMF9zY2liSHJIajBsSjE?oc=5",
       "published_at": "2026-11-09T08:00:00+00:00"
-    },
-    {
-      "title": "Pakistani astronaut to join China’s next space station mission",
-      "source": "Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOQTRRRXdXNmphejg5d3hubWpfNVZ2Skp0XzNQamJZRE1hN202Y3czZ3JyZWRPalJDaks3VlNvMy10NERJa1YxRDVUUVVxempZRk1oTjBPMVQwdm5UMW52VEJyMFRvSDNBTFI5Q2hQY3RBOWpacnA5eFFicGNYWXZpdXhFUmRKYnlwZ0VaYlNBUFd6Mm16M2hkTW5zd3lLQXYxaXIzQ9IBqgFBVV95cUxQSXZKQ0VIZHBaejV4UGp5Zy04MmJ0Njd2ejNJTkpZOThpX3VZT2huRHY4YzJsNUJyd0pwdnIxQ0xiQ0lDWnd6MmYzQU9CRTZPRTc2bjY0d081NkcwelZBVWhKeDlsV3Z4Q2NXODhMZkVCME5QUHE4YS1oRzRfeDZTaDdaQmdnb09EVjJEM212MEdwclBnaFhtZWttbXd0OUhHTFZ1SGtycXZPUQ?oc=5",
-      "published_at": "2026-11-07T08:00:00+00:00"
-    },
-    {
-      "title": "Pakistani astronaut to board Shenzhou 24 and become the first foreigner on China's space station",
-      "source": "AP News",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQenFsUWZUMFNoeXpOUXdEX0xad010OWlJemJJQl93YjBrcFhySkxxWVpackkxamQ3Q08yampBaXRtOFNhWVd1VHNjSklUSy1JWC1taUszYTdVbnJ2U2N5aWhmcVlpLVFLSjRQWGhNZS1ieTBpdjVuWG9MRkROWXNBV0YzSkdobnl2T1hwU0hUNThiREQtQWFsZXZHdWFVN2hp?oc=5",
-      "published_at": "2026-11-06T08:00:00+00:00"
     },
     {
       "title": "Are Houthis using Russian satellites as Saudi Arabia fends off strikes?",
@@ -1298,8 +2035,26 @@
   "context_checks": {
     "1fe1c9afe550": {
       "version": 4,
-      "query": "kenyan doomsday cult",
-      "at": "2026-11-28T07:22:02.334024+00:00",
+      "query": "paul mackenzie kenyan",
+      "at": "2026-11-28T08:17:21.839151+00:00",
+      "stage": 0,
+      "matched": true,
+      "exhausted": false,
+      "searched_days": 30
+    },
+    "36b3cc28dbe7": {
+      "version": 4,
+      "query": "egypt cairo crash",
+      "at": "2026-11-28T08:17:21.839151+00:00",
+      "stage": 3,
+      "matched": false,
+      "exhausted": true,
+      "searched_days": 730
+    },
+    "bbfc20f71a9f": {
+      "version": 4,
+      "query": "peruvian military crash",
+      "at": "2026-11-28T08:17:21.839151+00:00",
       "stage": 1,
       "matched": false,
       "exhausted": false,
@@ -1934,15 +2689,6 @@
       "matched": false,
       "exhausted": false,
       "searched_days": 30
-    },
-    "36b3cc28dbe7": {
-      "version": 4,
-      "query": "egypt cairo crash",
-      "at": "2026-11-26T15:32:05.886828+00:00",
-      "stage": 3,
-      "matched": false,
-      "exhausted": true,
-      "searched_days": 730
     },
     "1d8d06fc1c91": {
       "version": 4,
