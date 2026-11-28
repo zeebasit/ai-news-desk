@@ -1,120 +1,7 @@
 {
-  "generated_at": "2026-11-28T01:17:20.411684+00:00",
+  "generated_at": "2026-11-28T01:55:38.449947+00:00",
   "model_mode": "sentence-transformers",
   "stories": [
-    {
-      "id": "f381af59dc09",
-      "title": "Ebola outbreak in Congo reaches 12,000 cases as violence forces some responders to evacuate",
-      "summary": "Ebola outbreak in Congo reaches 12,000 cases as violence forces some responders to evacuate AP News",
-      "image": "",
-      "category": "World",
-      "importance": "Major",
-      "background_only": false,
-      "score": 87.1,
-      "published_at": "2026-11-27T13:16:53+00:00",
-      "source_count": 2,
-      "reasons": [
-        "high-impact event",
-        "reported fatalities",
-        "record institutional or health trend",
-        "2 trusted sources"
-      ],
-      "sources": [
-        {
-          "name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOODk5TW1rbDA5Ml84Vzh3OWVzdW12UkFLbXJzQlZSbG9rNTQxZGl1bjBPQ1FsNURnQ21MU3FFX1RqZFVDdzJrSXR5YkRTTndHcERGWUpyaklFeWxlQ2l4aXhKT1ctM1cwMDdtOHg5RHQ3ZmhqVTIyWFVHUWdHSG40WExZWkJSM1lZNndDSFBlbEdNNnM?oc=5",
-          "published_at": "2026-11-26T13:48:05+00:00",
-          "paywalled": false
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNVzFQakZZX0tuY3NBTmY5c2ZxUVMtalhoRWEzMkx1YjFFb0luaHJYSzRpSFF5RExpX3ZqTmd6TjZOb0UyaWt0UVcwLXhZYm42ZUZrZkV1MTZvM0hweGZHX1NvN0RyeE0tdm5DdFhDUHZKQWxyN3MzYUowUnJpNXNobEVfdnN1OFZKMW5Hd1VTMEVsMnROb0ZZVEkyRWx0VF9ac25pQjg0Sl9OdnFBSHBBY2JNbnjSAboBQVVfeXFMTnNqSlM3NkdSazIteU1tVDJBNDkwYTVEV3NsYU1ScEJHWWgyS25WWGdGcWk1YTdxaGp1QVJDeGJJS09ZNlpaemJXVnZRckM1Y3pmRlI3bUFoVjJWODdIT0h0cHVpcHVUcno5UnRPc1N3OTFGWlVKaFVpQ3lYZkpOWEgyZmNYeW5xM3lINkhaVXRRaExjWlBWWGFLRkVRUzUxWTQ0YTdkb1FNcXBGdl9KWTJQdF8yb1pOQ25R?oc=5",
-          "published_at": "2026-11-26T08:07:42+00:00",
-          "paywalled": false
-        }
-      ],
-      "lead_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOODk5TW1rbDA5Ml84Vzh3OWVzdW12UkFLbXJzQlZSbG9rNTQxZGl1bjBPQ1FsNURnQ21MU3FFX1RqZFVDdzJrSXR5YkRTTndHcERGWUpyaklFeWxlQ2l4aXhKT1ctM1cwMDdtOHg5RHQ3ZmhqVTIyWFVHUWdHSG40WExZWkJSM1lZNndDSFBlbEdNNnM?oc=5",
-      "first_reported_at": "2026-11-27T06:48:50+00:00",
-      "update_count": 7,
-      "updated": true,
-      "coverage_history": [
-        {
-          "at": "2026-11-27T15:27:19.994448+00:00",
-          "source_count": 1
-        },
-        {
-          "at": "2026-11-27T16:22:09.965297+00:00",
-          "source_count": 1
-        },
-        {
-          "at": "2026-11-27T17:17:21.400596+00:00",
-          "source_count": 1
-        },
-        {
-          "at": "2026-11-27T18:12:14.860436+00:00",
-          "source_count": 1
-        },
-        {
-          "at": "2026-11-27T18:54:06.583318+00:00",
-          "source_count": 1
-        },
-        {
-          "at": "2026-11-27T19:47:13.106519+00:00",
-          "source_count": 1
-        },
-        {
-          "at": "2026-11-27T20:42:04.272737+00:00",
-          "source_count": 2
-        },
-        {
-          "at": "2026-11-27T21:37:02.626027+00:00",
-          "source_count": 2
-        },
-        {
-          "at": "2026-11-27T22:32:06.682815+00:00",
-          "source_count": 2
-        },
-        {
-          "at": "2026-11-27T23:27:25.081588+00:00",
-          "source_count": 2
-        },
-        {
-          "at": "2026-11-28T00:22:17.050973+00:00",
-          "source_count": 2
-        },
-        {
-          "at": "2026-11-28T01:17:20.411684+00:00",
-          "source_count": 2
-        }
-      ],
-      "context": {
-        "earlier_reporting": [
-          {
-            "title": "Ebola cases in DR Congo pass 11,000, with 5,387 deaths",
-            "source": "Al Jazeera",
-            "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQOHFneWtwQkdxVkhPdnVreTRPcEIwRG5aVDVfMDZuenQtZlZOREQ5NVNLSS1iNVRRbnlwd3FveXdRdzV5cUc1YUs1eHdRVEFKZFp2dlExeW5zeXl3cDlQcExZTWJUeElDSnlOcExUVlo5SEZGZjhWamMzeTZNVGdCR3paOUVaN0xJaEJGVjNBTTVZRlhLS3g2SNIBngFBVV95cUxPZjlOOGhLR2FhdFdMYk9oNWJEN0V3Q2NaMGJKcXJ4SGZRTHA5bWg3UEl3R2pVbFZIc04tSjFxX3otdFFDX2pySzhvN0NCWTJQZWxtTXhwVDU5RnZkd2hVNVUxT2NycksyNXNOMEMzWW8wNExESGJ4TURySHN5cEswMVBlNzhjZGpTLXhKVWppUS05Q3VhT1NsYTlBZjZjdw?oc=5",
-            "published_at": "2026-11-11T08:00:00+00:00"
-          },
-          {
-            "title": "Fighting in eastern Congo forces Ebola workers to evacuate, threatening outbreak response",
-            "source": "AP News",
-            "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNRDFtT0M3ampBX21sZVc4a0VHSDhwMjcwdm16S2ltOE1SUnBEN29UbmhFQVg2d0U0cmVLTVdrU3k5TS15eWNsUGZKekFqYWFUdGlkTlpWTG93ZHlEUE5CRkJYV2ZfU3lQcUpYcEpiT2g2MXN1OHJWSzhPNWdsX2hwbHJPQVlvQm41UFBNZE5ES1N1d1FMZEkybDJ0ZVp0cHRpSWVibA?oc=5",
-            "published_at": "2026-11-25T19:29:00+00:00"
-          },
-          {
-            "title": "Congo's Ebola cases exceed 12,000 as responders struggle to contain outbreak",
-            "source": "Reuters",
-            "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPUkt4SEJRQUV2dDAxRi1DbDRsOXlhVWhfNVZvRTRzbDhTYzN0R1JiN0tUbFVpMGF1LTlweUtaRTVySVphaDVRdTBJNmZhdzRMVUt0cTc0c0FPOTJuc3RMYTEyOTJZM3B0bnBJdm9PRGtIMk9LUHk4dXhrRnV0OE1zSDRtRTNlWXFOanJlQnNYbHBERUNfdDhMc2c0SGFFX1JnSnNIWWNvTjQwSUpRWVdlTE1DOElDVXhKRTROUUhOM0lxbVozZ01PN1F3eDZldXQ3dUtNVXhlMA?oc=5",
-            "published_at": "2026-11-26T05:29:00+00:00"
-          }
-        ],
-        "coverage_from": "2026-11-11T08:00:00+00:00",
-        "search_query": "ebola congo outbreak",
-        "search_days": 730,
-        "searched_days": 30,
-        "search_status": "matched"
-      }
-    },
     {
       "id": "5ceed16d1376",
       "title": "31 dead in huge blast following crash on Ring Road near Al-Warraq, Giza",
@@ -146,6 +33,10 @@
       "coverage_history": [
         {
           "at": "2026-11-28T01:17:20.411684+00:00",
+          "source_count": 1
+        },
+        {
+          "at": "2026-11-28T01:55:38.449947+00:00",
           "source_count": 1
         }
       ],
@@ -203,12 +94,8 @@
       "lead_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQSVlnZUw4RDlTOHozeE16S3Y2ZkZtSmx1MURPMHhHNTNSUmZ5UnhzR0RtbXBzM1NiTDlXejI2YjBiYm5fQzBsNkNkOGxQSllwQ3JJUWsxdUNRMTFjRnBiVzR4YlVaM0FoTDRGRkJJYVl5dnB1Wmw3NmM3bnJnTDlIZ0RiandFckZOTzluRjB0VGIwdEFEejd3WEgyeWY2dmRuY0JiaVRyZ2LSAa4BQVVfeXFMT2JzRFExbl8xU0JKX0VBT2dRNDU1LVlXalk0YndDc0F6OFdOSW02RmVsc3JZNmNXMnB6aHA2R1RYTzFsbk9UeS1ob0ZpYXdlWEJvMnR2OXhLeS1nTDJwRXU3VEp2cmRFUUF4dFMzdGVtZThDRXFtRGhuU21rdGhmMzF3R0RLbTNvM1plSmcwSngyTFRtZTBRemNndklEY1k5b05qbGdGeVl4RTdyQ3p3?oc=5",
       "first_reported_at": "2026-11-26T21:10:50+00:00",
       "update_count": 12,
-      "updated": true,
+      "updated": false,
       "coverage_history": [
-        {
-          "at": "2026-11-27T15:27:19.994448+00:00",
-          "source_count": 4
-        },
         {
           "at": "2026-11-27T16:22:09.965297+00:00",
           "source_count": 3
@@ -251,6 +138,10 @@
         },
         {
           "at": "2026-11-28T01:17:20.411684+00:00",
+          "source_count": 4
+        },
+        {
+          "at": "2026-11-28T01:55:38.449947+00:00",
           "source_count": 4
         }
       ],
@@ -299,10 +190,6 @@
       "updated": false,
       "coverage_history": [
         {
-          "at": "2026-11-27T15:27:19.994448+00:00",
-          "source_count": 1
-        },
-        {
           "at": "2026-11-27T16:22:09.965297+00:00",
           "source_count": 1
         },
@@ -345,6 +232,10 @@
         {
           "at": "2026-11-28T01:17:20.411684+00:00",
           "source_count": 1
+        },
+        {
+          "at": "2026-11-28T01:55:38.449947+00:00",
+          "source_count": 1
         }
       ],
       "context": {
@@ -386,6 +277,10 @@
       "coverage_history": [
         {
           "at": "2026-11-28T01:17:20.411684+00:00",
+          "source_count": 1
+        },
+        {
+          "at": "2026-11-28T01:55:38.449947+00:00",
           "source_count": 1
         }
       ],
@@ -430,7 +325,7 @@
         {
           "name": "AP News",
           "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQbllNUG04bUpwSG83TWFhVWdBMmdqYVBZOWFpZG12WGFCWWxVZUk0ek1oRDk0WWNtRlJlQ2FsemFMYkNtekRDMzVsdjh3VVFneE92dkpzUXNOZ3BGaEFhVGNVeVBXXy1QUnZJT1hyUUdDek9Rb0dMd1RMQjJlUVIzbTJLREtCUkVzbmdrdXNxU3VvaWVU?oc=5",
-          "published_at": "2026-11-25T17:28:00+00:00",
+          "published_at": "2026-11-25T07:59:21+00:00",
           "paywalled": false
         }
       ],
@@ -449,6 +344,10 @@
         },
         {
           "at": "2026-11-28T01:17:20.411684+00:00",
+          "source_count": 3
+        },
+        {
+          "at": "2026-11-28T01:55:38.449947+00:00",
           "source_count": 3
         }
       ],
@@ -504,6 +403,10 @@
         {
           "at": "2026-11-28T01:17:20.411684+00:00",
           "source_count": 1
+        },
+        {
+          "at": "2026-11-28T01:55:38.449947+00:00",
+          "source_count": 1
         }
       ],
       "context": {
@@ -543,10 +446,6 @@
       "update_count": 0,
       "updated": false,
       "coverage_history": [
-        {
-          "at": "2026-11-27T15:27:19.994448+00:00",
-          "source_count": 1
-        },
         {
           "at": "2026-11-27T16:22:09.965297+00:00",
           "source_count": 1
@@ -590,6 +489,10 @@
         {
           "at": "2026-11-28T01:17:20.411684+00:00",
           "source_count": 1
+        },
+        {
+          "at": "2026-11-28T01:55:38.449947+00:00",
+          "source_count": 1
         }
       ],
       "context": {
@@ -598,73 +501,6 @@
         "search_query": "rescuers indonesian battle",
         "search_days": 730,
         "searched_days": 730,
-        "search_status": "searched"
-      }
-    },
-    {
-      "id": "0899220521e4",
-      "title": "US military says it disabled another ship that tried to breach naval blockade on Iranian ports",
-      "summary": "US military says it disabled another ship that tried to breach naval blockade on Iranian ports AP News",
-      "image": "",
-      "category": "Middle East",
-      "importance": "Major",
-      "background_only": false,
-      "score": 47.3,
-      "published_at": "2026-11-27T23:55:16+00:00",
-      "source_count": 3,
-      "reasons": [
-        "high-impact event",
-        "strategic chokepoint risk",
-        "2 trusted sources"
-      ],
-      "sources": [
-        {
-          "name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNVTZNR0tfZHB4Qm11eFRLSFJNQjZNejlab0p2TVUzdjBwR1Bsby0xbkZXNVdGbGlBSmJVWGRrVFRhaDVmcW9OTllRcHdYa2VOUjczdkdlQmFGZFZsMm9iUlVKcDZsZkZUYVVFLWFucUlzTnhPYUFpNXlESWd0cDJHbjlMVjlpdVhEX21fSGZLZzlmYks4a21YRUpJSnhDYVFNNlR1MVVld3o?oc=5",
-          "published_at": "2026-11-27T20:43:00+00:00",
-          "paywalled": false
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNVHhKQVVmUXhlYkI2T3JnUlhHb3pLYk9FRmlqX19JcjZrNWdFV0g3VDdZbGRSclp6akN4bnNjTFctbkdNanpLZWxVSkhPZXVWMDNLVjY1Vm9fTFZWQk10NFAtNFBkenhpMkZkSDFFaWpVVlRGVDhxZnNncmg5dXlVT1ZoaVlYQTZEQnVpc3o4UEhmLVFaeUJpQ0VwTzFVVkdhQWpHWGZ2T2JtM0pTSVl3YzA3R0dNUdIBuwFBVV95cUxQMl9KeEFfTjdYTkRLM1Zfblg0S3Q1OUVhQ1l1VVcyNHhrbHRjQ2Zvcl9TengzSTVrakVPWDM0d00zZy16N21VQVJ0QXNpSW1TT1hraHJYUkc5V3Q5bGxQbktSQ2t0SWlSWWlDeGtYeHBiS1haNDZhNHJJQ1Y0bU5sR1NwX0VCeVJaVlFlMVZkcEhJbzJZbHc0SGx6MFBRc3dLeVVwS0FSd0psbllDMXl6NThCdUNzbnpYcFY0?oc=5",
-          "published_at": "2026-11-27T22:24:28+00:00",
-          "paywalled": false
-        },
-        {
-          "name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPbzhtZElCdnJJN0hCYkdsQ1lTWHc5UDRtNGE4cF9sWE14dlpacmk2blU5cXJMTHp0MGNaMElaQzdSem91dXNpNVRtd1k4ekZza09jVEpubTh3cjlpbE9CNWdMSU1seV9vNDFEeGQ1aDZBY1J1R0JoNVdlcjJaQnlWcU5Ib3ZISHVmNHA4eklQclI2WDIzR0VtNVp0NEJjaDZfcTlKNHRNbW54bGF2TExrR1NaSFJvLUxRcnc?oc=5",
-          "published_at": "2026-11-27T20:06:57+00:00",
-          "paywalled": false
-        }
-      ],
-      "lead_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNVTZNR0tfZHB4Qm11eFRLSFJNQjZNejlab0p2TVUzdjBwR1Bsby0xbkZXNVdGbGlBSmJVWGRrVFRhaDVmcW9OTllRcHdYa2VOUjczdkdlQmFGZFZsMm9iUlVKcDZsZkZUYVVFLWFucUlzTnhPYUFpNXlESWd0cDJHbjlMVjlpdVhEX21fSGZLZzlmYks4a21YRUpJSnhDYVFNNlR1MVVld3o?oc=5",
-      "first_reported_at": "2026-11-27T22:23:02+00:00",
-      "update_count": 2,
-      "updated": true,
-      "coverage_history": [
-        {
-          "at": "2026-11-27T22:32:06.682815+00:00",
-          "source_count": 2
-        },
-        {
-          "at": "2026-11-27T23:27:25.081588+00:00",
-          "source_count": 2
-        },
-        {
-          "at": "2026-11-28T00:22:17.050973+00:00",
-          "source_count": 2
-        },
-        {
-          "at": "2026-11-28T01:17:20.411684+00:00",
-          "source_count": 3
-        }
-      ],
-      "context": {
-        "earlier_reporting": [],
-        "coverage_from": null,
-        "search_query": "us iranian military breach",
-        "search_days": 730,
-        "searched_days": 30,
         "search_status": "searched"
       }
     },
@@ -723,6 +559,10 @@
         {
           "at": "2026-11-28T01:17:20.411684+00:00",
           "source_count": 1
+        },
+        {
+          "at": "2026-11-28T01:55:38.449947+00:00",
+          "source_count": 1
         }
       ],
       "context": {
@@ -756,82 +596,6 @@
         "search_query": "pakistani china tiangong astronaut",
         "search_days": 730,
         "searched_days": null,
-        "search_status": "matched"
-      }
-    },
-    {
-      "id": "36d9da62fb00",
-      "title": "Armed group kills 13 soldiers in western Niger attack, defense ministry says",
-      "summary": "Armed group kills 13 soldiers in western Niger attack, defense ministry says AP News",
-      "image": "",
-      "category": "World",
-      "importance": "Major",
-      "background_only": false,
-      "score": 46.6,
-      "published_at": "2026-11-27T14:31:00+00:00",
-      "source_count": 2,
-      "reasons": [
-        "reported fatalities",
-        "mass-casualty attack",
-        "2 trusted sources"
-      ],
-      "sources": [
-        {
-          "name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOX09kRWFacG5teU43bTdiNXNueFVzaFRva2hNUFFwMVlOeDZ2TFdKTkljV0hRQ0VpTkRWZnRvSmZRTUJpYXVacy02RUlUZGQ3NVJhS2JuelFjbTE5ZkY1Sm82Nk1FQTZZMFpfSW5NN1UzcF9hQ0hma0hKWE54dzducUMzQU9iUkFxSUo5YnE3NTBudw?oc=5",
-          "published_at": "2026-11-27T14:31:00+00:00",
-          "paywalled": false
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNbzZ5N2UxNGRzdjJlTjJPNHlocEFyNmE4MHVqRmhvai1QTmctejc3M0V1V3hNWnhadE5qYU5LVm9Sd2p5UnJKMkNaMC1UQWthMlJoLW9TdHE5anV0T082RHBic0VlYjV5cXFiV1FxbllFejlwWkdhWEZpVjFnOUR0LTFrRi1GakpIdmdJZnBZZFRvU3JwcGNmMklJMXFaUdIBowFBVV95cUxQdDZBUldzSTdPeVBlNlVSMy1hWXRkN0pjZ2VOR2FlaElWX090d3J0NGY4bmVqcjJXU3FGZzBTcUliVkZBazlDenY3eklfR2RsLUtkVE5wWEJ6eFZPQlBud2ZKT2I3eUotM3VkaVFRZEpKRE9YdnBZX0VIcUpKcmhOOHdSWjFoSUlPQ2dwOWwzTGtWNktxT2dyRjJsdThxWnNjVXFn?oc=5",
-          "published_at": "2026-11-27T04:16:53+00:00",
-          "paywalled": false
-        }
-      ],
-      "lead_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOX09kRWFacG5teU43bTdiNXNueFVzaFRva2hNUFFwMVlOeDZ2TFdKTkljV0hRQ0VpTkRWZnRvSmZRTUJpYXVacy02RUlUZGQ3NVJhS2JuelFjbTE5ZkY1Sm82Nk1FQTZZMFpfSW5NN1UzcF9hQ0hma0hKWE54dzducUMzQU9iUkFxSUo5YnE3NTBudw?oc=5",
-      "first_reported_at": "2026-11-27T14:31:00+00:00",
-      "update_count": 0,
-      "updated": false,
-      "coverage_history": [
-        {
-          "at": "2026-11-27T20:42:04.272737+00:00",
-          "source_count": 2
-        },
-        {
-          "at": "2026-11-27T21:37:02.626027+00:00",
-          "source_count": 2
-        },
-        {
-          "at": "2026-11-27T22:32:06.682815+00:00",
-          "source_count": 2
-        },
-        {
-          "at": "2026-11-27T23:27:25.081588+00:00",
-          "source_count": 2
-        },
-        {
-          "at": "2026-11-28T00:22:17.050973+00:00",
-          "source_count": 2
-        },
-        {
-          "at": "2026-11-28T01:17:20.411684+00:00",
-          "source_count": 2
-        }
-      ],
-      "context": {
-        "earlier_reporting": [
-          {
-            "title": "Armed attack on airport in Niger’s capital kills 11 soldiers, 2 civilians",
-            "source": "Al Jazeera",
-            "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOZUZxRm9Ua1htYTVXSGJoRkg3aGx4d0lVQkE3SVE4M2NhVlB0dmlRb2xfTHBLLXBHbG43eXZrRDB2Tmp0ZkpjaWh2NFZodzBpWlZlVllLOEZNVXFSTkFSdjhIbHU4dGswaExueDJlbFU3UWtvZVNwVHBnQm1ueDdNVkFqNE11ai1ZN3hpd2lWNW9XcG5JMWFHOTh2VEdHQzZKc3BlVHQ1bWFrYXN3Z1NKMtIBtgFBVV95cUxPUVR3Zm11XzM0LUJVZXIzNlVobnphWFN1d3FXaW9maTVxNmlxMEU3M3QzX193ZDZYNjd4dnZmN0JWYzVRTm9lVng5dmtRRHdTQUhWRHRkbW5sc0IwZ1JtR0ZURnd6MmtzRzkyUkVnMUU2ZW9TZjNMeW1qTEpYNGZJVW1xUG5xT1NkdU9mMWd1UzBJOWptQi1WSW5kRk1OSWlmNEhxVlh6ZVUydXNNT05ZeUt3dUdKdw?oc=5",
-            "published_at": "2026-06-18T07:00:00+00:00"
-          }
-        ],
-        "coverage_from": "2026-06-18T07:00:00+00:00",
-        "search_query": "armed niger group",
-        "search_days": 730,
-        "searched_days": 180,
         "search_status": "matched"
       }
     },
@@ -878,6 +642,10 @@
         {
           "at": "2026-11-28T01:17:20.411684+00:00",
           "source_count": 1
+        },
+        {
+          "at": "2026-11-28T01:55:38.449947+00:00",
+          "source_count": 1
         }
       ],
       "context": {
@@ -887,6 +655,189 @@
         "search_days": 730,
         "searched_days": 730,
         "search_status": "searched"
+      }
+    },
+    {
+      "id": "0899220521e4",
+      "title": "US disables ship attempting to breach Iran blockade",
+      "summary": "The US military says it disabled a commercial ship after it left an Iranian port and ignored warnings to stop.",
+      "image": "",
+      "category": "Middle East",
+      "importance": "Notable",
+      "background_only": false,
+      "score": 45.1,
+      "published_at": "2026-11-27T23:55:16+00:00",
+      "source_count": 2,
+      "reasons": [
+        "high-impact event",
+        "strategic chokepoint risk",
+        "2 trusted sources"
+      ],
+      "sources": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/27/us-disables-ship-attempting-to-breach-iran-blockade?traffic_source=rss",
+          "published_at": "2026-11-27T23:55:16+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPbzhtZElCdnJJN0hCYkdsQ1lTWHc5UDRtNGE4cF9sWE14dlpacmk2blU5cXJMTHp0MGNaMElaQzdSem91dXNpNVRtd1k4ekZza09jVEpubTh3cjlpbE9CNWdMSU1seV9vNDFEeGQ1aDZBY1J1R0JoNVdlcjJaQnlWcU5Ib3ZISHVmNHA4eklQclI2WDIzR0VtNVp0NEJjaDZfcTlKNHRNbW54bGF2TExrR1NaSFJvLUxRcnc?oc=5",
+          "published_at": "2026-11-27T20:06:57+00:00",
+          "paywalled": false
+        }
+      ],
+      "lead_url": "https://www.aljazeera.com/video/newsfeed/2026/11/27/us-disables-ship-attempting-to-breach-iran-blockade?traffic_source=rss",
+      "first_reported_at": "2026-11-27T22:23:02+00:00",
+      "update_count": 3,
+      "updated": true,
+      "coverage_history": [
+        {
+          "at": "2026-11-27T22:32:06.682815+00:00",
+          "source_count": 2
+        },
+        {
+          "at": "2026-11-27T23:27:25.081588+00:00",
+          "source_count": 2
+        },
+        {
+          "at": "2026-11-28T00:22:17.050973+00:00",
+          "source_count": 2
+        },
+        {
+          "at": "2026-11-28T01:17:20.411684+00:00",
+          "source_count": 3
+        },
+        {
+          "at": "2026-11-28T01:55:38.449947+00:00",
+          "source_count": 2
+        }
+      ],
+      "context": {
+        "earlier_reporting": [
+          {
+            "title": "US targets Iran’s ship-to-ship transfers: Can Tehran break the blockade?",
+            "source": "Al Jazeera",
+            "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNQUpfdWFVN1RtcXA2YUJqWXhOUGRsdnY3VGR1SnJBX20zUExFTnA5c3RYVWhudXktd1RmQm95c2dpUE04QXdiU2dIb3YxakQzeVctc1c5cDZRZlZWLThzSmFQVnZXelBjaF9BZU1tZUJScGdXWGZXdS05aHFoZHdBbzhMZVpncDgyeTFvUm1NRWxoYkRONHhjVVJ5NjZIeEZuZHFtREVtSHVuTllranJBY9IBtgFBVV95cUxQUDQwdHJ3VzRYcEZhNjNkdGM2X1VtRy10R1RRVmR1NEt1dFU5bzRvZGJiZXo5bjVENmdjUlgzLTJyVm1ZdUdORF82d0hSRTVvcURLeTA1UGJiUFRrbFJUWmliOUNzRXdCb3hpNDNvMm1RWF82ZWg1LW5WeFZVbzlGQm4zRmp1UWJWQzZFNzNVS2haaGpnQWsteXNqTHRaQ1ZLNGRXMWh5WUhVOVNPQzV1RnNyaTJ2Zw?oc=5",
+            "published_at": "2026-11-20T13:27:05+00:00"
+          }
+        ],
+        "coverage_from": "2026-11-20T13:27:05+00:00",
+        "search_query": "us iran breach blockade",
+        "search_days": 730,
+        "searched_days": 30,
+        "search_status": "matched"
+      }
+    },
+    {
+      "id": "f381af59dc09",
+      "title": "Ebola outbreak in Congo reaches 12,000 cases as violence forces some responders to evacuate",
+      "summary": "Ebola outbreak in Congo reaches 12,000 cases as violence forces some responders to evacuate AP News",
+      "image": "",
+      "category": "World",
+      "importance": "Notable",
+      "background_only": false,
+      "score": 45.1,
+      "published_at": "2026-11-26T15:22:26+00:00",
+      "source_count": 3,
+      "reasons": [
+        "high-impact event",
+        "3 trusted sources"
+      ],
+      "sources": [
+        {
+          "name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOODk5TW1rbDA5Ml84Vzh3OWVzdW12UkFLbXJzQlZSbG9rNTQxZGl1bjBPQ1FsNURnQ21MU3FFX1RqZFVDdzJrSXR5YkRTTndHcERGWUpyaklFeWxlQ2l4aXhKT1ctM1cwMDdtOHg5RHQ3ZmhqVTIyWFVHUWdHSG40WExZWkJSM1lZNndDSFBlbEdNNnM?oc=5",
+          "published_at": "2026-11-26T09:22:00+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPUkt4SEJRQUV2dDAxRi1DbDRsOXlhVWhfNVZvRTRzbDhTYzN0R1JiN0tUbFVpMGF1LTlweUtaRTVySVphaDVRdTBJNmZhdzRMVUt0cTc0c0FPOTJuc3RMYTEyOTJZM3B0bnBJdm9PRGtIMk9LUHk4dXhrRnV0OE1zSDRtRTNlWXFOanJlQnNYbHBERUNfdDhMc2c0SGFFX1JnSnNIWWNvTjQwSUpRWVdlTE1DOElDVXhKRTROUUhOM0lxbVozZ01PN1F3eDZldXQ3dUtNVXhlMA?oc=5",
+          "published_at": "2026-11-26T05:29:00+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNVzFQakZZX0tuY3NBTmY5c2ZxUVMtalhoRWEzMkx1YjFFb0luaHJYSzRpSFF5RExpX3ZqTmd6TjZOb0UyaWt0UVcwLXhZYm42ZUZrZkV1MTZvM0hweGZHX1NvN0RyeE0tdm5DdFhDUHZKQWxyN3MzYUowUnJpNXNobEVfdnN1OFZKMW5Hd1VTMEVsMnROb0ZZVEkyRWx0VF9ac25pQjg0Sl9OdnFBSHBBY2JNbnjSAboBQVVfeXFMTnNqSlM3NkdSazIteU1tVDJBNDkwYTVEV3NsYU1ScEJHWWgyS25WWGdGcWk1YTdxaGp1QVJDeGJJS09ZNlpaemJXVnZRckM1Y3pmRlI3bUFoVjJWODdIT0h0cHVpcHVUcno5UnRPc1N3OTFGWlVKaFVpQ3lYZkpOWEgyZmNYeW5xM3lINkhaVXRRaExjWlBWWGFLRkVRUzUxWTQ0YTdkb1FNcXBGdl9KWTJQdF8yb1pOQ25R?oc=5",
+          "published_at": "2026-11-26T08:07:42+00:00",
+          "paywalled": false
+        }
+      ],
+      "lead_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOODk5TW1rbDA5Ml84Vzh3OWVzdW12UkFLbXJzQlZSbG9rNTQxZGl1bjBPQ1FsNURnQ21MU3FFX1RqZFVDdzJrSXR5YkRTTndHcERGWUpyaklFeWxlQ2l4aXhKT1ctM1cwMDdtOHg5RHQ3ZmhqVTIyWFVHUWdHSG40WExZWkJSM1lZNndDSFBlbEdNNnM?oc=5",
+      "first_reported_at": "2026-11-27T06:48:50+00:00",
+      "update_count": 8,
+      "updated": true,
+      "coverage_history": [
+        {
+          "at": "2026-11-27T16:22:09.965297+00:00",
+          "source_count": 1
+        },
+        {
+          "at": "2026-11-27T17:17:21.400596+00:00",
+          "source_count": 1
+        },
+        {
+          "at": "2026-11-27T18:12:14.860436+00:00",
+          "source_count": 1
+        },
+        {
+          "at": "2026-11-27T18:54:06.583318+00:00",
+          "source_count": 1
+        },
+        {
+          "at": "2026-11-27T19:47:13.106519+00:00",
+          "source_count": 1
+        },
+        {
+          "at": "2026-11-27T20:42:04.272737+00:00",
+          "source_count": 2
+        },
+        {
+          "at": "2026-11-27T21:37:02.626027+00:00",
+          "source_count": 2
+        },
+        {
+          "at": "2026-11-27T22:32:06.682815+00:00",
+          "source_count": 2
+        },
+        {
+          "at": "2026-11-27T23:27:25.081588+00:00",
+          "source_count": 2
+        },
+        {
+          "at": "2026-11-28T00:22:17.050973+00:00",
+          "source_count": 2
+        },
+        {
+          "at": "2026-11-28T01:17:20.411684+00:00",
+          "source_count": 2
+        },
+        {
+          "at": "2026-11-28T01:55:38.449947+00:00",
+          "source_count": 3
+        }
+      ],
+      "context": {
+        "earlier_reporting": [
+          {
+            "title": "Ebola cases in DR Congo pass 11,000, with 5,387 deaths",
+            "source": "Al Jazeera",
+            "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQOHFneWtwQkdxVkhPdnVreTRPcEIwRG5aVDVfMDZuenQtZlZOREQ5NVNLSS1iNVRRbnlwd3FveXdRdzV5cUc1YUs1eHdRVEFKZFp2dlExeW5zeXl3cDlQcExZTWJUeElDSnlOcExUVlo5SEZGZjhWamMzeTZNVGdCR3paOUVaN0xJaEJGVjNBTTVZRlhLS3g2SNIBngFBVV95cUxPZjlOOGhLR2FhdFdMYk9oNWJEN0V3Q2NaMGJKcXJ4SGZRTHA5bWg3UEl3R2pVbFZIc04tSjFxX3otdFFDX2pySzhvN0NCWTJQZWxtTXhwVDU5RnZkd2hVNVUxT2NycksyNXNOMEMzWW8wNExESGJ4TURySHN5cEswMVBlNzhjZGpTLXhKVWppUS05Q3VhT1NsYTlBZjZjdw?oc=5",
+            "published_at": "2026-11-11T08:00:00+00:00"
+          },
+          {
+            "title": "Fighting in eastern Congo forces Ebola workers to evacuate, threatening outbreak response",
+            "source": "AP News",
+            "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNRDFtT0M3ampBX21sZVc4a0VHSDhwMjcwdm16S2ltOE1SUnBEN29UbmhFQVg2d0U0cmVLTVdrU3k5TS15eWNsUGZKekFqYWFUdGlkTlpWTG93ZHlEUE5CRkJYV2ZfU3lQcUpYcEpiT2g2MXN1OHJWSzhPNWdsX2hwbHJPQVlvQm41UFBNZE5ES1N1d1FMZEkybDJ0ZVp0cHRpSWVibA?oc=5",
+            "published_at": "2026-11-25T19:29:00+00:00"
+          }
+        ],
+        "coverage_from": "2026-11-11T08:00:00+00:00",
+        "search_query": "ebola congo outbreak",
+        "search_days": 730,
+        "searched_days": 30,
+        "search_status": "matched"
       }
     },
     {
@@ -927,7 +878,7 @@
       "lead_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOVGdNcTZ3YU1jUlFzdHFWalJWYzlUSzRuRkFsc3dBbXV1QmRoaW05cGdRYndKWi1vWkQzUVFockJQWjhOZFJKcEp4akY2OEVHdldkbWtoUGk4Wm52TnkxUXRqZ2FPc3JpVEdQV3lXREdSNTlaV0d2Yl9pYVQ3TG5mdzRvemF3MWkxRmdsb25DRGxWSWxTTXltNzM1TGVUNFEtUmt1S1ZhR01RdVJ0?oc=5",
       "first_reported_at": "2026-11-26T04:09:00+00:00",
       "update_count": 1,
-      "updated": true,
+      "updated": false,
       "coverage_history": [
         {
           "at": "2026-11-27T20:42:04.272737+00:00",
@@ -951,6 +902,10 @@
         },
         {
           "at": "2026-11-28T01:17:20.411684+00:00",
+          "source_count": 3
+        },
+        {
+          "at": "2026-11-28T01:55:38.449947+00:00",
           "source_count": 3
         }
       ],
@@ -965,13 +920,13 @@
     },
     {
       "id": "de658703d516",
-      "title": "Verizon in talks over $6 billion deal for Fidium, FT reports",
-      "summary": "Verizon in talks over $6 billion deal for Fidium, FT reports Reuters",
+      "title": "Verizon in Talks to Buy Fidium in $6 Billion Deal, FT Says",
+      "summary": "Verizon in Talks to Buy Fidium in $6 Billion Deal, FT Says Bloomberg.com",
       "image": "",
       "category": "World",
       "importance": "Notable",
       "background_only": false,
-      "score": 41.4,
+      "score": 40.4,
       "published_at": "2026-11-27T18:25:00+00:00",
       "source_count": 3,
       "reasons": [
@@ -980,12 +935,6 @@
         "broad recent coverage"
       ],
       "sources": [
-        {
-          "name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOMG12dXVFaTVOY1I4QnVlelVHenRWT3RKNDA4RWotOXZLSTF0ZThySjZUWlcycnlwNmZ4cjF3SDZIbUdydlJVOWNxNjlqcVBYb3RjcTZSbjNpRkZPZUZBUkxtSWlwVzZENnZIVkNzVFBfTndxc25wN2RobHZSajFLVTlxYVRCcXA3U2FadjlTUS1kNVlOaUVGVlVqUHktUF8yX3pWSmNLY0JKOXAzV2lz?oc=5",
-          "published_at": "2026-11-27T18:25:00+00:00",
-          "paywalled": false
-        },
         {
           "name": "Bloomberg.com",
           "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNVDlMYVRaRWRJSWFBRHlXRlVWWWZvTVlXZjRrWkgzdGc5UjJlX2JqQ1hkYzg3ck5TVzE4UE9ybVBEWEYtaExwdElaNTI1dWtHNVhmQVFnWHRjV3B1amwzNWNTU19BNXpfbVRaZ0dUbU1EX285bmFQaEhycm1Xc2pEQ1l2Ym5kMk5EdkhLVW1XS3JaOWlaYzFGTjhXU1loYjk2NXhSendJOVlpVkk?oc=5",
@@ -997,11 +946,17 @@
           "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQYzFFM2ktMW9uTG81dUw2dGhZTkhNTV9leUNsczRQRWRGNUYyN2htRzZfeXlEQXZDRDFhaDJiSElabkVUN3ZzOG9ta2NaTlU3Q3A3empUZU11TnNXT0ZuZVpjTktYR21BdlktZWE1QXVFdTdKUVB0QS1hRnI5YUhCb183S0o?oc=5",
           "published_at": "2026-11-27T17:29:29+00:00",
           "paywalled": true
+        },
+        {
+          "name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOMG12dXVFaTVOY1I4QnVlelVHenRWT3RKNDA4RWotOXZLSTF0ZThySjZUWlcycnlwNmZ4cjF3SDZIbUdydlJVOWNxNjlqcVBYb3RjcTZSbjNpRkZPZUZBUkxtSWlwVzZENnZIVkNzVFBfTndxc25wN2RobHZSajFLVTlxYVRCcXA3U2FadjlTUS1kNVlOaUVGVlVqUHktUF8yX3pWSmNLY0JKOXAzV2lz?oc=5",
+          "published_at": "2026-11-27T18:25:00+00:00",
+          "paywalled": false
         }
       ],
-      "lead_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOMG12dXVFaTVOY1I4QnVlelVHenRWT3RKNDA4RWotOXZLSTF0ZThySjZUWlcycnlwNmZ4cjF3SDZIbUdydlJVOWNxNjlqcVBYb3RjcTZSbjNpRkZPZUZBUkxtSWlwVzZENnZIVkNzVFBfTndxc25wN2RobHZSajFLVTlxYVRCcXA3U2FadjlTUS1kNVlOaUVGVlVqUHktUF8yX3pWSmNLY0JKOXAzV2lz?oc=5",
+      "lead_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNVDlMYVRaRWRJSWFBRHlXRlVWWWZvTVlXZjRrWkgzdGc5UjJlX2JqQ1hkYzg3ck5TVzE4UE9ybVBEWEYtaExwdElaNTI1dWtHNVhmQVFnWHRjV3B1amwzNWNTU19BNXpfbVRaZ0dUbU1EX285bmFQaEhycm1Xc2pEQ1l2Ym5kMk5EdkhLVW1XS3JaOWlaYzFGTjhXU1loYjk2NXhSendJOVlpVkk?oc=5",
       "first_reported_at": "2026-11-27T18:25:00+00:00",
-      "update_count": 3,
+      "update_count": 4,
       "updated": true,
       "coverage_history": [
         {
@@ -1027,14 +982,66 @@
         {
           "at": "2026-11-28T01:17:20.411684+00:00",
           "source_count": 3
+        },
+        {
+          "at": "2026-11-28T01:55:38.449947+00:00",
+          "source_count": 3
         }
       ],
       "context": {
         "earlier_reporting": [],
         "coverage_from": null,
-        "search_query": "verizon fidium ft",
+        "search_query": "verizon buy fidium",
         "search_days": 730,
         "searched_days": 30,
+        "search_status": "searched"
+      }
+    },
+    {
+      "id": "6c4c04a39634",
+      "title": "Guinea-Bissau’s military junta postpones elections until 2028, extending its rule by two years",
+      "summary": "Guinea-Bissau’s military junta postpones elections until 2028, extending its rule by two years AP News",
+      "image": "",
+      "category": "World",
+      "importance": "Notable",
+      "background_only": false,
+      "score": 40.1,
+      "published_at": "2026-11-26T18:29:00+00:00",
+      "source_count": 2,
+      "reasons": [
+        "high-impact event",
+        "2 trusted sources"
+      ],
+      "sources": [
+        {
+          "name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNMjdRTWo2ZjRYWDRUUjVNOTZvN0lhc3dmSmRGYzdtX2JkbThOU0JReVV3d3BJVGZVLUlVWWhZSDRDeXkwaS1TZkgyWmp3UHQ1aXgzdTFlOWdxOUxLWHlEUnN4aFRKb1JWblhxX2hIWGtMc1FPZjlJeVFsUHhDRndEdm1aUDJzUkhEWk9SUU9RYlJETmc?oc=5",
+          "published_at": "2026-11-26T18:29:00+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQMk9HNVZiMnRlNVhzeXJPVm9kQmM5U1o5WGhtSF9LZ0psa2U0Vm53RVY0eEFsR3RzZDF2V0VsLU9RUGtnSTlpbVRjZHpSeFFZaXFQSlNTeDVxM24wTWV3ZVl0RGhvMVdGb05IY3U3blV3dC1aRWpiRGo2NWdNN1FEdklKa1lqR1AtVHgwaldpTHI0ZXhzRmNmNUhrck0zV2fSAaQBQVVfeXFMT21zZEJQZHU0TjFER3NJc2djV09BaE9MaS1wU1FiWkdjYUF4RUM3ekFRdEZMSGRNbDI5NDl2cjVZM2MzNDUzdjRUMm5HY1N3bEdWU1Q0ODFfZzdGYWdlYV9NWXB0alJqaXhCZXV6N3I5cWh4Q2N0MzhJbG55dE9pTzVYdjZfVU1KTG5XcnR3NlZfeDRtV2RyMWZjQnh4RDU3Vk1IWXg?oc=5",
+          "published_at": "2026-11-26T18:11:32+00:00",
+          "paywalled": false
+        }
+      ],
+      "lead_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNMjdRTWo2ZjRYWDRUUjVNOTZvN0lhc3dmSmRGYzdtX2JkbThOU0JReVV3d3BJVGZVLUlVWWhZSDRDeXkwaS1TZkgyWmp3UHQ1aXgzdTFlOWdxOUxLWHlEUnN4aFRKb1JWblhxX2hIWGtMc1FPZjlJeVFsUHhDRndEdm1aUDJzUkhEWk9SUU9RYlJETmc?oc=5",
+      "first_reported_at": "2026-11-26T18:29:00+00:00",
+      "update_count": 0,
+      "updated": false,
+      "coverage_history": [
+        {
+          "at": "2026-11-28T01:55:38.449947+00:00",
+          "source_count": 2
+        }
+      ],
+      "context": {
+        "earlier_reporting": [],
+        "coverage_from": null,
+        "search_query": "military election guinea",
+        "search_days": 730,
+        "searched_days": 730,
         "search_status": "searched"
       }
     },
@@ -1065,10 +1072,6 @@
       "update_count": 0,
       "updated": false,
       "coverage_history": [
-        {
-          "at": "2026-11-27T15:27:19.994448+00:00",
-          "source_count": 1
-        },
         {
           "at": "2026-11-27T16:22:09.965297+00:00",
           "source_count": 1
@@ -1112,6 +1115,10 @@
         {
           "at": "2026-11-28T01:17:20.411684+00:00",
           "source_count": 1
+        },
+        {
+          "at": "2026-11-28T01:55:38.449947+00:00",
+          "source_count": 1
         }
       ],
       "context": {
@@ -1121,61 +1128,6 @@
         "search_days": 730,
         "searched_days": 730,
         "search_status": "searched"
-      }
-    },
-    {
-      "id": "27e824d5e2d7",
-      "title": "Spain's Sanchez insists he will defy polls as election campaign wraps up",
-      "summary": "Spain's Sanchez insists he will defy polls as election campaign wraps up Reuters",
-      "image": "",
-      "category": "Europe/UK",
-      "importance": "Notable",
-      "background_only": false,
-      "score": 39.0,
-      "published_at": "2026-11-27T19:12:26+00:00",
-      "source_count": 2,
-      "reasons": [
-        "high-impact event",
-        "2 trusted sources"
-      ],
-      "sources": [
-        {
-          "name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOWWJleDNqeFIxY19DeHdSdjNfMWJKYkxMMmtnTWJkZzZDYzFidEVrOXZ0Und0eTJldEx1c1llcnp6VmhSRnJWczVGOXNwbUM5RVZPbDNOUmFPaTRzbWp6YnRtTFM1Y3FxREs5WkFKaUZzeUh3d0hhci1rWlB0QlEwbFNxY1h6bEI0Mkp3NG55aXRBc2JzVmstZk5xeE0wMWg5TS1jVnE5T2U4UlBGR3Y3V0hHZzlfM3B3?oc=5",
-          "published_at": "2026-11-27T19:12:26+00:00",
-          "paywalled": false
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNem1pMTg5cnBXUWhMQU1pV1pmbjBmR29lcnpsS2hQM2pwTlpJUGRxbktCOW5EMGZQb3hlM3JUWDg4Xzh3bU1VYnItYklVNlNRa1lpdERuNHRDQ1l4T3NGQWF4MzhWdEh4TWFNVnBZZ2p0TzJQTWdMWlZrYms3UGhXdU9tSHc2a3FMa3BMaUhlNFZfSUZqeXA5VFFwS280ckpsR2NsN29UMkxFa29XN01mbGd2VkUwczTSAbwBQVVfeXFMTlJackVKZUtBOGZaX3VvbGI5ZGEwZ3VzUDlBaTY5NnEyZEJDUXdIdjI0cGU5MG53cHppUnFCR2pOMkYxNEI5UjhjSVhQdXJYX3RqbnhFTUcyOURER0d6MlU3TGNRMWQwUlhPRWpuZGx5MjIyTEl5aGRnOUZMN2ZBeU9kLXBZYmwybDZNME9zY3ZOVk5raWJHOTV5UUdhMV8yY0h6WWlDV3hVek56aGFIamVMOU1EV1pCcVpUYjA?oc=5",
-          "published_at": "2026-11-27T17:22:18+00:00",
-          "paywalled": false
-        }
-      ],
-      "lead_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOWWJleDNqeFIxY19DeHdSdjNfMWJKYkxMMmtnTWJkZzZDYzFidEVrOXZ0Und0eTJldEx1c1llcnp6VmhSRnJWczVGOXNwbUM5RVZPbDNOUmFPaTRzbWp6YnRtTFM1Y3FxREs5WkFKaUZzeUh3d0hhci1rWlB0QlEwbFNxY1h6bEI0Mkp3NG55aXRBc2JzVmstZk5xeE0wMWg5TS1jVnE5T2U4UlBGR3Y3V0hHZzlfM3B3?oc=5",
-      "first_reported_at": "2026-11-27T19:12:26+00:00",
-      "update_count": 0,
-      "updated": false,
-      "coverage_history": [
-        {
-          "at": "2026-11-28T01:17:20.411684+00:00",
-          "source_count": 2
-        }
-      ],
-      "context": {
-        "earlier_reporting": [
-          {
-            "title": "Spain general election 2026: polls, Sanchez vs Feijoo and what happens next",
-            "source": "Reuters",
-            "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxONjZzMy1MR1FIaWhtS2xqeWlHSmVfN3piVTAtczU5djZMOFludlVUa3M3SC1yeDBqWGlOd0NFMmdUUWRGX3ZMVDQ4aDF2TTN1U2lXOEdfb1pNWmt0TXQ2OHhHUEMwcFhBdk5TMFZKejdhRktPM2ZXUEp6Ym1IOVA1M1RvNnpZNFkwQ05TLWRGb25uTmtqYlM1YlliWFhUcGs?oc=5",
-            "published_at": "2026-11-26T16:00:00+00:00"
-          }
-        ],
-        "coverage_from": "2026-11-26T16:00:00+00:00",
-        "search_query": "spain sanchez election",
-        "search_days": 730,
-        "searched_days": 180,
-        "search_status": "matched"
       }
     },
     {
@@ -1223,6 +1175,10 @@
         {
           "at": "2026-11-28T01:17:20.411684+00:00",
           "source_count": 2
+        },
+        {
+          "at": "2026-11-28T01:55:38.449947+00:00",
+          "source_count": 2
         }
       ],
       "context": {
@@ -1250,24 +1206,6 @@
   ],
   "watchlist": [],
   "context_archive": [
-    {
-      "title": "Ebola cases in DR Congo pass 11,000, with 5,387 deaths",
-      "source": "Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQOHFneWtwQkdxVkhPdnVreTRPcEIwRG5aVDVfMDZuenQtZlZOREQ5NVNLSS1iNVRRbnlwd3FveXdRdzV5cUc1YUs1eHdRVEFKZFp2dlExeW5zeXl3cDlQcExZTWJUeElDSnlOcExUVlo5SEZGZjhWamMzeTZNVGdCR3paOUVaN0xJaEJGVjNBTTVZRlhLS3g2SNIBngFBVV95cUxPZjlOOGhLR2FhdFdMYk9oNWJEN0V3Q2NaMGJKcXJ4SGZRTHA5bWg3UEl3R2pVbFZIc04tSjFxX3otdFFDX2pySzhvN0NCWTJQZWxtTXhwVDU5RnZkd2hVNVUxT2NycksyNXNOMEMzWW8wNExESGJ4TURySHN5cEswMVBlNzhjZGpTLXhKVWppUS05Q3VhT1NsYTlBZjZjdw?oc=5",
-      "published_at": "2026-11-11T08:00:00+00:00"
-    },
-    {
-      "title": "Fighting in eastern Congo forces Ebola workers to evacuate, threatening outbreak response",
-      "source": "AP News",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNRDFtT0M3ampBX21sZVc4a0VHSDhwMjcwdm16S2ltOE1SUnBEN29UbmhFQVg2d0U0cmVLTVdrU3k5TS15eWNsUGZKekFqYWFUdGlkTlpWTG93ZHlEUE5CRkJYV2ZfU3lQcUpYcEpiT2g2MXN1OHJWSzhPNWdsX2hwbHJPQVlvQm41UFBNZE5ES1N1d1FMZEkybDJ0ZVp0cHRpSWVibA?oc=5",
-      "published_at": "2026-11-25T19:29:00+00:00"
-    },
-    {
-      "title": "Congo's Ebola cases exceed 12,000 as responders struggle to contain outbreak",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPUkt4SEJRQUV2dDAxRi1DbDRsOXlhVWhfNVZvRTRzbDhTYzN0R1JiN0tUbFVpMGF1LTlweUtaRTVySVphaDVRdTBJNmZhdzRMVUt0cTc0c0FPOTJuc3RMYTEyOTJZM3B0bnBJdm9PRGtIMk9LUHk4dXhrRnV0OE1zSDRtRTNlWXFOanJlQnNYbHBERUNfdDhMc2c0SGFFX1JnSnNIWWNvTjQwSUpRWVdlTE1DOElDVXhKRTROUUhOM0lxbVozZ01PN1F3eDZldXQ3dUtNVXhlMA?oc=5",
-      "published_at": "2026-11-26T05:29:00+00:00"
-    },
     {
       "title": "Egypt detains a driver suspected of causing Cairo tanker crash that killed 31",
       "source": "AP News",
@@ -1299,16 +1237,22 @@
       "published_at": "2026-11-24T13:47:00+00:00"
     },
     {
-      "title": "Armed attack on airport in Niger’s capital kills 11 soldiers, 2 civilians",
+      "title": "US targets Iran’s ship-to-ship transfers: Can Tehran break the blockade?",
       "source": "Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOZUZxRm9Ua1htYTVXSGJoRkg3aGx4d0lVQkE3SVE4M2NhVlB0dmlRb2xfTHBLLXBHbG43eXZrRDB2Tmp0ZkpjaWh2NFZodzBpWlZlVllLOEZNVXFSTkFSdjhIbHU4dGswaExueDJlbFU3UWtvZVNwVHBnQm1ueDdNVkFqNE11ai1ZN3hpd2lWNW9XcG5JMWFHOTh2VEdHQzZKc3BlVHQ1bWFrYXN3Z1NKMtIBtgFBVV95cUxPUVR3Zm11XzM0LUJVZXIzNlVobnphWFN1d3FXaW9maTVxNmlxMEU3M3QzX193ZDZYNjd4dnZmN0JWYzVRTm9lVng5dmtRRHdTQUhWRHRkbW5sc0IwZ1JtR0ZURnd6MmtzRzkyUkVnMUU2ZW9TZjNMeW1qTEpYNGZJVW1xUG5xT1NkdU9mMWd1UzBJOWptQi1WSW5kRk1OSWlmNEhxVlh6ZVUydXNNT05ZeUt3dUdKdw?oc=5",
-      "published_at": "2026-06-18T07:00:00+00:00"
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNQUpfdWFVN1RtcXA2YUJqWXhOUGRsdnY3VGR1SnJBX20zUExFTnA5c3RYVWhudXktd1RmQm95c2dpUE04QXdiU2dIb3YxakQzeVctc1c5cDZRZlZWLThzSmFQVnZXelBjaF9BZU1tZUJScGdXWGZXdS05aHFoZHdBbzhMZVpncDgyeTFvUm1NRWxoYkRONHhjVVJ5NjZIeEZuZHFtREVtSHVuTllranJBY9IBtgFBVV95cUxQUDQwdHJ3VzRYcEZhNjNkdGM2X1VtRy10R1RRVmR1NEt1dFU5bzRvZGJiZXo5bjVENmdjUlgzLTJyVm1ZdUdORF82d0hSRTVvcURLeTA1UGJiUFRrbFJUWmliOUNzRXdCb3hpNDNvMm1RWF82ZWg1LW5WeFZVbzlGQm4zRmp1UWJWQzZFNzNVS2haaGpnQWsteXNqTHRaQ1ZLNGRXMWh5WUhVOVNPQzV1RnNyaTJ2Zw?oc=5",
+      "published_at": "2026-11-20T13:27:05+00:00"
     },
     {
-      "title": "Spain general election 2026: polls, Sanchez vs Feijoo and what happens next",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxONjZzMy1MR1FIaWhtS2xqeWlHSmVfN3piVTAtczU5djZMOFludlVUa3M3SC1yeDBqWGlOd0NFMmdUUWRGX3ZMVDQ4aDF2TTN1U2lXOEdfb1pNWmt0TXQ2OHhHUEMwcFhBdk5TMFZKejdhRktPM2ZXUEp6Ym1IOVA1M1RvNnpZNFkwQ05TLWRGb25uTmtqYlM1YlliWFhUcGs?oc=5",
-      "published_at": "2026-11-26T16:00:00+00:00"
+      "title": "Ebola cases in DR Congo pass 11,000, with 5,387 deaths",
+      "source": "Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQOHFneWtwQkdxVkhPdnVreTRPcEIwRG5aVDVfMDZuenQtZlZOREQ5NVNLSS1iNVRRbnlwd3FveXdRdzV5cUc1YUs1eHdRVEFKZFp2dlExeW5zeXl3cDlQcExZTWJUeElDSnlOcExUVlo5SEZGZjhWamMzeTZNVGdCR3paOUVaN0xJaEJGVjNBTTVZRlhLS3g2SNIBngFBVV95cUxPZjlOOGhLR2FhdFdMYk9oNWJEN0V3Q2NaMGJKcXJ4SGZRTHA5bWg3UEl3R2pVbFZIc04tSjFxX3otdFFDX2pySzhvN0NCWTJQZWxtTXhwVDU5RnZkd2hVNVUxT2NycksyNXNOMEMzWW8wNExESGJ4TURySHN5cEswMVBlNzhjZGpTLXhKVWppUS05Q3VhT1NsYTlBZjZjdw?oc=5",
+      "published_at": "2026-11-11T08:00:00+00:00"
+    },
+    {
+      "title": "Fighting in eastern Congo forces Ebola workers to evacuate, threatening outbreak response",
+      "source": "AP News",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNRDFtT0M3ampBX21sZVc4a0VHSDhwMjcwdm16S2ltOE1SUnBEN29UbmhFQVg2d0U0cmVLTVdrU3k5TS15eWNsUGZKekFqYWFUdGlkTlpWTG93ZHlEUE5CRkJYV2ZfU3lQcUpYcEpiT2g2MXN1OHJWSzhPNWdsX2hwbHJPQVlvQm41UFBNZE5ES1N1d1FMZEkybDJ0ZVp0cHRpSWVibA?oc=5",
+      "published_at": "2026-11-25T19:29:00+00:00"
     },
     {
       "title": "Paul Mackenzie: Kenya doomsday cult leader sentenced to 200 years in prison for Shakahola deaths",
@@ -1476,7 +1420,7 @@
       "title": "Guinea-Bissau’s military junta postpones elections until 2028, extending its rule by two years",
       "source": "AP News",
       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNMjdRTWo2ZjRYWDRUUjVNOTZvN0lhc3dmSmRGYzdtX2JkbThOU0JReVV3d3BJVGZVLUlVWWhZSDRDeXkwaS1TZkgyWmp3UHQ1aXgzdTFlOWdxOUxLWHlEUnN4aFRKb1JWblhxX2hIWGtMc1FPZjlJeVFsUHhDRndEdm1aUDJzUkhEWk9SUU9RYlJETmc?oc=5",
-      "published_at": "2026-11-26T18:18:17+00:00"
+      "published_at": "2026-11-26T18:29:00+00:00"
     },
     {
       "title": "Trump calls the pre-election GDP figures 'fake' and demands an investigation of Commerce Department",
@@ -1489,6 +1433,12 @@
       "source": "BBC World",
       "url": "https://www.bbc.co.uk/news/articles/crx209kwk4kzo?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-11-26T16:21:19+00:00"
+    },
+    {
+      "title": "Spain general election 2026: polls, Sanchez vs Feijoo and what happens next",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxONjZzMy1MR1FIaWhtS2xqeWlHSmVfN3piVTAtczU5djZMOFludlVUa3M3SC1yeDBqWGlOd0NFMmdUUWRGX3ZMVDQ4aDF2TTN1U2lXOEdfb1pNWmt0TXQ2OHhHUEMwcFhBdk5TMFZKejdhRktPM2ZXUEp6Ym1IOVA1M1RvNnpZNFkwQ05TLWRGb25uTmtqYlM1YlliWFhUcGs?oc=5",
+      "published_at": "2026-11-26T16:00:00+00:00"
     },
     {
       "title": "Two Italians killed in drone strike on Kuwait",
@@ -1519,12 +1469,6 @@
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNelVSdGZIMFMxelZ3SVpNZHYyYzRTZWN4S010bExkN0lmVVk5eng2VWp0VUszQXhGVDF5TUFxTDQzSXFuNmxHazV3d1VSR1BWMFRIeFBMQzJDeUM0RG5Cazhya0dpdDA2ZzJDSnd0WGVvVGItS0ttemdLUGhUbUwwbjBWbUk2VktZQUxsa0haX290d21lVFg5Ri1UZ0FkcFo1ZUpnSUNTd1ZudHJWYnQ5T0U4X0w2aExZRXBSOE9ETlEwa2ljRmxF?oc=5",
       "published_at": "2026-11-26T13:58:06+00:00"
-    },
-    {
-      "title": "Ebola outbreak in Congo reaches 12,000 cases as violence forces some responders to evacuate",
-      "source": "AP News",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOODk5TW1rbDA5Ml84Vzh3OWVzdW12UkFLbXJzQlZSbG9rNTQxZGl1bjBPQ1FsNURnQ21MU3FFX1RqZFVDdzJrSXR5YkRTTndHcERGWUpyaklFeWxlQ2l4aXhKT1ctM1cwMDdtOHg5RHQ3ZmhqVTIyWFVHUWdHSG40WExZWkJSM1lZNndDSFBlbEdNNnM?oc=5",
-      "published_at": "2026-11-26T13:48:05+00:00"
     },
     {
       "title": "Altria explores takeover bid for Imperial Brands",
@@ -1581,6 +1525,12 @@
       "published_at": "2026-11-26T10:31:19+00:00"
     },
     {
+      "title": "Ebola outbreak in Congo reaches 12,000 cases as violence forces some responders to evacuate",
+      "source": "AP News",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOODk5TW1rbDA5Ml84Vzh3OWVzdW12UkFLbXJzQlZSbG9rNTQxZGl1bjBPQ1FsNURnQ21MU3FFX1RqZFVDdzJrSXR5YkRTTndHcERGWUpyaklFeWxlQ2l4aXhKT1ctM1cwMDdtOHg5RHQ3ZmhqVTIyWFVHUWdHSG40WExZWkJSM1lZNndDSFBlbEdNNnM?oc=5",
+      "published_at": "2026-11-26T09:22:00+00:00"
+    },
+    {
       "title": "At least 13 dead in Indonesia gold mine flood as rescue efforts intensify",
       "source": "Al Jazeera",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQWkJ4Z1dXNWRXTmQ5emI0VEF4b2FsMkcxNUNpRjB6N2tFNmNKUzZzbmhORHhTQ1hsNS1BT2JFTzJrQ01aQjk3dS1vVWZaQ3pMV3A2WUFRODJsNFBBN1c4a25VbHZkY2dqVzJMTWp2ZVRxbmZNQnNodWlnTjMxWG1jQWJjMWlZd2h4Tm14QTNJQ3VSNkJPbTF2aUNvdmlENzExR1kwSnFHRHdfOUoxakZTOERmRGl6d9IBuwFBVV95cUxPV051MjYwaUJXZ2pzLW90aTJ0enhCSDdWbTd4eGZaWU4xWTBhMTFsZGxnbUZveHF3b3JIbDZPU284ZXNKZXJWek5vVVlidlQyQlBVOEJ6NDcyRlNPSkF4cG02dE9Vbm1Bb0Z3MGxaUmp0MlJNVVhmZm9iaE1vM3UyQzhUYkUydzFuSWVLNk81WXhKdlpudnJLakNIc29uQWNHS0diUTQ4czJZZF9FTDFTdG5LdkxGeEJtVUJF?oc=5",
@@ -1615,6 +1565,12 @@
       "source": "Axios",
       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9maHp6OXN1a3ZmMDR3a3F6amFwaVF2RnZKRkd0NlMtQmEySkY5LThsd19mNDRsb2VfQjlSWkNzbC01dHd0Vkhqb18yMkFzUm9Kck9TMzZRUFVxRUlNNEdHMU5BNnBFN0FjMTdRc0xXWGpOX0tD?oc=5",
       "published_at": "2026-11-26T05:41:31+00:00"
+    },
+    {
+      "title": "Congo's Ebola cases exceed 12,000 as responders struggle to contain outbreak",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPUkt4SEJRQUV2dDAxRi1DbDRsOXlhVWhfNVZvRTRzbDhTYzN0R1JiN0tUbFVpMGF1LTlweUtaRTVySVphaDVRdTBJNmZhdzRMVUt0cTc0c0FPOTJuc3RMYTEyOTJZM3B0bnBJdm9PRGtIMk9LUHk4dXhrRnV0OE1zSDRtRTNlWXFOanJlQnNYbHBERUNfdDhMc2c0SGFFX1JnSnNIWWNvTjQwSUpRWVdlTE1DOElDVXhKRTROUUhOM0lxbVozZ01PN1F3eDZldXQ3dUtNVXhlMA?oc=5",
+      "published_at": "2026-11-26T05:29:00+00:00"
     },
     {
       "title": "Apple pulls MiniMax AI chatbot from App Store over child safety concerns",
@@ -2151,12 +2107,6 @@
       "published_at": "2026-11-20T21:41:24+00:00"
     },
     {
-      "title": "US targets Iran’s ship-to-ship transfers: Can Tehran break the blockade?",
-      "source": "Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNQUpfdWFVN1RtcXA2YUJqWXhOUGRsdnY3VGR1SnJBX20zUExFTnA5c3RYVWhudXktd1RmQm95c2dpUE04QXdiU2dIb3YxakQzeVctc1c5cDZRZlZWLThzSmFQVnZXelBjaF9BZU1tZUJScGdXWGZXdS05aHFoZHdBbzhMZVpncDgyeTFvUm1NRWxoYkRONHhjVVJ5NjZIeEZuZHFtREVtSHVuTllranJBY9IBtgFBVV95cUxQUDQwdHJ3VzRYcEZhNjNkdGM2X1VtRy10R1RRVmR1NEt1dFU5bzRvZGJiZXo5bjVENmdjUlgzLTJyVm1ZdUdORF82d0hSRTVvcURLeTA1UGJiUFRrbFJUWmliOUNzRXdCb3hpNDNvMm1RWF82ZWg1LW5WeFZVbzlGQm4zRmp1UWJWQzZFNzNVS2haaGpnQWsteXNqTHRaQ1ZLNGRXMWh5WUhVOVNPQzV1RnNyaTJ2Zw?oc=5",
-      "published_at": "2026-11-20T13:27:05+00:00"
-    },
-    {
       "title": "‘Too early’ to determine impact of US blockade on Iran, with Tehran defiant",
       "source": "Al Jazeera",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNR0tDOEoxcE1oTWlVYnFZX2w3SXQ4UHY5ZGM5NUhiOVNiblhqMm1ZblFiWFF4YTVPM0RaZURuMjFkNjNFOHRiaDExTGtFZEJrN0tMR0EycjdieDZCRHRPTFdvVDlqSE4wMnYzbl83TkJvRE11bWRtdVU3a1RWLXdwdzhyRXhmVndmU0ZHZ3NJLWowdWh1QVA3TkJyS0RfdnV1SFRRQlNCR3lGSnplWXVmUWgzMWfSAboBQVVfeXFMTU1hWUtoLVAyQ3VmUW1hVDJRRUxjYXRyODAzY2RrdWR0SnE2a09VMDROQjRfdUc3azJSU0R2djhtdTAyb0hwTHREMFZjcURxTDlyMHVKZjBlcDdYbzNtOTFCdzNadnZhZ3VjUV9tVmlDcUJvWVJNNU1xa3puRzVXVVZHNmhiSmhBai14WWQzbWpIVHJQVXIyVWlBaDVIWElzeDNmUVdDMTRuYmFNTzdUMVBSNDBXRkxaX0Jn?oc=5",
@@ -2203,6 +2153,12 @@
       "source": "BBC",
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9YeFM1dXhTWU4wLTVRdDMxLUJwZExBdzVRX0RhOFF1elVWcGJyRXNiSE5ncGMtSGJzbk1EYV9aUmtWaTZXMGxweXliUTNweHNCVWtQT3FETVpUdw?oc=5",
       "published_at": "2026-08-10T07:00:00+00:00"
+    },
+    {
+      "title": "Armed attack on airport in Niger’s capital kills 11 soldiers, 2 civilians",
+      "source": "Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOZUZxRm9Ua1htYTVXSGJoRkg3aGx4d0lVQkE3SVE4M2NhVlB0dmlRb2xfTHBLLXBHbG43eXZrRDB2Tmp0ZkpjaWh2NFZodzBpWlZlVllLOEZNVXFSTkFSdjhIbHU4dGswaExueDJlbFU3UWtvZVNwVHBnQm1ueDdNVkFqNE11ai1ZN3hpd2lWNW9XcG5JMWFHOTh2VEdHQzZKc3BlVHQ1bWFrYXN3Z1NKMtIBtgFBVV95cUxPUVR3Zm11XzM0LUJVZXIzNlVobnphWFN1d3FXaW9maTVxNmlxMEU3M3QzX193ZDZYNjd4dnZmN0JWYzVRTm9lVng5dmtRRHdTQUhWRHRkbW5sc0IwZ1JtR0ZURnd6MmtzRzkyUkVnMUU2ZW9TZjNMeW1qTEpYNGZJVW1xUG5xT1NkdU9mMWd1UzBJOWptQi1WSW5kRk1OSWlmNEhxVlh6ZVUydXNNT05ZeUt3dUdKdw?oc=5",
+      "published_at": "2026-06-18T07:00:00+00:00"
     },
     {
       "title": "Li Jiaying: China launches first Hong Kong astronaut into space",
@@ -2262,12 +2218,30 @@
   "context_checks": {
     "de658703d516": {
       "version": 4,
-      "query": "verizon fidium ft",
-      "at": "2026-11-28T01:17:20.411684+00:00",
+      "query": "verizon buy fidium",
+      "at": "2026-11-28T01:55:38.449947+00:00",
       "stage": 1,
       "matched": false,
       "exhausted": false,
       "searched_days": 30
+    },
+    "0899220521e4": {
+      "version": 4,
+      "query": "us iran breach blockade",
+      "at": "2026-11-28T01:55:38.449947+00:00",
+      "stage": 1,
+      "matched": false,
+      "exhausted": false,
+      "searched_days": 30
+    },
+    "c664d0e0b784": {
+      "version": 4,
+      "query": "extreme heat linked",
+      "at": "2026-11-28T01:55:38.449947+00:00",
+      "stage": 3,
+      "matched": false,
+      "exhausted": true,
+      "searched_days": 730
     },
     "4e329fa4ac09": {
       "version": 4,
@@ -2277,15 +2251,6 @@
       "matched": false,
       "exhausted": true,
       "searched_days": 730
-    },
-    "0899220521e4": {
-      "version": 4,
-      "query": "us iranian military breach",
-      "at": "2026-11-28T01:17:20.411684+00:00",
-      "stage": 1,
-      "matched": false,
-      "exhausted": false,
-      "searched_days": 30
     },
     "7fdc94861d8b": {
       "version": 4,
@@ -2660,15 +2625,6 @@
       "version": 4,
       "query": "ring road giza explosion crash",
       "at": "2026-11-27T02:22:30.337925+00:00",
-      "stage": 3,
-      "matched": false,
-      "exhausted": true,
-      "searched_days": 730
-    },
-    "c664d0e0b784": {
-      "version": 4,
-      "query": "extreme heat linked",
-      "at": "2026-11-27T01:27:15.199439+00:00",
       "stage": 3,
       "matched": false,
       "exhausted": true,
