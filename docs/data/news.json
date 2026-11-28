@@ -1,59 +1,79 @@
 {
-  "generated_at": "2026-11-28T10:15:58.123068+00:00",
+  "generated_at": "2026-11-28T11:12:19.448569+00:00",
   "model_mode": "sentence-transformers",
   "stories": [
     {
-      "id": "5ceed16d1376",
-      "title": "31 dead in huge blast following crash on Ring Road near Al-Warraq, Giza",
-      "summary": "31 dead in huge blast following crash on Ring Road near Al-Warraq, Giza Egypt Today",
+      "id": "a99a6136dc7b",
+      "title": "An explosion at a school in eastern Afghanistan kills 7, wounds more than 90",
+      "summary": "An explosion at a school in eastern Afghanistan kills 7, wounds more than 90 AP News",
       "image": "",
       "category": "World",
       "importance": "Major",
       "background_only": false,
-      "score": 71.1,
-      "published_at": "2026-11-25T10:23:00+00:00",
-      "source_count": 1,
+      "score": 80.4,
+      "published_at": "2026-11-28T10:14:37+00:00",
+      "source_count": 4,
       "reasons": [
-        "high-impact event",
         "reported fatalities",
-        "significant accident with human impact"
+        "significant accident with human impact",
+        "4 trusted sources",
+        "rapid cross-source coverage"
       ],
       "sources": [
         {
-          "name": "Egypt Today",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOWUl2Y0RXNXItTTQzS3J5QVdINXFFSVF4bld3TlF6eHcyYk9zTjgzanh0R0dRQ19hYkJVM2hwVTRPd0d3SHl0c3liOTJacVo3amRTN3M1V2JFazA1QmprXzlEei04WXNQQktXamhHM21yZDZaVlpKNmtFb0RDU3ZZRVgyOWJzeWZxekZDam9PSzl5VlBHZ1g3eS1n?oc=5",
-          "published_at": "2026-11-25T10:23:00+00:00",
+          "name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNcVRKa09nUTkyZHR6Tnp6aTFwNzFYOHd0WGRtWjFEU2Z4RmFvRzVETWJwbEF4WHROdnpCVU9NMVBYYUJtbVU5NzVqNEVkaEVhNUtmMHFrbFE0cW5OQmdXYkpiV0JvbGoteXRYamR6Mjl0clR1cmp2elB5LU9IOUFjZzcwSXFjTXVxcy1XbmJHdGQwbjZMREhfNzRwS29Jck8zbURsQkdoTXMtZw?oc=5",
+          "published_at": "2026-11-28T10:12:52+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOYzQwcm1zRUVmQVB2b3E5X1Q4RHZxbWRGY1ctOFQwZ1otcC11UUJHM2wyZVBhUGhlTTgxYmt1SFc0N0k1aGlnQmxwVUI4S0dXX3NpdzhXYVg2UTdQc3R2bGNrZFJMempoZ3FTZzFhamFPWGt6TDc4NG5BTElMS3JqSmM4OUVlcFBod09hZnIzcVBwdw?oc=5",
+          "published_at": "2026-11-28T09:45:00+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/ckp80jyz6dl8o?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-11-28T10:14:37+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/28/several-students-killed-in-blast-beside-afghan-school?traffic_source=rss",
+          "published_at": "2026-11-28T10:05:26+00:00",
           "paywalled": false
         }
       ],
-      "lead_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOWUl2Y0RXNXItTTQzS3J5QVdINXFFSVF4bld3TlF6eHcyYk9zTjgzanh0R0dRQ19hYkJVM2hwVTRPd0d3SHl0c3liOTJacVo3amRTN3M1V2JFazA1QmprXzlEei04WXNQQktXamhHM21yZDZaVlpKNmtFb0RDU3ZZRVgyOWJzeWZxekZDam9PSzl5VlBHZ1g3eS1n?oc=5",
-      "first_reported_at": "2026-11-25T10:23:00+00:00",
-      "update_count": 0,
-      "updated": false,
+      "lead_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOYzQwcm1zRUVmQVB2b3E5X1Q4RHZxbWRGY1ctOFQwZ1otcC11UUJHM2wyZVBhUGhlTTgxYmt1SFc0N0k1aGlnQmxwVUI4S0dXX3NpdzhXYVg2UTdQc3R2bGNrZFJMempoZ3FTZzFhamFPWGt6TDc4NG5BTElMS3JqSmM4OUVlcFBod09hZnIzcVBwdw?oc=5",
+      "first_reported_at": "2026-11-28T09:45:00+00:00",
+      "update_count": 1,
+      "updated": true,
+      "coverage_momentum": {
+        "new_sources": 2,
+        "hours": 1.08,
+        "bonus": 6.0
+      },
       "coverage_history": [
         {
-          "at": "2026-11-28T08:17:21.839151+00:00",
-          "source_count": 1
-        },
-        {
-          "at": "2026-11-28T09:12:05.389226+00:00",
-          "source_count": 1
-        },
-        {
           "at": "2026-11-28T10:07:23.364455+00:00",
-          "source_count": 1
+          "source_count": 2
         },
         {
           "at": "2026-11-28T10:15:58.123068+00:00",
-          "source_count": 1
+          "source_count": 2
+        },
+        {
+          "at": "2026-11-28T11:12:19.448569+00:00",
+          "source_count": 4
         }
       ],
       "context": {
         "earlier_reporting": [],
         "coverage_from": null,
-        "search_query": "ring road giza explosion crash",
+        "search_query": "afghanistan explosion school",
         "search_days": 730,
-        "searched_days": 730,
+        "searched_days": 180,
         "search_status": "searched"
       }
     },
@@ -65,12 +85,13 @@
       "category": "World",
       "importance": "Major",
       "background_only": false,
-      "score": 65.6,
+      "score": 69.6,
       "published_at": "2026-11-26T21:10:50+00:00",
-      "source_count": 4,
+      "source_count": 3,
       "reasons": [
         "reported fatalities",
         "significant accident with human impact",
+        "3 trusted sources",
         "2 trusted sources"
       ],
       "sources": [
@@ -81,28 +102,22 @@
           "paywalled": false
         },
         {
+          "name": "BBC",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9RTzBSOEg2MjJ0S1dLaEs3RFV2YlVUR1hJeUM1Y2RLcEVLYlZ2NmJkTGVkOGw2bUpwWVFkdlhJNkhfUnNjdHZmdTh0MmZfZGxlcUlhMnhCNzlHc3c?oc=5",
+          "published_at": "2026-11-25T22:18:06+00:00",
+          "paywalled": false
+        },
+        {
           "name": "Al Jazeera",
           "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQSVlnZUw4RDlTOHozeE16S3Y2ZkZtSmx1MURPMHhHNTNSUmZ5UnhzR0RtbXBzM1NiTDlXejI2YjBiYm5fQzBsNkNkOGxQSllwQ3JJUWsxdUNRMTFjRnBiVzR4YlVaM0FoTDRGRkJJYVl5dnB1Wmw3NmM3bnJnTDlIZ0RiandFckZOTzluRjB0VGIwdEFEejd3WEgyeWY2dmRuY0JiaVRyZ2LSAa4BQVVfeXFMT2JzRFExbl8xU0JKX0VBT2dRNDU1LVlXalk0YndDc0F6OFdOSW02RmVsc3JZNmNXMnB6aHA2R1RYTzFsbk9UeS1ob0ZpYXdlWEJvMnR2OXhLeS1nTDJwRXU3VEp2cmRFUUF4dFMzdGVtZThDRXFtRGhuU21rdGhmMzF3R0RLbTNvM1plSmcwSngyTFRtZTBRemNndklEY1k5b05qbGdGeVl4RTdyQ3p3?oc=5",
           "published_at": "2026-11-26T21:10:50+00:00",
-          "paywalled": false
-        },
-        {
-          "name": "ABC News - Breaking News, Latest News and Videos",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNWTlvYXVmTGRzVkNJQWRKc0QzT3JjeHhtZHVPY09GT2xTTTZLckZraEt3NXVaNG90S2hZYWNZbWg5TDhwa0ZfTE9VclZ6NUxWaGtqUmtiMklTT3gxbEt3Ry1oeVBXYVo1Y0Q5QzlBUFNWLVgxa3U4UG9JTllnaGVFT1k0dS1wYl9VS0JJbFk3WndBUVY4Y0g3dHZnVmFNcnRNMDlWajYxaWtjRGM2Q3V0UdIBtgFBVV95cUxQWHJhajhjUVluRmZEUF9GdmJmdlRSaFI3Uk9Oa200cDg2UkRSSmxRU0JQaTFRTUI5dlBaOHc4ZXd6SkFjTmFMenZZNzNnMFo3bE85a3NGNnlPTHB3VXRPazNUUDR3Vm5GR0dLSFVZTS1SUjRaajVmZ0VpZVpoZExBRm5CZmcwU0xLb1RXdm4ycmRrTF9EVUFtelVDSGxCSjVaZEtVNFp3dnJNWDkyR3BDMFZXSXUxZw?oc=5",
-          "published_at": "2026-11-26T16:50:16+00:00",
-          "paywalled": false
-        },
-        {
-          "name": "Fox News",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPYWp2Z1RsbUd0MXByd2EtT21Jdkk4MGlQd2EzUkp6TGFKWVBia1lRTXRKbmlRcjQyN1QtTU9NaHZwTWxuWnlhNWw3SzRBOHkwZGxkYWFjS2ZxT3U5U0M0VlJ1T1JEWXlZR2YtWDU5eUJsTzVKdXNBRG02MmtWN3lmeHdhaFFPQWtUcDRycEVYeTF2SHd1Q0daT095dVcybnhCN0d1VnhoWG93NUVFYTh5a08yVdIBuAFBVV95cUxORnpJbFc2QUNYX0hJM1RIWC1BSVYtQjk5TGJnSjJUMTdkTWZDMEtxd0JwQWJ5a1YwcXJSMjM2TXFxRmsxSmYtazkwNTcwZUhjeEJoQmNlRWQxUDJvdjNsMUpFUVo3WVlISktTUGRuUDUxcHFHdlJxc2VIV29xN3lrVS04d2tpeDQ4ZzVVN2luV0RmRktLTjNMVUF4QzhJeURoNlpRTmNpSnlhSnJfUFFVZVByQXRHcWRx?oc=5",
-          "published_at": "2026-11-26T15:41:46+00:00",
           "paywalled": false
         }
       ],
       "lead_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQSVlnZUw4RDlTOHozeE16S3Y2ZkZtSmx1MURPMHhHNTNSUmZ5UnhzR0RtbXBzM1NiTDlXejI2YjBiYm5fQzBsNkNkOGxQSllwQ3JJUWsxdUNRMTFjRnBiVzR4YlVaM0FoTDRGRkJJYVl5dnB1Wmw3NmM3bnJnTDlIZ0RiandFckZOTzluRjB0VGIwdEFEejd3WEgyeWY2dmRuY0JiaVRyZ2LSAa4BQVVfeXFMT2JzRFExbl8xU0JKX0VBT2dRNDU1LVlXalk0YndDc0F6OFdOSW02RmVsc3JZNmNXMnB6aHA2R1RYTzFsbk9UeS1ob0ZpYXdlWEJvMnR2OXhLeS1nTDJwRXU3VEp2cmRFUUF4dFMzdGVtZThDRXFtRGhuU21rdGhmMzF3R0RLbTNvM1plSmcwSngyTFRtZTBRemNndklEY1k5b05qbGdGeVl4RTdyQ3p3?oc=5",
       "first_reported_at": "2026-11-26T21:10:50+00:00",
-      "update_count": 1,
-      "updated": false,
+      "update_count": 2,
+      "updated": true,
       "coverage_history": [
         {
           "at": "2026-11-28T08:17:21.839151+00:00",
@@ -119,6 +134,10 @@
         {
           "at": "2026-11-28T10:15:58.123068+00:00",
           "source_count": 4
+        },
+        {
+          "at": "2026-11-28T11:12:19.448569+00:00",
+          "source_count": 3
         }
       ],
       "context": {
@@ -126,14 +145,14 @@
         "coverage_from": null,
         "search_query": "egypt cairo fire",
         "search_days": 730,
-        "searched_days": 180,
+        "searched_days": 365,
         "search_status": "searched"
       }
     },
     {
       "id": "bbfc20f71a9f",
-      "title": "Eight killed in Peruvian military helicopter crash on rescue mission",
-      "summary": "Eight killed in Peruvian military helicopter crash on rescue mission BBC",
+      "title": "Eight killed in Peruvian military helicopter crash",
+      "summary": "The pilot was the sole survivor of the crash during a rescue mission in a remote area known for drug trafficking.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/faea/live/b54be270-eadc-11f1-81da-2ff518b71d00.jpg",
       "category": "World",
       "importance": "Major",
@@ -154,10 +173,10 @@
           "paywalled": false
         }
       ],
-      "lead_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1qY1VXdXNtSDFOdlhwV3pmREUyZVJYWGpyVDV6TWZMTWU1dVFOQnJLRXdRUVlrdm1BZHI2djRTaXRBQVhIWHJyM3F2UmJUVEhUcjgyeE92YTJqYVU?oc=5",
+      "lead_url": "https://www.bbc.co.uk/news/articles/cwp9d85mlp88o?at_medium=RSS&at_campaign=rss",
       "first_reported_at": "2026-11-28T07:17:34+00:00",
-      "update_count": 0,
-      "updated": false,
+      "update_count": 1,
+      "updated": true,
       "coverage_history": [
         {
           "at": "2026-11-28T08:17:21.839151+00:00",
@@ -174,6 +193,10 @@
         {
           "at": "2026-11-28T10:15:58.123068+00:00",
           "source_count": 1
+        },
+        {
+          "at": "2026-11-28T11:12:19.448569+00:00",
+          "source_count": 1
         }
       ],
       "context": {
@@ -181,7 +204,7 @@
         "coverage_from": null,
         "search_query": "peruvian military crash",
         "search_days": 730,
-        "searched_days": 365,
+        "searched_days": 730,
         "search_status": "searched"
       }
     },
@@ -216,6 +239,10 @@
         {
           "at": "2026-11-28T10:15:58.123068+00:00",
           "source_count": 1
+        },
+        {
+          "at": "2026-11-28T11:12:19.448569+00:00",
+          "source_count": 1
         }
       ],
       "context": {
@@ -247,182 +274,64 @@
       }
     },
     {
-      "id": "a99a6136dc7b",
-      "title": "An explosion at a school in eastern Afghanistan kills 7, wounds more than 90",
-      "summary": "An explosion at a school in eastern Afghanistan kills 7, wounds more than 90 AP News",
+      "id": "3d9a1a038455",
+      "title": "China launches Shenzhou 24 spacecraft carrying 2 Chinese and 1 Pakistani astronaut",
+      "summary": "China launches Shenzhou 24 spacecraft carrying 2 Chinese and 1 Pakistani astronaut AP News",
       "image": "",
       "category": "World",
       "importance": "Major",
       "background_only": false,
-      "score": 59.4,
-      "published_at": "2026-11-28T09:45:00+00:00",
-      "source_count": 2,
+      "score": 52.8,
+      "published_at": "2026-11-26T10:25:42+00:00",
+      "source_count": 1,
       "reasons": [
-        "reported fatalities",
-        "significant accident with human impact",
-        "2 trusted sources"
+        "significant public impact",
+        "historic space milestone"
       ],
       "sources": [
         {
           "name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOYzQwcm1zRUVmQVB2b3E5X1Q4RHZxbWRGY1ctOFQwZ1otcC11UUJHM2wyZVBhUGhlTTgxYmt1SFc0N0k1aGlnQmxwVUI4S0dXX3NpdzhXYVg2UTdQc3R2bGNrZFJMempoZ3FTZzFhamFPWGt6TDc4NG5BTElMS3JqSmM4OUVlcFBod09hZnIzcVBwdw?oc=5",
-          "published_at": "2026-11-28T09:45:00+00:00",
-          "paywalled": false
-        },
-        {
-          "name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNcVRKa09nUTkyZHR6Tnp6aTFwNzFYOHd0WGRtWjFEU2Z4RmFvRzVETWJwbEF4WHROdnpCVU9NMVBYYUJtbVU5NzVqNEVkaEVhNUtmMHFrbFE0cW5OQmdXYkpiV0JvbGoteXRYamR6Mjl0clR1cmp2elB5LU9IOUFjZzcwSXFjTXVxcy1XbmJHdGQwbjZMREhfNzRwS29Jck8zbURsQkdoTXMtZw?oc=5",
-          "published_at": "2026-11-28T08:05:25+00:00",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNR3M0QnJvdnFlSmxYai1OZWNwd0pYOFVKa2t3UDZhLXZkcXVkcmNOZHU2ZEVCQk1HX0liM2ZVb3piZDFiaE5SSkY2MWdZeFNmOVhTWkM3RDdqSHYySDNkSTNwcExoemNqTWtoLWNQV1VDNXota0w3Ym1FLUZxOXFPZnB3UlllbEJySmhJ?oc=5",
+          "published_at": "2026-11-25T17:33:00+00:00",
           "paywalled": false
         }
       ],
-      "lead_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOYzQwcm1zRUVmQVB2b3E5X1Q4RHZxbWRGY1ctOFQwZ1otcC11UUJHM2wyZVBhUGhlTTgxYmt1SFc0N0k1aGlnQmxwVUI4S0dXX3NpdzhXYVg2UTdQc3R2bGNrZFJMempoZ3FTZzFhamFPWGt6TDc4NG5BTElMS3JqSmM4OUVlcFBod09hZnIzcVBwdw?oc=5",
-      "first_reported_at": "2026-11-28T09:45:00+00:00",
+      "lead_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNR3M0QnJvdnFlSmxYai1OZWNwd0pYOFVKa2t3UDZhLXZkcXVkcmNOZHU2ZEVCQk1HX0liM2ZVb3piZDFiaE5SSkY2MWdZeFNmOVhTWkM3RDdqSHYySDNkSTNwcExoemNqTWtoLWNQV1VDNXota0w3Ym1FLUZxOXFPZnB3UlllbEJySmhJ?oc=5",
+      "first_reported_at": "2026-11-26T10:25:42+00:00",
       "update_count": 0,
       "updated": false,
       "coverage_history": [
         {
-          "at": "2026-11-28T10:07:23.364455+00:00",
-          "source_count": 2
-        },
-        {
-          "at": "2026-11-28T10:15:58.123068+00:00",
-          "source_count": 2
-        }
-      ],
-      "context": {
-        "earlier_reporting": [],
-        "coverage_from": null,
-        "search_query": "afghanistan explosion school",
-        "search_days": 730,
-        "searched_days": 30,
-        "search_status": "searched"
-      }
-    },
-    {
-      "id": "2fdfb28059ab",
-      "title": "AI safety debate intensifies as researchers warn of risks, UN seeks rules",
-      "summary": "AI safety debate intensifies as researchers warn of risks, UN seeks rules Business Standard",
-      "image": "",
-      "category": "Tech",
-      "importance": "Major",
-      "background_only": false,
-      "score": 56.0,
-      "published_at": "2026-11-26T10:50:42+00:00",
-      "source_count": 1,
-      "reasons": [
-        "high-impact event",
-        "frontier AI safety development"
-      ],
-      "sources": [
-        {
-          "name": "Business Standard",
-          "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNdkxiVXoxN0tLaDd3MmRCbEJOUDg2Y3ByWExrSTREMjVFWWVmSW5faGtmVDJ1ZHZaZ3gwVHhRUHRiV1BKVU5CNGVCeEQ4Z01aVDdkampTbU92M2JlQlNHUHJ2NlhEaUhzMGZXb0E1MVdNR2xyQjJxVWl3VFUtY0thUjVuR0gtVzRRYjg2NFZSOWRSVHd6ajdJaTg4WDIxXzhyTktJdGNmNzNKZW44ekJPWTdmWnJOUW5RSXhCTE9kWENKZ18yMW9CZzkwRDRESlpqVHEyclJYU3R4blFXaklWakRtaHBTTjBERWMyY3c1QzBXOUHSAfgBQVVfeXFMT1FYYmQ5Q1l4LTYta1djTXBzcGdMM2R3V0diemxfZ2hNNHNVb0c2YWQ3S1JMR1VrMWlWV2JtaVF0LXhrRURTMmRLWXdlSHY3RW12X2swWEFiODhFU3R5bGdVSGtfLWFjLVQ0XzloMGhFbXpfRWxQM01JUTdyOTN0aUtMYl9tby14aFJsWUFiN0JscDk5QnBSVVcwY0RId1NVQ200Y2V2Nk8tWThJeHltVHZmX2VXT3BlR0ZVUExmQnkyb3dqN0xSamFNb1plYkpTOGFlOU9YSjdLelp3OHlaQzMyeGRxVjNNUUJHZW9TVDBrQXNrT2JMMU0?oc=5",
-          "published_at": "2026-11-26T10:50:42+00:00",
-          "paywalled": false
-        }
-      ],
-      "lead_url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNdkxiVXoxN0tLaDd3MmRCbEJOUDg2Y3ByWExrSTREMjVFWWVmSW5faGtmVDJ1ZHZaZ3gwVHhRUHRiV1BKVU5CNGVCeEQ4Z01aVDdkampTbU92M2JlQlNHUHJ2NlhEaUhzMGZXb0E1MVdNR2xyQjJxVWl3VFUtY0thUjVuR0gtVzRRYjg2NFZSOWRSVHd6ajdJaTg4WDIxXzhyTktJdGNmNzNKZW44ekJPWTdmWnJOUW5RSXhCTE9kWENKZ18yMW9CZzkwRDRESlpqVHEyclJYU3R4blFXaklWakRtaHBTTjBERWMyY3c1QzBXOUHSAfgBQVVfeXFMT1FYYmQ5Q1l4LTYta1djTXBzcGdMM2R3V0diemxfZ2hNNHNVb0c2YWQ3S1JMR1VrMWlWV2JtaVF0LXhrRURTMmRLWXdlSHY3RW12X2swWEFiODhFU3R5bGdVSGtfLWFjLVQ0XzloMGhFbXpfRWxQM01JUTdyOTN0aUtMYl9tby14aFJsWUFiN0JscDk5QnBSVVcwY0RId1NVQ200Y2V2Nk8tWThJeHltVHZmX2VXT3BlR0ZVUExmQnkyb3dqN0xSamFNb1plYkpTOGFlOU9YSjdLelp3OHlaQzMyeGRxVjNNUUJHZW9TVDBrQXNrT2JMMU0?oc=5",
-      "first_reported_at": "2026-11-26T10:50:42+00:00",
-      "update_count": 0,
-      "updated": false,
-      "coverage_history": [
-        {
-          "at": "2026-11-28T10:15:58.123068+00:00",
+          "at": "2026-11-28T11:12:19.448569+00:00",
           "source_count": 1
         }
       ],
       "context": {
-        "earlier_reporting": [],
-        "coverage_from": null,
-        "search_query": "ai un safety",
+        "earlier_reporting": [
+          {
+            "title": "Pakistani astronaut to board Shenzhou 24 and become the first foreigner on China's space station",
+            "source": "AP News",
+            "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQenFsUWZUMFNoeXpOUXdEX0xad010OWlJemJJQl93YjBrcFhySkxxWVpackkxamQ3Q08yampBaXRtOFNhWVd1VHNjSklUSy1JWC1taUszYTdVbnJ2U2N5aWhmcVlpLVFLSjRQWGhNZS1ieTBpdjVuWG9MRkROWXNBV0YzSkdobnl2T1hwU0hUNThiREQtQWFsZXZHdWFVN2hp?oc=5",
+            "published_at": "2026-11-06T08:00:00+00:00"
+          },
+          {
+            "title": "Pakistani astronaut launches into space aboard Chinese rocket",
+            "source": "Al Jazeera",
+            "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNVWdUSGN0dUpVbVFWRXZwVUJ6akp5Sm5SNFVwbzRHYmJ5RkprMDRDVDFxdXFQTUdCc0VrUWo1QmV2QWFOVmZFVHQ4N1JWQWJRZnY5UUgwUkJjaHlzWEY2ZGt5dVd3R3RqMEh4TWZCTzNhUGx4bDZMeTNITHZfbFZBQWZ5enZoRU5aZEZJbWEyOU93YjZVcm94VE9PT1JqY19WY1daeXVMMkRheVlkUkJrSmkxNNIBuAFBVV95cUxQTVJFWXhCeC0tQ0U1ZDhyTFg0eDFDYzVOZVBtNUx4MnNIVkdtN1YxdDhWbGZtYkhNV0hHWU9vN2J5NEJ0aGdrekxVdy1Ba0FnakJPMEt0ZEtkS1BDRmQ0S2F2Z3dlRXVHWXNONkJRQnZELUdZREVjdXRWa3VZbFl3enVhSUtGY2dTckw2QV9GZUxsZ1RCWnNRNzhpNXYxd2dqVGFSZnpuZkdaNDY2VmhoaEFYVHhycWpF?oc=5",
+            "published_at": "2026-11-25T02:45:57+00:00"
+          },
+          {
+            "title": "China launches Shenzhou-24 with Pakistani as first foreign astronaut",
+            "source": "Reuters",
+            "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0yMlVqQWJYTUozUzd4SkJZcFhHOWx5TEN4RnJKLVFXbG9UN3N1TVJVVkZUVEJoUXUxTmxyR3B2dXNtWWhwT20tUDJtWHV4YVlrOElPYldiOER0NDNRYkVCYjRYeVRhcFU?oc=5",
+            "published_at": "2026-11-25T06:15:20+00:00"
+          }
+        ],
+        "coverage_from": "2026-11-06T08:00:00+00:00",
+        "search_query": "china shenzhou chinese astronaut",
         "search_days": 730,
-        "searched_days": 730,
-        "search_status": "searched"
-      }
-    },
-    {
-      "id": "acba55a34b43",
-      "title": "AI safety researcher warns 2027 could be worse than COVID in letter to friends and family",
-      "summary": "AI safety researcher warns 2027 could be worse than COVID in letter to friends and family UNILAD Tech",
-      "image": "",
-      "category": "Tech",
-      "importance": "Major",
-      "background_only": false,
-      "score": 55.9,
-      "published_at": "2026-11-27T15:31:11+00:00",
-      "source_count": 1,
-      "reasons": [
-        "high-impact event",
-        "frontier AI safety development"
-      ],
-      "sources": [
-        {
-          "name": "UNILAD Tech",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOREVRSFJaWGNKMmQ1dVc2WERqZEFfb0htNktZREdQQkRnUUpYWGQwaElLOGo3MU9XZlVQTERaSGlNMG9IbUdrN3ZMVVI4TEdaT2ZoaWtGbmhzdzBTYjlYZlVRR0JaeDVZd0k5blY5cGxreExOVVpTelZxYkQtZjU2d29ScWFULWFhUTlRN19VaFc2YUVBelZSU0kwanE2LXI2amdkOUxDOGc2Zw?oc=5",
-          "published_at": "2026-11-27T15:31:11+00:00",
-          "paywalled": false
-        }
-      ],
-      "lead_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOREVRSFJaWGNKMmQ1dVc2WERqZEFfb0htNktZREdQQkRnUUpYWGQwaElLOGo3MU9XZlVQTERaSGlNMG9IbUdrN3ZMVVI4TEdaT2ZoaWtGbmhzdzBTYjlYZlVRR0JaeDVZd0k5blY5cGxreExOVVpTelZxYkQtZjU2d29ScWFULWFhUTlRN19VaFc2YUVBelZSU0kwanE2LXI2amdkOUxDOGc2Zw?oc=5",
-      "first_reported_at": "2026-11-27T15:31:11+00:00",
-      "update_count": 0,
-      "updated": false,
-      "coverage_history": [
-        {
-          "at": "2026-11-28T10:15:58.123068+00:00",
-          "source_count": 1
-        }
-      ],
-      "context": {
-        "earlier_reporting": [],
-        "coverage_from": null,
-        "search_query": "ai covid safety",
-        "search_days": 730,
-        "searched_days": 730,
-        "search_status": "searched"
-      }
-    },
-    {
-      "id": "1f963f04c690",
-      "title": "Humanity May Not Live To See Thanksgiving 2027, AI Safety Researcher Warns",
-      "summary": "Humanity May Not Live To See Thanksgiving 2027, AI Safety Researcher Warns www.techtimes.co.uk",
-      "image": "",
-      "category": "Tech",
-      "importance": "Major",
-      "background_only": false,
-      "score": 53.7,
-      "published_at": "2026-11-27T17:03:40+00:00",
-      "source_count": 1,
-      "reasons": [
-        "high-impact event",
-        "frontier AI safety development"
-      ],
-      "sources": [
-        {
-          "name": "www.techtimes.co.uk",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPbkVWUUtSYkl3a1YzdWZxaFVhN0lHV1NIc2lYT0xlSVQ3M3loVVd1Ti1OVUlTNDVoX3dzOE5hUUR6aExNUTktbF9zWWo4X3FEQnlvOTBrREZOak0yUFI3a2x5NXhXYzdWYlNEanJCQ2FOUGlUNjZjSk9tc1ZJcTEwcjluRlUyOVJ6SkFONGFoMEk5Zw?oc=5",
-          "published_at": "2026-11-27T17:03:40+00:00",
-          "paywalled": false
-        }
-      ],
-      "lead_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPbkVWUUtSYkl3a1YzdWZxaFVhN0lHV1NIc2lYT0xlSVQ3M3loVVd1Ti1OVUlTNDVoX3dzOE5hUUR6aExNUTktbF9zWWo4X3FEQnlvOTBrREZOak0yUFI3a2x5NXhXYzdWYlNEanJCQ2FOUGlUNjZjSk9tc1ZJcTEwcjluRlUyOVJ6SkFONGFoMEk5Zw?oc=5",
-      "first_reported_at": "2026-11-27T17:03:40+00:00",
-      "update_count": 0,
-      "updated": false,
-      "coverage_history": [
-        {
-          "at": "2026-11-28T10:15:58.123068+00:00",
-          "source_count": 1
-        }
-      ],
-      "context": {
-        "earlier_reporting": [],
-        "coverage_from": null,
-        "search_query": "humanity not see safety",
-        "search_days": 730,
-        "searched_days": 730,
-        "search_status": "searched"
+        "searched_days": 180,
+        "search_status": "matched"
       }
     },
     {
@@ -435,7 +344,7 @@
       "background_only": false,
       "score": 52.2,
       "published_at": "2026-11-26T08:07:42+00:00",
-      "source_count": 3,
+      "source_count": 2,
       "reasons": [
         "high-impact event",
         "reported fatalities",
@@ -452,12 +361,6 @@
           "name": "Al Jazeera",
           "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQWkJ4Z1dXNWRXTmQ5emI0VEF4b2FsMkcxNUNpRjB6N2tFNmNKUzZzbmhORHhTQ1hsNS1BT2JFTzJrQ01aQjk3dS1vVWZaQ3pMV3A2WUFRODJsNFBBN1c4a25VbHZkY2dqVzJMTWp2ZVRxbmZNQnNodWlnTjMxWG1jQWJjMWlZd2h4Tm14QTNJQ3VSNkJPbTF2aUNvdmlENzExR1kwSnFHRHdfOUoxakZTOERmRGl6d9IBuwFBVV95cUxPV051MjYwaUJXZ2pzLW90aTJ0enhCSDdWbTd4eGZaWU4xWTBhMTFsZGxnbUZveHF3b3JIbDZPU284ZXNKZXJWek5vVVlidlQyQlBVOEJ6NDcyRlNPSkF4cG02dE9Vbm1Bb0Z3MGxaUmp0MlJNVVhmZm9iaE1vM3UyQzhUYkUydzFuSWVLNk81WXhKdlpudnJLakNIc29uQWNHS0diUTQ4czJZZF9FTDFTdG5LdkxGeEJtVUJF?oc=5",
           "published_at": "2026-11-26T08:07:42+00:00",
-          "paywalled": false
-        },
-        {
-          "name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQbllNUG04bUpwSG83TWFhVWdBMmdqYVBZOWFpZG12WGFCWWxVZUk0ek1oRDk0WWNtRlJlQ2FsemFMYkNtekRDMzVsdjh3VVFneE92dkpzUXNOZ3BGaEFhVGNVeVBXXy1QUnZJT1hyUUdDek9Rb0dMd1RMQjJlUVIzbTJLREtCUkVzbmdrdXNxU3VvaWVU?oc=5",
-          "published_at": "2026-11-25T17:28:00+00:00",
           "paywalled": false
         }
       ],
@@ -481,6 +384,10 @@
         {
           "at": "2026-11-28T10:15:58.123068+00:00",
           "source_count": 3
+        },
+        {
+          "at": "2026-11-28T11:12:19.448569+00:00",
+          "source_count": 2
         }
       ],
       "context": {
@@ -493,86 +400,15 @@
       }
     },
     {
-      "id": "3d9a1a038455",
-      "title": "Why has China sent the first Pakistani astronaut to space?",
-      "summary": "Why has China sent the first Pakistani astronaut to space? BBC",
+      "id": "8af617be3645",
+      "title": "Egyptians mourn, demand accountability after deadly tanker explosion kills 31",
+      "summary": "Egyptians mourn, demand accountability after deadly tanker explosion kills 31 Reuters",
       "image": "",
       "category": "World",
       "importance": "Major",
       "background_only": false,
-      "score": 51.7,
-      "published_at": "2026-11-26T13:29:09+00:00",
-      "source_count": 1,
-      "reasons": [
-        "significant public impact",
-        "historic space milestone"
-      ],
-      "sources": [
-        {
-          "name": "BBC",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE56c3pfM0ZPaEVVc01sN2tDNTE2Zzg2WnlzbE1HTnpUUjczdHdGN1VrTzAtcXk4WUN1ekpqRE03bnNoeG16ZWJJbC1rNFVXcmhWcm5ZRlVTbk8?oc=5",
-          "published_at": "2026-11-25T10:26:50+00:00",
-          "paywalled": false
-        }
-      ],
-      "lead_url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE56c3pfM0ZPaEVVc01sN2tDNTE2Zzg2WnlzbE1HTnpUUjczdHdGN1VrTzAtcXk4WUN1ekpqRE03bnNoeG16ZWJJbC1rNFVXcmhWcm5ZRlVTbk8?oc=5",
-      "first_reported_at": "2026-11-26T13:29:09+00:00",
-      "update_count": 1,
-      "updated": true,
-      "coverage_history": [
-        {
-          "at": "2026-11-28T10:07:23.364455+00:00",
-          "source_count": 2
-        },
-        {
-          "at": "2026-11-28T10:15:58.123068+00:00",
-          "source_count": 1
-        }
-      ],
-      "context": {
-        "earlier_reporting": [
-          {
-            "title": "Pakistani astronaut to board Shenzhou 24 and become the first foreigner on China's space station",
-            "source": "AP News",
-            "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQenFsUWZUMFNoeXpOUXdEX0xad010OWlJemJJQl93YjBrcFhySkxxWVpackkxamQ3Q08yampBaXRtOFNhWVd1VHNjSklUSy1JWC1taUszYTdVbnJ2U2N5aWhmcVlpLVFLSjRQWGhNZS1ieTBpdjVuWG9MRkROWXNBV0YzSkdobnl2T1hwU0hUNThiREQtQWFsZXZHdWFVN2hp?oc=5",
-            "published_at": "2026-11-06T08:00:00+00:00"
-          },
-          {
-            "title": "Pakistani astronaut to join China’s next space station mission",
-            "source": "Al Jazeera",
-            "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOQTRRRXdXNmphejg5d3hubWpfNVZ2Skp0XzNQamJZRE1hN202Y3czZ3JyZWRPalJDaks3VlNvMy10NERJa1YxRDVUUVVxempZRk1oTjBPMVQwdm5UMW52VEJyMFRvSDNBTFI5Q2hQY3RBOWpacnA5eFFicGNYWXZpdXhFUmRKYnlwZ0VaYlNBUFd6Mm16M2hkTW5zd3lLQXYxaXIzQ9IBqgFBVV95cUxQSXZKQ0VIZHBaejV4UGp5Zy04MmJ0Njd2ejNJTkpZOThpX3VZT2huRHY4YzJsNUJyd0pwdnIxQ0xiQ0lDWnd6MmYzQU9CRTZPRTc2bjY0d081NkcwelZBVWhKeDlsV3Z4Q2NXODhMZkVCME5QUHE4YS1oRzRfeDZTaDdaQmdnb09EVjJEM212MEdwclBnaFhtZWttbXd0OUhHTFZ1SGtycXZPUQ?oc=5",
-            "published_at": "2026-11-07T08:00:00+00:00"
-          },
-          {
-            "title": "Pakistani pilot to become first foreigner to fly to China's space station",
-            "source": "Reuters",
-            "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNTjlOOEE2ZGVBYmJLbmlvRXdLTzF4UjNOVXFoY0J6c29vSDF1cDZBTk02QTFDWlRwbk9ESThyeGI0dzdKUFhhMmRyb0ZmVWlsLXlUR2ZNTHJjckdybTRlMTRYOWNwcDhSV2duaTI4ZXB5dFlCNlBTSnlCYTNQN25ZdThTS3NHVUtlZ1NIQ2Z1cWZLLTgzQ3VocjZNcFRBMmJQZjZ0dFZ1UXRCcU0?oc=5",
-            "published_at": "2026-11-24T02:49:00+00:00"
-          },
-          {
-            "title": "China unveils new space mission crew, with a Pakistani astronaut set to board its space station",
-            "source": "AP News",
-            "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPTno4Y1I0UnZqSU1JaG15VG5qTm1HNjhQbUpab2ZIbDQ4YTY1YTdxMkxWenVxOUFOMWhXQUlTT1NIVGZYUGJrRUdkXzdxLXZEMzFmLVlxelhRRXlWbFVQQ1JuVTlBZDhjS09RS1JuTUs1Q3RrWTRHTzBOUFNEQmZha0FXNndUY25NY2ozbTlqSEc0TFVUSUFJ?oc=5",
-            "published_at": "2026-11-24T13:47:00+00:00"
-          }
-        ],
-        "coverage_from": "2026-11-06T08:00:00+00:00",
-        "search_query": "china pakistani astronaut",
-        "search_days": 730,
-        "searched_days": 180,
-        "search_status": "matched"
-      }
-    },
-    {
-      "id": "e8a5233aac94",
-      "title": "Egypt fire update: Death toll rises to 31, with 21 injured",
-      "summary": "Egypt fire update: Death toll rises to 31, with 21 injured Gulf News",
-      "image": "",
-      "category": "World",
-      "importance": "Major",
-      "background_only": false,
-      "score": 51.2,
-      "published_at": "2026-11-26T08:09:37+00:00",
+      "score": 51.4,
+      "published_at": "2026-11-26T15:55:43+00:00",
       "source_count": 1,
       "reasons": [
         "reported fatalities",
@@ -580,88 +416,26 @@
       ],
       "sources": [
         {
-          "name": "Gulf News",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxONkRvY2JXbUJTZjhsc1c5S0hGUzM2TjI4NkZGM1hvbDZYd1M2Rk14dVljSTIyWTFPd243VGdzVndsTXJFX3BuRVRwVF93U0lxNFdHYVR0d3JFV2dta05ENXJIS2dnMnFIdkRYN2kzTkVrRGVxVWVzMklMRnFMUGM0VTJFQjl6cXRlQlZYaWtGWXZhWlRnQlVJWFU0RFdSX3dFeHfSAbQBQVVfeXFMTWs1aTRXMEw1VTc2NDVVSU5neS1OeGlZb3A1TXBNSUtnc3llZmtmZlpHQmsxaENOeHZwZ3FaMTR6eldkdzFFSnlCeEpVMmhWd2RJYlg0ZklaUzFxMHBNem9ZcnYxQkNfXzZ1RkJEbkVyXzBFV3NkSl9fVmsxVEtCSnF1SVAwQl85aFhoS2RIZmotakdaMV9kT0hMT0hmNFVKQUlDVzdVOHhicVNjNmZpbk9vc3RM?oc=5",
-          "published_at": "2026-11-26T08:09:37+00:00",
+          "name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQRTl5WjBUX0txaW41ckZVaWczbF8wYjRPTXlTX19BNFpYai1lOU5PbHNKY0RxODBydy0tVjBtWFZ1T0RYVHB1RDI0YmhELVFpSDNoMk1KYWZua2RyU0VmWENQVV9NZG11MzFJSmhlX3ZUMk4yNmV2SG1GRnUtMlowbS1IYmFnb2FSb2pZdFlwN3hTSUd3aVM2VEhtZDVDYXZsMGRQN2NiNjFYNGxKV2RFZG5yem1Mcks1V3VsUDc0Y2tnRzQ?oc=5",
+          "published_at": "2026-11-26T15:55:43+00:00",
           "paywalled": false
         }
       ],
-      "lead_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxONkRvY2JXbUJTZjhsc1c5S0hGUzM2TjI4NkZGM1hvbDZYd1M2Rk14dVljSTIyWTFPd243VGdzVndsTXJFX3BuRVRwVF93U0lxNFdHYVR0d3JFV2dta05ENXJIS2dnMnFIdkRYN2kzTkVrRGVxVWVzMklMRnFMUGM0VTJFQjl6cXRlQlZYaWtGWXZhWlRnQlVJWFU0RFdSX3dFeHfSAbQBQVVfeXFMTWs1aTRXMEw1VTc2NDVVSU5neS1OeGlZb3A1TXBNSUtnc3llZmtmZlpHQmsxaENOeHZwZ3FaMTR6eldkdzFFSnlCeEpVMmhWd2RJYlg0ZklaUzFxMHBNem9ZcnYxQkNfXzZ1RkJEbkVyXzBFV3NkSl9fVmsxVEtCSnF1SVAwQl85aFhoS2RIZmotakdaMV9kT0hMT0hmNFVKQUlDVzdVOHhicVNjNmZpbk9vc3RM?oc=5",
-      "first_reported_at": "2026-11-26T08:09:37+00:00",
+      "lead_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQRTl5WjBUX0txaW41ckZVaWczbF8wYjRPTXlTX19BNFpYai1lOU5PbHNKY0RxODBydy0tVjBtWFZ1T0RYVHB1RDI0YmhELVFpSDNoMk1KYWZua2RyU0VmWENQVV9NZG11MzFJSmhlX3ZUMk4yNmV2SG1GRnUtMlowbS1IYmFnb2FSb2pZdFlwN3hTSUd3aVM2VEhtZDVDYXZsMGRQN2NiNjFYNGxKV2RFZG5yem1Mcks1V3VsUDc0Y2tnRzQ?oc=5",
+      "first_reported_at": "2026-11-26T15:55:43+00:00",
       "update_count": 0,
       "updated": false,
       "coverage_history": [
         {
-          "at": "2026-11-28T08:17:21.839151+00:00",
-          "source_count": 1
-        },
-        {
-          "at": "2026-11-28T09:12:05.389226+00:00",
-          "source_count": 1
-        },
-        {
-          "at": "2026-11-28T10:07:23.364455+00:00",
-          "source_count": 1
-        },
-        {
-          "at": "2026-11-28T10:15:58.123068+00:00",
+          "at": "2026-11-28T11:12:19.448569+00:00",
           "source_count": 1
         }
       ],
       "context": {
         "earlier_reporting": [],
         "coverage_from": null,
-        "search_query": "egypt fire toll",
-        "search_days": 730,
-        "searched_days": 730,
-        "search_status": "searched"
-      }
-    },
-    {
-      "id": "cf7748e353eb",
-      "title": "Egyptian authorities arrest motorist over tanker crash that killed 31",
-      "summary": "Egyptian authorities arrest motorist over tanker crash that killed 31 BBC",
-      "image": "",
-      "category": "World",
-      "importance": "Major",
-      "background_only": false,
-      "score": 50.2,
-      "published_at": "2026-11-26T12:16:06+00:00",
-      "source_count": 1,
-      "reasons": [
-        "reported fatalities",
-        "significant accident with human impact"
-      ],
-      "sources": [
-        {
-          "name": "BBC",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBwUGVkZU5HZHFBb1lzaTdPaUlqOUtqSWNXYWJkaG1iOGU4RmotelctbXNteENGR21ZTTdtOF81SkpwNEttRURTSHNHT0pEb1VGbWt5Q281djNpcmc?oc=5",
-          "published_at": "2026-11-26T12:16:06+00:00",
-          "paywalled": false
-        }
-      ],
-      "lead_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBwUGVkZU5HZHFBb1lzaTdPaUlqOUtqSWNXYWJkaG1iOGU4RmotelctbXNteENGR21ZTTdtOF81SkpwNEttRURTSHNHT0pEb1VGbWt5Q281djNpcmc?oc=5",
-      "first_reported_at": "2026-11-26T12:16:06+00:00",
-      "update_count": 0,
-      "updated": false,
-      "coverage_history": [
-        {
-          "at": "2026-11-28T09:12:05.389226+00:00",
-          "source_count": 1
-        },
-        {
-          "at": "2026-11-28T10:07:23.364455+00:00",
-          "source_count": 1
-        },
-        {
-          "at": "2026-11-28T10:15:58.123068+00:00",
-          "source_count": 1
-        }
-      ],
-      "context": {
-        "earlier_reporting": [],
-        "coverage_from": null,
-        "search_query": "egyptian crash authorities",
+        "search_query": "egyptians explosion mourn",
         "search_days": 730,
         "searched_days": 730,
         "search_status": "searched"
@@ -710,6 +484,10 @@
         {
           "at": "2026-11-28T10:15:58.123068+00:00",
           "source_count": 1
+        },
+        {
+          "at": "2026-11-28T11:12:19.448569+00:00",
+          "source_count": 1
         }
       ],
       "context": {
@@ -722,26 +500,74 @@
       }
     },
     {
-      "id": "e8fc703426d0",
-      "title": "Taiwan holds elections to choose mayors and other local leaders as China looks on",
-      "summary": "Taiwan holds elections to choose mayors and other local leaders as China looks on AP News",
+      "id": "a398c5860350",
+      "title": "Pakistan’s first astronaut urges youth to pursue science in call with leaders",
+      "summary": "Pakistan’s first astronaut urges youth to pursue science in call with leaders Arab News PK",
       "image": "",
       "category": "World",
       "importance": "Major",
       "background_only": false,
-      "score": 49.7,
-      "published_at": "2026-11-28T08:52:17+00:00",
+      "score": 47.3,
+      "published_at": "2026-11-28T10:52:47+00:00",
+      "source_count": 1,
+      "reasons": [
+        "significant public impact",
+        "historic space milestone"
+      ],
+      "sources": [
+        {
+          "name": "Arab News PK",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOdVg1QUJNdzRkaGk0MUM3M2tkWHpGZmg3TWNiNlV0NXJWcTRsUU5JM290Z2VIZVdxMk05QWFwc1JIcDhKNHk4ZUl2X21WR2JQNm0yQkczRHNjc2JSR09vWThmNkx0SDZZdmxMNW1sSnZlelcza2Q2cm82N1FIY3hmOEJDcGdYTHZMQmwyNGRqa0diLVo4TmZ0NnlnYlJKQUsxQm5RUW82OXFjTFB3STQ3eE1VSHFDTHBK?oc=5",
+          "published_at": "2026-11-28T10:52:47+00:00",
+          "paywalled": false
+        }
+      ],
+      "lead_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOdVg1QUJNdzRkaGk0MUM3M2tkWHpGZmg3TWNiNlV0NXJWcTRsUU5JM290Z2VIZVdxMk05QWFwc1JIcDhKNHk4ZUl2X21WR2JQNm0yQkczRHNjc2JSR09vWThmNkx0SDZZdmxMNW1sSnZlelcza2Q2cm82N1FIY3hmOEJDcGdYTHZMQmwyNGRqa0diLVo4TmZ0NnlnYlJKQUsxQm5RUW82OXFjTFB3STQ3eE1VSHFDTHBK?oc=5",
+      "first_reported_at": "2026-11-28T10:52:47+00:00",
+      "update_count": 0,
+      "updated": false,
+      "coverage_history": [
+        {
+          "at": "2026-11-28T11:12:19.448569+00:00",
+          "source_count": 1
+        }
+      ],
+      "context": {
+        "earlier_reporting": [],
+        "coverage_from": null,
+        "search_query": "pakistan astronaut urges",
+        "search_days": 730,
+        "searched_days": 30,
+        "search_status": "searched"
+      }
+    },
+    {
+      "id": "e8fc703426d0",
+      "title": "Taiwan awaits local election results as China watches",
+      "summary": "Taiwan awaits local election results as China watches AP News",
+      "image": "",
+      "category": "World",
+      "importance": "Major",
+      "background_only": false,
+      "score": 47.1,
+      "published_at": "2026-11-28T10:43:00+00:00",
       "source_count": 3,
       "reasons": [
         "high-impact event",
         "3 trusted sources",
-        "rapid cross-source coverage"
+        "broad recent coverage"
       ],
       "sources": [
         {
           "name": "AP News",
           "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNSEJHN0tUWVBOd3BrNkpaTm1EaHlTeXp1aDZBZnJ1aUdEbkNVUUJJTXdJbFNXVHhLUWJwNUpRV3lUdEZTUl9Kbi1LWkhlWjBmRUdVRlNQQTVOb3JhWW5sb0pVUklXNXlndFJ2VXRNZnF1WENxMXJjTGN3RHJ4d0FreGRZdzN0ZWQ4WVE?oc=5",
-          "published_at": "2026-11-28T06:55:00+00:00",
+          "published_at": "2026-11-28T10:15:00+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPd0hYazFSNFdJenpCQmdWUUh0cUZOTHhJWm5hYnB4ampiMXJRamNxVGtST2NuTV9rS2hjUHFUWElIUjhtX3VlZFlWTkpBOWh5SmJkNGdJd1VFVFFWSmR4LURfQUx0ZDVmWnk3MEpuc3hMN0QwaXFwYnZMc3kteEJpWUduWWNITVkwNTJGaGVRSWdHNVNyNjhn?oc=5",
+          "published_at": "2026-11-28T00:01:00+00:00",
           "paywalled": false
         },
         {
@@ -749,18 +575,12 @@
           "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNMGo2aFkxSF9NMEJXV01UdldqU2MwSHRWWm44dzJ5NldkMllBRlJGeHFrc3VfMW9kQkphTGUxdFFjQ1NVQzM5QWIycjRmTUdIbk54SkFpamlVMG5xalN2SDZ0SjhsRUREeWpTTktSUEVHYXBDVTd0Yzh0Y3RDUE5wd1VCUUVzUUc5YS1ta2tYWkhCQ080OThzN3Q2dVdIcXVOY2lDeTkwZ1FieW5SZXZUQTBLdw?oc=5",
           "published_at": "2026-11-28T08:16:09+00:00",
           "paywalled": true
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQeXBWMXRxaDNhMER5ZGNTZkhFR1R4SVJvVG0yU283TEh5OWFmekdiY0gxZjROcDhMZUhaTlJYVVpYMEVwX0RIVUdFVjJRaVdsZGktek1kVDBkUFdYQzVmcy1oX1VVZlNjX21YdjRCWFFZV1pHY2JwVEk0ckJzcmV2Mm1tY3VuM21lOXBXU3ljUjgwUHRSVkpjYS1oUUdORDB3NHlPempWTdIBrAFBVV95cUxPZDduS2F2Z3Jld3R2cDRfTG96VVlHd2Qzd3FGNDlFTlRaWkhUQkVHMDN1amVELVAtaHdTM1JSa2d0SGZOakpKS3hYUGw0YzMwempVRzNWeV9Pd0lPXzNZWWFfWFFvNVBzbHZfb29pTXh6blhxanBKUjZUdVJiR0VfNzlfY3QweHhRczM5NXUwdzJCTEE1VURWQzNHblhVX0ZnRFE0N012V3NjZEg3?oc=5",
-          "published_at": "2026-11-28T08:52:17+00:00",
-          "paywalled": false
         }
       ],
       "lead_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNSEJHN0tUWVBOd3BrNkpaTm1EaHlTeXp1aDZBZnJ1aUdEbkNVUUJJTXdJbFNXVHhLUWJwNUpRV3lUdEZTUl9Kbi1LWkhlWjBmRUdVRlNQQTVOb3JhWW5sb0pVUklXNXlndFJ2VXRNZnF1WENxMXJjTGN3RHJ4d0FreGRZdzN0ZWQ4WVE?oc=5",
       "first_reported_at": "2026-11-28T05:20:00+00:00",
-      "update_count": 1,
-      "updated": false,
+      "update_count": 2,
+      "updated": true,
       "coverage_history": [
         {
           "at": "2026-11-28T08:17:21.839151+00:00",
@@ -776,6 +596,10 @@
         },
         {
           "at": "2026-11-28T10:15:58.123068+00:00",
+          "source_count": 3
+        },
+        {
+          "at": "2026-11-28T11:12:19.448569+00:00",
           "source_count": 3
         }
       ],
@@ -849,6 +673,10 @@
         {
           "at": "2026-11-28T10:15:58.123068+00:00",
           "source_count": 3
+        },
+        {
+          "at": "2026-11-28T11:12:19.448569+00:00",
+          "source_count": 3
         }
       ],
       "context": {
@@ -902,6 +730,10 @@
         {
           "at": "2026-11-28T10:15:58.123068+00:00",
           "source_count": 2
+        },
+        {
+          "at": "2026-11-28T11:12:19.448569+00:00",
+          "source_count": 2
         }
       ],
       "context": {
@@ -949,10 +781,6 @@
       "updated": false,
       "coverage_history": [
         {
-          "at": "2026-11-28T01:17:20.411684+00:00",
-          "source_count": 1
-        },
-        {
           "at": "2026-11-28T01:55:38.449947+00:00",
           "source_count": 1
         },
@@ -994,6 +822,10 @@
         },
         {
           "at": "2026-11-28T10:15:58.123068+00:00",
+          "source_count": 1
+        },
+        {
+          "at": "2026-11-28T11:12:19.448569+00:00",
           "source_count": 1
         }
       ],
@@ -1047,6 +879,10 @@
         {
           "at": "2026-11-28T10:15:58.123068+00:00",
           "source_count": 2
+        },
+        {
+          "at": "2026-11-28T11:12:19.448569+00:00",
+          "source_count": 2
         }
       ],
       "context": {
@@ -1099,6 +935,10 @@
         },
         {
           "at": "2026-11-28T10:15:58.123068+00:00",
+          "source_count": 1
+        },
+        {
+          "at": "2026-11-28T11:12:19.448569+00:00",
           "source_count": 1
         }
       ],
@@ -1160,6 +1000,10 @@
         {
           "at": "2026-11-28T10:15:58.123068+00:00",
           "source_count": 2
+        },
+        {
+          "at": "2026-11-28T11:12:19.448569+00:00",
+          "source_count": 2
         }
       ],
       "context": {
@@ -1176,6 +1020,54 @@
         "search_days": 730,
         "searched_days": 180,
         "search_status": "matched"
+      }
+    },
+    {
+      "id": "aba270237d9a",
+      "title": "Serbia sets presidential election for Dec. 27 after students won parliamentary vote",
+      "summary": "Serbia sets presidential election for Dec. 27 after students won parliamentary vote AP News",
+      "image": "",
+      "category": "World",
+      "importance": "Notable",
+      "background_only": false,
+      "score": 38.9,
+      "published_at": "2026-11-26T12:39:43+00:00",
+      "source_count": 2,
+      "reasons": [
+        "high-impact event",
+        "2 trusted sources"
+      ],
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQSm1tYjVaQVYwTmZWQk9pQXBBNlZvQjZGcjdpVlpzQ09hQmwxVmNJOXhiZVF1TTJsS05JM3NOOHhaRzJIaU9MT0c4bXdManBOdXk2Z2hReHlKTFJOaUR0aWRSMl9lVzNuelZRMkIycmpJRlV4RTBRd09kWVJTZ0tNdUNqRWNncHAtMzlyQnVmRQ?oc=5",
+          "published_at": "2026-11-26T12:39:43+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNWk9hNDlCVEI5bDV0SmhwY3hncGd2NEdwUkdyeW5ocXM2eFVNQ2hoWG5qZGw4ZzNnVU5MdlFSaThTMlN6U3daYS1neGhmWXNzcTBYWHRHUHp4NF8yRUZSQjlsZXdMdWdHd1BEQ29tTENrRnYwd1Nvbk1RN2FSM3NjVDdlQzBuRFpaTHltZzJPY3NSN0pXRWtuX2dUTEhPb2twVUhxREVB?oc=5",
+          "published_at": "2026-11-26T11:57:00+00:00",
+          "paywalled": false
+        }
+      ],
+      "lead_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNWk9hNDlCVEI5bDV0SmhwY3hncGd2NEdwUkdyeW5ocXM2eFVNQ2hoWG5qZGw4ZzNnVU5MdlFSaThTMlN6U3daYS1neGhmWXNzcTBYWHRHUHp4NF8yRUZSQjlsZXdMdWdHd1BEQ29tTENrRnYwd1Nvbk1RN2FSM3NjVDdlQzBuRFpaTHltZzJPY3NSN0pXRWtuX2dUTEhPb2twVUhxREVB?oc=5",
+      "first_reported_at": "2026-11-26T12:39:43+00:00",
+      "update_count": 0,
+      "updated": false,
+      "coverage_history": [
+        {
+          "at": "2026-11-28T11:12:19.448569+00:00",
+          "source_count": 2
+        }
+      ],
+      "context": {
+        "earlier_reporting": [],
+        "coverage_from": null,
+        "search_query": "serbia dec election",
+        "search_days": 730,
+        "searched_days": 730,
+        "search_status": "searched"
       }
     },
     {
@@ -1227,6 +1119,10 @@
         {
           "at": "2026-11-28T10:15:58.123068+00:00",
           "source_count": 2
+        },
+        {
+          "at": "2026-11-28T11:12:19.448569+00:00",
+          "source_count": 2
         }
       ],
       "context": {
@@ -1247,7 +1143,7 @@
       "importance": "Notable",
       "background_only": false,
       "score": 38.1,
-      "published_at": "2026-11-28T06:24:00+00:00",
+      "published_at": "2026-11-28T10:20:11+00:00",
       "source_count": 2,
       "reasons": [
         "significant public impact",
@@ -1263,14 +1159,14 @@
         {
           "name": "Bloomberg.com",
           "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNM25wZVJvWGxOdGd3a0hjTUs1d1g1SFhsSThpUlptWlpDektzQklqUk4yWU9JbTVlTjJVbUJIMmthWkFOWlFWUWhoOW95X2VpOFhTeHh6cUtvclNDVTdGM0pyd0kwbHlQZHAyVkI5aEs4aEJXUHhpY0dBaGlGM3VmRGlOaVNza0xZNXZNamxCWmFvbHExMVF0SEtWX1NQVkdSb0liZ19raHN5ZkVvLVdXUWxHNUhQdw?oc=5",
-          "published_at": "2026-11-28T06:24:00+00:00",
+          "published_at": "2026-11-28T10:20:11+00:00",
           "paywalled": true
         }
       ],
       "lead_url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNaTNrOUM2bGxPN1JCeFAyRWhrUlJoQWN3TThQTERfMGp5ZGRXNTRWR3paSlp0NHludEZZN3ZrV0hSeFYtcUNCQlFTSlFPbWVZYTNSdUpDbzYtUXQ4OXFEdFhxeG80THotOF80X0lPNmlyRGhzVnhBMWMwZkU1WXNKa2VJOV9SZUlHUTh0WEJTdUdWNVl3czFab2h0UWV6dGVyMjNYLVdjOWZDNzZuYlJ6YjE3VF9sODRyQk5ndlJNem5xeW5SM3loRV9pcmFDYm9OUFg4R29MS0pIcTZRcURZajE5UVVQdmpP?oc=5",
       "first_reported_at": "2026-11-28T06:24:00+00:00",
-      "update_count": 0,
-      "updated": false,
+      "update_count": 1,
+      "updated": true,
       "coverage_history": [
         {
           "at": "2026-11-28T10:07:23.364455+00:00",
@@ -1279,6 +1175,10 @@
         {
           "at": "2026-11-28T10:15:58.123068+00:00",
           "source_count": 2
+        },
+        {
+          "at": "2026-11-28T11:12:19.448569+00:00",
+          "source_count": 2
         }
       ],
       "context": {
@@ -1286,8 +1186,63 @@
         "coverage_from": null,
         "search_query": "united fidelity bank",
         "search_days": 730,
-        "searched_days": 30,
+        "searched_days": 180,
         "search_status": "searched"
+      }
+    },
+    {
+      "id": "31ff9a82a481",
+      "title": "Kenyan doomsday cult leader convicted over further 123 deaths",
+      "summary": "Paul Mackenzie is found guilty of killing his followers, weeks after being jailed for the mass murder of children.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fd53/live/e165d810-ea74-11f1-a828-d384c0290f6b.jpg",
+      "category": "World",
+      "importance": "Notable",
+      "background_only": false,
+      "score": 38.1,
+      "published_at": "2026-11-28T09:59:11+00:00",
+      "source_count": 2,
+      "reasons": [
+        "reported fatalities",
+        "2 trusted sources"
+      ],
+      "sources": [
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cmy49de4xx1zo?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-11-27T17:19:31+00:00",
+          "paywalled": false
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/28/28-11-sv-kenya-cult-leader-paul-mackenzie?traffic_source=rss",
+          "published_at": "2026-11-28T09:59:11+00:00",
+          "paywalled": false
+        }
+      ],
+      "lead_url": "https://www.bbc.co.uk/news/articles/cmy49de4xx1zo?at_medium=RSS&at_campaign=rss",
+      "first_reported_at": "2026-11-28T09:59:11+00:00",
+      "update_count": 0,
+      "updated": false,
+      "coverage_history": [
+        {
+          "at": "2026-11-28T11:12:19.448569+00:00",
+          "source_count": 2
+        }
+      ],
+      "context": {
+        "earlier_reporting": [
+          {
+            "title": "Leader of Kenyan doomsday cult sentenced to 200 years in prison",
+            "source": "AP News",
+            "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOdUw2eEJsbFByTGFvckM5bXBFbHBVOTZZQ1FFTFdtdjJLSXJlU21jNGRGWXZwV2M3WGFLNVZ4a1ZVZDZPRGgtTzU1OVVrdVg2Z2V2TklKTjRzbkRmUXMwd0c0YTlwUDFfWC1EWnFsekxxYUJ0NWhHQ3hUU0swOUpXOUViZGpHV3FuM2N6Wi1WUkotUQ?oc=5",
+            "published_at": "2026-11-07T08:00:00+00:00"
+          }
+        ],
+        "coverage_from": "2026-11-07T08:00:00+00:00",
+        "search_query": "kenyan doomsday cult",
+        "search_days": 730,
+        "searched_days": 30,
+        "search_status": "matched"
       }
     }
   ],
@@ -1318,22 +1273,16 @@
       "published_at": "2026-11-06T08:00:00+00:00"
     },
     {
-      "title": "Pakistani astronaut to join China’s next space station mission",
+      "title": "Pakistani astronaut launches into space aboard Chinese rocket",
       "source": "Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOQTRRRXdXNmphejg5d3hubWpfNVZ2Skp0XzNQamJZRE1hN202Y3czZ3JyZWRPalJDaks3VlNvMy10NERJa1YxRDVUUVVxempZRk1oTjBPMVQwdm5UMW52VEJyMFRvSDNBTFI5Q2hQY3RBOWpacnA5eFFicGNYWXZpdXhFUmRKYnlwZ0VaYlNBUFd6Mm16M2hkTW5zd3lLQXYxaXIzQ9IBqgFBVV95cUxQSXZKQ0VIZHBaejV4UGp5Zy04MmJ0Njd2ejNJTkpZOThpX3VZT2huRHY4YzJsNUJyd0pwdnIxQ0xiQ0lDWnd6MmYzQU9CRTZPRTc2bjY0d081NkcwelZBVWhKeDlsV3Z4Q2NXODhMZkVCME5QUHE4YS1oRzRfeDZTaDdaQmdnb09EVjJEM212MEdwclBnaFhtZWttbXd0OUhHTFZ1SGtycXZPUQ?oc=5",
-      "published_at": "2026-11-07T08:00:00+00:00"
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNVWdUSGN0dUpVbVFWRXZwVUJ6akp5Sm5SNFVwbzRHYmJ5RkprMDRDVDFxdXFQTUdCc0VrUWo1QmV2QWFOVmZFVHQ4N1JWQWJRZnY5UUgwUkJjaHlzWEY2ZGt5dVd3R3RqMEh4TWZCTzNhUGx4bDZMeTNITHZfbFZBQWZ5enZoRU5aZEZJbWEyOU93YjZVcm94VE9PT1JqY19WY1daeXVMMkRheVlkUkJrSmkxNNIBuAFBVV95cUxQTVJFWXhCeC0tQ0U1ZDhyTFg0eDFDYzVOZVBtNUx4MnNIVkdtN1YxdDhWbGZtYkhNV0hHWU9vN2J5NEJ0aGdrekxVdy1Ba0FnakJPMEt0ZEtkS1BDRmQ0S2F2Z3dlRXVHWXNONkJRQnZELUdZREVjdXRWa3VZbFl3enVhSUtGY2dTckw2QV9GZUxsZ1RCWnNRNzhpNXYxd2dqVGFSZnpuZkdaNDY2VmhoaEFYVHhycWpF?oc=5",
+      "published_at": "2026-11-25T02:45:57+00:00"
     },
     {
-      "title": "Pakistani pilot to become first foreigner to fly to China's space station",
+      "title": "China launches Shenzhou-24 with Pakistani as first foreign astronaut",
       "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNTjlOOEE2ZGVBYmJLbmlvRXdLTzF4UjNOVXFoY0J6c29vSDF1cDZBTk02QTFDWlRwbk9ESThyeGI0dzdKUFhhMmRyb0ZmVWlsLXlUR2ZNTHJjckdybTRlMTRYOWNwcDhSV2duaTI4ZXB5dFlCNlBTSnlCYTNQN25ZdThTS3NHVUtlZ1NIQ2Z1cWZLLTgzQ3VocjZNcFRBMmJQZjZ0dFZ1UXRCcU0?oc=5",
-      "published_at": "2026-11-24T02:49:00+00:00"
-    },
-    {
-      "title": "China unveils new space mission crew, with a Pakistani astronaut set to board its space station",
-      "source": "AP News",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPTno4Y1I0UnZqSU1JaG15VG5qTm1HNjhQbUpab2ZIbDQ4YTY1YTdxMkxWenVxOUFOMWhXQUlTT1NIVGZYUGJrRUdkXzdxLXZEMzFmLVlxelhRRXlWbFVQQ1JuVTlBZDhjS09RS1JuTUs1Q3RrWTRHTzBOUFNEQmZha0FXNndUY25NY2ozbTlqSEc0TFVUSUFJ?oc=5",
-      "published_at": "2026-11-24T13:47:00+00:00"
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0yMlVqQWJYTUozUzd4SkJZcFhHOWx5TEN4RnJKLVFXbG9UN3N1TVJVVkZUVEJoUXUxTmxyR3B2dXNtWWhwT20tUDJtWHV4YVlrOElPYldiOER0NDNRYkVCYjRYeVRhcFU?oc=5",
+      "published_at": "2026-11-25T06:15:20+00:00"
     },
     {
       "title": "What to Know About Taiwan’s Local Elections and Why China Is Watching",
@@ -1360,22 +1309,34 @@
       "published_at": "2026-11-26T16:00:00+00:00"
     },
     {
+      "title": "Leader of Kenyan doomsday cult sentenced to 200 years in prison",
+      "source": "AP News",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOdUw2eEJsbFByTGFvckM5bXBFbHBVOTZZQ1FFTFdtdjJLSXJlU21jNGRGWXZwV2M3WGFLNVZ4a1ZVZDZPRGgtTzU1OVVrdVg2Z2V2TklKTjRzbkRmUXMwd0c0YTlwUDFfWC1EWnFsekxxYUJ0NWhHQ3hUU0swOUpXOUViZGpHV3FuM2N6Wi1WUkotUQ?oc=5",
+      "published_at": "2026-11-07T08:00:00+00:00"
+    },
+    {
+      "title": "Taiwan awaits local election results as China watches",
+      "source": "AP News",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNSEJHN0tUWVBOd3BrNkpaTm1EaHlTeXp1aDZBZnJ1aUdEbkNVUUJJTXdJbFNXVHhLUWJwNUpRV3lUdEZTUl9Kbi1LWkhlWjBmRUdVRlNQQTVOb3JhWW5sb0pVUklXNXlndFJ2VXRNZnF1WENxMXJjTGN3RHJ4d0FreGRZdzN0ZWQ4WVE?oc=5",
+      "published_at": "2026-11-28T10:15:00+00:00"
+    },
+    {
       "title": "An explosion at a school in eastern Afghanistan kills 7, wounds more than 90",
       "source": "AP News",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOYzQwcm1zRUVmQVB2b3E5X1Q4RHZxbWRGY1ctOFQwZ1otcC11UUJHM2wyZVBhUGhlTTgxYmt1SFc0N0k1aGlnQmxwVUI4S0dXX3NpdzhXYVg2UTdQc3R2bGNrZFJMempoZ3FTZzFhamFPWGt6TDc4NG5BTElMS3JqSmM4OUVlcFBod09hZnIzcVBwdw?oc=5",
       "published_at": "2026-11-28T09:45:00+00:00"
     },
     {
-      "title": "Taiwan holds elections to choose mayors and other local leaders as China looks on",
-      "source": "AP News",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNSEJHN0tUWVBOd3BrNkpaTm1EaHlTeXp1aDZBZnJ1aUdEbkNVUUJJTXdJbFNXVHhLUWJwNUpRV3lUdEZTUl9Kbi1LWkhlWjBmRUdVRlNQQTVOb3JhWW5sb0pVUklXNXlndFJ2VXRNZnF1WENxMXJjTGN3RHJ4d0FreGRZdzN0ZWQ4WVE?oc=5",
-      "published_at": "2026-11-28T06:55:00+00:00"
-    },
-    {
       "title": "El Nino-linked deluges flood cities in Peru, Ecuador",
       "source": "Al Jazeera",
       "url": "https://www.aljazeera.com/news/2026/11/28/el-nino-linked-deluges-flood-cities-in-peru-ecuador?traffic_source=rss",
       "published_at": "2026-11-28T04:57:32+00:00"
+    },
+    {
+      "title": "Eight killed in Peruvian military helicopter crash",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/cwp9d85mlp88o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-28T04:19:16+00:00"
     },
     {
       "title": "United Fidelity Bank shut in biggest US bank failure in 2 years, First Citizens buys assets",
@@ -1852,12 +1813,6 @@
       "published_at": "2026-11-25T07:08:22+00:00"
     },
     {
-      "title": "China launches Shenzhou-24 with Pakistani as first foreign astronaut",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0yMlVqQWJYTUozUzd4SkJZcFhHOWx5TEN4RnJKLVFXbG9UN3N1TVJVVkZUVEJoUXUxTmxyR3B2dXNtWWhwT20tUDJtWHV4YVlrOElPYldiOER0NDNRYkVCYjRYeVRhcFU?oc=5",
-      "published_at": "2026-11-25T06:15:20+00:00"
-    },
-    {
       "title": "China's Shenzhou-24 carries Pakistan's first astronaut into space",
       "source": "BBC",
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA0eDZwOGtQQnBoOXlyLWhIME9fanAwcGZVWjlNMWhGcmRBeWs2czVPNHRyM2NtQk1sekhQNmFLcjU2VFJLT2Nzb3hTM2xuelVqWmZDU1oxY0xhSXM?oc=5",
@@ -1892,12 +1847,6 @@
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNX25GRDZCYm1IVFNncXVSenBCSUFwYTVUbEZYU1JvQktGWTNZa0FsNzl5bXQyazNzeXF1ODl1VXJBa1hYZkdZc0s2dUFPRi1JS3V1SXFnTjQ3M0hRTEtQaE1GaF9lVm9KNUc2amhiYkFudk5WT0M4RXpUMWJNRzVvQzFneHp6TUF5Vng2YWd2UUJFRlBmU2pxc3RidmZ3SlUzLXViTmw4VmhtclBDVUFxSDdhNFlfTTFEcVZyYm5KRkU?oc=5",
       "published_at": "2026-11-25T03:13:00+00:00"
-    },
-    {
-      "title": "Pakistani astronaut launches into space aboard Chinese rocket",
-      "source": "Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNVWdUSGN0dUpVbVFWRXZwVUJ6akp5Sm5SNFVwbzRHYmJ5RkprMDRDVDFxdXFQTUdCc0VrUWo1QmV2QWFOVmZFVHQ4N1JWQWJRZnY5UUgwUkJjaHlzWEY2ZGt5dVd3R3RqMEh4TWZCTzNhUGx4bDZMeTNITHZfbFZBQWZ5enZoRU5aZEZJbWEyOU93YjZVcm94VE9PT1JqY19WY1daeXVMMkRheVlkUkJrSmkxNNIBuAFBVV95cUxQTVJFWXhCeC0tQ0U1ZDhyTFg0eDFDYzVOZVBtNUx4MnNIVkdtN1YxdDhWbGZtYkhNV0hHWU9vN2J5NEJ0aGdrekxVdy1Ba0FnakJPMEt0ZEtkS1BDRmQ0S2F2Z3dlRXVHWXNONkJRQnZELUdZREVjdXRWa3VZbFl3enVhSUtGY2dTckw2QV9GZUxsZ1RCWnNRNzhpNXYxd2dqVGFSZnpuZkdaNDY2VmhoaEFYVHhycWpF?oc=5",
-      "published_at": "2026-11-25T02:45:57+00:00"
     },
     {
       "title": "King tides could break decades-old records and flood communities on both coasts on Thanksgiving week",
@@ -2020,6 +1969,12 @@
       "published_at": "2026-11-24T14:30:21+00:00"
     },
     {
+      "title": "China unveils new space mission crew, with a Pakistani astronaut set to board its space station",
+      "source": "AP News",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPTno4Y1I0UnZqSU1JaG15VG5qTm1HNjhQbUpab2ZIbDQ4YTY1YTdxMkxWenVxOUFOMWhXQUlTT1NIVGZYUGJrRUdkXzdxLXZEMzFmLVlxelhRRXlWbFVQQ1JuVTlBZDhjS09RS1JuTUs1Q3RrWTRHTzBOUFNEQmZha0FXNndUY25NY2ozbTlqSEc0TFVUSUFJ?oc=5",
+      "published_at": "2026-11-24T13:47:00+00:00"
+    },
+    {
       "title": "Heat deaths reach record high in UK in 2026",
       "source": "Al Jazeera",
       "url": "https://www.aljazeera.com/news/2026/11/24/heat-deaths-reach-record-high-in-uk-in-2026?traffic_source=rss",
@@ -2078,6 +2033,12 @@
       "source": "AP News",
       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPbEdETmxDZ2pxSlU0VUFEWktyS2ZfTU5EZ3pKNlVqOW95dFRPTTRFWC15RFdiTF9OT2xDaVBsTHliQURsUlluM0U3QVp3N3EyY08xRGwzQjNBQk4xeW8xNzdkbU1fc04zbEFCM2w4azBoeC1jTUNISHpUbWVTMU9VT29XbkZyUGc?oc=5",
       "published_at": "2026-11-24T06:29:06+00:00"
+    },
+    {
+      "title": "Pakistani pilot to become first foreigner to fly to China's space station",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNTjlOOEE2ZGVBYmJLbmlvRXdLTzF4UjNOVXFoY0J6c29vSDF1cDZBTk02QTFDWlRwbk9ESThyeGI0dzdKUFhhMmRyb0ZmVWlsLXlUR2ZNTHJjckdybTRlMTRYOWNwcDhSV2duaTI4ZXB5dFlCNlBTSnlCYTNQN25ZdThTS3NHVUtlZ1NIQ2Z1cWZLLTgzQ3VocjZNcFRBMmJQZjZ0dFZ1UXRCcU0?oc=5",
+      "published_at": "2026-11-24T02:49:00+00:00"
     },
     {
       "title": "Anthropic falls below IPO price as tech rally fades",
@@ -2284,9 +2245,9 @@
       "published_at": "2026-11-09T08:00:00+00:00"
     },
     {
-      "title": "Leader of Kenyan doomsday cult sentenced to 200 years in prison",
-      "source": "AP News",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOdUw2eEJsbFByTGFvckM5bXBFbHBVOTZZQ1FFTFdtdjJLSXJlU21jNGRGWXZwV2M3WGFLNVZ4a1ZVZDZPRGgtTzU1OVVrdVg2Z2V2TklKTjRzbkRmUXMwd0c0YTlwUDFfWC1EWnFsekxxYUJ0NWhHQ3hUU0swOUpXOUViZGpHV3FuM2N6Wi1WUkotUQ?oc=5",
+      "title": "Pakistani astronaut to join China’s next space station mission",
+      "source": "Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOQTRRRXdXNmphejg5d3hubWpfNVZ2Skp0XzNQamJZRE1hN202Y3czZ3JyZWRPalJDaks3VlNvMy10NERJa1YxRDVUUVVxempZRk1oTjBPMVQwdm5UMW52VEJyMFRvSDNBTFI5Q2hQY3RBOWpacnA5eFFicGNYWXZpdXhFUmRKYnlwZ0VaYlNBUFd6Mm16M2hkTW5zd3lLQXYxaXIzQ9IBqgFBVV95cUxQSXZKQ0VIZHBaejV4UGp5Zy04MmJ0Njd2ejNJTkpZOThpX3VZT2huRHY4YzJsNUJyd0pwdnIxQ0xiQ0lDWnd6MmYzQU9CRTZPRTc2bjY0d081NkcwelZBVWhKeDlsV3Z4Q2NXODhMZkVCME5QUHE4YS1oRzRfeDZTaDdaQmdnb09EVjJEM212MEdwclBnaFhtZWttbXd0OUhHTFZ1SGtycXZPUQ?oc=5",
       "published_at": "2026-11-07T08:00:00+00:00"
     },
     {
@@ -2378,20 +2339,74 @@
     "36b3cc28dbe7": {
       "version": 4,
       "query": "egypt cairo fire",
-      "at": "2026-11-28T10:07:23.364455+00:00",
+      "at": "2026-11-28T11:12:19.448569+00:00",
+      "stage": 3,
+      "matched": false,
+      "exhausted": false,
+      "searched_days": 365
+    },
+    "bbfc20f71a9f": {
+      "version": 4,
+      "query": "peruvian military crash",
+      "at": "2026-11-28T11:12:19.448569+00:00",
+      "stage": 3,
+      "matched": false,
+      "exhausted": true,
+      "searched_days": 730
+    },
+    "a99a6136dc7b": {
+      "version": 4,
+      "query": "afghanistan explosion school",
+      "at": "2026-11-28T11:12:19.448569+00:00",
       "stage": 2,
       "matched": false,
       "exhausted": false,
       "searched_days": 180
     },
-    "bbfc20f71a9f": {
+    "9bf1cb835595": {
       "version": 4,
-      "query": "peruvian military crash",
-      "at": "2026-11-28T10:07:23.364455+00:00",
-      "stage": 3,
+      "query": "united fidelity bank",
+      "at": "2026-11-28T11:12:19.448569+00:00",
+      "stage": 2,
       "matched": false,
       "exhausted": false,
-      "searched_days": 365
+      "searched_days": 180
+    },
+    "868aaefcb642": {
+      "version": 4,
+      "query": "apple minimax ai safety",
+      "at": "2026-11-28T11:12:19.448569+00:00",
+      "stage": 3,
+      "matched": false,
+      "exhausted": true,
+      "searched_days": 730
+    },
+    "aba270237d9a": {
+      "version": 4,
+      "query": "serbia dec election",
+      "at": "2026-11-28T11:12:19.448569+00:00",
+      "stage": 3,
+      "matched": false,
+      "exhausted": true,
+      "searched_days": 730
+    },
+    "a398c5860350": {
+      "version": 4,
+      "query": "pakistan astronaut urges",
+      "at": "2026-11-28T11:12:19.448569+00:00",
+      "stage": 1,
+      "matched": false,
+      "exhausted": false,
+      "searched_days": 30
+    },
+    "31ff9a82a481": {
+      "version": 4,
+      "query": "kenyan doomsday cult",
+      "at": "2026-11-28T11:12:19.448569+00:00",
+      "stage": 1,
+      "matched": false,
+      "exhausted": false,
+      "searched_days": 30
     },
     "6a5b99df6e88": {
       "version": 4,
@@ -2410,24 +2425,6 @@
       "matched": false,
       "exhausted": true,
       "searched_days": 730
-    },
-    "a99a6136dc7b": {
-      "version": 4,
-      "query": "afghanistan explosion school",
-      "at": "2026-11-28T10:07:23.364455+00:00",
-      "stage": 1,
-      "matched": false,
-      "exhausted": false,
-      "searched_days": 30
-    },
-    "9bf1cb835595": {
-      "version": 4,
-      "query": "united fidelity bank",
-      "at": "2026-11-28T10:07:23.364455+00:00",
-      "stage": 1,
-      "matched": false,
-      "exhausted": false,
-      "searched_days": 30
     },
     "e8fc703426d0": {
       "version": 4,
@@ -2807,15 +2804,6 @@
       "exhausted": true,
       "searched_days": 730
     },
-    "868aaefcb642": {
-      "version": 4,
-      "query": "apple minimax ai safety",
-      "at": "2026-11-27T10:52:06.088617+00:00",
-      "stage": 3,
-      "matched": false,
-      "exhausted": true,
-      "searched_days": 730
-    },
     "f381af59dc09": {
       "version": 4,
       "query": "ebola congo outbreak",
@@ -2959,15 +2947,6 @@
       "matched": true,
       "exhausted": false,
       "searched_days": 180
-    },
-    "aba270237d9a": {
-      "version": 4,
-      "query": "serbia dec election",
-      "at": "2026-11-26T19:22:04.575591+00:00",
-      "stage": 3,
-      "matched": false,
-      "exhausted": true,
-      "searched_days": 730
     },
     "b7ecedbc410c": {
       "version": 4,
